@@ -35,7 +35,7 @@ Use these features to learn how the game works!
 	* Entity - enemies, interactable 3D things, boss logic
 	* global - Managing dialogue, helper functios, input management, global state management, save files
 	* NPC - Stuff related to running events.
-		* DialogueAno2 - this is the confusingly-named event engine for the game (this is what runs cutscenes). E.g. if you open CCC.unity and search "PrismDiveTrigger" you'll see the event script for that cutscene. This is a pretty complex but vital script to the game
+		* DialogueAno2 - this is the confusingly-named event engine for the game (this is what runs cutscenes). E.g. if you open CCC.unity and search "PrismDiveTrigger" you'll see the event script for that cutscene. DialogueAno2 is a pretty complex but vital script to the game which runs most of the cutscenes by moving objects, changing the camera, and playing dialogue and more.
 		* NPCHelper - one-offs for npc logic in various 2d levels
 		* NPCHelper3D - same as above but uh.. only for the drumbird?
 	* One-offs - credits, the bad ending logic?
