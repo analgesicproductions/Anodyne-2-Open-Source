@@ -5,7 +5,7 @@ First I'll go over Basic Tips, then I'll go over the basics of 3D/2D scenes.
 # Bad Practices
 * There's some coding/organizational practices to Anodyne 2 I wouldn't endorse now. Of these, the two that stick out most are
 
-1. Using prefab instances for common objects like the player, UI, etc instead of having a separate, additively loaded scenes
+1. Using prefab instances for common objects like the player, UI, etc instead of having a separate, additively loaded scenes which contain this data
 2. Cutscenes being scripted *in the inspector window LOL* of the DialogueAno2 scripts, instead of being written in an external code editor, or event editing tool
 
 Everything else is OK. Some stuff like the pause menu, the player controller, etc, could have been better organized across multiple partial C# files. The Dialogue Box is overly complicated, as is the implementation of localization which I think is easier with having text objects for every language rather than adjusting their properties through scripts. I don't think the way the vacuuming logic works was done particularly well.
