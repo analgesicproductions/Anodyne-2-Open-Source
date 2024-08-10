@@ -6,6 +6,8 @@ This is only tested on Windows 10, but Unity is pretty good about cross-platform
 2. [Install Unity 2017.4.31f1 (64-bit). ](https://unity.com/releases/editor/archive). I don't see any reason why Anodyne 2 wouldn't work in a newer Unity version or Mac OSX, but just FYI it's only ever been tested in this version.
 3. Optionally, purchase and download ReWired if you want to re-integrate controller support
 4. That's it. Wow! Actually you have to wait for unity to import all these files the first time you open the project, which takes a long time.
+5. After waiting for a long time, if you'd like to just play the game, open the "Title" scene and then enter Play Mode.
+6. Note that this version of the game uses a different save file location, although it'll still be under Analgesic Productions LLC
 
 # Exporting the Game as a standalone EXE
 1. This is only necessary if you want to export your own versions, mods, etc.
