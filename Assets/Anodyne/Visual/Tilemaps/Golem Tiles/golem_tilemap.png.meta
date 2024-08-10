@@ -1,0 +1,4324 @@
+fileFormatVersion: 2
+guid: c5a3178258b19c84f8181b02a839fb42
+timeCreated: 1554406815
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: golem_tilemap_0
+    21300002: golem_tilemap_1
+    21300004: golem_tilemap_2
+    21300006: golem_tilemap_3
+    21300008: golem_tilemap_4
+    21300010: golem_tilemap_5
+    21300012: golem_tilemap_6
+    21300014: golem_tilemap_7
+    21300016: golem_tilemap_8
+    21300018: golem_tilemap_9
+    21300020: golem_tilemap_10
+    21300022: golem_tilemap_11
+    21300024: golem_tilemap_12
+    21300026: golem_tilemap_13
+    21300028: golem_tilemap_14
+    21300030: golem_tilemap_15
+    21300032: golem_tilemap_16
+    21300034: golem_tilemap_17
+    21300036: golem_tilemap_18
+    21300038: golem_tilemap_19
+    21300040: golem_tilemap_20
+    21300042: golem_tilemap_21
+    21300044: golem_tilemap_22
+    21300046: golem_tilemap_23
+    21300048: golem_tilemap_24
+    21300050: golem_tilemap_25
+    21300052: golem_tilemap_26
+    21300054: golem_tilemap_27
+    21300056: golem_tilemap_28
+    21300058: golem_tilemap_29
+    21300060: golem_tilemap_30
+    21300062: golem_tilemap_31
+    21300064: golem_tilemap_32
+    21300066: golem_tilemap_33
+    21300068: golem_tilemap_34
+    21300070: golem_tilemap_35
+    21300072: golem_tilemap_36
+    21300074: golem_tilemap_37
+    21300076: golem_tilemap_38
+    21300078: golem_tilemap_39
+    21300080: golem_tilemap_40
+    21300082: golem_tilemap_41
+    21300084: golem_tilemap_42
+    21300086: golem_tilemap_43
+    21300088: golem_tilemap_44
+    21300090: golem_tilemap_45
+    21300092: golem_tilemap_46
+    21300094: golem_tilemap_47
+    21300096: golem_tilemap_48
+    21300098: golem_tilemap_49
+    21300100: golem_tilemap_50
+    21300102: golem_tilemap_51
+    21300104: golem_tilemap_52
+    21300106: golem_tilemap_53
+    21300108: golem_tilemap_54
+    21300110: golem_tilemap_55
+    21300112: golem_tilemap_56
+    21300114: golem_tilemap_57
+    21300116: golem_tilemap_58
+    21300118: golem_tilemap_59
+    21300120: golem_tilemap_60
+    21300122: golem_tilemap_61
+    21300124: golem_tilemap_62
+    21300126: golem_tilemap_63
+    21300128: golem_tilemap_64
+    21300130: golem_tilemap_65
+    21300132: golem_tilemap_66
+    21300134: golem_tilemap_67
+    21300136: golem_tilemap_68
+    21300138: golem_tilemap_69
+    21300140: golem_tilemap_70
+    21300142: golem_tilemap_71
+    21300144: golem_tilemap_72
+    21300146: golem_tilemap_73
+    21300148: golem_tilemap_74
+    21300150: golem_tilemap_75
+    21300152: golem_tilemap_76
+    21300154: golem_tilemap_77
+    21300156: golem_tilemap_78
+    21300158: golem_tilemap_79
+    21300160: golem_tilemap_80
+    21300162: golem_tilemap_81
+    21300164: golem_tilemap_82
+    21300166: golem_tilemap_83
+    21300168: golem_tilemap_84
+    21300170: golem_tilemap_85
+    21300172: golem_tilemap_86
+    21300174: golem_tilemap_87
+    21300176: golem_tilemap_88
+    21300178: golem_tilemap_89
+    21300180: golem_tilemap_90
+    21300182: golem_tilemap_91
+    21300184: golem_tilemap_92
+    21300186: golem_tilemap_93
+    21300188: golem_tilemap_94
+    21300190: golem_tilemap_95
+    21300192: golem_tilemap_96
+    21300194: golem_tilemap_97
+    21300196: golem_tilemap_98
+    21300198: golem_tilemap_99
+    21300200: golem_tilemap_100
+    21300202: golem_tilemap_101
+    21300204: golem_tilemap_102
+    21300206: golem_tilemap_103
+    21300208: golem_tilemap_104
+    21300210: golem_tilemap_105
+    21300212: golem_tilemap_106
+    21300214: golem_tilemap_107
+    21300216: golem_tilemap_108
+    21300218: golem_tilemap_109
+    21300220: golem_tilemap_110
+    21300222: golem_tilemap_111
+    21300224: golem_tilemap_112
+    21300226: golem_tilemap_113
+    21300228: golem_tilemap_114
+    21300230: golem_tilemap_115
+    21300232: golem_tilemap_116
+    21300234: golem_tilemap_117
+    21300236: golem_tilemap_118
+    21300238: golem_tilemap_119
+    21300240: golem_tilemap_120
+    21300242: golem_tilemap_121
+    21300244: golem_tilemap_122
+    21300246: golem_tilemap_123
+    21300248: golem_tilemap_124
+    21300250: golem_tilemap_125
+    21300252: golem_tilemap_126
+    21300254: golem_tilemap_127
+    21300256: golem_tilemap_128
+    21300258: golem_tilemap_129
+    21300260: golem_tilemap_130
+    21300262: golem_tilemap_131
+    21300264: golem_tilemap_132
+    21300266: golem_tilemap_133
+    21300268: golem_tilemap_134
+    21300270: golem_tilemap_135
+    21300272: golem_tilemap_136
+    21300274: golem_tilemap_137
+    21300276: golem_tilemap_138
+    21300278: golem_tilemap_139
+    21300280: golem_tilemap_140
+    21300282: golem_tilemap_141
+    21300284: golem_tilemap_142
+    21300286: golem_tilemap_143
+    21300288: golem_tilemap_144
+    21300290: golem_tilemap_145
+    21300292: golem_tilemap_146
+    21300294: golem_tilemap_147
+    21300296: golem_tilemap_148
+    21300298: golem_tilemap_149
+    21300300: golem_tilemap_150
+    21300302: golem_tilemap_151
+    21300304: golem_tilemap_152
+    21300306: golem_tilemap_153
+    21300308: golem_tilemap_154
+    21300310: golem_tilemap_155
+    21300312: golem_tilemap_156
+    21300314: golem_tilemap_157
+    21300316: golem_tilemap_158
+    21300318: golem_tilemap_159
+    21300320: golem_tilemap_160
+    21300322: golem_tilemap_161
+    21300324: golem_tilemap_162
+    21300326: golem_tilemap_163
+    21300328: golem_tilemap_164
+    21300330: golem_tilemap_165
+    21300332: golem_tilemap_166
+    21300334: golem_tilemap_167
+    21300336: golem_tilemap_168
+    21300338: golem_tilemap_169
+    21300340: golem_tilemap_170
+    21300342: golem_tilemap_171
+    21300344: golem_tilemap_172
+    21300346: golem_tilemap_173
+    21300348: golem_tilemap_174
+    21300350: golem_tilemap_175
+    21300352: golem_tilemap_176
+    21300354: golem_tilemap_177
+    21300356: golem_tilemap_178
+    21300358: golem_tilemap_179
+    21300360: golem_tilemap_180
+    21300362: golem_tilemap_181
+    21300364: golem_tilemap_182
+    21300366: golem_tilemap_183
+    21300368: golem_tilemap_184
+    21300370: golem_tilemap_185
+    21300372: golem_tilemap_186
+    21300374: golem_tilemap_187
+    21300376: golem_tilemap_188
+    21300378: golem_tilemap_189
+    21300380: golem_tilemap_190
+    21300382: golem_tilemap_191
+    21300384: golem_tilemap_192
+    21300386: golem_tilemap_193
+    21300388: golem_tilemap_194
+    21300390: golem_tilemap_195
+    21300392: golem_tilemap_196
+    21300394: golem_tilemap_197
+    21300396: golem_tilemap_198
+    21300398: golem_tilemap_199
+    21300400: golem_tilemap_200
+    21300402: golem_tilemap_201
+    21300404: golem_tilemap_202
+    21300406: golem_tilemap_203
+    21300408: golem_tilemap_204
+    21300410: golem_tilemap_205
+    21300412: golem_tilemap_206
+    21300414: golem_tilemap_207
+    21300416: golem_tilemap_208
+    21300418: golem_tilemap_209
+    21300420: golem_tilemap_210
+    21300422: golem_tilemap_211
+    21300424: golem_tilemap_212
+    21300426: golem_tilemap_213
+    21300428: golem_tilemap_214
+    21300430: golem_tilemap_215
+    21300432: golem_tilemap_216
+    21300434: golem_tilemap_217
+    21300436: golem_tilemap_218
+    21300438: golem_tilemap_219
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golem_tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: -3, y: 4}
+        - {x: -4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -4, y: 2}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 2}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 0}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -4, y: 1}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 2}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -4, y: 3}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 4}
+        - {x: -4, y: 1}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -3, y: 1}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_31
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: 2}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_37
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_38
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_43
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_47
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -3, y: -1}
+        - {x: -1, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_49
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_50
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_53
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 1, y: -4}
+        - {x: 2, y: -3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_54
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_55
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 0, y: -4}
+        - {x: 3, y: 1}
+        - {x: 3, y: 3}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_56
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_58
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_61
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_63
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_64
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_65
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_66
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_67
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_69
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: 1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 4, y: 0}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_70
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: 0}
+        - {x: 0, y: -3}
+        - {x: 2, y: -3}
+        - {x: 4, y: -1}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_71
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -1}
+        - {x: 0, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_72
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_73
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_74
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -3, y: -2}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_75
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -4}
+        - {x: 1, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_76
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: -2, y: 1}
+        - {x: -2, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_78
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_79
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 0, y: -4}
+        - {x: 2, y: -1}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_82
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_83
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_84
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_85
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_86
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -1}
+        - {x: -1, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_87
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 1, y: -4}
+        - {x: 4, y: -1}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_89
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_90
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -4, y: 3}
+        - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_92
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_93
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_94
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_95
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_96
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_97
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_98
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_99
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: 0}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_101
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_103
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_104
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_105
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_106
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_107
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_108
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_110
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -4, y: 2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_111
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_112
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_113
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_114
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_115
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_116
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_117
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_118
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_119
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_121
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_122
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_123
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_124
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_125
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_126
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_127
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_128
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_129
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_130
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_131
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: 3}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_132
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_133
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_134
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_135
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_136
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_137
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_138
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_139
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_141
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_142
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_143
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_144
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_145
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_146
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -1}
+        - {x: -2, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_147
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_148
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_149
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_150
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_151
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 2, y: -4}
+        - {x: 3, y: 1}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_152
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: -3}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 3}
+        - {x: 3, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_153
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -4, y: 3}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_154
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 2}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_155
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -3}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_156
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_157
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_158
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_159
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_161
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_162
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_163
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_164
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_165
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_166
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_167
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -3}
+        - {x: -2, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_168
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_169
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -2}
+        - {x: -3, y: -2}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_170
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_171
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_172
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_173
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_174
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_175
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -4}
+        - {x: 4, y: -2}
+        - {x: 2, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_176
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_177
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_178
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_179
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_181
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_182
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -1}
+        - {x: -2, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_183
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_184
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_185
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_186
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_187
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 4}
+        - {x: 1, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_188
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_189
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 1}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_190
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_191
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_192
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_193
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_194
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_195
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_196
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_197
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_198
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 4}
+        - {x: -4, y: 1}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_199
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 1}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_201
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_202
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_203
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -3}
+        - {x: -2, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_204
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_205
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -2}
+        - {x: -3, y: -2}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_206
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_207
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_208
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -2}
+        - {x: -1, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 2}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_209
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -4, y: 2}
+        - {x: -4, y: -4}
+        - {x: -1, y: -4}
+        - {x: 4, y: 0}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_210
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_211
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_212
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_213
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_214
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_215
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_216
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_217
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_218
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem_tilemap_219
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

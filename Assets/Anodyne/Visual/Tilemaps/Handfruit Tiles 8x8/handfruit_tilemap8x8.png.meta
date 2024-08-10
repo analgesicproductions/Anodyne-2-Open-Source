@@ -1,0 +1,2487 @@
+fileFormatVersion: 2
+guid: 4e3dc91692e2e0c4ab063ea82d4ea8f1
+timeCreated: 1545160909
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: handfruit_tilemap8x8_0
+    21300002: handfruit_tilemap8x8_1
+    21300004: handfruit_tilemap8x8_2
+    21300006: handfruit_tilemap8x8_3
+    21300008: handfruit_tilemap8x8_4
+    21300010: handfruit_tilemap8x8_5
+    21300012: handfruit_tilemap8x8_6
+    21300014: handfruit_tilemap8x8_7
+    21300016: handfruit_tilemap8x8_8
+    21300018: handfruit_tilemap8x8_9
+    21300020: handfruit_tilemap8x8_10
+    21300022: handfruit_tilemap8x8_11
+    21300024: handfruit_tilemap8x8_12
+    21300026: handfruit_tilemap8x8_13
+    21300028: handfruit_tilemap8x8_14
+    21300030: handfruit_tilemap8x8_15
+    21300032: handfruit_tilemap8x8_16
+    21300034: handfruit_tilemap8x8_17
+    21300036: handfruit_tilemap8x8_18
+    21300038: handfruit_tilemap8x8_19
+    21300040: handfruit_tilemap8x8_20
+    21300042: handfruit_tilemap8x8_21
+    21300044: handfruit_tilemap8x8_22
+    21300046: handfruit_tilemap8x8_23
+    21300048: handfruit_tilemap8x8_24
+    21300050: handfruit_tilemap8x8_25
+    21300052: handfruit_tilemap8x8_26
+    21300054: handfruit_tilemap8x8_27
+    21300056: handfruit_tilemap8x8_28
+    21300058: handfruit_tilemap8x8_29
+    21300060: handfruit_tilemap8x8_30
+    21300062: handfruit_tilemap8x8_31
+    21300064: handfruit_tilemap8x8_32
+    21300066: handfruit_tilemap8x8_33
+    21300068: handfruit_tilemap8x8_34
+    21300070: handfruit_tilemap8x8_35
+    21300072: handfruit_tilemap8x8_36
+    21300074: handfruit_tilemap8x8_37
+    21300076: handfruit_tilemap8x8_38
+    21300078: handfruit_tilemap8x8_39
+    21300080: handfruit_tilemap8x8_40
+    21300082: handfruit_tilemap8x8_41
+    21300084: handfruit_tilemap8x8_42
+    21300086: handfruit_tilemap8x8_43
+    21300088: handfruit_tilemap8x8_44
+    21300090: handfruit_tilemap8x8_45
+    21300092: handfruit_tilemap8x8_46
+    21300094: handfruit_tilemap8x8_47
+    21300096: handfruit_tilemap8x8_48
+    21300098: handfruit_tilemap8x8_49
+    21300100: handfruit_tilemap8x8_50
+    21300102: handfruit_tilemap8x8_51
+    21300104: handfruit_tilemap8x8_52
+    21300106: handfruit_tilemap8x8_53
+    21300108: handfruit_tilemap8x8_54
+    21300110: handfruit_tilemap8x8_55
+    21300112: handfruit_tilemap8x8_56
+    21300114: handfruit_tilemap8x8_57
+    21300116: handfruit_tilemap8x8_58
+    21300118: handfruit_tilemap8x8_59
+    21300120: handfruit_tilemap8x8_60
+    21300122: handfruit_tilemap8x8_61
+    21300124: handfruit_tilemap8x8_62
+    21300126: handfruit_tilemap8x8_63
+    21300128: handfruit_tilemap8x8_64
+    21300130: handfruit_tilemap8x8_65
+    21300132: handfruit_tilemap8x8_66
+    21300134: handfruit_tilemap8x8_67
+    21300136: handfruit_tilemap8x8_68
+    21300138: handfruit_tilemap8x8_69
+    21300140: handfruit_tilemap8x8_70
+    21300142: handfruit_tilemap8x8_71
+    21300144: handfruit_tilemap8x8_72
+    21300146: handfruit_tilemap8x8_73
+    21300148: handfruit_tilemap8x8_74
+    21300150: handfruit_tilemap8x8_75
+    21300152: handfruit_tilemap8x8_76
+    21300154: handfruit_tilemap8x8_77
+    21300156: handfruit_tilemap8x8_78
+    21300158: handfruit_tilemap8x8_79
+    21300160: handfruit_tilemap8x8_80
+    21300162: handfruit_tilemap8x8_81
+    21300164: handfruit_tilemap8x8_82
+    21300166: handfruit_tilemap8x8_83
+    21300168: handfruit_tilemap8x8_84
+    21300170: handfruit_tilemap8x8_85
+    21300172: handfruit_tilemap8x8_86
+    21300174: handfruit_tilemap8x8_87
+    21300176: handfruit_tilemap8x8_88
+    21300178: handfruit_tilemap8x8_89
+    21300180: handfruit_tilemap8x8_90
+    21300182: handfruit_tilemap8x8_91
+    21300184: handfruit_tilemap8x8_92
+    21300186: handfruit_tilemap8x8_93
+    21300188: handfruit_tilemap8x8_94
+    21300190: handfruit_tilemap8x8_95
+    21300192: handfruit_tilemap8x8_96
+    21300194: handfruit_tilemap8x8_97
+    21300196: handfruit_tilemap8x8_98
+    21300198: handfruit_tilemap8x8_99
+    21300200: handfruit_tilemap8x8_100
+    21300202: handfruit_tilemap8x8_101
+    21300204: handfruit_tilemap8x8_102
+    21300206: handfruit_tilemap8x8_103
+    21300208: handfruit_tilemap8x8_104
+    21300210: handfruit_tilemap8x8_105
+    21300212: handfruit_tilemap8x8_106
+    21300214: handfruit_tilemap8x8_107
+    21300216: handfruit_tilemap8x8_108
+    21300218: handfruit_tilemap8x8_109
+    21300220: handfruit_tilemap8x8_110
+    21300222: handfruit_tilemap8x8_111
+    21300224: handfruit_tilemap8x8_112
+    21300226: handfruit_tilemap8x8_113
+    21300228: handfruit_tilemap8x8_114
+    21300230: handfruit_tilemap8x8_115
+    21300232: handfruit_tilemap8x8_116
+    21300234: handfruit_tilemap8x8_117
+    21300236: handfruit_tilemap8x8_118
+    21300238: handfruit_tilemap8x8_119
+    21300240: handfruit_tilemap8x8_120
+    21300242: handfruit_tilemap8x8_121
+    21300244: handfruit_tilemap8x8_122
+    21300246: handfruit_tilemap8x8_123
+    21300248: handfruit_tilemap8x8_124
+    21300250: handfruit_tilemap8x8_125
+    21300252: handfruit_tilemap8x8_126
+    21300254: handfruit_tilemap8x8_127
+    21300256: handfruit_tilemap8x8_128
+    21300258: handfruit_tilemap8x8_129
+    21300260: handfruit_tilemap8x8_130
+    21300262: handfruit_tilemap8x8_131
+    21300264: handfruit_tilemap8x8_132
+    21300266: handfruit_tilemap8x8_133
+    21300268: handfruit_tilemap8x8_134
+    21300270: handfruit_tilemap8x8_135
+    21300272: handfruit_tilemap8x8_136
+    21300274: handfruit_tilemap8x8_137
+    21300276: handfruit_tilemap8x8_138
+    21300278: handfruit_tilemap8x8_139
+    21300280: handfruit_tilemap8x8_140
+    21300282: handfruit_tilemap8x8_141
+    21300284: handfruit_tilemap8x8_142
+    21300286: handfruit_tilemap8x8_143
+    21300288: handfruit_tilemap8x8_144
+    21300290: handfruit_tilemap8x8_145
+    21300292: handfruit_tilemap8x8_146
+    21300294: handfruit_tilemap8x8_147
+    21300296: handfruit_tilemap8x8_148
+    21300298: handfruit_tilemap8x8_149
+    21300300: handfruit_tilemap8x8_150
+    21300302: handfruit_tilemap8x8_151
+    21300304: handfruit_tilemap8x8_152
+    21300306: handfruit_tilemap8x8_153
+    21300308: handfruit_tilemap8x8_154
+    21300310: handfruit_tilemap8x8_155
+    21300312: handfruit_tilemap8x8_156
+    21300314: handfruit_tilemap8x8_157
+    21300316: handfruit_tilemap8x8_158
+    21300318: handfruit_tilemap8x8_159
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_23
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_31
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_33
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_34
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_37
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_38
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_43
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_47
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_49
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_50
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_53
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_54
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_55
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_56
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_58
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_61
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_63
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_64
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_65
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_66
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_67
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_69
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_70
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_71
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_72
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_73
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_74
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_75
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_76
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_78
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_79
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_82
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_83
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_84
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_85
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_86
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_87
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_89
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_90
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_92
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_93
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_94
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_95
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_96
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_97
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_98
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_99
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_101
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_103
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_104
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_105
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_106
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_107
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_108
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_110
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_111
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_112
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_113
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_114
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_115
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_116
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_117
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_118
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_119
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_121
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_122
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_123
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_124
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_125
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_126
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_127
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_128
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_129
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_130
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_131
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_132
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_133
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_134
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_135
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_136
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_137
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_138
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_139
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_141
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_142
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_143
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_144
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_145
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_146
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_147
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_148
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_149
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_150
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_151
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_152
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_153
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_154
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_155
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_156
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_157
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_158
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: handfruit_tilemap8x8_159
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

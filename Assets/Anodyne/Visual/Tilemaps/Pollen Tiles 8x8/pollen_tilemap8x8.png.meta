@@ -1,0 +1,4651 @@
+fileFormatVersion: 2
+guid: 92cdb78f844f7ac4a9e83acfc502cd06
+timeCreated: 1545242391
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pollen_tilemap8x8_0
+    21300002: pollen_tilemap8x8_1
+    21300004: pollen_tilemap8x8_2
+    21300006: pollen_tilemap8x8_3
+    21300008: pollen_tilemap8x8_4
+    21300010: pollen_tilemap8x8_5
+    21300012: pollen_tilemap8x8_6
+    21300014: pollen_tilemap8x8_7
+    21300016: pollen_tilemap8x8_8
+    21300018: pollen_tilemap8x8_9
+    21300020: pollen_tilemap8x8_10
+    21300022: pollen_tilemap8x8_11
+    21300024: pollen_tilemap8x8_12
+    21300026: pollen_tilemap8x8_13
+    21300028: pollen_tilemap8x8_14
+    21300030: pollen_tilemap8x8_15
+    21300032: pollen_tilemap8x8_16
+    21300034: pollen_tilemap8x8_17
+    21300036: pollen_tilemap8x8_18
+    21300038: pollen_tilemap8x8_19
+    21300040: pollen_tilemap8x8_20
+    21300042: pollen_tilemap8x8_21
+    21300044: pollen_tilemap8x8_22
+    21300046: pollen_tilemap8x8_23
+    21300048: pollen_tilemap8x8_24
+    21300050: pollen_tilemap8x8_25
+    21300052: pollen_tilemap8x8_26
+    21300054: pollen_tilemap8x8_27
+    21300056: pollen_tilemap8x8_28
+    21300058: pollen_tilemap8x8_29
+    21300060: pollen_tilemap8x8_30
+    21300062: pollen_tilemap8x8_31
+    21300064: pollen_tilemap8x8_32
+    21300066: pollen_tilemap8x8_33
+    21300068: pollen_tilemap8x8_34
+    21300070: pollen_tilemap8x8_35
+    21300072: pollen_tilemap8x8_36
+    21300074: pollen_tilemap8x8_37
+    21300076: pollen_tilemap8x8_38
+    21300078: pollen_tilemap8x8_39
+    21300080: pollen_tilemap8x8_40
+    21300082: pollen_tilemap8x8_41
+    21300084: pollen_tilemap8x8_42
+    21300086: pollen_tilemap8x8_43
+    21300088: pollen_tilemap8x8_44
+    21300090: pollen_tilemap8x8_45
+    21300092: pollen_tilemap8x8_46
+    21300094: pollen_tilemap8x8_47
+    21300096: pollen_tilemap8x8_48
+    21300098: pollen_tilemap8x8_49
+    21300100: pollen_tilemap8x8_50
+    21300102: pollen_tilemap8x8_51
+    21300104: pollen_tilemap8x8_52
+    21300106: pollen_tilemap8x8_53
+    21300108: pollen_tilemap8x8_54
+    21300110: pollen_tilemap8x8_55
+    21300112: pollen_tilemap8x8_56
+    21300114: pollen_tilemap8x8_57
+    21300116: pollen_tilemap8x8_58
+    21300118: pollen_tilemap8x8_59
+    21300120: pollen_tilemap8x8_60
+    21300122: pollen_tilemap8x8_61
+    21300124: pollen_tilemap8x8_62
+    21300126: pollen_tilemap8x8_63
+    21300128: pollen_tilemap8x8_64
+    21300130: pollen_tilemap8x8_65
+    21300132: pollen_tilemap8x8_66
+    21300134: pollen_tilemap8x8_67
+    21300136: pollen_tilemap8x8_68
+    21300138: pollen_tilemap8x8_69
+    21300140: pollen_tilemap8x8_70
+    21300142: pollen_tilemap8x8_71
+    21300144: pollen_tilemap8x8_72
+    21300146: pollen_tilemap8x8_73
+    21300148: pollen_tilemap8x8_74
+    21300150: pollen_tilemap8x8_75
+    21300152: pollen_tilemap8x8_76
+    21300154: pollen_tilemap8x8_77
+    21300156: pollen_tilemap8x8_78
+    21300158: pollen_tilemap8x8_79
+    21300160: pollen_tilemap8x8_80
+    21300162: pollen_tilemap8x8_81
+    21300164: pollen_tilemap8x8_82
+    21300166: pollen_tilemap8x8_83
+    21300168: pollen_tilemap8x8_84
+    21300170: pollen_tilemap8x8_85
+    21300172: pollen_tilemap8x8_86
+    21300174: pollen_tilemap8x8_87
+    21300176: pollen_tilemap8x8_88
+    21300178: pollen_tilemap8x8_89
+    21300180: pollen_tilemap8x8_90
+    21300182: pollen_tilemap8x8_91
+    21300184: pollen_tilemap8x8_92
+    21300186: pollen_tilemap8x8_93
+    21300188: pollen_tilemap8x8_94
+    21300190: pollen_tilemap8x8_95
+    21300192: pollen_tilemap8x8_96
+    21300194: pollen_tilemap8x8_97
+    21300196: pollen_tilemap8x8_98
+    21300198: pollen_tilemap8x8_99
+    21300200: pollen_tilemap8x8_100
+    21300202: pollen_tilemap8x8_101
+    21300204: pollen_tilemap8x8_102
+    21300206: pollen_tilemap8x8_103
+    21300208: pollen_tilemap8x8_104
+    21300210: pollen_tilemap8x8_105
+    21300212: pollen_tilemap8x8_106
+    21300214: pollen_tilemap8x8_107
+    21300216: pollen_tilemap8x8_108
+    21300218: pollen_tilemap8x8_109
+    21300220: pollen_tilemap8x8_110
+    21300222: pollen_tilemap8x8_111
+    21300224: pollen_tilemap8x8_112
+    21300226: pollen_tilemap8x8_113
+    21300228: pollen_tilemap8x8_114
+    21300230: pollen_tilemap8x8_115
+    21300232: pollen_tilemap8x8_116
+    21300234: pollen_tilemap8x8_117
+    21300236: pollen_tilemap8x8_118
+    21300238: pollen_tilemap8x8_119
+    21300240: pollen_tilemap8x8_120
+    21300242: pollen_tilemap8x8_121
+    21300244: pollen_tilemap8x8_122
+    21300246: pollen_tilemap8x8_123
+    21300248: pollen_tilemap8x8_124
+    21300250: pollen_tilemap8x8_125
+    21300252: pollen_tilemap8x8_126
+    21300254: pollen_tilemap8x8_127
+    21300256: pollen_tilemap8x8_128
+    21300258: pollen_tilemap8x8_129
+    21300260: pollen_tilemap8x8_130
+    21300262: pollen_tilemap8x8_131
+    21300264: pollen_tilemap8x8_132
+    21300266: pollen_tilemap8x8_133
+    21300268: pollen_tilemap8x8_134
+    21300270: pollen_tilemap8x8_135
+    21300272: pollen_tilemap8x8_136
+    21300274: pollen_tilemap8x8_137
+    21300276: pollen_tilemap8x8_138
+    21300278: pollen_tilemap8x8_139
+    21300280: pollen_tilemap8x8_140
+    21300282: pollen_tilemap8x8_141
+    21300284: pollen_tilemap8x8_142
+    21300286: pollen_tilemap8x8_143
+    21300288: pollen_tilemap8x8_144
+    21300290: pollen_tilemap8x8_145
+    21300292: pollen_tilemap8x8_146
+    21300294: pollen_tilemap8x8_147
+    21300296: pollen_tilemap8x8_148
+    21300298: pollen_tilemap8x8_149
+    21300300: pollen_tilemap8x8_150
+    21300302: pollen_tilemap8x8_151
+    21300304: pollen_tilemap8x8_152
+    21300306: pollen_tilemap8x8_153
+    21300308: pollen_tilemap8x8_154
+    21300310: pollen_tilemap8x8_155
+    21300312: pollen_tilemap8x8_156
+    21300314: pollen_tilemap8x8_157
+    21300316: pollen_tilemap8x8_158
+    21300318: pollen_tilemap8x8_159
+    21300320: pollen_tilemap8x8_160
+    21300322: pollen_tilemap8x8_161
+    21300324: pollen_tilemap8x8_162
+    21300326: pollen_tilemap8x8_163
+    21300328: pollen_tilemap8x8_164
+    21300330: pollen_tilemap8x8_165
+    21300332: pollen_tilemap8x8_166
+    21300334: pollen_tilemap8x8_167
+    21300336: pollen_tilemap8x8_168
+    21300338: pollen_tilemap8x8_169
+    21300340: pollen_tilemap8x8_170
+    21300342: pollen_tilemap8x8_171
+    21300344: pollen_tilemap8x8_172
+    21300346: pollen_tilemap8x8_173
+    21300348: pollen_tilemap8x8_174
+    21300350: pollen_tilemap8x8_175
+    21300352: pollen_tilemap8x8_176
+    21300354: pollen_tilemap8x8_177
+    21300356: pollen_tilemap8x8_178
+    21300358: pollen_tilemap8x8_179
+    21300360: pollen_tilemap8x8_180
+    21300362: pollen_tilemap8x8_181
+    21300364: pollen_tilemap8x8_182
+    21300366: pollen_tilemap8x8_183
+    21300368: pollen_tilemap8x8_184
+    21300370: pollen_tilemap8x8_185
+    21300372: pollen_tilemap8x8_186
+    21300374: pollen_tilemap8x8_187
+    21300376: pollen_tilemap8x8_188
+    21300378: pollen_tilemap8x8_189
+    21300380: pollen_tilemap8x8_190
+    21300382: pollen_tilemap8x8_191
+    21300384: pollen_tilemap8x8_192
+    21300386: pollen_tilemap8x8_193
+    21300388: pollen_tilemap8x8_194
+    21300390: pollen_tilemap8x8_195
+    21300392: pollen_tilemap8x8_196
+    21300394: pollen_tilemap8x8_197
+    21300396: pollen_tilemap8x8_198
+    21300398: pollen_tilemap8x8_199
+    21300400: pollen_tilemap8x8_200
+    21300402: pollen_tilemap8x8_201
+    21300404: pollen_tilemap8x8_202
+    21300406: pollen_tilemap8x8_203
+    21300408: pollen_tilemap8x8_204
+    21300410: pollen_tilemap8x8_205
+    21300412: pollen_tilemap8x8_206
+    21300414: pollen_tilemap8x8_207
+    21300416: pollen_tilemap8x8_208
+    21300418: pollen_tilemap8x8_209
+    21300420: pollen_tilemap8x8_210
+    21300422: pollen_tilemap8x8_211
+    21300424: pollen_tilemap8x8_212
+    21300426: pollen_tilemap8x8_213
+    21300428: pollen_tilemap8x8_214
+    21300430: pollen_tilemap8x8_215
+    21300432: pollen_tilemap8x8_216
+    21300434: pollen_tilemap8x8_217
+    21300436: pollen_tilemap8x8_218
+    21300438: pollen_tilemap8x8_219
+    21300440: pollen_tilemap8x8_220
+    21300442: pollen_tilemap8x8_221
+    21300444: pollen_tilemap8x8_222
+    21300446: pollen_tilemap8x8_223
+    21300448: pollen_tilemap8x8_224
+    21300450: pollen_tilemap8x8_225
+    21300452: pollen_tilemap8x8_226
+    21300454: pollen_tilemap8x8_227
+    21300456: pollen_tilemap8x8_228
+    21300458: pollen_tilemap8x8_229
+    21300460: pollen_tilemap8x8_230
+    21300462: pollen_tilemap8x8_231
+    21300464: pollen_tilemap8x8_232
+    21300466: pollen_tilemap8x8_233
+    21300468: pollen_tilemap8x8_234
+    21300470: pollen_tilemap8x8_235
+    21300472: pollen_tilemap8x8_236
+    21300474: pollen_tilemap8x8_237
+    21300476: pollen_tilemap8x8_238
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_16
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_17
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -2, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 1, y: -2}
+        - {x: 3, y: 0}
+        - {x: 2, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_30
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: -4, y: 1}
+        - {x: -4, y: -2}
+        - {x: -2, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_33
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_34
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_36
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_37
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_38
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_41
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_42
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_44
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 0}
+        - {x: -1, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: 0, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_46
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_48
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_49
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_50
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_51
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_53
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_54
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_56
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_57
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_58
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_60
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_61
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_62
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 0}
+        - {x: -1, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: 0, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_65
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_66
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_67
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_68
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_69
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_70
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_71
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_72
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_73
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_75
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_76
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_77
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_78
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_80
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_81
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_82
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_83
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_84
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_85
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_86
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_87
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_88
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_89
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: 0}
+        - {x: 0, y: 3}
+        - {x: -2, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_90
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_91
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_92
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_93
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_94
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_95
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_96
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_97
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_98
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_99
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_100
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_101
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_102
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_103
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_104
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_105
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_106
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_107
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_108
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_109
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_110
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_111
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_112
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_113
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_114
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_115
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_116
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: 0}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_117
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_118
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_120
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_121
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_122
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_123
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_124
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_125
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_126
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_127
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_128
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_129
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_130
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_131
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_132
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_133
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_134
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_135
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_136
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_137
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_138
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_139
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_140
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_141
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_142
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_143
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_144
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_145
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_146
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_148
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_149
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_150
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_151
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_152
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_153
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_154
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_155
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_156
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_157
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_158
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_160
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_161
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_162
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_163
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_164
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_165
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_166
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_167
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_168
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_169
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_170
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_171
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_172
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_173
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -4, y: 3}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_174
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_175
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 3, y: -4}
+        - {x: 4, y: -3}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_176
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 0}
+        - {x: -3, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: 1, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_177
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_178
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 2, y: -4}
+        - {x: 3, y: 0}
+        - {x: 0, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_179
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_180
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_181
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_182
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_183
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_184
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_185
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_186
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_187
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_188
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_189
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_190
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_191
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_192
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_193
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_194
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 3}
+        - {x: -4, y: -3}
+        - {x: -3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+        - {x: -3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_195
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_196
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -3, y: 0}
+        - {x: 1, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_197
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_198
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -4, y: 3}
+        - {x: -4, y: -3}
+        - {x: -1, y: -3}
+        - {x: 2, y: 0}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_199
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_200
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_201
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_202
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_203
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_204
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_205
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_206
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_207
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 1}
+        - {x: -2, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -1, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_208
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_209
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_210
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_211
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_212
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_213
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_214
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_215
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_216
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_217
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_218
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 1, y: -2}
+        - {x: 3, y: 0}
+        - {x: 2, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_219
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 1}
+        - {x: -3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -2, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_220
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_221
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_222
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_223
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_224
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_225
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_226
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_227
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_228
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_229
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_230
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_231
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_232
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_233
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_234
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_235
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_236
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_237
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pollen_tilemap8x8_238
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -2}
+        - {x: 1, y: -2}
+        - {x: 3, y: 0}
+        - {x: 2, y: 3}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
