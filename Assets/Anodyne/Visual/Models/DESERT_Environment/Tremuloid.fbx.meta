@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: d735b99da1b40ab499d0035278f26923
+timeCreated: 1561054365
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BezierCurve1
+    100002: BezierCurve1.001
+    100004: BezierCurve1.002
+    100006: BezierCurve1.003
+    100008: BezierCurve1.004
+    100010: BezierCurve1.005
+    100012: Cube
+    100014: Thickness1
+    100016: //RootNode
+    100018: ArmBranch
+    100020: Body
+    100022: Hair
+    100024: Leg.L
+    100026: Leg.R
+    100028: BezierCurve1.006
+    100030: BezierCurve1.007
+    100032: BezierCurve1.008
+    100034: Leaves
+    100036: Leaves.001
+    100038: Leaves.002
+    100040: Leaves.003
+    100042: Armature
+    100044: Bone
+    100046: Bone.001
+    100048: Bone.002
+    100050: Bone.003
+    100052: Bone.004
+    100054: Bone.005
+    100056: Bone.006
+    100058: Bone.007
+    100060: Bone.008
+    100062: Bone.009
+    100064: Bone.009_end
+    100066: Bone.010
+    100068: Bone.010_end
+    100070: Bone.011
+    100072: Bone.011_end
+    400000: BezierCurve1
+    400002: BezierCurve1.001
+    400004: BezierCurve1.002
+    400006: BezierCurve1.003
+    400008: BezierCurve1.004
+    400010: BezierCurve1.005
+    400012: Cube
+    400014: Thickness1
+    400016: //RootNode
+    400018: ArmBranch
+    400020: Body
+    400022: Hair
+    400024: Leg.L
+    400026: Leg.R
+    400028: BezierCurve1.006
+    400030: BezierCurve1.007
+    400032: BezierCurve1.008
+    400034: Leaves
+    400036: Leaves.001
+    400038: Leaves.002
+    400040: Leaves.003
+    400042: Armature
+    400044: Bone
+    400046: Bone.001
+    400048: Bone.002
+    400050: Bone.003
+    400052: Bone.004
+    400054: Bone.005
+    400056: Bone.006
+    400058: Bone.007
+    400060: Bone.008
+    400062: Bone.009
+    400064: Bone.009_end
+    400066: Bone.010
+    400068: Bone.010_end
+    400070: Bone.011
+    400072: Bone.011_end
+    2100000: No Name
+    2100002: Material
+    2100004: Leaves
+    2300000: BezierCurve1
+    2300002: BezierCurve1.001
+    2300004: BezierCurve1.002
+    2300006: BezierCurve1.003
+    2300008: BezierCurve1.004
+    2300010: BezierCurve1.005
+    2300012: Cube
+    2300014: Thickness1
+    2300016: ArmBranch
+    2300018: Body
+    2300020: Hair
+    2300022: Leg.L
+    2300024: Leg.R
+    2300026: BezierCurve1.006
+    2300028: BezierCurve1.007
+    2300030: BezierCurve1.008
+    2300032: Leaves
+    2300034: Leaves.001
+    2300036: Leaves.002
+    2300038: Leaves.003
+    3300000: BezierCurve1
+    3300002: BezierCurve1.001
+    3300004: BezierCurve1.002
+    3300006: BezierCurve1.003
+    3300008: BezierCurve1.004
+    3300010: BezierCurve1.005
+    3300012: Cube
+    3300014: Thickness1
+    3300016: ArmBranch
+    3300018: Body
+    3300020: Hair
+    3300022: Leg.L
+    3300024: Leg.R
+    3300026: BezierCurve1.006
+    3300028: BezierCurve1.007
+    3300030: BezierCurve1.008
+    3300032: Leaves
+    3300034: Leaves.001
+    3300036: Leaves.002
+    3300038: Leaves.003
+    4300000: Thickness1
+    4300002: BezierCurve1.005
+    4300004: BezierCurve1.004
+    4300006: BezierCurve1.003
+    4300008: BezierCurve1.002
+    4300010: BezierCurve1.001
+    4300012: BezierCurve1
+    4300014: Cube
+    4300016: Hair
+    4300018: ArmBranch
+    4300020: Body
+    4300022: Leg.L
+    4300024: Leg.R
+    4300026: BezierCurve1.006
+    4300028: BezierCurve1.007
+    4300030: BezierCurve1.008
+    4300032: Leaves.003
+    4300034: Leaves.002
+    4300036: Leaves.001
+    4300038: Leaves
+    7400000: Inactive
+    7400002: Armature|Before
+    7400004: Active
+    7400006: Point
+    9500000: //RootNode
+    13700000: ArmBranch
+    13700002: BezierCurve1.006
+    13700004: BezierCurve1.007
+    13700006: BezierCurve1.008
+    13700008: Body
+    13700010: Hair
+    13700012: Leaves
+    13700014: Leaves.001
+    13700016: Leaves.002
+    13700018: Leaves.003
+    13700020: Leg.L
+    13700022: Leg.R
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: e8c8d8bf96080da439ce841bed1e269b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 96a6e4678ac20624bb2f141928e72c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 023e93df191ba114a9c1f413a5f5f2de, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Inactive
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Active
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Point
+      takeName: Armature|ArmatureAction
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

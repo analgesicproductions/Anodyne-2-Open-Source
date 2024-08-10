@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1c75ad5e4c67ce049aa6b30bebbe9e89
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HeartbitXX2Px
+  fontNames:
+  - HeartbitXX2Px
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7e34e6d8d2d89e84eba9a0bc87da8d58, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

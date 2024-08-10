@@ -1,0 +1,5 @@
+newmtl CCC_AlleyWindow
+map_Kd -o 0 0 -s 0.2 0.2 C:/Users/Jonathan/Desktop/anodyne2/Assets/Resources/Visual/Textures/CCC/alleywindow.png
+Kd 1 1 1
+d 1
+

@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: c706e525f0d5291448efb351db7b73de
+timeCreated: 1539546333
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CenterPoint
+    100004: Cylinder
+    100006: Cylinder.001
+    100008: CylinderiNVERTED
+    100010: DoorCutter
+    100012: Walls_uninverse.000
+    100014: Walls_uninverse.001
+    100016: Walls_uninverse.002
+    100018: Walls_uninverse.003
+    100020: Walls_uninverse.004
+    100022: Cylinder.003
+    100024: Elevator
+    100026: WALLSNEW
+    100028: WALL_LINE
+    100030: WALLSNEW.001
+    100032: WALLS_LINE
+    100034: NurbsCurve
+    100036: WALLSLINEARRAY
+    100038: Spike
+    100040: CylinderNEW
+    100042: WALL_LINE_old
+    100044: WALLS_LINE.001
+    100046: WALLSLINEARRAY.001
+    100048: WALLSLINEARRAY.002
+    100050: Cube
+    100052: ClosedDoor
+    100054: Umbrella
+    100056: SidePedestal
+    100058: SidePedestal.001
+    100060: NurbsCurveReverse
+    100062: Umbrella.002
+    100064: SideTubes
+    100066: Umbrella.003
+    100068: Umbrella.000
+    400000: //RootNode
+    400002: CenterPoint
+    400004: Cylinder
+    400006: Cylinder.001
+    400008: CylinderiNVERTED
+    400010: DoorCutter
+    400012: Walls_uninverse.000
+    400014: Walls_uninverse.001
+    400016: Walls_uninverse.002
+    400018: Walls_uninverse.003
+    400020: Walls_uninverse.004
+    400022: Cylinder.003
+    400024: Elevator
+    400026: WALLSNEW
+    400028: WALL_LINE
+    400030: WALLSNEW.001
+    400032: WALLS_LINE
+    400034: NurbsCurve
+    400036: WALLSLINEARRAY
+    400038: Spike
+    400040: CylinderNEW
+    400042: WALL_LINE_old
+    400044: WALLS_LINE.001
+    400046: WALLSLINEARRAY.001
+    400048: WALLSLINEARRAY.002
+    400050: Cube
+    400052: ClosedDoor
+    400054: Umbrella
+    400056: SidePedestal
+    400058: SidePedestal.001
+    400060: NurbsCurveReverse
+    400062: Umbrella.002
+    400064: SideTubes
+    400066: Umbrella.003
+    400068: Umbrella.000
+    2100000: No Name
+    2100002: PipeMaterial
+    2100004: InnerWall
+    2100006: Main
+    2100008: Pedestal
+    2100010: ClosedDoors
+    2100012: Umbrella
+    2100014: SidePedestal
+    2100016: SideTubes
+    2100018: UmbrellaTubes
+    2300000: Cylinder
+    2300002: Cylinder.001
+    2300004: CylinderiNVERTED
+    2300006: DoorCutter
+    2300008: Walls_uninverse.000
+    2300010: Walls_uninverse.001
+    2300012: Walls_uninverse.002
+    2300014: Walls_uninverse.003
+    2300016: Walls_uninverse.004
+    2300018: //RootNode
+    2300020: Cylinder.003
+    2300022: Elevator
+    2300024: WALLSNEW
+    2300026: WALL_LINE
+    2300028: WALLSNEW.001
+    2300030: WALLS_LINE
+    2300032: NurbsCurve
+    2300034: WALLSLINEARRAY
+    2300036: Spike
+    2300038: CylinderNEW
+    2300040: WALL_LINE_old
+    2300042: WALLS_LINE.001
+    2300044: WALLSLINEARRAY.001
+    2300046: WALLSLINEARRAY.002
+    2300048: Cube
+    2300050: ClosedDoor
+    2300052: Umbrella
+    2300054: SidePedestal
+    2300056: SidePedestal.001
+    2300058: NurbsCurveReverse
+    2300060: Umbrella.002
+    2300062: SideTubes
+    2300064: Umbrella.003
+    2300066: Umbrella.000
+    3300000: Cylinder
+    3300002: Cylinder.001
+    3300004: CylinderiNVERTED
+    3300006: DoorCutter
+    3300008: Walls_uninverse.000
+    3300010: Walls_uninverse.001
+    3300012: Walls_uninverse.002
+    3300014: Walls_uninverse.003
+    3300016: Walls_uninverse.004
+    3300018: //RootNode
+    3300020: Cylinder.003
+    3300022: Elevator
+    3300024: WALLSNEW
+    3300026: WALL_LINE
+    3300028: WALLSNEW.001
+    3300030: WALLS_LINE
+    3300032: NurbsCurve
+    3300034: WALLSLINEARRAY
+    3300036: Spike
+    3300038: CylinderNEW
+    3300040: WALL_LINE_old
+    3300042: WALLS_LINE.001
+    3300044: WALLSLINEARRAY.001
+    3300046: WALLSLINEARRAY.002
+    3300048: Cube
+    3300050: ClosedDoor
+    3300052: Umbrella
+    3300054: SidePedestal
+    3300056: SidePedestal.001
+    3300058: NurbsCurveReverse
+    3300060: Umbrella.002
+    3300062: SideTubes
+    3300064: Umbrella.003
+    3300066: Umbrella.000
+    4300000: DoorCutter
+    4300002: Walls_uninverse.003
+    4300004: CylinderiNVERTED
+    4300006: Walls_uninverse.004
+    4300008: Walls_uninverse.000
+    4300010: Cylinder.001
+    4300012: Walls_uninverse.002
+    4300014: Walls_uninverse.001
+    4300016: Cylinder
+    4300018: Cylinder.003
+    4300020: Elevator
+    4300022: WALLSNEW
+    4300024: WALL_LINE
+    4300026: WALLSNEW.001
+    4300028: WALLS_LINE
+    4300030: WALLSLINEARRAY
+    4300032: NurbsCurve
+    4300034: Spike
+    4300036: WALLS_LINE.001
+    4300038: CylinderNEW
+    4300040: WALLSLINEARRAY.002
+    4300042: WALLSLINEARRAY.001
+    4300044: WALL_LINE_old
+    4300046: Cube
+    4300048: ClosedDoor
+    4300050: Umbrella
+    4300052: SidePedestal.001
+    4300054: SidePedestal
+    4300056: NurbsCurveReverse
+    4300058: Umbrella.002
+    4300060: Umbrella.003
+    4300062: SideTubes
+    4300064: Umbrella.000
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClosedDoors
+    second: {fileID: 2100000, guid: d3b45238957f02d4ab24c31687959809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InnerWall
+    second: {fileID: 2100000, guid: 1783a856df527c748a804e9008929087, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: d70d10a15b225184193303b08d1d2c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: d70d10a15b225184193303b08d1d2c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pedestal
+    second: {fileID: 2100000, guid: 2405536becd5ab04ab873f213dd4b434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipeMaterial
+    second: {fileID: 2100000, guid: 6d3504a7ac635ec40b17b293cb34c8ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SidePedestal
+    second: {fileID: 2100000, guid: 157fd7e6633ed4345bf3c62ea4ccda09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideTubes
+    second: {fileID: 2100000, guid: 6d3504a7ac635ec40b17b293cb34c8ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Umbrella
+    second: {fileID: 2100000, guid: a6cb2a5fc39c2dc418968df325984eeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UmbrellaTubes
+    second: {fileID: 2100000, guid: 6d3504a7ac635ec40b17b293cb34c8ef, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 12658d326a8f2694e9a70fce9e1100df
+timeCreated: 1539639269
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.001_end
+    100006: Bone.002
+    100008: Bone.002_end
+    100010: Bone.003
+    100012: Bone.003_end
+    100014: Bone.004
+    100016: Bone.004_end
+    100018: //RootNode
+    100020: CenterPoint
+    100022: Door
+    100024: WALLSNEW.000
+    100026: WALLSNEW.003
+    100028: WALLSNEW.005
+    100030: WALLSNEW.006
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.001_end
+    400006: Bone.002
+    400008: Bone.002_end
+    400010: Bone.003
+    400012: Bone.003_end
+    400014: Bone.004
+    400016: Bone.004_end
+    400018: //RootNode
+    400020: CenterPoint
+    400022: Door
+    400024: WALLSNEW.000
+    400026: WALLSNEW.003
+    400028: WALLSNEW.005
+    400030: WALLSNEW.006
+    2100000: Main
+    2300000: WALLSNEW.000
+    2300002: WALLSNEW.003
+    2300004: WALLSNEW.005
+    2300006: WALLSNEW.006
+    3300000: WALLSNEW.000
+    3300002: WALLSNEW.003
+    3300004: WALLSNEW.005
+    3300006: WALLSNEW.006
+    4300000: WALLSNEW.005
+    4300002: WALLSNEW.000
+    4300004: WALLSNEW.003
+    4300006: WALLSNEW.006
+    7400000: Door|ArmatureAction
+    7400002: Door|Door
+    7400004: Door|WALLSNEW.003Action
+    7400006: Door|WALLSNEW.005Action
+    7400008: Door|WALLSNEW.006Action
+    7400010: WALLSNEW.005|Door
+    7400012: WALLSNEW.005|WALLSNEW.003Action
+    7400014: WALLSNEW.005|WALLSNEW.005Action
+    7400016: WALLSNEW.005|WALLSNEW.006Action
+    7400018: WALLSNEW.003|Door
+    7400020: WALLSNEW.003|WALLSNEW.003Action
+    7400022: WALLSNEW.003|WALLSNEW.005Action
+    7400024: WALLSNEW.003|WALLSNEW.006Action
+    7400026: WALLSNEW.006|Door
+    7400028: WALLSNEW.006|WALLSNEW.003Action
+    7400030: WALLSNEW.006|WALLSNEW.005Action
+    7400032: WALLSNEW.006|WALLSNEW.006Action
+    7400034: WALLSNEW.000|Door
+    7400036: WALLSNEW.000|WALLSNEW.003Action
+    7400038: WALLSNEW.000|WALLSNEW.005Action
+    7400040: WALLSNEW.000|WALLSNEW.006Action
+    7400042: Door|Open
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: ab8d940594a2db34fbcd4250c47dd318, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Door|ArmatureAction
+      takeName: Door|ArmatureAction
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Door|Open
+      takeName: Door|ArmatureAction
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

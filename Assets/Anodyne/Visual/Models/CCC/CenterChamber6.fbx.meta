@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: eaced8a3f792b5e4b8f67c8618555bf6
+timeCreated: 1539624710
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CenterPoint
+    100004: Cylinder
+    100006: Cylinder.001
+    100008: CylinderNEW
+    100010: Elevator
+    100012: NurbsCurve
+    100014: Spike
+    100016: WALL_LINE_old
+    100018: WALLS_LINE
+    100020: WALLS_LINE.001
+    100022: WALLSLINEARRAY
+    100024: WALLSLINEARRAY.001
+    100026: WALLSLINEARRAY.002
+    100028: WALLSNEW
+    100030: WALLSNEW.001
+    400000: //RootNode
+    400002: CenterPoint
+    400004: Cylinder
+    400006: Cylinder.001
+    400008: CylinderNEW
+    400010: Elevator
+    400012: NurbsCurve
+    400014: Spike
+    400016: WALL_LINE_old
+    400018: WALLS_LINE
+    400020: WALLS_LINE.001
+    400022: WALLSLINEARRAY
+    400024: WALLSLINEARRAY.001
+    400026: WALLSLINEARRAY.002
+    400028: WALLSNEW
+    400030: WALLSNEW.001
+    2100000: No Name
+    2100002: PipeMaterial
+    2100004: InnerWall
+    2100006: Main
+    2300000: Cylinder
+    2300002: Cylinder.001
+    2300004: CylinderNEW
+    2300006: Elevator
+    2300008: NurbsCurve
+    2300010: Spike
+    2300012: WALL_LINE_old
+    2300014: WALLS_LINE
+    2300016: WALLS_LINE.001
+    2300018: WALLSLINEARRAY
+    2300020: WALLSLINEARRAY.001
+    2300022: WALLSLINEARRAY.002
+    2300024: WALLSNEW
+    2300026: WALLSNEW.001
+    3300000: Cylinder
+    3300002: Cylinder.001
+    3300004: CylinderNEW
+    3300006: Elevator
+    3300008: NurbsCurve
+    3300010: Spike
+    3300012: WALL_LINE_old
+    3300014: WALLS_LINE
+    3300016: WALLS_LINE.001
+    3300018: WALLSLINEARRAY
+    3300020: WALLSLINEARRAY.001
+    3300022: WALLSLINEARRAY.002
+    3300024: WALLSNEW
+    3300026: WALLSNEW.001
+    4300000: NurbsCurve
+    4300002: WALLS_LINE.001
+    4300004: CylinderNEW
+    4300006: Elevator
+    4300008: WALLSLINEARRAY.002
+    4300010: Spike
+    4300012: WALLSNEW.001
+    4300014: WALLSLINEARRAY.001
+    4300016: WALLSLINEARRAY
+    4300018: WALLS_LINE
+    4300020: WALLSNEW
+    4300022: Cylinder.001
+    4300024: WALL_LINE_old
+    4300026: Cylinder
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

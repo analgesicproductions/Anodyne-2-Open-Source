@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 4cdb765fe47be894d90dca534bad542c
+timeCreated: 1553282357
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Cube
+    100004: Empty
+    100006: Head
+    100008: //RootNode
+    100010: Neck
+    100012: FenceTail
+    100014: Base
+    100016: Head_end
+    100018: House
+    100020: HouseDino
+    100022: Legs
+    100024: Neck2
+    100026: Neck2 1
+    100028: Neck3
+    100030: Tail
+    100032: Tail_end
+    100034: Body.001
+    100036: Body.002
+    100038: Body.003
+    100040: Head2
+    400000: Body
+    400002: Cube
+    400004: Empty
+    400006: Head
+    400008: //RootNode
+    400010: Neck
+    400012: FenceTail
+    400014: Base
+    400016: Head_end
+    400018: House
+    400020: HouseDino
+    400022: Legs
+    400024: Neck2
+    400026: Neck2 1
+    400028: Neck3
+    400030: Tail
+    400032: Tail_end
+    400034: Body.001
+    400036: Body.002
+    400038: Body.003
+    400040: Head2
+    2100000: No Name
+    2100002: Material
+    2100004: LegWalls
+    2100006: Roofing
+    2100008: HouseWalls.001
+    2100010: Trim
+    2100012: Fence
+    2100014: WoodStilts
+    2100016: Invisible
+    2300000: Body
+    2300002: Cube
+    2300004: Head
+    2300006: Neck
+    2300008: FenceTail
+    2300010: Legs
+    2300012: Neck2
+    2300014: Body.001
+    2300016: Body.002
+    2300018: Body.003
+    2300020: Head2
+    2300022: //RootNode
+    3300000: Body
+    3300002: Cube
+    3300004: Head
+    3300006: Neck
+    3300008: FenceTail
+    3300010: Legs
+    3300012: Neck2
+    3300014: Body.001
+    3300016: Body.002
+    3300018: Body.003
+    3300020: Head2
+    3300022: //RootNode
+    4300000: Cube
+    4300002: Head
+    4300004: Body
+    4300006: Neck
+    4300008: FenceTail
+    4300010: Legs
+    4300012: Neck2
+    4300014: Body.001
+    4300016: Body.002
+    4300018: Body.003
+    4300020: Head2
+    7400000: HouseDino|Idle
+    7400002: HouseDino|T-Pose
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fence
+    second: {fileID: 2100000, guid: a63ebabbae3b6834ba82ad34b79f0070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HouseWalls.001
+    second: {fileID: 2100000, guid: d3be65ebbb099514397f3c54a27ff1a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Invisible
+    second: {fileID: 2100000, guid: 2be975e26f205ec4bbfde22ecf101f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LegWalls
+    second: {fileID: 2100000, guid: 0a5b690037ef8204396e8380a58b608c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roofing
+    second: {fileID: 2100000, guid: 9ee6926803d44e4448cb32598cad05eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trim
+    second: {fileID: 2100000, guid: 0d6a2b2332f8cd34f8a2ada35889068e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodStilts
+    second: {fileID: 2100000, guid: e2886c63505d7de4998f94ee31aa458e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HouseDino|Idle
+      takeName: HouseDino|Idle
+      firstFrame: 0
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HouseDino|T-Pose
+      takeName: HouseDino|T-Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

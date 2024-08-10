@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 2d91c9ed9c443d74590c5bc50c1ef30f
+timeCreated: 1555717443
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.001
+    100004: Cylinder
+    100006: //RootNode
+    100008: Fence
+    100010: Hedge
+    100012: Home
+    100014: Collider
+    100016: Mailbox
+    400000: Cube
+    400002: Cube.001
+    400004: Cylinder
+    400006: //RootNode
+    400008: Fence
+    400010: Hedge
+    400012: Home
+    400014: Collider
+    400016: Mailbox
+    2100000: Invisible
+    2100002: No Name
+    2100004: Concret
+    2100006: WhiteWall
+    2100008: Window
+    2100010: Greentrim
+    2100012: Greenwindow
+    2100014: Fence
+    2100016: Hedge
+    2100018: Door
+    2100020: MailBox
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cylinder
+    2300006: Fence
+    2300008: Hedge
+    2300010: Home
+    2300012: Collider
+    2300014: Mailbox
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cylinder
+    3300006: Fence
+    3300008: Hedge
+    3300010: Home
+    3300012: Collider
+    3300014: Mailbox
+    4300000: Cube.001
+    4300002: Cylinder
+    4300004: Cube
+    4300006: Fence
+    4300008: Hedge
+    4300010: Home
+    4300012: Collider
+    4300014: Mailbox
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concret
+    second: {fileID: 2100000, guid: 765bd9649dc28f54b8c896c6a43793dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 6e8cae0079effae4caef586112ad40f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fence
+    second: {fileID: 2100000, guid: cc4efe1085bf8e14db06e146450ba5ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greentrim
+    second: {fileID: 2100000, guid: bb3c60b991426bc4eba1c4ae68287e2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greenwindow
+    second: {fileID: 2100000, guid: 14b9b0188aed88042a30e0b6ca419ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hedge
+    second: {fileID: 2100000, guid: 3d6d936e5fcbcc4469dd11a82acc6b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Invisible
+    second: {fileID: 2100000, guid: 2be975e26f205ec4bbfde22ecf101f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MailBox
+    second: {fileID: 2100000, guid: 06666b509db92d246a4c76cfc97359fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteWall
+    second: {fileID: 2100000, guid: 17f988d4cf289b14a8db38a42027f57a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: b18900e2482ee80478c8652e087fded6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

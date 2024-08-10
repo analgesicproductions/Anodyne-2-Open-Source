@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 5ee806586f5f5c449adaf43861e558f5
+timeCreated: 1542030497
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ring
+    100004: WallHoles
+    100006: Dust
+    100008: Scaffolding
+    100010: ScaffoldingRings
+    100012: Shields
+    100014: Bridge
+    100016: ScaffoldingRingsMesh
+    100018: ScaffoldingRingsMesh.001
+    100020: ScaffoldingMesh
+    100022: DustPrismCollider
+    100024: BridgeWalls
+    100026: BridgeOldFlat
+    400000: //RootNode
+    400002: Ring
+    400004: WallHoles
+    400006: Dust
+    400008: Scaffolding
+    400010: ScaffoldingRings
+    400012: Shields
+    400014: Bridge
+    400016: ScaffoldingRingsMesh
+    400018: ScaffoldingRingsMesh.001
+    400020: ScaffoldingMesh
+    400022: DustPrismCollider
+    400024: BridgeWalls
+    400026: BridgeOldFlat
+    2100000: No Name
+    2100002: Dust
+    2100004: Scaffold
+    2100006: Shields
+    2100008: Bridge
+    2100010: ScaffoldRing
+    2300000: //RootNode
+    2300002: Ring
+    2300004: WallHoles
+    2300006: Dust
+    2300008: Scaffolding
+    2300010: ScaffoldingRings
+    2300012: Shields
+    2300014: Bridge
+    2300016: ScaffoldingRingsMesh
+    2300018: ScaffoldingRingsMesh.001
+    2300020: ScaffoldingMesh
+    2300022: DustPrismCollider
+    2300024: BridgeWalls
+    2300026: BridgeOldFlat
+    3300000: //RootNode
+    3300002: Ring
+    3300004: WallHoles
+    3300006: Dust
+    3300008: Scaffolding
+    3300010: ScaffoldingRings
+    3300012: Shields
+    3300014: Bridge
+    3300016: ScaffoldingRingsMesh
+    3300018: ScaffoldingRingsMesh.001
+    3300020: ScaffoldingMesh
+    3300022: DustPrismCollider
+    3300024: BridgeWalls
+    3300026: BridgeOldFlat
+    4300000: Cylinder
+    4300002: WallHoles
+    4300004: Ring
+    4300006: Dust
+    4300008: Scaffolding
+    4300010: ScaffoldingRings
+    4300012: Shields
+    4300014: Bridge
+    4300016: ScaffoldingRingsMesh
+    4300018: ScaffoldingRingsMesh.001
+    4300020: ScaffoldingMesh
+    4300022: DustPrismCollider
+    4300024: BridgeWalls
+    4300026: BridgeOldFlat
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge
+    second: {fileID: 2100000, guid: e1338d5384e8e8c4dab438ac7e9eed7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dust
+    second: {fileID: 2100000, guid: 96db5ae97939bc34dbf6ed80c451ef88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scaffold
+    second: {fileID: 2100000, guid: ef2684109b71ef24d81e8fd17dcbbfae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ScaffoldRing
+    second: {fileID: 2100000, guid: ef2684109b71ef24d81e8fd17dcbbfae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shields
+    second: {fileID: 2100000, guid: b3eedbe9fc64d9b4bba3b897b0356f2a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 7247cfba9caa29545822f998c42e0b22
+timeCreated: 1553182982
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BezierCurve
+    100002: //RootNode
+    100004: Clonwei
+    100006: Computer
+    100008: Cylinder
+    100010: Empty
+    100012: Table
+    100014: BezierCurve.001
+    100016: ComputerCollider
+    100018: Cord1
+    100020: Cord2
+    400000: BezierCurve
+    400002: //RootNode
+    400004: Clonwei
+    400006: Computer
+    400008: Cylinder
+    400010: Empty
+    400012: Table
+    400014: BezierCurve.001
+    400016: ComputerCollider
+    400018: Cord1
+    400020: Cord2
+    2100000: No Name
+    2100002: Material
+    2100004: Cord2
+    2100006: Cord1
+    2100008: Clonwei
+    2100010: Computer
+    2100012: Table2
+    2100014: Table1
+    2300000: BezierCurve
+    2300002: Clonwei
+    2300004: Computer
+    2300006: Cylinder
+    2300008: Table
+    2300010: BezierCurve.001
+    2300012: ComputerCollider
+    2300014: Cord1
+    2300016: Cord2
+    3300000: BezierCurve
+    3300002: Clonwei
+    3300004: Computer
+    3300006: Cylinder
+    3300008: Table
+    3300010: BezierCurve.001
+    3300012: ComputerCollider
+    3300014: Cord1
+    3300016: Cord2
+    4300000: BezierCurve
+    4300002: Cylinder
+    4300004: Clonwei
+    4300006: Computer
+    4300008: Table
+    4300010: BezierCurve.001
+    4300012: ComputerCollider
+    4300014: Cord2
+    4300016: Cord1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clonwei
+    second: {fileID: 2100000, guid: 086ee4753edfbc24d88d03a6aaf68694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer
+    second: {fileID: 2100000, guid: 07fc7007783a40447ba9985e6260d5c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cord1
+    second: {fileID: 2100000, guid: c998d43aff604cd44a38f75b2d02ebc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cord2
+    second: {fileID: 2100000, guid: 12c8e82bb25745d49bf612a7889e142b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table1
+    second: {fileID: 2100000, guid: 8e8af9016700e6443a2d684a0bbd66f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table2
+    second: {fileID: 2100000, guid: eced88cdf730cf841a99aee6a52f4294, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

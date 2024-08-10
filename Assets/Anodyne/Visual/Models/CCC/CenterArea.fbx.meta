@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: f22151d27be76854c90fe6723db60068
+timeCreated: 1542051632
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder
+    100004: Cylinder.001
+    100006: Cylinder.002
+    100008: Cube
+    100010: FencePoint
+    100012: FencePoint.001
+    100014: Center
+    100016: Cube.001
+    100018: Cube.002
+    100020: SideCenter
+    100022: SideCenter2
+    100024: Cube.003
+    100026: FencePosts1
+    100028: FencePosts2
+    100030: FencePostsCenter
+    100032: Gates
+    100034: Main
+    100036: Main.001
+    100038: Main.002
+    100040: Tubes
+    100042: Tubes.001
+    100044: Walls
+    100046: WallsCenter
+    100048: InnerWall
+    100050: WallNew
+    100052: WallNew2
+    100054: WallCenterNew
+    400000: //RootNode
+    400002: Cylinder
+    400004: Cylinder.001
+    400006: Cylinder.002
+    400008: Cube
+    400010: FencePoint
+    400012: FencePoint.001
+    400014: Center
+    400016: Cube.001
+    400018: Cube.002
+    400020: SideCenter
+    400022: SideCenter2
+    400024: Cube.003
+    400026: FencePosts1
+    400028: FencePosts2
+    400030: FencePostsCenter
+    400032: Gates
+    400034: Main
+    400036: Main.001
+    400038: Main.002
+    400040: Tubes
+    400042: Tubes.001
+    400044: Walls
+    400046: WallsCenter
+    400048: InnerWall
+    400050: WallNew
+    400052: WallNew2
+    400054: WallCenterNew
+    2100000: No Name
+    2100002: SideGround
+    2100004: CenterGround
+    2100006: Walls
+    2100008: Arch
+    2100010: FencePosts
+    2100012: CenterSpokes
+    2100014: Walls.001
+    2300000: //RootNode
+    2300002: Cylinder
+    2300004: Cylinder.001
+    2300006: Cylinder.002
+    2300008: Cube
+    2300010: Cube.001
+    2300012: Cube.002
+    2300014: Cube.003
+    2300016: FencePosts1
+    2300018: FencePosts2
+    2300020: FencePostsCenter
+    2300022: Gates
+    2300024: Main
+    2300026: Main.001
+    2300028: Main.002
+    2300030: Tubes
+    2300032: Tubes.001
+    2300034: Walls
+    2300036: WallsCenter
+    2300038: InnerWall
+    2300040: WallNew
+    2300042: WallNew2
+    2300044: WallCenterNew
+    3300000: //RootNode
+    3300002: Cylinder
+    3300004: Cylinder.001
+    3300006: Cylinder.002
+    3300008: Cube
+    3300010: Cube.001
+    3300012: Cube.002
+    3300014: Cube.003
+    3300016: FencePosts1
+    3300018: FencePosts2
+    3300020: FencePostsCenter
+    3300022: Gates
+    3300024: Main
+    3300026: Main.001
+    3300028: Main.002
+    3300030: Tubes
+    3300032: Tubes.001
+    3300034: Walls
+    3300036: WallsCenter
+    3300038: InnerWall
+    3300040: WallNew
+    3300042: WallNew2
+    3300044: WallCenterNew
+    4300000: Cylinder
+    4300002: Cylinder.001
+    4300004: Cylinder.002
+    4300006: Cube
+    4300008: Cube.002
+    4300010: Cube.001
+    4300012: Cube.003
+    4300014: Main.001
+    4300016: Gates
+    4300018: FencePosts2
+    4300020: FencePosts1
+    4300022: FencePostsCenter
+    4300024: Main
+    4300026: Main.002
+    4300028: Tubes.001
+    4300030: Tubes
+    4300032: WallsCenter
+    4300034: Walls
+    4300036: InnerWall
+    4300038: WallNew
+    4300040: WallNew2
+    4300042: WallCenterNew
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arch
+    second: {fileID: 2100000, guid: 724f98e0439001e4d88b469cc5e5e75a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CenterGround
+    second: {fileID: 2100000, guid: fbc91257d494be446b929a28a783d576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CenterSpokes
+    second: {fileID: 2100000, guid: 440f05559cdd79249ad7150299947271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FencePosts
+    second: {fileID: 2100000, guid: d0d5da8ffcd1ff44fbcf66145a461799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: be00cfda18cec7f498fa43f087df6b4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls.001
+    second: {fileID: 2100000, guid: be00cfda18cec7f498fa43f087df6b4d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

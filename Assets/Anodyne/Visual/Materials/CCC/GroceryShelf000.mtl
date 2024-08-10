@@ -1,0 +1,7 @@
+newmtl CCC_MarketShelfAll
+map_Kd -o 0 0 -s 0.1 0.1 C:/Users/Jonathan/Desktop/anodyne2/Assets/Resources/Visual/Textures/CCC/CCC_shelf_all.png
+bump -o 0 0 -s 1 1 C:/Users/Jonathan/Desktop/anodyne2/Assets/Resources/Visual/Textures/CCC/CCC_shelfall_nm.png
+map_Ke -o 0 0 -s 0.1 0.1 C:/Users/Jonathan/Desktop/anodyne2/Assets/Resources/Visual/Textures/CCC/ccc_marketglass_emit.png
+Kd 1 1 1
+d 1
+

@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 603af2b8846645c4aac49fbe2e40c70a
+timeCreated: 1555354812
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Spire
+    100002: //RootNode
+    100004: SpireInterior
+    100006: Empty
+    100008: ROCK
+    100010: ROCK.001
+    100012: ROCK.002
+    100014: ROCK.003
+    100016: ROCK.004
+    100018: ROCK.005
+    100020: ROCK.006
+    100022: Fish
+    100024: Fish.001
+    100026: Fish.002
+    100028: SpireInterior.001
+    100030: Sigil
+    400000: Spire
+    400002: //RootNode
+    400004: SpireInterior
+    400006: Empty
+    400008: ROCK
+    400010: ROCK.001
+    400012: ROCK.002
+    400014: ROCK.003
+    400016: ROCK.004
+    400018: ROCK.005
+    400020: ROCK.006
+    400022: Fish
+    400024: Fish.001
+    400026: Fish.002
+    400028: SpireInterior.001
+    400030: Sigil
+    2100000: No Name
+    2100002: Spire
+    2100004: EdgeTrim
+    2100006: Door
+    2100008: Edge
+    2100010: Pillar
+    2100012: SpireInt
+    2100014: Window
+    2100016: Fish1
+    2100018: SpireRock
+    2100020: Top Outside
+    2100022: Sigil
+    2300000: Spire
+    2300002: SpireInterior
+    2300004: ROCK
+    2300006: ROCK.001
+    2300008: ROCK.002
+    2300010: ROCK.003
+    2300012: ROCK.004
+    2300014: ROCK.005
+    2300016: ROCK.006
+    2300018: Fish
+    2300020: Fish.001
+    2300022: Fish.002
+    2300024: SpireInterior.001
+    2300026: Sigil
+    3300000: Spire
+    3300002: SpireInterior
+    3300004: ROCK
+    3300006: ROCK.001
+    3300008: ROCK.002
+    3300010: ROCK.003
+    3300012: ROCK.004
+    3300014: ROCK.005
+    3300016: ROCK.006
+    3300018: Fish
+    3300020: Fish.001
+    3300022: Fish.002
+    3300024: SpireInterior.001
+    3300026: Sigil
+    4300000: SpireInterior
+    4300002: Spire
+    4300004: ROCK.006
+    4300006: ROCK.005
+    4300008: ROCK.004
+    4300010: ROCK.003
+    4300012: ROCK.002
+    4300014: ROCK.001
+    4300016: ROCK
+    4300018: Fish.002
+    4300020: Fish.001
+    4300022: Fish
+    4300024: SpireInterior.001
+    4300026: Sigil
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 99414967328621140990eb6487635c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fish1
+    second: {fileID: 2100000, guid: 3ddd3011b9256ae49bc0504602af5b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sigil
+    second: {fileID: 2100000, guid: 446b0456facdaa5409cb5eec4d423006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SpireInt
+    second: {fileID: 2100000, guid: 1704cd53523ab7c46a0b9b9c83d9d6b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SpireRock
+    second: {fileID: 2100000, guid: 1704cd53523ab7c46a0b9b9c83d9d6b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top Outside
+    second: {fileID: 2100000, guid: d9c289d3316b9c34a951d0cb08c8deb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: ff383952e5ab4984fa6d78dc45f912ca, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

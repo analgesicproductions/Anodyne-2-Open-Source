@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 127a7a38e4eb6154ba14c7ec900b8d1f
+timeCreated: 1553529039
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ChestYolk
+    100002: //RootNode
+    100004: EggChestBase
+    100006: EggChestBase_Arrow
+    100008: EggChestTop
+    100010: EggChestTop_Arrow
+    100012: SaveEgg.001
+    100014: SaveEgg.002
+    100016: SaveEgg_C
+    100018: SaveEgg_C2
+    100020: SaveEggDiamond
+    100022: Base
+    100024: EggChestArmature
+    100026: Top
+    100028: Top_end
+    100030: Yolk
+    100032: Yolk_end
+    400000: ChestYolk
+    400002: //RootNode
+    400004: EggChestBase
+    400006: EggChestBase_Arrow
+    400008: EggChestTop
+    400010: EggChestTop_Arrow
+    400012: SaveEgg.001
+    400014: SaveEgg.002
+    400016: SaveEgg_C
+    400018: SaveEgg_C2
+    400020: SaveEggDiamond
+    400022: Base
+    400024: EggChestArmature
+    400026: Top
+    400028: Top_end
+    400030: Yolk
+    400032: Yolk_end
+    2100000: No Name
+    2100002: Egg
+    2100004: C2
+    2100006: C
+    2100008: Egg.001
+    2100010: Yolk
+    2100012: Arrow
+    2300000: ChestYolk
+    2300002: EggChestBase
+    2300004: EggChestBase_Arrow
+    2300006: EggChestTop
+    2300008: EggChestTop_Arrow
+    2300010: SaveEgg.001
+    2300012: SaveEgg.002
+    2300014: SaveEgg_C
+    2300016: SaveEgg_C2
+    2300018: SaveEggDiamond
+    3300000: ChestYolk
+    3300002: EggChestBase
+    3300004: EggChestBase_Arrow
+    3300006: EggChestTop
+    3300008: EggChestTop_Arrow
+    3300010: SaveEgg.001
+    3300012: SaveEgg.002
+    3300014: SaveEgg_C
+    3300016: SaveEgg_C2
+    3300018: SaveEggDiamond
+    4300000: ChestYolk
+    4300002: EggChestTop
+    4300004: EggChestTop_Arrow
+    4300006: SaveEgg.002
+    4300008: SaveEgg.001
+    4300010: SaveEgg_C2
+    4300012: SaveEgg_C
+    4300014: EggChestBase
+    4300016: EggChestBase_Arrow
+    4300018: SaveEggDiamond
+    7400000: EggChestArmature|Idle
+    7400002: EggChestArmature|Open
+    7400004: EggChestArmature|OpenOld
+    7400006: EggChestArmature|T-Pose
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arrow
+    second: {fileID: 2100000, guid: 3bfae9d577227e943916de6df1eaced8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Egg.001
+    second: {fileID: 2100000, guid: 3134e9d92593d5143a59455b4cfcf6b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yolk
+    second: {fileID: 2100000, guid: cfb2577fda8223445bd7b5afb30f5ae6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EggChestArmature|Idle
+      takeName: EggChestArmature|Idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EggChestArmature|Open
+      takeName: EggChestArmature|Open
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EggChestArmature|T-Pose
+      takeName: EggChestArmature|T-Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

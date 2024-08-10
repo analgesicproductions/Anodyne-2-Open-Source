@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: bd89e8587a6867e429ee32c7c2946f70
+timeCreated: 1560893374
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Minorma
+    100002: //RootNode
+    100004: Orb
+    100006: Cube
+    100008: Cylinder
+    100010: Cylinder.001
+    100012: CurveBoth
+    100014: Road
+    400000: Minorma
+    400002: //RootNode
+    400004: Orb
+    400006: Cube
+    400008: Cylinder
+    400010: Cylinder.001
+    400012: CurveBoth
+    400014: Road
+    2100000: No Name
+    2100002: Orb
+    2100004: Minorma
+    2100006: Shell
+    2100008: Bumps
+    2100010: Orb.001
+    2100012: Platform
+    2100014: City
+    2100016: City Minorma
+    2100018: Spindle
+    2100020: Platformedge
+    2100022: Underledge
+    2100024: Pillare3dge
+    2100026: HighwayWall
+    2100028: HighwayRoad
+    2300000: Minorma
+    2300002: Orb
+    2300004: Cube
+    2300006: Cylinder
+    2300008: Cylinder.001
+    2300010: CurveBoth
+    2300012: Road
+    3300000: Minorma
+    3300002: Orb
+    3300004: Cube
+    3300006: Cylinder
+    3300008: Cylinder.001
+    3300010: CurveBoth
+    3300012: Road
+    4300000: Minorma
+    4300002: Orb
+    4300004: Cube
+    4300006: Cylinder.001
+    4300008: Cylinder
+    4300010: CurveBoth
+    4300012: Road
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bumps
+    second: {fileID: 2100000, guid: 99414967328621140990eb6487635c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City
+    second: {fileID: 2100000, guid: 7e4f31721516e9d429df7ad1549535b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City Minorma
+    second: {fileID: 2100000, guid: 7e4f31721516e9d429df7ad1549535b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighwayRoad
+    second: {fileID: 2100000, guid: caa162199be120b458dc9102c38d31f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighwayWall
+    second: {fileID: 2100000, guid: 5da53888da08aa84da5df609676bb76b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillare3dge
+    second: {fileID: 2100000, guid: 20399ae4c6bf119459bd6052eb2c54f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platform
+    second: {fileID: 2100000, guid: ba6baccdd5d09134aa8530498771f57e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platformedge
+    second: {fileID: 2100000, guid: 14382f06aca72f3468f1597549f315aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shell
+    second: {fileID: 2100000, guid: 20399ae4c6bf119459bd6052eb2c54f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spindle
+    second: {fileID: 2100000, guid: 9e1a179133a102b44895858b82745225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Underledge
+    second: {fileID: 2100000, guid: 3b94379a78862544ab58407f1272553e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

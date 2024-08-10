@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 90e81da34250bb645bdd505583d6a4ef
+timeCreated: 1555094435
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Empty
+    100004: //RootNode
+    100006: Cylinder
+    100008: DonutStorm
+    100010: Spire
+    100012: DonutStorm.001
+    100014: DonutStorm.002
+    100016: DonutCurve
+    100018: SpireBreak
+    100020: Spire.001
+    100022: Spire.002
+    100024: Spire.003
+    100026: SpireTop
+    400000: Cube
+    400002: Empty
+    400004: //RootNode
+    400006: Cylinder
+    400008: DonutStorm
+    400010: Spire
+    400012: DonutStorm.001
+    400014: DonutStorm.002
+    400016: DonutCurve
+    400018: SpireBreak
+    400020: Spire.001
+    400022: Spire.002
+    400024: Spire.003
+    400026: SpireTop
+    2100000: Material
+    2100002: No Name
+    2100004: Spire
+    2100006: Storm
+    2100008: StormBreak
+    2100010: Door
+    2100012: Edge
+    2100014: Pillar
+    2100016: EdgeTrim
+    2300000: Cube
+    2300002: Cylinder
+    2300004: DonutStorm
+    2300006: Spire
+    2300008: DonutStorm.001
+    2300010: DonutStorm.002
+    2300012: DonutCurve
+    2300014: SpireBreak
+    2300016: Spire.001
+    2300018: Spire.002
+    2300020: Spire.003
+    2300022: SpireTop
+    3300000: Cube
+    3300002: Cylinder
+    3300004: DonutStorm
+    3300006: Spire
+    3300008: DonutStorm.001
+    3300010: DonutStorm.002
+    3300012: DonutCurve
+    3300014: SpireBreak
+    3300016: Spire.001
+    3300018: Spire.002
+    3300020: Spire.003
+    3300022: SpireTop
+    4300000: Cube
+    4300002: Cylinder
+    4300004: Spire
+    4300006: DonutStorm
+    4300008: DonutStorm.002
+    4300010: DonutStorm.001
+    4300012: DonutCurve
+    4300014: SpireBreak
+    4300016: Spire.001
+    4300018: Spire.002
+    4300020: Spire.003
+    4300022: SpireTop
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 99414967328621140990eb6487635c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edge
+    second: {fileID: 2100000, guid: de860c270fcc5b0429e51edc2de7e19f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EdgeTrim
+    second: {fileID: 2100000, guid: d0a39c1fc0821d54ea711a9bd5a66953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: a34c20ce0fce34b42970d9f5954f2e83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar
+    second: {fileID: 2100000, guid: 99414967328621140990eb6487635c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spire
+    second: {fileID: 2100000, guid: d4f74f0584ae33547b396cf9e410da24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storm
+    second: {fileID: 2100000, guid: 4c77db3ee8df3fe45af09bf49569fe91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StormBreak
+    second: {fileID: 2100000, guid: 275e1ae7e494b234b9ab6a78e13383d7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

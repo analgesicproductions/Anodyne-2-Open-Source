@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 9418c2049d4c0d14ea72e6652362e446
+timeCreated: 1553009648
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: PVCPipe
+    100002: PVCPipe.Start
+    100004: //RootNode
+    100006: Cylinder
+    100008: Stopper
+    100010: StopperWeakPoint
+    400000: PVCPipe
+    400002: PVCPipe.Start
+    400004: //RootNode
+    400006: Cylinder
+    400008: Stopper
+    400010: StopperWeakPoint
+    2100000: PVC
+    2100002: DarkPipe
+    2100004: No Name
+    2100006: Glow
+    2100008: Cattail
+    2100010: Stopper
+    2300000: PVCPipe
+    2300002: PVCPipe.Start
+    2300004: Cylinder
+    2300006: Stopper
+    2300008: StopperWeakPoint
+    3300000: PVCPipe
+    3300002: PVCPipe.Start
+    3300004: Cylinder
+    3300006: Stopper
+    3300008: StopperWeakPoint
+    4300000: PVCPipe.Start
+    4300002: PVCPipe
+    4300004: Cylinder
+    4300006: StopperWeakPoint
+    4300008: Stopper
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cattail
+    second: {fileID: 2100000, guid: 5ff9d431fc005dc4e8d549996f6f89ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkPipe
+    second: {fileID: 2100000, guid: e40ba7a20c1e7284fa1ecd7840282c91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow
+    second: {fileID: 2100000, guid: cfb2577fda8223445bd7b5afb30f5ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PVC
+    second: {fileID: 2100000, guid: 2cc58a155aebf38488bf106fc7b7f4b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stopper
+    second: {fileID: 2100000, guid: 38489605660d29448ae53d62e8c1e502, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

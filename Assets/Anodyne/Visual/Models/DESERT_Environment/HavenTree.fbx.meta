@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: ca4930521b72d614d868c49aeb80896a
+timeCreated: 1555592313
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: HandFruit
+    100004: HavenTree
+    100006: Cylinder.001
+    100008: Empty
+    100010: HavenTree.001
+    100012: HavenTreeSymmetrical
+    100014: Cube
+    100016: Empty.001
+    100018: Circle
+    100020: Cube.001
+    100022: CircleRock
+    100024: Dirt
+    100026: FruitBranch
+    100028: Branch
+    100030: Branch.001
+    100032: Branch.002
+    100034: Branch.003
+    100036: Branch.004
+    100038: Branch.005
+    100040: Branch.006
+    100042: Branch.007
+    100044: Branch.008
+    100046: Branch.009
+    100048: Branch.010
+    100050: HavenTreeSymmetrical.001
+    100052: Collider
+    400000: //RootNode
+    400002: HandFruit
+    400004: HavenTree
+    400006: Cylinder.001
+    400008: Empty
+    400010: HavenTree.001
+    400012: HavenTreeSymmetrical
+    400014: Cube
+    400016: Empty.001
+    400018: Circle
+    400020: Cube.001
+    400022: CircleRock
+    400024: Dirt
+    400026: FruitBranch
+    400028: Branch
+    400030: Branch.001
+    400032: Branch.002
+    400034: Branch.003
+    400036: Branch.004
+    400038: Branch.005
+    400040: Branch.006
+    400042: Branch.007
+    400044: Branch.008
+    400046: Branch.009
+    400048: Branch.010
+    400050: HavenTreeSymmetrical.001
+    400052: Collider
+    2100000: Material
+    2100002: No Name
+    2100004: Tree
+    2100006: DirtCircle
+    2100008: SideRock
+    2100010: HandFruit
+    2300000: //RootNode
+    2300002: HandFruit
+    2300004: HavenTree
+    2300006: Cylinder.001
+    2300008: HavenTree.001
+    2300010: HavenTreeSymmetrical
+    2300012: Cube
+    2300014: Circle
+    2300016: Cube.001
+    2300018: CircleRock
+    2300020: Dirt
+    2300022: FruitBranch
+    2300024: Branch
+    2300026: Branch.001
+    2300028: Branch.002
+    2300030: Branch.003
+    2300032: Branch.004
+    2300034: Branch.005
+    2300036: Branch.006
+    2300038: Branch.007
+    2300040: Branch.008
+    2300042: Branch.009
+    2300044: Branch.010
+    2300046: HavenTreeSymmetrical.001
+    2300048: Collider
+    3300000: //RootNode
+    3300002: HandFruit
+    3300004: HavenTree
+    3300006: Cylinder.001
+    3300008: HavenTree.001
+    3300010: HavenTreeSymmetrical
+    3300012: Cube
+    3300014: Circle
+    3300016: Cube.001
+    3300018: CircleRock
+    3300020: Dirt
+    3300022: FruitBranch
+    3300024: Branch
+    3300026: Branch.001
+    3300028: Branch.002
+    3300030: Branch.003
+    3300032: Branch.004
+    3300034: Branch.005
+    3300036: Branch.006
+    3300038: Branch.007
+    3300040: Branch.008
+    3300042: Branch.009
+    3300044: Branch.010
+    3300046: HavenTreeSymmetrical.001
+    3300048: Collider
+    4300000: HavenTree
+    4300002: HandFruit
+    4300004: Cylinder.001
+    4300006: HavenTreeSymmetrical
+    4300008: HavenTree.001
+    4300010: Cube
+    4300012: Circle
+    4300014: Cube.001
+    4300016: Dirt
+    4300018: CircleRock
+    4300020: FruitBranch
+    4300022: Branch.009
+    4300024: Branch.010
+    4300026: HavenTreeSymmetrical.001
+    4300028: Collider
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DirtCircle
+    second: {fileID: 2100000, guid: 7a6283afaf7a6b34588540fff5e943da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HandFruit
+    second: {fileID: 2100000, guid: 4c3cc34518ec9c840a1403e360c4cad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideRock
+    second: {fileID: 2100000, guid: 780407df430f5c548ad161641797b60b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree
+    second: {fileID: 2100000, guid: 9162daad7d770e94fa4aa2d6f9b9b1c4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

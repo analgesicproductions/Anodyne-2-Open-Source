@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 043d70b7856d8fc49a43d7a2f18861ce
+timeCreated: 1545367146
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Lamp1
+    100004: LampWall
+    100006: ShadeBubble
+    100008: ShadeMed
+    100010: ShadeParallel
+    400000: //RootNode
+    400002: Lamp1
+    400004: LampWall
+    400006: ShadeBubble
+    400008: ShadeMed
+    400010: ShadeParallel
+    2100000: LampshadeBubble
+    2100002: LampshadeAngle
+    2100004: LampWall
+    2100006: LampGround
+    2100008: LampshadeParallel
+    2300000: Lamp1
+    2300002: LampWall
+    2300004: ShadeBubble
+    2300006: ShadeMed
+    2300008: ShadeParallel
+    3300000: Lamp1
+    3300002: LampWall
+    3300004: ShadeBubble
+    3300006: ShadeMed
+    3300008: ShadeParallel
+    4300000: ShadeBubble
+    4300002: ShadeMed
+    4300004: LampWall
+    4300006: Lamp1
+    4300008: ShadeParallel
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampGround
+    second: {fileID: 2100000, guid: 07ea7d2e7e5b28e45be00bd223e85604, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampWall
+    second: {fileID: 2100000, guid: 29ac2634f54ea4b4180b4f1e708a66dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampshadeAngle
+    second: {fileID: 2100000, guid: 0a6a25ca69dabc94482290e9bbad76e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampshadeBubble
+    second: {fileID: 2100000, guid: b6507071ce8723b4994d8cdbaf21ed4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampshadeParallel
+    second: {fileID: 2100000, guid: a56ef32ca01a3a042993533644dcbd30, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

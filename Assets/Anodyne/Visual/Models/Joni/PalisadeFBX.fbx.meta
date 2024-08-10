@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: c7c8b2943d73aff469f2bb8be5775c52
+timeCreated: 1532582707
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arm1.L
+    100002: Arm1.R
+    100004: Arm2.L
+    100006: Arm2.R
+    100008: Armature
+    100010: Base
+    100012: BODY
+    100014: BODY.001
+    100016: Camera
+    100018: Chest
+    100020: Finger1.L
+    100022: Finger1.R
+    100024: Finger2.L
+    100026: Finger2.L_end
+    100028: Finger2.R
+    100030: Finger2.R_end
+    100032: FOOT.L
+    100034: Foot.L
+    100036: Foot.L_end
+    100038: FOOT.R
+    100040: Foot.R
+    100042: Foot.R_end
+    100044: Hair
+    100046: Hair2
+    100048: Hair2_end
+    100050: HAIRBIG
+    100052: HAIRSMALL
+    100054: Hand.L
+    100056: Hand.R
+    100058: HEAD
+    100060: Head
+    100062: Leg1
+    100064: Leg2
+    100066: MASK
+    100068: Mid
+    100070: Neck
+    100072: //RootNode
+    100074: Shoulder.L
+    100076: Shoulder.R
+    100078: Thumb1.L
+    100080: Thumb1.R
+    100082: Thumb2.L
+    100084: Thumb2.L_end
+    100086: Thumb2.R
+    100088: Thumb2.R_end
+    100090: Body
+    100092: Finger1.1.L
+    100094: Finger1.1.R
+    100096: Finger1.2.L
+    100098: Finger1.2.L_end
+    100100: Finger1.2.R
+    100102: Finger1.2.R_end
+    100104: Finger2.1.L
+    100106: Finger2.1.R
+    100108: Finger2.2.L
+    100110: Finger2.2.L_end
+    100112: Finger2.2.R
+    100114: Finger2.2.R_end
+    100116: Finger3.1.L
+    100118: Finger3.1.R
+    100120: Finger3.2.L
+    100122: Finger3.2.L_end
+    100124: Finger3.2.R
+    100126: Finger3.2.R_end
+    100128: Hair1
+    100130: Hair3
+    100132: Hair4
+    100134: Hair5
+    100136: Hair5_end
+    100138: Hand.L 1
+    100140: Hand.R 1
+    100142: Harp
+    100144: Harp_end
+    100146: Hat
+    100148: Head 1
+    100150: Lyre
+    100152: Spine1
+    100154: Spine2
+    100156: Turnip
+    100158: Turnip1
+    100160: Turnip2
+    100162: Turnip3
+    100164: Turnip4
+    100166: Turnip5
+    100168: Turnip5_end
+    400000: Arm1.L
+    400002: Arm1.R
+    400004: Arm2.L
+    400006: Arm2.R
+    400008: Armature
+    400010: Base
+    400012: BODY
+    400014: BODY.001
+    400016: Camera
+    400018: Chest
+    400020: Finger1.L
+    400022: Finger1.R
+    400024: Finger2.L
+    400026: Finger2.L_end
+    400028: Finger2.R
+    400030: Finger2.R_end
+    400032: FOOT.L
+    400034: Foot.L
+    400036: Foot.L_end
+    400038: FOOT.R
+    400040: Foot.R
+    400042: Foot.R_end
+    400044: Hair
+    400046: Hair2
+    400048: Hair2_end
+    400050: HAIRBIG
+    400052: HAIRSMALL
+    400054: Hand.L
+    400056: Hand.R
+    400058: HEAD
+    400060: Head
+    400062: Leg1
+    400064: Leg2
+    400066: MASK
+    400068: Mid
+    400070: Neck
+    400072: //RootNode
+    400074: Shoulder.L
+    400076: Shoulder.R
+    400078: Thumb1.L
+    400080: Thumb1.R
+    400082: Thumb2.L
+    400084: Thumb2.L_end
+    400086: Thumb2.R
+    400088: Thumb2.R_end
+    400090: Body
+    400092: Finger1.1.L
+    400094: Finger1.1.R
+    400096: Finger1.2.L
+    400098: Finger1.2.L_end
+    400100: Finger1.2.R
+    400102: Finger1.2.R_end
+    400104: Finger2.1.L
+    400106: Finger2.1.R
+    400108: Finger2.2.L
+    400110: Finger2.2.L_end
+    400112: Finger2.2.R
+    400114: Finger2.2.R_end
+    400116: Finger3.1.L
+    400118: Finger3.1.R
+    400120: Finger3.2.L
+    400122: Finger3.2.L_end
+    400124: Finger3.2.R
+    400126: Finger3.2.R_end
+    400128: Hair1
+    400130: Hair3
+    400132: Hair4
+    400134: Hair5
+    400136: Hair5_end
+    400138: Hand.L 1
+    400140: Hand.R 1
+    400142: Harp
+    400144: Harp_end
+    400146: Hat
+    400148: Head 1
+    400150: Lyre
+    400152: Spine1
+    400154: Spine2
+    400156: Turnip
+    400158: Turnip1
+    400160: Turnip2
+    400162: Turnip3
+    400164: Turnip4
+    400166: Turnip5
+    400168: Turnip5_end
+    2000000: Camera
+    2100000: No Name
+    2100002: PSALMIST
+    2300000: BODY.001
+    2300002: HEAD
+    2300004: MASK
+    2300006: Hat
+    2300008: Lyre
+    3300000: BODY.001
+    3300002: HEAD
+    3300004: MASK
+    3300006: Hat
+    3300008: Lyre
+    4300000: HEAD
+    4300002: MASK
+    4300004: BODY
+    4300006: FOOT.L
+    4300008: FOOT.R
+    4300010: HAIRBIG
+    4300012: HAIRSMALL
+    4300014: BODY.001
+    4300016: Hat
+    4300018: Lyre
+    4300020: Body
+    4300022: Hand.L
+    4300024: Hand.R
+    4300026: Turnip
+    4300028: Head
+    7400000: Armature|IdleNoLyre
+    7400002: Armature|Lyre
+    9500000: //RootNode
+    13700000: BODY
+    13700002: FOOT.L
+    13700004: FOOT.R
+    13700006: HAIRBIG
+    13700008: HAIRSMALL
+    13700010: Body
+    13700012: Hand.L
+    13700014: Hand.R
+    13700016: Head
+    13700018: Turnip
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: a9c281ef10fa45c4f821409a9c79cbfa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

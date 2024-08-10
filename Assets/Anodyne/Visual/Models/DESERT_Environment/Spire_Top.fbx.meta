@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 02624f8063012ba4684700cb7cd97100
+timeCreated: 1555260576
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: DonutCurve
+    100002: DonutStorm
+    100004: Spire
+    100006: Spire.001
+    100008: Spire.002
+    100010: //RootNode
+    100012: SpireTop
+    100014: DonutStormTop
+    400000: DonutCurve
+    400002: DonutStorm
+    400004: Spire
+    400006: Spire.001
+    400008: Spire.002
+    400010: //RootNode
+    400012: SpireTop
+    400014: DonutStormTop
+    2100000: Spire
+    2100002: Door
+    2100004: Edge
+    2100006: EdgeTrim
+    2100008: Pillar
+    2100010: Storm
+    2300000: DonutCurve
+    2300002: DonutStorm
+    2300004: Spire
+    2300006: Spire.001
+    2300008: Spire.002
+    2300010: SpireTop
+    2300012: DonutStormTop
+    3300000: DonutCurve
+    3300002: DonutStorm
+    3300004: Spire
+    3300006: Spire.001
+    3300008: Spire.002
+    3300010: SpireTop
+    3300012: DonutStormTop
+    4300000: Spire.002
+    4300002: Spire.001
+    4300004: DonutCurve
+    4300006: Spire
+    4300008: DonutStorm
+    4300010: SpireTop
+    4300012: DonutStormTop
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 99414967328621140990eb6487635c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edge
+    second: {fileID: 2100000, guid: de860c270fcc5b0429e51edc2de7e19f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EdgeTrim
+    second: {fileID: 2100000, guid: d0a39c1fc0821d54ea711a9bd5a66953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar
+    second: {fileID: 2100000, guid: 99414967328621140990eb6487635c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spire
+    second: {fileID: 2100000, guid: d4f74f0584ae33547b396cf9e410da24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Storm
+    second: {fileID: 2100000, guid: e5958d97935f5844e843f50aa3c32256, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

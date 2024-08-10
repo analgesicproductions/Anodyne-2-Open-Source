@@ -1,0 +1,50 @@
+卵白の海岸
+Center Sanctuary
+ウマミの卵黄
+ススリの卵黄
+クツロギの卵黄
+
+// 5
+Center City Cenote
+Misteria Waizel
+Gustine Papellum
+Bran Maligden
+Great Gwom
+
+// 10
+Drifting Pollen
+Geof Agricite
+Dustbound Village
+Handfruit Haven
+Dustbound Beatdown
+
+// 15
+Iwasaki Antimon
+Clonwei Yonstein
+Orb Sector 4-16-5
+New Theeland
+Pastel Horizon
+
+// 20
+Loquat Skeligum
+// 21 this is NOT a typo, will show when entering the realistic horror area.
+no such scene
+Nexus
+// 23 NOT a typo, shows in the 'clean' dustbound
+Dustbound Village?
+Nano Cleaner Zera
+
+// 25 - RingCCC, RingGolem, ringClone, RingHighway, DesertSpire
+Blue Vale Center
+Blue Vale West
+Blue Vale East
+Blue Vale South
+Outer Sands South
+
+// 30 - DesertShore, DesertOrb, DesertField
+Outer Sands West
+Outer Sands East
+Outer Sands North
+The Land
+// 34 - for titleless pg areas
+???

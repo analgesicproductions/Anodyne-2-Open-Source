@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 29e2cf0f7c6e85141a4a131422f9b93e
+timeCreated: 1549415735
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cube.003
+    100010: Cube.004
+    100012: ArchBack
+    100014: ArchFront
+    100016: Pillars
+    100018: Roof
+    100020: Roof.001
+    100022: Window
+    100024: LightPoles
+    100026: Base
+    100028: CurveBoth
+    100030: Road
+    100032: RoadEndCap
+    100034: RoadStartCap
+    100036: CurveBoth.001
+    100038: Road.001
+    100040: Arch1
+    100042: ArchRoad
+    100044: RoadSmoother
+    100046: BackGate
+    100048: ArchRoad.001
+    100050: ArchRoad.002
+    100052: Dryer
+    100054: Rinser
+    100056: DryCloths
+    100058: Plane
+    100060: DryCloths.001
+    100062: DryCloths.000
+    100064: Dryer.001
+    100066: DryerArch
+    100068: DryerArch.001
+    100070: Rinser.001
+    100072: RinserArch
+    100074: RinserArch.001
+    100076: RinserWater
+    100078: RinserWater.001
+    100080: PowerLedge
+    100082: Fence
+    100084: WindowBars
+    100086: WindowInteriorCollider
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cube.003
+    400010: Cube.004
+    400012: ArchBack
+    400014: ArchFront
+    400016: Pillars
+    400018: Roof
+    400020: Roof.001
+    400022: Window
+    400024: LightPoles
+    400026: Base
+    400028: CurveBoth
+    400030: Road
+    400032: RoadEndCap
+    400034: RoadStartCap
+    400036: CurveBoth.001
+    400038: Road.001
+    400040: Arch1
+    400042: ArchRoad
+    400044: RoadSmoother
+    400046: BackGate
+    400048: ArchRoad.001
+    400050: ArchRoad.002
+    400052: Dryer
+    400054: Rinser
+    400056: DryCloths
+    400058: Plane
+    400060: DryCloths.001
+    400062: DryCloths.000
+    400064: Dryer.001
+    400066: DryerArch
+    400068: DryerArch.001
+    400070: Rinser.001
+    400072: RinserArch
+    400074: RinserArch.001
+    400076: RinserWater
+    400078: RinserWater.001
+    400080: PowerLedge
+    400082: Fence
+    400084: WindowBars
+    400086: WindowInteriorCollider
+    2100000: No Name
+    2100002: Window
+    2100004: Arch
+    2100006: Body
+    2100008: Material
+    2100010: Highway
+    2100012: HighwayWall
+    2100014: HighwayRoad
+    2100016: HighwayWall.002
+    2100018: HighwayRoad.002
+    2100020: DryCloths
+    2100022: RinseWater
+    2100024: Fence
+    2100026: LightConcrete
+    2100028: Blumetal
+    2100030: BlockSide
+    2100032: BlockTop
+    2100034: GuardRails
+    2100036: PillarTop
+    2100038: PillarMiddle
+    2100040: PillarBottom
+    2100042: RoofInterior
+    2100044: RoofBlueTrim
+    2100046: RoofShingle
+    2100048: RoofBlue
+    2100050: InteriorRoad
+    2100052: Light
+    2100054: RoofInterior2
+    2100056: Light2
+    2100058: WindowBars
+    2100060: Ceiling
+    2100062: FenceBlank
+    2100064: ArchPoles
+    2100066: GarageDoor
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: ArchBack
+    2300012: ArchFront
+    2300014: Pillars
+    2300016: Roof
+    2300018: Roof.001
+    2300020: Window
+    2300022: LightPoles
+    2300024: Base
+    2300026: CurveBoth
+    2300028: Road
+    2300030: RoadEndCap
+    2300032: RoadStartCap
+    2300034: CurveBoth.001
+    2300036: Road.001
+    2300038: Arch1
+    2300040: ArchRoad
+    2300042: RoadSmoother
+    2300044: BackGate
+    2300046: ArchRoad.001
+    2300048: ArchRoad.002
+    2300050: Dryer
+    2300052: Rinser
+    2300054: DryCloths
+    2300056: Plane
+    2300058: DryCloths.001
+    2300060: DryCloths.000
+    2300062: Dryer.001
+    2300064: DryerArch
+    2300066: DryerArch.001
+    2300068: Rinser.001
+    2300070: RinserArch
+    2300072: RinserArch.001
+    2300074: RinserWater
+    2300076: RinserWater.001
+    2300078: PowerLedge
+    2300080: Fence
+    2300082: WindowBars
+    2300084: WindowInteriorCollider
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: ArchBack
+    3300012: ArchFront
+    3300014: Pillars
+    3300016: Roof
+    3300018: Roof.001
+    3300020: Window
+    3300022: LightPoles
+    3300024: Base
+    3300026: CurveBoth
+    3300028: Road
+    3300030: RoadEndCap
+    3300032: RoadStartCap
+    3300034: CurveBoth.001
+    3300036: Road.001
+    3300038: Arch1
+    3300040: ArchRoad
+    3300042: RoadSmoother
+    3300044: BackGate
+    3300046: ArchRoad.001
+    3300048: ArchRoad.002
+    3300050: Dryer
+    3300052: Rinser
+    3300054: DryCloths
+    3300056: Plane
+    3300058: DryCloths.001
+    3300060: DryCloths.000
+    3300062: Dryer.001
+    3300064: DryerArch
+    3300066: DryerArch.001
+    3300068: Rinser.001
+    3300070: RinserArch
+    3300072: RinserArch.001
+    3300074: RinserWater
+    3300076: RinserWater.001
+    3300078: PowerLedge
+    3300080: Fence
+    3300082: WindowBars
+    3300084: WindowInteriorCollider
+    4300000: Cube.001
+    4300002: Cube
+    4300004: Cube.002
+    4300006: Cube.004
+    4300008: Cube.003
+    4300010: Pillars
+    4300012: ArchBack
+    4300014: ArchFront
+    4300016: Roof
+    4300018: Roof.001
+    4300020: Window
+    4300022: LightPoles
+    4300024: Base
+    4300026: CurveBoth
+    4300028: RoadEndCap
+    4300030: RoadStartCap
+    4300032: Road
+    4300034: CurveBoth.001
+    4300036: Road.001
+    4300038: RoadSmoother
+    4300040: ArchRoad
+    4300042: Arch1
+    4300044: BackGate
+    4300046: Rinser
+    4300048: ArchRoad.002
+    4300050: Dryer
+    4300052: ArchRoad.001
+    4300054: Plane
+    4300056: DryCloths
+    4300058: DryCloths.001
+    4300060: DryCloths.000
+    4300062: Dryer.001
+    4300064: DryerArch.001
+    4300066: Rinser.001
+    4300068: RinserArch.001
+    4300070: RinserWater.001
+    4300072: RinserArch
+    4300074: RinserWater
+    4300076: DryerArch
+    4300078: PowerLedge
+    4300080: Fence
+    4300082: WindowBars
+    4300084: WindowInteriorCollider
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arch
+    second: {fileID: 2100000, guid: 02f40ed8ba083c04d9cd1dbd16fada7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchPoles
+    second: {fileID: 2100000, guid: c5be3547ddd2d6c4e8f9d8d3db57249a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlockSide
+    second: {fileID: 2100000, guid: 8173343376f55b042b97b02e2c49a328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlockTop
+    second: {fileID: 2100000, guid: 765bd9649dc28f54b8c896c6a43793dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blumetal
+    second: {fileID: 2100000, guid: 02f40ed8ba083c04d9cd1dbd16fada7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: ee8530af433909d47981fd7f6bc16c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DryCloths
+    second: {fileID: 2100000, guid: d39ce91bdba2b454882371eb645f087c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fence
+    second: {fileID: 2100000, guid: cc4efe1085bf8e14db06e146450ba5ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FenceBlank
+    second: {fileID: 2100000, guid: ff383952e5ab4984fa6d78dc45f912ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GarageDoor
+    second: {fileID: 2100000, guid: 6a61341c1bad58c47872ddf686447817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GuardRails
+    second: {fileID: 2100000, guid: fc9ed39dfb59e3d4ca8339d8a77e6798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighwayRoad
+    second: {fileID: 2100000, guid: bacf1bc25b9adc9428b4afde7d24add8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighwayRoad.002
+    second: {fileID: 2100000, guid: f62c89b2a7deb0c45b95555ee6afee34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighwayWall
+    second: {fileID: 2100000, guid: 10cdf6fc3147948429dc06c70a593e12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HighwayWall.002
+    second: {fileID: 2100000, guid: 10cdf6fc3147948429dc06c70a593e12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteriorRoad
+    second: {fileID: 2100000, guid: 8173343376f55b042b97b02e2c49a328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 3b94379a78862544ab58407f1272553e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light2
+    second: {fileID: 2100000, guid: 6d3f0ce8b031824499f7b0b48989022b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightConcrete
+    second: {fileID: 2100000, guid: 32fc4911e2c104d46ac67da9ac339250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100002, guid: 43ffe9c081f8caa48ab96476f772dab9, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: eb386bdb827f5a54d96b3a1aa5d50b5e, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarBottom
+    second: {fileID: 2100000, guid: 8173343376f55b042b97b02e2c49a328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarMiddle
+    second: {fileID: 2100000, guid: 880628223f74a564786cac372e2c7031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarTop
+    second: {fileID: 2100000, guid: 0a5b690037ef8204396e8380a58b608c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RinseWater
+    second: {fileID: 2100000, guid: 5b34ed9e61263a24bbaf49da54a1d0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofBlue
+    second: {fileID: 2100000, guid: 4570cac6523262f49aed563b90e17bb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofBlueTrim
+    second: {fileID: 2100000, guid: 12c8e82bb25745d49bf612a7889e142b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofInterior
+    second: {fileID: 2100000, guid: 880628223f74a564786cac372e2c7031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofInterior2
+    second: {fileID: 2100000, guid: 0a5b690037ef8204396e8380a58b608c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofShingle
+    second: {fileID: 2100000, guid: 01aaa91a07a568f43b9d375f1d50ccf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: d164a35646687b64a831ec79f32c82ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowBars
+    second: {fileID: 2100000, guid: f25af93c6727a164bb3219868e440aa5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

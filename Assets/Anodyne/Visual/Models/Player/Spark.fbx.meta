@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: ef7e5bcd231cbec41a20bd5155324267
+timeCreated: 1538940836
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.001_end
+    100006: Bone.003
+    100008: Bone.003_end
+    100010: Bone_end
+    100012: Plane
+    100014: Plane.001
+    100016: Plane.002
+    100018: //RootNode
+    100020: Plane0
+    100022: Plane1
+    100024: Base
+    100026: BonePlane0
+    100028: BonePlane0_end
+    100030: BonePlane1
+    100032: BonePlane1_end
+    100034: BonePlane2
+    100036: BonePlane2_end
+    100038: Plane2
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.001_end
+    400006: Bone.003
+    400008: Bone.003_end
+    400010: Bone_end
+    400012: Plane
+    400014: Plane.001
+    400016: Plane.002
+    400018: //RootNode
+    400020: Plane0
+    400022: Plane1
+    400024: Base
+    400026: BonePlane0
+    400028: BonePlane0_end
+    400030: BonePlane1
+    400032: BonePlane1_end
+    400034: BonePlane2
+    400036: BonePlane2_end
+    400038: Plane2
+    2100000: Spark
+    2100002: No Name
+    2300000: Plane
+    2300002: Plane.001
+    2300004: Plane.002
+    2300006: Plane0
+    2300008: Plane1
+    2300010: Plane2
+    3300000: Plane
+    3300002: Plane.001
+    3300004: Plane.002
+    3300006: Plane0
+    3300008: Plane1
+    3300010: Plane2
+    4300000: Plane.002
+    4300002: Plane
+    4300004: Plane.001
+    4300006: Plane1
+    4300008: Plane0
+    4300010: Plane2
+    7400000: Spark|Spin
+    7400002: Armature|SpinBasic
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c97f4e296c9e21b469572c3d02b37e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spark
+    second: {fileID: 2100000, guid: c97f4e296c9e21b469572c3d02b37e16, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|SpinBasic
+      takeName: Armature|SpinBasic
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

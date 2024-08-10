@@ -1,0 +1,20 @@
+newmtl Default_Prototype
+map_Kd -o 0 0 -s 1 1 GridBox_Default.png
+Kd 1 1 1
+d 1
+
+newmtl Default_Prototype_Ash
+map_Kd -o 0 0 -s 1 1 GridBox_Default.png
+Kd 0.2426471 0.2426471 0.2426471
+d 1
+
+newmtl Default_Prototype_Yellow
+map_Kd -o 0 0 -s 1 1 GridBox_Default.png
+Kd 0.9841785 1 0.7132353
+d 1
+
+newmtl Default_Prototype_Green
+map_Kd -o 0 0 -s 1 1 GridBox_Default.png
+Kd 0.3639706 0.7279412 0.3664807
+d 1
+

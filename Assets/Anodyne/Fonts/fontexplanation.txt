@@ -1,0 +1,15 @@
+Very Important
+Anodyne - Dialogue/Fadetext font in 2D, area name font in 2D
+Kreon-Regular SDF - General 3D Text
+Forum-Regular SDF - For 3D fadetext
+
+Slightly Important
+Attractive SDF - Metaclean menu
+
+Not really important
+Forum AreaTitle - For area titles like "Albumen Shore"
+Kalam-Bold SDF - For the CP/Pal/Zera/Nova namecards
+pixChicago - 2D area entry font (during that beaming down animation)
+
+ZpixEX2_EX - Has every glyph, used for testing replacement, shows best at 12 pt
+

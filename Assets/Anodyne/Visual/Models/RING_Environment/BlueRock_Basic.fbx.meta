@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 638625fe661866c4fa3df844cab9a7df
+timeCreated: 1548964215
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BlueRock
+    100004: BlueRock.002
+    100006: BlueRock_bridge
+    100008: BlueRock_drumstick
+    100010: BlueRock_Elbow
+    100012: BlueRock_pillar
+    100014: BlueRockNew
+    100016: BlueRockNew2
+    100018: BlueRockNew3
+    100020: Cube
+    100022: Cube.001
+    100024: BlueRock19_Basic
+    400000: //RootNode
+    400002: BlueRock
+    400004: BlueRock.002
+    400006: BlueRock_bridge
+    400008: BlueRock_drumstick
+    400010: BlueRock_Elbow
+    400012: BlueRock_pillar
+    400014: BlueRockNew
+    400016: BlueRockNew2
+    400018: BlueRockNew3
+    400020: Cube
+    400022: Cube.001
+    400024: BlueRock19_Basic
+    2100000: BlueRock1
+    2100002: No Name
+    2300000: //RootNode
+    2300002: BlueRock
+    2300004: BlueRock.002
+    2300006: BlueRock_bridge
+    2300008: BlueRock_drumstick
+    2300010: BlueRock_Elbow
+    2300012: BlueRock_pillar
+    2300014: BlueRockNew
+    2300016: BlueRockNew2
+    2300018: BlueRockNew3
+    2300020: Cube
+    2300022: Cube.001
+    2300024: BlueRock19_Basic
+    3300000: //RootNode
+    3300002: BlueRock
+    3300004: BlueRock.002
+    3300006: BlueRock_bridge
+    3300008: BlueRock_drumstick
+    3300010: BlueRock_Elbow
+    3300012: BlueRock_pillar
+    3300014: BlueRockNew
+    3300016: BlueRockNew2
+    3300018: BlueRockNew3
+    3300020: Cube
+    3300022: Cube.001
+    3300024: BlueRock19_Basic
+    4300000: BlueRock
+    4300002: BlueRock.001
+    4300004: Cube
+    4300006: BlueRockNew3
+    4300008: BlueRockNew2
+    4300010: BlueRock.002
+    4300012: BlueRock_Elbow
+    4300014: BlueRock_drumstick
+    4300016: BlueRock_bridge
+    4300018: BlueRock_pillar
+    4300020: BlueRockNew
+    4300022: Cube.001
+    4300024: BlueRock19_Basic
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueRock1
+    second: {fileID: 2100000, guid: e4e2a0cc3470dc54c9f0d6d61af3a86d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 5b708267449c4e9448437c599be8e9b4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

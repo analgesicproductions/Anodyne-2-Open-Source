@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 9e3dfa4d46dcbda4ea889a668376804c
+timeCreated: 1528982993
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arm1_L
+    100002: Arm1_R
+    100004: Arm2_L
+    100006: Arm2_R
+    100008: Armature
+    100010: Body
+    100012: Body1
+    100014: Body2
+    100016: Bone
+    100018: EAR_L
+    100020: Ear_L
+    100022: EAR_R
+    100024: Ear_R
+    100026: Foot1_L
+    100028: Foot1_R
+    100030: Foot2_L
+    100032: Foot2_R
+    100034: Hand_L
+    100036: Hand_R
+    100038: HEAD
+    100040: Head
+    100042: Hip_L
+    100044: Hip_R
+    100046: Leg1_L
+    100048: Leg1_R
+    100050: Leg2_L
+    100052: Leg2_R
+    100054: Neck
+    100056: //RootNode
+    100058: Plane
+    400000: Arm1_L
+    400002: Arm1_R
+    400004: Arm2_L
+    400006: Arm2_R
+    400008: Armature
+    400010: Body
+    400012: Body1
+    400014: Body2
+    400016: Bone
+    400018: EAR_L
+    400020: Ear_L
+    400022: EAR_R
+    400024: Ear_R
+    400026: Foot1_L
+    400028: Foot1_R
+    400030: Foot2_L
+    400032: Foot2_R
+    400034: Hand_L
+    400036: Hand_R
+    400038: HEAD
+    400040: Head
+    400042: Hip_L
+    400044: Hip_R
+    400046: Leg1_L
+    400048: Leg1_R
+    400050: Leg2_L
+    400052: Leg2_R
+    400054: Neck
+    400056: //RootNode
+    400058: Plane
+    2100000: Nova
+    4300000: Plane
+    4300002: Body
+    4300004: EAR_L
+    4300006: EAR_R
+    4300008: HEAD
+    7400000: Default Take
+    7400002: Breathing
+    7400004: BreathingBirth
+    7400006: BreathingBirth_001
+    7400008: Default_001
+    7400010: Run_Cycle_Ready
+    9500000: //RootNode
+    13700000: Body
+    13700002: EAR_L
+    13700004: EAR_R
+    13700006: HEAD
+    13700008: Plane
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 9d6ead2fab769be48b8122a8091afafe
+timeCreated: 1540527350
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base
+    100004: Butt1
+    100006: Butt2
+    100008: Chest
+    100010: Cube
+    100012: Dolphstrich
+    100014: Foot.L
+    100016: Foot.L_end
+    100018: Foot.R
+    100020: Foot.R_end
+    100022: Head
+    100024: Hip.L
+    100026: Hip.R
+    100028: Leg1.L
+    100030: Leg1.R
+    100032: Leg2.L
+    100034: Leg2.R
+    100036: SnoutBottom
+    100038: SnoutBottom_end
+    100040: SnoutTop
+    100042: SnoutTop_end
+    100044: Tail1
+    100046: Tail2
+    100048: Tail2_end
+    100050: IKTarget.L
+    100052: IKTarget.L_end
+    100054: IKTarget.R
+    100056: IKTarget.R_end
+    400000: //RootNode
+    400002: Base
+    400004: Butt1
+    400006: Butt2
+    400008: Chest
+    400010: Cube
+    400012: Dolphstrich
+    400014: Foot.L
+    400016: Foot.L_end
+    400018: Foot.R
+    400020: Foot.R_end
+    400022: Head
+    400024: Hip.L
+    400026: Hip.R
+    400028: Leg1.L
+    400030: Leg1.R
+    400032: Leg2.L
+    400034: Leg2.R
+    400036: SnoutBottom
+    400038: SnoutBottom_end
+    400040: SnoutTop
+    400042: SnoutTop_end
+    400044: Tail1
+    400046: Tail2
+    400048: Tail2_end
+    400050: IKTarget.L
+    400052: IKTarget.L_end
+    400054: IKTarget.R
+    400056: IKTarget.R_end
+    2100000: Material
+    2300000: //RootNode
+    2300002: Cube
+    3300000: //RootNode
+    3300002: Cube
+    4300000: Cube
+    7400000: Dolphstrich|Idle
+    7400002: Dolphstrich|IdleNothing
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 5c2f21f565c411449ac47f82306fcb2d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dolphstrich|Idle
+      takeName: Dolphstrich|Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dolphstrich|IdleNothing
+      takeName: Dolphstrich|IdleNothing
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

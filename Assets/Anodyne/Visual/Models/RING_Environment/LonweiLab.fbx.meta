@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: c209776468dc1a34ebefb2b9a0d938fd
+timeCreated: 1550680143
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chimney
+    100002: Cube
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cylinder
+    100010: Cylinder.001
+    100012: Cylinder.002
+    100014: Cylinder.003
+    100016: //RootNode
+    100018: Arm2
+    100020: ArmLow
+    100022: BallJoint
+    100024: Bone
+    100026: Bone.001
+    100028: Bone.001_end
+    100030: Bone.002
+    100032: Bone.002_end
+    100034: Bone.003
+    100036: Bone.003_end
+    100038: Bone.004
+    100040: Bone.005
+    100042: Bone.005_end
+    100044: ChimneySide
+    100046: ChimneySide.001
+    100048: Hat
+    100050: LonweiLab
+    100052: Shade
+    100054: Armature
+    400000: Chimney
+    400002: Cube
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cylinder
+    400010: Cylinder.001
+    400012: Cylinder.002
+    400014: Cylinder.003
+    400016: //RootNode
+    400018: Arm2
+    400020: ArmLow
+    400022: BallJoint
+    400024: Bone
+    400026: Bone.001
+    400028: Bone.001_end
+    400030: Bone.002
+    400032: Bone.002_end
+    400034: Bone.003
+    400036: Bone.003_end
+    400038: Bone.004
+    400040: Bone.005
+    400042: Bone.005_end
+    400044: ChimneySide
+    400046: ChimneySide.001
+    400048: Hat
+    400050: LonweiLab
+    400052: Shade
+    400054: Armature
+    2100000: No Name
+    2100002: Material
+    2100004: Door
+    2100006: Chimney
+    2100008: Arm
+    2100010: Ball
+    2100012: Hat
+    2100014: Shade
+    2100016: Main
+    2100018: Stair
+    2100020: Tip
+    2100022: HatBottom
+    2300000: Chimney
+    2300002: Cube
+    2300004: Cube.001
+    2300006: Cube.002
+    2300008: Cylinder
+    2300010: Cylinder.001
+    2300012: Cylinder.002
+    2300014: Cylinder.003
+    2300016: Arm2
+    2300018: ArmLow
+    2300020: BallJoint
+    2300022: ChimneySide
+    2300024: ChimneySide.001
+    2300026: Hat
+    2300028: LonweiLab
+    2300030: Shade
+    3300000: Chimney
+    3300002: Cube
+    3300004: Cube.001
+    3300006: Cube.002
+    3300008: Cylinder
+    3300010: Cylinder.001
+    3300012: Cylinder.002
+    3300014: Cylinder.003
+    3300016: Arm2
+    3300018: ArmLow
+    3300020: BallJoint
+    3300022: ChimneySide
+    3300024: ChimneySide.001
+    3300026: Hat
+    3300028: LonweiLab
+    3300030: Shade
+    4300000: Cylinder.003
+    4300002: Cylinder.002
+    4300004: Cube.002
+    4300006: Cylinder.001
+    4300008: Cube.001
+    4300010: Chimney
+    4300012: Cylinder
+    4300014: Cube
+    4300016: LonweiLab
+    4300018: Shade
+    4300020: ChimneySide
+    4300022: ChimneySide.001
+    4300024: ArmLow
+    4300026: BallJoint
+    4300028: Hat
+    4300030: Arm2
+    7400000: Armature|Action
+    7400002: Rotate
+    7400004: ArmLow|Action
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arm
+    second: {fileID: 2100000, guid: f83ad56cb962e8e49bb6ad42fd5dfa65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ball
+    second: {fileID: 2100000, guid: eced88cdf730cf841a99aee6a52f4294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney
+    second: {fileID: 2100000, guid: eced88cdf730cf841a99aee6a52f4294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 0f6d6b5537f8ac94c81d974d628dade5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: a9793a1137cdc234fa495e971ec752c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HatBottom
+    second: {fileID: 2100000, guid: bfe4c78805c5d6648ba123fadd7c9cc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: bc410c387c2d9404e87d3ccf8e08e1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shade
+    second: {fileID: 2100000, guid: 55c2b973449bc87468d6e4412b876dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stair
+    second: {fileID: 2100000, guid: dd5de48b0d926284a8dea67799556161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tip
+    second: {fileID: 2100000, guid: eced88cdf730cf841a99aee6a52f4294, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rotate
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

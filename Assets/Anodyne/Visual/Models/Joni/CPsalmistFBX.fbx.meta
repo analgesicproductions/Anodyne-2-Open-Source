@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 2e27699b18558534a9168fb5719f8b9a
+timeCreated: 1532563372
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arm1.L
+    100002: Arm1.R
+    100004: Arm2.L
+    100006: Arm2.R
+    100008: Armature
+    100010: Base
+    100012: Body
+    100014: Camera
+    100016: //RootNode
+    100018: Cube
+    100020: Finger1.1.L
+    100022: Finger1.1.R
+    100024: Finger1.2.L
+    100026: Finger1.2.L_end
+    100028: Finger1.2.R
+    100030: Finger1.2.R_end
+    100032: Finger2.1.L
+    100034: Finger2.1.R
+    100036: Finger2.2.L
+    100038: Finger2.2.L_end
+    100040: Finger2.2.R
+    100042: Finger2.2.R_end
+    100044: Finger3.1.L
+    100046: Finger3.1.R
+    100048: Finger3.2.L
+    100050: Finger3.2.L_end
+    100052: Finger3.2.R
+    100054: Finger3.2.R_end
+    100056: Hair1
+    100058: Hair2
+    100060: Hair3
+    100062: Hair4
+    100064: Hair5
+    100066: Hair5_end
+    100068: Hand.L
+    100070: Hand.L 1
+    100072: Hand.R
+    100074: Hand.R 1
+    100076: Hat
+    100078: Head
+    100080: Head 1
+    100082: Neck
+    100084: Shoulder.L
+    100086: Shoulder.R
+    100088: Spine1
+    100090: Spine2
+    100092: Sun
+    100094: Thumb1.L
+    100096: Thumb1.R
+    100098: Thumb2.L
+    100100: Thumb2.L_end
+    100102: Thumb2.R
+    100104: Thumb2.R_end
+    100106: Turnip
+    100108: Turnip1
+    100110: Turnip2
+    100112: Turnip3
+    100114: Turnip4
+    100116: Turnip5
+    100118: Turnip5_end
+    100120: Harp
+    100122: Harp_end
+    100124: Lyre
+    400000: Arm1.L
+    400002: Arm1.R
+    400004: Arm2.L
+    400006: Arm2.R
+    400008: Armature
+    400010: Base
+    400012: Body
+    400014: Camera
+    400016: //RootNode
+    400018: Cube
+    400020: Finger1.1.L
+    400022: Finger1.1.R
+    400024: Finger1.2.L
+    400026: Finger1.2.L_end
+    400028: Finger1.2.R
+    400030: Finger1.2.R_end
+    400032: Finger2.1.L
+    400034: Finger2.1.R
+    400036: Finger2.2.L
+    400038: Finger2.2.L_end
+    400040: Finger2.2.R
+    400042: Finger2.2.R_end
+    400044: Finger3.1.L
+    400046: Finger3.1.R
+    400048: Finger3.2.L
+    400050: Finger3.2.L_end
+    400052: Finger3.2.R
+    400054: Finger3.2.R_end
+    400056: Hair1
+    400058: Hair2
+    400060: Hair3
+    400062: Hair4
+    400064: Hair5
+    400066: Hair5_end
+    400068: Hand.L
+    400070: Hand.L 1
+    400072: Hand.R
+    400074: Hand.R 1
+    400076: Hat
+    400078: Head
+    400080: Head 1
+    400082: Neck
+    400084: Shoulder.L
+    400086: Shoulder.R
+    400088: Spine1
+    400090: Spine2
+    400092: Sun
+    400094: Thumb1.L
+    400096: Thumb1.R
+    400098: Thumb2.L
+    400100: Thumb2.L_end
+    400102: Thumb2.R
+    400104: Thumb2.R_end
+    400106: Turnip
+    400108: Turnip1
+    400110: Turnip2
+    400112: Turnip3
+    400114: Turnip4
+    400116: Turnip5
+    400118: Turnip5_end
+    400120: Harp
+    400122: Harp_end
+    400124: Lyre
+    2000000: Camera
+    2100000: PSALMIST
+    2100002: No Name
+    2100004: Lyre
+    2300000: Cube
+    2300002: Hat
+    2300004: Body
+    2300006: Hand.L
+    2300008: Hand.R
+    2300010: Head
+    2300012: Turnip
+    2300014: Lyre
+    3300000: Cube
+    3300002: Hat
+    3300004: Body
+    3300006: Hand.L
+    3300008: Hand.R
+    3300010: Head
+    3300012: Turnip
+    3300014: Lyre
+    4300000: Hat
+    4300002: Body
+    4300004: Hand.L
+    4300006: Hand.R
+    4300008: Turnip
+    4300010: Head
+    4300012: Cube
+    4300014: Lyre
+    7400000: CPslamist|IdleNoLyre
+    7400002: Armature|Lyre
+    7400004: Armature|GettingEaten
+    7400006: Armature|Final Look
+    7400008: Armature|StopEating
+    7400010: Armature|IdleFret
+    7400012: Armature|IdleFretDiorama
+    9500000: //RootNode
+    10800000: Sun
+    13700000: Body
+    13700002: Hand.L
+    13700004: Hand.R
+    13700006: Head
+    13700008: Turnip
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lyre
+    second: {fileID: 2100000, guid: 6396770064438034fb00cf27fb70f212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PSALMIST
+    second: {fileID: 2100000, guid: dcd5dcbbbed151e44853163fa594f1a0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CPslamist|IdleNoLyre
+      takeName: Armature|IdleNoLyre
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Lyre
+      takeName: Armature|Lyre
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|GettingEaten
+      takeName: Armature|GettingEaten
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Final Look
+      takeName: Armature|Final Look
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|StopEating
+      takeName: Armature|StopEating
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|IdleFret
+      takeName: Armature|IdleFret
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|IdleFretDiorama
+      takeName: Armature|IdleFret
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+# Exported from ProBuilder
+# http://www.procore3d.com/probuilder
+# 8/22/2018 11:59:01 PM
+
+mtllib ./AlleyWindow.mtl
+o AlleyWindow
+
+g AlleyWindowOrig
+v 0 0 0
+v 0 0 3.5
+v 0 5 0
+v 0 5 3.5
+
+vn -1 0 0
+vn -1 0 0
+vn -1 0 0
+vn -1 0 0
+
+vt -0.7145214 -5.113492
+vt -4.214521 -5.113492
+vt -0.7145214 -0.113492
+vt -4.214521 -0.113492
+
+g AlleyWindowOrig
+usemtl CCC_AlleyWindow
+f 1/1/1 2/2/2 4/4/4 3/3/3
+

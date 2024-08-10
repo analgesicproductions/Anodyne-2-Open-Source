@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: cfe46ea45ae801c48bc4fa4ff1b4877b
+timeCreated: 1535748566
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CenterPoint
+    100004: Cube
+    100006: Cylinder
+    100008: Cylinder.001
+    100010: CylinderiNVERTED
+    100012: Sphere.000
+    100014: Sphere.002
+    100016: Walls
+    100018: Walls.001
+    100020: Walls.002
+    100022: Walls_uninverse
+    100024: Walls_uninverse.001
+    100026: Walls_uninverse.003
+    100028: DoorCutter
+    100030: Walls_uninverse.002
+    400000: //RootNode
+    400002: CenterPoint
+    400004: Cube
+    400006: Cylinder
+    400008: Cylinder.001
+    400010: CylinderiNVERTED
+    400012: Sphere.000
+    400014: Sphere.002
+    400016: Walls
+    400018: Walls.001
+    400020: Walls.002
+    400022: Walls_uninverse
+    400024: Walls_uninverse.001
+    400026: Walls_uninverse.003
+    400028: DoorCutter
+    400030: Walls_uninverse.002
+    2100000: No Name
+    2100002: Material
+    2300000: Cube
+    2300002: Cylinder
+    2300004: Cylinder.001
+    2300006: CylinderiNVERTED
+    2300008: Sphere.000
+    2300010: Sphere.002
+    2300012: Walls
+    2300014: Walls.001
+    2300016: Walls.002
+    2300018: //RootNode
+    2300020: Walls_uninverse
+    2300022: Walls_uninverse.001
+    2300024: Walls_uninverse.003
+    2300026: DoorCutter
+    2300028: Walls_uninverse.002
+    3300000: Cube
+    3300002: Cylinder
+    3300004: Cylinder.001
+    3300006: CylinderiNVERTED
+    3300008: Sphere.000
+    3300010: Sphere.002
+    3300012: Walls
+    3300014: Walls.001
+    3300016: Walls.002
+    3300018: //RootNode
+    3300020: Walls_uninverse
+    3300022: Walls_uninverse.001
+    3300024: Walls_uninverse.003
+    3300026: DoorCutter
+    3300028: Walls_uninverse.002
+    4300000: Walls.002
+    4300002: Walls.001
+    4300004: CylinderiNVERTED
+    4300006: Cylinder.001
+    4300008: Sphere.000
+    4300010: Cylinder
+    4300012: Sphere.002
+    4300014: Walls
+    4300016: Cube
+    4300018: Walls_uninverse
+    4300020: Walls_uninverse.001
+    4300022: Walls_uninverse.003
+    4300024: DoorCutter
+    4300026: Walls_uninverse.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: d70d10a15b225184193303b08d1d2c2a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: c3c5f1b71a847174a9eadb3a5dd4a8f9
+timeCreated: 1553264587
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Beringia
+    100002: //RootNode
+    100004: Drumbird
+    100006: Drumbird.001
+    100008: Foot.L
+    100010: Foot.L.001
+    100012: Foot.L.001_end
+    100014: Foot.L_end
+    100016: Foot.R
+    100018: Foot.R.001
+    100020: Foot.R.001_end
+    100022: Foot.R_end
+    100024: ForeArm.L
+    100026: ForeArm.R
+    100028: Hand.L
+    100030: Hand.L_end
+    100032: Hand.R
+    100034: Hand.R_end
+    100036: Head
+    100038: Head.001
+    100040: Head_end
+    100042: Hips
+    100044: Hips.001
+    100046: Humanoid.001
+    100048: LowerLeg.L
+    100050: LowerLeg.L.001
+    100052: LowerLeg.R
+    100054: LowerLeg.R.001
+    100056: Neck
+    100058: Neck.001
+    100060: Neck.002
+    100062: Neck.003
+    100064: Neck.004
+    100066: Neck.005
+    100068: NoiseMaker
+    100070: NoiseMaker.001
+    100072: NoiseMaker.001_end
+    100074: Pony
+    100076: Pony.001
+    100078: Pony.002
+    100080: Pony.002_end
+    100082: Shoulder.L
+    100084: Shoulder.R
+    100086: Spine1
+    100088: Spine1.001
+    100090: Spine2
+    100092: Tail
+    100094: Tail.001
+    100096: Tail.002
+    100098: TailBase
+    100100: UpperArm.L
+    100102: UpperArm.R
+    100104: UpperLeg.L
+    100106: UpperLeg.L.001
+    100108: UpperLeg.R
+    100110: UpperLeg.R.001
+    400000: Beringia
+    400002: //RootNode
+    400004: Drumbird
+    400006: Drumbird.001
+    400008: Foot.L
+    400010: Foot.L.001
+    400012: Foot.L.001_end
+    400014: Foot.L_end
+    400016: Foot.R
+    400018: Foot.R.001
+    400020: Foot.R.001_end
+    400022: Foot.R_end
+    400024: ForeArm.L
+    400026: ForeArm.R
+    400028: Hand.L
+    400030: Hand.L_end
+    400032: Hand.R
+    400034: Hand.R_end
+    400036: Head
+    400038: Head.001
+    400040: Head_end
+    400042: Hips
+    400044: Hips.001
+    400046: Humanoid.001
+    400048: LowerLeg.L
+    400050: LowerLeg.L.001
+    400052: LowerLeg.R
+    400054: LowerLeg.R.001
+    400056: Neck
+    400058: Neck.001
+    400060: Neck.002
+    400062: Neck.003
+    400064: Neck.004
+    400066: Neck.005
+    400068: NoiseMaker
+    400070: NoiseMaker.001
+    400072: NoiseMaker.001_end
+    400074: Pony
+    400076: Pony.001
+    400078: Pony.002
+    400080: Pony.002_end
+    400082: Shoulder.L
+    400084: Shoulder.R
+    400086: Spine1
+    400088: Spine1.001
+    400090: Spine2
+    400092: Tail
+    400094: Tail.001
+    400096: Tail.002
+    400098: TailBase
+    400100: UpperArm.L
+    400102: UpperArm.R
+    400104: UpperLeg.L
+    400106: UpperLeg.L.001
+    400108: UpperLeg.R
+    400110: UpperLeg.R.001
+    2100000: No Name
+    2100002: Drumbird
+    2100004: Beringia
+    2300000: Beringia
+    2300002: Drumbird
+    2300004: Drumbird.001
+    3300000: Beringia
+    3300002: Drumbird
+    3300004: Drumbird.001
+    4300000: Beringia
+    4300002: Drumbird
+    4300004: Drumbird.001
+    7400000: Humanoid.001|Idle
+    7400002: Humanoid.001|T-Pose
+    7400004: Humanoid.001|Drumming
+    7400006: Humanoid.001|Transition
+    9500000: //RootNode
+    13700000: Beringia
+    13700002: Drumbird
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beringia
+    second: {fileID: 2100000, guid: 03ac24cce517853498c2f825e1db1a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drumbird
+    second: {fileID: 2100000, guid: ad7c79ff7269e4541858e9ac22607c39, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Humanoid.001|Drumming
+      takeName: Humanoid.001|Drumming
+      firstFrame: 0
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Humanoid.001|Idle
+      takeName: Humanoid.001|Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Humanoid.001|T-Pose
+      takeName: Humanoid.001|T-Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Humanoid.001|Transition
+      takeName: Humanoid.001|Transition
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

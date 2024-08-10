@@ -1,0 +1,27 @@
+# Exported from ProBuilder
+# http://www.procore3d.com/probuilder
+# 8/22/2018 11:59:19 PM
+
+mtllib ./BlockWindow.mtl
+o BlockWindow
+
+g BlockWindowOrig
+v 0 0 0
+v 4 0 0
+v 0 3 0
+v 4 3 0
+
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+
+vt 2.994752 -2.679574
+vt -0.06774807 -2.679574
+vt 2.994752 -0.382699
+vt -0.06774807 -0.382699
+
+g BlockWindowOrig
+usemtl CCC_BlockWindow
+f 1/1/1 2/2/2 4/4/4 3/3/3
+

@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 9e3014f3bcb9a8d41a3d87e18bf22e55
+timeCreated: 1552322707
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Circle
+    100004: Curtain
+    100006: CurtainPath
+    100008: CurtainEdge
+    100010: Tree
+    100012: TreeBase
+    100014: Tree.001
+    100016: TreeBase.001
+    100018: Tree.002
+    100020: Tree.003
+    100022: TreeBase.002
+    100024: TreeBase.003
+    100026: Tree.004
+    100028: TreeBase.004
+    100030: Cylinder
+    100032: Tree.005
+    100034: TreeBase.005
+    100036: Tree.006
+    100038: TreeBase.006
+    100040: Tree.007
+    100042: Tree.008
+    100044: TreeBase.007
+    100046: TreeBase.008
+    100048: Tree.009
+    100050: TreeBase.009
+    100052: TreeBase.010
+    400000: //RootNode
+    400002: Circle
+    400004: Curtain
+    400006: CurtainPath
+    400008: CurtainEdge
+    400010: Tree
+    400012: TreeBase
+    400014: Tree.001
+    400016: TreeBase.001
+    400018: Tree.002
+    400020: Tree.003
+    400022: TreeBase.002
+    400024: TreeBase.003
+    400026: Tree.004
+    400028: TreeBase.004
+    400030: Cylinder
+    400032: Tree.005
+    400034: TreeBase.005
+    400036: Tree.006
+    400038: TreeBase.006
+    400040: Tree.007
+    400042: Tree.008
+    400044: TreeBase.007
+    400046: TreeBase.008
+    400048: Tree.009
+    400050: TreeBase.009
+    400052: TreeBase.010
+    2100000: No Name
+    2100002: Curtain
+    2100004: Ground
+    2100006: Base
+    2100008: Tree
+    2100010: IwasakiTree
+    2300000: //RootNode
+    2300002: Circle
+    2300004: Curtain
+    2300006: CurtainPath
+    2300008: CurtainEdge
+    2300010: Tree
+    2300012: TreeBase
+    2300014: Tree.001
+    2300016: TreeBase.001
+    2300018: Tree.002
+    2300020: Tree.003
+    2300022: TreeBase.002
+    2300024: TreeBase.003
+    2300026: Tree.004
+    2300028: TreeBase.004
+    2300030: Cylinder
+    2300032: Tree.005
+    2300034: TreeBase.005
+    2300036: Tree.006
+    2300038: TreeBase.006
+    2300040: Tree.007
+    2300042: Tree.008
+    2300044: TreeBase.007
+    2300046: TreeBase.008
+    2300048: Tree.009
+    2300050: TreeBase.009
+    2300052: TreeBase.010
+    3300000: //RootNode
+    3300002: Circle
+    3300004: Curtain
+    3300006: CurtainPath
+    3300008: CurtainEdge
+    3300010: Tree
+    3300012: TreeBase
+    3300014: Tree.001
+    3300016: TreeBase.001
+    3300018: Tree.002
+    3300020: Tree.003
+    3300022: TreeBase.002
+    3300024: TreeBase.003
+    3300026: Tree.004
+    3300028: TreeBase.004
+    3300030: Cylinder
+    3300032: Tree.005
+    3300034: TreeBase.005
+    3300036: Tree.006
+    3300038: TreeBase.006
+    3300040: Tree.007
+    3300042: Tree.008
+    3300044: TreeBase.007
+    3300046: TreeBase.008
+    3300048: Tree.009
+    3300050: TreeBase.009
+    3300052: TreeBase.010
+    4300000: Circle
+    4300002: CurtainPath
+    4300004: Curtain
+    4300006: CurtainEdge
+    4300008: TreeBase
+    4300010: Tree
+    4300012: TreeBase.001
+    4300014: Tree.001
+    4300016: TreeBase.003
+    4300018: Tree.003
+    4300020: TreeBase.002
+    4300022: TreeBase.004
+    4300024: Tree.004
+    4300026: Cylinder
+    4300028: TreeBase.005
+    4300030: Tree.005
+    4300032: TreeBase.006
+    4300034: Tree.006
+    4300036: TreeBase.008
+    4300038: Tree.008
+    4300040: TreeBase.007
+    4300042: TreeBase.009
+    4300044: Tree.009
+    4300046: TreeBase.010
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: ffa8c3c6ebe7c0848a0dc79dc5f52ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curtain
+    second: {fileID: 2100000, guid: 0b6ec88fe74ade7468f5b1bd4ea68b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: b8d67b0312a3cd942a7d3628c339406a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IwasakiTree
+    second: {fileID: 2100000, guid: e1291765fb7add140bfc68124d93d211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 8d8caee455aa10646a434da7f2364b40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree
+    second: {fileID: 2100000, guid: cc0058364fe41354797dc4e436ba8bee, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

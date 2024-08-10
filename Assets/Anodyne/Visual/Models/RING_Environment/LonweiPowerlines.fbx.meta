@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 9f255122de2bb854ba037a08ec95d043
+timeCreated: 1553314781
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder
+    100002: Cylinder.001
+    100004: //RootNode
+    100006: Cylinder.002
+    100008: DoublePole
+    100010: DoublePole.001
+    100012: Y-Pole
+    100014: Y-Pole2
+    100016: DoublePole.002
+    100018: DoublePole.003
+    100020: Y-Pole.001
+    100022: DoublePole.004
+    100024: Y-Pole.002
+    100026: DoublePole.005
+    100028: DoublePole.006
+    100030: DoublePole.007
+    100032: Wires
+    100034: Wires.001
+    100036: DoublePole.008
+    100038: DoublePole.009
+    100040: DoublePole.010
+    100042: Y-Pole.004
+    100044: DoublePole.011
+    100046: Wires.002
+    100048: Wires.003
+    100050: HorizontalWires
+    100052: WiresTube
+    100054: WiresTube.001
+    100056: WiresTube.002
+    400000: Cylinder
+    400002: Cylinder.001
+    400004: //RootNode
+    400006: Cylinder.002
+    400008: DoublePole
+    400010: DoublePole.001
+    400012: Y-Pole
+    400014: Y-Pole2
+    400016: DoublePole.002
+    400018: DoublePole.003
+    400020: Y-Pole.001
+    400022: DoublePole.004
+    400024: Y-Pole.002
+    400026: DoublePole.005
+    400028: DoublePole.006
+    400030: DoublePole.007
+    400032: Wires
+    400034: Wires.001
+    400036: DoublePole.008
+    400038: DoublePole.009
+    400040: DoublePole.010
+    400042: Y-Pole.004
+    400044: DoublePole.011
+    400046: Wires.002
+    400048: Wires.003
+    400050: HorizontalWires
+    400052: WiresTube
+    400054: WiresTube.001
+    400056: WiresTube.002
+    2100000: No Name
+    2100002: Wires
+    2100004: Pole
+    2300000: Cylinder
+    2300002: Cylinder.001
+    2300004: Cylinder.002
+    2300006: DoublePole
+    2300008: DoublePole.001
+    2300010: Y-Pole
+    2300012: Y-Pole2
+    2300014: DoublePole.002
+    2300016: DoublePole.003
+    2300018: Y-Pole.001
+    2300020: DoublePole.004
+    2300022: Y-Pole.002
+    2300024: DoublePole.005
+    2300026: DoublePole.006
+    2300028: DoublePole.007
+    2300030: Wires
+    2300032: Wires.001
+    2300034: DoublePole.008
+    2300036: DoublePole.009
+    2300038: DoublePole.010
+    2300040: Y-Pole.004
+    2300042: DoublePole.011
+    2300044: Wires.002
+    2300046: Wires.003
+    2300048: HorizontalWires
+    2300050: WiresTube
+    2300052: WiresTube.001
+    2300054: WiresTube.002
+    3300000: Cylinder
+    3300002: Cylinder.001
+    3300004: Cylinder.002
+    3300006: DoublePole
+    3300008: DoublePole.001
+    3300010: Y-Pole
+    3300012: Y-Pole2
+    3300014: DoublePole.002
+    3300016: DoublePole.003
+    3300018: Y-Pole.001
+    3300020: DoublePole.004
+    3300022: Y-Pole.002
+    3300024: DoublePole.005
+    3300026: DoublePole.006
+    3300028: DoublePole.007
+    3300030: Wires
+    3300032: Wires.001
+    3300034: DoublePole.008
+    3300036: DoublePole.009
+    3300038: DoublePole.010
+    3300040: Y-Pole.004
+    3300042: DoublePole.011
+    3300044: Wires.002
+    3300046: Wires.003
+    3300048: HorizontalWires
+    3300050: WiresTube
+    3300052: WiresTube.001
+    3300054: WiresTube.002
+    4300000: Cylinder.001
+    4300002: Cylinder
+    4300004: Cylinder.002
+    4300006: DoublePole.001
+    4300008: DoublePole
+    4300010: Y-Pole2
+    4300012: Y-Pole
+    4300014: DoublePole.003
+    4300016: DoublePole.002
+    4300018: Y-Pole.001
+    4300020: DoublePole.004
+    4300022: Y-Pole.002
+    4300024: DoublePole.005
+    4300026: DoublePole.006
+    4300028: DoublePole.007
+    4300030: Wires.001
+    4300032: Wires
+    4300034: DoublePole.008
+    4300036: DoublePole.010
+    4300038: Y-Pole.004
+    4300040: DoublePole.009
+    4300042: DoublePole.011
+    4300044: Wires.002
+    4300046: Wires.003
+    4300048: HorizontalWires
+    4300050: WiresTube
+    4300052: WiresTube.001
+    4300054: WiresTube.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pole
+    second: {fileID: 2100000, guid: e2886c63505d7de4998f94ee31aa458e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wires
+    second: {fileID: 2100000, guid: 767769f06c570c14dbed5dde63ce3bbf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
