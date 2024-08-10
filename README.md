@@ -1,4 +1,6 @@
-This is a complete repository of Anodyne 2, the 2019 game made by Analgesic Productions, compiled by original programmer and co-developer Melos Han-Tani in August 2024 for the game's 5th Anniversary. Find me on Twitter [https://twitter.com/han_tani](https://twitter.com/han_tani)! Check out this account's other projects for other things I've 99%-open sourced from my games. Note this is technically not Open Source because there's a clause preventing usage that would screw me over as an independent developer. But for most reasonable use cases it's effectively open source.
+This is a complete repository of Anodyne 2! Everything here is FREE TO USE FOR YOUR OWN PROJECTS OR MODIFY (under some generous conditions, see license.)
+
+Anodyne 2 is the 2019 game made by Analgesic Productions, compiled by original programmer and co-developer Melos Han-Tani in August 2024 for the game's 5th Anniversary. Find me on Twitter [https://twitter.com/han_tani](https://twitter.com/han_tani)! Check out this account's other projects for other things I've 99%-open sourced from my games. Note this is technically not Open Source because there's a clause preventing usage that would screw me over as an independent developer. But for most reasonable use cases it's effectively open source.
 
 [Trailer](https://www.youtube.com/watch?v=yT6yQm3JM3E)
 
@@ -29,7 +31,9 @@ Please check out our upcoming (at time of writing, 8/2024) game, [Angeline Era.]
 * Anodyne 2 has Kartridge integration (an old store) and Steam integration, however I'm not sure if I can distribute those freely so they've been removed. The calls to the Steam APIs are still included, though.
 * This game has no console support (that was done by Ratalaika and we don't have that source code.)
 
-## Other
+# Other
+* Have questions on how something works? Ask here, via e-mail, or Discord.
+* There's no music source files here - I didn't have time to figure that out, but happy to upload anything
 * There are occasional occurences of old names of Marina and I's, that I didn't want to change bc it might break some things. We don't use these names so please ignore them!
 
 # Legal Notes 
