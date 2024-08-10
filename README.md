@@ -1,4 +1,4 @@
-This is a complete repository of Anodyne 2! Everything here is FREE TO USE FOR YOUR OWN PROJECTS OR MODIFY (under some generous conditions, see license.)
+This is a complete, Basically-Open-Source* repository of Anodyne 2! Everything here is FREE TO USE FOR YOUR OWN PROJECTS OR MODIFY (under some generous conditions, see license.)
 
 Anodyne 2 is the 2019 game made by Analgesic Productions, compiled by original programmer and co-developer Melos Han-Tani in August 2024 for the game's 5th Anniversary. Find me on Twitter [https://twitter.com/han_tani](https://twitter.com/han_tani)! Check out this account's other projects for other things I've 99%-open sourced from my games. Note this is technically not Open Source because there's a clause preventing usage that would screw me over as an independent developer. But for most reasonable use cases it's effectively open source.
 
@@ -38,5 +38,6 @@ Please check out our upcoming (at time of writing, 8/2024) game, [Angeline Era.]
 * There are occasional occurences of old names of Marina and I's, that I didn't want to change bc it might break some things. We don't use these names so please ignore them!
 
 # Legal Notes 
+* (Regarding "Basically Open Source") - Yes, technically this is not pure Open Source. As this is a commercial game there are endless reasons why it's a terrible idea to make this purely Open Source, although it would be amusing to try to see someone actually repackage and market the game lol. (Good luck...)
 * We don't own anything in the Plugins folder, however, they are all freely available plugins so I left them there
 * We don't own any of the Font assets. AFAIK these were all free to use, but just note we don't own those fonts and are only distributing them so the game doesn't display everything in times new roman or something
