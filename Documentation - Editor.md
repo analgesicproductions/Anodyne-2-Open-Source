@@ -42,11 +42,6 @@ Everything else is OK. Some stuff like the pause menu, the player controller, et
 * You can also tick "Auto Set" on any scene's instance of the Loader prefab's Data Loader script, then type in flag names, and all those flags will be set to 1 when starting the game in that scene.
 * You can also set the "Progress Skip" value to a certain point in the story to update the game's flags to be at that point in the game.
 
-Common Systems
-* Cutscenes
-* Audio/SFX
-* Showing Dialogue
-* Changing Scenes
 
 # 3D Scenes
 
