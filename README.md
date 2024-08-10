@@ -2,8 +2,8 @@ This is a complete repository of Anodyne 2! Everything here is FREE TO USE FOR Y
 
 Anodyne 2 is the 2019 game made by Analgesic Productions, compiled by original programmer and co-developer Melos Han-Tani in August 2024 for the game's 5th Anniversary. Find me on Twitter [https://twitter.com/han_tani](https://twitter.com/han_tani)! Check out this account's other projects for other things I've 99%-open sourced from my games. Note this is technically not Open Source because there's a clause preventing usage that would screw me over as an independent developer. But for most reasonable use cases it's effectively open source.
 
-[Trailer](https://www.youtube.com/watch?v=yT6yQm3JM3E)
 
+- You can contribute to the Wiki here or start a topic on the Discussions tab if you want to contribute info on the code/ask questions, etc.
 - [Installation.md](Installation.md): Installation info
 - [Development History](DEVELOPMENT%20HISTORY.md): History
 - [Documentation - Level and Scene Guide.md](Documentation%20-%20Level%20and%20Scene%20Guide.md): Info on which Unity Scenes are which levels
