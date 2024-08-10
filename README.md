@@ -4,12 +4,13 @@ Anodyne 2 is the 2019 game made by Analgesic Productions, compiled by original p
 
 [Trailer](https://www.youtube.com/watch?v=yT6yQm3JM3E)
 
-- Installation.md: Installation info
+- [Installation.md](Installation.md): Installation info
+- [Development History](DEVELOPMENT%20HISTORY.md): History
 - Documentation - Level and Scene Guide.md: Info on which Unity Scenes are which levels
 - Documentation - Editor.md: Explanation of using the Editor to make and change levels
 - Documentation - Folders.md: Explanation of folder structure
-- LICENSE.md and LICENSE_FOR_DERIVATIVES.md for licenses
-- FAQ.md for common questions
+- [LICENSE.md](LICENSE.md) and [LICENSE_FOR_DERIVATIVES.md](LICENSE_FOR_DERIVATIVES.md) for licenses
+- [FAQ.md](FAQ.md) for common questions
 - Talk to us on Discord ([https://discord.com/invite/analgesic](https://discord.com/invite/analgesic)) or e-mail ([hello@analgesic.productions](mailto:hello@analgesic.productions))
 
 Note that while anyone is free to browse the game assets and codebase, only paid owners of the game may download and use the game assets (see below for detail.) Anyone can use the source code, though!
