@@ -25,7 +25,7 @@ Use these features to learn how the game works!
 * **Fonts** - self-explanatory
 * **Prefabs** - Contains prefabs for things like the enemies in 2D, or certain 3D objects in 3D (Save points... Doors... whatever the heck "pb_Mesh-1475698" is...). This folder is kind of confusing to browse, it's easier to see the prefabs in-context in the various Scenes.
 * **Scenes** 
-	* Main Game - contains all the game's levels. You probably want this. See the **Editor documentation** for notes on which scenes correspond to what levels
+	* Main Game - contains all the game's levels. You probably want this. See the Level and Scene Guide (https://github.com/analgesicproductions/Anodyne-2-Open-Source/blob/main/Documentation%20-%20Level%20and%20Scene%20Guide.md) for notes on which scenes correspond to what levels
 	* The other folders: Contain the post-game, debug, metaclean framework related scenes. Some of these are art tests, some are broken, some are old controls tests
 * **Scripts**
 	* The organization is not great here, but generally
