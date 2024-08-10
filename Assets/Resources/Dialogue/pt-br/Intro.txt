@@ -1,0 +1,1018 @@
+﻿// ------------------ ------------------
+//-------------CONTROLS, INSTRUCTIONS---
+//--------------------------------------
+
+scene instructions
+// After gaining control in Albumen
+Use {MOVEMENT} para se mover.
+No teclado, pressione {CAMTOGGLEK} para mudar o ângulo da câmera, e {ZOOMINK}/{ZOOMOUTK} para mudar a distância da câmera.  Com o controle, use o analógico direito e os gatilhos de trás para mover a câmera.
+Pressione {JUMP} para pular. Você pode pular uma segunda vez enquanto estiver no ar. Depois de um pulo, continue segurando {JUMP} para diminuir sua queda.
+Para mudar os controles, qualidade gráfica, e opções de gameplay, pressione {PAUSE} para abrir o Menu Pause. Desculpe por te contar tudo de uma única vez! ...Se você esquecer de qualquer coisa, cheque a seção 'Controles' no menu de Configurações!
+
+// Near the first statue
+Ande até a Gema e pressione {TALK} para falar com ela.
+
+// Press 
+Interaja com o ambiente ao atirar uma faísca. Pressione {SPECIAL} para atirar a faísca na Gema. Você pode entrar no Nanoponto ao atirar faíscas repetidas vezes.
+
+ignore
+
+// After ridescale tutorial
+Entre em Escalomóvel ao pressionar {RIDESCALE}.
+Em Escalomóvel, você pode pressionar {JUMP} para performar um pequeno impulso.
+
+endscene
+
+scene interaction
+Pressione {TALK}: Conversar
+ignore
+Pressione {TALK}: Salvar Jogo
+Pressione {TALK}: Entrar em Porta
+Pressione {TALK}: Abrir
+endscene
+
+scene nanounlock
+[FADE]
+O ar está denso com a presença de Nano Poeira...
+Nova!
+Faísque esse ser, e forje uma conexão!
+Limpe-os - e mude o destino deles!
+Encolha adiante, Nano Limpadora Nova!
+endscene
+
+
+scene nanounlock-alt
+[FADE]
+O ar está denso de... ar, eu acho? Pelo menos não é Poeira!
+...Nova!
+Faísque esse ser, e forje uma conexão!
+Adentre-os - e... dê uma olhada!
+Encolha adiante, Nano Limpadora Nova!
+endscene
+
+
+//-------------------
+//----ALBUMENIUM-----
+//-------------------
+
+
+scene alb-wake
+//<a backlight glow fades in revealing C Psalmist’s silhouette>
+CP2:n Alguns dizem que a vida é um círculo... Loucura! Todas as coisas crescem de um ponto - um centro. Tudo que há de vir já estava aqui: ela derrete de uma pequena cápsula, como uma esponja a florescer. 
+CP2:n A beleza é presenciar a verdadeira forma do ponto primordial, seus fractais abertos até seus limites. As pontas atômicas e indivisíveis de seus tentáculos. O tempo, no fim das contas, é um espelho. Uma ilusão, e ainda assim, a forma mais verdadeira de ver a si mesmo.
+// psalmist stops strumming
+CP2:n ...
+//<another backlight reveals Palisade silhouette>
+endscene
+
+scene alb-wake-2
+PAL2:n Belas palavras como sempre! Mas não nos apressemos tanto assim. Aquele que estamos aqui para conhecer é meramente um bebê, ainda não chocado... Nós precisamos guiá-lo gentilmente até a luz do mundo.
+PAL2:n Olha só! Nossa preciosa Nova parece estar se mexendo...
+//<Fade to black> Change scenes.
+endscene
+
+scene alb-wake-3
+[FADE]
+As palavras seguintes são as primeiras que Nova ouvirá. Com o tempo, os conteúdos da fala irão cair em obscuridade, mas ela jamais se esquecerá da primeira vez em que ouviu essa voz. 
+Ah, sim, aquela voz! Tão fragrante, tão bela, que fez com que Nova sentisse vontade de chorar. (Se tivesse sido abençoada com canais lacrimais, talvez tivesse.)
+Talvez você tenha se esquecido do quão difícil é quando você nota pela primeira vez que existe. Nova certamente sentia isso agora. Mas quando ela ouviu aquele ser falar... ela pensou... talvez valha a pena.
+[FADEOFF]
+PAL2:n Nova... Nova, consegue me ouvir? Respire fundo, minha querida, e abra seus olhos.
+endscene
+
+scene alb-wake-3-2
+[FADE]
+...
+... ...
+... ... ...
+Da escuridão, um brilho laranja, e do silêncio, o bater das ondas...
+[FADEOFF]
+endscene
+
+
+scene alb-wake-4
+PAL2:n Aí está ela! Ainda meio tonta, não é? Não se preocupe, é natural se sentir desorientada quando se ganha consciência pela primeira vez. Criança, seu nome é Nova, e você é uma criatura extraordinária com a habilidade única de se encolher a níveis microscópicos. Será muito útil, como você verá em breve!
+PAL2:n Meu nome é Paliçada, e eu estou aqui com a Salmista C! Juntas, nós serviremos como suas protetoras e guias.
+endscene
+
+//  <A drawing of them appears, with different parts fading in alongside a sketchy pen nib sound effect. (maybe we find like a handwritingy font for the text so it's localizable)>
+// images here
+
+scene alb-wake-5
+P: Você gostaria de dizer olá para Nova, Salmista C?
+
+[faceanim BaseScreen 0,1 1x2]
+CP: Um... er... s-saudações, pequena Nova. Sou eu, Salmista C! Eu estou falando convosco de fora de seu ovo. 
+CP: Umm... ahem. 
+CP: O Espaço, afinal de contas, é uma ilusão. Ela se assemelha a... um espelho. 
+CP: Um espelho é um vidro refletivo, a propósito. Eu costumava pensar que era um telescópio ou um microscópio... sabe, uhh, um tipo de objeto com forma de tubo...
+[faceanim BaseScreen 0,0 1x2]
+Pal: Obrigada por seu iluminoso esclarecimento, Salmista C! 
+
+//<Fadescreen, pal talks over the fadescreen in textbox while parts of a drawing fade in>
+Pal: Agora, Nova... como Salmista C mencionou, você está dentro de um ovo! 
+//<egg fades in> 
+Pal: Para eclodir e realmente começar sua vida, você deve entrar no monotrilho "Linha de Eclosão" que sai do topo da colina. 
+//<hatchline fades in> 
+Pal: Ah, mas você só pode sair após obter a sagrada Semente Glandilock!
+//<glandilock seed fades in> 
+Pal: Por ora, você pode pensar na Semente Glandilock como a sua passagem.
+
+[CUT TO yolkVC]
+P: Primeiramente, você deve falar com as 3 Figuras de Gema. Cada Gema te dará um item especial que irá te preparar para hospedar a Semente Glandilock. E então, fale com a Árvore Chalaza no ponto mais alto da ilha.
+
+[CUT TO tvVC]
+P: Vá atrás deles, Nova!	
+
+//<fade out and back in. After the fade in, Nova is now standing up and ready to walk around. THE ALBUMENIUM appears across the screen>
+endscene
+
+scene alb-reminder
+P: Primeiro, fale com as 3 Figuras de Gema. Cada Gema te dará um item especial que irá te preparar para hospedar a Semente Glandilock. E então, fale com o Grande Chalaza, uma criatura com forma de árvore no ponto mais alto da ilha. Você consegue, Nova!
+endscene
+
+scene yolk-alt
+Gema Deliciosa: Olá novamente, Nova! Está gostando do nosso Cereal de Frutas do $Centro? Nós a testamos no mercado doze vezes para termos o perfeito equilíbrio entre 'crocância' e 'maneiro'!
+Gema Refrescante: Yo... Nova... seja bem-vinda de volta a Gema do Gole! Tomando um gole daquele delicioooso Leite de Gema que você pegou? Mmm mmm... nada como um Leite de Gema para começar o dia.
+Gema Acolhedora: Olá de novo! Bem-vinda de volta a Gema do Conforto. Está gostando do Reguloid que te demos? Ah, sim, sim, bom... ah. Se você tiver quaisquer problemas com ele, você pode nos contatar a qualquer hora!
+endscene
+
+scene yolk1
+Gemanda a Gema: Olá, Nova! Você encolheu até o interior microscópico da Gema do Gosto, a Gema mais importante do dia! Aqui você encontrará provisões para manter sua futura Semente Glandilock feliz e saudável!
+
+Gema Deliciosa: Nova irá amar o nosso Cereal de Frutas do $Centro porque ele contém quantidades vestigiais de 17 micronutrientes nas proporções recomendadas pelo Centro! (E a Semente Glandilock irá amar a nossa patente "Crocância-Maneira" de sabor!)
+
+Gema Deliciosa: Hmmm... e se tivéssemos uma Semente Glandilock própria?
+Gema Deliciosa: ...
+Gema Deliciosa: Eep!! Não se preocupe comigo! Nós podemos nos exibir e tudo aqui na Gema do Gosto, mas o desenvolvimento de comestíveis crocantes, deliciosos e nutritivos é tudo que sabemos!
+
+Gema Deliciosa: Parabéns, você é realmente merecedora da nossa mais requintada comida 'A' Glandilock! Personagens de desenhos animados sofrerão muitos encontros difíceis devido à alta qualidade do nosso Cereal de Frutas do $Centro. Mas podemos dizer que você será uma boa administradora da sua Semente Glandilock!
+
+// 6
+Gemanda a Gema: Wowee!! Nossa limpadora estimada veio nos visitar!! Oh deus, oh deus, e eu sou a primeira nano amiga que ela conhecerá!! Carambolas, preciso me manter e lembrar as minhas falas... 
+Gemanda a Gema: (Espero que ela venha aqui e pressione {TALK} para falar comigo!)
+endscene
+
+scene yolk2
+Gema Refrescante: Yo... Nova... seja bem-vinda a Gema do Gole! Algumas pessoas diriam que uma Semente Glandilock deve beber 8 gotas do nosso delicioso Leite de Gema caseiro por ciclo celular, mas nós aqui na zona do Gole achamos que você deve relaxar com a matemática e apenas seguir o fluuuuxo...
+
+Gema Refrescante: A semente Glandilock é como uma linha direta para o Centro, saca? Apenas mantenha a mente aberta, sabe, e as respostas... vão te achar.
+
+Gema Refrescante: Mmm mmm mmm, nada como um pequeno gole de Leite de Gema para fazer as gavinhas da Glandilock crescerem profundas e fortes. Apenas vá às alturas, Nova... vá às alturas.
+
+Gema Refrescante: Nova... você conseguiu chegar até o Leite de Gema, mas é claro. Você relaxou e deixou seguir o fluuuxo, não é?
+endscene
+
+scene yolk3
+Gema Acolhedora: Bem-vinda a Gema do Conforto... sim, sim. Está se sentindo confortável? Sim, sim... nós cuidadosamente treinamos esses Reguloids para adaptar a atmosfera local às parcialidades precisas do seu corpo... temperatura, salinidade, acidez, lugubridade... e assim por diante.
+
+Reguloid: Woof wo-woof! (Tradução: Temperatura: 36 graus gemanheit)
+
+Reguloid: Woofer woof-woo! (Tradução: Nível de Umidade do Ar: 5% de chance de um peixe conseguir respirar)
+
+Reguloid: Wo-wo woof-woofer! (Tradução: Luz dourada de verão, manchada por folhas de carvalho. O cheiro de caranguejo recém-ferido e dentes-de-leão. Uma brisa fresca inesperada surge do outro lado do lago. Um coelho amarelado senta-se e fareja antes de pular nos arbustos.)
+
+Gema Acolhedora: Hmm, sim, sim, sim... um pequeno Cereal, um pequeno Leite de Gema, sim. Coisas assim são necessárias. Porém, como o velho ditado diz, "uma Semente Glandilock não pode viver apenas de ingestão"! 
+
+Gema Acolhedora: Ahh, sim, de fato. É hora de você ter um Reguloid próprio! Que lindo, se transformar em uma casa. Que sua cabeça seja sempre um seguro e tranquilo lugar para a preciosa Semente Glandilock. Sim, sim, sim.
+endscene
+
+scene yolk-outside-1
+[FADE]
+A estranha figura está em silêncio. "Ela está viva?" Nova se pergunta. No entanto, seu olhar a chama. "Entre no meu prato, patê dourado", parece dizer. "Você encontrará uma parte deste café da manhã completo..."
+O destino da Gema e de Nova começam a ressoar. A presença de um novo Nanoponto está no ar. Faísque esse ser e revele seu Nanoponto! Encolha adiante, Nano Limpadora Nova.
+[FADE]
+A Gema do Gosto observa Nova de forma enigmática. "Você encontrou os tesouros enterrados em mim... mas o cereal deixado seco inflige dor às câmaras da boca..." Ele acena na direção de uma Gema mais acima da colina. 
+endscene
+
+scene yolk-outside-2
+[FADE]
+A segunda criatura de Gema balança na brisa com um profundo senso de relaxamento. "Maaaano" ela parece dizer. "Surfando nas ondas lactosas..."
+O destino da Gema e de Nova começam a ressoar. A presença de um novo Nanoponto está no ar. Faísque esse ser e revele seu Nanoponto! Encolha adiante, Nano Limpadora Nova.
+[FADE]
+A Gema do Gole assente afirmativamente com a cabeça para Nova. "Excelente," ela parece dizer. "Já relaxou com a Gema do Conforto no topo da colina?"
+endscene
+
+scene yolk-outside-3
+[FADE]
+A última criatura de Gema parece contemplar Nova com um olhar confortante, mas também analítico. "Ahhh... hmmm... sim, sim, sim..." ela parece dizer. "Um hospedeiro perfeito precisa de um reguloid perfeito..."
+O destino da Gema e de Nova começam a ressoar. A presença de um novo Nanoponto está no ar. Faísque esse ser e revele seu Nanoponto! Encolha adiante, Nano Limpadora Nova.
+[FADE]
+A Gema do Conforto contempla novamente Nova. "Ahhh... sim, sim, sim... tudo está em ordem por aqui," ela parece dizer. "Talvez ela esteja pronta para conhecer o ancião Chalaza..."
+endscene
+
+scene yolkchest
+Nova encontrou o Cereal de Frutas do $Centro, um dos três elementos da nutrição! Com ele, a Semente Glandilock terá todos os carboidratos que precisa para fazer um lar na cabeça de Nova.
+Nova encontrou o suculento Leite de Gema, um dos três elementos da nutrição! Com ele, a Semente Glandilock terá todos os nutrientes aprovados pelo governo necessários para se espalhar dentro da cabeça de Nova.
+Nova encontrou um Reguloid: Edição Pessoal, mais um dos três elementos da nutrição! O Reguloid irá adaptar a cabeça de Nova à um ambiente perfeito para a crescente Semente Glandilock!
+Nova encontrou uma Carta!
+Nova encontrou algo!
+endscene
+
+scene chalaza
+//<giant tree with a glandilock seed, has no concept of scale... thinks that this part of the game is huge and long and important>
+
+
+CH: Ahhhhhh... Nova... hmmmmm... Depois de todo esse tempo... nos encontramos finalmente!
+CH: Ahhhhhhhhhhhhhhhhhhhh... 
+CH: Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm... Nova! Eh.... Do que estávamos falando? Ah, sim.
+CH: Eu... sou a anciã Árvore Chalaza, protetora do conhecimento sagrado da Costa Albume! Desde o dia em que você apareceu nas nossas costas, eu acompanhei sua jornada... e oh! Que jornada tem sido! Reflita comigo, sobre essas doces e ousadas histórias que agora flutuam no rio nebuloso do passado.
+endscene
+
+scene chalaza-a1
+CH: Você se lembra... dos tempestuosos habitantes da Gema do Gosto, obcecados por cereal? 
+endscene
+
+scene chalaza-a2
+CH: Dos moradores descontraídos da Gema do Gole? 
+endscene
+
+
+scene chalaza-a3
+CH: E que tal daqueles cuidadores gentis e conscientes da Gema do Conforto? 
+endscene
+
+
+scene chalaza-a4
+CH: Ahhhhh... Eu ri! Eu chorei! Eu orei por sabedoria para abençoar suas decisões... Seus triunfos estrondosos e suas árduas lutas estarão gravadas em meus ramos por toda a eternidade!
+endscene
+
+scene chalaza-a5
+CH: E agora... você chegou até aqui, o topo do Monte Vitelina, do qual se pode examinar os lugares mais distantes dessa expansiva terra...
+CH: Conseguiu os 3 elementos da nutrição?
+CH: ...
+endscene
+
+scene chalaza-2
+//<If no> 
+[CUT TO chalazaVC]
+CH: Ahhhh... então infelizmente, eu devo ser o portador de notícias difíceis. Nova, sua subida hercúlea a este pico elevado foi em vão sem as bênçãos completas das 3 Gemas. Vá até quaisquer Gemas que tenhas perdido e só depois retorne para mim... Eu sei que a jornada será longa, mas eu tenho fé que, um dia, você retornará!
+endscene
+
+scene chalaza-if-failed
+CH: Ahhhhhh... Nova... hmmmmm... Nova...
+CH: Sou eu... a anciã Chalaza, protetora do conhecimento sagrado da Costa Albume! Há muito tempo atrás, no nosso primeiro encontro, você ainda não estava preparada para arcar com a grande responsabilidade da Semente Glandilock. Desde então, eu mantive a chama da esperança viva para que um dia você pudesse voltar.
+CH: Agora... conseguiu os 3 elementos da nutrição?
+endscene
+
+scene chalaza-3
+//<if yes>
+[CUT TO chalazaVC]
+CH: Ahhhh... ótimo... então minha época de antecipação está completa! Nova, concedo a você, a Semente Glandilock.
+endscene
+
+scene chalaza-4
+CH: E agora, Nova... é hora...
+[CUT TO chalazafarVC]
+CH: Já consigo sentir meu poder se esvaindo... a Era do Albume chega a um fim...
+[CUT TO hatchlineVC]
+CH: Rápido, Nova. Deite-se sobre a Linha de Eclosão. 
+[CUT TO chalazaVC]
+CH: E com o resto da minha energia... eu irei te mandar até o grande além!
+//<Cut to Nova lying down. Hatchline activates, we speed away over the waters, screen slowly fades to white>
+// Anodyne 2, Return to Dust appears in simple white font
+endscene
+
+scene yolk-wanted
+PROCURADO: VÍRUS POEIRA\nSr. Spiky
+Ele pode estar sentado ali, mas esse vírus está gritando comentários muito rudes para nossas pobres gemas. Tente atirar um bloco nele, e não se esqueça de aspirar qualquer poeira que ele possa deixar para trás!
+PROCURADO: VÍRUS POEIRA\nGosma Levemente-Temperada
+Não se engane pelo seu exterior adorável e pegajoso! Se não forem tratados, esses traquinas irritantes podem causar doenças sérias ao corpo de seu hospedeiro! Ao contrário do Sr. Spiky, eles são seguros para aspirar.
+endscene
+
+
+scene rock-loop
+Pedra: Bem-vindo! Pedras são surpreendentemente diversas e vêm em várias formas e tamanhos, embora, por destino divino, muitas delas pareçam iguais. Não deixe de falar com todas nós!
+endscene
+
+scene rock-messages
+ignore
+ignore
+ignore
+// In Yolk 1.
+Pedra: Há algumas obstruções coloridas parecidas com pedras bloqueando sua passagem! Tente usar seu Nano Aspirador para tirar as coisas do seu caminho!
+Segure {SPECIAL} para sugar objetos. Pressione {SPECIAL} para atirar eles de volta.
+// MOVE THIS TO ROCK NORTH
+Pedra: Às vezes pedras entram no caminho, mas outras vezes elas podem ser bem úteis! Não pinte toda pedra com um pincel amplo, é o que digo! A não ser que você as pinte muito bem. Uma moça na minha igreja pintou uma pedra para que ela se parecesse com um tigre com bigodinhos e tudo... muito legal!
+// 
+Pedra: Um abismo separa você daqueles danados vírus da poeira! Você está longe demais para sugá-los, mas talvez aja uma outra forma de se livrar deles...
+// 7
+Pedra: Por favor não atire nada contra os portões. Ao contrário da crença popular, você não deve simplesmente explodir tudo na sua frente!
+Pedra: Mais importante ainda, você pode arranhar a pintura. Você não fez isso ainda, certo?\n(-Departamento de Manutenção de Pintura de Portões)
+endscene
+
+scene gate-hit
+Portão: Ouch! Cuidado! Você vai arranhar a minha pintura! Se você quer que eu abra, direcione sua agressão aos Vírus da Poeira em vez de em mim!
+endscene
+
+scene yolk-sucked
+Gema: E-ei espere, Nova!! Eu sou uma Gema útil, não um Vírus da Poeira letal! Por favor apenas fale comigo!
+endscene
+
+scene reguloid-sucked
+Reguloid: Woo-woof! Woof woof! (Tradução: Eu só queria ajudar Nova! Eu não sou um Vírus da Poeira!)
+endscene
+
+scene chest-sucked
+Baú Trancado: Gwahahahaha!! Eu sou um baú trancado!! Minha trava especializada é completamente impermeável a todas as formas de sucção a vácuo!!
+(Hmm... eu apenas espero que eu não me depare com ninguém com mãos... mãos são a maior fraqueza da minha trava!!)
+endscene
+
+// -------------
+// GROWTH CHAPEL
+// -------------
+
+scene chapel-test
+PAL: Seja bem-vinda, Nova!
+CP: Olá!
+endscene
+
+scene prism-come-here
+PAL: Nova, você conseguiu! Eu vou te contar tudo sobre aquele dispositivo em breve, mas por ora, venha até mim para uma pequena conversa!
+endscene
+
+
+
+scene chapel-entry
+PAL: Aí está você, pequenina, eu sabia que você conseguiria! Bem-vinda à Vida!
+
+[CUT TO cutscenevc]
+PAL: Nova, você está no Santuário do $Centro, a morada do Centro! O Centro é… bem, é difícil de explicar para alguém que acabou de nascer, não é mesmo? O Centro é o centro... ele criou cada um de nós, assim como o nosso mundo: a ilha de Nova Terrândia. O Centro é como um artista, e nós somos as suas pinturas, uma bela expressão de sua visão!
+CP: O Centro é tudo. Ou melhor, o Centro simplesmente É. Nossas vídas são como sombras projetadas pela verdadeira forma do Centro, da qual um dia se tornará aparente.
+// 4
+[CUT TO palvc]
+PAL: Hmm... talvez sejamos ambos os artistas e a arte de Nova Terrândia. Nós moldamos e somos moldados um pelo outro... ao tratar nossos vizinhos com gentileza, nós podemos construir uns aos outros.
+
+[CUT TO cpvc]
+CP: Erm... bem... eu não sei se eu iria tão longe assim, Paliçada... qualquer bem que possamos conseguir flui diretamente da retidão do Centro. Mas de qualquer forma, precisamos nos concentrar.
+CP: Nova, escute com atenção. Eu irei revelar a você o seu verdadeiro propósito e o caminho adiante.
+CP: Você nasceu em uma zona de guerra, Nova. É verdade, não é uma competição de espadas ou armas, de exércitos ou infantaria... participamos de uma guerra que é quase invisível e, no entanto, totalmente traiçoeira... nós enfrentamos uma força mortal que enruga a face do tempo, como uma fera à espreita ondula a superfície de um lago, interrompendo o claro reflexo de nossas almas.
+CP: Nos a chamamos de Nano Poeira...
+// 11
+//<Maybe a musical change? Some scary dust themed music that plays when nova sees uncomfortable dust-related stuff, or has flashbacks>
+//<illustrations>
+CP: Ela começa pequena, uma semente microscópica plantada em algum escuro e úmido canto dos órgãos. E então a Nano Poeira cresce, se alimentando da estrutura de nossas mentes, ampliando nossos medos, nossa ira, nossos desejos errados. Eventualmente ela floresce até complitude, obliterando completamente a identidade de seu hospedeiro.
+CP: Simetria, doce simetria, é o nosso direito de nascença como criações do Centro, e ainda assim, nos perdemos na Poeira. Começamos a decair. Decompor. Desmoronar. Poeira gera poeira, e nós nos esquecemos de quem realmente somos.
+//13 <Hopeful/worshipful music? or maybe just the harp music>
+CP: Nova, talvez seu verdadeiro propósito esteja agora se tornando aparente. Você recebeu as habilidades de encolher e limpar para poder reverter a maré de Poeira que ameaça nos dominar. Você deve navegar por longos caminhos, encolhendo dentro dos habitantes de Nova Terrândia, dos mais consumidos pela contaminação da Poeira. Você--
+
+[CUT TO cutscenevc]
+(De repente, uma pequena faísca voa em direção à cabeça de Nova.)
+PAL: —O que é isso?! Carta Paliçada, ativar!
+(Paliçada cria uma barreira usando seu escudo, contendo a faísca em um cubo brilhante.)
+PAL: Um Nano-intruso, tentando se infiltrar no seu corpo! Nova, eu posso contê-lo temporariamente, mas você deve encolher até nanoescala e destruí-lo! Não tenha medo, meu bem, eu estarei bem aqui. Eu sei que você consegue!!
+endscene
+
+//<control is given back to Nova, who can shrink inside the glowing cube where Pal is holding the Nanobot.>
+//<this allows Palisade to demonstrate the power of cards and also look out for you. it is perhaps a test/indoctrination scenario created by the center (though this is not necessarily revealed)>
+
+scene pollen-yolk
+Gema Empoeirada: N... Nova... é você? *tosse* ... Como eu vim parar aqui? *tosse* *tosse*
+Gema Empoeirada: Eu... eu vou ficar bem? Eu estou tão cansado, Nova... *tosse* eu nunca me senti assim antes...
+Gema Empoeirada: ... eu estou com medo.
+endscene
+
+scene pollen-rock
+[FADE]
+"A Nano Limpadora."
+Ela existe, e ela nasceu, para aspirar, para limpar, para resgatar...
+Que ela nos proteja do mal. 
+Que a Nano Limpadora salve Nova Terrândia e seus cidadãos de seus destinos.
+endscene
+
+scene cc-nanobot
+Nano Assassino: *TOSSE*.... *TOSSE*... NOVA IRÁ MORRER... O CENTRO IRÁ DESMORONAR... A POEIRA IRÁ CONSUMIR NOVA TERRÂNDIA... *HRRR-TOSSE*!!
+Nano Assassino: *HRRR-TOSSE*!! *TOSSE*... N... NOVA... IRÁ MORRER... O CENTRO... IRÁ DESMORONAR... A POEIRA... IRÁ CONSUMIR... NOVA TERRÂNDIA... *TOSSE* ...
+endscene
+
+scene cc-after-miniboss
+PAL: *Suspiro* você está crescendo tão rápido. Eu não esperava um desafio assim por um bom tempo, mas eu estou *tão* orgulhosa de você.
+[CUT TO cpvc]
+CP: Infelizmente, existem aqueles que desejam destruir Nova Terrândia. Apesar de sermos todos criados pelo Centro, a Nano Poeira pode infligir uma espécie de loucura. Agora, espero, que você possa ver a urgência de sua missão.
+[CUT TO elevatorvc]
+CP: Nova, vá até o elevador atrás de você e suba até a cidade. E sempre se lembre que você se opõe ao crescimento sempre-constante da degradação!
+endscene
+
+scene save-explanation
+Essa coisinha aqui é um ponto de save. Se aproxime dela e pressione {TALK} para abrir o menu de save e salvar o seu progresso.
+endscene
+
+
+// ----------
+//   CCC
+// ----------
+
+scene ccc-entry-captions
+Deposite Nano Poeira!
+*PERIGO DE TEMPESTADE*
+Aumente o nível do Prisma com Cartas!
+endscene
+
+scene ccc-entry
+PAL: Bem-vinda à Cidade Central Cenote, uma comunidade vibrante a construiu dentro das paredes dessa sagrada depressão geológica! Diretamente acima do Santuário do $Centro está o Prisma de Poeira, que armazena a Nano Poeira que você irá coletar.
+// Deposit Nano Dust, prism fills
+PAL: Você deve usar o Posto de Poeira no Santuário do $Centro para depositar #Poeira. Uma vez selada no Prisma de Poeira, a Nano Poeira pode florescer até complitude sem prejudicar Nova Terrândia! Assim que o Prisma de Poeira acumular #Poeira o suficiente, ela será enviada até o Centro para ser reciclada em energia.
+PAL: Mas o problema é! Antes de você ter nascido, o Prisma de Poeira foi danificado em uma tempestade terrível, e apenas pode conter uma pequena fração de sua capacidade total de #Poeira agora! Devido a essa falta de energia, o domínio da #Poeira avançou a um ponto onde não é mais seguro sair da cidade! Você pode ver a tempestade ainda assolando no céu...
+// level up prism with cards, card anim
+PAL: E é aqui que você entra, Nova! O Prisma de Poeira pode ser reforçada através de raras e poderosas Cartas que você pode encontrar enquanto Nano Limpa. Seu primeiro objetivo é reforçar o Prisma com 4 Cartas e preenchê-lo com 100cc de Nano Poeira. Aí o Centro será capaz de reciclar a #Poeira em energia e afastar a tempestade, te permitindo sair da Cidade Central Cenote!
+PAL: Resumindo, sua missão é procurar pela cidade por pessoas que precisam de limpeza, coletar a Poeira e Cartas dentro deles, e então depositar esses recursos de volta no Santuário do $Centro. Cheque seu progresso no Menu pressionando {PAUSE}. Você vai fazer um trabalho incrível, Nova!
+endscene
+
+scene sanc-reminder-intro
+PAL: Nova, sua missão é procurar pela cidade por pessoas que precisam de limpeza, colete a Poeira e Cartas dentro deles, e então depositar esses recursos de volta no Santuário do $Centro. Você vai fazer um trabalho incrível!
+endscene
+
+scene sanc-reminder-2
+PAL: Lembre-se Nova, nós precisamos de 100 unidades de Poeira para limpar a tempestade! Se você ainda precisar de mais após esvaziar sua vazilha, você pode encolher de volta em alguém que você já limpou!
+[FADE]
+A ideia de voltar ao mesmo local em Nanoescala fez Nova se sentir desconfortável, mas, se isso é o necessário para ajudar o Centro...
+endscene
+
+scene ridescaleprompt
+PAL: Demorando muito para se locomover, Nova? Agora que você está afora, tente usar sua forma Escalomóvel para andar pela cidade!
+(Pressione {RIDESCALE} para entrar e sair da forma Escalomóvel. Segure {CONFIRM} para acelerar. Segure {CANCEL} ou mova-se para trás para dar ré. Pressione {SPECIAL} para entrar em modo controle de navegação. Existem lugares que você não pode entrar em modo Escalomóvel. Se utilizar um controle, é altamente recomendável que se use {CONFIRM} para acelerar.)
+(Se você esquecer um controle, você pode checá-los novamente no menu Configurações.)
+PAL: Ah sim, Nova, mais uma coisa: às vezes, se você falar com uma pessoa mais de uma vez, elas terão coisas novas a dizer! Faça questão de conversar com frequência!
+// prompt appears
+endscene
+
+
+// Talks with Palisade after getting each of the first 4 cards
+scene pal-card-1
+PAL: Parabéns pela sua primeira Carta, Nova! Eu consigo ver que você será uma Nano Limpadora incrível para as pessoas de Nova Terrândia!
+PAL: A propósito, Nova... não se esqueça de descansar se você se sentir cansada. Coletar Cartas é importante, mas também é o seu bem-estar!
+endscene
+
+// Nova starts in hurt panting
+scene pal-card-2
+PAL: Uau! São 2 das 4 Cartas necessárias para aprimorar o Prisma de Poeira! Oh, Nova! Você está ferida!
+[FADE]
+Nova rapidamente endireita sua postura e balança a cabeça como um 'não'.
+[FADEOFF]
+PAL: Por favor, não se esforce demais. Você ainda é tão jovem. Lembre-se, eu estarei no Santuário do $Centro, caso precise de mim! Enquanto estiver lá, você pode depositar sua Poeira acumulada e sair com o corpo leve—é melhor não carregar um tanque cheio por mais tempo que o necessário!
+endscene
+
+
+
+
+scene pal-card-3
+// Nova spin out, fall, lying on ground
+PAL: Ahh, Nova... 
+[FADENOFADE]
+// fade to full alpha
+$PAL$ flutua até Nova, levanta-a gentilmente, e a acolhe em seus braços.
+[FADEOFF]
+...
+... ...
+// fade image of pal in
+// 6 Text box on screen
+PAL: Vai ficar tudo bem, querida. Você está dando o seu máximo e está fazendo um ótimo trabalho. Talvez um passeio fora da cidade te faça bem... o ar é mais fresco lá fora. Bem... estará em breve, assim que a tempestade de Poeira acabar...
+// 7fade out image of pal. bg still black.
+...
+[FADESONG CougherHome 1 0]
+Mais tarde, no Santuário do $Centro...
+CP: ...Eu não entendo o que estás a dizer, Paliçada. Você acha que o Centro está errado? Que nós devemos ceder à Poeira, e deixá-la dominar Nova Terrândia??
+PAL: Não! Claro que não... É só... a Nova. Ela não deveria arcar com um fardo desses sozinha.
+CP: Nova é a única que pode fazer isso, é o propósito de sua criação. E nós estamos aqui para ajudá-la! Mas no fim do dia, ela deve continuar a limpeza, ou tudo estará perdido. Todos nós devemos fazer sacrifícios pelo bem maior. Entende, Paliçada?
+PAL: ...
+PAL: Eu acho que entendo...
+...
+[FADESONG CCC 1 1]
+[FADESONG CougherHome 1 1]
+// fade alpha back
+endscene
+
+// fade after nova spins out
+scene pal-card-4
+[FADE]
+O estômago de Nova treme ao se lançar para fora da Nanoescala. "Isso é o que é", ela pensa para si mesma. "A transição está me deixando enjoada." Mas desta vez, ela não se deixa cair de joelhos. Ela odeia ver Paliçada parecendo tão preocupada. Mesmo que fosse agradável quando Paliçada a segurava...
+[FADEOFF]
+PAL: Olá, querida Nova! Agora que você tem as quatro cartas, por favor retorne para o Santuário do $Centro para aprimorar o Prisma de Poeira!
+endscene
+
+
+//------------
+// DUST DROP POINT
+//-------------
+
+scene ddp-intro
+PAL: Certo, docinho, esse é o Posto de Poeira Inferior! Depois de coletar um pouco de Poeira em Nanoescala, esse é o ponto onde você a enviará para o Centro!
+endscene
+
+scene ddp-too-early
+PAL: Esse é o Posto de $Poeira Inferior, Nova! Eu irei te mostrar como ele funciona em breve, mas primeiro, pegue o elevador do lado de fora!
+endscene
+
+scene ddp-greeting
+Console:n Saudações, Nano Limpadora Nova. Bem-vinda ao Posto de Poeira! Deixe-nos depositar toda Nano Poeira que você encontrou.
+endscene
+
+
+scene ddp-no-dust
+Console:n Parece que você não possui nenhuma Nano Poeira. Por favor retorne caso ache mais.
+endscene
+
+scene ddp-full-afterfilling
+Console:n Nova, você tem mais Poeira do que o Prisma consegue manter. Após expandir a capacidade do Prisma, você pode depositar qualquer Poeira restante.
+Console:n Nova, você tem mais Poeira do que o Prisma consegue manter. Não se preocupe, não há necessidade de você depositar mais Poeira.
+Console:n Nova, o Prisma de Poeira está cheio no momento. Ache mais Cartas para expandir sua capacidade.
+Console:n Nova, o Prisma de Poeira está cheio no momento. Por favor fale com Paliçada.
+Console:n Nova, o Prisma de Poeira está cheio no momento. Por favor fale com Salmista C.
+endscene
+
+// These are said while the dust filling cutscene is happening
+scene ddp-full-r0
+// Full 
+PAL: Você tem trabalhado tanto, Nova! Tanto que você tem mais Poeira do que o Prisma de Poeira consegue manter no momento! Por ora, que tal manter a Poeira restante no seu tanque até que você ache Cartas o suficiente para aprimorar O Prisma!
+PAL: Incrível, Nova! O Centro agora tem Poeira o suficiente para limpar a tempestade! Passe aqui e fale comigo e com a Salmista C.
+endscene
+
+
+scene ddp-dust-done
+Console:n Obrigado pelo seu depósito de Poeira, Nova. Por favor retorne em breve.
+endscene
+
+
+//------------
+// PRISM STUFF
+//-------------
+
+
+
+scene prism-need-more-cards
+Console:n Parece que você não tem poder de carta o suficiente para ampliar o tamanho do Prisma. Nova, volte mais tarde com pelo menos quatro Cartas.
+endscene
+
+scene prism-maxed
+Console:n Nova, o Prisma de Poeira já foi aprimorado completamente. Por favor continue a procurar Nano Poeira para que assim nosso mundo possa ser salvo.
+endscene
+
+scene prism-upgrade
+Console:n Ótimo, Nova. Você tem cartas o suficiente para aprimorar o Prisma de Poeira. Vamos começar o processo de aprimoramento!
+endscene
+
+scene prism-consec
+Console:n Incrível, Nova! Você ainda tem Cartas o bastante para aprimorar o Prisma de Poeira além. Se quiser, você pode falar comigo para continuar o processo.
+endscene
+
+scene prism-end
+Console:n Parabéns, Nova. Você reforçou o Prisma de Poeira e aprimorou sua capacidade em 50 unidades! Continue com o bom trabalho.
+endscene
+
+scene prism-disillusioned
+Nova is now disillusioned
+endscene
+
+// Story related prism stuff
+
+
+scene prism-greeting
+Console:n Bem-vinda ao Dispositivo de Reforço de Prisma, Nano Limpadora Nova. Por favor insira as cartas que você coletou, para que o Prisma de Poeira possa ser expandido.
+endscene
+
+scene prism-pal-intro
+PAL: O Prisma de Poeira permite que a Nano Poeira que você coletou floresça de forma segura. Assim que ela florescer, as nuvens de #Poeira podem ser recicladas em energia pelo Centro. 
+PAL: Infelizmente, o Prisma de Poeira foi enfraquecido pela grande tempestade e não pode manter sua capacidade total de Nano Poeira. Isso foi antes de você nascer, pequenina. Por favor colete Cartas raras para reforçar o Prisma de Poeira!
+endscene
+
+//<bringing 100 dust. Cutscene shows the dust.>
+scene ddp-open-ring1
+PAL: Incrível, Nova! Você reforçou o Prisma com as Cartas, e depositou Poeira o suficiente para limpar a tempestade! Além disso, sua vasilha pode segurar 90 unidades agora!
+CP: Nano Limpadora Nova, você leva este mundo caído cada vez mais perto à sua forma mais perfeita—uma conexão não adulterada com sua própria identidade, com seu próprio Centro.
+[FADE]
+Salmista C canta: 
+"Abençoados são aqueles que andam pelo caminho de sua criação, que radiam a limpeza do Centro, assim como a luz lançada de uma chama."
+"O tolo diz, 'Eu sou o Centro'. Eles são como uma flor arrogante, brotando cedo para zombar do frio do inverno. Os ímpios murcharão antes que floresçam, suas maquinações cedendo à Poeira." 
+"Mas os justos florescem na estação, o trabalho de suas mãos é abençoado. Seu esplendor é uma alegria àqueles que amam, suas folhas um conforto e uma sombra."
+[FADEOFF]
+CP: Que bela coisa é, ser escolhido.
+PAL: Nova, olhe! A poeira que você depositou está sendo usada pelo Centro, e a Tempestade de Poeira está começando a se dissipar!
+endscene
+
+scene open-ring-ending
+CP: Nova, o elevador para a superfície está pronto. Esse mundo precisa que você explore e colete ainda mais cartas e poeira até seu coração, o Centro! Vá em paz, e limpe!
+endscene
+
+scene get-pal-card
+// After you’ve started walking away from the top of the elevator. The triggers can be maybe like right where you get off the bridge on either side, at the edges of the hole?
+PAL: Nova...
+PAL: Eu sei, nós acabamos de nos falar no Santuário do $Centro, mas eu preciso te contar uma coisa... eu irei embora por um tempo. Tem algo que eu devo fazer. Eu não poderei checar você com tanta frequência, mas por favor saiba que você sempre estará em meu coração.
+PAL: Você se lembra de quando aquela Nano criatura atacou você quando você nasceu? Eu canalizei o poder de uma Carta para criar uma barreira invencível. Nova, eu gostaria que você ficasse com minha Carta! Mantenha ela por perto, e não a use para reforçar o Prisma. Que ela te proteja de todo mal, mesmo quando eu estiver longe...
+(Nova recebeu a Carta de Paliçada!)
+PAL: Okay... Eu te amo, querida. Entrarei em contato assim que eu puder. Adeus por agora!
+endscene
+
+// CCC INNER NPCS
+
+scene mole-family
+Oooh, querido, eu te disse - se nós quisermos sair da cidade, então devemos ir até o fim! Se apenas você tivesse conseguido aquela promoção, oh, os vizinhos que poderíamos ter escolhido!
+Mamãe, por que tem um estranho no jantar hoje? Devo buscar a arma?
+Querida, querida, você esqueceu de trancar a porta? Olhe para esse ladrão de rua que você deixou entrar! Violência está praticamente escrito na cara dele!
+Papai, devemos chamar a polícia?
+endscene
+
+scene rage-hint
+Argh!!! Não importa quantas daquelas gosmas eu mate, AQUELA PORTÃO NUNCA ABRE! Eu quero botar <![CDATA[<color=#ff1111>]]>fogo<![CDATA[</color>]]> naquelas bolhas irritantes! Derretê-las até virarem uma geleia grossa! Espalhá-las na minha torrada! E agora...\nPOR QUE AQUELE PORTÃO NÃO ABRE?
+endscene
+
+scene rage-npc1
+O que VOCÊ está olhando, garota aspirador! Acha que EU estou sendo irracional, é? Que eu estou irritado demais?
+Pois é, talvez se ALGUÉM parasse de relaxar e fizesse seu trabalho eu não ficaria tão zangado? Já parou pra pensar NISSO, Nano Incompetente? 
+endscene
+
+scene rage-npc
+Continua olhando pra cá. É... me testa! Acha que não vou?
+Incêndios? É? Espera que eu me acalme com toda essa Poeira voando ao redor? POEIRA, NOVA. ESSE É O PROBLEMA. LIMPE. FAÇA. MELHOR.
+Este portão ODEIA gosmas, mas não quer vê-las morrer!
+endscene
+
+scene tongue-npc
+Gosto Nakama: Mmph, Ssshhiimmm... Nova, venha cá, deixxe-me provar eshhe capacete metálico sheuuu! Oooh, mmph... não? Deixxe-me recompor então, ssshhiimmm...
+Camarada do Gosto: Ohh, Nano Limpadora, nnnão há nada de erraaado com algumas lambidasshh, néee? Vamooshhh lá, não eshhtrague a diversãoommph... deixxe-me provar shhua rr..rroupaa... irei entrar num novo reino de exxperiência sensssorial! Ohh!
+Amigo do Gosto: Oooh, shhimm... lamberr dos meus ouvidoosssh, shimmm... estou trabalhando duro o dia inteeeiro, ooh, a salinidade e a doçuraahhh, é diviiino! ME LAMBA!
+Parceiro do Gosto: EU ESTOU LAMBENDO O CONCRETO PARA ME LEMBRAR DAS CIDADES DOS MEUS AMORES PASSADOS. OS GOSTOS TRAZEM TUDO DE VOLTA. VOCÊ DEVERIA TENTAR TAMBÉM, NÃO TENHA VERGONHA! EU NÃO JULGO.
+endscene
+
+scene cougher-npc
+dialogue
+endscene
+
+scene fadetest
+[FADE]
+Bem-vinda à Nano Poeira.
+Neste mundo, há três pessoas. E uma delas é alguém chamado Nano Poeira.
+[NEWLINE]
+Ou...
+Nano Poeira.
+[CLEAR]
+O que eu...\n.\n.\n.\n.\n.\n.\n.
+Nano Poeira.
+endscene
+
+// CCC Outer NPCs
+
+scene tongue-1
+[FADE]
+Nova caminha até uma figura estranha no relógio. A figura se balança estranhamente, lambendo o ar. "Estão com fome?" Nova se pergunta. Eles parecem ter um tipo de fome que Nova nunca viu antes. Algo que Nova jamais deveria ver.
+Ela enrola os dedos dos pés em seus sapatos enquanto a figura vira para encontrar seu olhar...
+[FADEOFF]
+endscene
+
+scene tongue-1-2
+TG: Venha cá, docinho, deixxe-me prová-laa... a curvatura suave da sua máscara, o piso levemente polvilhado de suas botas, o toque metálico do anel de prata nas sssuas costas... EEE HEE HEE!! Minha língua treme em anteccccipação...
+endscene
+
+scene tongue-2
+TG: Eu devo resistir... à Poeira... Ela preenche minha mente. Dia e noite, eu fantasio sobre todos os sabores deliciosos ao meu redor... Uma vez, minha pele era lisa. Agora cada centímetro é sensível ao paladar, clamando por sabor.
+endscene
+
+scene tongue-3
+[FADE]
+Gustine Papellum, a criatura com pele de língua, olha para Nova, suplicando. Seus redondos e desesperados olhinhos começam a lacrimejar. O estômago de Nova dói, mas ela começa a sentir força e determinação. Ela tem um trabalho a fazer.
+"Nano Limpadora... m-me ajude..." Gustine diz quietamente, "Você deve me tornar limpo de novo... livre-me da prisão dos meus próprios desejos..."
+[FADEOFF]
+endscene
+
+scene 2d-vid-1
+SEAN: Saudações, Internet! Eu sou Sean, e eu estou preso neste vídeo.
+SEAN: Esse jogo, $Anodyne 2, tem mundos 2D e 3D. E hoje, eu irei mostrá-los como se navega entre os dois!
+SEAN: Primeiro, alguns personagens estão infestados de "Nano Poeira". Você irá controlar Nova, que pode encolher para dentro deles e limpá-los!
+SEAN: Olhe! Aquela criatura próxima ao relógio, Gustine, precisa de limpeza! Que conveniente. Vamos levar Nova até lá.
+endscene
+
+scene 2d-vid-2
+SEAN: Depois de Nova conversar com Gustine, ela pode gerar uma conexão e encolher para dentro dele. Por questões de tempo, eu encurtei a interação com Gustine.
+endscene
+
+scene 2d-vid-3
+SEAN: Quase lá! A Nano Poeira irá tentar repelir Nova. Mas, usando um escudo, Nova pode se defender. Beleza - te vejo na dimensão inferior!
+endscene
+
+scene 2d-vid-4
+$SEAN$: Bem-vindos ao interior de Gustine Papellum! Bem... parece que eu sou uma pedra...
+$SEAN$: Enfim, em 2D, você pode explorar o interior de personagens, coletando Nano Poeira! No futuro, eu irei lhes mostrar mais! Mas não hoje.
+$SEAN$: E assim se conclui o vídeo. Enfim, o que acharam dessa música? Bem legal, né? ...Eu a fiz. Talvez se esse post viralizar, eu posto o link para o meu Soundcloud.
+$SEAN$: Bem, se você estiver assistindo isso, eu ainda estou preso dentro desse vídeo. Apenas o poder de, uh... 500... não, 1000 likes e compartilhamentos vão ser capazes de me libertar. Então por favor, me salvem!
+endscene
+
+scene tongue-3-alt
+TG: S-socorro... Você deve me tornar limpo de novo... livre-me da prisão dos meus próprios desejos...
+endscene
+
+scene tongue-after
+TG: Obrigado Nova... eu consigo sentir as vibrações dos sabores sumindo mais uma vez...
+endscene
+
+scene tongue-crystal
+[FADENOFADE]
+$TG$: Quando eu era pequeno, Nova, o mundo era colorido e delicioso. Eu adorava nada mais do que comer e provar e me satisfazer. Mas enquanto eu crescia, a mágica da minha língua começou a desaparecer. A comida parecia areia na minha língua, a vida se tornou monótona e cinza.
+E então... a $Poeira veio! Eu podia sentir seu poder indisciplinado e contorcido crescendo dentro de mim. Meu paladar havia voltado, mais vibrante do que nunca! Inchaços vermelhos lentamente apareciam na minha pele, mas eu os ignorei, me deliciando nos maravilhosos sabores que o mundo tinha a me oferecer!
+[CLEAR]
+Eu fui um tolo ao lutar contra a vontade do $Centro, de satisfazer meus desejos básicos ao ceder para a $Poeira. Eu perdi o controle, e eu me tornei num monstro. Obrigado, Nova, por ter me dado mais uma chance...
+endscene
+
+scene rage
+RP: Por que você viria até meu esconderijo? Você está tentando me irritar, e me tornar num monstro desprezível!!
+RP: Por que você ainda está aqui, Nano Limpadora?!! Você veio aqui para ficar olhando?!! VÁ EMBORA!! 
+endscene
+
+scene rage2
+[FADE]
+O animal feroz, Bran Maligden, grita com Nova, mas gritar não é o bastante. Ela pula na plataforma e bate os punhos, sacudindo a estrutura esquelética ao seu redor. 
+Nova congela em terror. Será que ela está lidando com esse negócio de "Nano Limpeza" de forma errada? Nova sente vergonha por ter deixado Bran tão irritada, por não ter se aproximado com mais tática. Ela se pergunta se talvez o Centro estivesse errado ao confiar nela com uma tarefa tão importante...
+De repente... CRASH!!!
+[CLEAR]
+Um pedaço de concreto cai de cima, quebrando em pedaços na cabeça da criatura.
+“Você tá achando isso muito engraçado, não é?!!" Bran grita. "DING DONG a Bruxa Má foi ESMAGADA"!! AHAHAH!! Eu tive o que merecia, É ISSO que você está pensando!!”
+Nova não consegue imaginar nada menos engraçado que a dor de Bran Maligden. Mas talvez Bran conseguia ver algo em Nova que ela mesma não conseguia. Talvez haja uma feiura dentro de Nova da qual ela ainda não tenha aprendido a reconhecer...
+"Eu preciso de ajuda..." diz Bran Maligden, de repente, em voz baixa. "Por favor... me limpe."
+endscene
+
+scene rage-crystal
+[FADENOFADE]
+$RP$: Onde essa raiva começou? É impossível de se dizer. Mas se a $Poeira não tivesse vindo, eu jamais teria chegado a esse ponto, me afogando em minha própria raiva. Como um zumbido suave ou uma leve luz vermelha, lentamente crescendo e intensificando, eu mal sabia o que estava acontecendo até ser tarde demais. E então eu senti que não tinha nada que eu pudesse fazer além de gritar e tremer.
+Eu me tornei tão suja e feia na minha raiva. Obrigada, Nova, por ter me ajudado a encontrar paz.
+endscene
+
+scene rage-after
+RP: Huh? Por que eu estava brava? Eu não entendo por que você está me perguntando isso! Com a poeira longe, eu não sou mais tão terrível e cheia de raiva amarga.
+endscene
+
+scene cougher-bed
+//Interact with the bed 
+[FADE]
+Um caroço estremece suavemente sob os cobertores manchados e viscosos da cama. Nova prefere não perturbar o ocupante e se afasta lentamente.
+endscene
+
+scene cougher-exit
+// <when you leave the room, however>
+[FADE]
+Enquanto Nova começa a ir embora, ela se assusta com uma voz rouca repentina. "Então... COFF COFF... você vai pisar no meu quarto com suas botas enlameadas e simplesmente ir embora? COFF... hrk... *gorgolejo* ..."
+Nova se vira e vê a cabeça de Misteria Waizel se erguer de debaixo das cobertas. A figura cansada continua a expelir tosse úmida. Nova inclina a cabeça com vergonha e olha freneticamente. É difícil dizer que confusão ela pode ter causado, então ela começa a se arrastar, tentando arrumar a sala em geral.
+"Pare de tocar na minha coleção de abajures!" grita Misteria Waizel. "Venha cá, eu preciso falar com você."
+endscene
+
+scene cougher
+MC: Você gosta de abajures? ... COFF... hrk... Alguns desses abajures valem muita grana! Mas quem se importa com dinheiro?! COFF! É tudo sobre a arte! Vê essa aqui? Não toque com seus dedinhos sujos! Esse era o abajur da minha avó. Vê as rendas requintadas estampadas na borda? COFF COFF...
+MC: COFF COFF... É bom conhecer outro entusiasta de abajures. Você realmente gosta de abajures, não é? COFF... Está pensando em pegar um para si enquanto não olho, não é? Quem notaria ou se importaria se você tirasse vantagem de um velho miserável e fraco como eu? É o que está pensando, não é?! COFF... *gorgolejo* ...
+MC: Eles não fazem mais abajures como esse. COFF... hrk...
+MC: Você não entenderia. Você é jovem e forte, e você acha que vai viver para sempre. Mas com o tempo, as coisas desmoronam e as pessoas te abandonam, chutando suas canelas no caminho. Elas roubam seus abajures. COFF COFF... Eu nem sequer consigo me lembrar mais, todos os abajures que se foram. Fora da vista, fora da mente. O que ainda está à vista para mim...?
+MC: Eu tenho um bom pressentimento sobre você. COFF... hrk... Eu preciso que você faça algo por mim. Por favor, limpe a Poeira de meus pulmões. COFF... O quê, você precisa de um abajur em troca ou algo assim?! Você pode ficar com o modelo com Preenchimentos Retrô em verde menta. Eu já tenho um desses. Você já Nano limpou antes? Não torne as coisas piores. COFF COFF...
+endscene
+
+scene cougher-crystal
+[FADENOFADE]
+$MC$: Você não sabe como é, ter uma vida e então vê-la desmonorar diante de seus olhos. É isso que a $Poeira faz, ela cresce e cresce ao devorar quem você deve se tornar.
+Nova. Você fez algo bom hoje. Meus pulmões estão muito melhores agora. Talvez eu consiga terminar de escrever meu livro sobre abajures agora. Você já limpou a sujeira que você levou até meu quarto? Sabe, o próprio $Centro uma vez me entregou um abajur especial, de simetria inacreditável, como reconhecimento do meu trabalho catalogando e apreciando abajures.
+[CLEAR]
+Obrigado, Nova. Eu realmente aprecio o que você fez aqui. De verdade. Você pode pegar qualquer abajur que quiser. Bem, desde que seja o modelo com Preenchimentos Retrô em verde menta. Eu já tenho um desses, sabe? Obrigado, Nova. Adeus.
+endscene
+
+scene cougher-after
+MC: Obrigado pela sua ajuda, Nova. Você pode me ajudar a terminar meu livro de abajures? Eu estou tentando decidir que sistema de categorização usar. Sabe, o modelo de Creme Plissado está no lugar errado. Eu não o movi. Eu só quero dizer, Nova, que eu realmente preciso que meus abajures fiquem no lugar que eu os boto para que eu possa manter conta de tudo. 
+endscene
+
+scene gwoms
+Chupley Gwom:n Se eu apenas tivesse uma bola de futebol feita da minha própria pele... assim ela nunca poderia ser retirada de mim de verdade...
+Supley Gwom:n Que sofrimento... eu não aguento!! Dia após dia, a mesma comida no mesmo prato!!
+Pupley Gwom:n A felicidade é uma poça quente!
+// <nursing at a teat of the Aughur> 
+Gwomina Gwombledon Gwom:n *Squork squork squork*.... Você já ouviu falar de um reflexo enraizado? Se você tocar um bebê na bocheca, eles torcerão pelo time da casa.
+
+//4 AFTER
+Chupley Gwom:n O desempenho do meu desejo irreconciliável é o que me faz ressoar. Sou abençoada pelo futebol sempre ser puxado para fora. Eu fui transfigurada além de um mero verme.
+//<eating same food out of nicer plate?>
+Supley Gwom:n O luto é ótimo, o luto é bom, e nós agradecemos por essa comida. *Mastiga mastiga mastiga* 
+Pupley Gwom:n Felicidade é uma ilusão quente!
+// <drinking from glass now>
+Gwomina Gwombledon Gwom:n *Gole gole gole* Mmmm... o fato do leite ser rotulado como 1% e 2% parece implicar que o leite "inteiro" seja talvez 98% mais gordo. De fato, o leite integral seria descrito com mais precisão como "3,5%" e não é drasticamente mais calórico do que as outras opções.
+endscene
+
+
+scene pig-pre
+GG: Um mal-estar repousa sobre meus filhos, como uma mortalha de lodo. Por favor, eu peço que escute cada uma de minhas crianças e então retorne até mim...
+endscene
+
+scene pig
+GG: Nova... obrigada por ter ouvido minhas crianças...
+[FADE]
+A grande criatura contorcente abaixa a cabeça e fala em um estrondo baixo. "Ohhh... a lama parece fria e calmante para a pele, formigada como estamos pela febre e o eczema."
+Nesses cantos escuros e imóveis dos becos, Nova ouve os sons suaves e esmagados dos Gwoms se contorcendo e se virando. Ela estremece com os gemidos fracos que eles emitem enquanto pressionam suas delicadas peles rosadas na lama.
+[CLEAR]
+Agora, a Grande Gwom ergue sua cabeça e observa um horizonte imaginário, lágrimas brilhando nos cantos de seus olhos. "Eu escuto um eco distante do passado... a sombra de uma música esquecida," ela diz, lentamente crescendo em intensidade. "Nós Gwoms fomos orgulhosos e lindos uma vez!" ela proclama, "Se não... O Centro jamais teria nos criado!!"
+A Grande Gwon vira para Nova e diz, "É a Poeira! A Poeira nos fez esquecer de nós mesmos, e agora tudo que resta é aliviar nosso desconforto rolando na sujeira... Por favor, Nano Limpadora Nova! Limpe-os, para que possamos entender os planos do Centro novamente!"
+// unlock
+endscene
+
+scene pig-crystal
+[FADENOFADE]
+$GG$: Nova... Eu posso sentir o nevoeiro saindo de minhas memórias. Eu sou a Áugure: eu fui criada para investigar o futuro estudando os hábitos de pássaros no jogo do bicho!
+[CLEAR]
+$GGG$: Cada um de nós tem um papel a desempenhar na grande história de Nova Terrândia. Você me mostrou isso, Nova! Meus filhos e eu já fomos egoístas e míopes. Queixamo-nos de nossas vidas e perdemos de vista o plano do $Centro. Mas há um lugar para nós, afinal, Nova. Sempre haverá um lugar para nós!
+endscene
+
+scene pig-after
+GGG: Obrigada pela sua ajuda, Nano Limpadora Nova! Deixe-me retribuir o favor, tomando os auspícios para você. Um momento, por favor, enquanto me sintonizo com os pássaros e suas intermináveis apostas...
+GGG: Ahhh... o pombo revela cabra... mas o pato apresenta pavão...
+GGG: Sim... eu sinto que você será a Escolhida... sim... você trará um grande evento que mudará Nova Terrândia para sempre!
+endscene
+
+
+scene card-get
+Nova sente a Semente Glandilock pulsando dentro dela. Ela canaliza o poder do Centro, transformando o Cristal de Poeira mortal em uma Carta!
+endscene
+
+scene elevator
+Nova pressiona o painel, ele acende e zumbe. Próxima parada, Santuário do $Centro.
+Nova pressiona o painel, ele acende e zumbe. Próxima parada, o Vale Azul!
+Nova pressiona o painel, ele acende e zumbe. Próxima parada, Cidade Central Cenote.
+[FADE]
+Nova pressiona o painel para subir, mas o painel não responde. De repente, Paliçada aparece.
+PAL: Ah, Nova, você está tentando sair da Cidade Central Cenote! Uma inclinação natural para qualquer Nano Limpador.
+PAL: No entanto, receio ser muito perigoso! Você precisa alimentar o Centro com Poeira e Cartas antes para que a atmosfera externa seja purificada.
+ERRO! Modo de vôo do elevador permanentemente fora de serviço.
+endscene
+
+// Translator's note: Do not translate this, it's not in the final game
+scene demo-end
+[FADE]
+Depois de uma longa viagem até o topo de Cenote, Nova sai do elevador e pisa numa plataforma ampla e circular, construída de um material branco que ela viu em Cenote. Para o norte e o sul há duas grandes pontes. Institivamente, ela escolhe a ponte do norte, e a cruza.
+Sons urbanos se distanciam, deixando uma leve brisa e o fasfalhar de grama para trás. Colinas e montanhas em azul profundo preenchem o horizonte. chamando sua atenção para todas as direções. É algo... diferente.
+Vendo tudo aquilo, Nova não consegue deixar de sentir algo estranho em seu peito, algo quase puxando ela para baixo, aliviando seus sentidos no solo azul. Seria aquilo paz? Felicidade?
+[CLEAR]
+N... No. Não. Não poderia ser. Ela se lembra do que Salmista C havia lhe contado. Embora o céu azul e as montanhas distantes parecessem calmas e convidativas, Nova sabia que a quietude no ar a estava enganando - uma armadilha. Era meramente uma ilusão, em algum lugar, Nano Poeira está crescendo. Ameaçando consumir o mundo.
+Seu novo sentimento - deve ser uma espécie de medo.
+Certo?
+Não há momento para relaxar - Nova sabe disso. Ela precisa trabalhar. Ela precisa limpar. Ela precisa encontrar cada pessoa infectada nessas montanhas e as proteger...
+[CLEAR]
+...
+E esse é o fim da versão de pre-visualização de $Anodyne 2: Return to Dust. Muito obrigado por levar seu tempo jogando e nos dando suporte, significa muito para nós, especialmente agora que você chegou ao fim... Marina e eu (Sean) trabalhamos duro. Esperamos que tenha gostado.
+De qualquer forma, se você andar em direção à câmera, você pode voltar para Cenote e explorar mais. Ou, você pode pular por aí por um tempo.
+Por favor, fique de olho em $Anodyne 2 mais tarde esse ano!
+endscene
+
+
+scene rage-nanobot
+Nano Assassino: *TOSSE* *HACK* NOVA... VAI... SER DETIDA... INICIAR *TOSSE* PROTOCOLO DE INCINERAÇÃO...
+Nano Assassino: *TOSSE* *TOSSE* PARE... NÃO POSSO... ME MOVER... *TOSSE* MISSÃO, FALHA... FIM DE, JOGO... *TOSSE*
+endscene
+
+scene pig-nanobot
+Nano Assassino: *TOSSE* *TOSSE* ARRRHURRLLL *TOSSE* HAKKKKKKKK *TOSSE* *TOSSE* ... ... ... MORRA *TOSSE* *TOSSE* O CENTRO DEVE SER DESTRUÍDO
+Nano Assassino: *TOSSE* NO... NOVA... *TOSSE* DESTRUIR... NOVA... MATAR A LIMPADORA... 
+endscene
+
+scene cougher-nanobot
+Nano Assassino: ... *TOSSE* ... *TOSSE* DA POEIRA... EU LEVANTO. NOVA DEVE MORRER. O CENTRO DEVE DESMORONAR. *TOSSE* 
+Nano Assassino: EU... FALHEI, MAS... *TOSSE* NOVA IRÁ FALHAR... O CENTRO IRÁ FALHAR... *TOSSE*
+endscene
+
+scene tongue-nanobot
+Nano Assassino: NOVA! OOHHHHHHHHH *TOSSE* VENHA CÁ! VENHA CÁ! *TOSSE* *TOSSE* ME DEIXE TE DESTRUIR!
+Nano Assassino: OH, NANO LIMPADORA *TOSSE* ISSO FOI MUITO BOM!! MAS, *TOSSE*, VOCÊ DEVE SER *TOSSE* DETIDA... *TOSSE*
+endscene
+
+scene keyblock-text
+Esse estranho bloco parece ter um buraco de fechadura...
+endscene
+
+
+scene ccc-tour
+// say ccc-tour 0 2
+(Esse garoto é do tamanho de um pequeno rato, mas surpreendentemente sua voz se projeta muito bem.)
+Mini-no:n Bem-vinda à Parte Um de Três do tour de Cenote! Acima de nós, nós temos o Relógio de Cenote. Ele costumava dizer o tempo, mas há muitos anos atrás ele quebrou, e ninguém conseguiu pular até lá para consertar. Uma testemunha da insignificância do tempo. O que importa se são 6:00, 10:30? Qualquer coisa pode acontecer, se for desejado...
+Mini-no:n O que a "insignificância do tempo" significa? Eu não sei, moça! Eu sou uma criança!
+
+// say ccc-tour 3 4
+Menino Normal:n Bem-vinda à Parte Dois de Três do tour de Cenote! Esse é o Lago Cenote. Ele tem um misterioso efeito: qualquer um que mergulhe nele irá retornar para onde estava segundos atrás! Até hoje, é o único gatilho conhecido do fenômeno de teletransporte em Cenote. De fato, uma testemunha dos ciclos viciosos da vida. Nós não podemos fugir do nosso passado, ele sempre volta para nos assombrar.
+Menino Normal:n A propósito... você viu o meu irmão? A última vez em que o vi foi por volta do mercado, mas, uh, é fácil perder ele de vista...
+
+// say ccc-tour 4 5
+Menino Grande:n Bem-vinda à Parte Três do tour de Cenote! Eu sou meu próprio ponto de referência, eu sou o Grande Menino de Cenote! Por me encontrar, você terá prosperidade no próximo ano.
+Menino Grande:n Bem, na verdade, eu estou aqui para te mostrar o Muro de Cenote, o cinza meio-azulado ali. Não o que está atrás de mim. Essa parede desafia as leis da física, de fato, você pode pulá-la mesmo que não seja atleticamente dotada. De fato, uma testemunha da determinação inacabável dos seres vivos quando se trata de superar desafios, mesmo se o que esteja do outro lado não tenha valor material.
+endscene
+
+scene ccc-video
+//xxx 0-2 video mole
+Toupetuber:n Eu faço vídeos sobre videogames. Mas é difícil... não é apenas fama ou arco-íris. Ninguém estava assistindo meus vídeos a não ser que eu fizesse coisas sobre a mais recente edição da franquia "Mundo Grande"!
+Toupetuber:n Eu só quero gravar coisas sobre "Mundo Pequeno," não "Mundo Grande"...
+Toupetuber:n Eu queria que as coisas fossem diferentes.
+endscene
+
+scene ccc-lake
+Roedor Rios:n Quando a névoa desce para Cenote e você olha daqui, o lago parece infinito, à medida que o horizonte desaparece na névoa. Parece que eu estou perto do oceano. Ahh...
+Roedor Rios:n Mas eu sei que não está lá. Não há cheiro do oceano. Eu preciso imaginar.
+Roedor Rios:n Suponho que um vislumbre de beleza seja melhor que nada.
+endscene
+
+scene ccc-covetous
+Comprador Cobiçoso:n Ahhh... que brilhante, que lindo... talvez um dia eu seja capaz de guardar para ter um próprio...
+Comprador Cobiçoso:n Oh, como eu desejo um grande painel de vidro!!!
+endscene
+
+scene ccc-construction
+Trabalhador de Construção:n Ugh, tem um grandão furioso no canteiro de obras! Vou te falar, as pessoas não têm respeito pela santidade do canteiro de obras!
+Trabalhador de Construção:n Dá uma olhada no tratamento dos canteiros de obras na mídia! Apenas um pano de fundo para se acostumar e abusar em uma sequência de ação explosiva! Escuta, não é porque os canteiros de obra são edifícios inacabados que eles são descartáveis. Você gostaria se uma cena de construção realizasse uma sequência de ação explosiva dentro de VOCÊ?
+endscene
+
+scene ccc-misc
+//xxx 0 <Dolphin by produce>
+Golfomãe:n Ahhh... as frutas de Jormungla parecem frescas hoje... e quão gordas estão as flibbers verdes! Este delicioso produto realmente me deixa imersa neste mundo fantástico criado pelo Centro!
+
+//xxx 1 - 2
+Golfilho:n EEEEEEEEK!!! EEEEEEEEEEEEK!!! WAAAAAAAHHHHHHHH!!!
+Golfilho:n (Eu estou tentando localizar o doce por ecolocalização...)
+
+//xxx/3 <Rockpants by produce>
+Compradora Idosa:n Hmmm... Biscoitos de ameixa, biscoito de ameixa... nossa, o design gráfico na embalagem de produtos certamente decaiu desde o meu tempo... tudo parece um borrão de cores!
+
+ignore4
+ignore5
+
+//xxx 6 <Dolph by store window>
+Golfya:n Eu amo brinquedos!!! Espera, eu amo mesmo? Eu costumava achar eles muito divertidos. Mas agora eu estou tipo... "Huh? Por que eu ainda tenho esse lixo?"
+
+ignore7
+ignore8
+
+//xxx 9 <Kid near cougher>
+Criança Assustada:n Eeek! Eu escutei uma tosse assustadora vinda desse prédio de luzes verdes! Eu aposto que é assombrado! ... Você vai ir lá checar, né?
+
+//xxx 10 <Rockpants hidden on building to the left of cougher>
+Pedra Triste:n Wow, você me seguiu até aqui? Como recompensa, eu te darei 5000 dolores. Huh? Não, não "dólares", eu não tenho dinheiro algum. "Dolor" significa tristeza ou perda em Latim. Eu irei te contar 5000 tristezas, por você ter me seguido.
+
+
+//xxx <this can be the jellyman>
+//11 12 Near alley entrance NPC:
+Gelesenhor Cansado:n Whew... Eu finalmente consegui sair daquele labirinto de beco!
+Gelesenhor Cansado:n Huh? Você vai entrar ali? Que loucura, mas deve ser porque você é a Nano Limpadora. Se você procura limpar, talvez você deva seguir a lama!
+
+//xxx 13-17 <Kids by alley entrance>
+Crianças Cantantes:n Poeira, poeira, terrível poeira!
+Crianças Cantantes:n Limpe atrás das suas orelhas!
+Crianças Cantantes:n Se não limpar -
+Crianças Cantantes:n Você morrerá -
+Crianças Cantantes:n Poeira, poeira, terrível poeira!
+
+//18xxx <dolph near tree>
+Golpreciador:n Ahhh, você não ama essas lindas árvores brancas? Sua dignidade serena e pura me lembra das anciãs estátuas de pedra, que nunca foram pintadas com cores berrantes!
+
+//19xxx <crabhorse near bench>
+Pedestre Confuso:n Hmm... eu não sei como sentar nesse banco.
+
+//xxx20 <small npcs in park. maybe you can talk to them separately to get the conversation? rather than having it autoplay connected>
+Conchelley:n Então, e essa tempestade de poeira que estamos tendo? Realmente é um clima, né?
+
+//xxx 21
+Toupeforde:n Sério, Conchelley, você sabe como eu odeio papo curto! Eu prefiro discutir os impactos socioculturais do mais recente fenômeno meteorológico, que impede a saída da Cidade Central Cenote!
+
+//xxx 22 <Jellyman by the goverment building>
+Ex-Funcionário:n Ahhh... o Prédio Oficial. Eu lembro da época em que eu fazia coisas Oficiais aqui, e de vestir roupa oficial.
+
+// 23 moleford late
+Toupeforde:n Bem, Conchelley! Parece que a tempestade de poeira se resolveu! Eu me pergunto que espécie de causa científica esteve por trás disso!
+// 24 shelley later
+Conchelley:n Nossa! Olha o céu! Você realmente pode vê-lo agora!
+// 25
+Criança Desassustada:n Des-eek! Eu costumava ouvir uma tosse assustadora desse prédio... mas não mais! Eu estou bem!
+endscene
+
+scene dolphfan
+Golfã:n Uau! É você mesma! Nova, a Nano Limpadora! Fale comigo de novo! Eu vou te contar um fato curioso!
+Golfã:n Seu Nano Aspirador é capaz de armazenas 60 unidades de poeira! A barra azul no menu de pause mostra quanto você tem! Apenas pressione {PAUSE} para vê-la. Além disso, deposite sua poeira no Santuário do $Centro sempre que estiver cheio!
+Golfã:n Ah, saca só. Eu ouvi que mesmo após você limpar a poeira de alguém, você ainda pode encolher até lá de novo caso precise de mais poeira!
+Golfã:n O quê? Eu sei de muita coisa e isso está te deixando desconfortável? É porque eu sou seu fã número um, Nova!
+Golfã:n O quê? Mais dicas? Bem, tá bom! Umm... se você estiver com problemas, você pode abrir a seção de Configurações no Menu de Pause para mudar as opções de dificuldade! Bem, é o que essa postagem do blog disse sobre você, pelo menos.
+Golfã:n Oh, uh... consegue ver essa coisa ovular à minha direita? Você pode "Salvar Seu Jogo" nela.  Além disso, no Menu de Pause, você pode ler sobre os itens e cartas que você tem! E o mapa marca sua localização.
+Golfã:n Bem, acabaram minhas dicas úteis, então aqui vai uma dica de vida: não torre o seu pão! Tente esquentá-lo no micro-ondas por 10 segundos. Sua vida nunca mais será a mesma.
+endscene
+
+scene elevator-tip
+Gelevador:n Oh... oh ho ho ho. AVocê... vai pegar o elevador? O quê? Você não sabe como? Bem! Consegue ver a seta para 'baixo' no lado esquerdo do elevador? Você pode falar com ele para descer até o Santuário do $Centro! MAS. Espere, tem mais! Consegue ver a SETA PARA CIMA no lado direito? Você pode falar com ela para deixar Cenote e subir até o lindo Vale Azul! É isso mesmo: esse elevador vai para dois lugares!
+Gelevador:n Eu fui proibido de pisar no Santuário do $Centro ou para fora de Cenote, mas estarei de olho em você o tempo todo, você estando indo ou vindo. Eu não tenho preferências. Eu só amo elevadores.
+Gelevador:n Falando nisso, você precisa de uma frase de elevador? Eu tenho algumas, mas não posso usá-las... eu não posso subir elevadores, afinal. Talvez "Eu sou Nova! Eu amo limpar Nano Poeira. Primeira limpeza por minha conta! Shwoosh-sha!"
+endscene
+
+
+// ignore
+//scene delay
+// 0 6
+/Sean Han Tani: AHH
+/Sean Han Tani: Como você me encontrou?
+/Sean Han Tani: Hmm.. Eu consigo ver em seus olhos. Você está se perguntando 'Será que $Anodyne 2 chegará em Maio ainda?'
+/Sean Han Tani: ...
+/Sean Han Tani: ... ... ...
+/Sean Han Tani: Hmm...
+/Sean Han Tani: Eh heh heh heh heh...
+// 7 15 vanish
+/Sean Han Tani: Agh! Okay, okay.
+/Sean Han Tani: Aqui está sua resposta: está................ adiado! Porém só por mais um tempinho. Até Julho, provavelmente. 
+/Sean Han Tani: Mas ei! Isso é só tipo, 60 dias. Nada demais. Você deveria jogar algo legal neste meio-tempo, tipo LUCAH ou algo assim.
+/Sean Han Tani: De qualquer forma, eu sei que você acredita na gente. Obrigado por isso, de verdade. Tem gente que não acredita no que a Marina e eu estamos fazendo... nós iremos provar eles do contrário... ha ha ha ha ha ha
+/ha
+/ha
+/ha
+/...
+/Sean Han Tani: Okay, de volta ao trabalho. Se isso tiver 1000 RTs o jogo sairá até Junho.
+/Brincadeira.
+//endscene

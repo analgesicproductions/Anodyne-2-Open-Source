@@ -1,0 +1,896 @@
+fileFormatVersion: 2
+guid: 0b3e39535856f0945abd749608078b72
+timeCreated: 1529693862
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: young_player_0
+    21300002: young_player_1
+    21300004: young_player_2
+    21300006: young_player_3
+    21300008: young_player_4
+    21300010: young_player_5
+    21300012: young_player_6
+    21300014: young_player_7
+    21300016: young_player_8
+    21300018: young_player_9
+    21300020: young_player_10
+    21300022: young_player_11
+    21300024: young_player_12
+    21300026: young_player_13
+    21300028: young_player_14
+    21300030: young_player_15
+    21300032: young_player_16
+    21300034: young_player_17
+    21300036: young_player_18
+    21300038: young_player_19
+    21300040: young_player_20
+    21300042: young_player_21
+    21300044: young_player_22
+    21300046: young_player_23
+    21300048: young_player_24
+    21300050: young_player_25
+    21300052: young_player_26
+    21300054: young_player_27
+    21300056: young_player_28
+    21300058: young_player_29
+    21300060: young_player_30
+    21300062: young_player_31
+    21300064: young_player_32
+    21300066: young_player_33
+    21300068: young_player_34
+    21300070: young_player_35
+    21300072: young_player_36
+    21300074: young_player_37
+    21300076: young_player_38
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: young_player_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3}
+        - {x: -4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 6}
+        - {x: 1, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -4}
+        - {x: -4, y: 6}
+        - {x: -8, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 5}
+        - {x: -4, y: 3}
+        - {x: -5, y: -5}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: -2}
+        - {x: 1, y: 4}
+        - {x: -8, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 1}
+        - {x: -7, y: -6}
+        - {x: -7, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 6}
+        - {x: 3, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 6}
+        - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -1}
+        - {x: 0, y: 5}
+        - {x: -4, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 5}
+        - {x: 3, y: 5}
+        - {x: -2, y: 2}
+        - {x: -6, y: -2}
+        - {x: -6, y: -8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 5}
+        - {x: -8, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: -4}
+        - {x: 2, y: 2}
+        - {x: -3, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -5, y: -2}
+        - {x: -1, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 1, y: -4}
+        - {x: 6, y: 1}
+        - {x: 6, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -6, y: 0}
+        - {x: -6, y: -3}
+        - {x: -1, y: -7}
+        - {x: 7, y: -7}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -1, y: -6}
+        - {x: 6, y: 2}
+        - {x: 6, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 8}
+        - {x: -5, y: 4}
+        - {x: 1, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -3, y: -6}
+        - {x: 3, y: -4}
+        - {x: 3, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -5, y: 7}
+        - {x: -4, y: -1}
+        - {x: 0, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+      - - {x: 3, y: 3}
+        - {x: 2, y: 5}
+        - {x: 2, y: 2}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: 4, y: -5}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 15}
+        - {x: -8, y: 15}
+        - {x: -13, y: 14}
+        - {x: -13, y: -8}
+        - {x: -11, y: -11}
+        - {x: 9, y: -11}
+        - {x: 14, y: -7}
+        - {x: 14, y: 6}
+      - - {x: 9, y: -4}
+        - {x: 9, y: -1}
+        - {x: 8, y: 2}
+        - {x: 7, y: -5}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -14, y: 6}
+        - {x: -14, y: -12}
+        - {x: -12, y: -14}
+        - {x: 7, y: -14}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+        - {x: 12, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 15}
+        - {x: -14, y: 5}
+        - {x: -14, y: -9}
+        - {x: -6, y: -13}
+        - {x: 11, y: -13}
+        - {x: 11, y: 8}
+        - {x: 10, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: young_player_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 14}
+        - {x: -8.5, y: 14}
+        - {x: -13.5, y: 9}
+        - {x: -13.5, y: -11}
+        - {x: -9.5, y: -12}
+        - {x: 15.5, y: -12}
+        - {x: 15.5, y: 10}
+        - {x: 11.5, y: 13}
+      - - {x: 10.5, y: 1}
+        - {x: 9.5, y: 3}
+        - {x: 10.5, y: -4}
+      - - {x: -4.5, y: -4}
+        - {x: -5.5, y: -2}
+        - {x: -5.5, y: -5}
+      - - {x: -7.5, y: 5}
+        - {x: -8.5, y: 3}
+        - {x: -7.5, y: 2}
+        - {x: -6.5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

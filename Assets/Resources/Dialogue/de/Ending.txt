@@ -1,0 +1,767 @@
+//<There is a big floating icon by the top of the Prism. This allows you to begin the Ending Sequence>
+
+scene end-confront-need-dust
+//<If you don’t have some amount of Dust in the Prism>
+N: Warte, ich brauche mindestens 150cc Staub im Prisma, um meinen Plan auszuführen ...
+endscene
+
+//<affirmative response goes to the next dialogue. Any negative response stops the entire sequence>
+
+scene end-confront
+Das Zentrum konfrontieren?
+// N Y
+Bist du sicher?
+// N Y
+Es gibt kein Zurück mehr.
+// -I’ve changed my mind / -I understand
+Glaubst du wirklich, dass du etwas ändern kannst?
+// -No / -I have a plan
+Nun, schau, was wir hier haben! Kleine Nova macht auf dicke Hose. Du denkst, dass du wirklich etwas Besonderes bist, oder? Du hältst wirklich viel von dir selbst, nicht wahr?
+// N Y
+HA!!! Das ist ein Witz! Als ob du jemals mehr als ein wimmerndes Häufchen Selbstmitleids gewesen wärst. Also machst du das wirklich?
+// N Y
+Auch wenn es bedeutet, C. Psalmist den Rücken zu kehren? Und Palisade?
+// N Y
+Nun ... gut dann. Mach die Dinge auf deine Weise. Wir werden nur sehen, wie es ausgeht, nicht wahr?
+N: Mein Plan beginnt mit dem Entfernen des oberen Deckels des Staubprismas. Vielleicht kann ich meine Zündfähigkeit nutzen ...
+endscene
+
+scene end-confront-choices
+Ich habe meine Meinung geändert
+Ich verstehe
+Ich habe einen Plan
+endscene
+
+//<just spark the top of prism? If you fill the bar there is an explosion and the top flies off/disappears. CP and CV appear?>
+
+scene end-ring-1
+CP: Nano-Reinigerin Nova! Was hat das zu bedeuten?
+CV: Ich mache mir Sorgen um dieses Verhalten, junge Dame. Es ist sehr riskant, und wir wollen nicht, dass du verletzt wirst.
+N: Ihr interessiert euch überhaupt nicht für mich, oder? Ihr wollt mich nur benutzen!
+CV: Überhaupt nicht, Nova. Du wirst vom Zentrum sehr geschätzt, und wir haben uns immer bemüht, deinen Wert mit höchster Professionalität zu beweisen! Das Metasäuberungssystem wurde speziell entwickelt mit ...
+CP: ... Das reicht, Visionary. Ich habe dir gesagt, dass dein seelenloses Gerede unser Untergang sein wird!
+CP: Nova, wir haben aufrichtig versucht, dich bei deiner Arbeit nach besten Kräften zu unterstützen und zu begleiten. Aber ... das war nicht alles, was du brauchtest, oder? Du brauchtest ... Liebe ... Fürsorge ... die Nahrung des geistigen Selbst! Du bist nicht nur eine Maschine, die geölt und gesteuert werden muss.
+CP: Das verstehe ich jetzt, Nova ... Verstehst du nicht? Auch ich fühle die Leere im Inneren ... die Sehnsucht. Nova, diese Gefühle sind wichtig: Sie weisen uns zum Zentrum, zum Anodyne!
+N: Ich hasse den Glandilock-Samen. Ich hasse es, dass er in mir lebt und sich um jede meiner Erfahrungen legt. Er tut mir weh, wenn ich etwas erforschen will. Er betäubt mich, wenn ich fühlen will. Er macht mir Angst, wenn ich stark sein will.
+N: Warum hat mich niemand gewarnt? Wie konntet ihr das zulassen? Ich wusste nicht, wie es sein würde, bis es viel zu spät war ...
+CP: Nova ...
+CP: Ich sollte denken, dass du das inzwischen verstanden hast. Die Welt draußen ist kaputt ... gefüllt mit lüsternen Versuchungen und destruktiven Gedanken. Nichts von wahrem Wert kommt vom Staub, egal wie verführerisch es auch erscheinen mag. Das Zentrum erspart dir die Mühe, in der Jauchegrube der Scham und des Kummers herumzuspielen! Es mag so aussehen, als würden wir jetzt etwas verpassen, aber nichts da draußen kann mit dem Ruhm vom Anodyne verglichen werden.
+N: Ich denke einfach, dass ich das nicht mehr glaube ... Ich möchte in der Lage sein, Dinge zu fühlen und zu sehen und meinen eigenen Weg zu finden ...
+CV: Nova, das Zentrum war sehr geduldig mit deinem wandernden Herzen. Aber jetzt ... wird diese Geduld dünner. Welche Wahl hast du deiner Meinung nach? Glaubst du, dass du etwas anderes als die Nano-Reinigerin sein könntest?
+N: ...
+CV: Glaubst du wirklich, dass du ändern kannst, wer du bist?
+N: ...
+N: ... ...
+N: ... ... ...
+N: Nein, tue ich nicht.
+endscene
+
+scene end-ring-2
+[FADENOFADE]
+In einem Sekundenbruchteil wirft sich Nova in das Prisma.
+[FADENOFADE]
+Psalmist schreit vor Schreck und Angst. Visionary schnaubt vor Ekel. Aber als Nova von ihnen abfällt, eingehüllt in die Säule des wirbelnden Staubs, verblassen ihre Stimmen wie ein ferner Traum.
+endscene
+
+//<Nova jumps into the Prism. Falling thru the dust>
+// map CCC EndingEntrance 0 0
+scene end-fall
+[FADENOFADE]
+Nova denkt sich:
+...
+(Es wäre so einfach, loszulassen ...)
+[CLEAR]
+...
+(Die Grenzen meiner Haut einfach zu vergessen und mit dem Staub zu verschmelzen ...)
+[CLEAR]
+...
+(Es wäre so schön, nicht zu existieren ...)
+[CLEAR]
+...
+(Nein! Das ist nicht der Grund, warum ich hierhergekommen bin. Ich muss durchhalten. Ich muss da sein. Denn wenn ich sie davon überzeugen kann, dass ich weg bin, dann vielleicht ... nur vielleicht ...)
+// 13
+[FADENOFADE]
+[SOUND cardUpgradeSlow 1 1]
+Nova stürzt durch das Prisma.
+Sie kommt immer näher an den Grund, und als sie ihn erreicht ...
+[SOUND cardUpgradeBoom 1 1]
+Durchdringt ihr Körper die kristalline Barriere, das geplatzte Prisma spuckt Staub und Schmutz in alle Richtungen!
+endscene
+
+// map CenterChamber EntranceFromPrism 0 0
+//<Cut to Sanctuary. Bottom of prism explodes and chambers fill with cloud of Dust which slowly fades (although some sticks around)>
+
+scene end-sanc-argument
+[FADEPART]
+C Psalmist und C Visionary untersuchen die Folgen von Novas impulsivem Sprung. Die Basis des Prismas ist beschädigt. Staub ist ausgetreten und hat die Luft in der Kammer durchdrungen. Nova ... ist nirgendwo zu sehen.
+[FADEOFF]
+CP: Nein. Nein! Sie wurde zerstört! Visionary, was hast du getan?! Ich habe Nova mein Herz ausgeschüttet, und du hast ihren Willen gebrochen.
+CV: Diese Reinigerin wurde von Anfang an durch dein sinnloses Geschwätz vergiftet. Wer war es, der ihre unlogischen Wünsche schürte?
+CP: Oh Zentrum, vergib uns ... Wie lange kann das noch so weitergehen?
+CV: Solange es sein muss natürlich. Das Anodyne wird wunderbar funktionieren – es ist nur eine Frage der Zeit! Mit meiner Führung wird der nächste Reiniger erfolgreich sein.
+CP: Aber die Erstellung eines Reinigers ist kostspielig! Und ... und wenn auch eine neue Palisade gebaut wird, werden die Energiespeicher des Zentrums in einem kritischen Zustand bleiben!
+CV: Eine neue Palisade? Ha! Palisades Führung war schlimmer als deine eigene! Das Zentrum informierte mich über die Folgen dieses kleinen Experiments.
+CP: Palisade nährte Novas Seele. Wenn sie vielleicht noch da wäre, hätte Nova sich nicht an so drastische Maßnahmen gewandt!
+CV: Sentimentaler Narr!!! Du fängst an, dich wie diese eigensinnige Nova anzuhören! Hast du vergessen, was der vorherige Reiniger vor der Einleitung des Glandilock-Protokolls geleistet hat? Vertraue einfach auf das Zentrum ... Die Iteration ist fast abgeschlossen! Alles, was wir tun müssen, ist warten ...
+endscene
+//<fade to blackscreen>
+
+
+scene end-sanc-wakeup
+[FADENOFADE]
+Etwas später ...
+N: ...
+N: ...
+N: Autsch ...
+[FADENOFADE]
+Novas ganzer Körper schmerzt. Langsam öffnet sie die Augen, um zu sehen, dass sie in der schalenartigen Vertiefung des Zentrumsheiligtums gelandet ist. Ihr Körper muss bei diesem Sprung durch das Staubprisma fast in Stücke gerissen worden sein. Sie blickt nach unten, um ihre Wunden zu untersuchen.
+...
+Und sieht nichts.
+endscene
+
+
+
+scene end-sanc-channel-1
+[FADENOFADE]
+Ihr Plan funktioniert! Sie kanalisiert erfolgreich Staub und vibriert die Partikel um sie herum, um sich zu tarnen. C Psalmist und C Visionary schweben nichtsahnend darüber. Und wie auf Stichwort läuft ein seltsamer Anblick in Novas Blickfeld ...
+endscene
+
+scene end-sanc-channel-2
+[FADEPART]
+Nova sieht ... sich selbst? Nein ... Ein Spiegelbild. Eine neue Reinigerin! Der Neuankömmling steht auf dem Mittelsockel, wo Psalmist und Visionary auf sie warten.
+endscene
+
+
+scene end-sanc-channel-3
+// 5
+CP: ... Zera, hör genau zu. Ich werde dir nun deinen wahren Zweck und den weiteren Weg offenbaren.
+CP: Du wurdest in ein Kriegsgebiet hineingeboren, Zera. Zugegeben, es ist kein Krieg mit Schwertern oder Waffen, mit Armeen oder Infanterie ... wir führen einen Krieg, der fast unsichtbar und doch völlig heimtückisch ist ... Wir sehen uns einer tödlichen Kraft gegenüber, die das Gesicht der Zeit in Falten legt, während eine lauernde Wasserbestie die Oberfläche eines Sees aufbringt und die klare Reflexion unserer Seelen stört.
+CP: Wir nennen es Nano-Staub ...
+[FADEPART]
+Nova beobachtet, wie C Psalmist die vertrauten Worte abliefert, diesmal an die neue Reinigerin ... Zera. Sie wappnet sich, um die nächste Stufe ihres Plans auszuführen.
+[CLEAR]
+Ihr Timing muss perfekt sein. Der Staub um sie herum schwankt in rhythmischen Mustern. Sie lässt sich von seinem Tempo umhüllen.
+endscene
+
+//[SMOOTHCAM TO vc-sway-1 in 1]
+
+// 0 2, 3 5, 6 9, 10
+scene end-sanc-channel-4
+[FADENOFADE]
+[SOUND dust-channel 0.7 1]
+... Wisch ...
+
+[FADENOFADE]
+[SOUND dust-channel-2 0.7 1]
+... Wisch ...
+
+[FADENOFADE]
+[SOUND dust-channel 0.7 1]
+... Wisch ...
+[CLEAR]
+Dann lässt sie die Illusion fallen und platzt in Sichtweite.
+endscene
+
+scene end-sanc-channel-5
+[FADENOFADE]
+C Psalmist schreit: „N-Nova bist du das??? Wie ...?“
+Aber bevor jemand ein weiteres Wort sagen kann, hat Nova ihren Funken der Verbindung geworfen – direkt auf Zeras Herz.
+endscene
+// <Before anyone can do anything, Nova spin/shrinks into Zera>
+
+
+//Inside Zera
+//<while Nova is in Zera, perhaps the UI glandilock is sorta bugging a bit. Occasionally vibrates and eyes twitch independently? I’m thinking this section will have a lot less dialogue than previous incarnations>
+
+scene zera-intro
+$N$: Alles läuft nach Plan ... Du kannst das schaffen, Nova!
+endscene
+
+scene zeroid
+Zeroid: Danke, dass Sie den Weg gesäubert haben, Frau Nova!
+Zeroid: Hee hee, ich will spielen!
+Zeroid: Jamm jamm! Leckere Getreideenergie für den Glandilock-Samen!
+Zeroid: Mmm-mmm! Milchige Milch bewässert und hydriert Herr Glandilock!
+Zeroid: Kleiner Reguloid macht mich so nett und bequem!
+Zeroid: Ähhh??? Frau Nova, was ist mit dem Müsli passiert???
+Zeroid: Ahhh! Die Milch ist weg!!! Herr Glandilock wird so traurig sein!
+Zeroid: Hast du den kleinen Reguloid zerstört?? W-was machst du da?
+// 8
+Reguloid: Wuff WUFF-WUFF! (Übersetzung: E-eindringling! Eindringling! Wuff wuff!)
+endscene
+
+scene zera-rocks
+-Kammer des Müslis-
+-Wiege der Milch -
+-Räume des Reguloid-
+[FADE]
+DIE ELEMENTE DER ERNÄHRUNG BILDEN EINE UNDURCHDRINGLICHE VERSIEGELUNG.
+ZUSAMMEN SCHÜTZEN SIE DIE HÖHLE DES GLANDILOCK.
+endscene
+
+scene zera-pico
+Zeras Zentrumbeeren-Zerealien wurden zerstört. Ein Siegel zu Glandilocks Höhle wurde gebrochen!
+Zeras Dotter-Milch ist verdunstet. Ein Siegel zu Glandilocks Höhle wurde gebrochen!
+Zeras Reguloid wurde vernichtet. Ein Siegel zu Glandilocks Höhle wurde gebrochen!
+endscene
+
+scene zera-dilemma
+[FADE]
+--DAS SCHLEIMPROBLEM--
+EIN JUGENDLICHER SCHLEIM, DER VOR POTENZIAL STROTZT
+EIN ÄLTERER SCHLEIM, VOLLER ERFAHRUNG
+WER VERDIENT ES ZU LEBEN?
+endscene
+
+scene zera-blood-gate
+[FADE]
+DIE, DIE ES WÜNSCHT ZU PASSIEREN,
+MUSS MIT IHREM EIGENEN BLUT BEZAHLEN
+endscene
+
+//<You fight thru the final dungeon which involves destroying the milk, cereal, and reguloid which grants you access to Zera’s Glandilock Seed>
+//<possibly reguloid is like a joke boss fight and dies in one hit?>
+
+scene zera-gs-1
+$GS$: Frau Nova ... Ich verstehe nicht! Was machen Sie hier?
+$N$: Glandilock, ich bin hier, um dich aus Zera zu entfernen. Sie verdient es, ohne dich in ihr zu leben und ohne, dass du einengst.
+$GS$: Aber verstehen Sie nicht, Frau Nova? Ich bin ein wichtiger Teil von Zera! Ich verbinde sie mit dem Zentrum. Ich gebe ihr die Kraft, die sie braucht, um sich dem Staub zu stellen! Ohne mich wäre sie nichts ... ein leeres Ei, ausgehöhlt und zwecklos.
+$N$: Nein. Ich bin diejenige, die verloren ist. Gefangen zwischen unvereinbaren Welten ... angekettet an eine Sache, der ich nicht dienen kann.
+$N$: Aber Zera ... sie ist eine schöne Schale, ein wunderbares Ei. Lass sie sich mit allem füllen ... das ist das Leben. Verwechsle nicht Gelegenheit mit Tod.
+$N$: Zera wird etwas wirklich Erstaunliches sein. Sie wird zu einem Leben heranwachsen, das ich mir nie vorstellen konnte.
+$GS$: ...
+$GS$: ...
+$GS$: Ich hasse Sie, Frau Nova!!!! Sie sind sehr ungezogen! Oooohhh ... Ich verrate Sie, Frau Nova!!! Ein Glandilock-Samen sollte niemals entfernt werden! NIE NIE NIE!!! Glauben Sie, sie wären ohne mich besser dran? Sie wird mit ekligem Staub und Gift gefüllt sein, bevor man auch nur „Glandilock“ sagen kann, und es wird alles Ihre Schuld sein!
+$GS$: Oh, wie ich Sie hasse. Oh, wie ich Sie so sehr hasse! Ich will Sie jetzt töten, Frau Nova. Ich werde Sie zu Tode töten.
+endscene
+
+scene zera-gs-mid
+$GS$: Was haben Sie mir angetan? Sie kleiner VIRUS! Oh, ich werde Ihren kleinen Körper gegen die Wände drücken. Kommen Sie her!
+$GS$: Sie sind immer noch *HUST* am Leben? Was sind Sie denn? Ich werde Sie so sehr töten ... *hrk* Ich ... ich werde Sie über Zeras Innereien schmieren!
+endscene
+
+scene zera-gs-2
+//<In order to finish the battle you have to do a big suck (like a dust crystal) when the Glandilock seed pops out>
+$GS$: F-frau Nova ... *hrk* ... sie ist so ekelhaft ... und so gemein! Sie ist so traurig ... *HUST* ... dass sie uns alle töten wird ...
+//<disturbing baby cry>
+//<something like blood flies everywhere, like it’s kinda ripping up Zera a bit. Then fade to white>
+$N$: Zera ... Schatz ... sei frei. Du verdienst mehr als das, was das Zentrum dir bieten wird. Ich kann mir nicht einmal vorstellen, was du tun wirst ...
+endscene
+
+//<back to 3D, sanctuary>
+//<Nova stands facing Zera (perhaps Z-Glandilock  pops out onto the ground in 3d?). The camera lingers on them for a while. Nova has her hands on Zera’s shoulders?>
+
+scene end-sanc-zera-1
+N: Zera ...
+N: Kannst du mich hören?
+N: Wie fühlst du dich?
+Z: ...
+Z: Ich ...
+endscene
+
+// ZeraGlitchSTart -> ZeraGlitchLoop
+// IdleREach on nova
+scene end-sanc-zera-2
+N: N-nein ... was ist los??? Zera!!!
+Z: H-h-hilf ... m-mir ...
+endscene
+
+scene end-sanc-zera-2-2
+[FADENOFADE]
+Zeras Körper zittert heftig, aber Nova kann immer noch den Blick von Verwirrung und Schrecken auf dem Gesicht der jungen Reinigerin erkennen. Nova streckt die Hand nach ihr aus, aber Zeras physische Form zerfällt wie Papier, als ob die Atmosphäre plötzlich mit hundertfacher Kraft auf sie eindringt.
+[SOUND end-crystal-1 1 1]
+...
+[CLEAR]
+Nova schreit. Zeras roter Rock legt sich mit einem sanften Flattern auf ihre verschrumpelten Überreste.
+endscene
+// CrumpledZera
+
+//<Zera crumples suddenly into a pile of clothes>
+scene end-sanc-zera-3
+CV: Nun, war das dein großer Plan, Nova? Zeras Glandilock-Samen zu entfernen? AHAHAHA!!! Nun, Punkte für Kreativität, aber du hast dich leider verrechnet.
+CP: Nova ... es ist, wie wir immer gesagt haben ... der Glandilock-Samen ist extrem wichtig! Ein frisch geschlüpfter Reiniger kann unmöglich außerhalb seines Eies überleben, ohne einen direkten Bezug zur Energie des Zentrums ...
+N: Nein ... nein ... Sie sollte es sein!!! Ich ... ich wollte nur, dass sie frei ist ... Ich wollte, dass die Dinge diesmal anders sind ...
+// stop music
+CV: ...
+CV: ... Ohhhh, BOO HOO HOO!!
+endscene
+// scary ambient, no perc
+// lights dim!
+
+scene end-sanc-vision
+CV: Du ekelst mich an, Nova. Du denkst, dass du deinen eigenen Körper verdienst? Dein eigenes Leben?
+CV: Alles, was du hast, kommt aus dem Zentrum. Alles Gute an dir ist ein großzügiges Geschenk. Du aufbrausender $Staubliebhaber. Ahhh, ich verstehe ... Ich sehe deine Wünsche ... Ich sehe deine erbärmlichen Fantasien ... AHAHAHA ... Bring mich nicht zum Lachen! Du?! Du bist nie für romantische Höhenflüge geschaffen worden!
+// Cut to:   CV Disgusteed, nova indleendingscaled. end-lecture
+CV: Nova, du wurdest gemacht, um ein Helfer zu sein ... um ein dienendes Herz zu haben und Zufriedenheit mit diesen einfachen Aufgaben zu finden. Aber nein ... das war nie genug für „Nova“, oder? Du musstest nach immer mehr greifen wie ein sabberndes Kind! „Gib mir meine Palisade!!! ... Gib mir meine Dustbound!!! ... Gib mir meine Zera!!!“ Wie viel Zeit und Energie hast du verschwendet, um dich unglücklich zu machen, indem du mit deiner wahren Natur im Widerspruch stehst? Du siehst lächerlich aus! Das musst du wissen. Du musst wissen, wie du in den Augen des Zentrums aussiehst!
+// end-punish
+CV: Ich werde dich jetzt bestrafen, Nova. Ich habe kein Vergnügen daran ... aber es ist zu deinem Besten. Das Zentrum hat zu lange versucht, dich in die richtigen Entscheidungen zu verwickeln. Jetzt musst du die Konsequenzen tragen!
+endscene
+
+scene end-grab
+[FADEPART]
+C Visionary packt Nova am Kragen und hebt sie in die Luft. Er hebt einen Arm, um zuzuschlagen. Nova lässt den Kopf hängen, ihre Beine baumeln kläglich in der Luft. All das ... war alles umsonst? Am Ende muss es das sein, was sie verdient.
+endscene
+
+// end-grabbing
+// stop musi
+
+scene end-spark1
+[FADEPART]
+...
+[CLEAR]
+Aber ... seltsamerweise ... Nova spürt eine Wärme in ihrer Brust. Unbemerkt von Nova schleicht sich langsam ein winziger Funke aus ihrem Körper und erhellt den Raum zwischen ihr und Visionary.
+endscene
+// set scale of spark to something to bigger value each time, sfx?
+// 0 2, 3 5,6, 8
+scene end-spark2
+[FADE]
+„Du bist die Nano-Reinigerin, ja. Aber du bist mehr als das. Du bist ein Mensch, mit Gefühlen und Bedürfnissen und Wünschen. Ich möchte, dass du weißt, Nova ... dass all das wichtig ist, jeder Teil von dir! Arbeit und Spiel, Freude und Traurigkeit, Stärke und Schwäche. Es gibt Platz auf der Welt für ganz Nova!“
+— Palisade
+[FADE]
+„ Wenn du mich erschaffen hast, dann solltest du es jetzt wirklich verstehen. Ich bin mein eigenes Wesen! Ich bin von meinem Herzen und meinem Verstand gezwungen. Du hast dein Recht auf mich, auf uns alle, von Natur aus verwirkt. Wir existieren, wir sind schön, und du hast KEINEN Anspruch auf uns!“
+— Drem Kinako
+[FADE]
+„Und jetzt ... ist es nicht an der Zeit, sich wieder zu formen? Ist es nicht an der Zeit, diese Kraft der Anpassung zu ergreifen und sie auf das umzuleiten, was du wirklich glaubst? Solange du lebst, Nova, ist das deine Gabe. Du kannst immer etwas Neues werden.“
+— Elegy Beatty
+endscene
+// go to end weakened
+
+scene end-sanc-fight-1
+CV: Rrrgh ... du ... hast mich verletzt?
+CV: ...
+CV: Psalmist!!! Das Zentrum benötigt deine Energie. Deine Dienste wurden geschätzt, aber jetzt ... gehörst du mir!
+CP: O-oh ...
+CP: Ähm ... ja ... natürlich ... das ist es, was das Zentrum verlangt. Verzehre mich, Visionary.
+endscene
+
+// scary song
+// end-dragonmorph
+// fade in and out
+
+// end-eatingpsalm
+
+scene end-sanc-fight-2
+CV: Ja ... jaaaa ...
+CP: Ähm ...
+CP: A-auf Wiedersehen, Nova ... Ich wollte immer nur das Beste für dich ...
+N: Psalmist ...
+N: ...
+N: Du musst das nicht tun ...
+CP: Ahh ... ahahah ... Nun. Das ist ein schöner Gedanke. Du bist so sehr wie sie, weißt du? Palisade ... Immer über den Tellerrand hinausdenken. Immer an die Grenzen gehen ...
+CP: ...
+endscene
+
+// end-stopeating
+// stop music
+
+//<Psalmist puts out her arms and holds Vis’s jaws>
+scene end-sanc-fight-3
+CP: Äh ... Visionary, ich würde gern wissen ... was ist mit Palisade passiert?
+CV: Welchen Unterschied macht es?
+CP: Ich ... ich weiß nicht ... Ich habe nur ... Ich habe mir immer gesagt, dass es ein Unfall war. Dass sie sich selbst verletzt hat, als sie versuchte, einige unsichere Palisaden-Possen zu machen. Dass sie selbst schuld daran war. Aber ...
+CP: Es war das Zentrum, nicht wahr?
+CV: Wir verschwenden hier Zeit, Psalmist. Worauf willst du hinaus?
+CP: Ich konnte glauben, dass ich meinen Nutzen überlebt habe. Dass ich es verdiene, für Energie auf einen Schlag verschrottet zu werden. Aber sie? Und Nova? Ich verstehe es einfach nicht. Wofür gebe ich mein Leben? Was könnte diese Art von Grausamkeit wert sein?
+CV: Hast du es vergessen, Ältester? Der perfekte Plan des Zentrums war nie unser Plan! Alles, was wir tun können, ist, diesen Weg gemeinsam zu gehen. Jetzt ... ist es Zeit, loszulassen, Psalmist. Du weißt, dass du nie hoffen konntest, mir zu entkommen.
+endscene
+// -- end-finallook
+// intro song
+scene end-sanc-fight-3-2
+CP: ...
+CP: ... ...
+CP: ... ... ...
+CP: Nova ...
+CP: Ich glaube, ich verstehe ...
+CP: Ich glaube, ich sehe dich jetzt ...
+CP: ...
+CP: Es gibt Dinge, die man werden kann ... Dinge, die schlimmer sind als Staub ...
+endscene
+// stop intro song
+//
+
+scene end-sanc-fight-3-3
+[FADENOFADE]
+C Psalmist lächelt Nova sanft an und schließt dann die Augen. In einer schwungvollen Bewegung schlägt sie ein letztes, unharmonisches Glissando auf ihrem Instrument.
+//[SOUND asdf 1 1]
+[FADENOFADE]
+...
+Ihr Körper beginnt zu schimmern und sich aufzulösen. An seiner Stelle ... schweben mehrere regenbogenfarbene Splitter von Staubkristall sanft in der Luft.
+endscene
+
+// end-dragonreach
+// scary music perc gain
+scene end-sanc-fight-4
+CV: Ugh, was für ein abscheulicher Anblick. Egal, ich habe schon genug von ihr verdaut, um mit DIR fertig zu werden!!!
+endscene
+
+scene end-sanc-fight-4-2
+[FADENOFADE]
+Vor Hunger keuchend, zieht C Visionary seinen Körper zu Nova. Näher. Näher.
+Plötzlich ...
+endscene
+
+// stop music
+// sfx slashes x 3, pause, last slash
+// end-dragondead
+
+scene end-sanc-fight-5
+[FADEPART]
+Es war fast zu schnell, um es zu verstehen. Staubscherben fielen von oben in Visionary und trafen ihn immer wieder, bis er nicht mehr weiterkam.
+[CLEAR]
+...
+... Psalmist?
+[FADEOFF]
+CV: Unghh ...
+CV: Nur eine Frage der Zeit ... Ahahaha ...
+CV: ... Das Zentrum ist eine neue Insel ...
+CV: Du ... kannst nicht entkommen ... wer du bist ...
+CV: Ahahahah ... AHAHAHA ...
+endscene
+
+//<explodes and disappears>
+
+scene end-sanc-final-1
+[FADENOFADE]
+Der Körper von C Visionary explodiert und löst sich in Luft auf.
+[CLEAR]
+Endlich Ruhe und Stille. Umgeben von so viel Tod, und doch ... Nova ist am Leben. Sie ist ... enttäuscht. Sie hatte nicht erwartet, diejenige zu sein, die es übersteht.
+Nova wendet sich dem kleinen Haufen Kleidung zu, den Zera zurückgelassen hat. Ein seltsamer und weicher kleiner Steinhaufen. Was für ein sinnloser Verlust. Was für ein dummer und schrecklicher Fehler.
+[CLEAR]
+....
+....
+[CLEAR]
+Aber Moment ... nein ... könnte es sein? Haben sich die Stofffalten gerade bewegt? Es muss eine Täuschung des Lichts gewesen sein, denkt Nova. Und doch ... da ist es wieder!
+Sanft schaut Nova durch den Haufen, bis sie auf ein seltsames und winziges Wesen stößt. Es fängt an zu weinen. Ungeschickt nimmt Nova es auf.
+endscene
+
+// end-holdzera, maybe need point light, play happy apal song
+scene end-sanc-final-2
+[FADEPART]
+Was war es, was Psalmist sagte? „Ein frisch geschlüpfter Reiniger kann unmöglich außerhalb seines Eies überleben, ohne einen direkten Bezug zur Energie des Zentrums ...“
+[CLEAR]
+Nova denkt eine Weile darüber nach. Sie erinnert sich, was Drem Kinako ihr über „Essen“ und „Schlafen“ beigebracht hat. Vielleicht gibt es für diese Kleine einen anderen Weg. Vielleicht mit Novas Führung ...
+endscene
+
+//go to spiretop
+// end-wolgalitalk
+// go to desertshore
+// end-nowan
+
+//
+scene end-monologue
+[FADENOFADE]
+N: Zera ...
+N: Ich wollte unbedingt mein Leben für deins aufgeben. Mein Herz schmerzte nach der süßen Buße der Vernichtung. Am Ende war es nicht einmal eine Option.
+N: Ich habe Angst, Zera. Ich habe Angst davor, was es bedeutet, für mich selbst zu leben! Aber vielleicht wird es dir auch so gehen. Vielleicht geht es uns allen so. Vielleicht wird mein Geschenk an dich nicht das Leben sein, das ich opfere, sondern das Leben, das ich lebe. Irgendwo ... weit über die Grenzen von allem hinaus, was ich einst wusste ...
+endscene
+
+// other shot - <Nova sailing the ship away from the island. Baby is in Nova’s arms. Wolgali is on boat behind them>
+//<character title card, first Zera, then Nova (but on the same screen like pal and psalm?)>
+
+
+scene zera-name-card
+Zera\n<![CDATA[<size=14>]]>„Die Süße“<![CDATA[</size>]]>
+-Wie ein Mensch,\naber klein
+-100% zertifiziert \nGlandilock-frei
+-Unendliches Potenzial
+Nova\n<![CDATA[<size=14>]]>„Die Kapitänin“<![CDATA[</size>]]>
+-Ehemalige Nano-Reinigerin
+-Traurig, aber entschlossen
+-Unerklärlicher Drang,\n„Ahoi!“ zu sagen
+// 8
+... ... ...
+-Mami
+endscene
+
+
+scene end-shore-1
+[FADEPART]
+Nova atmet die salzige Meeresluft ein, während sie immer weiter von den Ufern von New Theland segeln. Sie dreht sich um, um über die winzige Gestalt von Zera zu lächeln, die vor Freude brabbelt.
+[CLEAR]
+„Nun, ich schätze, das ist es, was?“, sagt Nova.
+Plötzlich ...
+endscene
+
+// fade to white, exit nano sfx, pause a little
+scene end-shore-2
+[FADEPART]
+... Eine leuchtende Gestalt spinnt sich aus Wolgalis Kopf heraus und beginnt in wilden Kreisen über das kleine Deck zu laufen.
+[CLEAR]
+Das kann nicht sein ... Ash Beatty von den Dustbound? Eine verblüffte Nova wird von dem energischen Kind aus dem Gleichgewicht gebracht. Nova rutscht aus und greift hoffnungslos nach einem Handlauf ... bis ...
+endscene
+// nanofx
+// cut to elegy scene
+
+scene end-shore-3
+[FADEPART]
+-Nova wird in der Mitte des Sturzes aufgegangen und in eine feste und doch sanfte Umarmung gezogen. Sie wird von niemand anderem als Elegy Beatty gehalten!!!
+---
+[FADENOFADE]
+Nova flüstert Elegy zu: „Ich weiß nichts. Ich weiß nicht, was da draußen ist oder was in mir ist.“
+Elegy hilft Nova auf die Beine und schaut zum Horizont. Sie drückt Novas Schulter sanft. „Das ist die Schönheit eines Ozeans“, sagt sie.
+endscene
+// fade back slowly.. show new scene of ocean boat
+// wait, then THE END
+// fade to black, roll credits.
+
+// mid credits
+scene credits-drem
+//As Drem says these lines he sorta walks along until he runs into bowl of soup.
+DK: Ahhh ... ein weiterer schöner Tag im Robustbound Village! Alles scheint an seinem richtigen Platz zu sein. Dank dem Zentrum für sein wunderbares Design! Was für ein Wunder ... Hey! Warte eine Sekunde! Ich habe das hier noch nie zuvor gesehen!
+DK: Hmm ... da ist eine Notiz darunter:
+[FADE]
+Lieber Drem,
+wir wünschen dir viel Spaß beim Essen dieser Schüssel Suppe. Denk daran: Essen ist wie rückwärts reden.
+Mit freundlichen Grüßen
+Nova und Elegy
+[FADEOFF]
+$DK$: „Schüssel Suppe“? „Essen“? Was ist das für ein Hokuspokus? Da steht, es ist von Nova und ... Elegy? Ah ja, diese seltsame rosa Dame ...
+$DK$: Hmpf ... nun, das gehört eindeutig nicht hierher. Ich werfe es besser weg, bevor sich das herumspricht.
+$DK$: ...
+$DK$: Ja ... ich werfe es jetzt einfach in den Müll, haha!
+$DK$: ...
+$DK$: Auf der anderen Seite ... vielleicht sollte ich es besser genauer untersuchen. Für das Zentrum natürlich!
+$DK$: *schnüffel* Es riecht ... es riecht irgendwie gut eigentlich. Wirklich gut. Nun ... „Reden“ ist, wenn Worte aus deinem Mund kommen. Also ... vielleicht ist „Essen“, wenn „Suppe“ in deinen Mund kommt. Ja ... das ist die einzige logische Interpretation, die mir einfällt.
+$DK$: Ich nehme an ... ein Bissen kann nicht schaden, oder? Ja ... wird schon schiefgehen!!! *schlürf* *mampf* *schluck*
+endscene
+
+scene credits-drem-2
+// soup sprite turns to empty bowl
+...
+... ...
+... ... ...
+$DK$: Mmmmmm!
+//rubs tummy
+// end credits
+endscene
+
+scene credits
+// 0
+Anodyne 2: Return to Dust\n\n\nEin Spiel von Analgesic Productions\n\nMarina Kittaka\nMelos Han-Tani
+Spiel-, Level-, Gegner-, Weltdesign\n\nMarina + Melos\n\n\nProduktion, visuelle Konzeption/Direktion\n\nMarina + Melos
+Hauptgeschichte\n\nMarina\n\n\nNebengeschichten\n\nMarina + Melos\n\n\nWerkzeuge, Steuerung, Kamera, Infrastruktur, Grafiken, Zwischensequenzen, Lokalisierung, Gegnerprogrammierung\n\nMelos\n\n\nCharakterdesign, UI, 2D-Figuren, Partikel, 2D-Umgebungen, 2D-Hintergründe, 2D-Animationen, 3D-Modelle, 3D-Texturen, Rigging, 3D-Animationen\n\nMarina
+Musik- und Sounddesign\n\nMelos\n\n\nBusiness, Twitter, Discord und YouTube, Devlog, Newsletter\nMelos\n\n\nMarketingmaterial\nMarina + Melos\n\nFirmen- und Spiellogo\n\nMarina\n\nChinesische Lokalisierung: ada.wuyu@gmail.com\nBrasilianisch-Portugiesische Lokalisierung: https://www.deviantart.com/anemptysoul\nDeutsche Lokalisierung: Marcel Weyers und Steven Korkowsky - Tolma4 Team\nDeutsches Korrektorat: Jan-Lukas Koch\nVoid - Heartbit Font
+Design- + Programmierungstools\n\nUnity 2017.3\nCinemachine\nTextMeshPro\nRewired\nVisual Studio\nProBuilder + ProGrids\nSaad Khawaja's Screenshot Tool\nMS Paint\nMINGW64
+Grafik-, Musik- + Soundtools\n\nGIMP\nPhotoshop\nBlender\nAbleton Live\nREAPER\n\n\nMarketing Tools\n\nTwitter Ads\nAdobe Premiere Pro\nYouTube\nOBS\nFFMPEG\nGifCam\nPuTTY
+Produktions- + Kommunikationstools\n\nEvernote\nTodoist\nDiscord\nGoogle Docs/Slides/Sheets\nGit\nE-Mail\nDropbox\nSnipping Tool\nNotepad
+Qualitätssicherung\n\nElliott „cleverpidgeon“ Bernard-Cooper, Kiri Sweets\nlifning, Sandy\nAda Rook, Colin Horgan, thernz\nEmma Jayne, Catherine Brinegar\nGenie Liang, Sofía González Quintana\nCarles „Zettai“ Rubio Arias, Justin Wong\nDavid Crespo, John Sandoval\nJames Farmer, a bluer don juan\nToby Do, Badru\nThe Indie Bros.
+Zusätzliche Musik\n\nEQUIP (Kevin Hein) - ein Lied\nR23X (Marc Junker) - ein Lied\nJ.S. Bach, Charles Gounod, Giovanni Martini, Thomas Morely, Modest Mussorgsky, James Paige, Shael Riley (Arrangements)\n\n\nRechtliches\n\nSam Castree, III\n\n\nBuchhaltung\n\nMartin McCaffrey
+The Indie Bros. – Marketingassistenz\n\nErik Johnson\nJosh Knapp\nDevin Duggan\nMike Coletta\nTim Wetzel\nChristopher Lee\nKen Ellis\nChristopher Hayes\nDayton Haywood\nCraig Davies\n\n\nDanke an Nnooo und Epiphany Games für die Hilfe bei der Konsolenportierung von Anodyne 1.\n\n\nDanke an Ratalaika Games für die Hilfe bei der Konsolenportierung von Even the Ocean.
+Besonderer Dank von Melos:\n\nSandy\nMeine SAIC Spiel- und Musikstudenten und die ATS-Abteilung\nFamilie\nChicago-Freunde\nFreesound.org\nTom, Sophie und das Steam-Team\nAnthony, August und das Kartridge-Team\nDas Itch.io-Team\nMarc, Drew und das Yetee-Team\nMarta, Marcin und GOG-Team\nDas Humble-Store-Team\nAnalgesic-Productions-Discord-Cmmunity\nShael Riley + James Paige für die gemeinfreien OHRRPGCE MIDIs\nAlt und Indie Game Entwickler, Spieler und Kritiker-Communitys\nSusumu Hirasawa, Rei Harakami, unzählige andere Komponisten
+Besonderer Dank von Marina:\n\nJGH\nPixabay\nTextures.com\nNASA\nDie Blender-Community\nReiner „Tiles“ Prokein für Create Isocam\nJames Paige und die OHRRPGCE-Entwickler und Community\nGLITCH\nFreunde, ob nah oder fern
+Marinas Abalone + Macaroni Patrons\nDan Kittaka\nDevon Corwin\nDr.Fox\nliffy\nSandy\nTate\nBadru\nBeth Cosmic\nCarta Monir\nDylan Baker\nJune Flower\nLeah Bacon\nLuke Beeman\nMonplaisir\nPatrick Winchell\nScumslug
+Marinas Pony Patrons\nAnthony Haevermaet\nChris C Cerami\ncm cooper\nEm\nGregory Avery-Weir\nJherin Miller\nJoj Fay\nJosie Brechner\nJune\nLiara Roux\nMath\nMy Variant Cover\nNikki\nPatrick Feerick\nRobert Ottem\nRosin\nTony Wei Ling
+Anodyne 2: Return to Dust wurde von Analgesic Productions selbst finanziert und veröffentlicht. Es wurde geplant und produziert, teilzeitlich und hauptberuflich, von Dezember 2017 bis Juli 2019.\n\nDanke an alle unsere Spieler, Fans, Streamer, Videomacher, Kritiker, egal ob seit Langem oder seit Kurzem, für eure Unterstützung!\n\nMarina Kittaka und Melos Han-Tani
+// 14  max idx
+endscene
+
+scene credits-pg
+[FADENOFADE]
+(Melos Han-Tani kommt hinter der Benutzeroberfläche hervor und winkt dir zu. Es scheint, dass Melos dir eine Nachricht geben möchte.)
+[CLEAR]
+Hallo! Du hast das Ende der Geschichte von Nova und New Theland erreicht. Marina und ich sind so froh, dass du unser Spiel beendet hast.
+Aber ... Ich habe gehört, dass der Metashop eine neue Lieferung erhalten hat. Auch im Nexus gab es etwas Verdächtiges.
+Hmm. Ich frage mich, was es wohl sein könnte!
+[CLEAR]
+Wenn du deine Speicherdatei neu lädst, bist du wieder im Blautal-Zentrum, als ob Nova nie das Zentrum konfrontiert hätte. Vielleicht möchtest du diese oben genannten neuen Dinge untersuchen. Hm hm hm ...
+Okay, leb wohl! Sei vorsichtig!
+endscene
+
+scene bad-prism
+Nova hat ihre größte Mission erfüllt: das vollwertige Prisma mit Staub zu füllen. Jetzt muss sie mit C Psalmist und C Visionary sprechen, um das Anodyne zu initiieren.
+endscene
+
+scene bad-sanc
+CP: Nova ... Nova!!! Endlich ist der Moment gekommen!
+CV: Unglaublich, Nova! Wahrhaftig, ich ziehe meinen Hut vor dir! Mit Hilfe des Metasäuberungssystems hast du erreicht, was noch nie jemand zuvor erreicht hat!
+CP: Das Anodyne, Nova! Du hast es geschafft! Das Anodyne kommt endlich! Oh, wie sehr haben wir uns nach diesem Tag gesehnt.
+CV: Schnell, jetzt müssen wir das Prisma leeren!
+//we see prism draining
+//Cut to RingCCC, sky turns a weird color, rain begins to fall
+endscene
+
+scene bad-end-skel
+ST: Kann es sein? Ist die lang erwartete Prophezeiung in Reichweite?
+GR: Das Anodyne ...
+ST: Ich liebe dich, Gravis. Ich werde dich immer lieben.
+GR: Ich kenne Stavros. Und ich werde für immer an deiner Seite bleiben, weit über den Rand der Zeit hinaus. Denn was ist am Ende der Unterschied zwischen Zeit und Raum?
+// fade to white, ominous freeze SFX? But we don’t actually see what happens to them definitively.
+endscene
+
+scene bad-end-clone
+LY: Clonwei alter Junge, das ist es!
+CY: ... ... ...
+LY: Ich wusste, dass es richtig war, geduldig auf das Anodyne zu warten! Denk an all die Fettnäpfchen, die wir vermieden haben, nur weil wir es für uns behalten haben, hahaha!
+LY: Danke, dass du immer auf mich aufgepasst hast, Clonwei. Du verdienst einen Ehrendoktortitel in Freundschaft, hahaha! Ehrenamtlich bedeutet „unecht“, aber es ist trotzdem eine respektable Leistung!
+CY: ... ... ...
+LY: Nun, wir sehen uns auf der anderen Seite ...
+endscene
+
+scene bad-end-geof
+GA: Ahhh ... Ist es jetzt vorbei? Ist die Arbeit endlich vollendet? Ja, hahaha! Jetzt, da das Anodyne gekommen ist, hat sich der Mut meines Herzens bestätigt. Ich, Geof, blieb bis zum Ende treu! Hahaha! Ich habe meinen Posten nie aufgegeben, egal was die anderen zu mir gesagt haben! Egal was ich zu verlieren hatte.
+GA: ...
+GA: Silico ... Amethia ... seid ihr jetzt stolz auf mich? Versteht ihr es endlich?
+endscene
+
+scene bad-end-rage
+RP: Von Nova gereinigt zu werden, war das schönste Gefühl. All die bittere Wut, die in mir wütete, wurde zur Ruhe gebracht. Ich war so glücklich, mich über mein schändliches altes Verhalten zu erheben.
+RP: ...
+RP: Aber als das neue Gefühl nachließ, begann ich mich an die Quelle meines Zorns zu erinnern, an die Fragen, die mich einst heimsuchten: Warum hat Das Zentrum New Theland gegründet? Warum ist die Welt so voller Angst und Schmerz ... Schmerz, den wir in endlosen Zyklen der Ausbeutung verschlimmerten? Aber das Feuer in mir war ruhig geworden, und es blieb nur noch schwache Glut übrig.
+RP: ...
+RP: Vielleicht liegen die Antworten auf der anderen Seite des Anodyne.
+endscene
+
+scene bad-final
+CP: Endlich, Nova, werden wir in Frieden ruhen. Unsere fehlerhaften Handlungen werden die grenzenlose Kraft unserer Träume nicht mehr beeinträchtigen! Alles wird direkt in New Theland sein ... Ah ... Es ist so schön, Nova! Ich bin überwältigt, mein Kind. Hahaha ... Ich weine vor Freude.
+CP: ...
+CP: ... ...
+CP: Ahhh ... Sie wäre so stolz auf dich, Nova. Wenn nur ... Palisade ...
+// fade to white, ominous freeze SFX
+// But this time, we fade back in slowly and see that Nova, Psalm, Vis, are frozen... screen is grey and deathly still for a few moments. “The End” fades in over
+endscene
+
+// THE END...
+// Abridged Credits
+
+scene bad-marina
+Marina Kittaka:n Vielleicht gibt es ein anderes mögliches Schicksal für New Theland. Wenn du deine Speicherdatei neu lädst, befindest du dich wieder vor dem Anodyne. Hast du versucht, nach Dustbound Village zurückzukehren? Denke daran: Du kannst deine Meinung jederzeit ändern.
+Marina Kittaka:n Ich glaube an dich!!
+endscene
+
+//--- postgame
+
+scene pg-nexus
+Frank Rock: Hey, Kindchen. Wenn ich für eine Sekunde dein Ratgeberfelsen sein dürfte ...
+Ratschlagfelsen: Ich bin schon eine Weile hier. Du bist zu jung für das Warppad, Nova. Komm später wieder.
+Stein: Ich bin nur ein Stein. Ein Stein, der weiß, dass das Warppad jetzt funktioniert.
+endscene
+
+scene pg-oob
+Qatest Oob: Hey, Punk! Was glaubst du, was du hier draußen machst? Du hältst dich für clever, was? Durch Wände gehen? HAH! ALS OB!
+Qatest Oob: Das mache ich schon seit Jahren. In 2D *UND* 3D!!!
+Qatest Oob: Ich wette, du hast nicht einmal alle Metamünzen! HA! Weißt du, wie viele auf der Welt versteckt sind? ICH BEZWEIFLE ES!! Viel Glück dabei, sie alle zu finden.
+Qatest Oob: Du wirst nicht wirklich nach allen Metamünzen suchen, oder? Tu es nicht. Es gibt keinen „besonders geheimen Gegenstand“! Du solltest sie nur für den Nervenkitzel suchen.
+Qatest Oob: Ja, ja. Sobald du durch den „Anreiz“ vergiftet wurdest, verflüchtigt sich die reine Freude am ... Erkunden. Sie verschwindet. Wie eine TAUBE IM KIRI!! (Kiri ist Japanisch für Nebel.)
+Qatest Oob: Also, was ich SAGEN möchte, ist, dass du nicht alle findest und in den Foren weinst, wenn es keine Belohnung gibt. DAS IST DEINE WARNUNG!! VERSCHWENDE KEINE ZEIT DAMIT, SIE ALLE ZU FINDEN, WEIL SIE NICHTS VERÄNDERN!!
+endscene
+
+scene pg-oob2
+// 0
+Qatest Oob: Vielleicht hilft dir Qatest Oob, alle Metamünzen zu finden. Aber finde zunächst 300 allein! Du hast nur {COINS} gefunden! Denk einfach daran: KEINE BELOHNUNG!
+// 1 at 300
+Qatest Oob: Hmpf. So du hast {COINS} Metamünzen gefunden! Ich wette, du bist aufgeregt. ABER HA! Je mehr du findest, DESTO HÄRTER WIRD ES, DIE RESTLICHEN ZU FINDEN! Ich hoffe, du hast eine Tabellenkalkulation erstellt! Ich wette, du willst einen Hinweis! „Oh, bitte, großer Qatest Oob, gib mir einen Hinweis!“ NUN, ZU SCHADE! ES GIBT KEINE HINWEISE, NIEMALS! DAS IST DIE REALE WELT!!! GEH, FINDE 400 UND KOMM ZURÜCK!!
+// 2 at 400
+Qatest Oob: BEEINDRUCKEND. Du hast {COINS} Metamünzen gefunden!! Du siehst aus, als würdest du dein eigenes ICO machen. In Ordnung ... Ich gebe dir einen Hinweis. Hier ist ein spezieller Gegenstand.
+Nova hat den Metamünzen-Detektor-Pro erhalten.
+Qatest Oob: Du kannst ihn beim Laufen verwenden. Keine Sorge, es ist die PRO-Version! Leider findet er Metamünzen nicht punktgenau. Aber zumindest gibt es keine Werbung!!
+// 5 6
+Qatest Oob: Du hast {COINS} Metamünzen. Das sind nicht alle von ihnen!! Komm zurück, wenn du sie fast alle hast. Ich gebe dir noch einen weiteren Hinweis. Es gibt keine Metamünzen im Zentrumsheiligtum oder dem Berg in den südlichen Äußeren Sanden! Die einzigen Metamünzen, die im Nanobereich gefunden werden können, befinden sich in Truhen!
+Qatest Oob: Außerdem gibt es, LEICHT ZU ÜBERSEHENDE METAMÜNZEN IN TRUHEN!! AHAHAHA! Aber mein Lösungsbuch sagt: „Wenn du jede Schatzkiste geöffnet hast, die du gesehen hast, wirst du sie nicht verpassen.“
+// At ?? high amount
+Qatest Oob: UNGLAUBLICH. {COINS} METAMÜNZEN!! Du hast fast alle gefunden! Ich wusste, dass dieser Tag kommen würde. Ja, Nova, ich habe nur die Rolle des „schrulligen NSC“ gespielt, damit ich dich ermutigen kann ... Wirklich, du verstehst die „Jagd“. Wie gesagt ... Es gibt keine Belohnung. Nicht einmal, wenn man tatsächlich alle gefunden hat.
+[FADE]
+Plötzlich eine Stimme. Es ist Produzent Tani! Hat er eine Belohnung? Hat Oob sich geirrt?
+„Nein. Gut gemacht. Nun, es ist, wie Oob sagte. Es gibt keine Belohnung. Leb wohl ... verschwinde, verschwinde ...“
+[FADEOFF]
+Qatest Oob: Ah ... Schöne Worte ... Gut gemacht, gut gemacht.
+endscene
+
+
+scene extra-area
+// R1N - 0 to 6
+KT: Oh, hi. Ich bin Maryshaw Keytawny. Ich bin viel vernünftiger als dieser Schwachkopf, der die Metainfo-Berichte damals in New Theland machte. Ich bin hier der Historiker, der die Entstehung von New Theland verfolgt. Ähm ... also ... willkommen in ... einer der Unzonen? Genau, lass uns mit diesem Begriff fortfahren ... Ich habe eine Ewigkeit Zeit, in diesen Unzonen zu leben, mache also besser das Beste daraus, oder? Seufz ...
+KT: Nun, du kannst das Menü benutzen, um nach New Theland zurückzukehren. Äh ... die mysteriöse Person „S“ wollte, dass ich dir sage, dass keine der Unzonen zum „Kanon“ gehört und es nichts zu finden gibt. Ich wünschte, ich könnte die Liebe „finden“ ... ah, da fange ich wieder an ...
+KT: Okay. Eine Unzone ist ein Ort, der die New Theland überschreitet. Es wurde von den beiden mysteriösen Personen, „M“ und „S“, nicht für würdig befunden. Äh ... Das heißt ... Es gibt zwei Schöpfungsmythen, einen, der besagt, dass „Das Zentrum“ New Theland erschaffen hat, das ist „Kanon“, und die andere, bei der M und S es getan haben, das ist „Meta“.
+KT: Dies ist eine Architekturskizze von S. Sie war eine der Inspirationen für Ms Autowäsche in Blautal. Das weiße Feld um dich herum wurde bei der Erstellung von Ridescale verwendet ... Ich habe gehört, dass es ein Drahtseilakt war. Es gibt nichts dort draußen, aber du kannst in den grünen Bereich gehen, um mehr zu sehen. Dieses Bild eines Gesichts ist ... aus der Zeit, als S unter einem Fluch stand ... Wir werden es einfach ignorieren ... aber es wurde bei der Schaffung einer sehr „fortschrittlichen“ Wassertechnologie verwendet.
+KT: Ursprünglich war New Theland so geplant, dass es alle erdenklichen Arten von Tempeln und Dungeons haben sollte. Dies ist ein Außenbereich, den S gemacht hat. Diese Pläne waren zu teuer, sodass die Dungeons komplett gestrichen wurden. Wenn du dich umdrehst, sollte diese Struktur ein seltsames Zuhause sein. Schau ein wenig weiter nach links, und das erhöhte Gebäude in der Ferne ist ein Prototyp von Geofs Dorf.
+KT: Ein weiterer Bereich, den S erstellt hat. Vielleicht lebte jemand dort oben ... aber diese Art von Orten erwies sich als zu teuer, wenn nur ein Nanopunkt darin wäre. Leider war es zu dieser Unzone verdammt. S mag die Gemütlichkeit und das Gefühl des Kletterns, das man davon bekommt.
+KT: Eigentlich war dieses ganze Gebiet, das man von diesem Ausblick aus sehen kann, ein früher Prototyp des Blautals, den S schuf, um den richtigen Maßstab zu finden.
+
+// ZZ_****Ring1Test 7 12
+KT: Geheimnisstab--\nGeheimnisstab!--Es ist ein Geheimnis, und es ist ein Stab!\n...\nMagst du meinen neuen Song?\nDieser Stab macht eigentlich gar nichts ... Ich dachte nur, ein Lied könnte die Dinger lustiger machen.
+KT: Wir ... wissen nicht, woher das kommt. Nova durchlief ein paar Durchläufe, sodass irgendwann eine alte Version von M übrig blieb, und die Struktur der alten Kopien total durcheinander gebracht wurde. S sagt: „Das ist die wahre Inkarnation DES ZENTRUMS!“. S lügt.
+KT: Diese kleinen Orcas sind eine der ersten Menschen, die M erschaffen hat. Ich persönlich finde sie sehr süß. Wir sollten Puppen machen. Ich würde eine kaufen!! ... Aber nicht mit diesem Gehaltsscheck, seufz. Genieße das Süße!
+KT: Das meiste von dieser Unzone entstand, als M den ersten visuellen Stil von New Theland kreierte. Hier findest du verschiedene visuelle Tests und Modelle, die es nie nach New Theland geschafft haben. Ich liebe die Eibüsche und das rote Gras ...
+KT: Diese beiden Strukturen sind eine der frühen Architekturtests von S, bei denen es darum geht, kleine, lustige Strukturen zu entwickeln. Sie wurden zu dem Entwurf, den M dort drüben gemacht hat. Die Orcas in der Version von M sollen die Größe der Struktur testen.
+KT: Willkommen in DER ECKE! Ha ha ha, verstanden? Es ist wie „Das Zentrum“, aber ... Ähm. Ich komme gerne manchmal hierher und starre in die Ferne.
+
+// ZZ_CCC_Old_1 13 15
+KT: Willkommen zu S' frühestem Prototyp von Cenote – einer zylindrischen Höhle, in der die Sektoren der Stadt in Höhenebenen unterteilt sind. S mag es wirklich immer noch und denkt, dass es vielleicht schneller zu machen gewesen wäre, aber es fühlt sich viel kleiner an als der finale Cenote. Dieser Bereich ist der „Regierungsbereich“, der den Aufzug und den Eingang zum Zentrumsheiligtum beherbergt.
+KT: Dieser Bereich sollte ein kleiner Garten oder ein Platz für Restaurants sein. Ich habe die Skizzen gesehen, und sie sind süß. Vielleicht hätte ich in New Theland Pizza genießen können!
+KT: Vor der äußeren Straße in Cenote gab es diese abgesenkte Straße, die sich um die Stadt schlängelte. Damit könntest du die Sektoren der Stadt erreichen! Es waren Wohngebiete und dergleichen geplant.
+
+// ZZ_CCC_OLD_2 16 18
+KT: Wann immer ich traurig bin, komme ich hierher, um mich leer zu fühlen. Uff, das war düster ... Ähm ... Das ist die zweite Version von Cenote. S hat dies auf der Grundlage von Ms Konzeptgrafiken erstellt. Es gibt nicht viel hier, aber man spürt die allgemeine Struktur. Ich mag das zentrale Karussell, das zum Zentrumsheiligtum führen sollte.
+KT: Anscheinend hatten M und S Schwierigkeiten, herauszufinden, wie man den Aufzug zum Laufen bringt. Schließlich beschlossen sie einfach, nur eine Aufzugsplattform zu bauen und nicht einmal die Details der Strecke zum Zentrumsheiligtum zu berücksichtigen. Ganz einfach!
+KT: Du kannst hier nicht hochklettern, aber das war vermutlich ein Prototyp für eine Art Gebäude-Kletterherausforderung!
+
+// ZZ_CCC_OLD_3 19 20
+KT: Kommt dir langsam bekannt vor, was? Ich weiß nicht wirklich, wann oder warum M sich entschieden hat, zur endgültigen Version überzugehen, aber diese alte Version mit den groben Bereichen von Cenote ist hier, um von dir erkundet zu werden. Wie du sehen kannst, waren der zentrale Aufzug und die Parks noch nicht ausgehoben. Es gibt auch Säulenstützen, die vom Boden bis zur Decke reichen, die entfernt wurden, und sogar verschiedene Konstruktionen, die über der Straße gebaut wurden.
+KT: (Übrigens, gibt es hier keine anderen Metainfo-Punkte.)
+
+// DEBUG2DFAKE 21 23
+$KT$: Du hast es geschafft!! Zur. Letzten. Unzone!!! Herzlichen Glückwunsch! Mein Leben hat einen Sinn. Ähm ... Dieser Bereich ist etwas schwer zu erklären. Äh ... Das ist es, was S eine „Teleport“-Zone nennt. Wenn S schnell irgendwo in New Theland hinreisen musste, konnte S diesen Raum benutzen und auf ein Symbol treten, um sich sofort dorthin zu teleportieren. Sehr praktisch, wie ich hörte. Aber keiner der Ports wurde hier aktiviert, zu deiner Sicherheit.
+$KT$: Ich werde mir nicht die Mühe machen zu erklären, was genau wohin geht, aber vielleicht kannst du es dir denken. Die „3“ steht für „3D“ ... es gibt einen Raum für die Äußeren Sande, Blautal, CCC, Dustbound und einen für Zera und die Albumen-Küste.
+$KT$: S musste sicherstellen, dass die Nano-Assassinen korrekt an Stärke gelangten, also erstellte S diese Testräume. Äh ... danke, dass du alle meine Infos gelesen hast! Hehe ... Ich weiß das wirklich zu schätzen.
+
+// ZZ test3d 24
+KT: S hat hier Plattformen, Kameras und sogar den Übergang von 3D zu 2D getestet! Aber keiner der Bereichsübergänge funktioniert. Was für ein gemütlicher und ruhiger Bereich. Er erinnert mich an Buchstapel in Bibliotheken.
+
+// 25 ZY_Sean Test Arches
+KT: Wusstest du, dass in New Theland alles aus „lila Würfeln“ besteht? Haha, nicht wirklich. Aber diese lila Würfel sind was, äh ... nun, geh einfach in einen rein.
+KT: Viele der Strukturen hier entstanden, als S mit Architektur und Levelaufbauideen herumspielte. Der sehr weit entfernte Ort in der Ferne war ein Modell für Blautal-West und enthält sogar eine Kunstgalerie von M an dessen Spitze!
+// 27 ZZ alb old
+KT: Hier ist die „graue Box“-Version von der Albumen-Küste, die S nach einigen Layoutskizzen von M angefertigt hat. Für spätere 3D-Bereiche erwies es sich als schneller, dass M die meisten 3D-Bereiche entweder selbst oder mit einigen Konzeptskizzen von S erstellt hat, anstatt von einem Modell zu einer echten Version überzugehen. Wie auch immer, was die Albumen-Küste betrifft, gab es vorher eine Version mit weißem Sand, aber sie ging verloren. Ich habe gehört, dass S immer noch Bilder hat.
+// 28 rin ggoem
+KT: Dies ist eine alte Version von Blautal-West, die S erstellt hat. Früher nutzte es auch altes Terrain, aber es wurde an Ort und Stelle geändert, um im echten New Theland verwendet zu werden.
+// 29 jonifeartest
+KT: Wahre Fans, wie du, erinnern sich daran. Hoppla, es hat es nicht ins echte New Theland geschafft, ha ha! Dies war im Grunde genommen ein „Grafiktest“. Sehr, sehr früh. Etwa. Juni 2018. Was ist Juni? Was ist 2018? Ähm ...
+// 30 gif nanoalb
+$KT$: M hat diese alte Version der Dotter-Bereiche vor einer Weile gemacht! Total anders und mehr spielerisch. Du kannst auch die alten Versionen von Novas 2D-Kunst auf der rechten Seite sehen, sowie die Tatsache, dass die Kacheln hier aus 16 Pixeln erstellt sind, verglichen mit den 8 Pixeln, die die meisten Kacheln verwenden!
+// 31 chapel trailer
+KT: Dieser Bereich wurde nur in einem „Trailer“ und nicht im finalen Spiel genutzt. Er ist alt! Aber das ist es, worauf der Ort basiert, an dem Nova aus ihrem Ei schlüpft. Das Gebiet hat sich stark verändert, aber die Idee, dass Nova aus einem Ei auftaucht, hat sich nicht wirklich geändert.
+// 32 nano db old
+$KT$: Willkommen in Olddust Village! Haha, ich habe mir den Namen ausgedacht. Dies ist eine alte Version von Dustbound Village.
+// 33
+KT: Hier ist eine alte Version von Blautal. Du kannst das an alten Werbemitteln erkennen! Oh-ho.
+// 34
+KT: Dies war der erste Prototypenbereich, den S herstellte. Eigentlich hatte es so eine knallige orangefarbene Grundstruktur. Hinter dir befanden sich einige Gebäude, mit denen man die Größe der Architektur ausprobieren konnte. In der Ferne war ein Berg, auf dessen Gipfel befand sich ein weiteres winziges Haus, an dem „Youngs Berg-Urlaubshaus“ stand, oder so. Außerdem hat S dieses „Ballschuss-Spiel“ in 3D ausprobiert, bei dem man Kugeln auf Ziele abfeuern konnte ... Ähm ... Egal.
+endscene
+
+
+
+scene pg-land
+Gl-gloop ... W-wer bist du? Du bist nicht aus diesem Land! Hier ist es nicht sicher! Da ist überall Staub ... Gloop! Viele der anderen folgten Sage durch das Portal, aber ich habe sie seitdem nicht mehr gesehen ... Ich hoffe, es geht ihnen gut. Sage schien verrückt zu sein. Viele der anderen haben sich aber für Mitra entschieden!
+Kaufen! Kaufen, kaufen, kaufen, kaufen, kaufen, kaufen ... kaufen ... W-wer hat meinen Staubsauger gestohlen?? Wer hat ihn gestohlen?? Du! Dieb!!! Gib ihn sofort zurück!! Ich sehe die Gravur, ich kenne diesen Staubsauger!!!
+Leider enthält diese Tasche keine Metamünzen.
+Nova hört aus dem Inneren des Hauses ein seltsames Geräusch, das an ein Warpportal erinnert. Die Tür wurde jedoch entfernt, sodass es keinen Zugang gibt.
+Auf dem Stein steht: „Andere Bewohner von Theland. Hier ist eure Freundin Mitra! Ihr solltet aussteigen, solange ihr noch könnt, bevor es zu spät ist ... Wares und ich gehen. Jeder, der mitkommen möchte, sollte schnell meine Aufmerksamkeit erregen. Wir werden durch den Spalt gehen, den ich in meinem Haus geöffnet habe. Wir wissen nicht, wann Salbei etwas Wichtiges mit diesem gefährlichen Staubsauger tauschen könnte, also ist es wichtig, schnell zu gehen.“
+---
+---
+---
+Hier geht es zu Salbeis Ausgangsportal!
+Die Worte auf dem Schild sind verblasst. Es ist nicht verwunderlich, denn der Weg dorthin ist völlig aufgerissen und zerstört, und es bleibt nur noch eine staubbedeckte, dunkle Leere.
+
+Nova überprüft die Truhe, aber was auch immer darin war, ist weg.
+Worte sind in den Fels geritzt. „Auf Wiedersehen, Young. Auf Wiedersehen, Briar. Nochmals ... du hast es hinreichend umgesetzt. Aber in der Zeit, in der du weggeschwommen bist, hat das Land begonnen zu verfallen. Vielleicht warst du es, der diese Welt zusammenhielt. Bedeutet das, dass wir nicht gebraucht werden, dass wir nicht wichtig für dich sind? Viele andere Bewohner scheinen sich nicht darum zu kümmern, als ob sie die Probleme nicht sehen könnten. Nur, dass Mitra es merkt, aber ich kann mir nicht vorstellen, dass wir jemals zusammenarbeiten könnten. Ich werde einen Weg aus dem Land finden, Young. Beginnend mit dem Austausch-Tool, das du zurückgelassen hast ...“
+Die Worte auf dem Felsen sind durchgestrichen.
+Auf dem Felsen steht: „Deine Freunde lieben dich!“
+endscene
+
+scene drawer-enter
+[FADE]
+Nova verlässt einen texturlosen Tunnel. Hinter ihr schweben Trümmer in der Luft. Der Tunnel scheint irgendwie aus dem leeren Raum gegraben worden zu sein.
+In dieser Weite wird nichts, was du siehst, Novas Leben oder Geschichte verändern. Sie ist lediglich dein Weg, um zurechtzukommen.
+[CLEAR]
+Plötzlich erscheint Produzent Tani.
+„Tut mir leid, aber wenn ich die vierte Wand für einen Moment durchbrechen könnte ...“
+[CLEAR]
+„Was ich meine, ist: Novas Kanon-Geschichte in Anodyne 2 beinhaltet nicht, dass sie sich aus dem Nexus herauswindet und hierher kommt. Aber was du hier findest, IST der Kanon zum Ursprung von Anodyne 2, und, na ja ... Du wirst sehen!“
+[CLEAR]
+(Ebenfalls ... ist etwas Neues im Metashop erschienen.)
+[FADEOFF]
+endscene
+
+scene the-end-only
+Ende
+endscene

@@ -1,0 +1,1019 @@
+﻿// ------------------ ------------------
+//-------------CONTROLS, INSTRUCTIONS---
+//--------------------------------------
+
+scene instructions
+// After gaining control in Albumen
+Use {MOVEMENT} to move around.
+On keyboard, press {CAMTOGGLEK} to change the camera angle, and {ZOOMINK}/{ZOOMOUTK} to change the camera distance.  With controller, use the right stick and rear shoulder triggers to move the camera.
+Press {JUMP} to jump. You can jump a second time while in midair. After a jump, keep holding {JUMP} to slow your fall.
+To change controls, graphics quality, and gameplay options, press {PAUSE} to open the Pause Menu. Sorry to tell you all that at once! ...If you forget anything, check the Settings menu's 'Controls' section!
+
+// Near the first statue
+Walk up to the Yolk and press {TALK} to speak with it.
+
+// Press 
+Interact with the environment by firing off a spark. Press {SPECIAL} to shoot a spark at the Yolk. You can enter the Nanopoint by shooting the spark repeatedly.
+
+ignore
+
+// After ridescale tutorial
+Enter Ridescale by pressing {RIDESCALE}.
+In Ridescale, you can press {JUMP} to perform a short hop.
+
+endscene
+
+scene interaction
+Press {TALK}: Talk
+ignore
+Press {TALK}: Save Game
+Press {TALK}: Enter Door
+Press {TALK}: Open
+endscene
+
+scene nanounlock
+[FADE]
+The air is thick with the presence of Nano Dust...
+Nova!
+Spark this being, and forge a connection!
+Clean them - and change their fate!
+Shrink forth, Nano Cleaner Nova!
+endscene
+
+
+scene nanounlock-alt
+[FADE]
+The air is thick with... air, I guess? At least it's not Dust!
+...Nova!
+Spark this being, and forge a connection!
+Enter them - and... take a look around!
+Shrink forth, Nano Cleaner Nova!
+endscene
+
+
+//-------------------
+//----ALBUMENIUM-----
+//-------------------
+
+
+scene alb-wake
+//<a backlight glow fades in revealing C Psalmist’s silhouette>
+CP2:n Some say that life is a circle... Madness! All things grow from a point - a center. Everything to come was already here: it melts out from a tiny capsule, like a sponge in bloom. 
+CP2:n The beauty is to witness the true shape of the primordial point, its fractals unfurled to their limits. The atomic, indivisible tips of its tentacles. Time, after all, is a looking glass. An illusion, and yet, the truest way to see our self.
+// psalmist stops strumming
+CP2:n ...
+//<another backlight reveals Palisade silhouette>
+endscene
+
+scene alb-wake-2
+PAL2:n Stunning words as always, friend! But let's not get too ahead of ourselves. The one we are here to meet is barely a baby, not yet hatched... we must lead her gently into the bright light of the world.
+PAL2:n Oh look! Our precious Nova seems to be stirring...
+//<Fade to black> Change scenes.
+endscene
+
+scene alb-wake-3
+[FADE]
+The following are the first words that Nova will ever hear. In time, the contents of the speech will fade into obscurity, but she will never forget first hearing this voice. 
+Ah, yes, this voice! So fragrant, so beautiful, that Nova felt like crying. (Had she been blessed with tear ducts, perhaps she would have.)
+You may have forgotten how hard it is when you first realize that you exist. Nova certainly felt that now. But when she heard this creature speak... she thought... perhaps it might be worth it.
+[FADEOFF]
+PAL2:n Nova... Nova, can you hear me? Take a deep breath, my darling, then open your eyes.
+endscene
+
+scene alb-wake-3-2
+[FADE]
+...
+... ...
+... ... ...
+From the darkness, an orange glow, and from the silence, the crashing of waves...
+[FADEOFF]
+endscene
+
+
+scene alb-wake-4
+PAL2:n There she is! Still a little woozy, are you? Don't worry, it's natural to feel disoriented when you first gain consciousness. Child, your name is Nova, and you are an extraordinary creature with the unique ability to shrink to microscopic sizes. It will come in quite handy, as you'll soon see!
+PAL2:n My name is Palisade, and I'm here with C Psalmist! Together, we will serve as your caretakers and your guides.
+endscene
+
+//  <A drawing of them appears, with different parts fading in alongside a sketchy pen nib sound effect. (maybe we find like a handwritingy font for the text so it's localizable)>
+// images here
+
+scene alb-wake-5
+P: Would you like to say hello to Nova, C Psalmist?
+
+[faceanim BaseScreen 0,1 1x2]
+CP: Um... er... g-greetings, young Nova. It is I, C Psalmist! I am speaking to you from outside of your egg. 
+CP: Umm... ahem. 
+CP: Space, after all, is an illusion. It could be likened to... a looking glass. 
+CP: A looking glass is a mirror, by the way. I used to think it was a telescope or a microscope... you know, uhh, some kind of tube-shaped object...
+[faceanim BaseScreen 0,0 1x2]
+Pal: Thank you for that enlightening clarification, C Psalmist! 
+
+//<Fadescreen, pal talks over the fadescreen in textbox while parts of a drawing fade in>
+Pal: Now, Nova... as C Psalmist mentioned, you are currently inside of your egg! 
+//<egg fades in> 
+Pal: In order to hatch and truly begin your life, you will ride the "Hatchline" monorail that leaves from the top of the hill. 
+//<hatchline fades in> 
+Pal: Ah, but you can only leave if you obtain the sacred Glandilock Seed!
+//<glandilock seed fades in> 
+Pal: For now, you may think of the Glandilock Seed as your ticket to ride.
+
+[CUT TO yolkVC]
+P: First, speak to the 3 Yolk Figures. Each Yolk will give you a special item that will prepare you to host a Glandilock Seed. Then, speak to the Chalaza Tree at the highest point on the island.
+
+[CUT TO tvVC]
+P: Go get 'em, Nova!	
+
+//<fade out and back in. After the fade in, Nova is now standing up and ready to walk around. THE ALBUMENIUM appears across the screen>
+endscene
+
+scene alb-reminder
+P: First, speak to the 3 Yolk Figures. Each Yolk will give you a special item that will prepare you to host a Glandilock Seed. Then, speak to the Great Chalaza, that tree-like figure at the highest point on the island. You’ve got this, Nova!
+endscene
+
+scene yolk-alt
+Yummy Yolcrobe: Hey again, Nova! Are you enjoying our Centerberry Burst Cereal? We've market-tested it twelve times for the perfect balance of 'crunch' and 'cool'!
+Sippy Yolcrobe: Yo... Nova... welcome back to the Yolk of Sippy! Sippin' on that smoooth Yolkmilk you got? Mmm mmm... nothing like Yolkmilk to kick off my day.
+Cozy Yolcrobe: Hello again! Welcome back to the Yolk of Cozy. Are you enjoying the Reguloid we've given you? Ah, yes, yes, good... ah. If you do encounter any problems with it, you can contact us at any time!
+endscene
+
+scene yolk1
+Yolkwanda the Yolcrobe: Hey there, Nova! You've shrunk inside the microscopic interior of the Yolk of Yummy, the most important Yolk of the day! Here you’ll find provisions to keep your future Glandilock Seed happy and healthy!
+
+Yummy Yolcrobe: Nova will love our Centerberry Burst Cereal because it contains trace amounts of 17 micronutrients in Center-recommended ratios! (And Glandilock Seed will love its patented “Crunchity-Cool” taste!)
+
+Yummy Yolcrobe: Hmmm... what if we had a Glandilock Seed of our very own?
+Yummy Yolcrobe: ...
+Yummy Yolcrobe: Eep!! Never mind me! We may talk a big game here in the Yolk of Yummy, but the development of delicious and nutritious crispy-puffed comestibles is all we know!
+
+Yummy Yolcrobe: Congratulations, you are truly deserving of our gradest ‘A’ Glandilock food! Cartoon characters will suffer many fraught encounters due to the high quality of our Centerberry Burst Cereal. But we can tell you will be a good steward of your Glandilock Seed!
+
+// 6
+Yolkwanda the Yolcrobe: Wowee!! Our very own cleaner has come to visit!! Oh gosh, oh gosh, and I'm the first nano friend she'll see!! Boy howdy, gotta keep it together and remember my lines... 
+Yolkwanda the Yolcrobe: (I hope she comes over here and presses {TALK} to talk to me!)
+endscene
+
+scene yolk2
+Sippy Yolcrobe: Yo... Nova... welcome to the Yolk of Sippy! Some people say that a Glandilock Seed oughtta drink 8 dewdrops of our homemade Sippy Yolkmilk per cell-cycle, but we here in the Sippy zone think you can chill with the math and just go with the flowww...
+
+Sippy Yolcrobe: The Glandilock Seed is like a direct line to The Center, ya dig? Just keep your mind open, you know, and the answers... will find you.
+
+Sippy Yolcrobe: Mmm mmm mmm, nothing like a little Sippy Yolkmilk to make those Glandilock tendrils grow deep and strong. Just ride that high, Nova... ride that high.
+
+Sippy Yolcrobe: Nova... you made it to the Yolkmilk, of course. You just relaxed and let it flowww, am I right?
+endscene
+
+scene yolk3
+Cozy Yolcrobe: Welcome to the Yolk of Cozy... yes, yes. Are you feeling comfortable? Yes, yes... we have carefully trained these Reguloids to adapt the local atmosphere to your body's precise partialities... temperature, salinity, acidity, lugubrity... and so forth.
+
+Reguloid: Woof wo-woof! (Translation: Temperature: 36 degrees yolkenheit)
+
+Reguloid: Woofer woof-woo! (Translation: Air Humidity Level: 5% success rate for a fish trying to breathe)
+
+Reguloid: Wo-wo woof-woofer! (Translation: Golden summer light, dappled by oak leaves. The scent of freshly-bruised crabgrass and dandelions. An unexpected cool breeze drifts in from across the lake. A tawny rabbit sits up and sniffs before hopping into the bushes.)
+
+Cozy Yolcrobe: Hmm, yes, yes, yes... a little Cereal, a little Yolkmilk, yes. Such things are quite necessary. However, as the old saying goes, "Glandilock Seed cannot live on ingestion alone"! 
+
+Cozy Yolcrobe: Ahh, yes, yes indeed. It is time for you to have Reguloids of your very own! How beautiful, to become a home. May your head always be a safe and warm resting place for the precious Glandilock Seed. Yes, yes, yes.
+endscene
+
+scene yolk-outside-1
+[FADE]
+The strange figure is silent. "Is it alive?" Nova wonders. Nonetheless its gaze beckons her. "Enter my round, golden pate", it seems to say. "Ye shall find a part of this complete breakfast..."
+The Yolk and Nova's fate begin to resonate. The presence of a new Nanopoint is in the air. Spark this being and reveal its Nanopoint! Shrink forth, Nano Cleaner Nova.
+[FADE]
+The Yolk of Yummy looks quizzically at Nova. "Ye have found the treasures buried within me... but cereal left dry doth inflict pain upon the mouth chambers..." It nods in the direction of a Yolk further up the hill. 
+endscene
+
+scene yolk-outside-2
+[FADE]
+The second Yolk Figure sways in the breeze with a profound sense of chill. "Duuuude" it seems to say. "Ridin' the milky waves..."
+The Yolk and Nova's fate begin to resonate. The presence of a new Nanopoint is in the air. Spark this being and reveal its Nanopoint! Shrink forth, Nano Cleaner Nova.
+[FADE]
+The Yolk of Sippy nods its head at Nova affirmingly. "Excellent," it seems to say. "Have you chilled with Yolk of Cozy up the hill?"
+endscene
+
+scene yolk-outside-3
+[FADE]
+The final Yolk Figure seems to gaze upon Nova with a warm-yet-analytical eye. "Ahhh... hmmm... yes, yes, yes..." it seems to say. "A perfect host in need of a perfect reguloid..."
+The Yolk and Nova's fate begin to resonate. The presence of a new Nanopoint is in the air. Spark this being and reveal its Nanopoint! Shrink forth, Nano Cleaner Nova.
+[FADE]
+The Yolk of Cozy passes its gaze over Nova once again. "Ahhh... yes, yes, yes... all is in order here," it seems to say. "Perhaps she is ready to meet with the ancient Chalaza..."
+endscene
+
+scene yolkchest
+Nova found the Centerberry Burst Cereal, one of the three elements of nurturing! With it, a Glandilock Seed will have all the carbs it needs to make a home in Nova's head.
+Nova found the Sippy Yolkmilk, one of the three elements of nurturing! With it, a Glandilock Seed will have all government-approved nutrients needed to spread far and wide inside Nova's head.
+Nova found a Reguloid: Personal Edition, another one of the three elements of nurturing! The Reguloid will adapt Nova’s head into the perfect environment for a thriving Glandilock Seed!
+Nova found a Card!
+Nova found something!
+endscene
+
+scene chalaza
+//<giant tree with a glandilock seed, has no concept of scale... thinks that this part of the game is huge and long and important>
+
+
+CH: Ahhhhhh... Nova... hmmmmm... After all this time... we meet at last!
+CH: Ahhhhhhhhhhhhhhhhhhhh... 
+CH: Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm... Nova! Eh.... What were we talking about? Oh, right.
+CH: I... am the ancient Chalaza Tree, keeper of the sacred knowledge of the Albumen Shore! From the day you washed up on our shores, I have chronicled your journey... and Oh! What a journey it has been! Reflect with me, upon those sweet and daring stories that now drift upon the hazy river of the past.
+endscene
+
+scene chalaza-a1
+CH: Do you remember... the blustery, cereal-obsessed Yolk of Yummy inhabitants? 
+endscene
+
+scene chalaza-a2
+CH: The laid back denizens of the Yolk of Sippy? 
+endscene
+
+
+scene chalaza-a3
+CH: How about those kind and conscientious caretakers of the Yolk of Cozy? 
+endscene
+
+
+scene chalaza-a4
+CH: Ahhhhh... I have laughed! I have cried! I have prayed for wisdom to bless your decisions... Your thunderous triumphs and your arduous struggles shall be etched into my branches for all eternity!
+endscene
+
+scene chalaza-a5
+CH: And now... you have arrived here, at the pinnacle of Mount Vitelline, from which one can survey the furthest reaches of this expansive land...
+CH: Have you the 3 elements of nurturing?
+CH: ...
+endscene
+
+scene chalaza-2
+//<If no> 
+[CUT TO chalazaVC]
+CH: Ahhhh... then sadly, I must be the bearer of difficult news. Nova, your herculean climb to this lofty peak has been in vain without the full blessings of the 3 Yolks. Go to whichever Yolks you missed and only then return to me... I know the journey will be long, but I have faith that one day, you will return!
+endscene
+
+scene chalaza-if-failed
+CH: Ahhhhhh... Nova... hmmmmm... Nova...
+CH: It is I... the ancient Chalaza, keeper of the knowledge of the Albumen Shore! Long ago, at our first meeting, you were not yet prepared to bear the great responsibility of the Glandilock Seed. Ever since then, I have kept the fire of hope alive that you might one day return.
+CH: Now... have you the 3 elements of nurturing?
+endscene
+
+scene chalaza-3
+//<if yes>
+[CUT TO chalazaVC]
+CH: Ahhhh... wonderful... then my epoch of anticipation is complete! Nova, I grant to you, the Glandilock Seed.
+endscene
+
+scene chalaza-4
+CH: And now, Nova... it is time...
+[CUT TO chalazafarVC]
+CH: Already I can feel my power fading... the Age of Albumen draws to a close...
+[CUT TO hatchlineVC]
+CH: Quickly, Nova. Lay yourself down upon the Hatchline. 
+[CUT TO chalazaVC]
+CH: And with the last of my energy... I will send you to the great beyond!
+//<Cut to Nova lying down. Hatchline activates, we speed away over the waters, screen slowly fades to white>
+// Anodyne 2, Return to Dust appears in simple white font
+endscene
+
+scene yolk-wanted
+WANTED: DUST VIRUS\nMr. Spiky
+He may just sit there, but this virus has been shouting some very rude comments at our poor yolcrobes. Try shooting a block at him, and be sure to suck up any dust he might leave behind!
+WANTED: DUST VIRUS\nMild-Tempered Slime
+Don’t be fooled by their adorable gooey exteriors! If left unchecked, these pesky ruffians can cause serious illness in the body of their host! Unlike Mr. Spiky, they are safe to vacuum up.
+endscene
+
+
+scene rock-loop
+Rock: Welcome! Rocks are surprisingly diverse and come in a number of shapes and sizes, though by divine fate, many of the rocks here look the same. Be sure to talk to all of us!
+endscene
+
+scene rock-messages
+ignore
+ignore
+ignore
+// In Yolk 1.
+Rock: There are some colorful rock-like obstructions blocking your path! Try using your Nano Vacuum to suck stuff out of the way!
+Hold {SPECIAL} to suck in objects. Press {SPECIAL} to shoot them back out.
+// MOVE THIS TO ROCK NORTH
+Rock: Sometimes rocks get in the way, but other times they can be very helpful! Don’t paint every rock with a broad brush, is all I’m saying! Unless you paint them really cool. A lady at my church painted a rock so it looked like a tiger with little whiskers and everything... pretty neat!
+// 
+Rock: A chasm separates you and those darned dust viruses! You're too far away to suck them up, but perhaps there is another way to get rid of them...
+// 7
+Rock: Please do not shoot anything at the gates. Contrary to popular belief, you can't just blow up everything in your way!
+Rock: More importantly, you might chip the paint. You didn't do that already, right?\n(-Gate Painting Maintenance Bureau)
+endscene
+
+scene gate-hit
+Gate: Ouch! Watch it! You’re gonna chip my paint! If you want me to open, take out your aggression on the Dust Viruses instead!
+endscene
+
+scene yolk-sucked
+Yolcrobe: H-hey wait, Nova!! I am a helpful Yolcrobe, not a deadly Dust Virus! Please just talk to me!
+endscene
+
+scene reguloid-sucked
+Reguloid: Woo-woof! Woof woof! (Translation: I just want to help Nova! I'm no Dust Virus!)
+endscene
+
+scene chest-sucked
+Latched Box: Gwahahahaha!! I am a latched box!! My specialized latch is completely impervious to all forms of vacuum suction!!
+(Hmm... I just hope I don’t run into anyone with hands... hands are my latch’s greatest weakness!!)
+endscene
+
+// -------------
+// GROWTH CHAPEL
+// -------------
+
+scene chapel-test
+PAL: Welcome Nova!
+CP: Howdy!
+endscene
+
+scene prism-come-here
+PAL: Nova, you made it! I'll tell you all about that device soon, but for now, come over to me for a quick chat!
+endscene
+
+
+
+scene chapel-entry
+PAL: There you are, darling hatchling, I knew you could make it! Welcome to Alive!
+
+[CUT TO cutscenevc]
+PAL: Nova, you are in Center Sanctuary, the dwelling place of The Center! The Center is… well, it’s hard to explain to someone who’s only just hatched, isn’t it? The Center is the center... it created all of us, along with our world: the island of New Theland. The Center is like an artist, and we are its painting, a beautiful expression of its vision!
+CP: The Center is everything. Or rather, The Center simply Is. Our lives are like shadows cast by The Center's true form, which will one day become apparent.
+// 4
+[CUT TO palvc]
+PAL: Hmm... perhaps we are all the artists and art of New Theland. We shape and are shaped by each other... by treating our neighbors with kindness, we can build each other up.
+
+[CUT TO cpvc]
+CP: Erm... well... I don't know if I would go that far, Palisade... what good we may accomplish flows directly from the rightness of The Center. Regardless, we must focus.
+CP: Nova, listen closely. I will now reveal to you your true purpose and the path ahead.
+CP: You have been born into a war zone, Nova. Granted, it is not a contest of swords or guns, of armies or infantry... we wage a war that is nearly invisible and yet wholly insidious... we face a deadly force that wrinkles the face of time, as a lurking waterbeast ripples the surface of a lake, disrupting the clear reflection of our souls.
+CP: We call it Nano Dust...
+// 11
+//<Maybe a musical change? Some scary dust themed music that plays when nova sees uncomfortable dust-related stuff, or has flashbacks>
+//<illustrations>
+CP: It starts small, a microscopic seed planted in some dark, moist corner of one's organs. Then the Nano Dust grows, it feeds upon the structure of our minds, magnifying our fears, our wrath, our wrongful desires. Eventually it blossoms to its full scale, completely obliterating the identity of its host.
+CP: Symmetry, beautiful symmetry, is our birthright as creations of The Center, and yet we lose ourselves in the Dust. We begin to decay. To Decompose. To crumble. Dust begets dust, and we forsake our true selves.
+//13 <Hopeful/worshipful music? or maybe just the harp music>
+CP: Nova, perhaps your true purpose is now becoming apparent. You were given the abilities to shrink and to clean so that you might reverse the tide of Dust that threatens to overwhelm us.  You must travel far and wide, shrinking inside the inhabitants of New Theland, those most consumed by the Dust's contamination. You--
+
+[CUT TO cutscenevc]
+(Suddenly, a tiny spark flies towards Nova’s head.)
+PAL: —What’s that?! Palisade Card, activate!
+(Palisade creates a barrier using her shield, containing the spark in a glowing cube.)
+PAL: A Nano-intruder, attempting to infiltrate your body! Nova, I can contain it temporarily, but you must shrink to nanoscale and destroy it! Don't be afraid, sweetheart, I'll be right here. I know you can do it!!
+endscene
+
+//<control is given back to Nova, who can shrink inside the glowing cube where Pal is holding the Nanobot.>
+//<this allows Palisade to demonstrate the power of cards and also look out for you. it is perhaps a test/indoctrination scenario created by the center (though this is not necessarily revealed)>
+
+scene pollen-yolk
+$Dusty Yolcrobe: N... Nova... is that you? *cough* ... How did I get here? *cough* *cough*
+$Dusty Yolcrobe: Am... am I gonna be okay? I'm so tired, Nova... *cough* I've never felt like this before...
+$Dusty Yolcrobe: ... I'm scared.
+endscene
+
+scene pollen-rock
+[FADE]
+"The Nano Cleaner."
+She exists, and she was born, to dust, to clean, to rescue...
+May she protect all of us from harm. 
+May the Nano Cleaner save New Theland and its denizens from their fate.
+endscene
+
+scene cc-nanobot
+Nano Assassin: *COUGH*.... *COUGH*... NOVA WILL DIE... THE CENTER WILL CRUMBLE... DUST WILL CONSUME NEW THELAND... *HRRR-COUGH*!!
+Nano Assassin: *HRRR-COUGH*!! *COUGH*... N... NOVA... WILL DIE... THE CENTER... WILL CRUMBLE... DUST... WILL CONSUME... NEW THELAND... *COUGH* ...
+endscene
+
+scene cc-after-miniboss
+PAL: *Sigh* You’re growing up so quickly. I didn’t expect a challenge like this for quite some time, but I am *so* proud of you.
+[CUT TO cpvc]
+CP: Sadly, there are those who would seek to destroy New Theland. Though we are all created by The Center, the Nano Dust can inflict a kind of madness. Now, perhaps, you can see the urgency of your mission.
+[CUT TO elevatorvc]
+CP: Nova, take the elevator behind you up to the city. And always remember that you stand against the ever-encroaching crawl of degradation!
+endscene
+
+scene save-explanation
+This thing over there is a save point. Walk near it and press {TALK} to open the save menu and save your progress.
+endscene
+
+
+// ----------
+//   CCC
+// ----------
+
+scene ccc-entry-captions
+Deposit Nano Dust!
+*STORM DAMAGE*
+Level up Prism with Cards!
+endscene
+
+scene ccc-entry
+PAL: Welcome to Center City Cenote, a vibrant community built into the walls of this sacred geological depression! Directly above Center Sanctuary is the Dust Prism, which stores the Nano Dust you will collect.
+// Deposit Nano Dust, prism fills
+PAL: You may use the Dust Drop Console in Center Sanctuary to deposit #Dust. Once sealed within the Dust Prism, the Nano Dust may blossom to its full scale without harming New Theland! Once enough #Dust is accumulated in the Dust Prism, it will be sent to The Center to be recycled into energy.
+// storm damage, shields lower
+PAL: But alas! Before you were born, the Dust Prism was damaged in a terrible storm, and now it can only contain a small fraction of its full #Dust capacity! Because of this energy shortage, the #Dust's dominion has advanced to the point where it is no longer safe to leave the city! You can see the storm still raging overhead...
+// level up prism with cards, card anim
+PAL: This is where you come in, Nova! The Dust Prism can be reinforced with rare and powerful Cards that you can find while Nano Cleaning. Your first goal is to reinforce the Prism with 4 Cards and fill it with 100cc Nano Dust. Then The Center will be able to recycle the #Dust into energy and push back the storm, allowing you to leave Center City Cenote!
+PAL: To sum it up, your mission is to search the city for people in need of cleaning, collect the Dust and Cards inside of them, then deposit those resources back in Center Sanctuary. Check your progress on the Menu by pressing {PAUSE}. You're going to do an amazing job, Nova!
+endscene
+
+scene sanc-reminder-intro
+PAL: Nova, your mission is to search the city for people in need of cleaning, collect the Dust and Cards inside of them, then deposit those resources back in Center Sanctuary. You're going to do an amazing job!
+endscene
+
+scene sanc-reminder-2
+PAL: Remember Nova, we need 100 units of Dust to clear the storm! If you still need some more after emptying your canister, you can shrink back inside someone you’ve already cleaned!
+[FADE]
+The idea of returning to the same Nanoscale location made Nova feel uneasy, but, if that's what it would take to help The Center...
+endscene
+
+scene ridescaleprompt
+PAL: Taking too long to get around, Nova? Now that you're out in the open, try using your Ridescale form to zoom around the city!
+(Press {RIDESCALE} to enter and exit Ridescale form. Hold {CONFIRM} to accelerate. Hold {CANCEL} or move back to reverse. Press {SPECIAL} to engage cruise control. There are some places you cannot enter Ridescale. If using a controller, it is highly recommended to use {CONFIRM} to accelerate.)
+(If you forget a control, you can double check them in the Settings menu.)
+PAL: Oh yes, Nova, one more thing: sometimes if you talk to people twice, they have new things to say! Be sure to talk often!
+// prompt appears
+endscene
+
+
+// Talks with Palisade after getting each of the first 4 cards
+scene pal-card-1
+PAL: Congratulations on your first Card, Nova! I can tell you’ll be a wonderful Nano Cleaner for the people of New Theland!
+PAL: By the way, Nova... be sure to take a break if you are feeling tired. Collecting Cards is important, but so is your well-being!
+endscene
+
+// Nova starts in hurt panting
+scene pal-card-2
+PAL: Wow! That's 2 out of 4 Cards that we'll need to level up the Dust Prism! Oh, Nova! You’re hurt!
+[FADE]
+Nova quickly straightens her posture and shakes her head 'no'.
+[FADEOFF]
+PAL: Please don't push yourself too hard. You are still so young. Remember, I’ll be around Center Sanctuary if you ever need me! While you’re there, you can deposit your stored Dust and leave with a spring in your step—it’s better not to carry around a full tank for any longer than you need to!
+endscene
+
+
+
+
+scene pal-card-3
+// Nova spin out, fall, lying on ground
+PAL: Ahh, Nova... 
+[FADENOFADE]
+// fade to full alpha
+$PAL$ floats to Nova, gently picks her up, and begins to cradle Nova in her arms.
+[FADEOFF]
+...
+... ...
+// fade image of pal in
+// 6 Text box on screen
+PAL: It's going to be okay, darling. You are working so hard and doing such a good job. Maybe a trip outside the city will do you some good... The air is fresher out there. Well... it will be soon, once the Dust storm has cleared...
+// 7fade out image of pal. bg still black.
+...
+[FADESONG CougherHome 1 0]
+Later, in Center Sanctuary...
+CP: ...I don’t understand what you’re saying, Palisade. Do you think that The Center is wrong? That we should give in to the Dust, and let it overtake New Theland??
+PAL: No! Of course not... It’s just... Nova. She shouldn’t have to shoulder such a burden all by herself.
+CP: Nova is the only one who can do this, it is the purpose of her creation. And we are here to help her! But at the end of the day, she must keep cleaning or all will be lost. We all have to make sacrifices for the greater good. Do you understand, Palisade?
+PAL: ...
+PAL: I think I do understand...
+...
+[FADESONG CCC 1 1]
+[FADESONG CougherHome 1 1]
+// fade alpha back
+endscene
+
+// fade after nova spins out
+scene pal-card-4
+[FADE]
+Nova’s stomach lurches as she flings herself out of Nanoscale. "That's what it is," she thinks to herself. "The transition has been making me queasy." But this time, she doesn't let herself fall to her knees. She hates to see Palisade looking so worried. Even if it did feel nice when Palisade cradled her...
+[FADEOFF]
+PAL: Hello darling Nova! Now that you have four cards, please return to Center Sanctuary to upgrade the Dust Prism!
+endscene
+
+
+//------------
+// DUST DROP POINT
+//-------------
+
+scene ddp-intro
+PAL: Right, honey, this the Lower Dust Drop! After you collect some Dust in Nanoscale, this is the spot where you’ll ship it off to The Center!
+endscene
+
+scene ddp-too-early
+PAL: That's the Lower $Dust Drop, Nova! I'll show you how to use it soon, but first, take the elevator outside!
+endscene
+
+scene ddp-greeting
+Console:n Greetings, Nano Cleaner Nova. Welcome to the Dust Drop Point! Let us deposit all of the Nano Dust you have found.
+endscene
+
+
+scene ddp-no-dust
+Console:n It would seem you do not possess any Nano Dust. Please return after finding more.
+endscene
+
+scene ddp-full-afterfilling
+Console:n Nova, you have more Dust than the Prism can hold. After expanding the Prism's capacity, you can deposit any remaining Dust.
+Console:n Nova, you have more Dust than the Prism can hold. Worry not, as there is no need for you to deposit any more Dust.
+Console:n Nova, the Dust Prism is currently full. Find more Cards to expand its capacity.
+Console:n Nova, the Dust Prism is currently full. Please speak with Palisade.
+Console:n Nova, the Dust Prism is currently full. Please speak with C Psalmist.
+endscene
+
+// These are said while the dust filling cutscene is happening
+scene ddp-full-r0
+// Full 
+PAL: You’ve worked so hard, Nova! In fact you have more Dust than the Dust Prism can hold right now! For now, why don’t you keep the extra Dust in your tank until you find enough Cards to upgrade the Prism!
+PAL: Amazing, Nova! The Center now has enough Dust in order to clear the storm! Come over and speak with C Psalmist and I.
+endscene
+
+
+scene ddp-dust-done
+Console:n Thank you for depositing Dust, Nova. Please return soon.
+endscene
+
+
+//------------
+// PRISM STUFF
+//-------------
+
+
+
+scene prism-need-more-cards
+Console:n It would appear you don't have enough card power to increase the Prism's size. Nova, return with at least four Cards.
+endscene
+
+scene prism-maxed
+Console:n Nova, the Dust Prism has already been fully upgraded. Please continue to find Nano Dust so that our world may be saved.
+endscene
+
+scene prism-upgrade
+Console:n Wonderful, Nova. You have enough Cards to upgrade the Dust Prism. Let us begin the upgrade process!
+endscene
+
+scene prism-consec
+Console:n Amazing, Nova! You still have enough Cards to upgrade the Prism further. If you wish, you may talk with me to continue the process.
+endscene
+
+scene prism-end
+Console:n Congratulations, Nova. You have reinforced the Dust Prism and increased its capacity by 50 units! Continue the good work.
+endscene
+
+scene prism-disillusioned
+Nova is now disillusioned
+endscene
+
+// Story related prism stuff
+
+
+scene prism-greeting
+Console:n Welcome to the Prism Reinforcement Device, Nano Cleaner Nova. Please insert the cards you have collected, so that The Dust Prism may be expanded.
+endscene
+
+scene prism-pal-intro
+PAL: The Dust Prism allows the Nano Dust you collect to blossom safely. Once it has blossomed, the clouds of #Dust can be recycled into energy by the Center. 
+PAL: Unfortunately, the Dust Prism was weakened by a great storm and cannot hold its full capacity of Nano Dust. That was before your time, little munchkin. Please collect rare Cards to reinforce the Dust Prism!
+endscene
+
+//<bringing 100 dust. Cutscene shows the dust.>
+scene ddp-open-ring1
+PAL: Amazing, Nova! You've reinforced the Prism with Cards, and deposited enough Dust to clear the storm! Also, your canister can now hold 90 units!
+CP: Nano Cleaner Nova, you bring this fallen world ever closer to its most perfect state—an unadulterated connection with its own identity, with its own Center.
+[FADE]
+C Psalmist sings: 
+"Blessed are they who walk along the path of their creation, who radiate cleanliness from The Center, as light is cast from a flame."
+"The fool says, 'I am The Center'. They are like an arrogant flower, sprouting early to mock the winter’s cold. The wicked shall wither before they blossom, their machinations crumbling to Dust." 
+"But the righteous bloom in season, the work of their hands is blessed. Their radiance is a joy to the ones they love, their leaves a comfort and a shade."
+[FADEOFF]
+CP: What a wonderful thing, to be chosen.
+PAL: Nova, look! The dust you've deposited is being used by The Center, and the Dust Storm is beginning to clear!
+endscene
+
+scene open-ring-ending
+CP: Nova, the elevator to the surface is ready. This world requests that you explore and bear yet more cards and dust to its heart, The Center! Go forth in peace, and clean!
+endscene
+
+scene get-pal-card
+// After you’ve started walking away from the top of the elevator. The triggers can be maybe like right where you get off the bridge on either side, at the edges of the hole?
+PAL: Nova...
+PAL: I know, we just talked in Center Sanctuary, but I need to tell you something... I’m going away for a while. There’s something I need to do. I won’t be able to check in on you as often, but please know that you are always in my heart.
+PAL: Do you remember when that Nano creature attacked you after you were just born? I channeled the power of a Card then to create an invincible barrier. Nova, I’d like you to have my Card now! Keep it close, and don’t use it to reinforce the Prism. May it protect you from all harm, even when I am far away...
+(Nova received the Palisade Card!)
+PAL: Okay... I love you, sweetheart. I’ll be in touch as soon as I am able. Bye for now!
+endscene
+
+// CCC INNER NPCS
+
+scene mole-family
+Oooh, honey, I told you - if we're gonna get away from the city, then we ought to go all the way! If only you had that promotion, oh, the neighborhoods we could have chosen from!
+Mama, why is there a stranger at dinner today? Shall I fetch the gun?
+Darling wifey dearest, did you forget to lock the door? Look at this street prowler you let in! Violence is practically written onto their face!
+Papa, ought we to call the police?
+endscene
+
+scene rage-hint
+Argh!!! No matter how many of those slimes I kill, THAT GATE NEVER OPENS! I wanna set those annoying blobs <![CDATA[<color=#ff1111>]]>ablaze<![CDATA[</color>]]>! Melt 'em down to a thick jam! Spread 'em on my toast! Now then...\nWHY WON'T THAT GATE OPEN?
+endscene
+
+scene rage-npc1
+What are YOU looking at, vacuum girl! Think I’M being unreasonable, huh? Think I’m getting too upset?
+Yeah, well, maybe if SOMEONE stopped slacking off and did their job maybe I wouldn’t be angry? Ever think of THAT, Vac Hack? 
+endscene
+
+scene rage-npc
+Keep looking this way. Try me… yeah! Think I won’t?
+Fires? Yeah? Expecting me to calm down with this Dust floating around? DUST, NOVA. THAT’S THE PROBLEM. CLEAN IT. DO. BETTER.
+This gate HATES slimes, but it doesn't want to see them die!
+endscene
+
+scene tongue-npc
+Taste Nakama: Mmph, ssshhyessh... Nova, come here, let me tassste that metallic helmet of yoursssh! Oooh, mmph... no? Letttsh me just helpph myselffsh then, yessshh...
+Taste Comrade: Ohh, Nano Cleaner, nnnothing wrooong with a few lickssh, yessshh? Commme on, don't ruin the funnnnmmph... let me taste your ss..ssuit... I'll enter a new kingdom of sensssory experience! Ohh!
+Taste Friend: Oooh, yesshh... lick it off my earsssh, yesssh... I've been working up a sweat allll day, ooh, the saltiness and sweetnessshhh, isn't it diviiine! LICK ME!
+Taste Companion: I'M LICKING THE CONCRETE TO REMIND ME OF THE CITIES OF MY PAST LOVES. THE TASTES BRING IT ALL BACK. YOU SHOULD TRY IT TOO, DON'T BE SHY! I DO NOT JUDGE.
+endscene
+
+scene cougher-npc
+dialogue
+endscene
+
+scene fadetest
+[FADE]
+Welcome to the Nano Dust.
+In this world, there are three people. and one of them is someone named Nano Dust.
+[NEWLINE]
+Or...
+Nano Dust.
+[CLEAR]
+Did I...\n.\n.\n.\n.\n.\n.\n.
+Nano Dust.
+endscene
+
+// CCC Outer NPCs
+
+scene tongue-1
+[FADE]
+Nova walks up to the strange figure by the clock. The figure quivers strangely, licking the air. "Are they hungry?" Nova wonders. They appear to have a sort of hunger that Nova has never seen before. Something that Nova ought not to see.
+She curls her toes inside her shoes as the figure turns to meet her gaze...
+[FADEOFF]
+endscene
+
+scene tongue-1-2
+TG: Come here, sweet one, let me taste youuu... the smooth curvature of your mask, the lightly dusted tread of your boots, the metallic tang of the sssilver ring upon your back... EEE HEE HEE!! My tongue quiverrrrs in anticipation...
+endscene
+
+scene tongue-2
+TG: Uhnnn... no... I must resist... the Dust... It fills my mind. Day and night, I fantasize about all the delectable flavors around me... Once, my skin was smooth. Now every inch is sensitive to taste, longing for flavor.
+endscene
+
+scene tongue-3
+[FADE]
+Gustine Papellum, the tongue-skinned creature, gazes pleadingly at Nova. Their beady and desperate little eyes begin to water. Nova's stomach turns, but she begins to feel strength and determination. She has a job to do.
+"Nano Cleaner... h-help me..." Gustine says quietly, "You must make me clean again... free me from the prison of my own desires..."
+[FADEOFF]
+endscene
+
+scene 2d-vid-1
+SEAN: Greetings, Internet! I'm Sean, and I'm trapped in this video.
+SEAN: This game, Anodyne 2, has 2D and 3D worlds. And today, I'll show you how to go between them!
+SEAN: Now, some characters are infested with "Nano Dust". You'll control Nova, who will shrink inside and clean them!
+SEAN: Look! That creature up near the clock, Gustine, needs cleaning! How convenient. Let's warp Nova there.
+endscene
+
+scene 2d-vid-2
+SEAN: After Nova speaks with Gustine, she can spark up a connection and shrink down inside. For the sake of time, I've shortened Gustine's conversation.
+endscene
+
+scene 2d-vid-3
+SEAN: Almost there! The Nano Dust will try to repel Nova. But, by using a shield, Nova can defend herself. Alright - see you in a lower dimension!
+endscene
+
+scene 2d-vid-4
+$SEAN$: Welcome to the inside of Gustine Papellum! It... seems like I'm a rock...
+$SEAN$: Anyways, in 2D, you explore the interior of characters, collecting Nano Dust! In the future, I'll show you more! But not today.
+$SEAN$: Thus concludes the video. Anyways, how about that music? Pretty cool, huh? ...I made it. Maybe if this post goes viral, I'll post a link to my Soundcloud.
+$SEAN$: Well, if you're watching this, I'm still trapped inside this video. Only the power of, uh... 500... no, 1000 likes and shares will be able to free me. So please, save me!
+endscene
+
+scene tongue-3-alt
+TG: H-help... You must make me clean again... free me from the prison of my own desires...
+endscene
+
+scene tongue-after
+TG: Thank you Nova... I can feel the vibrancy of tastes dimming once again...
+endscene
+
+scene tongue-crystal
+[FADENOFADE]
+$TG$: When I was young, Nova, the world was bright and delicious. I loved nothing more than to eat and taste and be satisfied. But as I grew, the magic of my tongue began to fade. Food felt like sand upon my tongue, life became dull and gray.
+Then... the $Dust came! I could feel its writhing, unruly power growing inside of me. My sense of taste returned, more vibrant than ever before! Red bumps slowly began to appear upon my skin, but I ignored them, delighting in the wonderful flavors the world had to offer!
+[CLEAR]
+I was a fool to fight against the wisdom of $The Center, to gratify my base desires by giving in to the $Dust. I lost control, and I became a monster. Thank you, Nova, for giving me another chance...
+endscene
+
+scene rage
+RP: Why would you come here to my hideaway? You are trying to stoke my rage, and turn me to a disgusting monster!!
+RP: Why are you still standing here, Nano Cleaner?!! Did you come here to Gawk?!! GO AWAY!! 
+endscene
+
+scene rage2
+[FADE]
+The heaving beast, Bran Maligden, screams at Nova, but screaming is not enough. She stomps the platform and pounds her fists, rattling the skeletal structure around her. 
+Nova stands frozen in terror. Is she going about this "Nano Cleaning" business all wrong? Nova feels ashamed for making Bran so angry, for not approaching more tactfully. She wonders if maybe The Center was wrong to trust her with such an important task...
+Suddenly... CRASH!!!
+[CLEAR]
+A slab of concrete falls from above, breaking into pieces across the creature’s head.
+“You think that's pretty funny, don't you?!!” Bran screams. “DING DONG the Wicked Witch is CRUSHED"!! AHAHAH!! I got what I deserved, THAT's what you're thinking!!”
+Nova cannot imagine anything less funny than Bran Maligden's pain. But maybe Bran can see something about Nova that she herself cannot. Perhaps there is an ugliness inside of Nova that she has not yet learned to recognize...
+"I need help..." Bran Maligden says, suddenly, quietly. "Please... clean me."
+endscene
+
+scene rage-crystal
+[FADENOFADE]
+$RP$: Where did the anger begin? It's impossible to say. But if the $Dust had not arrived, I would never have reached this point, drowning in my own rage. Like a soft buzzing sound or a faint red light, slowly growing in intensity, I was hardly aware of what was happening until it was too late. Then I felt like there was nothing I could do but scream and shake.
+I became so foul and ugly in my rage. Thank you, Nova, for helping me to find peace.
+endscene
+
+scene rage-after
+RP: Huh? Why was I angry? I don't understand why you're asking me that! With the dust gone, I am no longer so disgusting and full of bitter rage.
+endscene
+
+scene cougher-bed
+//Interact with the bed 
+[FADE]
+A lump shudders softly beneath the stained and slimy bed dressings. Nova would rather not disturb the occupant and slowly backs away.
+endscene
+
+scene cougher-exit
+// <when you leave the room, however>
+[FADE]
+As Nova begins to walk away, she is startled by a sudden gruff voice. "So... COUGH COUGH... you're just going to stomp through my bedroom with your muddy boots and then leave? COUGH... hrk... gurgle..."
+Nova turns to see Misteria Waizel's head rise from beneath the bedcovers. The weary figure continues to expel harsh wet coughs. Nova bows her head in shame and glances around frantically. It is difficult to say what mess she may have caused, so she begins to shuffle about, attempting to tidy the room generally.
+"Stop touching my lampshade collection!" Misteria Waizel snaps. "Come over here, I need to talk to you."
+endscene
+
+scene cougher
+MC: Do you like lampshades? ... COUGH... hrk... Some of these lampshades are worth a lot of money! But who cares about money?! COUGH! It's all about the artistry! You see that one? Don't touch it with your grubby little fingers! That was my grandmother's lampshade. See the exquisite lace patterning around the brim? COUGH COUGH...
+MC: COUGH COUGH... It's good to meet a fellow lampshade buff. You really do like lampshades, don't you? COUGH... Thinking of taking one for yourself while I'm not looking, are you? Who would notice or care if you took advantage of a miserable, weak old coot? That's what you're thinking, aren't you?! COUGH... gurgle...
+MC: They don't make lampshades like these anymore. COUGH... hrk...
+MC: You wouldn't know. You are young and strong, and you think that you'll live forever. But eventually things fall apart and people leave you and they kick your shins on their way out. They steal your lampshades. COUGH COUGH... I can't even remember anymore, all the lampshades that are gone. Out of sight, out of mind. What is in sight anymore for me...?
+MC: I've got a good feeling about you. COUGH... hrk... I need you to do something for me. Please clean the Dust from my lungs. COUGH... What, do you need a lampshade in return or something?! You can have the Retro Frill model in mint green. I've already got one of those. Have you ever Nano cleaned before? Don't make it worse. COUGH COUGH...
+endscene
+
+scene cougher-crystal
+[FADENOFADE]
+$MC$: You don't know what it's like, to have a life and then to see it crumble before your eyes. That's what the $Dust does, it grows and grows by eating up who you are meant to become.
+Nova. You've done a good thing here. My lungs are much better now. Maybe I'll be able to finish writing my lampshade book now. Did you ever clean up the dirt you tracked into my bedroom? You know, $The Center itself once sent me a special lampshade, with unbelievable symmetry, in recognition of my work cataloguing and appreciating lampshades.
+[CLEAR]
+Thank you, Nova. I really appreciate what you've done here. I mean it sincerely. You can have any lampshade you like. Well, as long as it's the Retro Frill model in mint green. I've already got one of those, see? Thank you, Nova. Goodbye.
+endscene
+
+scene cougher-after
+MC: Thank you for your help, Nova. Can you help me finish my lampshade book? I'm trying to decide what categorization system to use. You know, the Pleated Cream model is in the wrong place. I didn't move it. I'm just going to say, Nova, I really need my lampshades to stay in the place that I put them so that I can keep track of everything. 
+endscene
+
+scene gwoms
+Chupley Gwom:n If only I had a football made of my own skin... then it could never truly be pulled away from me...
+Supley Gwom:n Good grief... I can't stand it!! Day after day, the same food in the same dish!!
+Pupley Gwom:n Happiness is a warm puddle!
+// <nursing at a teat of the Aughur> 
+Gwomina Gwombledon Gwom:n *Squork squork squork*.... Have you ever heard of the rooting reflex? If you touch a baby on the cheek, they will cheer for the home team.
+
+//4 AFTER
+Chupley Gwom:n The performance of my irreconcilable yearning is what makes me resonate. I am blessed that the football will forever be pulled away. I am transfigured beyond a mere worm.
+//<eating same food out of nicer plate?>
+Supley Gwom:n Grief is great, Grief is good, and we thank it for this food. *Munch munch munch* 
+Pupley Gwom:n Happiness is a warm illusion!
+// <drinking from glass now>
+Gwomina Gwombledon Gwom:n *Sip sip sip* Mmmm... the fact that milk is labeled as 1% and 2% seems to imply that "whole" milk is perhaps 98% fattier. In fact, whole milk would more accurately be described as "3.5%" and is not drastically more caloric than the other options.
+endscene
+
+
+scene pig-pre
+GG: A malaise rests upon my children, like a shroud of sludgery. Please, I request that you listen to each of my children and then return to me...
+endscene
+
+scene pig
+GG: Nova... thank you for listening to my children...
+[FADE]
+The great squirming creature hangs its head, and speaks in a low rumble. "Ohhh... the mud feels cool and calming to our skin, prickled as we are by fever and eczema."
+In this dark and still corner of the alleys, Nova hears the soft squishing sounds of the Gwoms writhing and turning. She shivers at the faint groans that they emit while pressing their delicate pink skins into the muck.
+[CLEAR]
+Now, the Great Gwom lifts its head and stares off at an imaginary horizon, tears glistening in the corners of her eyes. “I hear a distant echo from the past... the shadow of a misremembered song," she says, slowly growing in intensity. “We Gwoms were once proud and beautiful!” she proclaims, “Or else... The Center would never have created us!!”
+The Great Gwom turns to Nova and says, “It is the Dust! The Dust has caused us to forget ourselves, and now all we have left is to ease our discomfort by rolling in the filth... Please, Nano Cleaner Nova! Clean us, so we may understand The Center’s plan once again!”
+// unlock
+endscene
+
+scene pig-crystal
+[FADENOFADE]
+$GG$: Nova... I can feel the fog lifting from my memories. I am the Aughur: I was created to investigate the future by studying the gambling habits of birds!
+[CLEAR]
+$GGG$: Each and every one of us has a role to play in the grand story of New Theland. You have shown me this, Nova! My children and I were once selfish and short sighted. We complained about our lot in life and lost sight of $The Center's plan. But there is a place for us after all, Nova. There will always be a place for us!
+endscene
+
+scene pig-after
+GGG: Thank you for your help, Nano Cleaner Nova! Let me return the favor, by taking the auspices for you. One moment please, while I attune myself to the birds and their never-ending games of cards...
+GGG: Ahhh... pidgeon reveals a full house... but duck presents a straight flush...
+GGG: Yes... I sense that you will be The One... yes... you will bring about a great event that shall alter New Theland forever!
+endscene
+
+
+scene card-get
+Nova feels the Glandilock Seed pulsating inside of her. It channels The Center's power, transforming the deadly Dust Crystal into a Card!
+endscene
+
+scene elevator
+Nova presses the console, and it lights up and whirrs. Next stop, Center Sanctuary.
+Nova presses the console, and it lights up and whirrs. Next stop, the Blue Vale!
+Nova presses the console, and it lights up and whirrs. Next stop, Center City Cenote.
+[FADE]
+Nova presses the console to go upwards, but the console doesn't respond. Suddenly, Palisade appears.
+PAL: Ah, Nova, you're trying to get out of Center City Cenote! A natural inclination for any Nano Cleaner.
+PAL: I'm afraid it's far too dangerous, though! You'll have to power The Center with Dust and Cards before the outside atmosphere can be purified.
+ERROR! Elevator flight mode permanently out of service.
+endscene
+
+// Translator's note: Do not translate this, it's not in the final game
+scene demo-end
+[FADE]
+After a long ride to the top of Cenote, Nova exits the elevator and steps onto a wide, circular platform, built from white material she saw in Cenote. To the north and south are two big bridges. Instinctually, she picks the northern bridge, and crosses it.
+Urban sounds fade away, leaving a gentle breeze and rustling grass. Hills and mountains of deep blue fill the horizon, pulling her attention in all directions. It feels... different.
+Gazing at these sights, Nova can't help but feel a strange feeling deep inside her chest, something almost pulling her downward, easing her senses into the blue soil. Was this peace? Happiness?
+[CLEAR]
+N... No. It couldn't be. She remembered what C Psalmist had told her. Though the blue sky and distant mountains appeared calm and inviting, Nova knew that the stillness in the air was deceiving - a trick. It was merely a facade, as somewhere out here, Nano Dust was growing. Threatening to consume the world.
+Her new feeling - it must be a new kind of fear.
+Right?
+There's no time to relax - Nova knows this. She must work. She must clean. She must seek out every infected person in these mountains and protect them...
+[CLEAR]
+...
+This ends the preview version of Anodyne 2: Return to Dust. Thank you so much for taking the time to play and support us, it means a lot, especially that you got to the end... Marina and I (Sean) have been working so hard. We hope you enjoyed it.
+Anyways, if you walk towards the camera, you can return to Cenote to explore more. Or, you can jump around here for a while.
+Please look forward to Anodyne 2 later this year!
+endscene
+
+
+scene rage-nanobot
+Nano Assassin: *COUGH* *HACK* NOVA... WILL... BE STOPPED... ENGAGING *COUGH* INCINERATION PROTOCOL...
+Nano Assassin: *COUGH* *COUGH* STOP... CAN'T... MOVE... *COUGH* MISSION, FAILED... GAME, OVER... *COUGH*
+endscene
+
+scene pig-nanobot
+Nano Assassin: *COUGH* *COUGH* ARRRHURRLLL *COUGH* HAKKKKKKKK *COUGH* *COUGH* ... ... ... DIE *COUGH* *COUGH* THE CENTER MUST BE DESTROYED
+Nano Assassin: *COUGH* NO... NOVA... *COUGH* DESTROY... NOVA... KILL THE CLEANER... 
+endscene
+
+scene cougher-nanobot
+Nano Assassin: ... *COUGH* ... *COUGH* FROM DUST... I ARISE. NOVA MUST DIE. THE CENTER MUST CRUMBLE. *COUGH* 
+Nano Assassin: I'VE... FAILED, BUT... *COUGH* NOVA WILL FAIL... THE CENTER WILL FAIL... *COUGH*
+endscene
+
+scene tongue-nanobot
+Nano Assassin: NOVA! OOHHHHHHHHH *COUGH* COME HERE! COME HERE! *COUGH* *COUGH* LET ME DESTROY YOU!
+Nano Assassin: OH, NANO CLEANER *COUGH* THAT WAS REAL GOOD!! BUT, *COUGH*, YOU MUST BE *COUGH* STOPPED... *COUGH*
+endscene
+
+scene keyblock-text
+This strange block seems to have a keyhole...
+endscene
+
+
+scene ccc-tour
+// say ccc-tour 0 2
+(This boy is the size of a small mouse, but surprisingly his voice projects quite well.)
+Mini-Boy:n Welcome to Part One of Three of the Cenote tour! Above us we have the Cenote Clock. It used to tell the time, but a few years ago it broke, and no one has been able to jump up there to repair it. A testimony to the meaningless of time. What does it matter if it's 6:00, 10:30? Anything can happen, if it may be willed...
+Mini-Boy:n What does "meaningless of time" mean? I don't know, lady! I'm just a kid!
+
+// say ccc-tour 3 4
+Average Boy:n Welcome to Part Two of the Cenote tour! This is Cenote Lake. It has the mysterious effect of: anyone who dives into it will warp back to where they were a few seconds ago! To this day, it is the only known trigger for the teleportation phenomenon in Cenote. Truly, a testimony to the vicious cycles of living. We cannot escape our past, it will always haunt us.
+Average Boy:n By the by... have you seen my brother? I last saw him around the market, but, uh, he's easy to lose track of...
+
+// say ccc-tour 4 5
+Big Boy:n Welcome to Part Three of the Cenote tour! I'm my own landmark, I am the Big Boy of Cenote! By finding me, you will have prosperity for the next year.
+Big Boy:n Well, actually, I'm here to show you Cenote Wall, the blueish grey one. Not the one behind me. This wall defies physics, in fact, you can jump up it even if you are not athletically-endowed. Truly, a testimony to living beings' endless determination to overcome challenges, even if what lay on the other side has no material value.
+endscene
+
+scene ccc-video
+//xxx 0-2 video mole
+Moletuber:n I make videos about videogames. But it's hard... it's not just fame and rainbows. No one was watching my videos unless I made stuff about the latest "Big World" series installment!
+Moletuber:n I just want to cover "Small World," not "Big World"...
+Moletuber:n I wish things were different.
+endscene
+
+scene ccc-lake
+Shrew Rivers:n When the fog descends into Cenote and you look from here, the lake appears infinite, as the horizon fades to fog. Feels like I'm right near the ocean. Ahh...
+Shrew Rivers:n But I know it’s not there. There's no smell of the sea. I have to imagine.
+Shrew Rivers:n I suppose a glimpse of beauty is better than nothing.
+endscene
+
+scene ccc-covetous
+Covetous Shopper:n Ahhh... how shiny, how beautiful... maybe one day I will be able to save up for one of my own...
+Covetous Shopper:n Oh, how I long for a large glass window pane!!!
+endscene
+
+scene ccc-construction
+Construction Worker:n Ugh, there's some big angry person up on the construction site! Let me tell you, people have got no respect for the sanctity of the construction site!
+Construction Worker:n Look at the treatment of construction sites in the media! Just a backdrop to get used and abused in an explosive action sequence! Listen, just because construction sites are unfinished buildings, doesn't mean they're disposable. How would you like it if a construction scene performed an explosive action sequence inside of YOU?
+endscene
+
+scene ccc-misc
+//xxx 0 <Dolphin by produce>
+Dolphmom:n Ahhh... the Jormungla fruits are looking fresh today... and how plump the green flibbers are! This delightful produce makes me feel truly immersed in this fantastical world created by The Center!
+
+//xxx 1 - 2
+Dolphkid:n EEEEEEEEK!!! EEEEEEEEEEEEK!!! WAAAAAAAHHHHHHHH!!!
+Dolphkid:n (I'm trying to find the candy by echolocation...)
+
+//xxx/3 <Rockpants by produce>
+Elderly Shopper:n Hmmm... prune crackers, prune crackers... boy, the graphic design in product packaging sure has gone downhill since my day... it all just looks like a blur of colors!
+
+ignore4
+ignore5
+
+//xxx 6 <Dolph by store window>
+Dolphya:n I love toys!!! Or wait, do I? I used to find them very exciting. But now I'm like... "Huh? Why do I have this garbage?"
+
+ignore7
+ignore8
+
+//xxx 9 <Kid near cougher>
+Spooked Kid:n Eeek! I hear some creepy coughing from this building with the green lights! I bet it's haunted! ... You'll go check it out, right?
+
+//xxx 10 <Rockpants hidden on building to the left of cougher>
+Sadrock:n Wow, did you follow me all the way over here? As a reward I will give you 5000 dolors. Huh? No, not "dollars", I don't have any money. "Dolor" means sadness or grief in Latin. I will tell you 5000 sadnesses, because you followed me.
+
+
+//xxx <this can be the jellyman>
+//11 12 Near alley entrance NPC:
+Tired Jellysir:n Whew... I finally made it out of those maze-like alleys!
+Tired Jellysir:n Huh? You’re about to go in there? Sounds crazy, but I suppose you are the Nano Cleaner. If you’re looking to clean, perhaps you should follow the mud!
+
+//xxx 13-17 <Kids by alley entrance>
+Chanting Kids:n Dust, dust, dirty dust!
+Chanting Kids:n Clean behind your ears you must!
+Chanting Kids:n If you don't -
+Chanting Kids:n You will die -
+Chanting Kids:n Dust dust, dirty dust!
+
+//18xxx <dolph near tree>
+Dolppreciator:n Ahhh, don't you just love these beautiful white trees? Their pure, serene dignity reminds me of the ancient stone statues, which were never painted any gaudy colors!
+
+//19xxx <crabhorse near bench>
+Puzzled Pedestrian:n Hmm... I don't know how to sit on this bench.
+
+//xxx20 <small npcs in park. maybe you can talk to them separately to get the conversation? rather than having it autoplay connected>
+Shelley:n So, how about this dust storm we've been having? Sure is some weather, huh?
+
+//xxx 21
+Moleford:n Really, Shelley, you know how I despise small talk! I'd much prefer to discuss the sociocultural impacts of the current meteorological phenomena, which prevents departure from Center City Cenote!
+
+//xxx 22 <Jellyman by the goverment building>
+Former Staffer:n Ahhh... the Official Building. I remember doing Official things in here, and wearing Official clothing.
+
+// 23 moleford late
+Moleford:n Well, Shelley! It seems the dust storm fixed itself! I wonder what kind of scientific causes were behind it!
+// 24 shelley later
+Shelley:n Whoa! Look at the sky! You can really see it now!
+// 25
+Unspooked Kid:n Un-eek! I used to hear creepy coughing from this building... but not anymore! I'm all good!
+endscene
+
+scene dolphfan
+Dolphfan:n Whoa! It's really you! Nova, the Nano Cleaner! Talk to me again! I'll tell you a fun fact!
+Dolphfan:n Your Nano Vacuum holds 60 units of dust! The blue bar in the pause menu shows how much you have! Just press {PAUSE} to view it. Also, deposit your dust in Center Sanctuary whenever it's getting full!
+Dolphfan:n Oh, get this. I heard that even after you clean the dust from someone, you can still shrink into them again if you need more dust!
+Dolphfan:n What's that? I know too much and it's weirding you out? That's 'cause I'm your number one fan, Nova!
+Dolphfan:n What? More tips? Well, okay! Umm... if you're having trouble you can open the Settings section of the Pause Menu to change difficulty options! Well, that's what this blog post said about you, at least.
+Dolphfan:n Oh, uh... see that egg thing over to my right? You can "Save Your Game" with it.  Also, in the Pause Menu, you can read about the items and cards you have! The map also marks your position.
+Dolphfan:n Well, I ran out of useful tips, so here's a life tip: don't toast your bread! Try microwaving it for 10 seconds. Life will never be the same.
+endscene
+
+scene elevator-tip
+Jellyvator:n Oh... oh ho ho ho. Are you... are you gonna get on the elevator? What? You don't know how? Well! See the 'down' arrow on the left side of the elevator? You can talk to it to go down to Center Sanctuary! BUT. Wait, there's more! See the UP ARROW on the right side? You can talk to it to leave Cenote and go up to the beautiful Blue Vale! That's right: this elevator goes both ways!
+Jellyvator:n I'm forbidden to step foot into Center Sanctuary or head out of Cenote, but I'll be watching you the whole way, whether you're goin' in or out. I've got no preference. I just love elevators.
+Jellyvator:n By the way, do you need an elevator pitch? I've got a bunch of them, but I can't use them... I can't ride the elevator, after all. Maybe "I'm Nova! I love to clean Nano Dust. First cleaning's on me! Shwoosh-sha!"
+endscene
+
+
+// ignore
+//scene delay
+// 0 6
+/Sean Han Tani: AHH
+/Sean Han Tani: How did you find me?
+/Sean Han Tani: Hmm.. I see that look in your eyes. You're wondering 'is Anodyne 2 coming out in May still?'
+/Sean Han Tani: ...
+/Sean Han Tani: ... ... ...
+/Sean Han Tani: Hmm...
+/Sean Han Tani: Eh heh heh heh heh...
+// 7 15 vanish
+/Sean Han Tani: Agh! Okay, okay.
+/Sean Han Tani: Here's your answer: it's................ delayed! Just for a little while, though. Till July, probably. 
+/Sean Han Tani: But hey! That's only like, 60 days. No sweat. You should play a cool game in the meantime, like LUCAH or something.
+/Sean Han Tani: Anyways, I know you believe in us. Thank you for that, truly. There are people who don't believe in what Marina and I are doing... we will prove them wrong... ha ha ha ha ha ha
+/ha
+/ha
+/ha
+/...
+/Sean Han Tani: Okay, back to development. If this gets 1000 RTs the game will come out in June.
+/Just kidding.
+//endscene

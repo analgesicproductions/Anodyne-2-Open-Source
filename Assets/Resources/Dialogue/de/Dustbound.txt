@@ -1,0 +1,748 @@
+
+scene db-field-0
+...
+endscene
+
+scene db-field-1
+[FADE]
+Novas Körper schmerzt von den giftigen Widerhaken des wütenden Schwarmes. Sie atmet erleichtert aus, als sie wegsummen – bis sie merkt, warum sie geflohen sind: Staub! Eine dicke Wolke umgibt sie, reizt ihre Lungen und sie beißt die Zähne zusammen.
+[CLEAR]
+Langsam beginnt Nova, ihre Augen inmitten des Dunstes zu öffnen. Ihre Sicht ist zunächst verschwommen, aber sie kann eine Gruppe von Figuren erkennen, die über ihr auftauchen. Welche Art von Kreaturen würden ohne Angst durch den Staub gehen?
+endscene
+
+scene db-field-2
+[FADE]
+Plötzlich erscheint ein Bild von Palisade in Novas Kopf ...
+„Nova, ich möchte, dass du jetzt meine Karte hast! Bewahre sie bei dir und benutze sie nicht, um das Prisma zu verstärken. Möge sie dich vor allem Schaden bewahren, auch wenn ich weit weg bin ...“
+[CLEAR]
+Verzweifelt taucht Nova ihre Hand in ihr Inventar und fühlt nach Palisades Karte. Die dunklen Gestalten beginnen, nach ihr zu greifen! Nein! Ihre Finger schließen sich endlich um die Karte und sie hält sie vor sich! Die holografische Oberfläche der Karte leuchtet im Licht. Die Illustration von Palisade, dem Wächter, steht vor dem grabschenden Mob.
+endscene
+
+scene db-field-3
+__c1 ?: Ahh ... ahA! AHAHAHAHA ... *HUST* *hust* *keeeeuch* *hack* *hack* *hust*
+__c1 ?: Hör zu, du. Wir lassen diesen Unsinn hier nicht gelten.
+[FADE]
+Die geheimnisvolle Stimme streckt ihre Hand aus und ... packt die Karte! Und mit einer schnellen Reißbewegung ...!
+endscene
+
+scene db-field-4
+__c1 ?: Eine Karte ist ein Stück Papier. Eine Karte hat nur dann Macht, wenn wir alle ihren Regeln zustimmen!
+__c1 ?: Nun ... Hier sind wir die Dustbound. Hier sind wir anderer Meinung!
+endscene
+
+// DB Village - Nova's House
+
+scene db-day1-wakeup
+[FADEFULL]
+Nova rührt sich und öffnet die Augen. Neben ihr sitzt ... Ist das das Monster, das die Palisadenkarte zerstört hat?! Nova will schreien, aber sie ist zu schwach, zu desorientiert.
+[FADEOFF]
+__c1 Staub-Monster: Ah ... du wachst auf, du kleiner Haferbrei-Topf? Wie fühlst du dich?
+[FADE]
+Das Monster spricht wieder mit ihr ... Was will es von ihr? Ist es eine Art Abgesandter des Staubs? Vielleicht ein Attentäter, der sich um sie „kümmern“ soll ... der die Flut im Krieg des Staubs gegen das Zentrum wenden soll ...
+[FADEOFF]
+__c1 Attentäter-Monster?: Hör zu ... Ich denke, wir hatten vielleicht einen schlechten Start. Ich habe nur versucht zu helfen, und die Dinge wurden ein wenig riskant.
+[FADE]
+Die Kreatur starrt Nova fragend an, als ob sie etwas von ihr erwartet. Vielleicht braucht es eine Nano-Reinigung? Aber ... ist das überhaupt möglich? Nova ist bereits auf Nanogröße ... Gibt es einen Weg, um ...
+[FADEOFF]
+__c1 Monster, das gereinigt werden muss??: Hey, äh ... kannst du aufhören, den Raum so dunkel werden zu lassen? Ich versuche hier, ein Gespräch zu führen? Kannst du einfach mit mir reden?
+[FADE]
+__c1 Nova ist verwirrt, sie will, dass sie mit ihr „spricht“?
+[FADEOFF]
+__c1 Gesprächsbegieriges Monster???: Okay, okay, okay. Also reden ... es ist genau wie denken, in Ordnung? Aber du lässt die Gedanken aus deinem Mund purzeln. Okay? Mein Name ist Drem Kinako. Es ist schön, dich kennenzulernen!
+__c1 $DK$: Jetzt bist du an der Reihe, dich vorzustellen!
+$N$: Ich ... hm? Oh ... Ich bin Nova ...
+__c1 $DK$: Du hast es geschafft, du alberner Salsa!
+$N$: Wirst du mich umbringen?
+__c1 $DK$: WOW. OKAY. ÄHM, NEIN?! ............... Warum sollte ich dich umbringen?!
+$N$: Was ist der Tod?
+__c1 $DK$: Nun, du bist nur voller Fragen, nicht wahr? Ich habe ein Monster erschaffen!
+$N$: I-ich wusste nicht, dass ich reden kann.
+__c1 $DK$: Hey, ich mache nur Spaß, okay? Rede so viel du willst! Schließlich ist es das, was ich auch tue! *zwinker*
+$N$: ...
+endscene
+
+scene db-day1-start-loop
+__c1 $DK$: Hey ... Wenn du dich dazu bereit fühlst, komm später zur Lichtung der Bindung. Ein Dustbound-Ältester namens Beetricks Rooter ist kürzlich gestorben und wir werden ihn dort beisetzen. Vielleicht hilft das bei einigen deiner Fragen.
+endscene
+
+// Setting:  Clearing of the Binding
+
+scene db-burial-1
+[FADE]
+Als sich Nova der Lichtung nähert, sieht sie eine Ansammlung der Dustbound, die um einen seltsamen Klumpen herum steht, der in Stoff gehüllt ist. Sofort erkennt sie, dass dies einst einer von ihnen war. Der Körper eines Dustbound, unbeweglich und still. Tot.
+Plötzlich fangen sie an, mit den Armen in einer seltsamen Art von Tanz zu wedeln.
+endscene
+
+
+// <the sprites in the center do different hand motions which cause a pit in the ground to grow. then they move the body in, then they refill the pit. Elegy Beatty steps forward>
+
+scene db-burial-2
+[FADE]
+Nova schaut sich um. Eine große Dustbound mit eleganten und scharfen Zügen tritt vor. Sie beginnt, mit einer seltsam rhythmischen Stimme zu sprechen. Als sie die Worte „Du gehst voran“ sagt, sagen alle Dustbound das Gleiche im Einklang.
+[CLEAR]
+Große und elegante Frau:
+Du gehst voran ...
+(Du gehst voran!)
+Die Leere der kardinalen Umleitung, die Leichtigkeit deiner Hand, während sie sanft sinkt. Ein Zaubertrick, der aus dem einfachen Akt des Verblassens von Licht entstanden ist. Von Schatten und einem Planeten, der sich dreht, einem Universum, das sich in sich selbst zusammenfaltet, als ich dein Zimmer betrat und du unter einer dünnen Decke lagst.
+[CLEAR]
+Du gehst voran ...
+(Du gehst voran!)
+Wie reichlich hast du auf den Ölen und Gewürzen, den Pedalen und den Pfeifen gespielt. Ich würde für dich wieder zur Herzlichkeit auftauchen, ich würde auf den Duftnähten tanzen und deine Finger katalogisieren. Kröne mich, Kardom- und Paprikaschoten und all die wehenden Wimmern deiner Flügel.
+[CLEAR]
+Du gehst voran ...
+(Du gehst voran!)
+Elementare Spuren, kopierte, entscheidende Kohlenstoffdaten und Lebensmittellisten und all die Male, in denen du lange geblieben bist. Ich streichle meine Hand und wo du mich gelassen hast, ist eine Glocke aus weichem und porösem Schaum, eine Reihe von Kiemen, die du mir zum Atmen gelassen hast. Sporen funkeln wie Salz und Regen und wir danken dir für deinen Mut, denn ...
+[CLEAR]
+Du gehst voran ...
+(Du gehst voran!)
+endscene
+
+
+// After funeral, other NPCs
+scene db-burial-elegy
+__c2 $EB$: Hallo, Nova. Mein Name ist Elegy Beatty. Wie seltsam es ist, hier unter den Dustbound die Nano-Reinigerin des Zentrums zu haben.
+$N$: Äh ... ähm ... \n(Ich will vor ihr nichts Dummes sagen!)
+__c2 $EB$: Hab keine Angst. Ich habe das Gefühl, dass du nicht in offizieller Funktion hierhergekommen bist, oder? Es gibt keinen Grund, warum wir nicht miteinander auskommen sollten.
+$N$: ... Danke ...
+__c2 $EB$: Ahaa~! Nun, du bist aber niedlich! Nova, bitte schließe dich meinem Farmteam an! Ich will, dass du mit mir zusammenarbeitest! Was sagst du dazu?
+$N$: O-okay ...
+endscene
+
+scene db-burial-elegy-2
+$N$: (... Ähmm ...)
+endscene
+
+scene db-burial-drem
+__c1 $DK$: Was hältst du von der Beisetzung, Nova?
+$N$: Ich ... ich verstehe nicht! Das ist meine Schuld ... Vielleicht hätte ich, wenn ich schneller gearbeitet hätte, diesen Bereich inzwischen säubern können. Beetricks wäre nicht ... g-gestorben.
+__c1 $DK$: Gib dir nicht die Schuld, Nova ... es ist niemandes Schuld, dass Beetricks gestorben ist! Er hat ein gutes Leben gehabt. Nova. Eines Tages ... werden wir alle hier zum Staub zurückkehren.
+$N$: Aber das ... das solltet ihr nicht! Jeder hat einen Zweck, deshalb wurden sie vom Zentrum gemacht! Niemand sollte einfach verschwinden! Wo würde ihr Zweck hingehen?
+__c1 $DK$: Zweck ist eine Idee ... Es ist ein Werkzeug für Menschen, Nova. Wir sind nicht die Werkzeuge des Zwecks.
+$N$: ...
+endscene
+
+scene db-burial-drem-2
+$N$: Drem ... Ich bin auf der Suche nach einem Freund hierhergekommen. Wie kann ich mehr als das Dorf erkunden?
+__c1 $DK$: Ahhh ... Ich habe Gerüchte über ein seltsames Objekt gehört, das vom Himmel in die nahegelegenen Wäldern gefallen ist. Es gibt einen Bahnhof südwestlich von hier und vielleicht kannst du mitfahren – wenn du wirklich nett fragst! Heheh!
+endscene
+
+
+scene db-burial-misc
+$N$: Ich bin mir nicht sicher, wo ich anfangen soll ... vielleicht sollte ich mehr reden.
+$N$: Ich habe genug Zeit hier verbracht. Ich muss nur einen Weg zu der Frucht finden, die Palisade mir gezeigt hat.
+Diese Dustbound ... Ich bin mir nicht sicher, was ich von ihnen halten soll ...
+endscene
+
+scene db-hint
+Tut mir leid, geschätzte Mitfahrer. Der Caecilizug fährt nicht während Beisetzungszeremonien. Kommen Sie später wieder.
+Tschu-tschu! Müssen Sie eine Reise machen? Der Caecilizug lebt von dem köstlichen Staubschlamm auf dem Boden. Im Gegenzug transportiert er Menschen aus dem Dorf! Zieh einfach am Uvuhebel.
+Westen: Wohnungen\nNorden: Wrestling-Ring\nSüden: Caecilizug\nOsten: Lichtung der Bindung, Farm
+Norden: Feld\nNordosten: Lichtung der Bindung\nOsten: Farm
+endscene
+
+
+
+//Find Handfruit Haven
+//<Nova's internal monologue... partly fadescreen but maybe not bc sometimes need to show stuff>
+
+scene haven-first-time
+[FADE]
+Der höhlenartige Raum ist schön, aber dennoch tödlich. Das sanfte Knarren der Türen stört die Ruhe. Hier ist niemand.
+
+Natürlich! Natürlich ist hier niemand. Nova hätte nicht erwarten können, dass Palisade hier steht und mit offenen Armen wartet, oder? Der Plan muss aufgedeckt werden, die Zahnräder müssen sich drehen. Wenn die abstrakten Stücke schließlich an ihren Platz kommen, wird das Bild enthüllt.
+[FADE]
+In der Mitte des Raumes befindet sich ein Altar. Es ist ein Hinweis, vielleicht ein Portal, durch das die Palisade beschworen werden kann! Seine Architektur benötigt natürlich einen Schlüssel zu dessen Nutzung. Eine natürliche Eigenschaft von klugem Design ...
+endscene
+
+scene haven-first-time-2
+[SMOOTHCAM TO diceVC in 1.8]
+Ritus I, die Würfel. Man muss die Farbe und den Buchstaben beachten, auf dem die Würfel landen. Das Leben ist nie wirklich zufällig, es könnte nur so erscheinen, bis an die Grenzen des eigenen Geistes.
+[SMOOTHCAM TO bridgeVC in 1.8]
+Ritus II, die Brücke. Es handelt sich um einen Steg aus instabilen Materialien. Die Kanten der Brücke dürfen niemals berührt werden, wie ihre leuchtend gelbe Färbung zeigt.
+[SMOOTHCAM TO slideVC in 1.8]
+Ritus III, das Geschenk. Eines davon ist, ein Opfer zu geben und zuzusehen, wie es wegfällt. Um wirklich frei zu sein, muss man die Dinge loslassen, die falschen Komfort und falsche Sicherheit bieten. Das Zentrum wird sich entfalten, und das ist genug.
+[SMOOTHCAM TO matcherVC in 1.8]
+[FADE]
+Nova wird alles klar: Sie braucht die Riten nur treu durchzuführen, damit Palisade sicher zurückkehren kann! Aber bevor sie anfangen kann, fällt Nova fast auf den Boden. Es ist, als ob sie irgendwie gebrochen ist, sie kann spüren, wie der Glandilock-Samen hustet und stottert.
+[CLEAR]
+Sie erinnert sich an das Bett, auf dem sie früher an diesem Tag mit einem seltsamen Gefühl der Sehnsucht aufgewacht ist. Es ist, als ob die bloße Existenz im Laufe der Zeit zu einer Krankheit für sie geworden ist ... könnte Bewusstlosigkeit ihr Gegenmittel sein?
+Sie geht nach Hause. Sie wird die Riten bald durchführen ... einfach ... nach ...
+endscene
+
+// Nova falls asleep
+// Start of Day 2.
+// Now nova is hungry, and in bed.
+
+scene db-day2-wakeup
+[FADEFULL]
+Nova erwacht. Sie fühlt nicht mehr die gleiche seltsame Schwere in ihren Gliedmaßen, aber jetzt schmerzt ihr Magen ...
+Vielleicht wollen ihr die Dustbound schaden ... vielleicht haben sie sie vergiftet. Sie muss ... Drem Kinako finden ...
+endscene
+
+scene db-day2-drem
+__c1 $DK$: Nun ... wenn das nicht der kleine Auflauf in Person ist! Wird auch Zeit, dass du aufwachst!
+$N$: W-was ist mit mir passiert? Ich sterbe ...
+__c1 $DK$: Ich weiß nicht, Schälerbse. Was fühlst du?
+$N$: Was ich fühle? Ähm ... Ich weiß nicht, was du meinst.
+$N$: Und warum machst du das immer wieder?
+__c1 $DK$: Was denn?
+$N$: Mich bei diesen unsinnigen Worten nennen!
+__c1 $DK$: Unsinnige Worte? Du meinst „Auflauf“ und „Schälerbse“ Das sind keine unsinnigen Worte, es sind köstliche Lebensmittel!
+$N$: „Lebensmittel“?
+__c1 $DK$: Ohhhhhh ... okay. Ich glaube, ich verstehe es jetzt. Du weißt nichts über Essen, oder? Nun. Erinnerst du dich an gestern, wie wir das Reden gelernt haben? Nun ... Essen ... es ist so etwas wie „umgekehrtes Reden“ ... anstatt dass GEDANKEN AUS deinem Mund kommen ... kommt ESSEN IN deinen Mund!
+$N$: ... Hm?
+__c1 $DK$: Wow, du hast Glück, dass ich hier bin, um das so deutlich zu erklären! Ich wette, du musst essen, denn anscheinend hast du es noch nie getan. AHeheh!!! Hier, versuch das mal. Es ist „Pilzcremesuppe“. Wusstest du, dass sie „großartig zum Backen“ ist?
+endscene
+
+scene db-day2-drem-2
+$N$: *nimmt einen Bissen* ... Ich denke, es hilft.
+__c1 $DK$: Du bist außerhalb der Reichweite des Einflusses des Zentrums. Also schätze ich, dass du jetzt schlafen und essen musst, wie der Rest von uns ... Hey! Das reicht jetzt, hol dir deine eigene Suppe! Wenn sie dir so gut schmeckt, solltest du „mmmm“ machen und deinen Bauch mit kreisenden Handbewegungen reiben!
+$N$: Äh ... „mmmm“ ...
+__c1 $DK$: AHehehaHEha!! Der war gut!
+[FADE]
+Nachdem sie über dieses „Essen“ nachgedacht hat, macht sich Nova auf den Weg zu einem Feld, um mit Elegy Beatty zu sprechen ...
+endscene
+
+// <cut to farm>
+scene db-day2-farm
+$N$: H-hi ... mein Name ist Nova. Du hast mir gestern von der Landwirtschaft erzählt?
+__c2 $EB$: Ahaha~! Albernes Mädchen. Ich habe dich nicht vergessen!
+$N$: ... Ähm. Aahaha ... Ich sollte nicht ... äh ... zu viel Zeit hier verbringen. Ich sollte die Riten machen, damit mein Wächter Palisade zurückkehrt. Aber wenn ich hier schlafen und dein Essen essen werde, sollte ich einen Beitrag leisten.
+__c2 $EB$: Hey, du bist unser Gast, okay? Kein Druck. Aber ich bin froh, dass du hier bist! Bitte, lass mich dir die hohe Kunst der Landwirtschaft vorstellen!
+__c2 $EB$: Pflanzen versorgen uns mit Nahrung und helfen, die Luft so zu filtern, dass wir atmen können. Wenn wir Landwirtschaft betreiben, versorgen wir die Pflanzen mit Wasser und Energie und geben ihnen Raum, damit sie groß und stark werden! Wir müssen die Pflanzen auch vor ihren Konkurrenten schützen: den Weedorons! Da kommst du ins Spiel! Bitte achte darauf, dass du jedes Feld von Weedorons freimachst!
+endscene
+
+scene db-day2-farm-after
+__c2 $EB$: Gute Arbeit, Nova! Wie wäre es, wenn wir nach all unserer harten Arbeit ein paar Smoothies auftreiben?
+$N$: (Wow ... sie ist so nett zu mir ... Ich ...)
+$N$: Ich muss gehen!! Wir sehen uns später!
+$N$: (Muss Palisade finden!!!)
+endscene
+
+scene db-day1-npc
+__c1 $DK$: ... Oh, hi, Nova. Ich denke gerade an ... Oh? Du hast vergessen, wo der Zug ist? Er ist südlich des Dorfes.
+endscene
+
+// Talking to drem etc again
+scene db-day2-npc
+__c1 $DK$: Also, was sind deine Pläne? Immer mit der Ruhe!
+$N$: (Nein ... sie ist beschäftigt. Ich muss den Zug nehmen, um Palisade zu finden!!!)
+endscene
+
+scene db-day3-npc
+__c1 $DK$: Tolle Show heute, Pizza Puff!
+$N$: (Ich habe bereits mit Elegy gesprochen ... Ich muss zur Oase!)
+endscene
+
+scene db-day4-npc
+__c1 $DK$: Hallo, Nova! Geht es dir gut? Hast du Ash schon getroffen?
+$N$: (Ich muss zur Fruchtoase gehen.)
+endscene
+
+scene db-day5-npc
+aaa
+endscene
+
+
+// Day 2, Rites 1. Haven.
+
+scene haven-begin-rites
+$N$: Palisade. Ich habe mich um meine körperlichen Bedürfnisse gekümmert.
+$N$: Nun werde ich die Riten ausführen, die du mir aufgetragen hast.
+endscene
+
+scene haven-dice
+$N$: Ahh ... hier haben wir Blau und C. Blau ist die Farbe des Wassers und des Kleides von Palisade. Das Zentrumsheiligtum liegt unter Wasser im CCC. Dort traf ich Palisade im blauen Kleid. Auch wenn ich heute verwirrt bin, erinnert mich das blaue C daran, wo das alles begann. Palisade dient dem Zentrum, also wird das Zentrum Palisade schützen.
+$N$: Heute ... Gelb und A. Gelb, wie ein Dotter. A, um den „Anfang“ darzustellen. Wirklich eine vielversprechende Rolle. Etwas wächst, es beginnt. Vielleicht war Palisades Körper gebrochen. Aber jetzt kann sie hier, in ihrem Hafen, wiedergeboren werden. C Psalmist lehrte, dass es in New Theland alles schon immer gegeben hat. Nicht in der gleichen Form über die Zeit (ich bin schließlich geboren!), aber es muss immer eine „Nova-Essenz“ gegeben haben ... so wie Palisade in meinem Herzen immer noch existiert. So weiß ich, dass sie zurückkehren wird.
+$N$: Heute ... Rot und D. Ein unheilvolles Zeichen. Wut ... Blut ... Tod ... Zerstörung ... Staub. Ich beginne zu erkennen, warum so viele Tage vergangen sind, ohne ein Zeichen von Palisade – kein Wort der Gewissheit, das mir den Weg weist. Es war ein jämmerlicher Unfall, dass die Fruchtoase von dieser räudigen Staubkreatur gefressen wurde! Es war ein Fehler, dass ich diese „Dustbound“ jemals getroffen habe. Es fühlte sich so gut an, nicht allein zu sein, dass ich mir erlaubt habe, mich in meiner Absicht zu spalten. Ich habe mich nach dummen Fantasien eines Lebens gesehnt, das nie mein eigenes sein könnte.
+endscene
+
+scene haven-bridge
+$N$: Nein!! Ich kann die Kanten nicht berühren ... Ich muss richtig passieren.
+$N$: Dumme Nova! Du musst die Kanten vermeiden.
+$N$: Du wurdest aus einem bestimmten Grund allein gelassen – lerne, dich auf dich selbst zu verlassen!
+$N$: Erbärmlich! Du bist unvorbereitet auf Palisades Rückkehr!
+$N$: Falsch ... was für eine Enttäuschung du bist.
+endscene
+
+scene haven-bridge-day3
+$N$: Ich sollte darin besser sein. Aber mein Fokus schwankte.
+$N$: *Meine* eigene Schwäche ließ Palisade verschwinden.
+$N$: Die Dustbound sind nicht mehr zu retten ... Ich verliere mich, indem ich hier bleibe.
+endscene
+
+scene haven-slide-1
+//<As you pour out soup>
+$N$: Heute habe ich gelernt, wie man isst. Die Suppe fühlte sich warm und prickelnd an, als sie mir die Kehle hinunterging. Während ich diese Schale ausgieße, erinnere ich mich, dass solche Freuden vergänglich sind. Bald werde ich mich wieder mit Palisade und dem Zentrum verbinden, und es wird keine Notwendigkeit mehr für verschwenderische Aktivitäten wie „Essen“ und „Schlafen“ geben. Bald wird alles wieder an seinem richtigen Platz sein ...
+$N$: *gähn*
+$N$: Bald ...
+[FADEFULL]
+Die Tage vergehen. Nova setzt ihre Routine fort, hilft Elegy Beatty bei der täglichen Farmarbeit und erfüllt am Abend die Palisadenriten. Es ist seltsam, ein eigenes Zimmer zu haben, und seltsam, dass eine Reihe bekannter Gesichter sie Tag für Tag begrüßen.
+Natürlich ist nichts davon wichtig. Palisade wird jeden Tag zurückkehren. Aber bevor sie es tut, nähert sich Drem Kinako Nova mit einem Vorschlag ...
+endscene
+
+
+
+
+
+
+////////
+///////////
+// DAY 3
+////////
+//////////
+
+// Fade into Nova's home... activated with same trigger as db-day2-wakeup
+scene db-day3-wakeup
+__c1 $DK$: Howdy Clam Chowdy!
+$N$: Normalerweise bist du nicht so früh wach.
+__c1 $DK$: AhahaHAh Der war gut!! *hust* Hier ist der Deal. Elegy sagt, dass du ein tapferer Krieger warst, der die Ernte vor Unkraut und so weiter verteidigt hat ...
+$N$: E-Elegy hat das über mich gesagt? Was hat sie genau gesagt?
+__c1 $DK$: Nun, Nova ... WAS WENN du ALL diese Fähigkeit, diesen Mut und diese Entschlossenheit nimmst ... und sie in etwas ... wirklich ... Außergewöhnliches kanalisierst ...
+$N$: Was ...?
+endscene
+
+
+//<Cut to the wrestling wring>
+
+scene wrestle-1-intro-1
+__c1 $DK$: Richtig, Nova! Ich rede vom DUSTBOUUUUUUUND BEATDOWNNNNNNN!!!
+$N$: (!)
+__c1 $DK$: Jede Woche ... ein bösartiger Kampf, um zu sehen, wer zum Sieger gekürt wird. Das Gebrüll der Menge ... die Herrlichkeit des Kampfes!
+$N$: Du ... willst mich verprügeln?
+__c1 $DK$: Ahaheha, nicht direkt, kleines Fischbonbon. Es ist eine Zusammenarbeit, weißt du! Wir werden uns nicht wirklich gegenseitig verletzen! Zusammen ... werden wir ein wunderbares Schauspiel schaffen!
+$N$: Aber ... Drem ... ist das nicht ... sinnlos?
+__c1 $DK$: „Drem“? Wer ist „Drem“? Du sprichst mit .............
+endscene
+
+//<Cut to the first match>
+
+scene wrestle-1-intro-2
+$AN$: ... HOLZFÄÄÄLLER!!! Wie ein mächtiger Baum, der aus dem Staub aufsteigt ... Der Holzfäller repräsentiert den fruchtbaren Boden, angereichert durch den Kreislauf von Leben und Staub. Wahrhaftig ein Held für die Dustbound!
+Und in der gegenüberliegenden Ecke ... in ihrem Beatdown-Debüt ...
+Die schändliche WEEDORON-HEXE!!! Wird sie in der Lage sein, des Holzfällers Wachstum zu ersticken, bis er nichts als eine verschrumpelte Schale ist? Oder wird der Holzfäller mit der Krone abhauen? Findet es heute Abend heraus im DUSTBOUUUUND BEATDOWNNNNN!!!
+$N$: Psst ... bist du dir da sicher, Drem? Ich weiß nicht, ob ich gut sein werde ...
+__c1 $DK$: Du wirst großartig sein, Nova! Folge einfach meinem Beispiel! Gemeinsam werden wir den Hype der Menge steigern wie nie zuvor!
+endscene
+
+// rl du
+scene grappletext
+Drücke {RIGHTICON}!
+Drücke {LEFTICON}!
+Drücke {DOWNICON}!
+Drücke {UPICON}!
+Drücke {SPECIAL}!
+Drücke {JUMP}!
+endscene
+
+// Drem texts here are side overlay?
+scene wrestle-1
+Drem: Psst, Nova! Wenn du Blöcke auf mich schießt, halte die Schießen-Taste gedrückt. Lasse die Taste los, wenn der Block in meiner Nähe ist, um deinen Schlag zu ziehen!
+$AN$: WOW! Die Weedoron-Hexe hat den Holzfäller mit einer atemberaubenden Reihe von Schlägen getroffen! Kann er sich von solch einem Schlag erholen?
+Drem: In Ordnung, Nova, ich bin dran! Wenn mein Angriff in deiner Nähe ist, drücke die Schießen-Taste, um überzeugend den Schlag abzufangen!
+Drem: Es ist Zeit für das große Finale! Schieß auf mich, und ich lenke ihn ab! Drücke dann die Schießen-Taste, bevor er dich trifft!
+$AN$: ATEMBERAUBENDER ABWEHRSCHUSS VOM HOLZFÄLLER! WEEDORON IST AM BODEN. DIE MENGE DREHT DURCH!!!
+endscene
+
+scene wrestle-1-end
+__c1 $DK$: Psst ... Nova ... bist du okay?
+$N$: ...
+$N$: ...
+$N$: (reibt sich den Bauch) Mmmmmm!!
+__c1 $DK$: AhAHehea!! Das ist nur für das Essen, Nova!! Weißt du was? Macht nichts, mach weiter so!!
+[FADE]
+Nach dem ersten Spiel verlässt Nova den Ring und besucht Elegy auf ihrem Feld ...
+endscene
+
+
+// Cut to farm area.
+
+scene db-day3-farm
+__c2 $EB$: Ahhh ... brava, Nova! Bravissima!
+$N$: Danke, Elegy ... Ich bin froh, dass du da warst, um es zu sehen! Ich habe es nicht wirklich verstanden, als Drem mich zum ersten Mal bat, es zu tun. Aber als ich einmal da draußen war ...
+__c2 $EB$: Du warst ein Naturtalent! Du ...
+__c2 $EB$: *Hust! Hust!! Hrk-HUST!!*
+$N$: Bist du in Ordnung?
+__c2 $EB$: Ich ...
+__c2 $EB$: Ich muss dir etwas sagen, Nova. Erinnerst du dich, als du das erste Mal hier ankamst, und wir Beetricks Rooter beisetzten? Eines Tages, früher oder später, wird jeder von uns hier zum Staub zurückkehren ... Das ist natürlich der Grund, warum wir die Dustbound genannt werden.
+$N$: Okay ...
+__c2 $EB$: Ich glaube, dass mein Tag bald kommen wird. Ein Staubknoten hat sich auf meiner Schulter gebildet. Etwas Ähnliches erlebte Beetricks am Ende.
+$N$: N-nein! Elegy!! Es ist alles meine Schuld! Es ist meine Aufgabe, dafür zu sorgen, dass das nicht passiert. Wenn ich in der Lage wäre, diesen Ort zu säubern ... Wenn ich nur ...
+__c2 $EB$: ... Nova ... Nova. *hust!* Wir Dustbound *wählen*, außerhalb des Machtbereichs des Zentrums zu leben. Jeder von uns hat einen Grund, hier zu sein. Wir wollen nach unseren eigenen Regeln leben, wir wollen mehr sein als nur Erweiterungen des Ego des Zentrums.
+endscene
+
+//<Glandilock seed vibrates angrily>
+
+scene db-day3-farm2
+$N$: Ich ... ich verstehe nicht ...
+__c2 $EB$: Es ist okay, Nova. Wir alle brauchen Zeit, um zu wachsen und herauszufinden, wo unsere Prioritäten wirklich liegen.
+__c2 $EB$: Apropos wachsen, bist du bereit für die Landwirtschaft? Ich bin in letzter Zeit langsamer geworden. Ich hoffe, du kannst das etwas wettmachen!
+$N$: Natürlich ...
+[FADE]
+Nova geht in die Felder. Der Akt des Unkrautjätens ist für sie zu einem vertrauten Trost geworden, aber heute spürt sie, dass die Präsenz des Zentrums hinter ihr lauert und ihre Nachsicht missbilligt.
+endscene
+
+
+scene db-day3-farm3
+__c2 $EB$: Tolle Arbeit, Nova! Das ist für dich!
+$N$: Eine Blume?
+__c2 $EB$: In einigen Kulturen ist es üblich, einen exzellenten Akteur mit Rosen zu überschütten. Du hast heute vielleicht im Ring „verloren“, aber für mich bist du ein Champion!
+endscene
+
+
+// Day 3 - Rites 2.
+scene haven-slide-2
+$N$: Heute habe ich eine Rose von Elegy erhalten. Elegy ... meine ... meine Freundin ... ähm. Das heißt ...
+$N$: Als die Rose fällt, erinnere ich mich, dass Herrlichkeit und Anbetung nur Ablenkung von meiner Bestimmung sind. Die Gefühle der Menschen werden wie Blütenblätter im Wind umherwehen, aber das Zentrum bleibt über die Zeit hinweg bestehen. Deshalb muss ich seinem Weg folgen und nicht meiner eigenen Eitelkeit.
+[FADEFULL]
+Die Tage vergehen. Bald kommt Novas zweiter Beatdown – ihr heißerwartetes Rematch mit dem Holzfäller ...
+endscene
+
+// DAY 4
+// Cut to wrestling.
+// Day 4 - Wrestling 2
+
+
+scene wrestle-2-intro-1
+__c1 $DK$: Fühlst du dich heute gelenkig, Kolaczki? Bereit für deinen großen Sieg?
+$N$: Ich bin bereit.
+$AN$: Es ist das große Rematch zwischen dem amtierenden Champion dem Holzfäller und seinem immer noch so hartnäckigen Rivalen: der Weedoron-Hexe! Der Holzfäller hatte gerade einen Lauf. Könnte die gerissene Hexe ihn vielleicht von seinem Thron verdrängen? Findet es heute Abend heraus beim DUSTBOUNNNND BEATDOWNNN!
+endscene
+
+scene wrestle-2
+$AN$: Ein sehr intensiver Hin- und Her-Kampf heute Abend, Leute! Schwer zu sagen, wer es sein wird!!
+Drem: Zeit für das große Finale! Schieß auf mich, aber diesmal, nachdem ich ausgewichen bin, saug mich auf und dann schieß noch mal auf mich!
+$AN$: Was ist hier los? Die Weedoron-Hexe scheint Drem Kinako einzusaugen. Beispiellos!!!
+$AN$: Da geht er hin, aus dem Ring!!! Tut mir leid, das zu sagen, Leute, aber der Holzfäller wurde heute besiegt. Die Weedoron-Hexe ist der neue Champion.
+endscene
+
+// Cheering?
+
+scene wrestle-2-end
+$N$: (Oh ja ... was hat Drem mir gesagt, was ich sagen soll?)
+$N$: D-dein kostbarer Held ist nichts anderes als eine Seite an meinem Dorn. Nun wird Weedoron die Oberhand gewinnen. Gwahahahahaa!!!!
+__c1 $DK$: (Tolle Arbeit, Nova!!!)
+$AN$: (Warte! Es herrscht ein Aufruhr auf der Tribüne!!!)
+$N$: (Hm? Das war nicht im Plan!)
+__c1 $DK$: Nova! Komm schnell!!! Es ist Elegy!
+endscene
+
+scene db-birth-1
+[FADE]
+Elegy wird von der Tribüne getragen und auf einen weichen Fleck Moos gelegt. Eine ängstliche Menge versammelt sich um sie. „Gebt ihr Raum!“, ruft Drem Kinako. Nova drängt sich in den inneren Kreis. Elegy krümmt sich vor Schmerzen und scheint nicht sprechen zu können.
+Novas Kopf pocht und pocht ... das sollte nicht passieren ... das ist falsch!!!
+Plötzlich ...
+endscene
+
+//<tumor explodes into baby>
+
+scene db-birth-2
+__c1 $DK$: W-was war das ... Was ist passiert?
+???: W-w-WaAAAAAaaaAAAHHHH!!!
+__c1 $DK$: Heiliger STAUB!!! Wie ist das möglich???
+$N$: (Es kann nicht sein! Nur das Zentrum kann Leben aus Staub erschaffen!)
+__c2 $EB$: Nun ... hallo, Kleines!
+endscene
+
+scene db-birth-2-2
+$AN$: UNNNNNGLAUBLICH!!! Es scheint, als hätte Elegy eine LEBENSFOOORM erschaffen!!!
+__c2 $EB$: Okay, Ansager, du musst eine Stufe runterdrehen.
+$AN$: OH ja ... Entschuldigung, ich hab mich mitreißen lassen.
+endscene
+
+scene db-birth-3
+[FADENOFADE]
+Nach einiger Zeit beruhigt sich die Aufregung.
+Schließlich macht sich Nova auf den Weg zurück zu Elegys Feld ...
+endscene
+
+
+scene db-day4-farm-1
+__c2 $EB$: Wo ist Mama?
+
+//<dust phases out and back in>
+// 1 3
+__c2 $EB$: Hier bin ich!
+Ash Beatty: Ähmm? Ahehe!!!
+__c2 $EB$: Wooooo ist Mama?
+
+//<dust phases out and back in>
+// 4 6
+__c2 $EB$: Hier bin ich!!!
+Ash Beatty: ^o^ Gwoh!! Aaahehehehahah!!!!
+Ash Beatty: Wahw! Gwah!
+//<Shakily dust phases... out and in>
+endscene
+
+scene db-day4-farm-2
+__c2 $EB$: Wow!!! Gute Arbeit, Ashy!!! Toll gemacht!!!
+__c2 $EB$: Oh, hi Nova!
+$N$: Elegy!!! Ich bin so froh, dass es dir gut geht!
+__c2 $EB$: Awww danke, Nova. Ich auch, haha. Grüß deine Tante Nova, Ashy Poo!
+$N$: H-hi ... Bist du sicher, dass das sicher ist, Elegy?
+__c2 $EB$: Das Kuckucksspiel? Wir kanalisieren Staub, Nova! Genauso wie wenn wir fürs Beisetzen graben oder wenn Drem dich im Ring angreift.
+endscene
+
+
+// <Glandilock seed flashes.. visions of the first 4 card NPCs>
+
+scene db-day4-farm-3
+$N$: Ich habe genug gesehen, um zu wissen, dass der Staub eine Kraft der Korruption ist.
+__c2 $EB$: Die Staubkanalisierung ist eine Lebensweise für die Dustbound, Nova. Du weißt, dass wir Staub anders behandeln als das Zentrum.
+$N$: ...
+$N$: Nun, vielleicht kannst du oder Drem mit solchen gefährlichen Kräften spielen. Aber diese Kleine ...
+__c2 $EB$: Diese Kleine muss lernen, was wir alle lernen müssen. Dass wir aus Staub gemacht sind, dass seine Kraft durch uns fließt, dass wir eines Tages zum Staub zurückkehren werden.
+$N$: ...
+$N$: Ich habe Arbeit zu erledigen.
+[FADEFULL]
+Nova stürzt sich ins Jäten. Sie spürt, dass etwas Bedrohliches im Inneren sprudelt. Aber sie drückt es nach unten, ignoriert es und arbeitet.
+Und arbeitet ...
+Und arbeitet ...
+endscene
+
+// Weeding 3?
+
+scene haven-slide-3
+$N$: Ich bin Nova, die Nano-Reinigerin. Ich wurde vom Zentrum für einen bestimmten Zweck geschaffen. Mein Schicksal ist in den Rahmen der Existenz eingebettet. Mein Leben ist für mich kein Spielzeug, mit dem ich spielen kann, keine Fantasie zu meinem eigenen Vergnügen. Heute schenke ich keinen Besitz oder ein Geschenk ... heute schenke ich mir selbst.
+[FADEFULL]
+Die Tage vergehen weiter. Nova verbringt die meiste Zeit in der Fruchtoase und kehrt nach Dustbound Village zurück, nur um ihre Arbeit gegen Essen einzutauschen, da ihre einzelnen Versuche, Landwirtschaft zu betreiben, nur kränkliche und kleine Früchte erbracht haben. Sie hofft, dass ihr diese Momente der Schwäche vergeben werden können.
+Manchmal geht sie an ihren Freunden im Dorf vorbei.
+(... Ehemalige Freunde.)
+Schließlich kommt der Tag für ihren nächsten Kampf mit dem „Holzfäller“ ...
+endscene
+
+scene haven-misc
+$N$: Ich muss saugen und die Würfel schießen, um sie zu würfeln.
+$N$: Der erste Ritus ist vollbracht, also muss ich über die Brücke.
+endscene
+
+
+scene wrestle-3-intro
+__c1 $DK$: Hey, Misotasse! Schön, dass du es geschafft hast!!! Ich war mir nicht sicher, ob ...
+$N$: Ich bin der Gastfreundschaft der Dustbound verpflichtet. Ohne deine Hilfe hätte ich nicht überlebt. Ich beabsichtige, diese Schulden zurückzuzahlen.
+__c1 $DK$: ...
+__c1 $DK$: Nova ... warum muss es so sein? Du wirst im Ring lebendig! Was ist so falsch daran, dass es dir gefällt?
+$N$: Was mir „gefällt“, hat nichts mit dem Richtigen zu tun.
+__c1 $DK$: Okay, nun ja. Was auch immer deine Gründe sind ... Ich bin froh, dass du hier bist.
+__c1 $DK$: Ähm ... wir werden bis zum völligen Stillstand kämpfen und uns dann gegen einen Überraschungsherausforderer zusammenschließen, okay?
+$N$: Verstanden.
+endscene
+
+scene wrestle-3-intro-2
+$AN$: Der Holzfäller war hungrig, seine Krone von der Weedoron-Hexe zurückzuholen! Heute Abend kommt endlich seine Chance. Das ist richtig, es ist Zeit für DUSTBOUNNNND BEATDOWNNN!!!
+endscene
+
+scene wrestle-3
+Drem: In Ordnung, Nova! Lass uns die Schläge tauschen. Nimm die Treffer entgegen, aber mach dich bereit zum Ausweichen, wenn du siehst, dass ich mich auflade!
+Drem: Okay! Ich werde den Boden schlagen. Benutze die Trümmer, die ich zurücklasse, um mich anzugreifen!
+Drem: Zeit für unsere große Pattsituation! Lenke meinen Angriff ab; wir werden ihn hin und her schlagen!
+endscene
+
+//<after you do this for a while, the new challenger falls into the ring stomping the attack. Nova and Drem vibrate from the impact and look surprised (!) (!)>
+
+scene wrestle-center
+?: DIE KOSTÜMPARTY IST VORBEI, IHR NERDS!!!
+$AN$: WAAAAAS?! Wer würde dieses angespannte Dilemma zwischen dem Holzfäller und der Weedoron-Hexe unterbrechen? Was ist die große Idee, maskierter Fremder?!
+?: Ruhe, WURM!!! Seht euch alle an ... Was für eine erbärmliche Darstellung!!! DIESE schändlichen Welpen sind deine CHAMPIONS?? GRAHAHAHAA!!! Nur ich verdiene es, die Krone zu tragen. Denn ich bin dein wahrer Meister, und ich bin zurückgekehrt, um das zu beanspruchen, was rechtmäßig mir gehört.
+?: Ja, das ist richtig ... ich bin es ... DAS ZENTRUM!!! o-ho-ho-ho-ho-ho-ho-
+Das Zentrum: OHoHoHoHoHoHoHoHo-
+__c1 $DK$: (Ahaha, wow, das ist fantastisch!)
+Das Zentrum: - HooooHohohoHOHOhohohooooo -
+$N$: ...
+endscene
+
+scene wrestle-center-2
+Das Zentrum: Zu lange habt ihr „Dustbound“ die natürliche Ordnung missachtet!
+[SOUND wrestleboo 1 1]
+Das Zentrum: Ihr wälzt euch in eurem Dreck und schlendert herum wie törichte, ekelhafte Viren!!!
+__c1 $DK$: Jetzt warte mal, Zentrum!!! Ich bin der Holzfäller, stolzes Mitglied der Dustbound.
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: Überleg es dir besser zweimal, bevor du meine Leute so beleidigst!
+Das Zentrum: Du wagst es, dich mir zu widersetzen? Du ... ein mickriges kleines Bäumchen?! GRAHAHAHAA!!!
+[SOUND wrestleboo 1 1]
+Das Zentrum: Ich könnte dich mit einem Fingerschnippen zu Feuerholz machen!
+__c1 $DK$: Egal was mit mir passiert, die Dustbound werden weiterleben! Wann immer jemand in New Theland die Verwundbarkeit über die Vorherrschaft stellt – sie sind die Dustbound!
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: Wann immer jemand mit der Angst vor der Vernichtung konfrontiert wird und neue Schönheit und Lebenswert findet – sie sind die Dustbound!
+[SOUND wrestlecheer 1 1]
+Das Zentrum: Wer bist du, dass du dich gegen meinen Willen wendest? Ich habe dich ERSCHAFFEN!
+__c1 $DK$: Vielleicht hast du das. Wenn du mich erschaffen hast, dann solltest du es jetzt wirklich verstehen: Ich bin mein eigenes Wesen! Ich bin von meinem Herzen und meinem Verstand geleitet. Du hast dein Recht auf mich, auf uns alle, von Natur aus verwirkt. Wir existieren, wir sind schön, und du hast KEINEN Anspruch auf uns.
+[SOUND wrestlecheer 1 1]
+Menge: RAHHHHHHH!!!
+Das Zentrum: S-sei still, unverschämter SCHANDFLECK! Dieses Gespräch hat lange genug gedauert. Bereite dich auf den Kampf vor! GRAHAHAHAHAAA!!!
+endscene
+
+
+scene wrestle-center-3
+__c1 $DK$: W-Weedoron-Hexe ... du und ich ... wir sind beide Pflanzen. Seit so langer Zeit haben wir uns darum bemüht, dass der Boden groß und stark wird. Aber ich sehe jetzt ... in unserem Kern sind wir gleich ... Wir sind Triumphe des Lebens, in einer kalten und sterilen Welt ...!
+__c1 $DK$: Ich, der Holzfäller, kann mich nicht allein dem Zentrum stellen. B-bitte hilf mir! Gemeinsam können wir eine Zukunft sichern, in der wir beide wachsen können.
+$N$: ...
+$N$: Mein ... mein Kopf ...
+endscene
+
+scene wrestle-vision
+[FADENOFADE]
+Novas Blut gefriert. Sie hört das leise Glucksen der sich windenden Gwoms, spürt den heißen Atem von Gustine Papellums Sondenzunge. Die Dustbound waren nicht da, um zu sehen, wie Misteria Waizel allein in einem schwachen, zerzausteren Raum verschwindet! Sie hatten Bran Maligdens endlose, bittere Wut nicht ertragen!
+[CLEAR]
+Blind vor Arroganz konnten sie die wahre Natur des Staubs nie verstehen! C Psalmist hatte Nova vor einer solchen Torheit gewarnt! Sie war gewarnt worden! Jetzt würden die Dustbound brennen, und Nova mit ihnen. Wer kann dem Schicksal ausweichen? Es gibt keinen Weg nach vorne, außer den des Zentrums. Dumm, ekelhaft, töricht ... was hatte sie sich nur dabei gedacht?!
+endscene
+
+scene wrestle-3-end
+$N$: ...
+... ...
+... ... ...
+__c1 $DK$: W-Weedoron-Hexe?
+endscene
+
+//<Nova jumps out of the ring and runs away>
+//<Cut to a separate screen. Nova walking away>
+
+scene db-blowup-0
+__c1 $DK$: Warte!
+__c2 $EB$: Nova, warte!
+endscene
+
+scene db-blowup-1
+__c1 $DK$: Krümelmantel, warte, es tut mir leid! Ich wusste nicht, dass das passieren würde ... Ich weiß, dass es dir unangenehm gewesen sein muss. Nächstes Mal gehen wir alles vorher durch!
+$N$: Nächstes Mal? Es wird kein nächstes Mal geben. Ich gehöre nicht hierher, Drem, ist das nicht inzwischen offensichtlich? Und hör auf, mir diese lächerlichen Essensnamen zu geben.
+__c1 $DK$: Es tut mir leid. Nova, es tut mir leid. Du musst nicht mehr ringen ... Aber das bedeutet nicht, dass du nicht hierher gehörst.
+$N$: Ich bin hierhergekommen, weil es meine Pflicht war. Ich bin wegen Palisade hier! Ich weiß nicht, warum ich mich von euch allen in diese lächerlichen Spiele hineinziehen ließ! Vielleicht dachte ich, ich könnte euch irgendwie helfen. Vielleicht dachte ich, ich könnte euch zeigen, wie wichtig es ist, den Staub zu bekämpfen.
+__c2 $EB$: Okay, warte mal ... sei mal vernünftig, Nova. Du hast uns dich aufnehmen „lassen“, weil du es von uns wolltest! Niemand hat dich gezwungen, unsere Freundschaft zu akzeptieren!
+$N$: Gut. Du hast recht. Es war mein eigener Fehler. Das weiß ich jetzt. Ich habe versagt. Palisade kommt NIEMALS zurück, und ich habe nur mir selbst die Schuld gegeben. Ich kann mich nicht genug beherrschen, um hier zu bleiben, man kann mir nicht trauen. Ich muss hier weg und meine Mission allein fortsetzen.
+__c1 $DK$: Weißt du ..
+__c1 $DK$: Weißt du, du bist ein echter $Staub-Idiot! Zu mir, zu Elegy, aber auch zu dir selbst.
+$N$: ...
+$N$: Es tut mir leid, dass du so denkst, Drem. Es tut mir leid, dass du geblendet wurdest für das Böse, das das ganze Dorf durchzieht.
+$N$: Es ist mir jetzt völlig klar. Du denkst vielleicht, dass du nur herumspielst, aber das Herumpfuschen mit dem Staub wird am Ende immer zu einer Tragödie führen. Ich habe die Auswirkungen des Staubs aus erster Hand gesehen. Ich weiß, wohin das führt.
+$N$: Und ich wäre nicht dein Freund, wenn ich dich nicht warnen würde.
+__c2 $EB$: Wenn du wirklich so fühlst ... dann musst du vielleicht doch gehen.
+$N$: Natürlich ist es das, was ich fühle! Ich bin die Nano-Reinigerin. Ich bin die Vertreterin des Zentrums für ganz New Theland. Und es ist schon lange überfällig, dass ich aufhöre, Trübsal zu blasen und anfange meine Rolle zu spielen.
+__c1 $DK$: ...
+__c1 $DK$: Nach allem, was wir durchgemacht haben ... kann ich mir das nicht mehr anhören.
+__c1 $DK$: Tschüss, Nova.
+endscene
+
+//<Drem walks away>
+
+scene db-blowup-2
+__c2 $EB$: Nova. Ich werde dich vermissen.
+$N$: ...
+$N$: ...
+endscene
+
+//<Nova steps back... steps back... then runs away>
+// Cut to handfruit
+
+scene db-blowup-3
+[FADENOFADE]
+Nova läuft, läuft und läuft. Weit weg vom Dorf und direkt zurück in die Fruchtoase.
+Und nicht einmal blickt sie zurück.
+endscene
+
+scene rites-final-1
+$N$: Es tut mir so leid, Palisade. Ich war nicht stark genug, um die Riten zu erfüllen. Ich ...
+$N$: Hey!!! Wer ist da???
+endscene
+
+
+
+
+//<camera pans to Ash Beatty holding a die by the playground>
+
+scene rites-final-2
+[FADE]
+„Nein, Ash, nein!!! Leg das hin, JETZT!“, sagt Nova streng.
+„Heehee! Tante Nova spielt!!!“ Ash quietscht, tritt und stolpert über die heiligen Würfel.
+„Hör auf damit! Du weißt nicht, wofür das gut ist!“, raunt Nova, als sie sich dem Kind nähert.
+// 4 6
+[FADE]
+Ash Beatty kichert und rennt weg. „Folg mir doch! Folg mir doch!!!“, schreit sie. Sie eilt über die Ritualbrücke und hält inne, um wild in der Mitte auf und ab zu hüpfen.
+„Komm zurück! Böse Ash! Du bist sehr ungezogen!“, ruft Nova.
+
+// 7 10
+[FADE]
+Ashs Lächeln verblasst, als sie merkt, dass Nova wirklich wütend ist.
+„Ich ... n-nicht böse!“, weint Ash.
+Sie rutscht den Opferrutsche hinunter und rennt weg ...
+
+// 11 12
+Und nun war Nova allein.
+$N$: ... Nein ... Nein! Nein, NEIN, NEIN, NEIN, NEIN!!!
+
+// Fade to black, turn off anocontrol2d
+endscene
+
+scene rites-final-3
+[FADENOFADE]
+Scham und Wut überkommen Nova, weit über jedes Maß an Kontrolle hinaus. Sie entfesselt ihre Kräfte wie ein heftiger Hurrikan in der Fruchtoase. Die rituellen Elemente werden auseinandergerissen und auf die exquisit geschnitzten Wände geschleudert. Als sie fertig ist, bleibt nichts als Schutt übrig ...
+//show exterior of Handfruit haven with explosions all over it. Maybe zoomed out image. Fade to white as explosions continue.
+endscene
+
+// zoom stuff
+
+scene db-spire
+[FADE]
+Nova blickt den Rand der Spitze hinunter. Unten tobt der Staubsturm leise und unverändert.
+Sie versucht, über die letzten Wochen nachzudenken, aber es ist alles von Wellen der Wut getrübt. Sie fühlt ein unangenehmes Kitzeln im Hals, eine seltsame Schwere in den Beinen ... aber sie ignoriert es.
+Wie konnten die Dustbound so leben? Wie kann Palisade weg sein? Bevor sie eine Antwort formulieren kann, wiederholen sich die gleichen Fragen in ihrem Kopf und übertönen ihre Gedanken.
+[CLEAR]
+Was war hier los? Vielleicht hatte das Zentrum die Antworten, aber im Moment schleift Nova ihren müden Körper den ganzen Weg zurück zum Zentrumsheiligtum ...
+endscene
+
+
+scene dbn-haven
+Dies ist eine Fruchtoase für die kostbare Nova. Mögest du hier sicher sein, bis der Weg nach vorne frei ist.
+endscene
+
+
+scene db-painter-1
+LaShawn Mixte: Ah. Hm. Hallo. Das ist Dustbound Village! In der Tat. Nun. Suchst du die Lichtung der Bindung? Ah. Weiter östlich.
+endscene
+
+
+// day2+
+scene db-painter-2
+LaShawn Mixte: Ah. Hm. Ich bin Staubmaler. Ja. Ich mische den Staub mit einem Bindemittel und male Bilder von Menschen und Pflanzen. In der Tat.
+LaShawn Mixte: Staubbilder ... Hm. Unvermeidlich zerfallen sie in nichts. Daher sind sie für den Sammler nur bedingt geeignet. Meine Arbeiten vor Dustbound zirkulieren immer noch im Kunstmarkt und erzielen immer höhere und höhere Preise. Es ist erstaunlich einfach, dass gut gemeinte Kunst von Macht und Industrie rekontextualisiert wird, bis wenig von ihrem ursprünglichen Wert übrig bleibt.
+LaShawn Mixte: Was ist ein großer Künstler? Ah. Hm. Einfach eine Person.
+endscene
+
+
+scene db-girl-1
+Millicent Pham : Oh, ähm heyyyy ... es ist das Mädchen, das auf das Hornissennest gefallen ist. Das war lustig, hehe ... Ich meine, traurig.
+Millicent Pham : Hey Hornissennest-Mädchen ... Ich will mit dir reden. Ich habe ein Gerücht gehört, dass du aus einer „Dreideh“-Welt hierhergekommen bist. Was bedeutet das überhaupt? Gibt es auch Menschen dort, mit Gedanken und Leben und Gefühlen? Die Existenz ist seltsam.
+// translation note:  Threedy = phonetic spelling of 3D
+endscene
+
+// day3+
+scene db-girl-2
+Millicent Pham : Nun, wenn das nicht die Weedoron-Hexe ist! WH ... Drem hat dich also zum Ringen gebracht, was? Ich wusste nicht, dass du es in dir hast. Verdammt. Ich schätze, wir alle enthalten Multiversen. Möglicherweise buchstäblich. Wie kleine Leute da drin? Erkläre mir noch einmal deinen seltsamen Job ...
+Millicent Pham : Ich wollte schon immer mal mit dem Ringen anfangen. Ich kann nicht glauben, dass du es zuerst getan hast. Verdammt. Du hast ein Feuer unter meinen Hintern gelegt. Aber du wirst diejenige sein, die Toast sein wird. Hehehe. Ich übe meine Sprüche.
+endscene
+
+scene db-misc-npc
+Phasmo Chani: Hast du schon mal Staubsaft probiert? Ich glaube, ich habe das Rezept für dieses erfrischende Getränk perfektioniert! Nimm zuerst ein Glas Wasser und stell es auf deinen Nachttisch. Stell sicher, dass es nicht verdeckt ist. Als Nächstes wartest du ein paar Tage. Schließlich wachst du mitten in der Nacht auf und nimmst einen großen Schluck. Mmm ... Staubsaft!!!
+Phasmo Chani: Beetricks Rooter war ein „Michaelogist“. Das heißt, er hat „Michaels“ studiert!
+endscene
+
+scene db-mike
+// at funeral
+Hallo, ich bin Michael der Pilz. Aber meine Freunde nennen mich alle „Mushy Mike“! Ich habe sehr eng mit Beetricks Rooter zusammengearbeitet. Wahrhaftig eine freundliche Seele mit einem Verstand wie eine Venusfliegenfalle!
+// during free time
+Ich bin ein einzelner Pilz, aber ich bin mit einem riesigen Pilz-Netzwerk verbunden, das seine Filamente weit über den Rand von Dustbound Village hinaus erstreckt. Zu wem ich gehöre?
+endscene
+
+// day2+
+scene db-grub
+Mach Grubbins:\nDer Boden ist feucht, der Boden ist lecker\nDer Schmutz ist ein Genuss für Leckerschmecker!
+Re Grubbins: Hier ist eine lustige Snack-Idee für die Kinder: Versuche, etwas dunkle Erde in die Form von Schokoladenkeksen zu drücken. Als Nächstes suchst du einen weißen Pilz für die „Creme-Füllung“. Verstanden? Du kannst so tun, als würdest du einen Schokoladen-Sandwichkeks essen (haha ... ihhh! Ekelhaft!), aber es wird trotzdem köstlich schmecken!
+Mi Grubbins: Ah ... wir sind so lange gereist, auf der Suche nach feinstem Schmutz. Wahrhaftig, er ist hier. Welche Geschmackstiefe hat der Dustbound-Staub! Eine subtile Zitrusnote, die ihren reichen Umami-Geschmack ausgleicht.
+Fam. Grubbins: Hm. Ich mag den Geschmack von Schmutz eigentlich nicht. Das ist aber in Ordnung. Es gibt viele verschiedene Lebensmittel zu essen, und meine Freunde lieben mich trotzdem!
+endscene
+
+scene db-ano1
+Schildy: Ich wollte diesen Schild loswerden, seit jemand sagte: „Wovor versteckst du dich?“ Sie haben recht. Wovor sollte man sich überhaupt verstecken? ... Vielleicht lasse ich es aber heute noch an.
+Frosch: Was für eine wunderbar feuchte Umgebung! Quak-quak-quak. Ich bin ein Frosch. Quak, Wusstest du, dass die industrielle Verschmutzung im Boden auslaufen und Gesundheitsprobleme bei den Bewohnern verursachen kann? Glücklicherweise gibt es keine Industrien in der Nähe.
+Seher: Ich sehe ... in deiner Zukunft ... eine graue Farbe ... Staubigkeit. Was? Das wusstest du schon? Es ist in Ordnung. Die Menschen finden meine Dienste therapeutisch, auch wenn ich ab und zu falsch liege. Oder immer.
+Person: Hast du jemals an Leute gedacht, die den ganzen Tag herumgeschubst werden? Zuerst sage ich: „Steht für euch selbst ein!“ Aber dann denke ich klarer über die Situation nach, und ich werde traurig. Die Ursachen reichen tief ...
+endscene

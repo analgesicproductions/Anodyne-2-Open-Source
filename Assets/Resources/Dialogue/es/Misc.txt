@@ -1,0 +1,835 @@
+// Used by the formatting script to change "?{Dv}" into "NAME:" if this table has entry "?=NAME".
+scene nameTable
+P=Palisade
+PAL=Palisade
+PAL2=Figura con una preciosa voz
+CP2=Figura con instrumento de cuerda
+Pal=Palisade
+N=Nova
+NR=Nova
+CP=Samister
+CV=Visionary
+GS=Glandilock
+T=Thyme
+Z=Zera
+
+AN=Presentador
+BM=Beringia Manju
+CH=Chalaza VIII
+CY=Clonwei Yonstein
+DK=Drem Kinako
+EB=Elegy Beatty
+
+EW=Eponymous Wosch
+FB=Fabrahem
+FM=Faye McCool
+GA=Geof Agricite
+GG=Great Gwom
+GR=Gravis
+GGG=Augur, la gran lombriz 
+KT=Maryshaw Keytawny
+IA=Iwasaki Antimon
+LY=Lonwei Yonstein
+MC=Misteria Waizel
+MI=Minorma
+NI=Nowan
+RB=Rayray Boatshoes
+RP=Bran Maligden
+SEAN=Melos Han-Tani
+ST=Stavros
+TG=Gustine Papellum
+WW=Wolgali
+endscene
+
+scene topLevelPause
+Información
+Cartas
+Inventario
+Ajustes
+---
+Otro
+Metaspiradora
+endscene
+
+scene deathMessage
+Pulsa {CONFIRM} para continuar.
+endscene
+
+scene doubleHealth
+Salud máxima duplicada. La salud máxima aparece como barras doradas, pero debes curar a Nova para alcanzar ese nuevo máximo.
+La salud máxima ha vuelto a la normalidad. 
+El botón para saltar, confirmar y acelerar se ha cambiado por el botón para cancelar y frenar. Además, el botón para hablar se ha cambiado por el botón para destello/succionar/crucero. 
+endscene
+
+scene gamename
+Anodyne 2: Return to Dust
+endscene
+
+scene savedGame
+La partida se ha guardado.
+Error al guardar. Vuelve a intentarlo.
+endscene
+
+scene tryagain
+¿Reintentar?
+endscene
+
+scene exitNanoPortal
+¿Abandonar?
+endscene
+
+scene sparkgamehelp
+¡Las nanopartículas quieren impedir la purificación de Nova! Conforme te vayas acercando, te atacarán unas especies de cristales de colores. Usa {MOVEMENT} según de dónde venga el ataque para activar el escudo de Nova.
+A partir de ahora también aparecerán cristales negros. No pulses ningún botón cuando se acerquen para evitar que te alcancen.
+endscene
+
+// When playing the shrinking game
+scene dimdive
+¡Comienza el salto dimensional!
+endscene
+
+scene cccnanoerror
+Por alguna razón, los nanopuntos de entrada en Cenote no reaccionan a los destellos de Nova.
+endscene
+
+scene pal-name-card
+Palisade\n<![CDATA[<size=14>]]>"La escudo"<![CDATA[</size>]]>
+- Voz dulce
+- Trato firme
+- Luchará por ti
+Samister\n<![CDATA[<size=14>]]>"La música"<![CDATA[</size>]]>
+- Compositora dedicada
+- No se le dan bien los niños
+- Algo excéntrica
+// 8
+- ¿Madres?
+- Cuidadoras y guías
+...
+endscene
+
+scene center-name-card
+El Centro\n<![CDATA[<size=14>]]>"Es... el centro"<![CDATA[</size>]]>
+- Creador de Nueva Zilan
+- ¿Pintor en las sombras?
+- ¿Es el todo de todo?
+- ¿Madre? 
+- Un ser fuera de toda comprensión
+endscene
+
+
+scene ano-intro
+[FADE]
+[QUIET]
+Una cálida brisa.
+Un papel llevado por el viento que se posa en el suelo.
+Es una carta.
+Se puede leer lo siguiente: 
+[CLEAR]
+(Verano de 2019)
+Querido jugador,
+Gracias por jugar a Anodyne 2: Return to Dust. Podría decirse que es un sucesor espiritual del primer Anodyne, en el encontrarás ciertos elementos que relacionan ambos juegos, pero aquí encontrarás un mundo completamente nuevo y conocerás a nuevos personajes. Es decir, puedes disfrutar de ambos títulos en el orden que prefieras.
+Habrá momentos en el que el mundo de Anodyne 2 te parezca extraño y confuso, pero en él hallarás una historia humana de lucha y relaciones.
+[CLEAR]
+¡No lo pienses más!
+¡Adelante!
+¡Adentrémonos juntos en este fascinante viaje!
+- Melos Han-Tani y Marina Kittaka
+endscene
+
+scene areanames
+Orilla de clara de huevo 
+Santuario Central
+Yolk del sabor
+Yolk lácteo
+Yolk del confort
+
+// 5
+Cenote
+Misteria Waizel
+Gustine Papellum
+Bran Maligden
+Gran Gwom
+
+// 10
+Polen a la deriva
+Geof Agricite
+Aldea de los polvorientos
+Handfruit Haven
+Batalla polvorienta
+
+// 15
+Iwasaki Antimon
+Clonwei Yonstein
+Región 4-16-5
+Nueva Zilan
+Horizonte colorido
+
+// 20
+Loquat Skeligum
+// 21 this is NOT a typo, will show when entering the realistic horror area.
+no hay tal escena
+Nexo
+// 23 NOT a typo, shows in the 'clean' dustbound
+¿Aldea de los polvorientos?
+Zera la purificadora
+
+// 25 - RingCCC, RingGolem, ringClone, RingHighway, DesertSpire
+Valle Azul (Centro)
+Valle Azul (Oeste)
+Valle Azul (Este)
+Valle Azul (Sur)
+Arenas Exteriores (Sur)
+
+// 30 - DesertShore, DesertOrb, DesertField
+Arenas Exteriores (Oeste)
+Arenas Exteriores (Este)
+Arenas Exteriores (Norte)
+Tierra
+// 34 - for titleless pg areas
+???
+endscene
+
+scene episodeTitle
+---
+---
+---
+---
+---
+
+---
+Invasión pulmonar
+Deseos irrefrenables
+Sangre del diablo
+Amnesia crónica
+
+//10
+---
+Síndrome de túnel corporal
+---
+---
+---
+
+Resistencia helada
+Úlcera digital
+Ceguera localizada
+ignore (Fantasy Title)
+ignore (Ocean Title)
+
+Fractura interior 
+// NOT a typo - abbreviation of "no such scene exists"
+no hay tal escena
+ignore
+---
+El acto final de\nNova la purificadora
+endscene
+
+
+
+
+scene episodeDescription
+ignore
+ignore
+---
+---
+---
+//5
+ignore
+Productos químicos tóxicos recubren los pulmones, provocando una tos incesante.
+Padece una enfermedad en la piel que pone en peligro el sistema inmunitario. 
+Una torre de afiladas púas perforan al huésped, poniendo en riesgo su vida.
+Algo se esconde en lo más profundo de los recuerdos...
+
+//10
+ignore
+La intensidad de un ideal crece cada vez más hasta alcanzar cotas muy elevadas.
+ignore
+ignore
+ignore
+
+//15
+En las zonas heladas, los verdaderos fans entrenan cuerpo y mente.
+Oscuros pensamientos toman forman dentro de la misteriosa mente...
+Pensamientos impuros corrompen la sociedad dorada...
+ignore - Fantasy Desc
+ignore - Ocean Desc
+
+La danza de los amantes florece en el desierto...
+// NOT a typo
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ignore
+---
+Dentro del corazón de Zera, Nova ejecuta un plan desesperado...
+endscene
+
+scene pause-info-text
+Prisma de partículas
+Cartas hasta el siguiente nivel:
+Nivel
+Progreso de partículas:
+{CONFIRM}: Seleccionar
+{CANCEL}: Atrás
+Pulsa {CONFIRM} para leer
+{CANCEL} : Omitir
+endscene
+
+scene pause-info-goals
+Objetivo: Vacía tu depósito en la consola de partículas.
+Objetivo: Mejora el prisma de partículas en Santuario Central.
+Objetivo: Encuentra cartas y partículas para despejar la tormenta.
+Objetivo: Encuentra cartas y partículas para desbloquear la zona más allá de las montañas.
+Objetivo: Eh, ¿qué estás haciendo? ¡Este lugar no es seguro!
+
+Objetivo: Encuentro más cartas y partículas.
+Objetivo: Vuelve a Santuario Central para conseguir el Anodyne.
+Objetivo: Mejora por completo y llena el prisma para conseguir el Anodyne.
+Objetivo: ¡Entra en el prisma y derrota a El Centro!
+Objetivo: Encuentra la estatua de la carretera... Encuentra a Palisade...
+
+Objetivo: ¡Explora el mundo!
+endscene
+
+scene yn
+Sí
+No
+endscene
+
+scene savePoint
+Guardar partida
+Cargar partida
+Volver
+Nueva partida
+¿Usar este archivo?
+Sí
+No
+Nueva partida
+¿Comenzar nueva partida?
+¡Únete al club de fans!
+Ajustes
+Cartas:
+Únete a nuestro Discord
+Sigue a los creadores
+Créditos
+Salir del juego
+Leer el manual
+Consultar guía
+endscene
+
+// Anything above this WON'T have the text replaced
+// These are replaced by my .txt -> .xml script to become RED terms.
+scene key-terms
+El Anodyne
+El Centro
+Consola de partículas/Prisma de partículas/Nanopartícula
+Cartas/Carta
+Glandilock
+endscene
+
+scene quitMenuChoices
+Volver a la entrada (Solo 3D)
+Volver a la pantalla de título
+Salir del juego
+Volver a Nueva Zilan
+Ahora no puedes hacer eso.
+endscene
+
+scene pauseMenuWords
+Activado
+Desactivado
+¿Volver al menú de título? Se perderán los avances no guardados.
+¿Salir? Se perderán los avances no guardados.
+¿Volver a la entrada?
+¿Volver a Nueva Zilan?
+endscene
+
+scene pauseMenuChoices
+Pantalla completa:
+Resolución de ventana:
+Invertir control vertical de la cámara:
+Invertir control horizontal de la cámara:
+Controles
+
+Volumen:
+Idioma:
+Calidad de las sombras:
+Omitir diálogo:
+---
+
+Doble salud:
+Velocidad de la cámara:
+Campo mínimo de visión:
+Guardar al llegar a un punto de control 2D:
+Distancia de la cámara:
+
+// 15
+Desactivar detección de mando:
+Temblor de pantalla:
+Invencibilidad:
+Calidad del terreno:
+60 FPS:
+
+// 20
+Iconos de botón de mando:
+Mando: confirmar/cancelar y hablar/destello:
+Mando: fuerza de rotación durante el movimiento horizontal:
+Invertir movimiento del controlador vertical:
+Escala UI:
+Mostrar texto inmediatamente:
+endscene
+
+scene menu-button-types
+Por defecto
+PS4
+XB1
+Switch
+endscene
+
+scene terrain-quality
+ignore
+Bajo, sin sombras
+Medio, sin sombras
+Medio
+Medio/Alto
+Alto
+endscene
+
+scene shadow-quality
+Sin sombras
+Bajo
+Medio
+Alto
+endscene
+
+scene keybind
+Mover hacia adelante/arriba:
+Mover hacia atrás/abajo:
+Mover a izquierda (2D), cámara a la izquierda
+Mover a la derecha (2D), cámara a la derecha 
+Alternar ángulo de cámara
+Aspiradora (2D), destello, crucero (modo conducción):
+Saltar (3D), confirmar, acelerar (modo conducción):
+Hablar:
+Cancelar, frenar (modo de conducción):
+Pausa:
+//10
+Alternar modo conducción:
+Selecciona un botón y luego pulsa el nuevo comando que quieras introducir.
+[Error: no puedes aplicar el mismo comando a dos botones distintos.]
+[Comando actualizado]
+El comando no se puede modificar.
+// 15/ 16
+Aumentar zoom:
+Reducir zoom:
+endscene
+
+
+
+scene controlLabels
+// Depending on whether a controller is connected, these replace the MVOEMENT and CAMERA tags.
+el stick izquierdo
+{UP}, {RIGHT}, {DOWN}, y {LEFT}
+Pulsa {CAMERA_UP} y {CAMERA_DOWN}
+el stick derecho
+// 4 These replace {UP}, etc, when the corresponding keycode is UpArrow, etc.
+ARRIBA
+DERECHA
+ABAJO
+IZQUIERDA
+Pulsa {CONFIRM}.
+// 9-13
+ignore
+ignore
+ignore
+ignore
+el botón MENU
+// 14
+Creado por Melos Han-Tani y Marina Kittaka.\n(c) Analgesic Productions 2019
+// Note - this used to be 'v 1.16' but now that's hardcoded as it's non-region-specific
+Ignore
+el botón L1
+// 17
+Presenta
+Un juego de Melos Han-Tani y\nMarina Kittaka
+ignorar
+// 20 (ps4),21 (ps3)
+el botón OPTIONS
+el botón START
+el botón +
+endscene
+
+scene test1
+Habla antes con mi amigo. Si lo haces, te daré un mensaje de agradecimiento. Quiero dártelo ya, ¡así que date prisa!
+endscene
+
+scene test2
+Gracias por hablar con mi amigo.
+endscene
+
+scene test3
+Soy amigo de esa persona. Gracias por hablar conmigo.
+endscene
+
+scene test2D
+Bienvenida al mundo en 2D, Nova. Soy Cuadrado, el cuadrado blanco. Compra uno y te llevas otro gratis, ¡hasta fin de existencias!
+endscene
+
+scene testloop
+1 1 1 1
+2 2 2 2
+3 3 3 3
+endscene
+
+scene doublecolortest
+Obtén la carta de Palisade.
+endscene
+
+scene cards
+Una carta especial otorgada por Palisade que podrás usar en un momento de necesidad.
+// Card 0
+Gustine Papellum\nMucho de lo que percibimos como "sabor" es en realidad de naturaleza olfativa. Puede que ahora sea capaz de apreciar el verdadero olor de Nueva Zilan.
+Gran Gwom\nUna de mis mayores aficiones es la lectura. Me relaja tanto o más que el yoga.
+Misteria Waizel\nEl cuerpo es como una pantalla de lámpara: nuestra verdadera luz interior no se ve en el exterior debido a nuestro cuerpo físico. Pero, a su vez, este cuerpo que oculta nuestro verdadero ser, nos permite sentir el exterior.
+Bran Maligden\nLa verdadera paz proviene del interior. No le pidas al mundo que cambie, cambia tú tu forma de percibir las cosas. Aprende a controlar tus sentimientos.
+// card 4
+Geof Agricite\nSi cavas 99 veces y solo encuentras basura, ¡no te rindas! Puede que la número 100 sea la que te haga encontrar el tesoro que buscas. No vaya a ser que venga alguien y te lo quite.
+Aldea de Geof\nLa razón por la que el precio de la vivienda continúa bajando se debe a los desastres naturales. 
+Lonwei\nPuedes aprender cualquier cosa a través del poder de la imaginación.\nClonwei\n...
+¡Ayuda! ¡Estoy atrapado! Escribo textos humorísticos, ¿pero a qué precio? Por primera vez en muchos años, el dueño de este diabólico lugar abre las puertas a un selecto número de invitados. Esta es... mi oportunidad...
+Iwasaki Antimon\nLos árboles se han ido convirtiendo en un bien escaso en Nueva Zilan. Nosotros nos encargamos de hacer que todo el mundo vea las maravillas que se pueden hacer con ellos, para que les den la importancia que se merecen.
+La jerarquía de aquellos que trabajamos el árbol nos sirve para crecer y buscar siempre llegar más alto. El rango más bajo equivale a alguien que simplemente está empezando, mientras que el más alto es de alguien que ha alcanzado un nivel trascendental con los árboles.
+Eponymous Wosch\nUn lavadero de coches es un espacio liminal: tiene paredes y un tejado, pero, a su vez, es un espacio sagrado que conecta lo mundano con lo divino.
+Jade Highway\n¡Es mi camino o la carretera! No, espera... Mi camino ES la carretera. ¡Ja, ja, ja! No me hagas caso, solo estaba comprobando cómo de atenta estabas. ¡Ja, ja, ja!
+// 12
+Minorma\n¡Siempre hay que seguir adelante! Un mundo que no avanza es un mundo sin futuro. Lo que busco es que todo el mundo conozca lo maravilloso que es nuestro mundo.
+Fabrahem\nLa moda es para todo el mundo. Tenemos que mirar en nuestra interior y liberar nuestra belleza interior.
+Loquat\n¿Alguna vez has tenido un lugar al que llamar hogar? Seamos claro, a veces puede llegar a ser frustrante, pero no hay nada mejor que eso y poder confiar en los tuyos.
+Gum Key\n¡Terminamos con la tristeza en el mundo!
+Mapa de Nueva Zilan\n¡Oh, hola! ¿Recuerdas haber leído las impresiones de la creación del juego?
+Pilar Treacl\nQué bien sienta ser una persona que nunca ha tenido que llorar la muerte de nadie. Ahora solo verduras.
+En el pasado, las serpientes del desierto mordían a los niños pequeños por la noche. Eso fue antes de que El Centro  obtuviese el control de las Arenas Exteriores.
+Tremuloid\n¿Cuáles son los límites de un organismo? ¿Cuál es el límite de un cuerpo? ¿Somos una célula, un órgano, un cuerpo, una comunidad? ¡Debemos definir nuestra estructura!
+(Ilegible)
+// array idx 21
+Amago\n¡He vivido entre dos mundos! ¡Qué tragedia! Pero no debo sucumbir ante la pena. Además, no soy el único, muchos vivimos entre dos mundos. ¿Por qué nos ocurre algo así?
+Fukuchi\nMi madre siempre cuenta que, cuando yo no medía más de dos palmos, siempre quería más y más juguetes. ¿Qué puedo decir? ¡Siempre quiero más y más, incluso hoy día! Pero sé que, algún día, lo perderé todo...
+Constructor\n¿Qué voy a hacer ahora que el puente está acabado? Mi trabajo es mi vida, al fin y al cabo, es mucho más interesante.
+Una carta especial de Palisade. Cuando Nova llegó a la aldea de los polvorientos, Drem Kinako la rompió. Ya no tiene ningún poder protector.
+endscene
+
+scene metaclean-messages
+Nova no tiene suficientes metamonedas para comprar esto.
+¿Comprar?
+metamonedas
+Metatienda
+¡Todo vendido!
+// 5
+La metaspiradora te lo agradece. ¡Que tengas un buen día!
+¿Viajar? (Puedes volver usando el menú.)
+Explora el mundo para encontrar puntos de metainfo. Puede que tengas que volver a entrar en algunas zonas para encontrarlos.
+Recupera tu tamaño antes de teletransportarte al exterior.
+¿Viajar? (Aviso: de una sola dirección.)
+// 10
+Usa el submenú 'Otro' para volver a Nueva Zilan antes de entrar a una nueva metazona.
+¡Error! Entra en otra zona 3D antes de intentar viajar a una metazona.
+Aún quedan metamonedas en esta zona.
+No hay metamonedas en esta zona.
+El detector de metamonedas no funciona si estás en tamaño reducido.
+endscene
+
+scene metaclean-freewrite
+¿Ves al artesano? Los ojos del perro son tan grandes como una torre, y la lengua del gato es tan larga como una autopista. ¿Por qué nos acercamos y descubrimos que no queda muchos de nosotros mismos? ¿Puedo elevarme a la altura de la hierba? Soy un gusano, una zanahoria y un palo de madera. Solo digo tonterías, preguntando una y otra vez, queriendo verla, ver a la persona perfumada, y ella no entenderá de lo que estoy hablando. Parece que estoy al otro lado de una ventana. Soy una sombra suave y difusa, siguiendo a Dios. Un sermón sobre el juego de sombras sin ningún sentido.
+Jalopia envolvió su tendón de Aquiles. En el espejo, vi un árbol cortado, y la corteza se desprendió como si nada. El truco de Bicalutamide y el tonto de las gachas de trigo convirtieron la investigación de mercado en deliciosas papas fritas. ¿Qué pasa si el terror llega demasiado pronto? Borra todo lo que hace tiempo que desapareció de mi vista. Escogiendo ovejas enfermas y viejas del rebaño.\n...\nCópiame, pégame, redirige mi marco de interpolación a la división prohibida y arruina mi animación en el momento secreto robado de Dios.
+El cielo está precioso esta noche. ¿Por qué la puerta se erosiona poco a poco? Después de muchos años, el pastel se cayó del alféizar y la edad dorada de su juventud se desvaneció. Las heces siempre dejan marcas en el follaje de otoño. ¿Por qué hay un cable entre tus molares para liberarte de la placa y el apio? ¿Puede un buen chico disipar tanta magia? Elimina tales ondas del reino del espacio hasta que toda la carne se vuelva cruda una vez más. Volver a la época en que pasamos todo nuestro tiempo masticando. Cuando conozcas a ese chico malo, ese chico que solo puede babear, por favor, ten piedad de esa pobre alma. La pura maldad.\n...\nNova es una niña pequeña llena de dudas. Está obligada por el destino.
+Año nuevo, corazón nuevo. Si cavamos tierra salina profunda, si rociamos sal sobre la herida, ¿podemos mantener este pobre estado para siempre? ¿Podemos abrazar desesperadamente nuestro yo inquieto y nuestro corazón inquieto? Bautízame de nuevo y espolvorea aceite sobre mi cabeza. Palanca de hierro, crema batida, alfombrilla de ratón. Cúbreme con una sombrilla. Filas de animales me están culpando. Nací en su comedero, pero no pudieron comerme.\n...\nTodo con lo que entré en contacto se hizo continuo.
+En Anodyne 2, la pequeña nanopartícula se posará en el alféizar de la ventana. Como un pequeño insecto, llorará para que la dejen entrar en su zona de muerte. Aquí no hay nada más que una distinción artificial más allá de su comprensión. Hay un lunar en el pasillo. come la tierra interminable en un pequeño pastel. No queda nada en este periódico. El periódico debe estar limpio. A medida que los artículos desaparecen, también nuestro dolor.\n...\nJugar con el tamaño. ¿Por qué no podemos ver que algo termina? ¿Cuándo se romperá la corteza? ¿Por qué la capa blanca no puede cubrir el universo? ¿Por qué el pastel se enfría en el alféizar de la ventana?
+Sin embargo, cuando los dos muchachos caminan hacia la pasarela del templo, sus arterias se hincharán con el fuelle de setenta gramos de grasas trans poco saludables. Túbulos de pasarelas se precipitan en lugares desconocidos para sus madres. Los colores rojo y amarillo del arco iris y la selva tropical se dirigen hacia atrás al lugar sin retorno. Y el lugar al que irán estará al lado del joven mundo de los lugares del templo del bosque en el cielo. En el cielo hay un agujero que es hermoso. Y en el cielo que es hermoso no hay nadie en absoluto. Nadie excepto los espíritus de las tumbas. Las personas que poseen las granjas dirigen las prisiones. La loción no se interpondrá en su camino, nada lo hará mientras buscan administrar sus granjas y destruir a los trabajadores campesinos.
+endscene
+
+scene metaclean-desc
+---
+Un registro de audio. Dice: “Me encontré en un vasto espacio blanco. Una estructura similar a un cajón conecta este espacio con La Tierra. ¿A dónde van los otros cajones? ¿Hay otras tierras? ¿Están en descomposición? ¿Young está allí? Caminé mucho tiempo mientras reflexionaba sobre estas preguntas. Algunos residentes de La Tierra me siguieron sin pensar, claramente no eran ellos mismos. Sospecho que es una cuestión de su distancia a Young, ya que su decadencia comenzó después de que Young se fuese. Pronto descubrí que, con mi nueva herramienta, podía crear túneles, pasillos, a veces escombros. Finalmente, cavé un túnel en lo que era un vacío oscuro. A veces dudaba, pero... la conexión de Young me dio fuerza de voluntad cuando perdí el rumbo. Una cuerda que sale de la cueva. Me caí de un lado a otro de este vacío, dándome cuenta de que la extensión blanca era solo la cima de una montaña sin fin, un profundo abismo. Pero, finalmente, he encontrado tierra. Si ya se me manifestó o existió, no lo sabía. Pero ahora, con mi fuerza de voluntad, una nueva tierra puede comenzar".
+Un registro de audio. Dice: "Ya no siento su conexión, pero no importa. He creado esta isla y sé que, algún día, volverán".
+Úsalo desde el menú de inventario.
+---
+// 5
+---
+---
+---
+---
+---
+// 10 (Note, the names in quotes shouldn't be localized as they're IDs of levels)
+Activa los puntos de metainformación sobre Albumem. ¿Qué significará eso?
+Activa los puntos de metainformación sobre Cenote y más ¿Qué significará eso?
+Activa los puntos de metainformación sobre Cenote y la carretera. ¿Qué significará eso?
+Activa los puntos de metainformación sobre RingClone y más. ¿Qué significará eso?
+Activa los puntos de metainformación sobre DesertSpire y más. ¿Qué significará eso?
+// 15
+Activa los puntos de metainformación sobre DesertField y más. ¿Qué significará eso?
+---
+---
+---
+---
+endscene
+
+scene metaclean-names
+// 0 - 9 = text logs
+---
+Whimsical_001.wav
+Whimsical_002.wav
+Detector de $Cartas
+Log 200318M
+// 5
+Log 140718M
+Log 130718M
+Log 120718M
+Log 280618M
+Log 130818S
+// 10 - note - unlocks nano AND 3D stuff. Vale I = RingCCC, Highway. Vale II = Clone, Golem, Cave
+// Sands I = spire, spiretop, spirecave
+// sands II = orb, shore, field
+Junta de accionistas: Pájaro
+Junta de accionistas: Cenote
+Junta de accionistas: Valle A
+Junta de accionistas: Valle B
+Junta de accionistas: Arenas A
+// 15 (Note - after good end, talk to egg in chapel to enter alb)
+// finale would be zera, but idk if we'll have it
+Junta de accionistas: Arenas B
+Junta de accionistas: Zera
+---
+---
+El primer reino
+// 20 begin warps (ZZ_R1N, ZZ_CCC_Old_1/2/3, ZZ_JoniRing1Test1)
+Campo de sueños
+Ciudad de origen
+Ciudad antigua
+Ciudad vieja
+Recuerdo azul
+// 25 (DEBUG2DFAKE, ZZ_Test3D, ZY_Sean_ArchTests, ZZ_AlbumenOld, ZZ_RingGolem_Prototype)
+Campo de creación
+Simulación física
+Ruinas suspendidas
+Isla solitaria
+Cicatriz de meteorito
+// 30 (ZZ_JoniFearTest02, ZZ_GifNanoAlbumen, ZZ_chapelTrailer, ZZ_CenterChamber, ZZ_NanoDustboundOld)
+Fuente de miedo
+Tierra Yolken
+Guarida de acero
+---
+Campo de alfombras
+// 35 (S_MarinaRing1Test, CCC, RingHighway, DesertField, NanoNexus)
+Valle del comienzo
+Roca Cenote
+Valle Roca
+Arenas de roca
+Roca del nexo
+// 40 Alb warp
+Roca de nacimiento
+endscene
+
+scene item-names
+Cereal
+Leche Yolk
+Regulador: Edición personalizada
+Glandilock
+Lámpara verde menta
+// 5
+Nanoaspiradora A-PRO-60
+Destello
+Nanodestello
+Visión de Palisade
+Detector de $Cartas
+// 10
+Detector Pro de metamonedas
+Paquete de Eldi
+Dilema de Nova
+Manual de metaspiradora
+Item14
+// 15
+Cerradura roja
+Cerradura azul
+Cerradura verde
+Collar de Turlock
+Aventurero indeciso
+// 20
+Espada de pureza
+Escudo defensivo
+Coraza
+Botas inmersivas
+Caparazón de Fuzhi
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+scene spark-unequip
+Destello sin equipar. 
+endscene
+
+scene card-detector
+No quedan cartas en esta zona 3D. Pero si ves el icono de una carta en el mapa, tendrás que disminuir de tamaño para encontrarla.
+No quedan cartas en esta zona 2D.
+Aún quedan cartas en esta zona 2D.
+Aún quedan cartas en esta zona 3D.
+Estimado usuario, el detector de $Cartas no es gratis. Para eliminar los anuncios, mejóralo a detector Pro de $Cartas por tan solo 1200 metamonedas al año. Y ahora, un mensaje de nuestros patrocinadores.
+...
+Lo sentimos mucho, pero todos nuestros servidores están ocupados en estos momentos. Si has visto antes este mensaje, puede que quieras pulsar {CANCEL}. 
+...
+Tu reacción a este anuncio puede ser utilizado para estudios de mercado.
+"¡Hala, ahora puedo buscar cartas de moda! Cuánto me alegro de haberme gastado mi dinero en el detector de $Cartas, ¡y por tan solo cinco metamonedas!"
+"(Tenga en cuenta que el detector de cartas está limitado a la función de detección de $Cartas, no le llevará directamente hasta ellas. Contacte con alguno de nuestros vendedores para estar seguro de que se ajusta a sus necesidades. La tarifa plana anual es de 1200 metamonedas, y viene con algunos extras adicionales."
+endscene
+
+scene item-descriptions
+Con este cereal, el Glandilock tendrá todos los nutrientes necesarios para vivir cómodamente en el interior de Nova.
+Con esto, el Glandilock tendrá todos los nutrientes necesarios para vivir cómodamente en el interior de Nova.
+El regulador adaptará el interior de Nova para que el Glandilock viva en perfectas condiciones.
+Gracias al Glandilock, es posible comunicarse directamente con El Centro, e incluso canalizar su poder en Nova en ciertas ocasiones.
+Una lámpara verde menta con volantes retro, de Misteria Waizel. Una falsificación basada en un modelo más prestigioso. No huele a menta.
+// 5
+El último modelo de aspiradora, con una capacidad de recipiente predeterminada de 60 unidades de nanopartículas. Hay grabados en él que dicen "estado del arte" y algo sobre "cuatro pagos mensuales con facilidades". 
+Nanodestello equipado. Dispara a un objeto y, mientras mantienes presionado {SPECIAL}, corre hacia el objeto para encogerlo y huye del objeto para hacerlo crecer. 
+Dado a Nova por Thyme, el diácono de la ciudad que vive en el Nexo. Puede disparar presionando {CANCEL}. Al provocar a ciertas personas estando en nanoescala, puede reducirse a picoescala. En picoescala, el nanodestello funciona como un arma contra algunos enemigos.
+La visión de Palisade no se pudo ver...
+--- (card detector, but this text never shows)
+// 10
+--- (item detector, but this text never shows)
+Un paquete de Eldi, dirigido a una amiga que vive cerca de una aldea agrícola en las afueras de Cenote.
+Nova se enfrenta a una encrucijada. Puede lograr el Anodyne si continúa actualizando y llenando el prisma de partículas. O bien puede enfrentarse a El Centro dirigiéndose al prisma que hay en el centro de Valle Azul.
+"1. Los mapas ilustrados del menú de información ahora muestran iconos donde se encuentran las cartas restantes y los Parches de Mejora.\n2. Ahora puedes encontrar metamonedas en zonas 3D.\n3. En el nuevo menú metaspiradora, puedes gastar tus metamonedas en diversas cosas. Es posible que quieras comprar el 'Detector de cartas'.\nEso es todo. ¡Gracias por usar la metaspiradora!".
+Item14
+// 15
+Es una cerradura del collar Trylock. Aleja el miedo al dolor físico.
+Es una cerradura del collar Trylock. Previene la ansiedad de encontrarse con extraños.
+Es una cerradura del collar Trylock. Alivia la paranoia de ser observado.
+La base del collar Trylock, un artefacto misterioso y antiguo. Su superficie blanca lisa está marcada por 3 ranuras circulares espaciadas a lo largo de la zona frontal.
+// Localizer note{Dv} Identical to the "fant-adv" line in Desert.txt
+Antes creía en la verdad y la justicia... ¡Pensé que el trabajo duro sería recompensado! Pero el mundo real no es así, ¿verdad, Nova? Todos estamos hechos de pequeñas partículas, girando en el caos. El universo no se preocupa por nuestros débiles intentos de contener su danza infinita. Cada uno de nosotros somos un universo, cada uno de nosotros somos un átomo. Cambia el factor de escala solo un poco, y de repente cada problema deja de tener sentido. ¿Cómo respondemos a todo de una vez? ¿Cómo es una historia algo más que una mentira? ¿Realmente importa?
+// 20
+La espada de caballero de doble filo más afilada conocida por el hombre. Se dice que es el regalo de un ángel.
+Sus ángulos fueron diseñados por los eruditos más distinguidos para desviar cualquier golpe.
+Decorado con la Medalla de Sangre Real, el usuario puede descubrir la verdad interior.
+Sus suelas místicas canalizan la fuerza vital del usuario de tal manera que la tierra circundante puede balancearse sobre sus pasos.
+Un caparazón que pertenecía a Fukuchi. Se dice que ella lo quiere.
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+
+scene chest3d
+¡Nova obtuvo un parche de mejora! Su salud máxima en nanoescala ha aumentado.
+// highway
+¡Genial, Nova ha encontrado una carta!
+// golem
+¡Genial, Nova ha encontrado una carta!
+// clone
+¡Genial, Nova ha encontrado una carta!
+Nova ha encontrado... ¿una pila? ¿Para qué servirá?
+
+¡Nova ha encontrado la carta de Palisade! Pero está pegada tras haberse roto...
+¡Nova ha encontrado 10 metamonedas! ¡Hora de ir de compras!
+¡Nova consigue la cerradura roja!
+¡Nova consigue la cerradura azul!
+¡Nova consigue la cerradura verde!
+
+// 10
+¡Nova ha encontrado la base del collar Trylock, un artefacto misterioso y antiguo! Su superficie blanca lisa está marcada por 3 ranuras circulares espaciadas a lo largo de la zona frontal.
+¡Nova ha encontrado 10 metamonedas! Gástalas en la metatienda.
+¡Nova encontró a un amigo, a quien había hecho en el camino!
+// 13
+¡Nova ha encontrado una carta! Está mojada...
+¡Nova ha encontrado una carta bajo unas rocas!
+¡Nova ha encontrado una carta en unos acantilados!
+endscene
+
+// when trying to access 'cheat menu' in pause
+scene menujoke
+¿Qué intentas hacer?
+Buena idea, pero me temo que aquí tampoco hay nada.
+endscene
+
+
+
+// 1 for each chatper
+scene metainfo-1
+
+endscene
+
+scene metainfo-2
+// near npc plaza
+Verdaderamente, Cenote es un testimonio de nuestra capacidad para ofrecer experiencias espaciales de primer nivel. A pesar de la dificultad de llenar un agujero gigante, Cenote todavía se siente completo. ¿Fue caro? Claro. ¿Llevó mucho tiempo? Quizás. Pero con esta experiencia en la mano, ahora sabemos cómo aumentar nuestra eficiencia futura.
+// 1 elevator
+Puedes mirar este ascensor y ver un objeto simple que ni siquiera se mueve. Pero hacer eso sería mirar más allá de nuestra verdadera intención: simplificando la experiencia del ascensor a menudo complicada. Al utilizar la tecnología de teletransportación, podemos trasladarte de Cenote al Valle Azul en cuestión de segundos. ¿No es eso mejor que esperar 15 segundos?
+// 2 market
+Al permitir que alguien use estos techos para subir hasta Gustine, hemos utilizado la técnica del "nivel en capas". Esta nueva tecnología nos permite crear lugares de varios niveles que, en un segundo vistazo, le otorgan una comprensión más profunda de lo que parecía ser un simple vestidor.
+// 3 pig entrance
+Entendemos la dificultad de los muros altos: que bloquean la vista, dificultando la navegación. ¡Qué problema! Es por eso que ampliamos los muros que conducen a Augur, e incluso agregamos algunas señales que nuestros críticos más duros podrían llamar 'poco sutiles'. Pero cumplieron su propósito, ¡y eso es realmente lo que importa!
+// 4 other road exit
+Cuando se trata de espacios grandes, sabemos que llevaría demasiado tiempo caminar. Sin embargo, caminar es una característica necesaria al explorar las áreas más pequeñas de Nueva Zilan. Es por eso que desarrollamos el modo conducción, una nueva solución de transporte. Los creadores de hoy ya no necesitan confiar en viejos conceptos como tener que silbar para que aparezca tu caballo o cualquier otro medio de transporte: ¡nos lanzamos al futuro y llevamos la 'transformación instantánea del automóvil' a tu puerta! 
+/ 5 road exit near cougher
+Un camino circular incorpora la filosofía de visión omnidireccional, en la que podemos dispersar múltiples puntos de referencia para que los recuerdes. Cuando quieras visitar uno, simplemente busca la marca de tierra y conduce hasta llegar a ella. ¡Simple y eficaz! 
+/ 6 center chamber
+Una vista de pájaro en el vacío. Un regalo para la vista, pero no solo eso, sino que al enmarcar la cámara, no solo creamos drama visual y anticipación, sino que hemos podido ahorrar tiempo al solo tener que pensar en el área que se ve desde un solo ángulo. ¡Presupuesto y eficiencia es el camino hacia la innovación!
+endscene
+
+scene metainfo-3
+Una vista deslumbrante. Te alegrará saber que el Cenote debajo de ti está modelado en tamaño 1:1 como el Cenote que has explorado. Todo lo que teníamos que hacer era utilizar una técnica probada con el tiempo: copiar y pegar. Al mantener visible a Cenote, le hemos indicado la escala relativa del mundo de Nueva Zilan. También ahorramos dinero.
+¿Cuál es el camino correcto? ¡No hay manera incorrecta! Con la 'carretera de doble salida', hemos alentado la exploración a través de todas las direcciones de Nueva Zilan. ¡Pasea libremente!
+¿Acaso este extraño pueblo no capta de inmediato tu interés? Diseños ambientales como estos nos permiten despertar nuestra narración de historias creando una forma de nivel que combinamos con temas narrativos como 'arrogancia' y 'exceso de trabajo'. Los dos, escritura y nivel, trabajan de la mano para producir el nanopunto que exploraste.
+La zona este de Valle Azul es realmente un área en expansión. ¡Pero a través del uso de puntos de referencia, siempre sabrás a dónde vas! ¡Los árboles conducen hacia el bosque! ¡El camino de la colina rocosa conduce hacia Cenote! ¡La carretera conduce al sur! Y así. Con el poder de los puntos de referencia y poder ver fácilmente de un punto de referencia a otro, la navegación se vuelve más fácil.
+Nuestro concepto de diseño para esta área era 'deslizarse sobre un cañón'. Queríamos darte la sensación de estar realmente 'en lo alto de la carretera' y poder mirar hacia abajo. Muchas áreas en Nueva Zilan comienzan con este tipo de concepto espacial base.
+Para darle vida a las cosas, dividimos la ubicación de las cartas entre las de nanopuntos y las de 3D. Este es un ejemplo de 'romper el patrón de expectativa' en el que modificamos un patrón establecido para que la exploración se vuelva más intrigante. No solo querrías una habitación individual con 10 NPC y 10 cartas, ¿verdad?
+//6
+¿Un lavadero de coches o un patio de recreo? Sí, nuestros diseñadores consideraron la 'dualidad del espacio' una vez más aquí, ya que este lavadero de coches es a la vez un área que actúa como puerta de entrada al área de la aldea de Geof, así como una estructura que se puede escalar y explorar. Llamamos a esto la "delicia del modelo 3D", ya que simplemente una estructura simple también puede convertirse en algo que uno puede explorar.
+Esta área costó unos días en poder crearse, pero ahora puedes disfrutar de su belleza. ¿No hace que te preguntes quién lo creó? En la creación de Nueva Zilan, la física y el realismo no tienen límites. Nuestro lema es "deja volar la imaginación y te llevará a la luna", así como "no te quejes de problemas visuales menores". 
+// 8
+Quizás te preguntes: "¿Por qué la parte inferior de esta puerta es tan extraña y estirada en lugar de ser ladrillos normales?". Quizá no comprendas la verdadera respuesta técnica, que involucra mapas "UV" (Ultra Violet). Supongo que se podría decir que estábamos planeando que las puertas fueran más cortas al principio, y cuando decidimos hacer una versión más alta de la puerta, no teníamos ganas de hacer más ladrillos. ¡Así que estiramos los ladrillos con nuestra técnica patentada de "no trabajar", y así nació el diseño hermoso y único que ves hoy ante ti.
+// 9
+El mundo de Nueva Zilan se trata de jugar con la escala. ¡Echa un vistazo más de cerca a estas espadañas! No son normales. ¡Ja, ja, ja! Están diseñadas después de las formas de vida unicelulares "radiolarios", que son conocidas por sus elaborados esqueletos minerales. ¿Quizás hayas visto dibujos famosos de radiolarios antes en una enciclopedia ilustrada? ¡El ilustrador era una mala persona, y no los nombraremos!
+endscene
+
+scene metainfo-5
+¡Te puede interesar saber que la montaña que tienes delante y en la que estás, después de subir la cueva no son lo mismo! De hecho, creamos dos montañas de diferentes tamaños debido a cómo la perspectiva distorsiona los objetos altos. Eso es lo que queremos que creas, ¡pero en realidad la tienda se quedó sin agujas y tuvimos que comprar una defectuosa deforme!
+Cuando creamos un desierto, nos enfrentamos al problema: de ¿cómo se pasa de un área a otra? Bueno, nuestros diseñadores pensaron que la mejor manera sería tener una puerta sutil y literal alrededor de todo el lugar. Combina visibilidad con sutileza y, sí, incluso le permite crear fácilmente líneas de visión hacia las puertas que lo llevan a otras áreas. Algunos podrían llamarlo 'poco elegante', sin embargo, no los vemos creando mundos enteros en un solo año. 
+// 2
+¡Mira a quién tenemos aquí! De hecho, el "fuera de límites" es tanto como un espacio importante como el "dentro de límites". Puedes disfrutar viendo el mundo de Nueva Zilan desde ángulos diferentes, extraños, tal vez incluso profanos cuando viaja "fuera de límites". ¡Ten cuidado!
+¿Hay algo más impresionante que una playa? Es un exterior, el límite exterior de un lugar. Define lo desconocido, un borde en el que no puedes cruzar. Y a medida que atraes tus ojos hacia el horizonte, quizás incluso notes un lugar cercano que te gustaría explorar. O, tal vez, simplemente nos gustan las playas bonitas...
+El engaño es un concepto divertido con el que jugar. ¡Elimine cualquier sentido de 'desarrollo mecánico lógico' y, en cambio, rompe los patrones con la creación del mundo! Esperamos que haya disfrutado la extrañeza de entrar en este objeto aleatorio y encontrar un vasto mundo 2D.
+// 5
+Al crear este campo, nuestros diseñadores utilizaron la investigación de campo para construir una biblioteca de fotos de referencia. Luego intentamos construir la ilusión de que tú bajabas una colina grande, creando otra colina grande en la distancia. ¡El resultado es un espacio expansivo lleno de colinas y valles! 
+// 6 orb
+A nuestros diseñadores les encanta jugar con espacios de diferentes formas, pero también la iluminación es una idea divertida con la que jugar. En lugar de tener ciclos 'dinámicos' de día y de noche, consolidamos todas nuestras energías para lograr la máxima sinergia y nos enfocamos en una condición de iluminación por área. Eso nos permite seleccionar cuidadosamente el estado de ánimo perfecto para la exploración. También nos permite ahorrar tiempo y dinero. Solo se vive una vez.
+// 7 new
+La historia habla de muchas torres importantes: El molino de viento... La aguja de Sunray... Y ahora esto, la aguja del desierto. ¿Qué hace que las torres sean un símbolo tan potente, un tema tan recurrente en todo gran arte? No lo sé. ¡No le des muchas vueltas!
+// 8 near desert gate
+Mmm... ¡Estos portales parecen familiares! No recuerdo por qué. Probablemente porque son un ejemplo de una "forma perfecta", una que inevitablemente debe existir en función de las propiedades de los átomos y demás.
+// 9
+Los tremuloides en esta área están inspirados en Pando, una colonia gigante clonal de álamo temblón, que se cree que es el organismo vivo más pesado. Pando se encuentra en Utah. ¿Que qué es Utah? Ehm... Bueno... Utah existe en lo que podríamos llamar un "mundo de fantasía". Los mundos de fantasía existen fuera del dominio de El Centro y no son realmente verdaderos o relevantes, ¡pero a veces pueden ser divertidos y edificantes! 
+// orb 10
+Todo este acantilado rocoso está hecho de 15 duplicados de una sola forma rocosa. A través de los poderes de "Rotación" y "Estiramiento", ¡te hemos engañado haciéndote creer que esta es una cara de acantilado hermosa y natural tal como ha sido moldeada por el viento y la lluvia durante eones!
+// 11
+¿Alguna vez has notado que las hierbas altas aparecen específicamente cuando te acercas a ellas? Se necesita mucha potencia informática adicional para encender y apagar todas estas piezas individuales de hierba, ¡pero vale la pena transmitir la sensación de que este mundo está hecho para tu disfrute personal!
+endscene
+
+scene buildend
+Melos Han-Tani:n ¡Hola, estimados testers! Aún no podéis enfrentaros a El Centro. Estad atentos para la próxima beta. Sin embargo, aún podéis lograr el Anodyne.
+endscene
+
+
+scene eastereggs
+S. H. Esez:n ¡Oye! ¡Soy tu anfitrión, S. H. Esez, y bienvenido al episodio A2 de Breaking Boundaries. ¡En caso de que seas nuevo aquí, llevamos la cámara básicamente a donde queramos y buscamos contenido abandonado en el mundo de Nueva Zilan. Hemos encontrado una ciudad misteriosa, copiada y vacía en la parte inferior de la zona central de Valle Azul. Veamos qué más podemos encontrar. 
+N. Itrorad:n He tenido la intención de visitar Cenote Fantasma la mayor parte de mi vida, desde que escuché un rumor al respecto en el supermercado. Ahora imagina mi sorpresa, cuando llegué hasta el fondo del Cenote Fantasma, ¡y encontré aquí a mi amigo de Thelandtube, S. H. Esez! Pero tiene mucho sentido: después de todo, este es uno de los lugares más extraños de Nueva Zilan.
+Bob: ¿Dónde estoy? Mmm... Por alguna razón, me siento extrañamente como en casa en esta tierra peculiar... 
+Bob: ¿$Poldragón? No sé de lo que hablas. No tengo nada que ver con tu misión, así que déjame en paz.
+endscene
+
+scene pet-dog
+(Nova acaricia a Wolgali).
+(A Wolgali parece que le gusta).
+endscene

@@ -1,0 +1,641 @@
+
+scene carwash
+EW: Bonjour, et bienvenue au Lave-auto Otto ! Je suis Otto l'éponyme ! Tu viens sans doute de très loin pour découvrir notre service de renommée mondiale, je me trompe ? Brossage des tissus en profondeur pour apaiser vos douleurs... Un rinçage doux sous la cascade d'ambroisie... Et pour finir, un somptueux séchage tout en peluche !
+EW: Enfin... C'est ce que je dirais, si j'avais du courant. Hélas ! Notre générateur nous a lâchés et mon assistant semble avoir égaré l'échelle...
+
+//2 repeat before carwash on
+EW: Rebonjour, Nova. C'est le cœur lourd que je dois t'annoncer que notre générateur ne fonctionne toujours pas. Si seulement il existait un moyen d'y monter pour le remettre en état de marche !
+
+//3 repeat after carwash on
+EW: Oh, le courant est revenu ! C'est grâce à toi, Nova ? Je te déclare donc amie officielle du Lave-auto Otto. En tant qu'Otto l'éponyme, j'en ai le pouvoir ! Passons aux choses sérieuses ! Le soin complet d'Otto t'intéresse-t-il ? Il s'agit d'une régénération du corps et de l'esprit, offerte par la maison !
+
+//4 while Nova is hurt before dustbound
+EW: Ah... Nova, Amie du Lave-auto Otto... Tu n'as pas l'air dans ton assiette. Je peux faire quelque chose pour toi ? Ah, je vois... Il y a des soucis auxquels même le meilleur des lave-autos ne peut pas remédier...
+endscene
+
+scene carwash-helper
+// before turned on
+Assistant:n *Grogne grogne* Ah, et comment suis-je sensé réparer le court-circuit du générateur maintenant ?? Je ne peux plus grimper sur le toit comme quand j'étais jeune et fringant ! Bon sang, où est mon échelle ?
+// after turned on
+Assistant:n Ça alors ! Regarde-moi ça ! Le générateur fonctionne à nouveau !
+endscene
+
+scene carwash-hint
+Sans le courant du générateur dans la lampe du plafond, la porte de derrière restera fermée ! Peut-être que les capacités de Nova pourraient s'avérer utiles...
+endscene
+
+
+scene ring-health
+Eldi:n Ces collines grossissent d'année en année ! Je n'arrive même plus à m'y promener maintenant...
+Eldi:n Je me suis toujours dit, la distance n'est pas un obstacle ! Je peux aller marcher dans les collines ! Pas de problème si ça me permet de voir mon amie. Malheureusement, la vie conspire encore à nous séparer ! D'abord des écoles différentes, un travail différent, et maintenant, nous vivons à différents endroits.
+Eldi:n Nova, je sais que tu dois être occupée, mais si tu en as l'occasion, pourrais-tu amener ce colis à mon amie ? Elle vit aux abords d'un village agricole, un peu éloigné de Cénote. Elle devrait être chez elle.
+Nova a reçu un colis bien emballé, avec un nœud couleur crème.
+Eldi:n Quand tu l'auras livré, tu pourras me le dire ? Merci beaucoup !
+// Repeat
+Eldi:n Oh, s'il te plaît Nova, délivre ce colis dès que possible ! Mon amie vit aux abords d'un village agricole. J'espère qu'elle va bien...
+endscene
+
+
+scene ring-health-2
+//Interacting with house without the package
+C'est une maison assez banale. La boîte aux lettres est pleine de courrier.
+
+// Interacting after leaving package
+... C'est la maison de l'amie d'Eldi. Nova avait laissé un colis pour elle ici, mais elle ne l'a toujours pas récupéré. Nova devrait retourner à Cénote pour annoncer la nouvelle à Eldi.
+
+// Interacting with package, before leaving it
+[FADE]
+Il n'y a pas de lumière à l'intérieur. La porte n'est pas entretenue, poussiéreuse même. Pourtant, il s'agit bien de l'adresse à laquelle Nova devait remettre le colis d'Eldi. Elle frappe à la porte.
+Pas de réponse...
+Nova frappe à nouveau.
+...
+[CLEAR]
+Rien.
+Elle se demande où pourrait bien être cette amie avant de remarquer que la boîte aux lettres est pleine de courrier !
+Elle décide de laisser le colis ici, et d'aller prévenir Eldi, qui se trouve à côté de l'ascenseur dans Cénote.
+endscene
+
+scene ring-health-3
+Eldi:n Oh, Nova, tu es revenue ! Comment va ma bonne amie ? Elle t'a servi une de ces tartes fongiques ? Et est-ce qu'elle t'a parlé de la fois où elle avait fait tomber l'étagère des sauces pour pâtes dans le magasin de Cénote ?
+Eldi:n Oh... elle n'était pas là ? La boîte aux lettres était pleine ? Tu as frappé ? En effet, c'est bizarre...
+Eldi:n Nova, tu sais, ça fait longtemps que je n'ai pas eu de nouvelles. Peut-être a-t-elle déménagé ailleurs, pour refaire sa vie.
+Eldi:n On dirait que c'est là le plus grand obstacle dans une amitié... Oui, peut-être que cette séparation en sera une de celles qui ne cessent jamais.
+Eldi:n Quoi qu'il en soit, merci à toi. Tu dois être terriblement occupée. S'il te plaît, accepte ça pour le dérangement. J'ai cru comprendre que ça pourrait t'être utile.
+// chest message - chest3d 0
+
+// repeat with this only
+Eldi:n Hum... Je pense que je vais aller me reposer un peu maintenant. J'écrirais peut-être dans mon vieux journal, pour garder la trace de mes nouvelles pensées, et réfléchir aux anciennes.
+endscene
+
+
+//<After you finish 1 NPC, after you exit nanoscale but before you reappear in 3D we cut away to Palisade. Palisade is flying through a dusty storm, coming upon the giant mountain>
+scene ring-pal-1
+P: Ici, peut-être... Oui... ces fortifications sont sûres... elles tranchent visuellement...
+endscene
+//<Palisade flies towards the mountain>
+
+
+//<After you ffinish all 3 NPCs, after you exit nanoscale but before you reappear in 3D we cut away to Palisade. Palisade is working the Handfruit Haven with needle-like tools... carving it out>
+scene ring-pal-2
+P: Ahhh... Héhé ! J'espère qu'elle appréciera ces petits détails... ah...
+P: Ça a été très dur pour elle... Je veux qu'elle puisse avoir un endroit où elle se sent libérée des fardeaux de ce monde. Foutue destinée, elle est encore si jeune...
+//<Palisade holds it up proudly and examines it>
+P: Je ne comprends pas... Peut-être que je fais une lourde erreur... mais je ne peux pas rester sans rien faire...
+endscene
+
+
+
+scene pal-ring-3
+P: Nova, c'est moi ! Palissade, ton accompagnatrice ! Je suis désolée, je suis partie pendant si longtemps. Ahhh... comme tu as grandi !
+[FADE]
+Palissade tend la main et caresse doucement la joue de nova. Nova tremble légèrement, résistant à l'envie de se jeter dans les bras de Palissade.
+[FADEOFF]
+P: Avant ton prochain dépôt de Poussière, je dois te montre quelque chose. Nova, tu vois... tu as fait un merveilleux travail de nettoyage pour la Nouvelle Laterre. Je suis si fière de toi ! Mais j'ai bien peur de ne pas avoir aussi bien pris soin de toi...
+
+//5 Palisade switch from Float to FloatNervous anim
+P: Tu es la Nanonettoyeuse, bien sûr. Mais tu es tellement plus que ça. Tu es une personne, avec des sentiments, des besoins et des désirs. Nova, je veux que tu saches que tout ça est important... chaque partie de toi ! Le travail et l'amusement, la joie et la tristesse, la force et la faiblesse. Dans ce monde, il y a de la place pour toutes tes facettes !
+P: Hum... Je ne devrais pas en dire plus pour l'instant. Juste... viens avec moi et...
+
+//7 violent glitching (still normal lighting)
+//Nova = IdleLookingUp animation
+//7Pal = Glitch1 animation looping
+P: NoNoNova... TTTTraverse lA tempêTe... Tu tU dOis troUver... trOuvEr...
+P: ...!!!
+endscene
+
+scene pal-ring-3-2
+[FADENOFADE]
+Palissade parvient à toucher le front de Nova en tendant la main. Une série d'images défilent rapidement dans son esprit :
+
+// 3 images pass in sequence, regardless of player input (it will be reviewable)
+//2/ we see 3d view again, but lighting is weird and red?, palisade glitching for a beat and then warping out of existence as nova holds up her arms, shielding her face, pause for a moment fade to black.
+[FADENOFADE]
+???
+Nova a l'impression qu'on lui a arraché un fragment de son âme, comme si quelque chose d'aussi vital que le sang de ses membres s'était volatilisé. Que vient-il de se passer ? Elle n'y comprend absolument rien ! Il s'agit sûrement d'un coup du sort... Une projection défectueuse... Un écart de l'esprit ! Ça ne veut pas dire... non...
+...
+[CLEAR]
+Après un certain temps (des minutes, ou peut-être des heures ?) Nova réussit tant bien que mal à se relever, tâtonnant désespérément dans son esprit pour tenter de faire sens des images que Palissade lui a laissées.
+Objet reçu : Vision de Palissade.
+// normal lighting... nova gets up from ground
+endscene
+
+//interacting with elevator
+scene ring-nova-sad
+Nova repense à la vision de Palissade. Non... il ne faut pas qu'elle aille à la ville centrale de Cénote.
+endscene
+
+scene ddp-disillusioned-repeat
+Nova repense à la vision de Palissade. Non... elle n'a pas besoin de déposer de la Poussière.
+endscene
+
+//<Palisade begins glitching violently. As a final act, Palisade reaches out her hand and touches Nova’s forehead. Images of 1) a landmark at the edge of Desert, 2) the mountain, and 3) handfruit haven flash in sequence in Nova’s mind. Then Palisade disappears.>
+
+//<Nova falls to her hands and knees. Walking around is slowed down. Elevator does not work. If you stand still for too long, Nova returns to hands and knees and has to get up before moving again. Ridescale works tho (maybe top speed is decreased). You can only go thru the doors that lead you to Handfruit Haven. No talking to NPCs. You can try sparking but it’s small and fizzles out?>
+
+
+
+scene spire-wall-blocked
+[FADE]
+La tempête de Poussière qui assiégeait Cénote par le passé bloque désormais la frontière vers le Désert Extérieur.
+Ses forces infectieuses font rage et circulent pour former un gigantesque mur à quelques pas de Nova, si proches d'éteindre sa vie, et sa responsabilité...
+[CLEAR]
+Pourtant, elle trouve dans le chaos de la tempête un étrange sentiment de beauté, de confort. Pour Nova, on dirait presque les murs d'une maison, qui la protégeraient, elle et les autres occupants, de ce qui se trouve à l'extérieur.
+[CLEAR]
+Nova voudrait continuer, mais, elle le sait, cela ne peut que mettre sa mission en péril. C'est le Centre qui détient la clé d'une potentielle avancée. Elle doit restaurer son pouvoir !
+endscene
+
+scene spire-tree
+[FADE]
+L'arbre de la vision ! Un fruit délicatement sculpté pend à la branche centrale. Palissade a conduit Nova jusqu'à ce fruit... Il doit forcément contenir des réponses. Se rattachant à une faible lueur d'espoir, Nova réunit ses forces pour créer une connexion.
+endscene
+
+scene spire-eat
+[FADENOFADE]
+Nova envoie des étincelles vers le fruit, quand...
+Une bête sauvage poussiéreuse bondit au bord du plateau, regardant le fruit avec convoitise !
+[FADENOFADE]
+Avant que Nova ne puisse réagir, la bête fonce sur le fruit et l'avale en entier ! Nova s'empourpre de colère et de honte. Si seulement elle était arrivée avant ! Il ne lui restait maintenant plus qu'une façon d'atteindre le fruit.
+... C'est ça ! En avant, Nanonettoyeuse Nova ! Courage, et rétrécis !
+Le Fruit refuge pendait jadis ici.
+endscene
+
+scene gravity-sigil
+(N'oublie pas ! Au clavier, tu peux utiliser {CAMTOGGLEK} pour ajuster l'angle de la caméra ! Avec la manette, utilise le joystick analogique droit.)
+[FADENOFADE]
+Nova peut voir le Sceau de Palissade ! Elle tend la main, le touche, et... La gravité dans la grotte s'inverse soudainement !
+[FADENOFADE]
+... La gravité dans la grotte est revenue à la normale. Il semblerait que Nova ait réussi à atterrir au sommet de la flèche !
+endscene
+
+scene geof-return
+Le Nanopoint ne répond pas. Nova décide de retourner là où repose Géof.
+endscene
+
+scene geof-intro
+//Cicada sounds
+[FADE]
+La forme rocheuse oscille, elle halète et a visiblement du mal à se mouvoir... c'est presque pitoyable. A-t-elle travaillé jusqu'à trépas pour un maître infatigable ? Est-elle tombée des habitations en hauteur, criant sans réponse ?
+Et s'il s'agissait seulement d'un tas de cailloux ? Une illusion, ou un des jolis décors disposés par le Centre.
+endscene
+
+scene geof-1
+GA: Mon nom... est Géof. Nova, j'ai entendu des rumeurs à ton sujet. On dit que tu as libéré des gens de leur prison de Nanopoussière. Mais... tu dois me laisser, pour que je puisse me désagréger en sable, voyager avec le vent et finir par faire le bonheur de quelques amants sur une sublime plage.
+endscene
+
+scene geof-2
+GA: Non. Je ne peux pas disparaitre. Je dois creuser. Je dois creuser ! Mais pourquoi ? Je m'appelle Géof, mais qu'est-ce que je fais ici ?
+[FADE]
+Un vent léger entoure Nova. Elle se demande... Ça doit faire longtemps que Géof creuse. Des années ? Des décennies ? Cette échelle de temps lui échappait. Qu'est-ce que ça fait de voir sa vie être figée, de répéter les mêmes actions, pendant des années ?
+Hum... Pendant combien de temps va-t-elle devoir nettoyer ?
+[FADEOFF]
+endscene
+
+scene geof-3
+GA: Pourquoi est-ce que je creuse ? Il me faut de la force... un but. Je t'en prie Nova, aide-moi à me souvenir !
+endscene
+
+// Geof's Town
+
+scene grave-1
+(Granite, 34, professeur des écoles bien aimé. Croyait que les enfants étaient la clé de la protection de notre futur. « Aucun élève n'est mauvais. Les problèmes de comportement d'un enfant ont toujours une cause. »)
+__c1 $GA$: Hum... serait-ce un cimetière ?
+endscene
+
+scene grave-2-1
+(Améthia, 10, fille adorée du maire Géof et de Silico. Tu es partie trop tôt. Tu nous manques chaque jour.)
+__c1 $GA$: J'ai... une fille ?
+endscene
+
+scene grave-2-2
+(Pierre, 9, garçon vif et source d'inspiration. Nous n'oublierons jamais les cadeaux que tu nous offrais.)
+endscene
+
+scene grave-2-3
+(Phosphore, 50, la meilleure cultivatrice. Ses techniques agricoles étaient uniques. L'amour que tu avais pour la terre nous manquera.)
+__c1 $GA$: Nova... est-ce que ces gens se connaissaient ?
+endscene
+
+scene grave-3-1
+(Butia, 44, gestionnaire principale des importations. Tu vas nous manquer.)
+__c1 $GA$: Une ville. Je vois une ville. Elle refait surface dans ma mémoire. Est-ce que j'y ai vécu ?
+endscene
+
+scene grave-4
+(Silico, 46, mari du maire Géof, et père d'Améthia. Parti trop tôt. J'aurais dû passer plus de temps avec toi.)
+__c1 $GA$: Le maire Géof ? Nova, ce pourrait-être moi.
+__c1 $GA$: Tous ces noms. Au début, j'étais un peu perdu, mais maintenant, j'ai l'impression de me souvenir.
+endscene
+
+scene grave-5
+(Géof, 42, maire de cette ville agricole autrefois prospère...)
+(... et imbécile fini. A creusé de partout, salissant ses mains et détruisant la ville.)
+(Meurs seul, monstre !)
+__c1 $GA$: Nova, avant j'étais le maire. Mes administrés, ma famille... ils sont morts ? C'est de ma faute ? Qu'est-ce qui s'est passé ? S'il te plait... continue à nettoyer. Je dois reprendre des forces.
+endscene
+
+scene geof-gardeners
+Puissent les histoires de cette ville fertile t'élever.
+Larve de pierre: La clé du succès, c'est la foi. J'ai agi selon mes croyances en nourrissant et en priant pour cette tour. Un jour, elle atteindra le soleil !
+Larve de pierre: Mon idéal est d'alimenter cette tour. Je n'ai pas d'autre but... tant qu'elle survit... alors je serais heureux.
+Larve de pierre: Ta vie t'a-t-elle déjà donné à vivre un instant sublime ? C'est cet instant que j'attends, dans la souffrance. J'attends que la tour grandisse. Un jour, ce monde vil sera illuminé par sa beauté...
+Larve de pierre: Quelle taille devrait-elle atteindre ? Jusqu'où peut aller sa beauté ? ... Il est inutile de perdre du temps avec de vaines questions. Grandis, grandis, grandis...
+endscene
+
+
+scene geof-homes
+// 0 1
+Une pancarte effacée indique « Bureau du maire Géof ». En dessous se trouve une bout de papier effacé intitulé « Notice d'évacuation ».
+[FADE]
+Que se passe-t-il ? Nova ressent une force étrange dans cette maison. Comme si elle pouvait rétrécir pour accéder à l'habitation...
+// 3
+Il est écrit « Commerce de Butia ». Le bâtiment est verrouillé depuis longtemps et la poignée est rouillée.
+Il est écrit « Base secrète de Pierre ! Bas les pattes sales champignons ! »
+Une pancarte indique « Domicile d'Améthia, Silico et Géof ».
+endscene
+
+scene golem-npc-1
+Granite: ...Ah Géof, comment vas-tu ? Et Améthia alors ? Toujours en train d'essayer d'arranger ton champ, pas vrai ? J'ai lu que ce type de champignon a certaines utilisations expérimentales ! Peut-être pourrions-nous l'utiliser pour compenser les récoltes perdues ?
+__c1 $GA$: Oh, bonjour Granite !
+__c1 $GA$: ...
+__c1 $GA$: Il ne m'entend pas ? Bizarre... D'ailleurs, qu'est-ce qu'il fait là ?
+__c1 $GA$: Ah, nos champs... ils étaient infestés par un champignon ! Bien entendu, j'ai essayé d'arranger tout ça. Un maire a un devoir envers les habitants de sa ville.
+__c1 $GA$: Quand même, Granite pourrait m'encourager !
+endscene
+
+scene golem-npc-2-1
+Améthia: Papa... tu vas pouvoir faire partir le champignon ? *Tousse* C'est si difficile de respirer ! Silico aussi est inquiet.
+__c1 $GA$: Oui, Améthia, oui bien sûr. Laisse-lui juste encore un peu de temps ! Bientôt, ce sera comme si rien n'était arrivé.
+__c1 $GA$: Je dois seulement... extraire ces saletés de champignons ! C'est comme se laver les mains pour se débarrasser des microbes !
+endscene
+
+scene golem-npc-2-2
+Pierre: Géof, tu ne vas pas partir, hein ? Mon papa, il dit que tu t'en fiches du champignon ! Mais moi, je le crois pas. Je pense que c'est lui le menteur. *Tousse, tousse*
+__c1 $GA$: Oh pauvre Pierre... Je, je vais sauver la ville !
+endscene
+
+scene golem-npc-2-3
+Phosphore: Hé, Géof, j'ai entendu dire que tu voulais déterrer tous les champignons, mais tu sais, les champignons ne poussent pas comme ça ! Tu devrais vraiment essayer autre chose. Après tout, un champignon n'est qu'un vaste réseau d'organismes !
+__c1 $GA$: Et voilà encore Phospore, toujours à me donner des conseils ! Il veut bien faire... mais la seule solution, c'est de creuser.
+endscene
+
+scene golem-npc-3-1
+Butia: Géof, ça fait des semaines que tu creuses maintenant ! *Tousse* Je sais que tu as de bonnes intentions, mais tu vas trop loin.
+Butia: Les affaires avec Cénote ne sont pas bonnes... Je vais devoir m'en aller.
+Butia: Tout le monde sait que le champignon est mauvais pour les poumons *Tousse*. On dit même que la Nanopoussière en serait la cause ! Les habitants de Cénote ne veulent rien avoir à faire avec nous.
+Butia: Je t'en prie, Géof... abandonne. Tourne la page.
+__c1 $GA$: Je suis grand seigneur ! Je ne renoncerai pas ! S'il te plaît Butia. Encore un peu de temps.
+endscene
+
+scene golem-npc-misc
+// 0 1
+Quelqu'un: Tu es sûr que nous n'avons pas assez d'argent pour déménager à Cénote ?
+Quelqu'un d'autre: Oui, nous sommes bloqués ! On pourrait faire déplacer les meubles, mais ils veulent aussi un dépôt de garantie. Il ne nous reste plus qu'à mettre nos espoirs dans le plan de Géof.
+
+// 2
+*Tousse, tousse* L'air est toxique... Qu'avons-nous fait pour mériter ça ? Oh, Centre, aide-nous...
+
+// 3 4
+Tu es en train de détruire la ville ! La moitié des champs ont été totalement retournés, les nouvelles vont vite et le champignon est toujours là ! Quand est-ce que tu vas arrêter Géof ? *Tousse*
+__c1 $GA$: ... Il faut faire des sacrifices, pour le bien commun.
+
+// 5 11
+Monsieur le maire, hum, euh...
+...
+Non, non, je ne voulais pas...
+...
+Ahhh ! Ne dis pas ça ! Je veux juste, je voudrais juste dire...
+...
+__c1 $GA$: Oh, mon enfant, je sais que tu as peur, mais je ne peux pas et je ne vais pas baisser les bras.
+endscene
+
+scene golem-npc-4
+Silico: Géof, les champs sont morts et nous devons y aller.
+Silico: Et NON, tu ne peux rien y faire tout seul ! La source de ce problème nous dépasse. S'il te plaît. *Tousse, tousse* On sait tous que la Nanopoussière nourrit le champignon et nous ne pouvons pas l'en empêcher ! Il nous faut une Nettoyeuse, et vite.
+Silico: Je t'en prie... tout est fini. La moitié du village est partie. Voilà notre réalité.
+...
+Silico: Pourquoi tu ne me fais pas confiance ?? Je m'en vais demain. Je prends Améthia avec moi et nous irons trouver refuge à Cénote. S'il te plaît, Géof...
+__c1 $GA$: Silico, toi, ma moitié... Même toi tu n'arrives pas à comprendre ? Ne veux-tu donc pas sauver la ville ? Si seulement il pouvait me comprendre...
+endscene
+
+scene golem-boss
+__c2 Géof ??: Un jour de plus avec de la Nanopoussière de partout ! À ce rythme-là, la ville est perdue.
+__c2 Géof ??: Silico ? C'est toi ? Viens m'aider ! Prends une pelle et viens ici ! Il faut qu'on jette toute cette terre, MAINTENANT !
+__c1 $GA$: Nova, ce... dis-moi que ce n'est pas moi, s'il te plaît ? Mais on dirait bien moi, pourquoi ? S... Sors d'ici, tout de suite !
+endscene
+
+scene golem-crystal
+[FADENOFADE]
+$GA$: Je me souviens maintenant. Un jour, un champignon a attaqué nos cultures. Les récoltes étaient perdues et nous courrions au désastre. Sans plantations, la ville n'aurait pas de tourisme et aucune exportation. Et donc, je me suis dévoué pour sauver la ville.
+Jour après jour, j'enlevais les champignons pour sauver les champs, et pourtant... les gens sont partis ! Ils ont tout abandonné ! Notre ville ! Pourquoi la vie me jouerait-elle de tels tours...
+Les supplications des autres habitants étaient convaincantes, mais... Nova, maintenant que je vais mieux, j'ai recouvré la mémoire et je dois écouter mon cœur. Je dois continuer mon travail et me débarrasser des champignons. Un jour, je réussirai, tout comme toi, Nova.
+[CLEAR]
+Quoi que...
+...
+...
+[CLEAR]
+Ah... peut-être que je mérite un peu de repos. *Tousse* Oui, juste... un petit moment de répit. Je me sens si lourd. Ce poids, il pèse sur mes épaules...
+Demain, nous nettoyons la terre, une fois pour toutes...
+endscene
+
+scene golem-after
+[FADE]
+Géof ne répond pas. On dirait qu'il bouge, mais peut-être n'est-ce qu'une illusion ?
+endscene
+
+
+scene ccc-geof
+Améthia:n Oh !! Te voilà, Nova. Tu es bien la Nanonettoyeuse qui sauve le monde de la Nanopoussière ?
+Silico:n Améthia, à qui parles-tu ?
+Silico:n Nova ? C'est toi la Nanonettoyeuse ?
+Silico:n ...
+Améthia:n On dirait que mon papa est en admiration. Je crois en toi, vraiment !
+Améthia:n Papa, regarde, c'est elle, la Nanonettoyeuse ! Elle peut nous sauver ! Peut-être...
+Silico:n Ça suffit, Améthia. On ne peut pas l'embêter avec nos problèmes personnels. Je suis sûr qu'elle a d'autres chats à fouetter.
+endscene
+
+//
+//
+//
+//
+//=====================================================
+//=====================================================
+//=====================================================
+//NanoStalker
+//=====================================================
+//=====================================================
+//=====================================================
+//
+//
+//
+//
+
+
+scene stalker-snowman
+Les autres bonshommes de neige et moi, nous venons d'un monde différent. La plupart d'entre nous se détendent juste, mais... quelques-uns d'entre nous ont rejoint la Grotte des fans d'Iwasaki. Nous sommes loin de chez nous, j'imagine que nous aurions dû nous y attendre.
+Certains des bonhommes de neige ne croyaient plus en notre façon de vivre... Ils souhaitaient trouver un but plus grand qu'une vie de contemplation solitaire et de voyage occasionnel. Eh bien, je crois qu'ils ont trouvé ici ce dont ils avaient besoin...
+endscene
+
+scene stalker-npc
+// Rock
+Infidèles ! Revenez. Seuls les disciplinés pourront transcender l'Étendue enneigée et être acceptés dans le Temple du Maître Arbre.
+
+// In snowfield 1 2 3
+Brr... Je... Je-je ne suis pas digne de quitter l'Étendue enneigée. Je dois m'entraîner à sculpter les arbres et supporter ce temps. Iwasaki m'a dit que je ne pourrais continuer que lorsque j'aurais compris ce que signifie un pétale en floraison dépassant d'un sommet enneigé. Brr... j'ai si froid et je n'ai pas vu un seul pétale de toute la semaine...
+Iwasaki et quelques autres ont suggéré que je devrais améliorer mes fondamentaux en taille d'arbre. Que je devais maîtriser les bases avant même d'imaginer pouvoir me rapprocher des temples. Mais j'ai tellement froid que je ne peux même pas tenir les cisailles... brr...
+Selon les épreuves de la Grotte des fans, je ne suis qu'un arboréaliste licence C. Mon but ? Une licence B. Et je n'aurais plus à traîner par ici.
+
+//Worshippers outside the tower structure. 4 5
+Je suis un arboréaliste de licence A, presque prêt à fouler le terrain du maître. Rares sont ceux qui disposent de la licence S pour pouvoir entrer, comme Iwasaki. Oh, bel Iwasaki ! Son dévouement pour les arbres est resplendissant. Il est un homme digne ce cette terre sacrée.
+Entre tous les arboréalistes de licence S, Iwasaki est clairement le plus fort. J'aimerais être comme lui, mais... je n'ai même pas encore lu le Grimoire d'écorce. Pardonnez-moi je dois continuer à étudier.
+
+//Worshippers after returning from 3D, near the crystal 6
+Lorsque j'ai obtenu ma licence S, j'ai réalisé... que c'était grâce aux enseignements d'Iwasaki et à sa patience, sa ténacité ! Pas grâce au « Maître Arbre » ! J'évoquerai la possibilité de créer une nouvelle licence, seulement pour Iwasaki... Ah oui... la « Licence I ».
+
+// Rock before ascent 7
+Les temples du Maître Arbre se trouvent au-dessus de nous, dans le ciel ! Seuls les dignes peuvent y pénétrer...
+endscene
+
+
+scene stalker-npc3d
+Chêne B.:n Quand j'ai rejoint ce club de sculpteurs d'arbre, je ne pensais pas que les membres seraient aussi doués ! As-tu déjà rencontré quelqu'un de TELLEMENT passionné, qu'il perd toute motivation à s'améliorer ? Je vais peut-être me contenter d'être un artiste de second ordre, pour trouver mon propre style d'expression.
+Érable A.:n Oh oh ! Bienvenue dans la Grotte des fans ! Nous étudions les travaux du Maître Arbre. Aujourd'hui nous présentons une sélection des meilleurs arbres de nos membres. Cet arbre imposant a été réalisé par nul autre que le président du club, Iwasaki. Les détails sont divins ! Quand je m'endors, je me demande si je pourrais un jour atteindre un tel niveau... *soupire*.
+If S.:n Eh, toi là ! Tu n'aurais pas vu un homme qui s'appelle le Maître Arbre ? On a organisé ce petit spectacle de sculpture d'arbre dans l'espoir que lui, le plus grand sculpteur d'arbre du monde, vienne nous prodiguer ses conseils. Mais il n'a pas daigné venir ! Peut-être ne faisons-nous pas assez bien. Oui, nous devons travailler encore plus dur !
+Magie B.:n Le Maître Arbre dit tout le temps : « Regardez chaque mécène potentiel dans les yeux et avec confiance ! Montrez-lui qu'il DOIT acheter votre travail ! » Mais que faire, lorsque personne n'est intéressé par mon travail...?
+Saule C.:n Je viens de rejoindre le club, mais j'ai encore trop peur pour toucher une paire de cisailles. En plus, je n'ai pas encore terminé la formation vidéo en 80 cours.
+endscene
+
+scene stalker-1
+[FADE]
+Nova aperçoit quelqu'un, au centre de la grotte, gesticulant bizarrement en direction d'un arbre.
+Que faisait-il ? Une prière ?
+endscene
+
+
+
+scene stalker-2
+[FADE]
+Les murmures de l'individu montent crescendo en intensité...
+[FADEOFF]
+IA: Oh... grand Maître Arbre, sculpteur arboréal, styliste des branches et des feuilles !
+IA: Entendez l'appel de ta Grotte des fans officielle ! Nous étudions l'art de la sculpture d'arbre pour tisser un lien avec la Nouvelle Laterre, et honorer vos réussites.
+[FADE]
+La supplication de l'homme résonne dans toute la grotte.
+endscene
+
+
+scene stalker-3
+IA: Rien que je ne puisse faire n'attire l'attention du Maître Arbre ! Cela fait des années que je dirige la Grotte des fans officielle du Maître Arbre ! J'analyse et je transmets ses techniques aux autres membres.
+IA: Mais... nous n'avons jamais obtenu de réponse officielle de sa part. Toutes les lettres que nous avons envoyées n'ont rien changé. Pourquoi ne se préoccupe-t-il pas de nous ?
+IA: Nova, la Nanopoussière est sûrement responsable ! Je ne vois pas d'autre solution. Mon esprit est comme une forêt, et... je me suis perdu. Je t'en prie, aide-moi à atteindre la clarté ! Corrige-moi !
+[FADE]
+Nova se demande si cet homme a réellement besoin d'être nettoyé, mais il semblerait qu'il soit mieux de s'exécuter... Après tout, toute Nanopoussière peut être dangereuse pour la Nouvelle Laterre.
+// unlock
+endscene
+
+
+
+scene stalker-home
+[FADE]
+La publicité indique :
+« Meilleur sculpteur d'arbre de tout Cénote. Fournit les parcs et les bâtiments officiels de la ville. Plus d'informations par téléphone. »
+Nova peut voir à travers la fenêtre une personne qui mange des œufs à son bureau.
+[CLEAR]
+... Œuf ...
+[CLEAR]
+Une pile de journaux bien rangés. Un aimant « Meilleur papa du monde » décore le réfrigérateur. Un petit arbre bien taillé occupe un pot à côté de l'individu. Plus loin dans l'habitation, Nova distingue des arbres plus grands, chacun ayant un style raffiné.
+Cette habitation est bien humble, mais il s'agit peut-être bien de la maison du Maître Arbre, qui sait.
+Une certaine puissance émane de la boite aux lettre à côté de Nova... Il semblerait qu'elle puisse rétrécir pour y entrer !
+endscene
+
+
+scene stalker-home-2
+[FADE]
+Qui que soient les occupants, on dirait qu'ils préfèrent garder leur vie privée. Nova décide d'aller explorer ailleurs.
+endscene
+
+scene stalker-crystal
+[FADENOFADE]
+$IA$: Nova, quand j'étais petit garçon, j'adorais les arbres. Ils étaient d'une telle beauté. Ils sont tellement rares dans la Nouvelle Laterre !
+Et puis, j'ai découvert le Maître Arbre, qui dévoue sa vie à l'art des arbres !
+J'ai étudié ses arbres, puis j'ai commencé à envoyer des lettres d'admiration. Mais... il ne m'a jamais répondu.
+[CLEAR]
+Et donc, j'ai créé la Grotte des fans officielle. D'autres m'ont rejoint et j'ai dirigé les recherches sur le Maître, dans l'espoir qu'il nous remarquerait.
+Mais, grâce au nettoyage... j'ai ouvert les yeux ! J'ai compris... que je n'avais pas besoin du Maître ! Dans cette Grotte des fans, c'est moi le Maître ! Ahah ! Après toutes ces épreuves, j'ai maîtrisé mon art ! Les fans... ils ne sont pas que des membres... Ils sont mes élèves également ! Je leur ai enseigné l'art des arbres !
+[CLEAR]
+Merci, Nova. Les membres n'auront plus à souffrir en silence. Dorénavant, c'est moi... le Maître Arbre Iwasaki !
+endscene
+
+scene stalker-after
+IA: Bonjour Nova, bienvenue dans la Grotte de l'art des arbres Iwasaki ! Grâce à ton nettoyage, mes fans et moi avons entrepris de nous immerger encore plus profondément dans le sculptage d'arbre !
+endscene
+
+
+
+//
+//
+//
+//
+//=====================================================
+//=====================================================
+//=====================================================
+//NanoClone
+//=====================================================
+//=====================================================
+//=====================================================
+//
+//
+//
+//
+
+
+
+scene clone-faye
+FM: Ahhh... Ça fait du bien de rentrer à la maison... Je me demande comment va la vieille Lonwei... Eh, salut ! T'es nouvelle dans la vallée ? Ah, mais oui, c'est toi la Nanonettoyeuse ! Je crois qu'on vient toutes les deux de Cénote. Pendant longtemps, j'ai eu du mal à m'en sortir en ville comme chanteuse dans un groupe, mais lorsque mes parents sont partis en voyage, ils m'ont demandé de revenir pour m'occuper de la maison.
+FM: Tu as vu Lonwei ? C'est une scientifique qui vit en haut des grandes marches. Nous nous sommes perdues de vue quand j'ai déménagé, mais je pense souvent à elle quand même. Une fois, elle a utilisé ses talents de chimiste pour me préparer une concoction qui m'a servi à me coiffer. Ha ha ha...
+FM: Qu'est-ce que ça fait d'être une rock star ? Euh... hahaha. C'est plutôt marrant de manière générale. J'ai eu de la chance. J'ai pas grand-chose pour comparer. C'est beaucoup de pression, mais je ne pensais pas pouvoir faire quelque chose d'autre, donc... Je suis contente d'être de retour chez moi pendant un certain temps. Le chant des oiseaux m'avait manqué.
+FM: Même si tu connais bien le travail artistique d'une personne, ça ne veut pas dire que tu la connais vraiment. De toute façon, même quand on connait quelqu'un personnellement, ça ne veut pas dire qu'on connait vraiment cette personne ! J'imagine qu'il y a simplement plusieurs manières de connaître les autres. Quand on imagine le for intérieur d'une autre personne, il y a toujours une part de projection, mais ça n'est pas forcément mal.
+endscene
+
+scene clone-ray
+RB: Oh, mais c'est la Nanonettoyeuse Nova ! C'est un plaisir de te rencontrer ! Je m'appelle Rérée Bottebateau ! Désolé, mais je n'ai pas assez de poussière pour avoir besoin d'un Nanonettoyage, AH AH AH ! Je sais, c'est pas le genre de truc que l'on souhaite, mais je trouve le processus fascinant !
+RB: Nova ! Dis-moi, si tu trouvais un acarien à l'échelle nanométrique et que tu le mettais dans ta bouche avant de reprendre ta taille normale, est-ce que l'acarien dans ta bouche serait alors GÉANT ? Oups, ce n'était pas malpoli j'espère ? C'est que j'adorerais voir un acarien géant...
+RB: Nova, tu es une joueuse ? Est-ce que tu savais que les jeux vidéo peuvent nous faire pleurer ? Ah, tu es physiquement incapable de pleurer ? Je suis désolé, Nova, je ne voulais pas être insensible ! C'est juste que les jeux vidéo constituent des expériences particulièrement émouvantes. Mon préféré s'appelle « Une ode à la Mort », il est très triste.
+RB: Nova, qu'est-ce que tu dirais d'un thermomètre ? Il pourrait t'aider à savoir si tu as de la fièvre, et des fois c'est juste marrant de le tenir pour voir à quel point tes mains peuvent être froides ! J'ai réalisé que je n'avais pas de thermomètre. J'en ai donc commandé un, mais j'ai fait une bien meilleure affaire en en commandant douze plutôt qu'un seul. Par contre, quand ils sont arrivés, je me suis demandé ce que je pourrais bien faire de 12 thermomètres...
+endscene
+
+scene clone-beringia
+BM: Boum... ba-doum... Ba-doum-ba-doum... Oh, pardon, je travaillais sur un nouveau morceau. Moi c'est Beringia, et voici mon tamboiseau Katsu ! Ensemble, nous parcourons la Nouvelle Laterre, mais pour une raison inconnue, nous nous retrouvons toujours ici, dans la vallée...
+BM: Hum, je vois que tu regardes souvent le bâtiment en haut des marches. C'est le laboratoire de Lonwei Yonstein. Je ne peux pas dire que j'en sache beaucoup sur Lonwei, mais je souhaite qu'elle soit heureuse. Elle passe le plus clair de son temps là-haut. On peut voir de la fumée et des émanations qui s'échappent de la cheminée jusqu'à tard dans la nuit. C'est vers l'étang que je la croise le plus souvent. Elle laisse des petits dispositifs dans l'eau et les relève jour après jour.
+BM: Si tu voyages en t'éloignant encore du Centre dans n'importe quelle direction, tu tomberas sur le Désert Extérieur. La mer est encore un peu plus loin. Et après la mer, l'horizon, mais on ne peut que le voir et pas le toucher. Il y a-t-il quoi que soit d'autre que tout ça ?
+BM: Les tamboiseaux sont des créatures incroyablement résistantes. Katsu adore qu'on le frappe avec des baguettes en bois, mais il m'a également protégé des températures les plus extrêmes lors de nos voyages. Sans lui, je sais pas où j'en serais.
+endscene
+
+scene clone-lonwei
+LY: Ah, Nova, te voilà enfin ! Euh, je veux dire... Bienvenue, ça me fait plaisir de te rencontrer ! Je suis le docteur Lonwei Yonstein, et voici mon... euh... frère, Clonwei Yonstein.
+CY: ...
+LY: Pour tout dire, c'est à Clonwei que tu devrais t'intéresser ! Mais il ne faudrait pas qu'il prenne la grosse tête... Ah ah ah ! Il adore cette blague, pas vrai Clonwei ?
+CY: ...
+LY: Nova, tu as déjà rencontré un docteur ? En fait, j'ai un doctorat en Philo. Mais même avec mes qualifications, j'ai quand même besoin de l'aide d'une Nanonettoyeuse ! Clonwei est malade à cause de la Poussière... Je peux observer l'infection grâce à mon Nanodrone, mais impossible de totalement le purifier !
+LY: Je t'en prie Nova... Je vois comme il souffre ! S'il te plaît, aide mon frère !
+endscene
+
+scene clone-enter
+$LY$: Nova, c'est moi, le docteur Lonwei Yonstein, qui communique avec toi via mon Nanodrone ! Je me suis dit que je pourrais t'aider, comme je connais bien la psyché de Clonwei. Ce qu'il faut savoir, c'est qu'il est capable de créer des créatures d'ombre dans cette dimension. Tu devras peut-être exploiter cette caractéristique à ton avantage...
+endscene
+
+scene clone-annoy-1
+$LY$: Oh, euh... Clonwei ? Tu pourrais t'écarter ? ... Non ? Tu ne veux pas ? Oui... forcément que tu ne veux pas.
+$LY$: Je suis désolée Nova. J'espère que tu pourras aussi régler ça toute seule.
+endscene
+
+scene clone-annoy-2
+$LY$: (QUOI ? Pas encore...)
+$LY$: ...
+$LY$: Hum... eh bien, j'imagine que tu peux contourner Clonwei en allant par exemple, à gauche, et puis... oh, attends, laisse tomber...
+endscene
+
+scene clone-annoy-3
+$LY$: Ahhh ! Je suis vraiment désolée.
+endscene
+
+scene clone-misc
+Bien le bonjour ! Je suis l'assistant de ce laboratoire ! Tout droit, tu trouveras la Chambre d'essai 1. À droite, les Chambres d'essai 2 et 4, euh, je crois... Je n'y ai pas accès.
+Voici la Chambre d'essai 2 ! Un peu plus loin dans le couloir, il y a la Chambre d'essai 4. Hein... quoi ? La Chambre 3 ? Ah... ah... On... ici, on ne parle pas de la Chambre 3.
+endscene
+
+scene clone-faye-2d
+__c1 $CY$: S-salut Faye ! Ça faisait longtemps !
+__c2 $FM$: Euh. C'est vrai. Les gens emploient encore des expressions bizarres comme ça ?
+__c1 $CY$: Oh ahah... non ! Bien sûr que non ! C'était... une blague ! Euh... parce que ça fait longtemps qu'on s'est pas vu !
+__c2 $FM$: Ouais...
+__c1 $CY$: Alors, euh... tu vois de jolies... motos de temps en temps ?
+__c2 $FM$: Euh ouais, carrément.
+endscene
+
+scene clone-faye-2d-2
+__c2 $FM$: Hé écoute, Clonwei... désolé de te laisser comme ça, mais je dois y aller. On se voit plus tard.
+__c1 $CY$: Oh ahah, ouais ! Moi aussi !
+__c2 $FM$: (Argh, j'arrive pas à croire que je trainais avec ce ringard...)
+$LY$: Oh seigneur, ahahah ! Ça fait du mal de voir ça, pas vrai Nova ? Clonwei ne sait pas bien ce qu'il fait parfois. Quoi qu'il en soit... ça ne me fait ni chaud ni froid si Clonwei veut s'embarrasser ! Continuons jusqu'au Cristal de Poussière.
+endscene
+
+scene clone-ray-2d
+__c1 $CY$: Eh salut ! Il me semble pas t'avoir déjà vue dans le coin avant.
+__c2 $RB$: Salut salut, moi c'est Rérée Bottebateau ! Ravie de te rencontrer ! Ouah, t'es vraiment docteur ? C'est classe ! Héhéhé... J'ai emménagé il n'y a pas longtemps, je viens de l'ouest du Désert Extérieur !
+__c1 $CY$: Ah ouais, ahah, c'est génial !
+__c2 $RB$: C'est fou, tu dois être super intelligent ! On dit que t'es un scientifique ? Quels sont les liquides colorés à bulles que tu préfères verser dans des tubes à essai ?
+__c1 $CY$: Euh, eh bien, la science ne fonctionne pas vraiment comme ça... (Ouah... Cette Rérée pense vraiment que je suis quelqu'un d'important. Mais je ne suis qu'un blaireau imbécile... Elle doit être encore plus bébête que moi si elle pense ça !)
+endscene
+
+scene clone-ray-2d-2
+__c1 $CY$: Oh, ahah, Rérée, je devrais y aller... J'ai laissé des... tubes à essai sur le feu, tu comprends !
+__c2 $RB$: Oh !! Bien sûr, bien sûr ! Tuut tuut ! Poussez-vous tout le monde ! On a un scientifique important au travail !
+__c1 $CY$: Héhé... Hé... (Sortez-moi de là !)
+$LY$: Désolée pour toutes ces interruptions, Nova. Je crois que l'esprit de Clonwei est un peu kaput, il crée beaucoup de scènes fantômes ! Essaye juste d'ignorer ces bêtises, ahah !
+endscene
+
+
+scene clone-beringia-2d
+__c1 $CY$: Beringia... Salut !
+__c2 $BM$: Ah oui... eh euh, Claudwei ! Erm... c'est quoi ton nom déjà ?
+__c1 $CY$: Oh euh « Clonwei » ahahah, mais ce n'est pas très grave !
+__c2 $BM$: Oh ouais, désolée, Clonwei. Quoi de neuf ?
+__c1 $CY$: Je me demandais si tu voudrais aller visiter les champs de radis à l'ouest, un de ces quatre ? On m'a dit qu'ils étaient superbes. Enfin, je veux dire, avec moi quoi...
+__c2 $BM$: Oh hum... toi et moi ? Comme un rendez-vous ?
+__c1 $CY$: Oh haha, je sais pas. Sauf si tu...
+__c2 $BM$: Euh. Écoute Clonwei... T'es vraiment gentil ! Mais... euh... Je crois que je ne t'avais pas imaginé du genre à sortir ! Tu es sans cesse au travail dans ton labo... Tu as déjà eu un rendez-vous avant ?
+__c1 $CY$: Eh bien... Pas vraiment...
+endscene
+
+scene clone-beringia-2d-2
+__c2 $BM$: Clonwei, on est très différents... Je ne pense pas qu'on pourrait se rendre heureux...
+$LY$: Ahahah... c'était sûr, Clonwei n'aurait jamais fini avec Beringia ! Je te le dis Nova, il est complètement à côté de la plaque ! Qu'aurait-il à offrir à des gens comme eux ? Je sais... je ne suis pas plus cool que Clonwei, mais au moins je ne me berce pas d'illusions comme lui !
+$LY$: Ne t'inquiète pas, Nova. Nous sommes presque arrivées au Cristal de Poussière. Une fois que Clonwei sera nettoyé, il arrêtera de repenser à ces situations ridicules.
+endscene
+
+scene clone-dustfail
+$LY$: Euh... Nova... ça va ? Oh non... le Cristal de Poussière ne se dissout pas ?
+$LY$: Je...
+$LY$: Hum...
+$LY$: AHH ! D'accord ! Je vais tout te dire ! Clonwei, n'est pas mon frère ! C'est une machine que j'ai fabriquée pour analyser des résultats d'interactions. Je... j'ai fait intentionnellement croitre la Poussière qui était en lui pour alimenter la structure complexe du logiciel ! Le sérum que j'ai utilisé pour nourrir la Poussière a dû faire muter sa structure chimique, et maintenant, elle résiste aux transformations !
+// 4, say this line when talking again
+$LY$: Euh... Nova... essaye d'aspirer aussi mon Nanodrone ! Je pourrais peut-être perforer le cristal de manière stratégique dans ton réservoir !
+$LY$: Parfait ! Ça devrait faire l'affaire. C'est l'heure de...
+endscene
+
+
+scene clone-crystal
+[FADENOFADE]
+$CY$: ...
+... ...
+... ... ...
+endscene
+
+scene clone-exit
+LY: Nova... à cause de ma tromperie, tu as été mise en danger. J'en suis profondément désolée... J'avais peur que le Centre fasse fermer mon laboratoire si jamais il entendait parler de mes expériences avec la Poussière. Crois-moi, Nova ! Plus jamais je ne jouerais avec de telles forces... je ne les contrôle pas.
+LY: Non... à partir de maintenant, je me cantonnerai à ce que je maîtrise. Sinon, je ne vais m'apporter que la honte et l'échec ! Certaines recherches ne valent juste pas le coup... Certaines expériences ne font que du mal...
+endscene
+
+scene clone-after
+LY: Je me suis laissé distraire par l'expérience Clonwei. Je vais me reconcentrer sur mon sujet de recherche original confié par le Centre : l'énergie onirique. Savais-tu que les aspirations humaines sont l'une des formes les plus puissantes d'énergie dans ce monde ?
+LY: Je me demande quelle puissance le désir humain pourrait receler...
+LY: Je suis très reconnaissante d'être le type de personne qui mérite d'être créée avec un doctorat. Tout le monde ne le mérite, sinon ce serait le cas de tout le monde.
+endscene
+
+scene ring-dolphfan
+Dauphfan père:n Ahh... Nova la Nanonettoyeuse. Ton travail te plaît ? Parfait, parfait. Tu ne trouves pas de cartes ? Eh bien, en tant que spécialiste des astuces, je serais ravi de te faire profiter de mes services gratuitement !
+Dauphfan père:n Hum... Tu devrais peut-être trouver d'autres personnes à nettoyer ! Comme on dit chez les spécialistes des astuces : « Ganbatte ! Ganbatte ! N'abandonne jamais ! »
+Dauphfan père:n Par contre, n'oublie pas où je me trouve ! Voilà un moyen mnémotechnique : « D. V. L. ». Ça veut dire, les « Dauphins Vont Loin ». Ça peut aussi vouloir dire, « Dauphin Vers Lave-auto ».
+Dauphfan père:n Mon radar de voiture breveté m'indique que tu as oublié quelque chose à l'intérieur de Géof Agricite. Pourquoi ne pas y retourner ?
+Dauphfan père:n Mon guide des cartes payé par la société stipule que tu devrais te rendre à l'est du Vallon Azur ! Il parle d'une « entrée en arche » et de « pierres » également.
+Dauphfan père:n Mon pouvoir de cartolocalisation me montre qu'Iwasaki Antimon a ce qu'il te faut !
+Dauphfan père:n Oh, Nova... c'est toi... Le système Métapropre m'a mis sur la paille... Les ventes d'astuces sont en chute libre... Plus personne n'a besoin d'un vieux spécialiste des astuces comme moi... *Sniff* On m'a dit que ton plan te montrait maintenant où étaient les cartes manquantes... Ce n'est même plus intéressant ! Je paris que cette Métaboutique vend également un satané Détecteur de Carte, ou quelque chose dans le genre... *sniff*
+Dauphfan père:n Tu n'as pas besoin de mon aide, on dirait ! Eh bien, merci quand même de m'avoir rendu visite.
+Dauphfan père:n Mon guide des cartes payé par la société stipule que tu devrais te rendre au sud du Vallon Azur !
+// 9
+Dauphfan père:n Hum... Je sens qu'une carte est vraiment très proche de nous en ce moment ! C'est lié à ce lave-auto !
+endscene
+
+scene duststormearly
+Une tempête de Poussière déchaînée barre la route de Nova. Sans la puissance totale du Centre, elle n'a aucune chance de survivre aux dangers qui s'y trouvent.
+endscene

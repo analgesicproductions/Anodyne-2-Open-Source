@@ -1,0 +1,748 @@
+
+scene db-field-0
+...
+endscene
+
+scene db-field-1
+[FADE]
+Le corps de Nova souffre à cause des piqûres venimeuses de l'essaim furieux. Elle pousse un soupir de soulagement lorsqu'il s'enfuit, jusqu'à ce qu'elle comprenne pourquoi... la Poussière ! Un épais nuage de Poussière l'entoure, lui irrite les poumons et lui fait grincer les dents.
+[CLEAR]
+Nova commence à ouvrir ses yeux dans le nuage tout doucement, en les plissant. Sa vision est d'abord trouble, mais elle distingue tout de même un groupe de silhouettes qui se profile. Quel genre de créatures marche sans peur à travers la Poussière ?
+endscene
+
+scene db-field-2
+[FADE]
+Tout à coup, l'image de Palissade survient dans son esprit...
+« Nova, j'aimerais maintenant te confier ma Carte ! Garde-la près de toi, mais ne l'utilise pas pour renforcer le Prisme. Qu'elle te protège du danger, même lorsque je suis loin... »
+[CLEAR]
+Nova plonge frénétiquement la main dans l'orifice de son inventaire et tâtonne à la recherche de la Carte de Palissade. Les silhouettes sombres s'apprêtent à la saisir... Non ! Les doigts enfin autour de la Carte, elle la sort rapidement devant elle ! Sa surface holographique brille à la lumière. L'illustration de Palissade, la Gardienne, fait face à la foule de mains !
+endscene
+
+scene db-field-3
+__c1 ?: Ahh… ahA ! AHAHAHAHA... *TOUSSE* *tousse* *sifflement* *craquement* *craquement* *tousse*
+__c1 ?: Hé, toi. On supporte pas ces sornettes par ici.
+[FADE]
+La voix mystérieuse tend la main et... attrape la carte ! Et d'un mouvement la déchire...!
+endscene
+
+scene db-field-4
+__c1 ?: Une carte n'est qu'un bout de papier ! Elle n'a du pouvoir que lorsqu'on lui en prête !
+__c1 ?: Mais... nous sommes les Poussiéreux. Et ici, nous refusons de le faire !
+endscene
+
+// DB Village - Nova's House
+
+scene db-day1-wakeup
+[FADEFULL]
+Nova s'agite et ouvre les yeux. Quelqu'un est assis à côté d'elle... serait-ce le monstre qui a détruit la Carte de Palissade ? Nova voudrait hurler, mais elle est trop faible et désorientée.
+[FADEOFF]
+__c1 Monstre de poussière: Ah... on se réveille, ma biscotte ? Comment te sens-tu ?
+[FADE]
+Le monstre lui adresse à nouveau la parole... mais que veut-il ? Est-il une sorte d'émissaire de la Poussière ? Peut-être un assassin qui devait « s'occuper » d'elle... pour renverser la vapeur dans la guerre de la Poussière contre le Centre...
+[FADEOFF]
+__c1 Monstre Assassin ?: Écoute... je pense qu'on est partis du mauvais pied, toi et moi. Je voulais juste t'aider dehors, et les choses se sont envenimées.
+[FADE]
+La créature fixe Nova d'un air interrogatif comme si elle attendait quelque chose d'elle. Peut-être a-t-elle besoin d'un Nanonettoyage ? Mais... est-ce seulement possible ? Nova est déjà à l'échelle Nanométrique... Il existe peut-être un moyen de...
+[FADEOFF]
+__c1 Monstre devant être nettoyé ??: Eh, euh... Tu pourrais éviter d'assombrir la pièce comme ça ? J'essaie de discuter avec toi ? C'est possible ?
+[FADE]
+__c1 Nova ne comprend pas, cette chose voudrait qu'elle lui « parle » ?
+[FADEOFF]
+__c1 Monstre en mal de conversation ???: Alors, alors, alors. Parler... c'est comme penser, d'accord ? Et puis tu laisses sortir les pensées par ta bouche. D'accord ? Mon nom est Drem Kinako. Ravi de te rencontrer !
+__c1 $DK$: À ton tour de te présenter !
+$N$: Je... hein ? Oh... je m'appelle... Nova.
+__c1 $DK$: T'as réussi p'tit ravioli !
+$N$: Tu vas me tuer ?
+__c1 $DK$: OUAH. OK. HUM, NON ??............... Pourquoi est-ce que je ferais ça ??
+$N$: Qu'est-ce que la mort ?
+__c1 $DK$: Eh bien, que de questions ! J'ai créé un mooonstre !
+$N$: Je... ne savais pas que je pouvais parler.
+__c1 $DK$: Eh, je rigole, ne t'en fais pas ! Babole autant que tu veux ! Après tout, c'est ce que je fais ! *clin d'œil*
+$N$: ...
+endscene
+
+scene db-day1-start-loop
+__c1 $DK$: Dis... si tu t'en sens capable, rejoins-nous dans la Clairière du Lien un peu plus tard aujourd'hui. Un ancien Poussiéreux du nom de Beteruse Fervent est décédé il y a peu et nous allons l'ensevelir à cet endroit. Ça t'aidera peut-être à répondre à certaines de tes questions.
+endscene
+
+// Setting: Clearing of the Binding
+
+scene db-burial-1
+[FADE]
+Alors qu'elle approche de la clairière, Nova remarque un rassemblement de Poussiéreux, autour d'un étrange amas enroulé dans du tissu. Surprise, elle se rend compte que cette chose était avant l'un des leurs. Le corps d'un Poussiéreux, immobile et silencieux. Mort.
+Ils se mettent tout à coup à agiter les bras dans une drôle de danse.
+endscene
+
+
+// <the sprites in the center do different hand motions which cause a pit in the ground to grow. then they move the body in, then they refill the pit. Elegy Beatty steps forward>
+
+scene db-burial-2
+[FADE]
+Nova regarde autour d'elle. Une grande poussiéreuse avec des traits fins et élégants s'avance vers elle. Cette femme se met à parler d'une voix étrangement rythmée. Lorsqu'elle prononce les mots « Va de l'avant », tous les Poussiéreux font de même, en unisson.
+[CLEAR]
+Grande femme élégante :
+Va de l'avant.
+(Va de l'avant !)
+La vacuité de la redirection cardinale, la légèreté de ta main lorsqu'elle s'affaisse doucement. Un tour de magie né du simple acte d'une lumière mourante. Des ombres et une planète en rotation, un univers qui se replie sur lui-même, quand je suis entrée dans ta chambre et que tu reposais sous une fine couverture.
+[CLEAR]
+Va de l'avant.
+(Va de l'avant !)
+Avec quelle richesse tu tirais parti des huiles et des épices, des pédales et des tuyaux. Je revêtirais la cordialité pour toi, je danserais sur les filons de senteurs et cataloguerais tes doigts. Couronne-moi, cardamome et piments, ainsi que tous les gémissements de tes ailes.
+[CLEAR]
+Va de l'avant.
+(Va de l'avant !)
+Traces élémentaires, copiées-collées, crucialisant les dates carbone et les listes de courses ainsi que toutes les fois où tu restais éveillé. Je me caresse la main, mais là où tu m'as quittée je ne trouve qu'une cloche de mousse douce et poreuse, une rangée de branchies que tu m'as laissée pour respirer. Des spores tombent en scintillant telle une pluie de sel et nous te remercions pour ton courage alors que tu...
+[CLEAR]
+Vas de l'avant !
+(Va de l'avant !)
+endscene
+
+
+// After funeral, other NPCs
+scene db-burial-elegy
+__c2 $EB$: Bonjour, Nova. Je m'appelle Élégie Betty. Comme c'est étrange d'accueillir la Nanonettoyeuse du Centre parmi nous, les Poussiéreux.
+$N$: Euh... Hum...\n(Je ne veux pas m'embarrasser devant elle !)
+__c2 $EB$: N'aies crainte. Il me semble que tu n'es pas venue ici en mission officielle, n'est-ce pas ? Aucune raison alors que nous ne nous entendions pas.
+$N$: ... Merchi....
+__c2 $EB$: Ahaa~! Que tu es mignonne ! S'il te plaît Nova, intègre mon équipe de cultivateurs. J'aimerais que tu travailles avec moi ! Tu es d'accord ?
+$N$: D-d'accord...
+endscene
+
+scene db-burial-elegy-2
+$N$: (... hum...)
+endscene
+
+scene db-burial-drem
+__c1 $DK$: Cet ensevelissement, qu'en as-tu pensé ?
+$N$: Je... je ne comprends pas ! C'est ma faute... peut-être que si j'avais travaillé plus vite, j'aurais déjà pu nettoyer cette zone. Beteruse ne serait pas... m-mort.
+__c1 $DK$: Il ne faut pas t'en vouloir, Nova... Ce n'est la faute de personne si Beteruse est mort ! Il a bien vécu. Nova, un jour... nous tous ici nous redeviendrons Poussière.
+$N$: Mais... ce n'est pas normal ! Tout le monde a un destin, voilà pourquoi le Centre nous a créés ! Personne ne devrait juste disparaître ! Que faire de leur destin ?
+__c1 $DK$: Le destin n'est qu'une idée... un outil qu'utilisent les gens, Nova. Nous ne sommes pas les outils du destin.
+$N$: ...
+endscene
+
+scene db-burial-drem-2
+$N$: Drem... Je suis venu ici à la recherche d'un ami. Comment faire pour m'aventurer au-delà du village ?
+__c1 $DK$: Ahhh... J'ai entendu dire qu'un objet étrange était tombé du ciel dans les bois environnants. Il y a une gare ferroviaire au sud-ouest d'ici. Si tu demandes très poliment... tu pourras peut-être être prise en stop ! HÉ hé hé !
+endscene
+
+
+scene db-burial-misc
+$N$: Je ne sais pas par où commencer... Je devrais sûrement parler un peu plus.
+$N$: Ça fait assez longtemps que je suis ici. Il faut juste que j'arrive à atteindre le fruit que Palissade m'a montré.
+Ces Poussiéreux... Je ne sais pas trop quoi penser d'eux...
+endscene
+
+scene db-hint
+Toutes mes excuses, chers passagers. Le Caecilitrain ne circule pas pendant les cérémonies d'ensevelissement. Revenez plus tard.
+Tchou-tchou ! Besoin de faire un tour ? Le Caecilitrain se nourrit de la délicieuse vase de poussière qui se trouve au sol. En échange, il transporte les passagers hors du village ! Il suffit de tirer sur l'Uvulevier.
+Ouest : habitations\nNord : terrain de lutte\nSud : Caecilitrain\nEst : Clairière du Lien, ferme
+North: champ\nNord-est : Clairière du Lien\nEst : ferme
+endscene
+
+
+
+//Find Handfruit Haven
+//<Nova's internal monologue... partly fadescreen but maybe not bc sometimes need to show stuff>
+
+scene haven-first-time
+[FADE]
+La salle caverneuse est magnifique, mais il y règne un silence de mort. Les légers craquements de la porte perturbent le calme. Il n'y a personne ici.
+
+Bien sûr ! Bien sûr qu'il n'y a personne ici. Nova ne pouvait quand même pas s'attendre à ce que Palissade l'attende ici sagement, les bras tendus... si ? Le plan doit être révélé, les rouages actionnés. Lorsque les pièces abstraites trouveront enfin leur place, l'image sera révélée.
+[FADE]
+Il y a un autel au centre de la pièce. Voilà une piste. Peut-être un portail qui servirait à invoquer Palissade ! La clé de son utilisation réside bien entendu dans sa structure. Un signe naturel de conception intelligente...
+endscene
+
+scene haven-first-time-2
+[SMOOTHCAM TO diceVC in 1.8]
+Rite I : les dés. Il faut noter les couleurs et les lettres sur lesquelles ils atterrissent. La vie n'est jamais vraiment aléatoire, il se peut seulement qu'elle apparaisse ainsi aux esprits limités.
+[SMOOTHCAM TO bridgeVC in 1.8]
+Rite II : le pont. Il s'agit d'un passage fait de matériaux instables. Les bords du pont ne doivent jamais être touchés, comme l'indique leur couleur jaune clair.
+[SMOOTHCAM TO slideVC in 1.8]
+Rite III : l'offrande. Il faut la déverser et la regarder disparaitre. Pour être véritablement libre, il est nécessaire de se défaire des choses qui procurent un faux confort, une fausse sécurité. Le Centre s'épanouira et cela est assez.
+[SMOOTHCAM TO matcherVC in 1.8]
+[FADE]
+Pour Nova, tout devient clair : il lui suffit de réaliser les rites à la lettre et Palissade reviendra forcément ! Mais avant de pouvoir commencer, elle s'effondre presque sur le sol. Comme si, d'une certaine manière, elle dysfonctionnait. Elle sent la Graine de Brideglande qui tousse et qui crachote.
+[CLEAR]
+Elle se souvient alors avec un étrange sentiment de manque du lit dans lequel elle s'est réveillée plus tôt aujourd'hui. Comme si, le fait de simplement exister dans le temps était devenu une maladie pour elle... L'inconscience en serait-elle donc le remède ?
+Elle se dirige chez elle. Elle réalisera bientôt les rites... juste... après...
+endscene
+
+// Nova falls asleep
+// Start of Day 2.
+// Now nova is hungry, and in bed.
+
+scene db-day2-wakeup
+[FADEFULL]
+Nova se réveille. Elle ne ressent plus cette étrange lourdeur dans ses membres, mais c'est maintenant son estomac qui lui fait atrocement mal...
+Peut-être que les Poussiéreux lui veulent vraiment du mal... Elle a sûrement été empoisonnée. Elle doit retrouver... Drem Kinako...
+endscene
+
+scene db-day2-drem
+__c1 $DK$: Eh bien... Te voilà ma Cocotte ! C'est bien de finir par se réveiller !
+$N$: Qu... Qu'est-ce qui m'est arrivé ? Je meurs...
+__c1 $DK$: J'sais pas, Petite fève. Comment tu te sens ?
+$N$: Comment je me sens ? Hum... Je ne comprends pas.
+$N$: Mais pourquoi est-ce que tu fais ça ?
+__c1 $DK$: Faire quoi ?
+$N$: M'appeler par des mots qui ne veulent rien dire !
+__c1 $DK$: Qui ne veulent rien dire ? Tu parles de « Cocotte » et « Petite fève » ? Mais, ces mots ont un sens, on parle là de nourritures délicieuses !
+$N$: « N-nourriture » ?
+__c1 $DK$: Ohhhhhh... je vois. Je crois que j'ai compris maintenant. Manger, ça ne te dit rien, je me trompe ? Alors, tu te souviens d'hier, lorsque tu as appris à parler ? Eh bien... manger de la nourriture... c'est un peu « l'inverse de parler ». Au lieu de PENSÉES qui SORTENT de ta bouche... la NOURRITURE doit aller DANS ta bouche !
+$N$: ... Hein ?
+__c1 $DK$: Ouah, tu as de la chance que je sois là pour t'expliquer ça aussi bien ! J'imagine que t'as besoin de manger, vu que visiblement tu ne l'as jamais fait? Ah héhé ! Tiens, essaye ça. C'est de la « crème de soupe aux champignons ». Sais-tu que c'est « génial en pâtisserie » ?
+endscene
+
+scene db-day2-drem-2
+$N$: *En mange un peu*... Je crois que ça me fait du bien.
+__c1 $DK$: Tu es en dehors de l'influence du Centre. J'imagine donc que tu vas avoir besoin de dormir et de manger comme le reste d'entre nous... Hé ! Ça suffit pour l'instant, fais ta propre soupe ! Si tu aimes tant ça, tu devrais dire « Hummm » en te caressant l'estomac avec la main dans un mouvement circulaire.
+$N$: Euh... « Hummm »...
+__c1 $DK$: Ah hé hé hé !! Pas mal !
+[FADE]
+Après avoir réfléchi à cette « nourriture », Nova se rend auprès d'Élégie Betty qui se trouve dans un champ...
+endscene
+
+// <cut to farm>
+scene db-day2-farm
+$N$: C-Coucou... c'est moi, Nova. Tu m'as parlé d'agriculture hier, je crois ?
+__c2 $EB$: Ahahah~ ! Tu es bête, je ne t'ai pas déjà oubliée !
+$N$: ... Hum. Ahah... Je ne devrais pas rester... trop longtemps ici. Je devrais réaliser les rites pour que Palissade, celle qui me guide, puisse revenir. Mais si je dois dormir ici, et manger votre nourriture, il est normal que je contribue.
+__c2 $EB$: Eh, tu es notre invitée, OK ? Pas de pression. Mais je suis contente que tu sois venue ! Je t'en prie, laisse-moi te présenter l'art de l'agriculture !
+__c2 $EB$: Les plantes nous fournissent de la nourriture et nous aident à filtrer l'air pour que nous puissions respirer. Lorsque nous cultivons, nous devons fournir aux plantes de l'eau, de l'énergie et de la place, pour qu'elles puissent grandir et devenir fortes ! Nous devons aussi les protéger de leurs rivales : les Herbinettes ! C'est là que tu interviens ! Assure-toi de bien débarrasser des Herbinettes dans chaque champ !
+endscene
+
+scene db-day2-farm-after
+__c2 $EB$: Beau travail, Nova ! Et si nous préparions quelques frappés aux fruits après ce dur labeur ?
+$N$: (Ouah... elle est vraiment gentille avec moi... Je...)
+$N$: Je dois y aller ! À plus tard !
+$N$: (Je dois retrouver Palissade !!!)
+endscene
+
+scene db-day1-npc
+__c1 $DK$: ... Oh, salut, Nova. Je pensais juste... Quoi ? Tu as oublié où était le train ? Il n'est pas loin au sud du village.
+endscene
+
+// Talking to drem etc again
+scene db-day2-npc
+__c1 $DK$: Alors, qu'est-ce que tu as prévu ? Fais attention à toi !
+$N$: (Non... Elle est occupée. Je dois prendre le train pour retrouver Palissade !!!)
+endscene
+
+scene db-day3-npc
+__c1 $DK$: Joli travail aujourd'hui, mon chou !
+$N$: (J'ai déjà parlé à Élégie... Je dois me rendre au Refuge !)
+endscene
+
+scene db-day4-npc
+__c1 $DK$: Eh salut, Nova ! Ça va bien ? On t'a présenté Cendra ?
+$N$: (Je dois me rendre au Fruit refuge.)
+endscene
+
+scene db-day5-npc
+aaa
+endscene
+
+
+// Day 2, Rites 1. Haven.
+
+scene haven-begin-rites
+$N$: Palissade, je me suis occupée de mes besoins corporels.
+$N$: Je vais maintenant réaliser les rites que tu as préparés pour moi.
+endscene
+
+scene haven-dice
+$N$: Ahh... Là, nous avons Bleu et C. Le Bleu représente l'eau et la robe de Palissade. Le Sanctuaire du Centre se trouve sous l'eau à Cénote. C'est là que j'ai rencontré Palissade à la Robe Bleue. Même si je suis un peu perdue aujourd'hui, le C Bleu me rappelle où tout a commencé. Palissade sert le Centre, alors le Centre la protégera.
+$N$: Aujourd'hui... Jaune et A. Jaune, comme un ovule. Le A représente le « commencement ». Ce jet est de bon augure. Quelque chose grandit et commence. Peut-être que le corps de Palissade a été détruit, mais elle pourrait maintenant renaître ici, dans son refuge. Psalmiste-C m'a enseigné que tout avait toujours existé dans la Nouvelle Laterre. Pas sous la même forme dans le temps (après tout, je suis bien née !), mais il a toujours dû exister une sorte « d'essence de Nova ». De la même manière que Palissade existe toujours dans mon cœur. Voilà comment je sais qu'elle va revenir.
+$N$: Aujourd'hui... Rouge et D. C'est de mauvais augure. Colère... Sang... Mort... Destruction... Poussière. Je commence à comprendre pourquoi tant de jours sont passés sans aucun signe de Palissade... personne pour me rassurer et me guider. Ce fut un malheureux accident que le Fruit refuge soit dévoré par cette créature de Poussière galeuse ! C'était une erreur de rencontrer ces « Poussiéreux ». C'était si agréable de ne pas me sentir seule, que j'ai baissé ma garde et me suis éloignée de mon destin. J'ai bêtement désiré une vie qui n'aurait jamais pu être la mienne.
+endscene
+
+scene haven-bridge
+$N$: Non ! Il ne faut pas que je touche les bords... Je dois traverser comme il faut.
+$N$: Stupide Nova ! Il faut que tu évites les bords !!
+$N$: Si tu es seule, c'est qu'il y a une raison, apprends à ne compter que sur toi !
+$N$: Pitoyable ! Tu n'es pas prête pour le retour de Palissade.
+$N$: Ça ne va pas... quelle déception tu fais.
+endscene
+
+scene haven-bridge-day3
+$N$: Je devrais m'en sortir mieux que ça, mais ma concentration est émoussée.
+$N$: C'est MA propre faiblesse qui a fait disparaitre Palissade.
+$N$: Les Poussiéreux sont une cause perdue... Je me perds en restant auprès d'eux.
+endscene
+
+scene haven-slide-1
+//<As you pour out soup>
+$N$: Aujourd'hui, j'ai appris à manger. La soupe a picoté le long de ma gorge et m'a réchauffé. En vidant ce bol, je me souviens comme ces plaisirs sont éphémères. Je reprendrais bientôt contact avec Palissade et le Centre, et je n'aurais plus besoin de m'adonner à des activités aussi inutiles que « manger » et « dormir ». Tout reprendra bientôt sa place...
+$N$: *Soupire*
+$N$: Bientôt...
+[FADEFULL]
+Les jours passent et Nova continue sa routine, aidant Élégie Betty aux champs la journée, et réalisant les rites pour Palissade dans la soirée. Il est étrange pour elle d'avoir un endroit à elle, étrange de dire bonjour aux mêmes visages familiers jour après jour.
+Bien sûr, rien de tout cela n'est important. Il ne faudra pas longtemps pour que Palissade revienne. Avant que cela ait le temps d'arriver, Drem Kinako s'approche de Nova pour lui soumettre une proposition...
+endscene
+
+
+
+
+
+
+////////
+///////////
+// DAY 3
+////////
+//////////
+
+// Fade into Nova's home... activated with same trigger as db-day2-wakeup
+scene db-day3-wakeup
+__c1 $DK$: Salut petite crevette !
+$N$: Tu es déjà debout ? Ça ne te ressemble pas.
+__c1 $DK$: Ah ah ah, je suis cuit ! *Tousse* Voilà ce qu'il se passe. Élégie me dit que tu t'es bien battue. Tu as vaillamment défendu les récoltes des herbes et tout le tintouin...
+$N$: É-Élégie a dit ça de moi ? Tu peux m'en dire plus ?
+__c1 $DK$: Écoute, Nova... ET SI... tu utilisais tes compétences, ton courage et ta détermination... pour faire quelque chose... de vraiment... extraordinaire.
+$N$: Quoi...?
+endscene
+
+
+//<Cut to the wrestling wring>
+
+scene wrestle-1-intro-1
+__c1 $DK$: Eh oui, Nova ! Je parle bien sûr de la CAAAAASTAGNE DES POUUUUUSSIÉREUX !!!
+$N$: (!)
+__c1 $DK$: Un combat vicieux... qui prendre place chaque semaine pour déterminer qui sera le vainqueur !!! Les cris de la foule... La gloire du combat !
+$N$: Tu... veux me taper dessus ?
+__c1 $DK$: Ahahaha pas vraiment, mon sucre. C'est un travail d'équipe, tu vois ! On ne se fera pas vraiment mal ! Ensemble... nous créerons un véritable spectacle !!
+$N$: Mais... Drem... c'est inutile... non ?
+__c1 $DK$: « Drem » ? Mais de qui tu parles ? Je suis...
+endscene
+
+//<Cut to the first match>
+
+scene wrestle-1-intro-2
+$AN$: ...RON LA BÛCHE !!! Un arbre puissant qui s'élève au milieu de la Poussière... Ron représente le sol fertile, enrichi par le cycle de la Vie et de la Poussière. Un vrai héros pour les Poussiéreux !
+En face de lui... elle fait ses débuts dans la Castagne...
+L'abominable SORCIÈRE DES HERBINETTES ! Arrivera-t-elle à aspirer l'énergie de Ron jusqu'à ce qu'il ne soit plus qu'une coquille vide ? Ou Ron réussira-t-il à se tailler avec la couronne ? Vous le saurez ce soir à l'occasion de la CAAAAAASTAGNE DES POUUUUUSSIÉREUX !!!
+$N$: Psst... tu es sûr, Drem ? Je ne suis pas sûre de bien m'en sortir...
+__c1 $DK$: Tu vas assurer, Nova ! Contente-toi de suivre mes instructions ! Ensemble, nous allons mettre le feu au public comme jamais auparavant !
+endscene
+
+// rl du
+scene grappletext
+Appuie sur {RIGHTICON} !
+Appuie sur {LEFTICON} !
+Appuie sur {DOWNICON} !
+Appuie sur {UPICON} !
+Appuie sur {SPECIAL} !
+Appuie sur {JUMP} !
+endscene
+
+// Drem texts here are side overlay?
+scene wrestle-1
+Drem: Psst, Nova ! Lorsque tu me lances des blocs, maintiens le bouton de tir enfoncé. Relâche le bouton quand le bloc est près de moi pour mettre le paquet !
+$AN$: OUAH ! La Sorcière des Herbinettes a infligé à Ron le Bûche un enchaînement de coups stupéfiant ! Pourra-t-il se remettre d'un tel passage à tabac ?
+Drem: Allez Nova, c'est mon tour ! Au moment où mon attaque est sur toi, appuie sur le bouton de tir pour encaisser ma frappe de manière convaincante !
+Drem: C'est l'heure du grand final ! Tire-moi dessus et je te renverrai l'attaque ! Ensuite, appuie sur le bouton de tir avant qu'elle ne t'atteigne !
+$AN$: SUPERBE RENVOI DE TIR de la part de RON LA BÛCHE ! LA SORCIÈRE EST À TERRE ! LA FOULE EST EN DÉLIRE !!!
+endscene
+
+scene wrestle-1-end
+__c1 $DK$: Psst... Nova... ça va ?
+$N$: ...
+$N$: ...
+$N$: (se caresse le ventre) Hummm !!
+__c1 $DK$: Ah ah hé hé ! C'est que pour la nourriture ça, Nova ! Tu sais quoi ? C'est pas grave ! Continue !
+[FADE]
+Le premier match étant terminé, Nova quitte le ring et passe voir Élégie dans son champ...
+endscene
+
+
+// Cut to farm area.
+
+scene db-day3-farm
+__c2 $EB$: Ahhh... brava, Nova ! Bravissima !
+$N$: M-merci, Élégie... Je suis contente que tu aies pu y assister ! Je n'y voyais pas vraiment d'intérêt quand Drem m'a fait cette proposition. Mais ça a changé une fois sur le ring...
+__c2 $EB$: Tu es naturellement douée ! Tu...
+__c2 $EB$: *Tousse ! Tousse !!* Argh... *TOUSSE !!*
+$N$: Tout va bien ?
+__c2 $EB$: Je...
+__c2 $EB$: Je dois te dire quelque chose, Nova. Tu te souviens de ton arrivée ici, quand nous avons enseveli Beteruse Fervent ? Un jour, tôt ou tard, chacun d'entre nous redeviendra Poussière... Après tout, nous nous appelons bien les Poussiéreux.
+$N$: Oh...
+__c2 $EB$: Je crois que mes jours sont comptés. J'ai une grosseur Poussiéreuse qui ne fait que croître sur l'épaule. Beteruse a vécu une expérience similaire avant sa fin...
+$N$: N-non ! Élégie !! C'est ma faute ! C'est mon travail d'empêcher que cela n'arrive ! Si je pouvais nettoyer cet endroit... Si seulement je pouvais...
+__c2 $EB$: Nova... Nova. *Tousse !* Nous autres Poussiéreux avons choisi de vivre en dehors de l'influence du Centre. Nous avons tous une raison d'être ici. Nous souhaitons vivre selon nos propres règles, être plus que de simples extensions de l'égo du Centre.
+endscene
+
+//<Glandilock seed vibrates angrily>
+
+scene db-day3-farm2
+$N$: Je... je ne comprends pas...
+__c2 $EB$: Ne t'en fais pas, Nova. Il nous faut tous du temps pour nous développer et comprendre quelles sont nos priorités.
+__c2 $EB$: En parlant de ça, tu es prête pour t'occuper des champs ? J'ai pris un peu de retard ces derniers temps. J'espère que tu pourras rattraper le coup !
+$N$: Bien sûr...
+[FADE]
+Nova traverse les champs. Enlever les mauvaises herbes est devenu pour elle une habitude réconfortante, mais aujourd'hui elle sent la présence du Centre peser derrière elle, désapprouvant sa conduite indulgente.
+endscene
+
+
+scene db-day3-farm3
+__c2 $EB$: Quel beau travail, Nova ! Tiens, c'est pour toi !
+$N$: Une fleur ?
+__c2 $EB$: Il est coutume, dans certaines cultures, de couvrir de roses les personnes aux talents extraordinaires. Tu as peut-être « perdu » sur le ring, mais pour moi, tu es une championne !
+endscene
+
+
+// Day 3 - Rites 2.
+scene haven-slide-2
+$N$: Aujourd'hui, j'ai reçu une rose de la part d'Élégie. Élégie... mon... mon... amie... hum. C'est-à-dire...
+$N$: Pendant que la rose se décompose, je me souviens que la gloire et l'adoration ne peuvent que m'écarter de mon destin. Les sentiments s'envolent au vent tels des pétales de rose, mais le Centre lui, survit au temps. Je dois donc suivre son chemin et non ma propre vanité.
+[FADEFULL]
+Les jours s'écoulent. Arrive bientôt la deuxième castagne de Nova : sa revanche tant attendue contre Ron la Bûche...
+endscene
+
+// DAY 4
+// Cut to wrestling.
+// Day 4 - Wrestling 2
+
+
+scene wrestle-2-intro-1
+__c1 $DK$: T'es en forme aujourd'hui, kolaczki ? Prête pour ta grande victoire ?
+$N$: Je suis prête.
+$AN$: C'est l'heure de la revanche pour le champion en titre Ron la Bûche et sa rivale de toujours : la Sorcière des Herbinettes !!! Ron enchaîne les victoires... La sorcière rusée pourra-t-elle lui voler son trône ? Vous le saurez ce soir dans la CAAAAAAAASTAGNE DES POUUUUSIÉREUX !
+endscene
+
+scene wrestle-2
+$AN$: Le combat est musclé ce soir ! Dur de dire qui va le remporter !
+Drem: C'est l'heure du grand final ! Tire-moi dessus, mais cette fois, après mon esquive, aspire-moi et lance-moi !
+$AN$: Mais que se passe-t-il ? On dirait que la Sorcière des Herbinettes aspire Drem Kinako !! C'est du jamais vu !!
+$AN$: Et voilà, il est hors-jeu !! Mesdames et messieurs, Ron la Bûche s'est fait battre à plat de couture !! La Sorcière des Herbinettes est notre nouvelle championne !!!
+endscene
+
+// Cheering?
+
+scene wrestle-2-end
+$N$: (Ah oui... qu'est-ce que Drem voulait que je dise déjà ?)
+$N$: V-votre précieux héros n'était rien d'autre qu'une épine dans mon pied !! À présent, les Herbinettes règneront sans partage !! Muhahahaha !!
+__c1 $DK$: (Beau travail, Nova !!)
+$AN$: (Quoi ? Il y a de l'agitation dans les tribunes !!)
+$N$: (Hein ? Ce n'était pas prévu !)
+__c1 $DK$: Nova ! Vite !! C'est Élégie !
+endscene
+
+scene db-birth-1
+[FADE]
+Élégie est extraite des tribunes puis déposée sur un carré de mousse confortable. Une foule anxieuse l'encercle. « Laissez-la respirer ! » crie Drem Kinako. Nova se fraye un chemin au plus près d'Élégie, qui se tord de douleur, incapable de parler.
+La tête de Nova palpite de plus en plus... Ce n'est pas possible... Ça ne devrait pas arriver !!!
+Quand tout à coup...
+endscene
+
+//<tumor explodes into baby>
+
+scene db-birth-2
+__c1 $DK$: Qu-Qu'est-ce que... Qu'est-il arrivé ?
+???: Q-q-QuOOOOoooOOOIIII !!!
+__c1 $DK$: Sainte POUSSIÈRE éternelle !!! Comment est-ce possible ???
+$N$: (Ça ne se peut pas ! Seul le Centre peut créer la vie depuis la Poussière !)
+__c2 $EB$: Eh bien....... bonjour, toi !
+endscene
+
+scene db-birth-2-2
+$AN$: INNNNNCROYABLE !! On dirait qu'Élégie vient de créer une nouvelle FORME DE VIIIIIE !!
+__c2 $EB$: Anonsi, est-ce que tu pourrais te calmer s'il te plait ?
+$AN$: Oh oui... Pardon, j'étais dans l'instant.
+endscene
+
+scene db-birth-3
+[FADENOFADE]
+Après quelques instants, l'agitation retombe.
+Nova finit par retourner au champ d'Élégie...
+endscene
+
+
+scene db-day4-farm-1
+__c2 $EB$: Où est maman ?
+
+//<dust phases out and back in>
+// 1 3
+__c2 $EB$: Je suis là !
+Cendra Betty: Hum ? Ah héhé !
+__c2 $EB$: Oùùùùù est maman ?
+
+//<dust phases out and back in>
+// 4 6
+__c2 $EB$: Je suis là !!!
+Cendra Betty: ^o^ Gouah !! Aaah héhé ah ah !!!!
+Cendra Betty: Ouaaah ! Bouah !
+//<Shakily dust phases... out and in>
+endscene
+
+scene db-day4-farm-2
+__c2 $EB$: Ouah !! Joli travail Cendra ! Bien joué !!
+__c2 $EB$: Eh, salut Nova !
+$N$: Élégie !! J-je suis si contente que tu ailles bien !
+__c2 $EB$: Ohh merci, Nova. Moi aussi, ah ah ! Cendra, mon cœur, dis bonjour à tatie Nova !
+$N$: C-coucou... Tu es sûr que c'est sans danger, Élégie ?
+__c2 $EB$: Jouer à faire coucou ? Nous canalisons juste la poussière, Nova ! Même chose que pour l'ensevelissement ou lorsque Drem t'attaque sur le ring.
+endscene
+
+
+// <Glandilock seed flashes.. visions of the first 4 card NPCs>
+
+scene db-day4-farm-3
+$N$: J'en ai assez vu pour savoir que la Poussière provoque la corruption.
+__c2 $EB$: Nova, canaliser la Poussière, c'est un mode de vie pour les Poussiéreux. Tu le sais, nous traitons la Poussière de la même manière que le Centre.
+$N$: ...
+$N$: Hum, peut-être que Drem et toi pouvez gérer de telles puissances dangereuses lorsque vous jouez. Mais la petite...
+__c2 $EB$: Elle doit apprendre ce que nous apprenons tous. Que nous sommes faits de Poussière, que son pouvoir nous habite et qu'un jour nous redeviendrons Poussière.
+$N$: ...
+$N$: J'ai du travail.
+[FADEFULL]
+Nova se jette à corps perdu dans le désherbage. Elle sent quelque chose de dangereux grandir en elle. Mais, elle réprime ce sentiment, l'ignore et se met au travail.
+Et travaille...
+Et travaille...
+endscene
+
+// Weeding 3?
+
+scene haven-slide-3
+$N$: Je m'appelle Nova. Je suis la Nanonettoyeuse. J'ai été créée par le Centre pour une raison bien spécifique. Mon destin fait partie intégrante de la structure même de l'existence. Ma vie n'est pas un jeu que je devrais prendre à la légère, ni un fantasme qui doit servir mon propre amusement. Aujourd'hui je ne déverse pas une possession ou un cadeau... Aujourd'hui, je déverse mon être.
+[FADEFULL]
+Les jours défilent et Nova passe le plus clair de son temps dans le Fruit refuge, ne retournant au Village des Poussiéreux que pour échanger son temps contre de la nourriture, dans la mesure où ses tentatives de cultures personnelles ne donnent que des fruits minuscules ou chétifs. Elle espère pouvoir se faire pardonner ces moments de faiblesse.
+Parfois, elle croise ses amis au village.
+(... anciens amis.)
+Le jour de son prochain combat contre « Ron la Bûche » finit par arriver...
+endscene
+
+scene haven-misc
+$N$: Je dois aspirer et lancer les dés pour les faire rouler.
+$N$: Le premier rite est accompli, alors je dois traverser le pont.
+endscene
+
+
+scene wrestle-3-intro
+__c1 $DK$: Eh, mon petit bouillon ! Content de voir que tu as pu venir !! Je n'étais pas sûr que...
+$N$: J'ai une dette envers le village pour son hospitalité. Je n'aurais pas survécu sans votre aide. Et donc, je compte bien la rembourser.
+__c1 $DK$: ...
+__c1 $DK$: Nova... pourquoi les choses doivent-elles être ainsi ? Tu t'amuses comme une folle sur le ring ! En quoi est-ce si gênant ?
+$N$: Ce qui « m'amuse » n'a rien à voir avec ce qui est juste.
+__c1 $DK$: D'accord. Bon, quelles que soient tes raisons... je suis heureux que tu sois là.
+__c1 $DK$: Hum... nous allons nous battre jusqu'à nous retrouver dans une impasse, puis nous ferons équipe contre un combattant surprise, ça te va ?
+$N$: Oui.
+endscene
+
+scene wrestle-3-intro-2
+$AN$: Ron la Bûche avait hâte de reprendre sa couronne à la Sorcière des Herbinettes ! Il en aura enfin la chance ce soir ! Vous l'aurez tous deviné, c'est l'heure de la CAAAAAASTAGNE DES POUUUUUSIÉREUX !!!
+endscene
+
+scene wrestle-3
+Drem: Tu es prête Nova ? Échangeons des coups. Attaque-moi, mais prépare-toi à éviter si tu vois que je prépare quelque chose !
+Drem: Parfait ! Je vais frapper le sol. Utilise les gravats qui apparaitront pour m'attaquer !
+Drem: Voilà le moment pour notre impasse !! Pare mon attaque, puis nous la renverrons tour à tour !
+endscene
+
+//<after you do this for a while, the new challenger falls into the ring stomping the attack. Nova and Drem vibrate from the impact and look surprised (!) (!)>
+
+scene wrestle-center
+?: LE BAL COSTUMÉ EST FINI, LES RATÉS !!!
+$AN$: QUOIIIii ?? Qui ose interrompre le duel entre Ron la Bûche et la Sorcière des Herbinettes ?? Qu'est-ce que ça signifie, Étranger masqué ??
+?: Silence, VIL ASTICOT !! Regardez-vous... Mais vous être pitoyable !! CES ignobles vermines sont vos champions ?? MUHAHAHAA !! Je suis le seul digne de porter la couronne ! Car je suis votre véritable maître, et je suis revenu revendiquer ce qui devrait être mien !!
+?: Oui, c'est bien ça... C'est moi... LE CENTRE !!! oh-oh-oh-oh-oh-oh-oh...
+Le Centre: OH oHoHoHo HoHoHoH...
+__c1 $DK$: (Ahaha ouah, c'est génial !)
+Le Centre: OoooH ohoho HOHO hohohoooooh...
+$N$: ...
+endscene
+
+scene wrestle-center-2
+Le Centre: Cela fait trop longtemps que vous autres « les Poussiéreux » défiez l'ordre naturel des choses !
+[SOUND wrestleboo 1 1]
+Le Centre: Vous vous roulez dans vos saletés et paradez tels de sales virus dégoûtants !!
+__c1 $DK$: Attends un instant, le Centre !! Je suis Ron la Bûche, et je suis fier d'être un Poussiéreux.
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: Tu devrais y réfléchir à deux fois avant d'insulter mon peuple de la sorte !
+Le Centre: Tu oserais me tenir tête ? Toi... une minuscule brindille ?? GRAHAHAHAAH !!
+[SOUND wrestleboo 1 1]
+Le Centre: Je pourrais te transformer en petit bois rien qu'en claquant des doigts !
+__c1 $DK$: Peu importe ce qui m'arrive ! Les Poussiéreux ne cesseront jamais de vivre ! Dès que quelqu'un dans la Nouvelle Laterre choisit la vulnérabilité plutôt que la domination... cela fait d'eux des Poussiéreux !
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: Dès que quelqu'un en proie à la peur de l'annihilation trouve une beauté et une valeur renouvelées dans la vie, c'est qu'ils sont des Poussiéreux !
+[SOUND wrestlecheer 1 1]
+Le Centre: Qui es-TU pour t'opposer à ma volonté ? JE t'ai créé !
+__c1 $DK$: Peut-être, mais si tu m'as créé, tu devrais déjà comprendre ça : je suis ma propre personne ! Ce sont mon cœur et mon esprit qui me dirigent !! Notre nature même t'interdit d'avoir un droit sur moi, ou sur l'un d'entre nous. Nous existons et nous sommes beaux, et tu n'as AUCUN droit sur nous !!
+[SOUND wrestlecheer 1 1]
+Foule: RAHHHHHHH !!!
+Le Centre: S-silence, insolente petite TACHE ! Nous avons bien assez parlé. Prépare-toi à combattre !! GRAHAHAHAHAAAH !!
+endscene
+
+
+scene wrestle-center-3
+__c1 $DK$: S-sorcière... Toi et moi... sommes tous deux des plantes. Nous nous sommes disputé le sol pour croître pendant si longtemps. Mais je le vois à présent... au fond de nous, nous sommes pareils... En nous, c'est la vie qui triomphe, alors que le monde est froid et stérile !!
+__c1 $DK$: Moi, Ron la Bûche, je ne peux pas vaincre le Centre sans ton aide ! Je t'en prie ! Ensemble, nous pouvons faire d'un futur où nous grandirons tous les deux, une réalité !!
+$N$: ...
+$N$: Ma... ma tête...
+endscene
+
+scene wrestle-vision
+[FADENOFADE]
+Nova en est horrifiée. Elle entend les bruits de pataugement des Veurs qui souffrent et elle ressent le souffle chaud qui accompagne la langue envahissante de Gustine Papellum. Les Poussiéreux n'étaient pas là pour voir Misteria Waizel dépérir seule dans une chambre sombre et désordonnée ! Ils n'avaient pas dû encaisser la violence de la rage sans fin de Bran Maligden !
+[CLEAR]
+Aveuglés par l'arrogance, ils ne pourraient jamais comprendre la véritable nature de la Poussière ! Psalmiste-C avait prévenu Nova d'une telle folie ! Elle avait été mise en garde !! Et maintenant, les Poussiéreux allaient brûler, et Nova avec eux. Qui peut échapper à son destin ? Il n'y pas d'autre avenir que le Centre. Stupide, dégoûtante, idiote... mais à quoi pensait-elle ???
+endscene
+
+scene wrestle-3-end
+$N$: ...
+... ...
+... ... ...
+__c1 $DK$: Sorcière ?
+endscene
+
+//<Nova jumps out of the ring and runs away>
+//<Cut to a separate screen. Nova walking away>
+
+scene db-blowup-0
+__c1 $DK$: Attends !
+__c2 $EB$: Nova, reviens !
+endscene
+
+scene db-blowup-1
+__c1 $DK$: Attends petite panure, je suis désolé ! Je ne pensais pas que ça se passerait comme ça... J'imagine que tu devais être mal à l'aise. La prochaine fois, nous planifierons tout ensemble !
+$N$: La prochaine fois ? Mais il n'y en aura pas !! Je n'ai pas ma place ici, Drem, tu ne le réalises toujours pas ? Et arrête de m'appeler par ces ridicules surnoms de choses qui se mangent.
+__c1 $DK$: Je suis désolé, Nova, vraiment. Tu n'auras plus à combattre... Mais ça ne veut pas dire que tu n'as pas ta place ici.
+$N$: Je suis venue ici par devoir. Je suis venue ici pour Palissade ! Je ne sais pas pourquoi je vous laisse tous m'embrigader dans ces jeux absurdes ! J'ai cru que peut-être je pourrais vous aider. J'ai pensé que peut-être je pourrais vous faire comprendre l'importance de combattre la Poussière.
+__c2 $EB$: Alors, un instant... ne mens pas, Nova. Tu nous as « laissé » te recueillir, car tu en avais envie ! Personne ne t'a forcé à accepter notre amitié !
+$N$: D'accord. Tu as raison. C'est bien de ma faute. Je le sais à présent. J'ai échoué. Palissade ne reviendra JAMAIS, et je ne peux m'en prendre qu'à moi-même. Je n'arrive pas à me contrôler assez pour rester ici, on ne peut pas me faire confiance. Je dois partir d'ici, et continuer ma mission toute seule.
+__c1 $DK$: Tu sais...
+__c1 $DK$: Mille milliards de mille poussières, tu es vraiment nulle quand tu t'y mets ! Avec moi, avec Élégie, mais aussi avec toi-même !!
+$N$: ...
+$N$: Désolée que ce soit ce que tu penses, Drem. Je suis désolée que le mal qui tourbillonne autour de l'ensemble du village t'ait autant aveuglé !
+$N$: Maintenant, tout est clair pour moi. Vous pensez que c'est sans incidence, mais jouer avec la Poussière finit toujours par avoir des conséquences tragiques. J'ai vu ses effets personnellement, je sais où elle vous mènera.
+$N$: Et je serais une bien piètre amie si je n'essayais pas de vous prévenir.
+__c2 $EB$: Si c'est vraiment ce que tu crois... alors peut-être devrais-tu partir, en effet.
+$N$: B-bien sûr que c'est le cas ! Je suis la Nanonettoyeuse. Je représente le Centre dans toute la Nouvelle Laterre. J'aurais dû arrêter de me morfondre et assumer mon rôle il y a longtemps.
+__c1 $DK$: ...
+__c1 $DK$: Après tout ce que nous avons vécu... Je n'écouterai pas ce discours un instant de plus.
+__c1 $DK$: Au revoir, Nova.
+endscene
+
+//<Drem walks away>
+
+scene db-blowup-2
+__c2 $EB$: Nova. Tu vas me manquer.
+$N$: ...
+$N$: ...
+endscene
+
+//<Nova steps back... steps back... then runs away>
+// Cut to handfruit
+
+scene db-blowup-3
+[FADENOFADE]
+Nova court, encore et encore. Loin du village. Elle retourne directement au Fruit refuge.
+Sans jamais se retourner.
+endscene
+
+scene rites-final-1
+$N$: Je suis désolée, Palissade, je n'ai pas été assez forte pour compléter les rites. Je...
+$N$: Eh !! Qui est là ??
+endscene
+
+
+
+
+//<camera pans to Ash Beatty holding a die by the playground>
+
+scene rites-final-2
+[FADE]
+« Non Cendra, non !! Lâche ça, MAINTENANT ! » lui ordonne Nova, sur un ton sec.
+« Hé hé hé ! Tatie Nova, jouer ! » couine Cendra en s'agitant autour du dé sacré.
+« Arrête ça ! Tu ne sais pas à quoi ça sert ! » grogne Nova en approchant de l'enfant.
+// 4 6
+[FADE]
+Cendra Betty glousse et s'enfuit. « Attrape-moi ! Attrape-moi !! » crie-t-elle. Elle court sur le pont rituel, s'arrêtant seulement pour sauter sans retenue en plein milieu.
+« Reviens ici !! Vilaine Cendra ! Tu ne fais que des bêtises ! » crie Nova.
+
+// 7 10
+[FADE]
+Le sourire de Cendra disparait lorsqu'elle réalise que Nova est réellement en colère.
+« Moi... P-pas vilaine !! » hurle Cendra.
+Elle s'échappe par la glissière à offrandes, et s'enfuit...
+
+// 11 12
+À présent, Nova était réellement seule.
+$N$: ... Non... non ! Non NON NON NON NON !!!
+
+// Fade to black, turn off anocontrol2d
+endscene
+
+scene rites-final-3
+[FADENOFADE]
+La honte et la colère submergent Nova, au-delà de tout ce qu'elle peut contrôler. Ses pouvoirs s'abattent sur le Fruit refuge comme un ouragan furieux. Les composants du rituel sont déchiquetés et jetés violemment contre les murs parfaitement sculptés. Lorsqu'elle a terminé, il ne reste plus que des débris...
+//show exterior of Handfruit haven with explosions all over it. Maybe zoomed out image. Fade to white as explosions continue.
+endscene
+
+// zoom stuff
+
+scene db-spire
+[FADE]
+Nova se penche au bord de la flèche pour regarder en bas. La tempête de poussière est toujours là, se déchaînant calmement.
+Elle tente de réfléchir sur ce qui est arrivé ces dernières semaines, mais son esprit est occulté par des vagues de colère. Elle ressent des picotements désagréables dans la gorge et une drôle de lourdeur dans les jambes... mais les ignore.
+Comment les Poussiéreux pouvaient-ils vivre de la sorte ? Comment Palissade pouvait-elle avoir disparu ? Avant qu'elle n'arrive à formuler une réponse, ces questions tournoient dans sa tête, l'empêchant d'avoir les idées claires.
+[CLEAR]
+Mais que se passait-il ? Peut-être que le Centre aurait les réponses, mais pour l'instant, Nova traînait son corps rompu sur le chemin du retour vers le Sanctuaire du Centre...
+endscene
+
+
+scene dbn-haven
+Voici un Fruit refuge pour ma précieuse Nova. Puisses-tu être en sécurité ici, jusqu'à ce que le chemin à suivre s'éclaircisse.
+endscene
+
+
+scene db-painter-1
+LaShawn Mélange: Ah. Hum. Bonjour. En effet, tu es bien au village des Poussiéreux ! Ah. Tu cherches la Clairière du Lien ? Un peu plus à l'est.
+endscene
+
+
+// day2+
+scene db-painter-2
+LaShawn Mélange: Ah. Hum. Je suis peintre de Poussière. Oui. Je mélange la Poussière avec du liant, et je peins des portraits de personnes et de plantes. C'est bien ça.
+LaShawn Mélange: Les peintures à la Poussière... Hum. Elles finissent forcément par revenir au néant. Donc, leur utilisation n'est que limitée pour un collectionneur. Mes œuvres pré-Poussière circulent encore sur les marchés d'art, se vendant à des prix toujours plus élevés. Il est d'une facilité déconcertante pour le pouvoir et l'industrie de détourner des œuvres bien intentionnées, jusqu'à ce qu'il ne reste presque rien de leur valeur originelle.
+LaShawn Mélange: Qu'est-ce qu'un grand artiste ? Ah. Hum. Simplement une personne.
+endscene
+
+
+scene db-girl-1
+Millecent Pham: Oh euh hééé... C'est la fille qui est tombée sur le nid de guêpes. C'était marrant héhé... Je voulais dire triste.
+Millecent Pham: Hé, mademoiselle nid de guêpes... Il faut que je te parle. On m'a dit que tu venais à l'origine d'un monde « Troadé ». Qu'est-ce que ça peut bien vouloir dire ? Y'a des gens là-bas, avec des pensées, des vies et des sentiments ? L'existence est bizarre.
+// translation note: Threedy = phonetic spelling of 3D
+endscene
+
+// day3+
+scene db-girl-2
+Millecent Pham: Eh bien, si ce n'est pas la Sorcière des Herbinettes ! Alors comme ça Drem t'a initiée aux combats ? Je pensais pas que t'en étais capable. Comme quoi. On a tous de multiples facettes, j'imagine. Littéralement, avec un peu de chance. Comme s'il y avait plein de petites personnes à l'intérieur de nous, tu vois ? Parle-moi encore de ton étrange travail...
+Millecent Pham: Je voulais combattre depuis un moment. J'arrive pas à croire que t'y sois arrivée avant. Mince. T'as allumé un feu en moi, mais c'est toi qui vas cramer ! Hé hé hé. Je m'entraîne à clasher.
+endscene
+
+scene db-misc-npc
+Phasmo Chani: T'as déjà goûté au jus de Poussière ? J'ai perfectionné la recette de cette boisson rafraîchissante ! Commence par prendre un verre d'eau et mets-le sur ta table de nuit. Assure-toi qu'il ne soit pas couvert !! Puis, attends quelques jours. Enfin, réveille-toi au beau milieu de la nuit et prends une grosse gorgée. Miam... du jus de Poussière !
+Phasmo Chani: Beteruse Fervent était un « Nicologue », ce qui signifie qu'il étudiait les « Nicolas » !
+endscene
+
+scene db-mike
+// at funeral
+Bonjour, moi c'est Nicolas, le Champignon. Mais mes amis m'appellent tous « Mycose là » ! Je travaillais en étroite collaboration avec Beteruse Fervent. Vraiment, une bonne âme, avec un esprit de plante carnivore !
+// during free time
+Je suis un champignon seul, mais je suis connecté à un énorme réseau fongique dont les extrémités s'étendent bien au-delà des limites du Village des Poussiéreux. Où est ma place ?
+endscene
+
+// day2+
+scene db-grub
+Do Larvaille:\nLe sol est moite, le sol est doux\nLa terre est délice, un bonbon tout mou !
+Re Larvaille: Une idée de goûter amusante pour les enfants : essayer de compacter de la terre noire pour en faire un gâteau. Puis, trouver de la moisissure blanche pour le « cœur de crème fondante ». Compris ? Comme ça, tu peux faire semblant de manger un gâteau au chocolat fourré (ahah... burk ! Dégoûtant !!) mais au moins, il aura bon goût !
+Mi Larvaille: Ah... Nous avons tant voyagé à la recherche de la terre parfaite. Nous y voilà. La Poussière des Poussiéreux a une telle profondeur de saveurs ! Un goût de citron subtil vient équilibrer sa forte saveur umami.
+Fa Larvaille: Hum. Je n'aime pas vraiment le goût de la terre. Mais ce n'est pas grave. Je peux manger plein d'autres nourritures, et mes amis m'aiment comme je suis !
+endscene
+
+scene db-ano1
+Boucloé: J'ai voulu me débarrasser de ce bouclier depuis qu'on m'a dit « Mais de quoi tu te caches ? ». Ils ont raison. De quoi est-ce que je pourrais me cacher de toute façon ? ... Je vais peut-être quand même le garder pour aujourd'hui.
+Grenouille: Quel sublime environnement humide ! Crô-ô-aaa. Je suis une grenouille. Crô-aaa. La pollution industrielle peut s'infiltrer dans le sol et mettre en danger la vie des résidents, tu le savais ? Heureusement, il n'y pas d'industries dans le coin.
+Voyant: Je vois... dans ton futur... la couleur grise... poussière. Quoi ? Tu le savais déjà ? Pas de problème. Les gens trouvent que mes services sont thérapeutiques. Même si je me trompe de temps à autre, voire même à chaque fois.
+Individu: Ça t'arrive de penser aux gens à qui on manque de respect toute la journée ? Au début je disais « Te laisse pas faire ! » mais en repensant à la situation plus en détail, ça me rend triste. Les causes sont si profondément ancrées...
+endscene

@@ -1,0 +1,641 @@
+﻿
+scene carwash
+EW: Good afternoon, and welcome to Wosch Car Wash! I am the Eponymous Wosch! No doubt you have traveled far for a taste of our world famous amenities, am I right? Deep tissue scrubbing to ease your aches and pains... a gentle rinse in the ambrosian cascade... and to finish: a luxurious, plush toweling!
+EW: Or... that’s what I would say, if we had power. Alas! Our generator is on the fritz and my assistant seems to have misplaced the ladder...
+
+//2 repeat before carwash on
+EW: Hello again, Nova. With a heavy heart, I must inform you that our generator is still nonfunctional. If only there were a way to climb up there and give it a jolt!
+
+//3 repeat after carwash on
+EW: Oh, the power is back on! Was this your doing, Nova? I hereby declare you a Friend of Wosch Car Wash. Such is my prerogative, as the Eponymous Wosch! Now, might I interest you in the Complete Wosch Experience: A Rejuvenation of the Body and Spirit? On the house!
+
+//4 while Nova is hurt before dustbound
+EW: Ah... Nova, Friend of Wosch Car Wash... you are looking a bit unwell. Is there anything I can do for you? Ah, I see... some problems are beyond even the power of a first-rate car wash to remedy...
+endscene
+
+scene carwash-helper
+// before turned on
+Assistant Plumkins:n *Grumble grumble* Ah, how am I supposed to fix that short-circuiting generator now?? Can't just climb all over the roof like a healthy youngster anymore! Where the heck's my ladder?
+// after turned on
+Assistant Plumkins:n Well golly! Look at that! The generator's back on! 
+endscene
+
+scene carwash-hint
+Without power from the ceiling lamp generator, the back door is stuck shut! Perhaps Nova can lend a hand...
+endscene
+
+
+scene ring-health
+Eldi:n These hills get bigger every year! Now, I just can't make the walk anymore...
+Eldi:n I always told myself, distance is no bother! I can make the hike through the hills! It's no problem if it means seeing my dear friend. And yet, life conspires, once again, to separate us. First, different schools. Then, different jobs, and then, different places to live.
+Eldi:n Nova, I know you must be busy, but if you have the chance, could you bring this package to my dear friend? She lives on the outskirts of a farming village, a bit outside of Cenote. She'll be in her home. 
+Nova received a neatly-tied package with a cream-colored bow.
+Eldi:n Once you deliver it, please let me know! Thank you so much!
+// Repeat
+Eldi:n Oh, Nova, please bring that package as soon as you can! My friend lives on the outskirts of a farming village. I hope she's doing well...
+endscene
+
+
+scene ring-health-2
+//Interacting with house without the package
+It's just a regular house. The mailbox is stuffed full of mail.
+
+// Interacting after leaving package
+... It's the house of Eldi's friend. Nova left a package for her here, but it's still unclaimed. Nova ought to return to Cenote to tell Eldi the news.
+
+// Interacting with package, before leaving it
+[FADE]
+The lights in the home are off. The door appears unkept, dusty. However, the address is the same as that on the package that Eldi gave to Nova. Nova knocks on the door. 
+No reply...
+Nova knocks again.
+...
+[CLEAR]
+Nothing.
+Nova wonders where this friend could be! She notices the mailbox, stuffed full of mail.
+She decides to leave the package here, and go tell Eldi the news, who is near the bottom of the elevator in Cenote.
+endscene
+
+scene ring-health-3
+Eldi:n Oh, Nova, you're back! How is my dear friend? Did she serve you one of her fungus tarts? Did she mention the story about her knocking over the pasta sauce shelf in Cenote Market?
+Eldi:n Oh... she wasn't there? The mailbox was full? Did you knock? That's strange, indeed...
+Eldi:n You know, Nova, I haven't heard from her in a while. Perhaps she moved somewhere else, and began life anew.
+Eldi:n It seems that this is the strongest test of a friendship's bonds... yes, perhaps this separation will be the one that never ends. 
+Eldi:n Anyways, thank you, Nova. You must be so busy. Please, for your trouble, take this. I hear it might be handy for you.
+// chest message - chest3d 0
+
+// repeat with this only
+Eldi:n Hmm, I suppose I'll go rest a bit for now. Perhaps, go and write in the old journal, and record these thoughts of mine, reflect upon old ones.
+endscene
+
+
+//<After you finish 1 NPC, after you exit nanoscale but before you reappear in 3D we cut away to Palisade. Palisade is flying through a dusty storm, coming upon the giant mountain>
+scene ring-pal-1
+P: Perhaps this place... yes... fortified and safe... visually distinctive... 
+endscene
+//<Palisade flies towards the mountain>
+
+
+//<After you ffinish all 3 NPCs, after you exit nanoscale but before you reappear in 3D we cut away to Palisade. Palisade is working the Handfruit Haven with needle-like tools... carving it out>
+scene ring-pal-2
+P: Ahhh... heheehee! I hope she will enjoy that little detail... Ah...
+P: She’s had such a hard go of it... I want her to have a space where she feels free from all the burdens of the world. Fate be darned, she’s still so young...
+//<Palisade holds it up proudly and examines it>
+P: I just don’t understand It... perhaps I’m making a big mistake... but I need to do *something*...
+endscene
+
+
+
+scene pal-ring-3
+P: Nova! It’s me, your guardian Palisade!! I’m sorry I was gone for so long. Ahhh... look how much you’ve grown!
+[FADE]
+Palisade reaches out and gently strokes Nova’s cheek. Nova shudders softly, holding back the urge to throw herself into Palisade’s arms.
+[FADEOFF]
+P: Before your next Dust Drop, there’s something I need to show you. You see, Nova... you have been doing a wonderful job of cleaning New Theland—and I am so proud of you! But I fear that I have not done an equally stellar job in taking care of *you*.
+
+//5  Palisade switch from Float to FloatNervous anim
+P: You are the Nano Cleaner, yes. But you are more than that. You are a person, with feelings and needs and desires. I want you to know, Nova, that all of this matters... every part of you! Work and play, joy and sadness, strength and weakness. There is room in the world for all of Nova!
+P: Um... well, I shouldn’t say more until we are further along. Just... come along and—
+
+//7 violent glitching (still normal lighting)
+//Nova = IdleLookingUp animation
+//7Pal = Glitch1 animation looping
+P: NoNoNova... TTTTraverse tHe storM... You yOu yoU Must find iT... fINd the the the—
+P: ...!!!
+endscene
+
+scene pal-ring-3-2
+[FADENOFADE]
+Palisade manages to reach out her hand, touching Nova's forehead. A series of images flash across Nova’s mind:
+
+// 3 images pass in sequence, regardless of player input (it will be reviewable)
+//2/ we see 3d view again, but lighting is weird and red?, palisade glitching for a beat and then warping out of existence as nova holds up her arms, shielding her face, pause for a moment  fade to black.
+[FADENOFADE]
+???
+Nova feels like a piece of her soul has been torn asunder, like something as vital as blood has suddenly vanished from her limbs. What just happened? She cannot make sense of it!! Surely this was a fluke... a faulty projection... a lapse of the mind! It couldn’t mean... no...
+...
+[CLEAR]
+After some amount of time (was it minutes or hours?) Nova struggles to her feet, her mind desperately groping to make sense of the images left to her by Palisade.
+Received item: Palisade’s Vision.
+// normal lighting... nova gets up from ground
+endscene
+
+//interacting with elevator
+scene ring-nova-sad
+Nova thinks back to Palisade’s vision. No... she was not meant to go to Center City Cenote.
+endscene
+
+scene ddp-disillusioned-repeat
+Nova thinks back to Palisade’s vision. No... there's no need to deposit Dust.
+endscene
+
+//<Palisade begins glitching violently. As a final act, Palisade reaches out her hand and touches Nova’s forehead. Images of 1) a landmark at the edge of Desert, 2) the mountain, and 3) handfruit haven flash in sequence in Nova’s mind. Then Palisade disappears.>
+
+//<Nova falls to her hands and knees. Walking around is slowed down. Elevator does not work. If you stand still for too long, Nova returns to hands and knees and has to get up before moving again. Ridescale works tho (maybe top speed is decreased). You can only go thru the doors that lead you to Handfruit Haven. No talking to NPCs. You can try sparking but it’s small and fizzles out?>
+
+
+
+scene spire-wall-blocked
+[FADE]
+The Dust Storm that once blocked Cenote now blocks the frontier into the Outer Sands.
+Its infectious forces rage and flow, forming a gigantic wall inches away from Nova, so close to snuffing out her life, her responsibility...
+[CLEAR]
+And yet, in this storm’s chaos is a strange feeling of beauty, of comfort. To Nova, it almost feels like the walls of a home, protecting her and other inhabitants from what lies outside.
+[CLEAR]
+Nova wants to go further, but, she knows it would only endanger her mission. The Center holds the key to proceeding further. She must restore its power!
+endscene
+
+scene spire-tree
+[FADE]
+The tree from the vision! An intricately-carved fruit hangs from its central branch. Palisade has led Nova to this fruit... surely answers must lie within. Grasping at this faint glimmer of hope, Nova musters up the strength to spark a connection.
+endscene
+
+scene spire-eat
+[FADENOFADE]
+Nova begins to spark the fruit, but...
+A wild, dusty beast leaps onto the edge of the plateau and eyes the fruit curiously!
+[FADENOFADE]
+Before Nova can react, the beast bounds forwards and swallows the fruit whole! Nova flushes with anger and embarrassment. If only she had arrived sooner! Now there was only one way she could possibly reach the fruit.
+... That's right! Shrink forth, Nano Cleaner Nova! Be brave!
+Handfruit Haven used to hang here.
+endscene
+
+scene gravity-sigil
+(Don't forget! On keyboard, you can use {CAMTOGGLEK} to adjust the camera angle! On controller, use the right analog stick.)
+[FADENOFADE]
+Nova sees the Sigil of Palisade! She reaches her hand up to the sigil, touching it, and... the gravity inside the cave has reversed!
+[FADENOFADE]
+... The gravity in the cave is back to normal. It appears Nova has managed to fall to the top of the spire!
+endscene
+
+scene geof-return
+The Nanopoint is unresponsive. Nova decides to return to Geof's resting place.
+endscene
+
+scene geof-intro
+//Cicada sounds
+[FADE]
+The rocky form wobbles, gasping and struggling to move its body - almost pitiful. Had an unwavering master worked it to death? Did it fall from the homes above, and cry out to no response? 
+Then again, what if it was just a pile of rocks? An illusion, or one of the beautiful props placed by The Center.
+endscene
+
+scene geof-1
+GA: I... am Geof. Nova, I've heard rumors of you - tales of freeing people from the prison of Nano Dust. But... leave me be, so I may crumble to sand, travel on the wind, and bring joy to lovers as a beautiful beach. 
+endscene
+
+scene geof-2
+GA: No. I cannot fade away. I need to dig. I must dig! But, for what? I am Geof, but why am I here?
+[FADE]
+A gentle wind wraps Nova's body. She wonders... Geof must have been digging for a while. Years? Decades? Nova could not fathom that timescale. What it would be like to have your life frozen, repeating the same actions, years on end?
+Hmm... for how long must she clean?
+[FADEOFF]
+endscene
+
+scene geof-3
+GA: Why do I dig? I need strength - I need purpose. Please, Nova, help me remember!
+endscene
+
+// Geof's Town
+
+scene grave-1
+(Granite, 34, beloved elementary school teacher. Believed that children were the way to protecting our futures. "No student is evil. A misbehaving child's problems always have a cause.")
+__c1 $GA$: Hmm... is this a graveyard?
+endscene
+
+scene grave-2-1
+(Amethia, 10, beloved daughter of Mayor Geof and Silico. It was too soon. We miss you, every day.)
+__c1 $GA$: I... have a daughter?
+endscene
+
+scene grave-2-2
+(Stonny, 9, spry, inspiring boy. We’ll fondly remember the treats you'd make for us.)
+endscene
+
+scene grave-2-3
+(Phosphor, 50, the best farmer. Her techniques for cultivation were irreplaceable. We’ll miss the love you had for the Earth.)
+__c1 $GA$: Nova... are these people related?
+endscene
+
+scene grave-3-1
+(Lootia, 44, chief imports manager. We’ll miss you.)
+__c1 $GA$: A town. I can see a town. It rises into my memory. Did I live in this town?
+endscene
+
+scene grave-4
+(Silico, 46, loving husband of Mayor Geof, and father of Amethia. It was too soon. I should have spent more time with you.)
+__c1 $GA$: Mayor Geof? Nova, this might be me.
+__c1 $GA$: These names. At first, I was disoriented, but. I feel something coming back together.
+endscene
+
+scene grave-5
+(Geof, 42, mayor of this once-prosperous farming town)
+(...and eternal fool. Dug away the ground, soiling his hands and destroying this town.)
+(Die alone, freak!)
+__c1 $GA$: Nova. I was a mayor once. My citizens, my family... they're dead? Did I fail them? What happened? Please... keep cleaning. I must regain my strength.
+endscene
+
+scene geof-gardeners
+May the stories of the fertile town send you upwards.
+Stone Larva: The formula for success is belief. I put my belief into action by feeding and praying for this tower. One day, it will reach the sun!
+Stone Larva: My ideal is to nurture this tower. There is no other purpose... as long as it lives, and it is sustained... I am happy.
+Stone Larva: Has your life given birth to a beautiful moment? I am waiting for that moment, suffering, waiting for this tower to grow. One day, this vile world will sparkle with its beauty...
+Stone Larva: How tall should this tower grow? Will its beauty peak? ...There's no point in wasting time with useless questions. Grow, grow, grow...
+endscene
+
+
+scene geof-homes
+// 0 1
+A faded sign says "Mayor Geof's Office". Below that is a faded piece of paper saying "Evacuation Notice".
+[FADE]
+What's this? Nova feels a strange power in the house. She feels as if she could shrink into this home...
+// 3
+It says "Lootia's Shop". It's been locked for a while, and the handle is rusted.
+It says "Stonny's secret base! Keep out, evil fungus!!"
+A sign says "Amethia, Silico and Geof's home."
+endscene
+
+scene golem-npc-1
+Granite: ...Ah Geof, how are you? How is Amethia? Not still trying to fix your field, are you? I read that this type of fungus has some experimental uses! Perhaps we could utilize it to compensate for lost crop!
+__c1 $GA$: Oh, hello, Granite!
+__c1 $GA$: ...
+__c1 $GA$: He can't hear me? Odd... besides, why would Granite be here?
+__c1 $GA$: Ah, our fields... were infested with fungus! Of course, I tried to fix the fields. A mayor's duty is to his people.
+__c1 $GA$: Still, Granite ought to encourage me!
+endscene
+
+scene golem-npc-2-1
+Amethia: Daddy... can you make the fungus go away? *Cough* It's so hard to breathe! Silico's worried too.
+__c1 $GA$: Yes, yes Amethia, of course daddy can. Just give him some more time! Soon, these fields will be as good as new!
+__c1 $GA$: I just... need to dig away these nasty fungi! Just like you wash away germs from your hands!
+endscene
+
+scene golem-npc-2-2
+Stonny: Geof, you're not gonna move, are you? My daddy said you don't really care about the fungus! I don't believe him, though. I think he's the liar. *Cough, cough*
+__c1 $GA$: Oh, poor Stonny... I - I will save this town!
+endscene
+
+scene golem-npc-2-3
+Phosphor: Hey, Geof, I heard you’re trying to dig out the fungus. But, fungus doesn’t grow from nothing! You ought to try something else. A fungus is really a big network of organisms, after all!
+__c1 $GA$: Oh, there’s Phosphor again, always giving me advice! So good-natured... but, digging is the only solution.
+endscene
+
+scene golem-npc-3-1
+Lootia: Geof, you've been digging for weeks now! *Cough* I know you mean well, but you're taking this too far.
+Lootia: Business from Cenote is bad... I need to move.
+Lootia: Everyone knows the fungus is bad for the lungs *Cough*. There's even a rumor Nano Dust is causing this! Cenoteites want nothing to do with us.
+Lootia: Please, Geof... just give up. Move on.
+__c1 $GA$: Ah, how noble of me! Committed to a cause! Please, Lootia. Just a little more time.
+endscene
+
+scene golem-npc-misc
+// 0 1
+Someone: Are you sure we don't have enough money to move to Cenote?
+Someone else: Yes!! We can't!! We have enough to move the furniture, but they want a safety deposit, too. We'll just have to put our faith into Geof's plan.
+
+// 2
+*cough, cough* The air is soo bad... what did we do to deserve this? Oh, Center, help us...
+
+// 3 4
+You're destroying the town! Half of the fields are totally dug up, news is spreading, and the fungus is still here! When are you going to cut it out, Geof? *Cough*
+__c1 $GA$: ... for the greater good, sacrifices must be made.
+
+// 5 11
+Mayor Geof, umm, uhh...
+...
+No, no, I wasn't gonna...
+...
+Ahh! Don't say that! I just want to, I just wanted to say... maybe...
+...
+__c1 $GA$: Oh, child, I know that you're scared, but, I can't, and won't give up.
+endscene
+
+scene golem-npc-4
+Silico: Geof, these fields are dead, and we need to move.
+Silico: And NO, you can't fix it alone! This problem has a source, and it's beyond us. Please. *Cough, cough* We all know the Nano Dust is feeding the fungus, and we can't stop it! You need a Cleaner, and quick.
+Silico: Please... it's over. Half the village has relocated. This is our world now.
+...
+Silico: Why can't you trust me?? I’m leaving, tomorrow. I'm taking Amethia and taking refuge in Cenote. Please, Geof...
+__c1 $GA$: Silico, oh, dear partner... Even you can't understand? Don't you want to save the town? If only he could empathize with me... 
+endscene
+
+scene golem-boss
+__c2 Geof??: Another day with this Nano Dust getting everywhere! At this rate, the town's done.
+__c2 Geof??: Silico? Are you there? Help me out! Get a shovel and come over here! We need to throw away all of this soil, NOW!
+__c1 $GA$: Nova, that's... that's not me. Right? Why does it look like me? G... get out of there, now!
+endscene
+
+scene golem-crystal
+[FADENOFADE]
+$GA$: I remember it now. One day, fungus began to grow on our fields. Crops would die, and disaster was ahead. Without crops, the town would have no tourism, no exports. And so, I took it upon myself to save this town.
+Day after day, I dug. I cleared the fungus, restoring the fields, and yet… people left! They quit! They gave up on our town! Why would life place such curses on me?
+The pleas from the other citizens were convincing, but... Nova, now that I am clean, my memory restored, I must listen to my heart. I will carry on the work and clear all this fungus away. One day, I will succeed. Just like you, Nova.
+[CLEAR]
+And yet...
+...
+...
+[CLEAR]
+Ah... perhaps it's time for a rest. *Cough* Yes, just... just a quick rest. I feel so heavy. This heaviness, a weight on my shoulders...
+Tomorrow, we clear the soil, once, and... for all...
+endscene
+
+scene golem-after
+[FADE]
+There's no response from Geof. He appears to move, but, perhaps it's just an illusion.
+endscene
+
+
+scene ccc-geof
+Amethia:n Oh!! Are you Nova, the Nano Cleaner saving the world from the Nano Dust? 
+Silico:n Amethia, who are you talking to?
+Silico:n Nova? You're the Nano Cleaner?
+Silico:n ...
+Amethia:n I think my daddy's starstruck. I believe in you. I really really do!
+Amethia:n Daddy, look, she's the Nano Cleaner! She can save anything! Maybe -
+Silico:n That's enough, Amethia. We can't be putting our personal worries on her. I'm sure she's very busy.
+endscene
+
+//
+//
+//
+//
+//=====================================================
+//=====================================================
+//=====================================================
+//					NanoStalker
+//=====================================================
+//=====================================================
+//=====================================================
+//
+//
+//
+//
+
+
+scene stalker-snowman
+Me and the other snowmen have come from another world. Most of us are just relaxing, but... a few have joined Iwasaki's Fan Cave. I guess... such things are to be expected when travelling far from home.
+Some of the snowmen dissented with our nomadic ways... they wanted purpose beyond our lives of solitary contemplation and occasional travel. Well, I suppose they've gotten the purpose they've wanted here...
+endscene
+
+scene stalker-npc
+// Rock
+Faithless! Turn back. Only the disciplined will transcend the Snowfield and be accepted into the Tree Master’s Temple.
+
+// In snowfield 1 2 3
+Brr... I... I-I... am not worthy to leave the snowfield. I must practice my tree sculpting and endure this weather. Iwasaki told me that only when I understand the meaning of a blossoming petal, peeking from snowcaps, will I proceed. Brr... so cold. I haven't seen a single petal for the past week...
+Iwasaki and some others suggested I need to improve my tree trimming fundamentals. That I needed to master the basics before I considered getting closer to the temples. But I'm too cold to even hold the trimming scissors... brr...
+According to the Fan Cave's trials, I am but a mere C-License Arborealist. My goal? A B-License. I won't have to trudge around here anymore.
+
+//Worshippers outside the tower structure. 4 5
+I am an A-License Arborealist, nearly ready to enter the Master's grounds. Only a few have the S-License to enter. Like Iwasaki. Oh, beautiful Iwasaki! How his dedication to the trees shines. He is a man of worth for these sacred grounds.
+Out of the S-License Arborealists, clearly Iwasaki is the strongest. I aspire to be like him, and yet… I have not even read 'Grimoire Bark'. Excuse me, I must continue my studies.
+
+//Worshippers after returning from 3D, near the crystal 6 
+When I obtained my S-License, I realized… it was because of Iwasaki’s teachings, patience, and resilience! Not the 'Tree Master!' I shall discuss the possibility of a new license, only for Iwasaki... ah yes... the 'I-License'.
+ 
+// Rock before ascent 7
+In the skies above, lies the temples of the Tree Master! Only those worthy should step forth...
+endscene
+
+
+scene stalker-npc3d
+Oak B.:n When I joined this club for tree sculptors, I didn't expect people would be so skilled! Ever meet someone who's *so* into a hobby, that you lose all motivation at getting better? Maybe I'll stick to being second-rate, and find my own style of expression.
+Maple A.:n Ho-ho! Welcome to the Fan Cave! We study the work of the Tree Master. Today we're showing a gallery of our members' finest trees. That large tree was done by none other than the club leader, Iwasaki. The detailing is divine! When I drift to sleep, I wonder if I'll ever reach that level of skill... sigh.
+Yew S.:n You there! You haven't seen a man by the name of Tree Master, have you? We organized this Tree Sculpture show in hopes he, the world's finest Tree Sculptor, would show up and offer his advice. But he hasn't showed up. Perhaps we need to do better. Yes! We must work harder!
+Magic B.:n The Tree Master always says: "look into the eyes of a potential patron with confidence! Show them that they MUST buy your work!" But what am I supposed to do when there's no one to look at my work...?
+Willow C.:n I just joined the club. I'm still too nervous to touch a pair of shears. Besides, I haven't even finished watching the 80-video training course!
+endscene
+
+scene stalker-1
+[FADE]
+At the center of the garden cave, Nova sees someone gesturing strangely at a tree.
+What was he doing? Saying a prayer?
+endscene
+
+
+
+scene stalker-2
+[FADE]
+The person’s murmurs begin to crescendo...
+[FADEOFF]
+IA: Oh... great Tree Master, sculptor of the arboreal, stylist of the leaves and branches!
+IA: Hear the cries of your Official Fan Cave! We study the art of tree sculpting so that we may connect with New Theland, and honor your accomplishments.
+[FADE]
+The man’s cries echo through the cave.
+endscene
+
+
+scene stalker-3
+IA: Nothing I do ever makes the Tree Master turn my way! I’ve led the Official Tree Master Fan Cave for *years*, analyzing and disseminating his techniques for the Cave’s members.
+IA: But. We’ve never gotten an official response from him, no matter how many letters we’ve sent. Why doesn’t he care about us?
+IA: Nova, the Nano Dust, it must be responsible! I can’t find any solutions. My mind is a forest, and... I have lost my way. Please, help me achieve clarity! Fix me!
+[FADE]
+Nova wonders if this man really needed cleaning, but, it seems best to comply... after all, any Nano Dust would be a danger to New Theland.
+// unlock
+endscene
+
+
+
+scene stalker-home
+[FADE]
+An advertisement reads:
+"Best Tree Sculptor in Cenote. Used across parks and Official Buildings across the city. Call for more info."
+Through the window, Nova sees a person eating eggs at their desk.
+[CLEAR]
+... Egg ...
+[CLEAR]
+Newspapers neatly lay in a pile. A "best father" magnet adorns their fridge. A small, neatly trimmed tree sits in a pot near the person. Further into the home, Nova could see some larger trees, each with an exquisite flair.
+The home looks quite humble, but perhaps this was the Tree Master's home, after all.
+The mailbox near Nova radiates a power... it seems Nova can shrink into it!
+endscene
+
+
+scene stalker-home-2
+[FADE]
+Whoever lives here seems to prefer privacy. Nova decides to explore elsewhere.
+endscene
+
+scene stalker-crystal
+[FADENOFADE]
+$IA$: Nova, as a boy, I loved trees. Such rare beauty. How lucky it is to find one in New Theland!
+And then, I saw the Tree Master, who devotes himself to the Art of the Tree!
+I studied his trees, and began to send letters of my appreciation. But... I never got a response.
+[CLEAR]
+So, I started the Official Fan Cave. Others joined, and I led our studies of the Master, in hope that he would notice us.
+But, the cleaning! It has opened my eyes! I realized… I do not need the Master! For, in this Fan Cave… I am The Master! Ha ha! Through my struggles, I have gained skill! The fan members… they are not just members! They are my students, who I have been teaching the Art of the Tree!
+[CLEAR]
+Thank you, Nova. No longer, will the members have to quietly suffer. For, I have now become… Tree Master Iwasaki!
+endscene
+
+scene stalker-after
+IA: Hello Nova, welcome to the Iwasaki Cave of Tree Arts! Thanks to your cleaning, my fans and I have begun an endeavor into an ever-deeper realm of tree-sculpting.
+endscene
+
+
+
+//
+//
+//
+//
+//=====================================================
+//=====================================================
+//=====================================================
+//					NanoClone
+//=====================================================
+//=====================================================
+//=====================================================
+//
+//
+//
+//
+
+
+
+scene clone-faye
+FM: Ahhh... it’s good to be back home... I wonder how ol’ Lonwei’s doing... Oh, hi there! Are you a new resident of the valley? Oh right, you’re the Nano Cleaner! I guess we both came here from Cenote. For a while, I was scraping by in the big city as the frontwoman of a band, but then my parents left for travel and wanted me to take care of the house.
+FM: Have you seen Lonwei? She’s the scientist who lives up the big steps. We fell out of touch when I moved, but I still think about her sometimes. One time she used her chemistry set to mix up some sort of concoction for me to spike my hair! Hahaha...
+FM: What’s it like to be a rockstar? Ah... hahaha. It’s pretty fun overall. I’m lucky. I don’t really have a lot of basis for comparison. It can be a lot of pressure, but I never really thought I could be anything else, so... I’m glad to be back home for a spell, though. Missed hearing the sounds of birds.
+FM: Even if you are very familiar with someone’s artistic work, it doesn’t mean you totally know them. On the other hand, even if you know someone personally you don’t always “know” them either. I guess there are just different ways of knowing. Imagining the interiority of another person is always part projection, but that’s not necessarily bad.
+endscene
+
+scene clone-ray
+RB: Oh, it’s the Nano Cleaner, Nova! Pleasure to meet you! I am Rayray Boatshoes! I’m sorry to say I’m not dusty enough to need a Nano Cleaning, HAHAHA!! I know, it’s not something to wish for, but I find the whole process very neat!
+RB: Nova!! Say you were shrunken down and found a dust mite... if you put the dust mite in your mouth and then grow back to full size, would you then have a GIANT dust mite in your mouth? Oops, is that a rude question to ask? I would just love to see a giant dust mite...
+RB: Nova, are you a gamer? Did you know that videogames can make you cry? Oh, you are physically unable to cry? Ah, I’m sorry, Nova, I did not mean to be insensitive! But videogames can be a very emotional experience. My favorite videogame is called “An Ode to Dyin”, it is very sad.
+RB: Nova, would you like to have a thermometer? It could help you to determine if you have a fever or sometimes it’s just fun to hold to see how cold your hand is! I realized that I didn’t have a thermometer so I went to order one. It was a much better deal to get a 12-pack of thermometers than to buy a single one. But then they arrived and I thought: what am I going to do with 12 thermometers?
+endscene
+
+scene clone-beringia
+BM: Bum... ba-dum... ba-dum-ba-dum... Oh, excuse me, I was just working out a new beat. I am Beringia and this is my drumbird Katsu! Together we travel New Theland, but somehow we always find ourselves back here in the valley...
+BM: Hmm, you keep looking toward the building on the steps. That is Lonwei Yonstein’s laboratory. I couldn’t say I know much of Lonwei, but I want her to be happy. She stays up there mostly, smoke and fumes swirling up from her chimneys until late into the night. Most often, I run into her at the pond. She leaves little contraptions in the water and checks them day after day.
+BM: If you travel further from The Center in any direction, you’ll find the Outer Sands. Further still to meet the sea. Past the sea is the horizon, but the horizon can only be seen and not touched. Is there anything more than all of this?
+BM: Drumbirds are incredibly hardy creatures. Not only does Katsu relish being pounded upon with wooden sticks, but they also have sheltered me from extreme heat and cold throughout our travels. I don’t know where I’d be without Katsu.
+endscene
+
+scene clone-lonwei
+LY: Ah, Nova, you have arrived at last! That is to say... greetings, it is good to see you! I am Lonwei Yonstein, PhD, and this is my... er... brother, Clonwei Yonstein. 
+CY: ...
+LY: Clonwei, to be honest, is the one you are really here to see! But don’t let him get a “big head” about it... Ha ha ha ha! He loves that joke, don’t you Clonwei?
+CY: ...
+LY: Nova, have you ever met a “PhD” before? It means that I am a Doctor of Phil. Ah, but despite my impressive credentials, I still require the assistance of a Nano Cleaner! Clonwei is sick with the Dust... I can observe the sickness with my Nano Drone, but I am unable to truly clean him!
+LY: Please Nova... I can feel his pain! Please... help my brother Clonwei!!
+endscene
+
+scene clone-enter
+$LY$: Nova, it’s me, Lonwei Yonstein, PhD, communicating with you via my Nano Drone! I thought I might be able to assist you, as I am familiar with Clonwei’s mindscape. You see, Clonwei has the ability to create shadow beings within this realm. You may need to use this to your advantage...
+endscene
+
+scene clone-annoy-1
+$LY$: Oh, uhh... Clonwei? Could you get out of the way? ... No? You won't? Ah... of course you won't.
+$LY$: Er, sorry Nova. I guess you'll have to take care of this on your own, too.
+endscene
+
+scene clone-annoy-2
+$LY$: (WHAAAT? Not again...)
+$LY$: ...
+$LY$: Umm, well, I think you can get around Clonwei if you just go like, to the left, and then... oh, wait, never mind...
+endscene
+
+scene clone-annoy-3
+$LY$: Ahhhhhhhhhhhhhhhhhhhhh I'm so sorry.
+endscene
+
+scene clone-misc
+Well howdy! I'm the lab assistant! Right up this way is Test Chamber 1. To the right is Test Chamber 2 and 4, er, I think... I don't have access there.
+This is Test Chamber 2! Further down the hall is Test Chamber 4. Umm... what? Chamber 3? Ha, ha... we... we don't talk about Chamber 3 here.
+endscene
+
+scene clone-faye-2d
+__c1 $CY$: H-hi Faye! Long time no see!
+__c2 $FM$: Uh. Right. Do people still say that dorky phrase?
+__c1 $CY$: Oh haha... no! Of course not! It was... a joke! Uh... because of how long it’s been since we’ve hung out!
+__c2 $FM$: Right...
+__c1 $CY$: So, um... have you seen any nice... motorcycles lately?
+__c2 $FM$: Uh yeah, for sure. 
+endscene
+
+scene clone-faye-2d-2
+__c2 $FM$: Hey listen, Clonwei... sorry to butt out but I gotta be going now. Catch you later.
+__c1 $CY$: Oh haha, yeah! Me too!
+__c2 $FM$: (Yeesh, I can’t believe I used to hang out with that nerd...)
+$LY$: Oh dear lord, hahaha! That was painful to watch, wasn’t it, Nova? Clonwei can be so clueless sometimes. Well, no matter... it’s no skin off my nose if Clonwei wants to embarrass himself! Let's just continue to the Dust Crystal.
+endscene
+
+scene clone-ray-2d
+__c1 $CY$: Hey there! I don't think I've seen you around here before.
+__c2 $RB$: Howdy hi, I'm Rayray Boatshoes!! Pleased to meet you!! Wow are you a real live PhD?? That's so cool! Hehehe... I just moved here from out the eastern Outer Sands!!
+__c1 $CY$: Oh yeah, haha, that's neat!
+__c2 $RB$: Wow, you must be so smart! I hear you are a scientist?? What are your favorite colors of bubbling liquids to put in your test tubes??
+__c1 $CY$: Er, well, that's not really how science works... (Wow... this Rayray character really thinks I'm something. But I'm just a huge dork idiot... Rayray must be an even bigger dork if she looks up to *me*!)
+endscene
+
+scene clone-ray-2d-2
+__c1 $CY$: Oh, haha, Rayray, I'd better get going... I've got Some... Er...  test tubes boiling over, you understand!
+__c2 $RB$: Oh!! Of course of course!! Toot toot!! Clear the way everyone!! Important scientist at work!!
+__c1 $CY$: Ehe... Hehe... (Get me outta here!)
+$LY$: Sorry about all these interruptions, Nova. Clonwei's mind must be a bit on the fritz, creating all these silly shadow shows! Just try to ignore this nonsense, haha!
+endscene
+
+
+scene clone-beringia-2d
+__c1 $CY$: Beringia... Hi!
+__c2 $BM$: Oh yeah... hey uh, Safewei! Er... What was your name again?
+__c1 $CY$: Oh uh “Clonwei” hahaha it's no big deal though!
+__c2 $BM$: Oh yeah I'm sorry, Clonwei. What's up?
+__c1 $CY$: I was just wondering if you wanted to go visit the Radish fields in the west some time? I hear they're beautiful. Er, I mean, like together with me that is...
+__c2 $BM$: Oh um... you and me? Like on a date?
+__c1 $CY$: Oh haha, I dunno. I mean... If you...
+__c2 $BM$: Uh. Look Clonwei... Uh. You're a really neat person! But... Uh... I guess I never thought of you as the dating type! You’re always just working in your lab... Have you ever dated anyone before?
+__c1 $CY$: Uh well... not exactly...
+endscene
+
+scene clone-beringia-2d-2
+__c2 $BM$: We’re very different, Clonwei. I don’t think we could make each other happy...
+$LY$: Hahaha... well of course Clonwei was never going to get with Beringia! I’m telling you, Nova, this guy is completely delusional! What could he possibly have to offer someone like them? Look... I may be no cooler than Clonwei, but at least I’m realistic about these sorts of things!
+$LY$: Ah, never mind, Nova. We’re almost to the Dust Crystal... after Clonwei is cleaned, he’ll stop playing out these goofy scenarios over and over again.
+endscene
+
+scene clone-dustfail
+$LY$: Er... Nova... are you alright? Oh no... the Dust Crystal is not dissolving?
+$LY$: I...
+$LY$: Um...
+$LY$: AHH!! Okay! I must come clean!! Clonwei is not my brother! He is a machine I created to compute the outcome of interactions. I... I intentionally grew the Dust inside of him to power his highly complex software!! The serum I used to grow the Dust must have mutated its chemical structure, and now it is resistant to transformation!!
+// 4, say this line when talking again
+$LY$: Er... Nova... try sucking up my Nano Drone as well! Perhaps I can strategically perforate the Dust Crystal from inside your vacuum canister!
+$LY$: Well! That should about do it. Time to -
+endscene
+
+
+scene clone-crystal
+[FADENOFADE]
+$CY$: ...
+... ...
+... ... ...
+endscene
+
+scene clone-exit
+LY: Nova... because of my deception, you were put in harm’s way. For that, I deeply apologize... I was afraid that if The Center found out about my experiments with Dust, my laboratory would be shut down. But believe me, Nova: never again will I tamper with these forces... they are beyond my control.
+LY: No... from now on, I will stick to what I know and understand. Why set myself up for failure and embarrassment? Some pursuits are simply not worthwhile... some experiments will only cause harm...
+endscene
+
+scene clone-after
+LY: I allowed myself to get distracted by the Clonwei experiment. I should return to my original, Center-assigned research topic: Dream energy. Did you know that one of the most powerful forms of energy in existence is human yearning?
+LY: I wonder what the power of human yearning could create...
+LY: I am very grateful to be the type of person who deserves to be created with a PhD. Not everyone deserves to have been created with a PhD, or else they would have been.
+endscene
+
+scene ring-dolphfan
+Dolphfan Sr.:n Ahh... Nova the Nano Cleaner. Enjoying your work? Wonderful, wonderful. Can't find those cards? Well, I, a Hintline Specialist, am happy to provide my services for free!
+Dolphfan Sr.:n Hmm... you might want to find more people to clean! As us Hintline Specialists say: "Ganbatte! Ganbatte! Never give up!"
+Dolphfan Sr.:n Don't forget where I am, now! Here's a mnemonic: "D.N.C.". It means: "Dolphins Never Cry." It can also mean, "Dolphin Near Carwash".
+Dolphfan Sr.:n My patented card radar says you overlooked something in Geof Agricite! Why don't you head on over there again?
+Dolphfan Sr.:n My company-loaned cardguide says you may want to look in Blue Vale East! Something about an "arch entrance" and "rocks", too.
+Dolphfan Sr.:n My cardolocation powers tell me Iwasaki Antimon has what you need!
+Dolphfan Sr.:n Oh, Nova... it's you... The Metaclean Framework put me out of business... hint sales are down across the board... no use for an old Hintline Specialist like me... *sniff* I heard that now your map shows you missing cards... what's the fun in that?? I bet that Metashop even sells some lousy old Card Detector or something, too... *sniff*
+Dolphfan Sr.:n But you don't need my help, it seems! Well, thanks for paying me a visit!
+Dolphfan Sr.:n My company-loaned cardguide says you want to look around Blue Vale South!
+// 9
+Dolphfan Sr.:n Hmm... I feel a card very very close to us right now!! Something related to that carwash!
+endscene
+
+scene duststormearly
+A raging Dust storm blocks the way. Without The Center's full power, Nova stands no chance of surviving the dangers beyond.
+endscene

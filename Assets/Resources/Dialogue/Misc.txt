@@ -1,0 +1,835 @@
+﻿// Used by the formatting script to change "?:" into "NAME:" if this table has entry "?=NAME".
+scene nameTable
+P=Palisade
+PAL=Palisade
+PAL2=Figure with Beautiful Voice
+CP2=Figure with Stringed Instrument
+Pal=Palisade
+N=Nova
+NR=Nora
+CP=C Psalmist
+CV=C Visionary
+GS=Glandilock Seed
+T=Thyme
+Z=Zera
+
+AN=Announsi
+BM=Beringia Manju
+CH=Chalaza VIII
+CY=Clonwei Yonstein
+DK=Drem Kinako
+EB=Elegy Beatty
+// Pun on Hieronymus Bosch
+EW=Eponymous Wosch
+FB=Fabrahem
+FM=Faye McCool
+GA=Geof Agricite
+GG=Great Gwom
+GR=Gravis
+GGG=Great Gwom, The Aughur
+KT=Maryshaw Keytawny
+IA=Iwasaki Antimon
+LY=Lonwei Yonstein
+MC=Misteria Waizel
+MI=Minorma
+NI=Nowan of Import
+RB=Rayray Boatshoes
+RP=Bran Maligden
+SEAN=Melos Han-Tani
+ST=Stavros
+TG=Gustine Papellum
+WW=Wolgali
+endscene
+
+scene topLevelPause
+Information
+Cards
+Inventory
+Settings
+---
+Other
+Metaclean
+endscene
+
+scene deathMessage
+Press {CONFIRM} to continue.
+endscene
+
+scene doubleHealth
+Max health doubled. Double health appears as gold bars, but you must heal Nova to reach the new maximum.
+Max health returned to normal.
+The button for Jump, Confirm, and Accelerate was swapped with the button for Cancel and Brake. Also, the button for Talk was swapped with the button for Spark/Suck/Cruise.
+endscene
+
+scene gamename
+Anodyne 2: Return to Dust
+endscene
+
+scene savedGame
+Your game was successfully saved.
+Saving error. Try saving again.
+endscene
+
+scene tryagain
+Try again?
+endscene
+
+scene exitNanoPortal
+Leave?
+endscene
+
+scene sparkgamehelp
+Nano Dust is pushing Nova away from the cleanee! Colored bullets will arc at you as you approach the cleanee. Use {MOVEMENT} to activate Nova's shield, according to where you feel the attack is coming from! Feel the directions, feel the colors. Good luck!
+Now, Nova will face black-colored crystals! Make sure you're NOT activating Nova's shield when you run into a black-colored crystal!
+endscene
+
+// When playing the shrinking game
+scene dimdive
+Dimension Dive Start!
+endscene
+
+scene cccnanoerror
+For some reason, the Nanopoints in Cenote are not reacting to Nova's spark right now...
+endscene
+
+scene pal-name-card
+Palisade\n<![CDATA[<size=14>]]>"The Shield"<![CDATA[</size>]]>
+-That sweet voice
+-Definitely lifts
+-Will fight for you
+C Psalmist\n<![CDATA[<size=14>]]>"The Musician"<![CDATA[</size>]]>
+-Dedicated songwriter
+-Awkward around kids
+-Kind of a nerd
+// 8
+-Mommies?
+-Caretakers and Guides
+...
+endscene
+
+scene center-name-card
+The Center\n<![CDATA[<size=14>]]>"It's... the center!"<![CDATA[</size>]]>
+-Creator of New Theland
+-Painter/shadow puppeteer?
+-Literally everything??
+-Mommy???
+-A figure beyond comprehension
+endscene
+
+
+scene ano-intro
+[FADE]
+[QUIET]
+A warm breeze fills the air. 
+A paper floats by and comes to rest on the ground.
+It is a letter.
+It reads:
+[CLEAR]
+(Summer, 2019)
+Dear Player,
+Thank you for playing Anodyne 2: Return to Dust. It is somewhat of a spiritual successor - it has narrative and thematic ties to the first Anodyne, but features a completely new world and characters. That is to say, the two games can be enjoyed in any order.
+At times, the world of Anodyne 2 may be a strange or confusing place. But! At its heart is a story of human struggles and relationships.
+[CLEAR]
+Now! 
+Come on!
+Let's go on a curious and wonderful journey together!
+- Melos Han-Tani and Marina Kittaka
+endscene
+
+scene areanames
+The Albumen Shore
+Center Sanctuary
+Yolk of Yummy
+Yolk of Sippy
+Yolk of Cozy
+
+// 5
+Center City Cenote
+Misteria Waizel
+Gustine Papellum
+Bran Maligden
+Great Gwom
+
+// 10
+Drifting Pollen
+Geof Agricite
+Dustbound Village
+Handfruit Haven
+Dustbound Beatdown
+
+// 15
+Iwasaki Antimon
+Clonwei Yonstein
+Orb Sector 4-16-5
+New Theeland
+Pastel Horizon
+
+// 20
+Loquat Skeligum
+// 21 this is NOT a typo, will show when entering the realistic horror area.
+no such scene
+Nexus
+// 23 NOT a typo, shows in the 'clean' dustbound
+Dustbound Village?
+Nano Cleaner Zera
+
+// 25 - RingCCC, RingGolem, ringClone, RingHighway, DesertSpire
+Blue Vale Center
+Blue Vale West
+Blue Vale East
+Blue Vale South
+Outer Sands South
+
+// 30 - DesertShore, DesertOrb, DesertField
+Outer Sands West
+Outer Sands East
+Outer Sands North
+The Land
+// 34 - for titleless pg areas
+???
+endscene
+
+scene episodeTitle
+---
+---
+---
+---
+---
+
+---
+Pneumonic Possession
+Memoirs of Ageusia
+Infernal Bleeding
+Tardigrade Amnesia
+
+//10
+---
+Corporeal Tunnel Syndrome
+---
+---
+---
+
+Enduring Laborealis
+Digital Dopple-canker
+Blinding Glorilocation
+ignore (Fantasy Title)
+ignore (Ocean Title)
+
+Domiciliary Fracture
+// NOT a typo - abbreviation of "no such scene exists"
+no such scene
+ignore
+---
+The Final Act of\nNano Cleaner Nova
+endscene
+
+
+
+
+scene episodeDescription
+ignore
+ignore
+---
+---
+---
+//5
+ignore
+Toxic chemicals line the walls of the decrepit lunghouse, causing fits of coughing...
+A disease of the skin threatens to overwhelm the inhibitions of its host...
+A barbed tower has risen above the lava-soaked gutscape, painfully piercing its host...
+In the lower levels of the brain lurk shameful secrets...
+
+//10
+ignore
+The intensity of an ideal grows ever higher, reaching towards the sun...
+ignore
+ignore
+ignore
+
+//15
+In a frigid hillscape, loving fans discipline their minds and bodies... 
+Shadowy thoughts take form within the large and mysterious head...
+Thoughts of imbalance fester in the golden society...
+ignore - Fantasy Desc
+ignore - Ocean Desc
+
+A dance of lovers blooms in bonegummed wastes of sand...
+// NOT a typo
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ignore
+---
+Within the heart of Nano Cleaner Zera, Nova executes a desperate plan...
+endscene
+
+scene pause-info-text
+Dust Prism
+Cards till next level:
+Level
+Dust Progress:
+{CONFIRM}: Select
+{CANCEL}: Back
+Press {CONFIRM} to read
+{CANCEL} : Skip
+endscene
+
+scene pause-info-goals
+Goal: Empty your canister at a Dust Drop Point!
+Goal: Upgrade the Dust Prism at Center Sanctuary!
+Goal: Find Cards + Dust to clear the frontier storm above the city.
+Goal: Find Cards + Dust to open the area beyond the mountains.
+Goal: Uh... hey! What are you doing? It's not safe here!
+
+Goal: Find more Cards and Dust.
+Goal: Return to Center Sanctuary to achieve The Anodyne!
+Goal: Fully upgrade and fill the Prism to achieve The Anodyne.
+Goal: Enter the Prism and defeat the Center!
+Goal: Find the highway statue... find Palisade...
+
+Goal: Explore the world!
+endscene
+
+scene yn
+Yes
+No
+endscene
+
+scene savePoint
+Save Game
+Load Game
+Back
+New Game
+Use this file?
+Yes
+No
+New Game
+Start a new game?
+Join our Fan Club!
+Settings
+Cards:
+Join our Discord
+Follow the Creators
+Credits
+Quit Game
+Peruse the Manual
+Consult the Walkthrough
+endscene
+
+// Anything above this WON'T have the text replaced
+// These are replaced by my .txt -> .xml script to become RED terms.
+scene key-terms
+The Anodyne
+The Center
+Dust Drop Console/Dust Prism/Nano Dust/Dustbound/Dust
+Cards/Card
+Glandilock Seed
+endscene
+
+scene quitMenuChoices
+Return To Entrance (3D Only)
+Return To Title Screen
+Quit Game
+Return to New Theland
+You can't do that right now.
+endscene
+
+scene pauseMenuWords
+On
+Off
+Return to title? Unsaved data will be lost.
+Quit? Unsaved data will be lost.
+Return to last entrance?
+Leave this Metazone and go to New Theland?
+endscene
+
+scene pauseMenuChoices
+Fullscreen: 
+Windowed Resolution:
+Invert Vertical Controller Camera:
+Invert Horizontal Controller Camera:
+Controls
+
+Volume:
+Language:
+Shadow Quality: 
+Skip Dialogue (For Speedruns):
+---
+
+Double Health:
+Camera Speed:
+Minimum Field of View:
+Save When Overlap 2D Checkpoint:
+Camera Distance:
+
+// 15
+Disable Controller Detection:
+Screenshake:
+Invincibility:
+Terrain Quality:
+60 FPS Lock:
+
+// 20
+Controller Button Icons:
+Controller: Flip Confirm/Cancel and Talk/Spark:
+Controller: Rotation Strength during Horizontal Movement:
+Invert Vertical Controller Movement:
+UI Scaling:
+Show Text Immediately:
+endscene
+
+scene menu-button-types
+Default
+PS4
+XB1
+Switch
+endscene
+
+scene terrain-quality
+ignore
+Low, No Shadows
+Medium, No Shadows
+Medium
+Medium-Well
+High
+endscene
+
+scene shadow-quality
+No Shadows
+Low
+Medium
+High
+endscene
+
+scene keybind
+Move Forward/Up:
+Move Back/Down:
+Move Left (2D), Pan Cam Left:
+Move Right (2D), Pan Cam Right:
+Toggle Camera Angle:
+Vacuum (2D), Spark, Cruise (Ridescale):
+Jump (3D), Confirm, Accel (Ridescale):
+Talk:
+Cancel, Brake (Ridescale):
+Pause:
+//10
+Toggle Ridescale:
+Select a control, and then press the new, desired key. 
+[Error: Can't set the same key to two controls!]
+[Control updated!]
+Controllers cannot be modified.
+// 15/ 16
+Zoom In:
+Zoom Out:
+endscene
+
+
+
+scene controlLabels
+// Depending on whether a controller is connected, these replace the MVOEMENT and CAMERA tags.
+the Left Stick
+{UP}, {RIGHT}, {DOWN}, and {LEFT} keys
+Press the {CAMERA_UP} and {CAMERA_DOWN} keys
+the Right Stick
+// 4 These replace {UP}, etc, when the corresponding keycode is UpArrow, etc.
+UP
+RIGHT
+DOWN
+LEFT
+Press {CONFIRM}.
+// 9-13
+ignore
+ignore
+ignore
+ignore
+the Menu button
+// 14
+Created by Melos Han-Tani and Marina Kittaka.\n(c) Analgesic Productions 2019
+// Note - this used to be 'v 1.16' but now that's hardcoded as it's non-region-specific
+Ignore
+the L1 button
+// 17
+Presents
+A Melos Han-Tani and\nMarina Kittaka game
+ignore
+// 20 (ps4),21 (ps3)
+the Options button
+the Start button
+the + button
+endscene
+
+scene test1
+Talk to my friend first! If you talk to my friend first, then I will give you a thank you message. I'd love to give you this message so please hurry.
+endscene
+
+scene test2
+Thanks for talking to my friend.
+endscene
+
+scene test3
+I'm that person's friend. Thanks for taking the time to talk to me.
+endscene
+
+scene test2D
+Welcome to the 2D world, Nova. I'm Square, the white square... and I'm here to say, buy one get one free while supplies last! This offer only good for a limited time around here.
+endscene
+
+scene testloop
+1 1 1 1
+2 2 2 2 
+3 3 3 3
+endscene
+
+scene doublecolortest
+Get the Palisade Card.
+endscene
+
+scene cards
+A special, protective card given by Palisade, for use in a time of need.
+// Card 0
+Gustine Papellum\nMuch of what we perceive as “taste” is actually olfactory in nature. Perhaps now I can fully appreciate the smellscape of New Theland! ...or will that also function as a gateway to depravity?
+Great Gwom\nAs the Aughur, I am a proud practioner of “Cold Reading”. It is like “Hot Yoga” but more intellectual.
+Misteria Waizel\nThe body is like a lampshade. Our true light is constrained and dimmed by our physical forms, and yet... these same forms allow us to look at and touch each other! Life is a cruel joke...
+Bran Maligden\nTrue peace comes from within. It’s foolish to ask the world around you to change to suit your desires. The only thing you can control is your own feelings.
+// card 4
+Geof Agricite\nIf you dig 99 times and only find dirt, don't quit! Some other fellow's gonna come by and find your treasure...  ha ha! Don't worry -- you've gotta believe!
+Geof's Village\nThe real estate values have been constantly driven down by nothing more than a "natural" disaster.
+Lonwei\nYou can learn everything through the power of imagination!\nClonwei\n...
+Help!! I’m trapped in a flavor text factory! All day long I write humorous little blurbs for your reading pleasure—but at what cost?? Well... for the first time in many years, the reclusive proprietor of this diabolical establishment is opening the factory to a select few outside guests. This... this is my chance...
+Iwasaki Antimon\nOver time, bio-trees have become rare in New Theland. We tree sculptors have risen up to fill the void. A sculpted tree is different from a bio-tree in that it is suffused with the power of human choice.
+The Arborealist rank system is a form of hope incarnate. We must reach ever higher, as the proverbial tree. We must follow those who we know to stand above us. And in the end, we will be rewarded. A C-Licenser is overwhelmingly marked by artificiality. A B-Licenser is self-consistent, but lacking perfection. A-Licensers create work indistinguishable from Bio-Trees. And an S-Licenser... transcends the concept of Tree.
+The Eponymous Wosch\nA carwash is a liminal space, at once both interior (enclosed by wall and roof) and exterior (paved road, suitable for cars). A carwash is a sacred space, a link between the mundane and the divine.
+Jade Highway\nIt’s either my way or the highway! ...Oh wait, my way IS the highway! Ahahaha!! I presented you with a false choice in order to appease your ego... all the while, you stayed completely within my control! Ahahahaha!!!
+// 12
+Minorma\nOnwards!! Upwards!! Skywards!! A world without expansion is one without a future. How can you seriously believe anything else? My plan will succeed! All will know the beauty of the Orb!
+Fabrahem\nFa-sha-sha! The power of fashion is meant for all walks of life. We must unleash our fashion storms and show our inner beauties!
+Loquat\nHave you ever been a home? If I may be frank, it is at times quite disturbing. But what is life if one is not relied upon?
+Gum Key\nWe finish each other’s—\nSkel Key\n—sadnesses!
+New Theeland Map\nOh Hello! Remember Reading Printouts of Game Creation Explanation?
+Pilar Treacl\nAh, how good and clean it feels, to be a person who has never mourned! I eat only broccoli now, and other cultivars of the species Brassica Oleracea.
+In the past, small children were bitten by snakes in the desert at night. That was before The Center regained narrative influence in the Outer Sands.
+Tremuloid\nWhat are the boundaries of an organism? What is the limit of a body? Are we a cell, an organ, a body, a community?? Father’s way is insufficient... WE MUST DEFINE OUR OWN STRUCTURE!
+(Unreadable)
+// array idx 21 
+Amago\nI lived between two worlds! How tragic! And yet, I must not wallow in my individual sadness. Many of us live between two worlds. Why are we forced to do so? What controls the Pastel Horizon, and delineates the ways of living?
+Fukuchi\nMy mother used to tell a story about me as a child. No matter which toy I had, I would always reach for a different one. I was always afraid to miss out. What can I say? I want everything, and maybe one day that will lead to nothingness. It’s the price I pay.
+Bridgebuilder\nWhat do I do, now that the bridge is complete? Hahaha... a ghost bridge is never complete... I build as a way of living, knowing that perhaps the work extends beyond my life.
+A special card from Palisade. After Nova landed in Dustbound Village, Drem Kinako tore this up (and has since taped it back together.) It has no protective use anymore.
+endscene
+
+scene metaclean-messages
+Nova does not have enough Metacoins to buy this.
+Purchase?
+metacoins
+Metashop
+All sold out!
+// 5
+The Metaclean Framework thanks you! Have a meta day.
+Warp? (You can return via the menu.)
+Explore the world to find Metainfo Points. You may need to re-enter an area to see the Metainfo Points.
+Please exit Nanoscale before using a warp to visit a Unzone.
+Warp? (Warning! One-way.)
+// 10
+Please use the 'Other' submenu to return to New Theland before entering a new Metazone.
+Error! Please enter another 3D area before trying to travel to a Metazone.
+There are still Metacoins remaining in this area.
+There are no Metacoins in this area.
+The Metacoin Detector does not work in Nanoscale.
+endscene
+
+scene metaclean-freewrite
+Pashmina, pashman, do you see the craftan? A dog with eyes the size of towers, a cat with tongue the length of air. Why do we reach out and find so little left to us? Why is the center hollow, the bagel wrapped in barnacles. Do everything bagels contain a kitchen sink in which to wash off all of the shame of their excess? Can I please, may I please, elevate myself to the point of grass, I’m a worm, I’m a carrot, I’m a stick. I’m myself at the end of my own tether, reaching out for who I am and was and will be. I’ll ask over and over again like an fool, to be seen by her, the fragrant one, and she won’t be able to understand what I’m saying. Won’t be able to hear me. It’s like I’m speaking through a stained glass window. I’m a soft and blurry shape, shadows behind the form of Jesus. A sermon on the mount of meaningless shadow puppet shows. And now the radiators, too hot to touch, steam and yowl and dare the irridescent irradiated wasteland of my mind.
+Jalopia tendon twine. In the mirror I can see a felled wimple tree, skin peeling like a dropped dog, a temper coronary. Bicalutamide tricks and porridge twicks, snap the marketing research into delectable crisplings. What if the torror pore comes too soon, what if the ley lines inhabit my tremor? Deinstantiating everything long gone from my eyesight. The culling of frustum the sheep from the flock, the sick and the old are reduced to cracklings.\n...\nCopy me, paste me, redirect my tween frames into forbidden distinction and ruin my animation in hidden secret moments stolen from the gods.
+The sky was beautiful tonight, like damp drops of dungarees, and small white rabbits huddled in the crook of a root. Why do gates deteriorate, many years after the pies have all fallen off the windowsills and the golden hour has faded from your teeth. The bits of poop in the piles of autumn leaves will always leave a mark. Why is there a powerline shoved between your molars, freeing you from bits of plaque and celery tendons. Bloviating masses irradiate the small french hen with a sheen of microwavery goodness. Won't a good child dispel that magic? Remove those ripples from the realm of space until all meat is raw once more. Back in the days when we spent all of our time chewing. Please be gracious, please be kind. When you meet the small disgraced villain, the empty slobbering mess, take pity on the poor soul. The pure evil. The tattered and frayed.\n...\nNova's a girl, confused. she doesn't know anything. She's bound to fate. She like to eat creme brule. She wishes that her love for stuffed animals was truer. She forgets if she was ever happy, but is okay for now. She lingers, nothing is ever enough.
+Welcome. It's a new year, it's a new heart. Crackle and creak upon the fresh fiber floorboards. Raisins and regularity. If we deepen the salt flats and the salt wounds, can we preserve ourselves in this sorry state? Can we desperately cling to our jerky selves, our jerkied hearts. Christen me newly, sprinkle oil on my head. The jimmies and whipped cream and lockpicks and mousepads. Fluoridate my fountain, Marisol. Shelter me from sunlight parasol. There is a watering can that pours only into a trough. There are rows and rows of animals that berate me. I was born into their feeding box but they were not allowed to eat me.\n...\nEverything I touch turns to continuity.
+In Anodyne 2 the little nano will perch upon the windowsill. Like a small bug she will cry to be let into her death zone. There is nothing for you here but an artificial distinction beyond your understanding. There is a mole in the hallway. He eats the endless dirt in a small cake. Saucer and teacup before the fire. There is an endless array of park benches of pork dumplings filled with dirt. There is a worm sauce. There is rain and raindrops spilling into buckets. If you ever come back here again, I swear to god. There is nothing left in this newspaper. The newspaper must be clean. As the articles disappear so does our pain.\n...\nPlay with scale. Will there ever stop being structure? All the way down, all the way down. Why can't we see something end? When will the crust break off. Why can't the blankey cover the universe? Why is the pie cooling on the windowsill? What will we give to be human? 
+Nevertheless, when the two boys walk to the fried temple walkway, their arteries will swell with the bellows of seventy grams of unhealthy trans fat. Tubules of walkways swoop around in places unbeknownest to their mothers. Red and yellow colors of the rainbow and rainforest make their way backwardsly to the place of no return. And the place that they go will be next to the young world of temple places of forest temple heaven sky. In the sky is a hole that is beautiful. And in the sky that is beautiful is no one at all. No one but the spirits of the graves. Of the fireflies and potato lords. People who own the farms, run the prisons. Lotion won’t get in their way, nothing will as they look to run their farms and destroy the peasant workers.
+endscene
+
+scene metaclean-desc
+---
+An audio log. It says: “I found myself in a vast, white space. A drawer-like structure connects this space to The Land. Where do the other drawers go? Are there other Lands? Are they decayed? Is Young there? I walked for a long time as I pondered these questions. Some residents of The Land followed me mindlessly, clearly not their former selves. I suspect it's a matter of their distance to Young, since their decay began after Young left. I soon found that with my new Tool, I could manifest tunnels, passageways, sometimes debris - by pulling at the air itself. Eventually, I dug a tunnel into what was a dark void. At times I was hesitant, but... Young's connection gave me willpower as I lost my way. A rope leading out of the cave. I tumbled down and down this void, realizing the white expanse was only the peak of an endless mountain, a deep abyss. But finally, I've found soil. Whether it manifested to me or existed already I didn't know. But now, with my willpower... a new land can begin.
+An audio log. It says: “I no longer feel their connection, but it doesn't matter anymore! I made this island, and one day, one day, they will return."
+Use it through the Inventory menu.
+---
+// 5
+---
+---
+---
+---
+---
+// 10 (Note, the names in quotes shouldn't be localized as they're IDs of levels)
+Activates Metainfo Points about "Albumen". What could that mean?
+Activates Metainfo Points about CCC, and more. What could those terms mean?
+Activates Metainfo Points about RingCCC and RingHighway. What could those terms mean?
+Activates Metainfo Points about RingClone, and more. What could those terms mean?
+Activates Metainfo Points about DesertSpire. What could that mean?
+// 15
+Activates Metainfo Points about DesertField, and more. What could those terms mean?
+---
+---
+---
+---
+endscene
+
+scene metaclean-names
+// 0 - 9 = text logs
+---
+Whimsical_001.wav
+Whimsical_002.wav
+$Card Detector
+Log 200318M
+// 5
+Log 140718M
+Log 130718M
+Log 120718M
+Log 280618M
+Log 130818S
+// 10 - note - unlocks nano AND 3D stuff. Vale I = RingCCC, Highway. Vale II = Clone, Golem, Cave
+// Sands I = spire, spiretop, spirecave
+// sands II = orb, shore, field
+Shareholder Meeting: Birth
+Shareholder Meeting: Cenote
+Shareholder Meeting: Vale A
+Shareholder Meeting: Vale B
+Shareholder Meeting: Sands A
+// 15 (Note - after good end, talk to egg in chapel to enter alb)
+// finale would be zera, but idk if we'll have it
+Shareholder Meeting: Sands B
+Shareholder Meeting: Zera
+---
+---
+The First Realm
+// 20 begin warps (ZZ_R1N, ZZ_CCC_Old_1/2/3, ZZ_JoniRing1Test1)
+Dream Field
+City of Origin
+City of Ancient
+City of Old
+Azure Recollection
+// 25 (DEBUG2DFAKE, ZZ_Test3D, ZY_Sean_ArchTests, ZZ_AlbumenOld, ZZ_RingGolem_Prototype)
+Creator's Realm
+Physics Simulation
+Levitating Ruins
+Solitude Isle
+Meteor Scar
+// 30 (ZZ_JoniFearTest02, ZZ_GifNanoAlbumen, ZZ_chapelTrailer, ZZ_CenterChamber, ZZ_NanoDustboundOld)
+Fear's Birthplace
+Yolken Land
+Steelborne Den
+---
+Carpet Realm
+// 35 (S_MarinaRing1Test, CCC, RingHighway, DesertField, NanoNexus)
+Vale of Beginnings
+Cenote Stone
+Vale Stone
+Sands Stone
+Nexus Stone
+// 40 Alb warp
+Birth Stone
+endscene
+
+scene item-names
+Centerberry Burst Cereal
+Yolk Milk
+Reguloid: Personal Edition
+Glandilock Seed
+Mint Green Lamp
+// 5
+Nano Vacuum Model A-PRO-60
+Scalespark
+Nanospark
+Palisade's Vision
+$Card Detector
+// 10
+Metacoin Detector Pro
+Eldi's Package
+Nova's Dilemma
+Metaclean Manual
+Item14
+// 15
+Redlock
+Blulock
+Grenlock
+Trylock Collar Base
+Indecisive Adventurer
+// 20
+Sword of Purity
+Shield of Justification
+Breastplate of Belonging
+Boots of Immersion
+Fukuchi's Shell
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+scene spark-unequip
+Scalespark unequipped.
+endscene
+
+scene card-detector
+There are no cards remaining in this 3D area! However, if there is still a card icon on your map, you need to shrink to Nanoscale to find the cards!
+There are no cards remaining in this 2D area!
+There are still cards remaining in this 2D area!
+There are still cards remaining in this 3D area!
+Valued user! $Card Detector is not free. To remove ads, please upgrade to $Card Detector Pro for merely 1200 Metacoin per year! And now, for a message from our sponsors.
+...
+All of our ad servers are currently busy! We are SO sorry for the wait! You are a valuable user to us! If you've seen this before, you may want to mash {CANCEL}.
+...
+Your response to this ad may be observed for quality assurance and training purposes.
+"Wow!! Now I can find cards in style! No more fumbling around for little old me! I'm so glad I spent my paycheck on the METACLEAN CARD DETECTOR! For the low price of 5 Metacoins, I got the Metaclean $Card Detector! Now I can detect if any magical cards are remaining in my dimensional locality!"
+"(Please note that $Card Detector has limited detection functionality and does not in fact lead you to any cards directly. Please contact one of our sales representatives to see if $Card Detector Pro is right for you. Yearly rates for $Card Detector Pro start at 1200 Metacoin / year, and come with our combo Precision Locationing Pro, Remaining Numeration Pro and Ad-free features.)"
+endscene
+
+scene item-descriptions
+With this cereal, a Glandilock Seed will have all the carbs it needs to make a home in Nova's head.
+With this, a Glandilock Seed will have all Center-approved nutrients needed to spread far and wide inside Nova's head.
+The Reguloid will adapt Nova’s head into the perfect environment for a thriving Glandilock Seed!
+The Glandilock Seed has grown tendrils deep into Nova's head, so that The Center may directly communicate with, and even channel its power to Nova at certain times...
+A mint green lamp with Retro Frills, from Misteria Waizel. A fake based on a more prestigious model. It does not smell like mint.
+// 5
+The latest model of Nano Vacuum, with a default canister capacity of 60 dust units. There are etchings on it saying "state-of-the-art" and something about "four easy monthly payments".
+Scalespark equipped. Shoot an object, and while keeping {SPECIAL} held, run towards the object to shrink it, and run away from the object to grow it.
+Given to Nova by Thyme, the town deacon living in The Nexus. She can shoot it by pressing {CANCEL}. By sparking certain people in Nanoscale, she can shrink into Picoscale. In Picoscale, the Nanospark works as a weapon against some enemies.
+Palisade's Vision couldn't be viewed...
+--- (card detector, but this text never shows)
+// 10
+--- (item detector, but this text never shows)
+A package from Eldi, addressed to her friend who lives near a farming village on the outskirts of Cenote. 
+Nova faces a crossroads. She can either Achieve The Anodyne, by continuing to upgrade and fill the Dust Prism. Or, she can Confront The Center, by heading to the Dust Prism's cap in Blue Vale Center.
+"1. Your Information menu's illustrated maps now show icons where remaining Cards and Enhancement Patches are located.\n2. You can now find Metacoins in 3D areas.\n3. In the new Metaclean menu, you can spend your Metacoins on various curiosities. You may wish to purchase the 'Card Detector'.\nThat's it. Thanks for using Metaclean!"
+Item14
+// 15
+It's one lock of the Trylock Collar. It wards away fear of physical pain.
+It's one lock of the Trylock Collar. It prevents the anxiety of meeting strangers.
+It's one lock of the Trylock Collar. It soothes the paranoia of being watched.
+The base of the Trylock Collar, a mysterious and ancient artifact. Its smooth white surface is marked by 3 circular slots spaced along the front...
+// Localizer note: Identical to the "fant-adv" line in Desert.txt
+Once upon a time, I believed in truth and justice... I thought that hard work would be rewarded! But the real world isn’t like that, is it, Nova? We are all just made of tiny particles, spinning in chaos. The universe cares not for our feeble attempts to contain its infinite dance. Each of us, a universe... each of us, an atom. Change the factor of scale just a little bit, and suddenly every problem ceases to have meaning. How do we respond to everything at once? How is a story anything but a lie? Does it matter?
+// 20
+The sharpest double-edged knight sword known to man. Said to be the gift of an Angel.
+Its angles were designed by the most distinguished scholars to deflect any blow.
+Emblazoned with the Royal Blood Crest, it makes known the inner truth of the wearer.
+Its mystical soles channel the wearer’s life force such that the surrounding earth may sway to his footsteps.
+A shell that belonged to Fukuchi. It's said she wants it.
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+
+scene chest3d
+Nova got an Enhancement Patch! Her maximum health while in Nanoscale has been increased.
+// highway
+Amazing! Nova found a card!
+// golem
+Amazing! Nova found a card!
+// clone
+Amazing! Nova found a card!
+Nova found... a single battery? What could this be for...?
+
+Nova found... Palisade's Card! But it's all torn and taped up...
+Nova found 10 Metacoins! Wow! Time for a shopping spree!
+Nova got the Redlock!
+Nova got the Blulock!
+Nova got the Grenlock!
+
+// 10
+Nova found the base of the Trylock Collar, a mysterious and ancient artifact! Its smooth white surface is marked by 3 circular slots spaced along the front...
+Nova found 10 Metacoins! Spend them in the Metashop.
+Nova found a friend, whom she had made along the way!
+// 13
+Nova found a card! It's wet...
+Under some rocks, Nova found a card!
+Along some cliffs, Nova found a card!
+endscene
+
+// when trying to access 'cheat menu' in pause
+scene menujoke
+What are you trying to do?
+Good idea... unfortunately, nothing here either.
+endscene
+
+
+
+// 1 for each chatper
+scene metainfo-1
+
+endscene
+
+scene metainfo-2
+// near npc plaza
+Truly, Cenote is a testament to our ability to deliver prime spatial experiences. Despite the difficulty of filling a giant hole, Cenote still feels complete. Was it expensive? Sure. Was it time consuming? Perhaps. But with this experience in hand, we now know how to increase our future efficiency.
+// 1 elevator
+You might look at this elevator, and see a simple object that doesn't even move. But to do that would be looking past our true intent: simplifying the often complicated elevator experience. By utilizing teleportation tech, we can move you from Cenote to the Blue Vale in mere seconds. Isn't that better than waiting for 15 seconds?
+// 2 market
+By allowing requiring someone to use these roofs to climb up to Gustine, we've utilized the 'layered level' technique. This new technology enables us to create multi-tiered places which, on a second glance, endow you with a deeper understanding of what seemed to be mere set dressing.
+// 3 pig entrance
+We understand the difficulty of high walls: they block your view, making navigation difficult. Such a pain! That's why we widened the walls leading up to The Aughur, and even added some signs that our harshest critics might call 'unsubtle'. But: they served their purpose, and that is truly what matters!
+// 4 other road exit
+When it comes to large spaces, we know it would take far too long to walk around. However, walking around is a necessary feature when exploring the smaller areas of New Theland. That's why we developed 'Ridescale', a novel transportation solution. No longer do the creators of today need to rely on old concepts such as 'having to whistle for your horse or car' - we've jumped into the future and brought 'instant car transformation' right to your doorstep!
+/ 5 road exit near cougher
+A circular road incorporates the 'omnidirectional vision' philosophy, wherein we can scatter multiple landmarks for you to remember. When you want to visit one, merely look for the land mark, and drive your way around to it! How simple, how divine!
+/ 6 center chamber
+A bird's eye view into the void. Truly a visual treat for the ages. But not only that, but by framing the camera, not only did we create visual drama and anticipation, but we've been able to save time on only having to think about the area being seen from a single angle. Budget and efficiency is the path to innovation!
+endscene
+
+scene metainfo-3
+A stunning view. You'll be pleased to know, the Cenote below you is modeled in 1:1 size as the Cenote you've explored. All we had to do was use a time-tested technique: the copy paste. By keeping Cenote visible, we've cued you in on to the relative scale of the world of New Theland. We also saved money.
+Which way is the right way to go? Ha! There is no wrong way. With the 'dual exit roadway', we've encouraged exploration through all directions of New Theland. Wander freely!
+Doesn't this strange village immediately grab your interest? Environmental designs such as these enable us to spark our storytelling by creating a level shape that we combine with narrative themes such as 'arrogance' and 'overwork'. The two - writing and level - work hand in hand to produce the Nanopoint you explored.
+Ah, Blue Vale East is truly a sprawling area. But through the use of landmarks, you'll always know where you're going! The trees lead towards the woods! The rocky hill path leads towards Cenote! The highway leads to the South! And so on. With the power of landmarks and being able to easily see from one landmark to another, navigation becomes easier.
+Our design concept for this area was 'gliding over a canyon'. We wanted to give you the feeling of truly being 'high up on the highway', and be able to look down below. Many areas in New Theland start with this kind of base spatial concept.
+To spice things up, we divide the location of cards between those in Nanopoints and those in 3D. This is one example of 'breaking the pattern of expectation' in which we tweak an established pattern so that exploration becomes more intriguing. You wouldn't just want a single room with 10 NPCs and 10 Cards, right?
+//6
+A carwash? Or a playground? Yes, our designers considered the 'duality of the space' once again here, as this carwash is both an area that acts as gateway into the Geof's Village area, as well as a structure you can climb around and explore. We call this the 'delight of the 3D model', in how simply a simple structure can also become something one may explore.
+This area cost a few days to create. And yet... bask in its beauty. Does this orb of branches not make you wonder who created it! Yes, yes... in the creation of New Theland, physics and 'realism' know no bounds. Our motto is "let the imagination fly and take you to the moon," as well as "please don't complain about minor visual problems to me."
+// 8
+You may be asking, “Why does the lower portion of this gate look weird and stretched instead of like normal bricks?” I doubt you would understand the true technical answer, which involves “UV” (Ultra Violet) maps. I guess you could say, we were planning on the gates being shorter at first, and when we decided to make a taller version of the gate, we didn’t feel like getting more bricks. So we stretched out the bricks with our patented “no-work” technique, and thus was born the beautiful and unique patterning you see before you today!
+// 9
+The world of New Theland is all about playing with scale. Take a closer look at these cattails! They are no normal cattails. Ahahahah! They are designed after the single-celled life forms “radiolarians”, which are known for their elaborate mineral skeletons! Perhaps you have seen famous drawings of radiolarians before in an illustrated encyclopedia? The illustrator was a bad person, and we shall not name them!
+endscene
+
+scene metainfo-5
+You may be interested to know that the mountain before you and the one you stand on after going up the cave are not the same! In fact, we created two mountains of differing sizes because of how perspective distorts tall objects. Yes... that is what we want you to believe, but actually the store ran out of spires and we had to buy a defective misshapen one!
+As we created a desert, we faced the problem: how do you get from one area to another? Well, our designers figured the best way would be having a subtle and literal gate around the whole place. It combines visibility with subtlety, and, yes - even allows you to easily create lines of sight towards the gates that take you to other areas. Some might call it 'inelegant', however, we don't see them creating entire worlds in a single year.
+// 2
+Why, look who we have here! Indeed, the "out of bounds" is as much as an important space as the "in bounds". You may enjoy seeing the world of New Theland from different, strange, perhaps even profane angles when you travel "out of bounds!" Be careful!
+Is there anything more stunning than a beach? It is an exterior, the outer limit of a place. It defines the unknown, a border in which you may not cross. And as you draw your eyes to the horizon, perhaps you will even notice a nearby place you'd like to explore. Yes, yes. Or perhaps, we just liked pretty beaches...
+Misdirection is a fun concept to play with. Throw any sense of 'logical mechanic development' out the door, and instead, break patterns with world creation! We hope you enjoyed the strangeness of entering this random object and finding a vast, 2D world. 
+// 5
+While creating this field, our designers used field research to build a library of reference photos. Then, we attempted to construct the illusion of you moving down a large hill, by creating another large hill in the distance. The result is an expansive feeling space full of hills and troughs!
+// 6 orb
+Our designers love to play with different shaped spaces, but also, lighting is a fun idea to play with. Instead of having 'dynamic' day and night cycles, we consolidate all of our energies for maximum synergy, and focus on one lighting condition per area. That lets us carefully curate the perfect mood for exploration. It also lets us save time and money. You only live once.
+// 7 new
+History speaks of many important towers: The Windmill... The Sunray Spire... and now this... the Desert Spire. What makes towers such a potent symbol, such a recurring theme in all great art? I don’t know. Don’t overthink it!!!
+// 8 near desert gate
+Hmm... these gateways look familiar! I don’t remember why. Probably because they are an example of a “perfect shape”, one that must inevitably come into existence based on the very properties of atoms and so forth. 
+// 9 
+The Tremuloids in this area are inspired by Pando, a giant clonal colony of quaking aspen tree, thought to be the heaviest single living organism. Pando is located in Utah. What’s Utah? Er... well... Utah exists in what we might call a “fantasy world”. Fantasy worlds exist outside of the dominion of The Center and are not really True or relevant, but sometimes they can be fun and edifying to think about!
+// orb 10
+This entire rocky cliff is made of 15 duplicates of a single rocky shape. Through the powers of “Rotation” and “Stretching” we have fooled you into thinking that this is a beautiful and natural cliff face such as has been shaped over eons by wind and rain!
+// 11
+Have you ever noticed that sometimes the tall grasses will pop into existence specifically as you approach them? It takes a lot of extra computing power to turn on and off all these individual pieces of grass, but its worth it to convey the feeling that this world was made for your personal enjoyment!
+endscene
+
+scene buildend
+Melos Han-Tani:n Hello, esteemed tester! You cannot yet Confront the Center. stay tuned for the next beta. However, you can still Achieve the Anodyne.
+endscene
+
+
+scene eastereggs
+S. H. Esez:n Hey! I'm your host, S. H. Esez, and welcome to episode A2 of Breaking Boundaries! In case you're new here, we take the camera basically anywhere we want, and look for abandoned content in the world of New Theland! Today, we've found a mysterious, copied and empty city at the bottom of Blue Vale Center! Let's see what else we can find.
+N. Itrorad:n You know, I've been meaning to visit Phantom Cenote for most of my life, ever since I heard a rumor about it at the supermarket. ...Now imagine my surprise, when I came all the way to the bottom of Phantom Cenote, and found none other than my fellow Thelandtube friend S. H. Esez here! But it makes a lot of sense - this is one of the strangest places in New Theland, after all.
+Bob: Ah!! Where am I? Hmm... for some reason I feel oddly at home in this peculiar land...
+Bob: Lord $Dustdra? I have no idea what you are talking about! I think I am wholly unrelated to your quest... so leave me alone!!
+endscene
+
+scene pet-dog
+(Nova pets Wolgali!)
+(Wolgali seemed to like that.)
+endscene

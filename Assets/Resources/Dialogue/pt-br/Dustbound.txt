@@ -1,0 +1,753 @@
+﻿
+scene db-field-0
+...
+endscene
+
+scene db-field-1
+[FADE]
+O corpo de Nova dói das venenosas farpas do enxame raivoso. Ela começa a soltar um suspiro de alívio enquanto zumbiam afora--até que ela percebe o porquê de fugirem: Poeira! Uma grossa nuvem de poeira a envolve, irritando seus pulmões e a fazendo ranger os dentes. 
+[CLEAR]
+Lentamente, Nova começa a abrir seus olhos em meio à névoa. Sua visão é embaçada no começo, mas ela consegue identificar um grupo de figuras pairando sobre ela. Que tipo de criaturas poderiam andar através da Poeira sem medo?
+endscene
+
+scene db-field-2
+[FADE]
+De repente, uma imagem de Paliçada surge na mente de Nova...
+"Nova, eu gostaria que você ficasse com minha Carta! Mantenha ela por perto, e não a use para reforçar o Prisma. Que ela te proteja de todo mal, mesmo quando eu estiver longe..."
+[CLEAR]
+Freneticamente, Nova enfia sua mão no seu inventário e procura pela Carta de Paliçada. As figuras sombrias começam a se aproximar dela! Não! Seus dedos finalmente se fecham ao redor da Carta e ela a levanta para sua frente! A superfície holográfica do Cartão brilha em luz. A ilustração de Paliçada, a Guardiã, enfrenta a multidão tateante!!
+endscene
+
+scene db-field-3
+__c1 ?: Ahh… ahA! AHAHAHAHA--*TOSSE* *tosse* *chiaaaado* *hack* *hack* *Tosse*
+__c1 ?: Escute, mocinha. Nós não toleramos esse absurdo aqui.
+[FADE]
+Uma voz misteriosa se aproxima de sua mão e... pega a carta! E com um rápido movimento rasgante...!
+endscene
+
+scene db-field-4
+__c1 ?: Uma carta é um pedaço de papel!!! Uma carta só tem poder se nós concordarmos com suas regras!
+__c1 ?: Bem... Aqui, somos os Impuros. Aqui, nós discordamos!
+endscene
+
+// DB Village - Nova's House
+
+scene db-day1-wakeup
+[FADEFULL]
+Nova se move, abrindo seus olhos. Sentado ao lado dela... é aquele monstro que destruiu a Carta de Paliçada?? Nova quer gritar, mas ela está fraca demais, desorientada demais.
+[FADEOFF]
+__c1 Monstro da Poeira: Ah... acordando já, pequena Papa de Aveia? Como está se sentindo?
+[FADE]
+O monstro fala com ela de novo... o que ele quer dela? Seria ele algum tipo de emissário da Poeira? Talvez um assassino, encarregado de "cuidar dela"... encarregado de mudar a maré na guerra da Poeira contra o Centro...
+[FADEOFF]
+__c1 Monstro Assassino?: Escute... eu acho que possamos ter começado com o pé errado. Eu apenas estava tentando dar uma mão lá atrás, e as coisas ficaram um pouco fora do controle.
+[FADE]
+A criatura observa Nova enigmaticamente como se esperando algo dela. Talvez ela esteja em necessidade de Nano Limpeza? Mas... isso sequer é possível? Nova já está em Nanoescala... Será que há alguma forma de--
+[FADEOFF]
+__c1 Monstro em Necessidade de Limpeza??: Ei, uh... pode parar de fazer a sala ficar tão escura assim? Eu, tipo, tô tentando ter uma conversa aqui? Você pode apenas falar comigo?
+[FADE]
+__c1 Nova está confusa, ele quer que ela "fale" com ele?
+[FADEOFF]
+__c1 Monstro Querendo Conversar???: Okay, okay, okay. Então, falar... é tipo pensar, certo? Mas aí você deixa os pensamentos caírem para fora da sua boca. Entendeu? Meu nome é Drem Kinako. É bom te conhecer!
+__c1 $DK$: Agora, é a sua vez de se apresentar!
+$N$: Eu... huh? Oh... Eu sou Nova...
+__c1 $DK$: Você conseguiu, seu Bolinho de Chuva!
+$N$: Você vai me matar?
+__c1 $DK$: UAU. OKAY. UM, NÃO?? ............... Por que eu te mataria??
+$N$: O que é morte?
+__c1 $DK$: Bem, você é cheia de perguntas, não é? Eu criei um monstrooo!
+$N$: Eu... eu não sabia que eu podia falar.
+__c1 $DK$: Ei, eu tô só brincando contigo, tá bom? Fale o quanto quiser! Afinal, é o que eu faço! *piscadela*
+$N$: ...
+endscene
+
+scene db-day1-start-loop
+__c1 $DK$: Ei... Se você quiser, venha até a Limpeza da Vinculação mais tarde. Um idoso Impuro chamado Beetricks Rooter morreu recentemente e nós vamos levá-lo lá. Talvez isso ajude com algumas de suas perguntas.
+endscene
+
+// Setting: Clearing of the Binding
+
+scene db-burial-1
+[FADE]
+À medida que Nova se aproxima da limpeza, ela vê uma reunião de Impuros em torno de um estranho caroço, embrulhado em pano. Com um sobressalto, ela percebe que aquilo já foi um deles. O corpo de um Impuro, imóvel e silencioso. Morto.
+De repente, eles começam a balançar seus braços em uma espécie estranha de dança. 
+endscene
+
+
+// <the sprites in the center do different hand motions which cause a pit in the ground to grow. then they move the body in, then they refill the pit. Elegy Beatty steps forward>
+
+scene db-burial-2
+[FADE]
+Nova olha ao redor. Uma impura alta com características elegantes e nítidas dá um passo à frente. Ela começa a falar com uma voz estranhamente rítmica. Ela então diz as palavras "Segue em frente", todos os Impuros dizem o mesmo, em união.
+[CLEAR]
+Mulher Alta e Elegante:
+Segue em frente -
+(Segue em frente!)
+O vazio do redirecionamento cardinal, a leveza de sua mão enquanto cai suavemente. Um truque de mágica nascido do simples ato de apagar a luz. De sombras e um planeta girando, um universo se dobrando sobre si mesmo, quando eu entrei no seu quarto e você se cobriu debaixo de um cobertor fino
+[CLEAR]
+Segue em frente -
+(Segue em frente!)
+Quão ricamente você tocou sobre os óleos e especiarias, os pedais e os cachimbos. Eu ressurgiria em cordialidade para você, eu dançaria sobre as misturas de perfume e catalogaria seus dedos. Me coroe, cardomom e vagens de pimenta e todos os barulhos de suas asas
+[CLEAR]
+Segue em frente -
+(Segue em frente!)
+Traços elementares, copiados, datas cruciais de carbono e listas de compras e todas as vezes que você ficou acordado até tarde. Eu dou um tapinha em minha mão e onde você me deixou está um sino de espuma macia e porosa, uma fileira de brânquias que você me deixou respirar. Esporos brilham como sal e chuva e nós agradecemos a sua coragem enquanto...
+[CLEAR]
+Segue em frente!
+(Segue em frente!)
+endscene
+
+
+// After funeral, other NPCs
+scene db-burial-elegy
+__c2 $EB$: Olá, Nova. Meu nome é Elegy Beatty. Que estranho que é, ter a própria Nano Limpadora do Centro aqui entre os Impuros.
+$N$: Uh... umm... \n(Eu não quero dizer algo estúpido na frente dela!)
+__c2 $EB$: Não tema. Eu sinto que você não veio até aqui em uma capacidade oficial, certo? Não há razão para não nos darmos bem.
+$N$: ...obrigada...
+__c2 $EB$: Ahaa~! Mas que coisinha fofa você é! Nova, por favor se junte à minha equipe agrícola! Eu quero que você trabalhe comigo! O que diz?
+$N$: O-okay...
+endscene
+
+scene db-burial-elegy-2
+$N$: (... umm...)
+endscene
+
+scene db-burial-drem
+__c1 $DK$: O que você tirou da sepultura, Nova?
+$N$: Eu... Eu não entendo! Isso é minha culpa... talvez se eu tivesse trabalhado mais rápido, eu teria sido capaz de limpar essa área a tempo. Beetricks não teria... m-morrido.
+__c1 $DK$: Não se culpe, Nova... não é culpa de ninguém que o Beetricks tenha morrido! Ele viveu uma boa vida. Nova. Um dia... todos nós iremos de volta à Poeira.
+$N$: Mas você... você não deveria! Todo mundo tem um propósito, é por isso que eles foram criados pelo Centro! Ninguém deveria simplesmente perecer! Para onde o seu propósito iria?
+__c1 $DK$: O propósito é uma ideia... é uma ferramenta para as pessoas, Nova. Nós não somos as ferramentas do propósito.
+$N$: ...
+endscene
+
+scene db-burial-drem-2
+$N$: Drem... Eu vim até aqui em busca de uma amiga. Como posso explorar além do vilarejo?
+__c1 $DK$: Ahhh... Eu ouvi rumores de um objeto estranho caindo do céu nas florestas próximas. Há uma estação de trem a sudoeste daqui e talvez você possa pegar uma carona--se você pedir direitinho! HEeheh!
+endscene
+
+
+scene db-burial-misc
+$N$: Eu não sei bem por onde começar... talvez eu deva falar mais.
+$N$: Eu passei tempo o suficiente aqui. Eu só preciso achar o caminho até a fruta que a Paliçada me mostrou.
+Esses Impuros... eu não sei o que fazer deles...
+endscene
+
+scene db-hint
+Desculpe, estimados passageiros. O Caecilitrem não age durante cerimônias de sepultura. Volte mais tarde.
+Choo-choo! Precisa se locomover? O Caecilitrem vive da deliciosa poeira no chão. Em troca, ele transporta pessoas para fora do Vilarejo! Basta puxar a Uvulavanca.
+Oeste: Alojamento\nNorte: Ringue de Luta Livre\nSul: Caecilitrem\nLeste: Limpeza da Vinculação, Fazenda
+Norte: Campo\nNordeste: Limpeza da Vinculação\nLeste: Fazenda
+endscene
+
+
+
+//Find Handfruit Haven
+//<Nova's internal monologue... partly fadescreen but maybe not bc sometimes need to show stuff>
+
+scene haven-first-time
+[FADE]
+A sala cavernosa é linda, mas mortalmente intacta. O rangido suave das portas interrompe o silêncio. Não há ninguém aqui.
+
+Mas é claro! É claro que não tem ninguém aqui. Nova não poderia esperar que Paliçada estivesse ali, a esperando de braços abertos, poderia? O plano deve ser desdobrado, as engrenagens devem girar. Quando as peças abstratas finalmente se encaixarem, a imagem será revelada.
+[FADE]
+Há um altar no centro da sala. É uma pista, talvez um portal do qual Paliçada possa ser convocada! Sua estrutura é, obviamente, a chave para seu uso. Um traço natural de design inteligente...
+endscene
+
+scene haven-first-time-2
+[SMOOTHCAM TO diceVC in 1.8]
+Rito I, os dados. É preciso notar a cor e a letra em que os dados caem. A vida nunca é verdadeiramente aleatória, apenas parece assim devido às limitações da mente.
+[SMOOTHCAM TO bridgeVC in 1.8]
+Rito II, a ponte. É uma passarela feita de materiais instáveis. As bordas da ponte jamais devem ser tocadas, como indicado por sua coloração amarelo-claro.
+[SMOOTHCAM TO slideVC in 1.8]
+Rito III, o presente. É preciso derramar uma oferenda e vê-la ir embora. Para ser verdadeiramente livre, é preciso deixar de lado as coisas que proporcionam falso conforto, falsa segurança. O Centro se desenrolará e isso é o bastante.
+[SMOOTHCAM TO matcherVC in 1.8]
+[FADE]
+Tudo se torna claro para Nova: ela só precisa realizar os ritos fielmente para que Paliçada volte com certeza! Mas antes que ela pudesse começar, Nova quase desmaia ao chão. É como se ela tivesse quebrado de alguma forma, ela pode sentir a Semente Glandilock tossindo e se engasgando. 
+[CLEAR]
+Ela se lembra da cama em que acordou mais cedo naquele dia com uma estranha sensação de desejo. É como se meramente existir ao longo do tempo se tornasse uma doença para ela... poderia a inconsciência ser seu remédio?
+Ela volta para casa. Ela fará os rituais em breve... logo... depois...
+endscene
+
+// Nova falls asleep
+// Start of Day 2.
+// Now nova is hungry, and in bed.
+
+scene db-day2-wakeup
+[FADEFULL]
+Nova desperta. Ela não sente mais o mesmo estranho peso em seus membros, mas agora seu estômago passa por uma dor perfurante...
+Talvez os Impuros realmente fazem mal à ela.. talvez eles tenham a envenenado. Ela deve encontrar... Drem Kinako....
+endscene
+
+scene db-day2-drem
+__c1 $DK$: Bem... se não é a Pamonha em pessoa! Finalmente, você acordou!
+$N$: O-o que aconteceu comigo? Eu estou morrendo.....
+__c1 $DK$: Eu não sei, Cajuzinho. O que sente?
+$N$: O que eu sinto? Um... eu não sei do que você está falando.
+$N$: E por que você continua fazendo isso?
+__c1 $DK$: Fazer o que?
+$N$: Me chamar dessas palavras sem sentido!
+__c1 $DK$: Palavras sem sentido? Está falando tipo "Pamonha" e "Cajuzinho"? Essas não são palavras sem sentido, são itens de comida saborosos!
+$N$: “I-itens de comida”?
+__c1 $DK$: Ohhhhhh... okay. Acho que entendi agora. Você não sabe o que é comer, sabe? Bem. Se lembra de ontem, como nós aprendemos sobre falar? Bem... comer comida... é como "falar ao contrário"... ao invés de PENSAMENTOS caírem para FORA da sua boca... você tem COMIDA indo para DENTRO da sua boca!
+$N$: ...quê?
+__c1 $DK$: Uau, você tem sorte de eu estar aqui para explicar de forma tão clara! Eu aposto que você precisa comer, já que parece que você nunca comeu antes. AHehe!! Aqui, tente isso. É "sopa de cogumelos". Você sabia que ela é "boa para cozinhar"?
+endscene
+
+scene db-day2-drem-2
+$N$: *dá uma mordida* ... Eu acho que está ajudando.
+__c1 $DK$: Você está fora do alcance da influência do Centro. Então eu acho que agora você precisa dormir e comer como o resto de nós... Ei! É o bastante por ora, vai pegar sua própria sopa! Se você gostou tanto assim, você deveria dizer, "mmmm" e esfregar seu estômago com a mão fazendo um círculo!
+$N$: Uh... "mmmm"...
+__c1 $DK$: AHehehaHEha!! Boa!
+[FADE]
+Depois de ponderar sobre essa 'comida', Nova se dirige ao campo para conversar com Elegy Beatty...
+endscene
+
+// <cut to farm>
+scene db-day2-farm
+$N$: O-oi... meu nome é Nova. Você me contou ontem algo sobre plantar?
+__c2 $EB$: Ahaha~! Garota boba. Eu não esqueci de você!
+$N$: ...um. ahaha... Eu não deveria... uh... passar muito tempo por aqui. Eu deveria estar fazendo os ritos para que minha guardiã Paliçada retorne. Mas se eu vou estar dormindo por aqui, e comendo sua comida, eu deveria ajudar.
+__c2 $EB$: Ei, você é a nossa hóspede, tá bom? Sem pressão. Mas estou feliz que esteja aqui! Por favor, me deixe apresentar a você a bela arte da agricultura!
+__c2 $EB$: As plantas nos fornecem comida e ajudam a filtrar o ar para que possamos respirar. Quando cultivamos, nós fornecemos às plantas água, energia e espaço para que cresçam grandes e fortes! Também devemos proteger as plantas de suas rivais: As Erviotas! E é aí que você entra! Certifique-se de limpar cada campo das Erviotas!
+endscene
+
+scene db-day2-farm-after
+__c2 $EB$: Bom trabalho, Nova! Que tal fazermos alguns coquetéis depois de todo o nosso trabalho duro?
+$N$: (Uau... ela é tão legal comigo... eu...)
+$N$: Eu tenho que ir!! Te vejo depois!
+$N$: (Preciso achar Paliçada!!!)
+endscene
+
+scene db-day1-npc
+__c1 $DK$: ... Oh, oi, Nova. Eu só estava pensando sobre... Oh? Você esqueceu onde o trem fica? É só ir ao sul do vilarejo.
+endscene
+
+// Talking to drem etc again
+scene db-day2-npc
+__c1 $DK$: Então, quais são seus planos? Pegue leve!
+$N$: (Não... ela está ocupada. Preciso pegar o trem para achar Paliçada!!!)
+endscene
+
+scene db-day3-npc
+__c1 $DK$: Belo show hoje, Acarajé!
+$N$: (Eu já falei com a Elegy... eu devo ir até o Refúgio!)
+endscene
+
+scene db-day4-npc
+__c1 $DK$: Olá, Nova! Como vai? Já conheceu a Ash?
+$N$: (Eu preciso ir até o Refúgio Fruto da Mão.)
+endscene
+
+scene db-day5-npc
+aaa
+endscene
+
+
+// Day 2, Rites 1. Haven.
+
+scene haven-begin-rites
+$N$: Paliçada, eu tomei conta das minhas necessidades corporais.
+$N$: Agora, eu irei realizar os ritos que você deixou para mim.
+endscene
+
+scene haven-dice
+$N$: Ahh... aqui nós temos Azul e C. Azul é a cor da água e do vestido de Paliçada. O Santuário do $Centro fica embaixo d'água em CCC. Foi lá onde eu conheci Paliçada do Vestido Azul. Mesmo que hoje eu esteja Confusa, o Azul C me lembra de onde tudo começou. Paliçada serve ao Centro, então o Centro irá proteger Paliçada.
+$N$: Hoje... Amarelo e A. Amarelo, como uma gema. A representa 'começo'. De fato um teste auspicioso. Algo está crescendo, começando. Talvez o corpo de Paliçada tenha sido quebrado. Mas agora ela pode renascer aqui, em seu refúgio. Salmista C ensinou que tudo em Nova Terrândia sempre existiu. Não da mesma forma ao longo do tempo (eu nasci, afinal!), mas alguma "essência da Nova" deve ter sempre existido... assim como Paliçada ainda existe em meu coração. É assim que eu sei que ela irá voltar.
+$N$: Hoje... Vermelho e D. Um sinal sinistro. Raiva... Sangue... Morte... Destruição... Poeira. Estou começando a perceber por que tantos dias se passaram sem sinal da Paliçada--nenhuma palavra de segurança para guiar meu caminho. Foi um acidente terrível que o Refúgio Fruto da Mão tenha sido comido por aquela sórdida Criatura da Poeira! Foi um erro ter conhecido esses "Impuros". Foi tão bom não estar sozinha que eu me permiti me dividir do meu propósito. Eu cobicei fantasias tolas de uma vida que nunca poderia ser minha.
+endscene
+
+scene haven-bridge
+$N$: Não!! Não posso tocar nas bordas... devo atravessar corretamente.
+$N$: Tola Nova! Você deve evitar as bordas!!
+$N$: Você foi deixada sozinha por um motivo - aprender a depender de si mesma!
+$N$: Patético! Você não está preparada para a volta de Paliçada!
+$N$: Incorreto... que decepção você é.
+endscene
+
+scene haven-bridge-day3
+$N$: Eu deveria estar melhor nisso. Mas meu foco falhou.
+$N$: *Minha* própria fraqueza fez Paliçada desaparecer.
+$N$: Os Impuros estão fora do meu alcance... estou perdendo a mim mesma ficando aqui.
+endscene
+
+scene haven-slide-1
+//<As you pour out soup>
+$N$: Hoje, eu aprendi a comer. A sopa era quente e formigante enquanto descia minha garganta. Ao derramar esta tigela, lembro-me que tais prazeres são passageiros. Em breve, irei me reconectar com Paliçada e com o Centro, e não haverá mais necessidade para atividades desnecessárias como "comer" ou "dormir". Em breve tudo estará em seu devido lugar mais uma vez...
+$N$: *Bocejo*
+$N$: Breve.....
+[FADEFULL]
+Dias se passam. Nova continua em sua rotina, ajudando Elegy Beatty com o cultivo durante o dia, e cumprindo os Ritos de Paliçada à noite. É estranho ter um espaço para chamar de seu, estranho ter um conjunto de rostos familiares cumprimentando-a dia após dia.
+Nada disso importa, é claro. Paliçada retornará a qualquer dia agora. Mas antes disso, Drem Kinako aborda Nova com uma proposta...
+endscene
+
+
+
+
+
+
+////////
+///////////
+// DAY 3
+////////
+//////////
+
+// Fade into Nova's home... activated with same trigger as db-day2-wakeup
+scene db-day3-wakeup
+__c1 $DK$: Oizinho, Cuzcuz!
+$N$: Você não costuma acordar tão cedo.
+__c1 $DK$: AhahaHAh Me ARRAsou!! *Tosse* É o seguinte. Elegy disse que você foi uma guerreira valente, defendendo as plantações das ervas daninhas e yada yada...
+$N$: E-Elegy disse isso sobre mim? O que ela disse exatamente?
+__c1 $DK$: Agora, Nova... E SE... você pegasse TODA essa habilidade, coragem e determinação... e canalizasse para algo... verdadeiramente... extraordinário...
+$N$: Quê...?
+endscene
+
+
+//<Cut to the wrestling wring>
+
+scene wrestle-1-intro-1
+__c1 $DK$: Isso mesmo, Nova! Eu estou falando sobre a LUTAAAAAAA DOS IMPUROOOOOOOS!!!
+$N$: (!)
+__c1 $DK$: Toda semana... uma viciosa batalha para ver quem será o vencedor!! O rugido das multidões... a glória da luta!
+$N$: Você... quer me bater?
+__c1 $DK$: Ahaheha não exatamente, docinho de leite. É uma colaboração, veja! Nós não vamos nos machucar de verdade! Juntos... nós criaremos um espetáculo maravilhoso!!
+$N$: Mas... Drem... isso não é... inútil?
+__c1 $DK$: "Drem"? Quem é "Drem"? Você está falando com.............
+endscene
+
+//<Cut to the first match>
+
+scene wrestle-1-intro-2
+$AN$: ...LENHADOR JAAAACK!!! Como uma poderosa árvore, surgindo da Poeira... Jack representa o solo fértil, enriquecido pelo ciclo da Vida e Poeira. Realmente um herói para os Impuros!
+E no canto oposto... em sua estréia no Palco...
+A Nefasta BRUXA ERVIOTA!!! Seria ela capaz de sufocar o crescimento de Jack até que ele não seja nada além de uma casca murcha? Ou será que Jack carregará a coroa? Descubra hoje à noite no LUTAAAA DOS IMPUROOOOOS!!!
+$N$: Psst... você tem certeza disso, Drem? Eu não sei se eu vou ser boa o bastante...
+__c1 $DK$: Você será incrível, Nova!, apenas siga minhas instruções! Juntos, nós aumentaremos o entusiasmo da multidão como nunca antes!
+endscene
+
+// rl du
+scene grappletext
+Pressione {RIGHTICON}!
+Pressione {LEFTICON}!
+Pressione {DOWNICON}!
+Pressione {UPICON}!
+Pressione {SPECIAL}!
+Pressione {JUMP}!
+endscene
+
+// Drem texts here are side overlay?
+scene wrestle-1
+Drem: Psst, Nova! Quando atirar blocos em mim, mantenha o boão de tiro pressionado. Solte o botão quando quando o bloco estiver perto de mim para dar seu soco!
+$AN$: UAU! A Bruxa Erviota acertou o Lenhador Jack com uma sequência impressionante de golpes! Conseguiria ele voltar de uma tamanha surra?
+Drem: Certo Nova, minha vez! Quando meu ataque estiver perto de você, pressione o botão de disparo para tomar o ataque de forma convincente!
+Drem: É hora do grande final! Atire em mim, e eu irei defletir! Então pressione o botão de disparo antes que te acerte!
+$AN$: INCRÍVEL DISPARO DE DEFLEXÃO do LEnHADOR JACK! A BRUXA ERVIOTA FOI DERROTADA!! A MULTIDÃO VAI À LOUCURA!!!
+endscene
+
+scene wrestle-1-end
+__c1 $DK$: Psst... Nova... tá tudo bem?
+$N$: ...
+$N$: ...
+$N$: (esfrega a barriga) Mmmmmm!!
+__c1 $DK$: AhAHehea!! Isso é só para comida, Nova!! Quer saber? Deixa pra lá, continue fazendo isso!!
+[FADE]
+Com a primeira partida acabada, Nova deixa o ringue, e faz uma visita a Elegy em seu campo...
+endscene
+
+
+// Cut to farm area.
+
+scene db-day3-farm
+__c2 $EB$: Ahhh... brava, Nova! Bravissima!
+$N$: Ob-obrigada, Elegy... fico grata que tenha ido me ver! Inicialmente eu não tinha entendido direito quando Drem me pediu. Mas quando eu estive lá...
+__c2 $EB$: Você mandou bem!! Você--
+__c2 $EB$: *Tosse! Tosse!! Hrk-TOSSE!!*
+$N$: Você está bem?
+__c2 $EB$: Eu... 
+__c2 $EB$: Eu preciso te contar uma coisa, Nova. Lembra de quando você chegou aqui pela primeira vez, e nós enterramos Beetricks Rooter? Um dia, mais cedo ou mais tarde, cada um de nós irá retornar à Poeira... isso é claro, o motivo de nos chamarmos os Impuros.
+$N$: Okay...
+__c2 $EB$: Eu acredito que meu dia esteja chegando logo. Um caroço de Poeira tem crescido em meu ombro. Beetricks experienciou algo semelhante perto do fim.
+$N$: N-não! Elegy!! Isso é tudo culpa minha! É o meu trabalho prevenir que isso aconteça. Se eu fosse capaz de limpar esse lugar... Se eu apenas--
+__c2 $EB$: --Nova... Nova. *Tosse!* Nós Impuros *escolhemos* viver fora do poder de alcance do Centro. Cada um de nós tem um motivo para estar aqui. Nós queremos viver sob nossos termos, nós queremos ser mais do que meras extensões do ego do Centro.
+endscene
+
+//<Glandilock seed vibrates angrily> 
+
+scene db-day3-farm2
+$N$: Eu... eu não entendo...
+__c2 $EB$: Está tudo bem, Nova. Todos nós precisamos de tempo para crescer e descobrir onde nossas prioridades realmente estão.
+__c2 $EB$: Falando em crescer, está pronta para cultivar? Eu tenho desacelerado ultimamente. Espero que possa compensar um pouco da folga!
+$N$: Claro...
+[FADE]
+Nova caminha até os campos. O ato de remover ervas daninhas tornou-se um conforto familiar para ela, mas hoje ela sente a presença do Centro se aproximando dela, franzindo sobre sua indulgência.
+endscene
+
+
+scene db-day3-farm3
+__c2 $EB$: Bom trabalho, Nova! Isso é para você!
+$N$: Uma flor?
+__c2 $EB$: Em algumas culturas, é normal presentear um ótimo performista com rosas. Você pode ter "perdido" no ringue hoje, mas você é uma campeã para mim!
+endscene
+
+
+// Day 3 - Rites 2.
+scene haven-slide-2
+$N$: Hoje, eu recebi uma rosa da Elegy. Elegy... minha... minha amiga... um. Quer dizer...
+$N$: Enquanto a rosa cai, eu me lembro que a glória e a adoração são meras distrações do meu propósito. Os sentimentos das pessoas soprarão como pétalas ao vento, mas o Centro permanecerá verdadeiro ao longo do tempo. Portanto, devo seguir seu caminho e não minha própria vaidade.
+[FADEFULL]
+Dias se passam. Breve, a segunda luta de Nova chega - sua revanche muito-esperada com Lenhador Jack...
+endscene
+
+// DAY 4
+// Cut to wrestling.
+// Day 4 - Wrestling 2
+
+
+scene wrestle-2-intro-1
+__c1 $DK$: Se sentindo flexível hoje, kolaczki? Pronta para sua grande vitória?
+$N$: Estou pronta.
+$AN$: É a grande revanche entre o atual campeão Lenhador Jack e seu rival sempre persistente: Bruxa Erviota!!! Jack tem andado invicto recentemente--poderia a Bruxa astuta expulsá-lo de seu trono? Descubra hoje à noite na LUTAAAA DOS IMPUROOOS!
+endscene
+
+scene wrestle-2
+$AN$: Um intenso vai e vem na luta de hoje, amigos! Difícil dizer quem vai sair por cima!!
+Drem: Hora do grande final! Atire em mim, mas dessa vez, depois de eu desviar, me aspire e atire!
+$AN$: O que está acontecendo aqui? A Bruxa Erviota parece estar sugando Drem Kinako!! Inédito!!
+$AN$: E lá vai ele, para fora do ringue!! Desculpe dizer isso amigos, mas o Lenhador Jack foi derrotado!! A Bruxa Erviota é a nova campeã!!!
+endscene
+
+// Cheering?
+
+scene wrestle-2-end
+$N$: (Ah sim... o que Drem me disse para dizer?) 
+$N$: S-seu precioso herói é nada além de um lado no meu espinho!! Agora, os Erviotas devem reinar supremos!! Gwahahahahaa!!
+__c1 $DK$: (Bom trabalho, Nova!!)
+$AN$: (Espera! Parece haver uma comoção nas arquibancadas!)
+$N$: (Huh? Isso não estava nos planos!)
+__c1 $DK$: Nova! Venha rápido!! É a Elegy!
+endscene
+
+scene db-birth-1
+[FADE]
+Elegy é carregada para fora das arquibancadas e deitada em um pedaço macio de musgo. Uma multidão ansiosa a cerca. "Dêem espaço!" Drem Kinako chora. Nova abre passagem até o círculo interno. Elegy se contorce em agonia e parece incapaz de falar.
+A cabeça de Nova lateja e lateja... isso não deveria estar acontecendo... isso está errado!!!
+De repente...
+endscene
+
+//<tumor explodes into baby>
+
+scene db-birth-2
+__c1 $DK$: O-o que é aquilo... o que aconteceu?
+???: W-w-WaAAAAAaaaAAAHHHH!!!
+__c1 $DK$: Santa POEIRA!!! Como isso é possível???
+$N$: (N-não pode ser! Apenas o Centro pode criar vida da Poeira!)
+__c2 $EB$: Bem....... olá, pequenina!
+endscene
+
+scene db-birth-2-2
+$AN$: INNNNNCRÍVEL!! Parece que Elegy criou uma nova FORMA DE VIIIDA!!
+__c2 $EB$: Okay, Anounsi, eu vou precisar que você diminua um pouco a voz.
+$AN$: AH sim... perdão, eu estava no pique.
+endscene
+
+scene db-birth-3
+[FADENOFADE]
+Depois de um tempo, as emoções se acalmam. 
+Eventualmente, Nova volta para o campo da Elegy...
+endscene
+
+
+scene db-day4-farm-1
+__c2 $EB$: Onde está a Mamãe? 
+
+//<dust phases out and back in>
+// 1 3
+__c2 $EB$: Aqui estou eu!
+Ash Beatty: Uhmm?  Ahehe!!
+__c2 $EB$: Ooooonde está a Mamãe? 
+
+//<dust phases out and back in>
+// 4 6
+__c2 $EB$: Aqui estou eu!!!
+Ash Beatty: ^o^ Gwoh!! Aaahehehehahah!!!!
+Ash Beatty: Wahw! Gwah! 
+//<Shakily dust phases... out and in>
+endscene
+
+scene db-day4-farm-2
+__c2 $EB$: Uau!!! Bom trabalho Ashy!! Muito bem!!
+__c2 $EB$: Ah, oi Nova!
+$N$: Elegy!! E-eu estou tão feliz que esteja bem!
+__c2 $EB$: Aww obrigada, Nova. Eu também, haha. Diga olá para sua Titia Nova, Ashy Poo!
+$N$: O-olá... Tem certeza de que isso é seguro, Elegy?
+__c2 $EB$: Um joguinho de pique-esconde? Nós estamos canalizando a poeira, Nova! Da mesma forma que cavamos para a sepultura ou quando Drem te ataca no ringue.
+endscene
+
+
+// <Glandilock seed flashes.. visions of the first 4 card NPCs>
+
+scene db-day4-farm-3
+$N$: Eu vi o bastante para saber que a Poeira é uma força da corrupção.
+__c2 $EB$: Canalização de Poeira é uma forma de vida para os Impuros, Nova. Você sabe que tratamos a Poeira de forma diferente do Centro.
+$N$: ...
+$N$: Bem, talvez você ou Drem possam aguentar brincar com forças tão perigosas. Mas essa pequenina...
+__c2 $EB$: Essa pequenina deve aprender o que todos nós devemos aprender. Que somos feitos da Poeira, que seu poder flui através de nós, que um dia iremos retornar à Poeira.
+$N$: ...
+$N$: Eu tenho um trabalho à fazer.
+[FADEFULL]
+Nova se joga contra o mato. Ela sente algo ameaçador borbulhando por dentro. Mas ela empurra pra baixo, ignorando-o, e trabalha. 
+E trabalha...
+E trabalha...
+endscene
+
+// Weeding 3?
+
+scene haven-slide-3
+$N$: Eu sou Nova, a Nano Limpadora. Eu fui criada pelo Centro por um motivo. Meu destino está embutido na estrutura da existência. Minha vida não é um brinquedo para brincar, nem uma fantasia para minha própria diversão. Hoje eu não derramo uma possessão ou um presente... hoje eu derramo a mim mesma.
+[FADEFULL]
+Os dias continuam a passar. Nova passa a maior parte de seu tempo no Refúgio Fruto da Mão, voltando ao Vilarejo dos Impuros apenas para trocar seu trabalho por comida, já que suas tentativas individuais de cultivo renderam apenas frutos pequenos e podres. Ela espera poder ser perdoada por tais momentos de fraqueza.
+Às vezes, ela passa por seus amigos no vilarejo.
+(...ex-amigos.)
+Eventualmente, o dia chega para sua próxima luta com "Lenhador Jack"...
+endscene
+
+scene haven-misc
+$N$: Eu preciso sugar e atirar o dado para rolá-lo.
+$N$: O primeiro rito está pronto, então eu devo atravessar a ponte.
+endscene
+
+
+scene wrestle-3-intro
+__c1 $DK$: Ei, Brigadeirinho! Que bom que você conseguiu!! Não tinha certeza se...
+$N$: Eu estou em débito com a hospitalidade dos Impuros. Eu não teria sobrevivido sem a sua ajuda. Eu pretendo pagar essa dívida.
+__c1 $DK$: ...
+__c1 $DK$: Nova... por que tem que ser assim? Você ganha vida no ringue! O que há de tão errado em se divertir?
+$N$: O que me "diverte" não tem nada a ver com o que é certo.
+__c1 $DK$: Okay, bem. Seja lá quais forem seus motivos... eu estou feliz que esteja aqui. 
+__c1 $DK$: Umm... nós iremos lutar em um impasse, e então nos uniremos contra um desafiante surpresa, ok?
+$N$: Entendido.
+endscene
+
+scene wrestle-3-intro-2
+$AN$: Lenhador Jack tem estado faminto para recuperar sua coroa da Bruxa Erviota! Hoje à noite, sua oportunidade finalmente chega!! É isso mesmo pessoal, é hora da LUTAAAA DOS IMPUROOOS!!!
+endscene
+
+scene wrestle-3
+Drem: Certo Nova! Vamos trocar socos. Acerte alguns golpes, mas esteja pronta para desviar se você ver meu sinal!
+Drem: OK! Eu irei bater no chão. Use os escombros que deixo para trás para me atacar!
+Drem: Hora do nosso grande impasse!! Deflita meu ataque--iremos rebater um para o outro!
+endscene
+
+//<after you do this for a while, the new challenger falls into the ring stomping the attack. Nova and Drem vibrate from the impact and look surprised (!) (!)>
+
+scene wrestle-center
+?: A FESTA FANTASIA ACABOU, NERDS!!!
+$AN$: QUÊEEee?? Quem interromperia esse confronto intenso entre Lenhador Jack e a Bruxa Erviota?? Qual é a sua, Estranho Mascarado??
+?: Silêncio, VERME!! Olhem para vocês... Que exibição PATÉTICA!!! ESTES filhotes ignominiosos são seus CAMPEÕES?? GRAHAHAHAA!! Apenas eu mereço usar a coroa!! Pois eu sou seu verdadeiro mestre, e voltei para reinvidicar o que é meu por direito!!
+?: Sim, é isso mesmo... Sou eu... O CENTRO!!! o-ho-ho-ho-ho-ho-ho-
+O Centro: OHoHoHoHoHoHoHoHo-
+__c1 $DK$: (Ahaha uau, isso é fantástico!)
+O Centro: - HooooHohohoHOHOhohohooooo -
+$N$: ... 
+endscene
+
+scene wrestle-center-2
+O Centro: Por muito tempo, vocês "Impuros" zombaram da ordem natural! 
+[SOUND wrestleboo 1 1]
+O Centro: Vocês rolam na sua imundície e desfilam como os vírus tolos e nojentos que são!!
+__c1 $DK$: Segura aí, Centro!! Eu sou o Lenhador Jack, membro dos Impuros com orgulho. 
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: É melhor você pensar duas vezes antes de insultar meu pessoal dessa forma!
+O Centro: Você ousa se opor a mim? Você... um pequeno rebento?? GRAHAHAHAA!! 
+[SOUND wrestleboo 1 1]
+O Centro: Eu poderia transformá-lo em gravetos em um estalar de dedos!
+__c1 $DK$: Não importa o que aconteça comigo, os Impuros irão viver! Sempre que alguém em Nova Terrândia escolhe vulnerabilidade à dominação--eles são os Impuros! 
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: Sempre que alguém se depara com o medo de aniquilação e encontra uma nova beleza e valor na vida--eles são os Impuros!
+[SOUND wrestlecheer 1 1]
+O Centro: Quem é VOCÊ para se opor à minha vontade? EU te CRIEI!
+__c1 $DK$: Talvez você tenha. Se tiver me criado, então deveria ter entendido agora: Eu sou o meu próprio ser! Eu sou compelido pelo meu coração e minha mente!! Você perdeu seu direito a mim, a todos nós, por nossa própria natureza. Nós existimos, nós somos belos, e você NÃO tem direito a nós!!
+[SOUND wrestlecheer 1 1]
+Multidão: RAHHHHHHH!!!
+O Centro: S-silêncio, mancha INSOLENTE! Essa conversa já foi longa o suficiente. Prepare-se para LUTAR!! GRAHAHAHAHAAA!!
+endscene
+
+
+scene wrestle-center-3
+__c1 $DK$: B-Bruxa Erviota... você e eu... nós somos ambos plantas. Por tanto tempo, nós temos competido pelo solo para crescermos grandes e fortes. Mas agora eu vejo... lá dentro, nós somos o mesmo... somos triunfos da vida, em um mundo frio e estéril!!
+__c1 $DK$: Eu, Lenhador Jack, não posso enfrentar o Centro sozinho!! P-Por favor, me ajude! Juntos, nós podemos garantir um futuro em que ambos possamos crescer!!
+$N$: ... 
+$N$: Minha... minha cabeça...
+endscene
+
+scene wrestle-vision
+[FADENOFADE]
+O sangue de Nova corre frio. Ela escuta o ruído suave dos Gwons rastejantes, sente o hálito quente da língua sondadora de Gustine Papellum. Os impuros não estavam lá para ver Misteria Waizel apodrecendo sozinho em um quarto escuro e desgrenhado! Eles não suportaram o peso da raiva infinita e amarga de Bran Maligden! 
+[CLEAR]
+Cegos por arrogância, eles jamais poderiam entender a natureza verdadeira da Poeira! Salmista C havia avisado Nova sobre tamanha tolice! Ela foi avisada!! Agora os Impuros iriam queimar, e Nova iria com eles. Quem poderia evitar o destino? Não há outro caminho a não ser o do Centro. Estúpido, nojento, tolo... o que ela estava pensando???
+endscene
+
+scene wrestle-3-end
+$N$: ...
+... ...
+... ... ...
+__c1 $DK$: B-Bruxa Erviota?
+endscene
+
+//<Nova jumps out of the ring and runs away>
+//<Cut to a separate screen. Nova walking away>
+
+scene db-blowup-0
+__c1 $DK$: Espere!
+__c2 $EB$: Nova, espera!
+endscene
+
+scene db-blowup-1
+__c1 $DK$: Docinho de Coco, espere, me desculpa! Eu não sabia que aquilo ia acontecer... eu sei que você deve estar desconfortável. Na próxima, nós examinaremos tudo de antemão!
+$N$: Próxima vez? Não vai haver uma próxima vez!! Eu não tenho lugar aqui, isso não está óbvio já? E pare de me chamar desses nomes ridículos de comida.
+__c1 $DK$: Me desculpe. Nova, me desculpe. Você não precisa lutar mais... Mas isso não significa que você não tem lugar aqui.
+$N$: Eu vim até aqui porque era meu dever. Eu vim aqui pela Paliçada! Eu não sei porque eu deixei vocês me envolverem nesses joguinhos ridículos! Talvez eu tenha pensado que podia ajudar vocês de alguma forma. Talvez eu tenha pensado que eu poderia mostrar a importância de combater a Poeira.
+__c2 $EB$: Okay, espera aí... fale a verdade, Nova. Você "nos deixou" te levar porque você queria isso! Ninguém te forçou a aceitar a nossa amizade!
+$N$: Tá bom. Você está certa. Foi erro meu. Eu sei disso agora. Eu falhei. Paliçada NUNCA irá voltar, e tenho apenas a mim mesma para culpar. Eu não posso me manter o suficiente para continuar aqui, eu não sou confiável. Eu preciso sair daqui e continuar minha missão sozinha.
+__c1 $DK$: Quer saber...
+__c1 $DK$: Quer saber, você está sendo uma Aspirante a babaca de verdade! Para mim, para a Elegy, mas também para si mesma!!
+$N$: ...
+$N$: Sinto muito que você se sinta assim, Drem. Sinto muito que esteja cego para o mal que gira em torno de todo esse vilarejo. 
+$N$: Está claro para mim agora. Você pode pensar que está apenas brincando, mas mexer com a Poeira sempre levará à trágedia no final. Eu vi os efeitos da Poeira em primeira mão. Eu sei onde isso leva.
+$N$: E eu não seria sua amiga se eu não tivesse tentado te alertar.
+__c2 $EB$: Sé é assim que você se sente de verdade... então talvez você de fato deva ir embora.
+$N$: C-Claro que é assim que eu me sinto! Eu sou a Nano Limpadora. Eu sou a representante do Centro para toda Nova Terrândia. E já passou da hora de eu parar de pensar e começar a fazer o meu papel.
+__c1 $DK$: ...
+__c1 $DK$: Depois de tudo que passamos... eu não posso ouvir nem um pouco mais disso.
+__c1 $DK$: Adeus, Nova. 
+endscene
+
+//<Drem walks away>
+
+scene db-blowup-2
+__c2 $EB$: Nova. Vou sentir a sua falta.
+$N$: ...
+$N$: ...
+endscene
+
+//<Nova steps back... steps back... then runs away>
+// Cut to handfruit
+
+scene db-blowup-3
+[FADENOFADE]
+Nova corre, corre, e corre. Para longe do vilarejo, e direto para o Refúgio Fruto da Mão.
+E ela não olha para trás nem uma vez.
+endscene
+
+scene rites-final-1
+$N$: Me desculpe, Paliçada. Eu não fui forte o bastante para realizar os ritos. Eu...
+$N$: Ei!! Quem está aí??
+endscene
+
+
+
+
+//<camera pans to Ash Beatty holding a die by the playground>
+
+scene rites-final-2
+[FADE]
+"Não Ash, Não!! Bota isso no chão, AGORA!" Nova diz severamente.
+"Heehehee! Tia Nova, brincar!!" Ash grita, chutando e tropeçando nos dados sagrados. 
+"Pare! Você não sabe para que isso serve!" Nova resmunga enquanto se aproxima da criança.
+// 4 6
+[FADE]
+Ash Beatty ri e corre. "Me segue! Me segue!!" ela grita. Ela corre até a ponte do ritual, pausando para pular para cima e para baixo descontroladamente no centro.
+"Volte aqui!! Ash má! Você está sendo muito levada!" Nova chora.
+
+// 7 10
+[FADE]
+O sorriso de Ash cai quando ela nota que Nova está zangada de verdade. 
+"Eu... n-não sou levada!!" Ash chora.
+Ela desliza a rampa da oferenda e foge...
+
+// 11 12
+E agora, Nova estava sozinha.
+$N$: ... Não... Não! Não NÃO NÃO NÃO NÃO!!!
+
+// Fade to black, turn off anocontrol2d
+endscene
+
+scene rites-final-3
+[FADENOFADE]
+Vergonha e raiva inundam Nova, muito além de qualquer medida de controle. Ela usa seus poderes como um furacão violento sob o Refúgio Fruto da Mão. Os elementos do ritual são despedaçados e arremessados contra as paredes esculpidas com requinte. Quando ela termina, não há nada além de restos de entulho...
+//show exterior of Handfruit haven with explosions all over it. Maybe zoomed out image. Fade to white as explosions continue.
+endscene
+
+// zoom stuff
+
+scene db-spire
+[FADE]
+Nova espia pela borda da torre. Abaixo, a tempestade de poeira assola quietamente, inalterada.
+Ela tenta refletir sobre as semanas passadas, mas está tudo enevoado por ondas de raiva. Ela sente cócegas desconfortáveis na garganta, um estranho peso em suas pernas... mas ignora.
+Como os Impuros poderiam viver daquela forma? Como Paliçada poderia ter desaparecido? Antes que ela pudesse formular uma resposta, as mesmas perguntas se repetiam em sua cabeça, afogando seus pensamentos.
+[CLEAR]
+O que aconteceu? Talvez o Centro tenha as respostas, mas agora, Nova arrasta seu corpo cansado até o Santuário Central...
+endscene
+
+
+scene dbn-haven
+Esse é um Refúgio Criado a Mão para a preciosa Nova. Que você se sinta segura aqui até que o caminho à frente fique claro.
+endscene
+
+
+scene db-painter-1
+LaShawn Mixte: Ah. Hm. Olá. Esse é o Vilarejo dos Impuros! De fato. Bem. Procurando pela Limpeza da Vinculação? Ah. Mais a leste.
+endscene
+
+
+// day2+
+scene db-painter-2
+LaShawn Mixte: Ah. Hm. Eu sou um pintor da Poeira. Sim. Eu misturo a Poeira com um aglutinante e pinto quadros de pessoas e plantas. De fato.
+LaShawn Mixte: Pinturas a Poeira... Hm. Inevitavelmente, elas se decompõem até o nada. Assim, elas são de uso limitado para o colecionador. Meu trabalho pré-Impuro ainda circula no mercado da arte, ficando mais e mais caros. É surpreendentemente fácil para a arte bem-intencionada ser recontextualizada pelo poder e pela indústria até restar pouco do seu valor original.
+LaShawn Mixte: O que é um bom artista? Ah. Hm. Simplesmente uma pessoa.
+endscene
+
+
+scene db-girl-1
+Millicent Pham: Oh hum eiii... é a garota que caiu no ninho de vespas. Aquilo foi engraçado hehe... digo, triste.
+Millicent Pham: Ei, garota do ninho de vespas... eu quero falar contigo. Eu ouvi um rumor de que você veio de um mundo "Tresdê". O que isso significa? há pessoas por lá também, com pensamentos e vidas e sentimentos? Existência é algo estranho.
+// translation note: Threedy = phonetic spelling of 3D
+endscene
+
+// day3+
+scene db-girl-2
+Millicent Pham: Ora ora, se não é a Bruxa Erviota! BE... Bem Elegante... B Elegante. Então o Drem te chamou para lutar, eh? Não sabia que você tinha isso em você. Uau. Parece que todos nós temos multidões. Possivelmente literalmente. Tipo pessoinhas dentro? Explique seu trabalho estranho para mim de novo...
+Millicent Pham: Eu tenho tentado entrar em luta livre. Não acredito que tenha conseguido primerio. Uau. Você me fez acordar pra vida, B Elegante. Mas quem vai acordar é você!! Hehehe. Tô treinando minha conversa fiada.
+endscene
+
+scene db-misc-npc
+Phasmo Chani: Você já tomou suco de Poeira? Eu acredito que eu tenha aperfeiçoado a receita desta bebida refrescante! Primeiro, pegue um copo de água e deixe-a na cabeceira. Certifique-se de que esteja descoberto!! Depois, espere alguns dias. Finalmente, acorde no meio da noite e tome um grande gole. Mmm... suco de Poeira!
+Phasmo Chani: Beetricks Rooter era um "Michaelogista". Significa que ele estudava "Michaels"!
+endscene
+
+scene db-mike
+// at funeral
+Olá, eu sou Michael o Cogumelo. Mas meus amigos me chamam de "Mike Piegas"! Eu trabalhei com o Beetricks Rooter. Verdadeiramente uma alma gentil com uma mente como uma armadilha de mosca de Vênus!
+// during free time
+Eu sou um cogumelo singular, mas estou conectado com uma enorme rede de fungos que estende seus filamentos muito além dos arredores do Vilarejo dos Impuros. A quem eu pertenço?
+endscene
+
+// day2+
+scene db-grub
+Do Grubbins:\nO solo é úmido, o solo é adocicado\nA terra é um doce que eu considero abençoado!
+Re Grubbins: Aqui vai uma ideia divertida de lanche para a criançada: tente pressionar um pouco de terra escura na forma de biscoitos de chocolate. Em seguida, encontre um pedaço de fungo branco para o "recheio de creme". Sacou? Você pode fingir estar comendo um biscoito de sanduíche de chocolate (haha... ewww! nojento!!) mas ainda estará delicioso!
+Mi Grubbins: Ah... nós navegamos tanto à procura da melhor sujeira. De fato está aqui. Que profundidade de sabor tem a Poeira dos Impuros! Um sabor cítrico sutil compensando seu rico sabor umami.
+Fa Grubbins: Eu não gosto de verdade do sabor de sujeira. Tá tudo bem. Há uma grande variedade de comidas para comer, e meus amigos me amam da mesma forma!
+endscene
+
+scene db-ano1
+Escudito: Eu tenho tido vontade de sair desse escudo desde quando alguém me disse "do que você está se escondendo??" Eles estão certos. Não há nada para se esconder, não é? ... Talvez eu o deixe hoje.
+Sapo: Mas que ambiente úmido maravilhoso! Rib-bib-bet. Eu sou um sapo. Rib-bet. Você sabia que a poluição industrial pode vazar no solo e causar problemas de saúde entre os moradores? Felizmente, não há indústrias por perto.
+Visionário: Eu vejo... em seu futuro... a cor cinza... poeira. Quê? Você já sabia disso? Tudo bem. As pessoas acham meus serviços terapêuticos, mesmo eu estando errado aqui e ali. Ou sempre.
+Pessoa: Já parou para pensar nas pessoas que são empurradas o dia todo? No começo eu fico tipo: "lute por si mesmo!" mas depois eu penso melhor sobre a situação, e fico triste. As causas são profundas...
+endscene
+
+
+
+
+

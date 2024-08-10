@@ -1,0 +1,641 @@
+
+scene carwash
+EW: Buenas tardes y bienvenida al autolavado Wosch. Yo soy Eponymous Wosch. Tienes pinta de venir desde muy lejos para probar nuestras famosísimas instalaciones. Nuestros servicios dejan como nuevo a cualquier vehículo.
+EW: O lo haría si tuviésemos energía, pero no es el caso. Nuestro generador se ha estropeado, y mi ayudante va y pierde la escalera...
+
+//2 repeat before carwash on
+EW: Hola de nuevo, Nova.  Siento decirte que el generador sigue roto. Si fuese posible subir ahí arriba y hacer algo para arreglarlo...
+
+//3 repeat after carwash on
+EW: ¡Oh, volvemos a tener energía! ¿Ha sido cosa tuya, Nova? Desde ya te declaro cliente honorífica del autolavado Wosch. Y, como tal, ¡tienes derecho a una experiencia completa Wosch totalmente gratuita!
+
+//4 while Nova is hurt before dustbound
+EW: Ah, Nova, la cliente honorífica del autolavado Wosch. ¿Puedo hacer algo por ti? Entiendo... Hay problemas que ni siquiera un buen lavado puede solucionar.
+endscene
+
+scene carwash-helper
+// before turned on
+Asistente:n Arg, ¿cómo voy a arreglar esa cosa? Me es imposible subir ahí arriba sin mi escalera. ¿Dónde la habré metido?
+// after turned on
+Asistente:n ¡Ver para creer! ¡El generador se ha arreglado!
+endscene
+
+scene carwash-hint
+Sin la energía del generador, no se puede abrir la puerta trasera. Quizá Nova pueda hacer algo al respecto...
+endscene
+
+
+scene ring-health
+Eldi:n ¡Estas colinas son más grandes cada año! Ya no puedo andar más...
+Eldi:n Siempre me dije, ¡la distancia no es problema! ¡Puedo hacer la caminata por las colinas! No hay problema si eso significa ver a mi querido amigo. Y, sin embargo, la vida conspira, una vez más, para separarnos. Primero, diferentes escuelas. Luego, diferentes trabajos, y luego, diferentes lugares para vivir.
+Eldi:n Nova, sé que debes de estar ocupada, pero, si tienes tiempo, ¿podrías llevar este paquete a una amiga? Vive en las afueras de una aldea agrícola, un poco fuera de Cenote. Seguro que estará en su casa.
+Nova recibe un paquete bien atado con un lazo de color crema.
+Eldi:n Cuando se lo hayas entregado, ven a decírmelo, por favor. ¡Y muchas gracias por la ayuda!
+// Repeat
+Eldi:n Nova, por favor, llévale el paquete lo antes posible. Mi amiga vive a las afueras de una aldea agrícola. Espero que le vaya bien.
+endscene
+
+
+scene ring-health-2
+//Interacting with house without the package
+Es una casa normal. El buzón está lleno de cartas.
+
+// Interacting after leaving package
+Es la casa de la amiga de Eldi. Nova dejó el paquete, pero aún no lo ha recogido nadie. Debería volver a Cenote a decírselo a Eldi.
+
+// Interacting with package, before leaving it
+[FADE]
+Las luces de la casa están apagadas y la puerta está en mal estado. La dirección es la correcta. Nova llama a la puerta.
+Nadie responde.
+Nova vuelve a llamar.
+...
+[CLEAR]
+Nada.
+¿Dónde estará la amiga de Eldi? Se da cuenta de que el buzón está lleno de cartas.
+Decide dejar el paquete e ir a avisar a Eldi, quien se encuentra cerca del ascensor de Cenote.
+endscene
+
+scene ring-health-3
+Eldi:n Hola de nuevo, Nova. ¿Cómo estaba mi amiga? ¿Te ha contado alguna de las aventuras que hemos vivido juntos?
+Eldi:n Ah, que no estaba... ¿Y el buzón estaba lleno? ¿Llamaste a la puerta? Qué raro...
+Eldi:n ¿Sabes qué? Hace mucho que no sé nada de ella. Puede que se haya mudado y comenzado una nueva vida.
+Eldi:n Quizá está sea una de esas separaciones que nunca acaba, una verdadera prueba de auténtica amistad.
+Eldi:n En fin, muchas gracias, Nova. Siento haberte molestado con esto. Quiero que te quedes esto por la ayuda. Dicen que es algo que puede ser muy útil.
+// chest message - chest3d 0
+
+// repeat with this only
+Eldi:n Creo que me iré a descansar un rato. Puede que antes escriba algo en mi diario para plasmar estos pensamientos que tengo.
+endscene
+
+
+//<After you finish 1 NPC, after you exit nanoscale but before you reappear in 3D we cut away to Palisade. Palisade is flying through a dusty storm, coming upon the giant mountain>
+scene ring-pal-1
+P: Puede que este lugar... Sí...
+endscene
+//<Palisade flies towards the mountain>
+
+
+//<After you ffinish all 3 NPCs, after you exit nanoscale but before you reappear in 3D we cut away to Palisade. Palisade is working the Handfruit Haven with needle-like tools... carving it out>
+scene ring-pal-2
+P: Espero que le guste este pequeño detalle.
+P: Está pasando por más de lo que debería. Quiero que, aunque solo sea por un momento, se pueda olvidar de la pesada carga que lleva sobre los hombros. Es demasiado joven, se lo merece. 
+//<Palisade holds it up proudly and examines it>
+P: No lo entiendo... Puede que me esté equivocando, pero tengo que hacer algo...
+endscene
+
+
+
+scene pal-ring-3
+P: ¡Nova, cuánto te he echado de menos! Siento haber estado ausente tanto tiempo. Incluso has crecido...
+[FADE]
+Palisade se acerca a Nova lentamente y la acaricia en la cara. Nova intenta mantener la compostura para no lanzarse a sus brazos.
+[FADEOFF]
+P: Antes de que deposites más partículas en la consola, tengo que decirte algo. Nova, estás haciendo un trabajo increíble purificando Nueva Zilan, y eso me hace sentir muy orgullosa, pero no creo que yo haya hecho correctamente mi parte del trabajo, que es cuidar de ti.
+
+//5  Palisade switch from Float to FloatNervous anim
+P: Puede que seas la purificadora, pero también eres una persona con sentimientos, con deseos... Quiero que entiendas que todo es importante, que lo que sientas también es importante y tiene cabida en este mundo.
+P: En fin, creo que por ahora he dicho suficiente. Ya seguiremos hablando en otro momento. Por ahora tienes que...
+
+//7 violent glitching (still normal lighting)
+//Nova = IdleLookingUp animation
+//7Pal = Glitch1 animation looping
+P: NoNoNova... Aaatraviersa lA tORmeeenTTTa... Tienes qUe ENcccontRar...
+P: ¡...!
+endscene
+
+scene pal-ring-3-2
+[FADENOFADE]
+Con mucho esfuerzo, Palisade consiguió colocar su mano sobre la frente de Nova, quien comenzó a ver una serie de imágenes en su cabeza.
+
+// 3 images pass in sequence, regardless of player input (it will be reviewable)
+//2/ we see 3d view again, but lighting is weird and red?, palisade glitching for a beat and then warping out of existence as nova holds up her arms, shielding her face, pause for a moment  fade to black.
+[FADENOFADE]
+¿?
+Nova siente como si una parte de su alma se desgarrase. ¿Qué acababa de pasar? No conseguía encontrarle ningún sentido. ¿Lo que ha visto es real o una mera ilusión? 
+...
+[CLEAR]
+Tras un tiempo, que pudieron ser minutos o incluso horas, Nova recupera el conocimiento y consigue ponerse en pie. Intenta, sin éxito, encontrarle sentido a esas visiones que Palisade le hizo ver.
+Has recibido: Visión de Palisade. 
+// normal lighting... nova gets up from ground
+endscene
+
+//interacting with elevator
+scene ring-nova-sad
+Las visiones de Palisade vuelven a la mente de Nova. No, no es momento de ir a Cenote.
+endscene
+
+scene ddp-disillusioned-repeat
+Las visiones de Palisade vuelven a la mente de Nova. No, no hay necesidad de depositar partículas.
+endscene
+
+//<Palisade begins glitching violently. As a final act, Palisade reaches out her hand and touches Nova’s forehead. Images of 1) a landmark at the edge of Desert, 2) the mountain, and 3) handfruit haven flash in sequence in Nova’s mind. Then Palisade disappears.>
+
+//<Nova falls to her hands and knees. Walking around is slowed down. Elevator does not work. If you stand still for too long, Nova returns to hands and knees and has to get up before moving again. Ridescale works tho (maybe top speed is decreased). You can only go thru the doors that lead you to Handfruit Haven. No talking to NPCs. You can try sparking but it’s small and fizzles out?>
+
+
+
+scene spire-wall-blocked
+[FADE]
+La tormenta de partículas que bloqueaba Cenote ahora bloquea el camino a las Arenas Exteriores.
+Su brutal fuerza forma una gigantesca pared impenetrable para Nova. Un paso más y sería capaz de arrebatarle la vida.
+[CLEAR]
+Y, sin embargo, esa misma tormenta transmitía una sensación de paz, de belleza... Es como si fuese la pared de tu hogar, la que te protege de las adversidades del exterior.
+[CLEAR]
+Nova quiere avanzar, pero sabe que sería en vano intentarlo. El Centro tiene la clave para poder proseguir. ¡Debe restaurar su poder!
+endscene
+
+scene spire-tree
+[FADE]
+¡El árbol de una de las visiones! Una fruta tallada cuelga de una de sus ramas. Palisade ha guiado a Nova hasta esa fruta, pero queda saber el motivo de ello. Nova, agarrándose a un atisbo de esperanza, decide crear un vínculo usando sus destellos.
+endscene
+
+scene spire-eat
+[FADENOFADE]
+Nova comienza a lanzar sus destellos, pero...
+Pero, de repente, una bestia salvaje hace acto de presencia y mira la fruta con gran curiosidad.
+[FADENOFADE]
+Antes de que Nova pueda reaccionar, la bestia se abalanza sobre la fruta y la engulle. Nova se siente frustrada y piensa que eso no habría pasado de haber llegado un minuto antes. Ahora solo le quedaba una cosa por hacer si quería llegar hasta esa fruta.
+¡Adelante, purificadora Nova! ¡Sé valiente!
+Handfruit Haven antes estaba aquí.
+endscene
+
+scene gravity-sigil
+(Recuerda que, con un teclado, puedes usar {CAMTOGGLEK} para ajustar el ángulo de la cámara. Si juegas con un mando, lo puedes hacer con el stick analógico derecho).
+[FADENOFADE]
+Nova vio el sello de Palisade y no dudo en tocarlo. En cuanto lo hizo, la gravedad del interior de la cueva se invirtió.
+[FADENOFADE]
+La gravedad de la cueva volvió a la normalidad. ¡Nova había logrado alcanzar el punto más alto!
+endscene
+
+scene geof-return
+El nanopunto de entrada no funcionaba. Nova decide volver con Geof.
+endscene
+
+scene geof-intro
+//Cicada sounds
+[FADE]
+El hombre roca hacia todo lo posible por mover su pesado cuerpo, pero sin éxito alguno. ¿Qué le habría ocurrido? ¿Será que ha caído desde las casas de arriba y nadie se ha enterado?
+Pero... ¿y si no es más que una ilusión? ¿Un montón de rocas que, por caprichos de la naturaleza y El Centro, se asemeja a una persona hecha de rocas?
+endscene
+
+scene geof-1
+GA: Soy... Geof. Nova, he oído rumores sobre ti. Historias sobre cómo liberas a la gente de esas malditas partículas. Pero no te preocupes, déjame aquí, así me convertiré en arena, viajaré con el viento y llevaré felicidad a los amantes que se encuentren en una preciosa playa.
+endscene
+
+scene geof-2
+GA: No, no puedo desaparecer. Tengo que cavar, ¿pero por qué razón? Sé cómo me llamo, pero no por qué estoy aquí.
+[FADE]
+Una suave brisa recorre el cuerpo de Nova mientras se pregunta cuánto tiempo llevará cavando Geof. ¿Años? ¿Décadas? Repetir una misma acción una y otra y otra vez... Algo así debe ser muy duro.
+Mmm... ¿Cuánto le llevará a ella la purificación?
+[FADEOFF]
+endscene
+
+scene geof-3
+GA: ¿Por qué cavo? Necesito una razón... Nova, por favor, ¡ayúdame a recordar!
+endscene
+
+// Geof's Town
+
+scene grave-1
+(Granite, 34 años, querido profesor de primaria. Los niños protegerán el futuro. No hay estudiante malo, y todo comportamiento inadecuado tiene un motivo detrás.)
+__c1 $GA$: Mmm... ¿Es una tumba?
+endscene
+
+scene grave-2-1
+(Amethia, 10 años, querida hija de Geof y Silica. Era demasiado pronto. Pensamos en ti todos los días.)
+__c1 $GA$: ¿Tuve... una hija?
+endscene
+
+scene grave-2-2
+(Stonny, 9 años, siempre alegre. Nunca te olvidaremos ni a ti ni a tu forma de reír.)
+endscene
+
+scene grave-2-3
+(Fashford, 50 años, el mejor granjero. Nadie sabe cultivar tan bien como tú. Echaremos de menos tu respeto por la tierra.)
+__c1 $GA$: ¿Qué tienen todas estas personas que ver entre sí?
+endscene
+
+scene grave-3-1
+(Lutia, 44 años, jefa de importaciones. Te echamos de menos.)
+__c1 $GA$: Un pueblo... ¡Recuerdo un pueblo! ¿He vivido en él?
+endscene
+
+scene grave-4
+(Silica, 46 años, amada esposa del alcalde Geof y madre de Amethia. Te fuiste demasiado pronto. Ojalá tuviésemos más tiempo.)
+__c1 $GA$: ¿Alcalde Geof? Nova, ¡soy yo!
+__c1 $GA$: Al principio no conseguía recordar todos esos nombre, pero ahora empiezan a venirme a la mente...
+endscene
+
+scene grave-5
+(Geof, 42 años, alcalde de lo que una vez fue un pueblo próspero.)
+(Un inútil bueno para nada que se pasaba el día cavando y destruyendo este lugar.)
+(Ahí te pudras.)
+__c1 $GA$: Nova, yo era el alcalde... Mi gente, mi familia... ¿Todos están muertos? ¿Les fallé? Por favor, sigue purificando, ¡tengo que obtener más recuerdos!
+endscene
+
+scene geof-gardeners
+Que las historias de la ciudad de la fertilidad te ayuden en tu camino.
+Larva de piedra: La fórmula para el éxito es la fe. Es lo que yo hago al alimentar y rezar a esta torre, y sé que, algún día, ¡llegaré hasta el sol!
+Larva de piedra: Mi propósito en la vida es nutrir esta torre. Mientras viva, seré feliz.
+Larva de piedra: ¿Ha dado tu vida algún momento de pura felicidad? Yo aún estoy esperando a que esta torre crezca, y ese será mi momento de pura felicidad. Un día, este cruel mundo será iluminado por su belleza.
+Larva de piedra: ¿Cuánto crees que crecerá? ¿Cómo de hermosa llegará a ser? No me hagas caso, son preguntas que ahora mismo no importan. Crece, crece, crece...
+endscene
+
+
+scene geof-homes
+// 0 1
+En un cartel borroso pone: "Oficina del alcalde Geof". Debajo hay una nota en la que pone: "Aviso de evacuación".
+[FADE]
+Al acercarse a la casa, Nova siente un extraño poder. Al parecer, debería de ser capaz de encogerse y entrar en la casa. 
+// 3
+Pone: "Tienda de Lutia". Lleva cerrada un tiempo y el pomo está oxidado.
+Pone: "¡Base secreta de Stonny! ¡Largo de aquí, hongos malvados!".
+Pone: "Casa de Geof, Silica y Amethia".
+endscene
+
+scene golem-npc-1
+Granite: Hola, Geof, ¿cómo estás? ¿Y Amethia? ¿Sigues intentando arreglar las tierras? He leído que hay un tipo de hongo que tiene un uso experimental. Quizá lo podríamos usar para compensar la pérdida de cultivos.
+__c1 $GA$: Oh... ¡Hola, Granite!
+__c1 $GA$: ...
+__c1 $GA$: ¿No me oye? Qué raro... ¿Y qué hace aquí?
+__c1 $GA$: Ah, nuestras tierras... ¡se infestaron de hongos! Ya recuerdo, intenté arreglarlo... Era mi deber como alcalde.
+__c1 $GA$: Granite me daba fuerzas para ello.
+endscene
+
+scene golem-npc-2-1
+Amethia: Papá, ¿harás que los hongos se vayan? Cof... Me cuesta respirar...
+__c1 $GA$: Claro que sí, Amethia, papá hará que se vayan. Solo necesito un poco más de tiempo y todo volverá a ser como antes.
+__c1 $GA$: Tengo que cavar y enterrar a esos hongos para siempre.
+endscene
+
+scene golem-npc-2-2
+Stonny: Señor alcalde, todo irá bien, ¿a que sí? Mi papá dice que a usted no le importamos. ¡Pero yo no le creo! ¡Está diciendo mentiras! Cof, cof...
+__c1 $GA$: Stonny... ¡Salvaré nuestro pueblo!
+endscene
+
+scene golem-npc-2-3
+Fashford: Ey, Geof, he oído que intentas enterrar esos hongos. Pero tienes que pensar en otra forma. Algo habrá hecho que aparezcan, y no se solucionará así como así.
+__c1 $GA$: Oh, es Fashford. Siempre me da buenos consejos. Entiendo lo que dice, pero no hay otra opción...
+endscene
+
+scene golem-npc-3-1
+Lootia: Geof, llevas cavando semanas. Cof... Sé que lo haces por nuestro bien, pero lo estás llevando demasiado lejos.
+Lootia: El negocio en Cenote va muy mal. Tengo que mudarme.
+Lootia: Todos saben que los hongos son muy perjudiciales para los pulmones. Cof... Hay un rumor que dice que esto lo pueden estar causando las nanopartículas. La gente de Cenote ya no quiere nada con nosotros.
+Lootia: Por favor, Geof, déjalo ya...
+__c1 $GA$: No, debo seguir, es la única opción. Solo necesito un poco más de tiempo...
+endscene
+
+scene golem-npc-misc
+// 0 1
+Alguien: ¿Seguro que no tenemos suficiente dinero para mudarnos a Cenote?
+Otra persona: Seguro. No es solo mudarnos y ya está, también hay que pagar un depósito que no nos podemos permitir. Tendremos que confiar en el plan de Geof. 
+
+// 2
+Cof, cof... El aire no es nada saludable... ¿Por qué nos pasa esto?
+
+// 3 4
+¡Estás destruyendo el pueblo! La mitad de nuestras tierras han desaparecido y los hongos siguen estando presentes. ¿Cuándo piensas parar esta locura, Geof? Cof...
+__c1 $GA$: Al final lo conseguiremos...
+
+// 5 11
+Alcalde Geof... Um...
+...
+A ver, yo...
+...
+Solo quiero... Solo quería decir que... quizá...
+...
+__c1 $GA$: Sé que tienes miedo, pero no puedo dejarlo ahora.
+endscene
+
+scene golem-npc-4
+Silico: Geof, estas tierras están muertas. Tenemos que mudarnos.
+Silico: Y no, no puedes solucionarlo tú solo. Este problema nos supera. Por favor... Cof... Son las nanopartículas las que están provocando todo esto de los hongos. Lo que necesitamos es un purificador, ¡y rápido!
+Silico: Se acabó... Casi todos se han ido ya.
+...
+Silico: ¿Por qué no confías en mí? Mañana me iré, y Amethia se viene conmigo a Cenote. Geof, por favor...
+__c1 $GA$: Silica, ¿ni siquiera tú lo entiendes? ¿No quieres salvar nuestro pueblo? Si pudieras entenderme...
+endscene
+
+scene golem-boss
+__c2 ¿Geof?: Otro día más con esas nanopartículas por todas partes. A este ritmo, el pueblo desaparecerá.
+__c2 ¿Geof?: ¿Silica? ¿Estás ahí? ¡Ayúdame! ¡Coge una pala y ven aquí! ¡Tenemos que quitar toda esta tierra!
+__c1 $GA$: Nova, ese... no soy yo, ¿verdad? ¿Pero por qué se parece a mí? ¡Rápido, fuera de aquí!
+endscene
+
+scene golem-crystal
+[FADENOFADE]
+$GA$: Ahora lo recuerdo todo. Un día, los hongos comenzaron a crecer en nuestras tierras. Los cultivos murieron, y con ellos, el turismo, las exportaciones... Intenté salvar el pueblo.
+Día tras día cavé, intentando deshacerme de los hongos para recuperar el esplendor de nuestro hogar, pero la gente se fue. ¡Se rindieron! ¿Por qué la vida me trató de esa forma?
+Todo lo que han dicho tiene sentido, pero... ahora que he recuperado la memoria, debo seguir a mi corazón. Continuaré con lo que estaba haciendo para eliminar a los hongos. Sé que algún día tendré éxito, como lo has hecho tú, Nova. 
+[CLEAR]
+Pero...
+...
+...
+[CLEAR]
+Ah... Puede que sea momento de descansar. Cof... Sí, solo un poco... Esta pesada carga que llevo sobre los hombros agota muchísimo... 
+Mañana limpiaremos la tierra de una vez por todas...
+endscene
+
+scene golem-after
+[FADE]
+No hay respuesta de Geof. Parece que se mueve, pero quizá sea solo una ilusión.
+endscene
+
+
+scene ccc-geof
+Amethia:n ¡Oh! ¿Eres Nova, la purificadora que salvará el mundo de las nanopartículas?
+Silico:n Amethia, ¿con quién hablas?
+Silico:n ¿Nova? ¿La purificadora?
+Silico:n ...
+Amethia:n Creo en ti, ¡de verdad que sí!
+Amethia:n Mamá, mira, ¡la purificadora! Ella puede con todo, así que quizá...
+Silico:n Vale ya, Amethia. No podemos pedirle ayuda, bastante ocupada estará ya.
+endscene
+
+//
+//
+//
+//
+//=====================================================
+//=====================================================
+//=====================================================
+//NanoStalker
+//=====================================================
+//=====================================================
+//=====================================================
+//
+//
+//
+//
+
+
+scene stalker-snowman
+Tanto yo como otros hombres de nieve venimos de otro mundo. La mayoría nos limitamos a descansar, pero unos pocos se han unido al club de fans de Iwasaki. Supongo que... cuando se está lejos de casa, ese tipo de cosas son necesarias.
+Algunos hombres de nieve no están de acuerdo con nuestro estilo de vida nómada. Buscan algo más que meditación y viajes ocasionales. En fin, cada uno encuentra su propósito de formas distintas.
+endscene
+
+scene stalker-npc
+// Rock
+Es inútil, ¡lárgate! Solo los mejores podrán cruzar este campo nevado y podrán entrar al templo de Maestro Maderero.
+
+// In snowfield 1 2 3
+Brr... N-no puedo... dejar este lugar... Tengo que seguir p-practicando ba-bajo este fr-fr-frío... Iwasaki me dijo que podré proseguir so-solo cuando comprenda el ve-verdadero significado del nacimiento d-de una flor... No s-sé ni cuánto llevo s-sin ver una flor...
+Iwasaki y los demás me dijeron que tengo que mejorar mi método al poder un árbol antes de si quiera considerar ir al templo. Pero es que hace tanto frío que no puedo ni sostener las tijeras de podar... Brr...
+Según las pruebas del club de fans, de momento no soy más que un nivel C. Mi objetivo es ser nivel B para poder irme de aquí de una vez.
+
+//Worshippers outside the tower structure. 4 5
+Soy nivel A, así que estoy a nada de ir a donde el maestro. Solo unos pocos alcanzan el nivel S. Uno de ellos es Iwasaki. Oh, qué dedicado está a los árboles, él si que se merece ir al lugar sagrado.
+Además de ser de nivel S, Iwasaki es el más fuerte de todos. Aspiro a ser como él algún día, pero, para eso, antes tengo que estudiar mucho. Así que si no te importa...
+
+//Worshippers after returning from 3D, near the crystal 6
+Cuando conseguí llegar al nivel S, me di cuenta de que fue gracias a las enseñanzas de Iwasaki, no a las de Maestro Maderero. Habría que crear un nuevo nivel dedicado en exclusiva para Iwasaki... Ya lo tengo: ¡el nivel I!
+
+// Rock before ascent 7
+Más arriba se encuentra el templo de Maestro Maderero. Solo unos pocos consiguen entrar. 
+endscene
+
+
+scene stalker-npc3d
+Oak B.:n Cuando me uní al club de los escultores, no me imaginaba que habría tanta gente con tanto talento. ¿No te ha pasado nunca que ves tanta gente buena en algo que hace que no te veas capaz de llegar a ese nivel y te desmotiva? Puede que nunca destaque, pero encontraré mi propio estilo.
+Arce:n ¡Bienvenida! Aquí estudiamos el trabajo de Maestro Maderero. Hoy exponemos una galería de nuestros miembros más selectos. Ese enorme árbol fue creado nada menos que por el líder del club: Iwasaki. Tiene un cuidado por el detalle digno de admirar. Ay... Ojalá que algún día yo pueda llegar a su nivel, o al menos acercarme.
+Tejo.:n Hola. Por casualidad no habrás visto a alguien llamado Maestro Maderero, ¿verdad? Hemos organizado una galería sobre sus obras y esperábamos verle en ella y que nos diese algunos consejos, pero no ha aparecido. 
+Magia:n Maestro Maderero siempre dice que debemos mirar con confianza a los ojos de los posibles clientes y hacerles ver que DEBEN comprar nuestras obras. ¿Pero qué hago si nadie se interesa por ellas ni para echarles un ojo?
+Willow:n Acabo de unirme al club y estoy tan nervioso que no sé ni por dónde empezar. Además, todavía no me he visto los 80 vídeos tutoriales que hay.
+endscene
+
+scene stalker-1
+[FADE]
+En el centro del jardín, Nova ve que hay alguien haciendo un gesto extraño a un árbol.
+¿Qué hace? ¿Estará rezando?
+endscene
+
+
+
+scene stalker-2
+[FADE]
+Los murmullos comienzan a ir en aumento...
+[FADEOFF]
+IA: Oh, gran Maestro Maderero, escultor de árboles...
+IA: Escucha las plegarias de tu mayor seguidor. Estudiamos el arte de la escultura con árboles para poder conectar con Nueva Zilan y honrar tus hazañas.
+[FADE]
+La voz del hombre resuena por todo el lugar.
+endscene
+
+
+scene stalker-3
+IA: Nada de lo que hago consigue que Maestro Maderero se fije en mí, ¡y eso que llevo años siendo el líder de su club de fans! Tanto estudiar y enseñar sus grandes técnicas a los demás...
+IA: Pero nunca hemos obtenido una respuesta oficial por su parte, sin importar cuántas cartas le enviemos. ¿Por qué nos ignora?
+IA: ¡Nova, esto debe de ser obra de las partículas! No le encuentro otro motivo. Ahora mismo, mi mente es como un bosque en el que me he perdido. Por favor, ayúdame a aclarar mis ideas. 
+[FADE]
+Nova no tiene muy claro si esta persona necesita purificación, pero no puede correr el riesgo. Hay que recordar que cualquiera de Nueva Zilan puede verse afectado por las partículas
+// unlock
+endscene
+
+
+
+scene stalker-home
+[FADE]
+ En un cartel se puede leer:
+Mejor escultor de árboles de Cenote. Se han hecho trabajos en parques y edificios oficiales a lo largo de toda la ciudad. Llame para obtener más información.
+A través de la ventana, Nova ve a una persona comiendo huevos en su escritorio.
+[CLEAR]
+Huevos...
+[CLEAR]
+Hay periódicos apilados. En el frigorífico hay un imán en el que pone: "Mejor padre". Junto a esa persona hay un pequeño árbol muy bien cuidado. Más allá se pueden ver árboles más grandes, todos ellos muy bien trabajados.
+Aunque es una casa bastante simple, podría ser la de Maestro Maderero.
+El buzón que hay cerca de Nova irradia un extraño poder... ¡Parece que Nova puede encogerse y meterse dentro!
+endscene
+
+
+scene stalker-home-2
+[FADE]
+Quienquiera que sea que viva aquí, parece que prefiere tener intimidad. Nova decide explorar otro lugar.
+endscene
+
+scene stalker-crystal
+[FADENOFADE]
+$IA$: Cuando era pequeño, me empezaron a encantar los árboles. Tan grandes y hermosos... Qué suerte tengo de poder contemplarlos en Nueva Zilan. 
+Con el tiempo, conocí a Maestro Maderero, quien se dedica de pleno al arte de los árboles. 
+Estudié sus árboles y empecé a enviarle cartas alabando su obra, pero... nunca obtuve respuesta.
+[CLEAR]
+Luego creé el club oficial de fans, y muchos empezaron a unirse poco a poco. Nos dedicábamos a estudiar el método de Maestro Maderero con la esperanza de llamar su atención.
+Pero la purificación me ha abierto los ojos. Me he dado cuenta de que no le necesito. En este club de fans... ¡yo soy el maestro! ¡Ja, ja! Me he esforzado tanto que yo mismo he adquirido grandes habilidades, y los miembros del club... ¡son mis alumnos, a los que les he enseñado todo lo que sé!
+[CLEAR]
+Gracias, Nova. Los miembros no tendrán que seguir esperando a alguien que no vendrá. ¡Yo seré el maestro! ¡El maestro Iwasaki!
+endscene
+
+scene stalker-after
+IA: Hola, Nova, bienvenida al centro de arte arbóreo de Iwasaki. Gracias a que me purificaste, mis fans y yo estamos esforzándonos al máximo para alcanzar nuevos niveles de maestría.
+endscene
+
+
+
+//
+//
+//
+//
+//=====================================================
+//=====================================================
+//=====================================================
+//NanoClone
+//=====================================================
+//=====================================================
+//=====================================================
+//
+//
+//
+//
+
+
+
+scene clone-faye
+FM: Qué bien sienta estar de vuelta en casa. Tengo ganas de saber cómo le irá a Lonwei. Oh, hola. ¿Eres nueva por aquí? Ah, espera, ¡si eres la purificadora! Imagino que también habrás venido desde Cenote. Allí me gano la vida como líder de una banda de música, pero mis padres se fueron de viaje y querían que yo cuidase de la casa, por eso estoy aquí.
+FM: ¿Has visto a Lonwei? Es la científica que vive allí en lo alto. Perdimos el contacto cuando me mudé, pero siempre he pensado en ella. Una vez usó una mezcla de productos químicos para ponerme el pelo de punta. Ja, ja, ja.
+FM: ¿Qué cómo es la vida de una estrella del rock? Por lo general, suele ser divertida, aunque tampoco tengo otra cosa con la que compararla. Eso sí, a veces hay mucha presión, aunque es algo que ya te esperas. De todas formas, me alegra estar de vuelta en casa, echaba de menos el sonido de los pájaros.
+FM: Aunque estés muy familiarizado con el trabajo de alguien, eso no significa que los llegues a conocer de verdad. Aunque conocer a alguien en persona no siempre significa tampoco que les conozcas como realmente son. Sí, es todo muy confuso, pero tranquila, son cosas mías.
+endscene
+
+scene clone-ray
+RB: ¡Anda, pero si es Nova la purificadora! Es un placer conocerte, yo soy Rayray Boatshoes. ¿Qué haces aquí? Yo lo tengo siempre todo muy limpio, así que no necesito de tus servicios. Ja, ja, ja. Ya, es una broma muy mala, ya sé que no haces ese tipo de limpieza.
+RB: Oye, Nova... Si te encoges y te metes un ácaro del polvo en la boca, y luego vuelves a tu tamaño original, ¿el ácaro también crecerá en tu boca? Vale, perdona, esa pregunta está fuera de lugar y es un asco solo de pensarlo.
+RB: Nova, ¿eres una gamer? ¿Sabías que un videojuego te puede hacer llorar? O puede que seas de esas que no llora nunca. No te lo tomes a mal, no quiero decir que seas una persona insensible, pero cada uno se toma los videojuegos de una forma distinta. Te aseguro que pueden ser muy emocionales. Mi favorito se llama "An Ode to Dyin". Es muy triste.
+RB: Nova, ¿quieres un termómetro? Te puede venir bien para saber si tienes fiebre, o incluso por diversión para saber cómo de frías tienes las manos. Como no tenía, me quise comprar uno, pero me salía más a cuenta si compraba el paquete de doce unidades. Cuando me llegó el pedido, me puse a pensar que qué narices iba a hacer yo con once termómetros de más. 
+endscene
+
+scene clone-beringia
+BM: Bum... Ba-dum... Ba-dum-ba-dum... Oh, perdona, estaba trabajando en un nuevo ritmo. Me llamo Beringia, y esta es mi ave tambor, Katsu. Viajamos por toda Nueva Zilan, pero solemos parar mucho por aquí.
+BM: Aquel edificio con aquellas plataformas tan extrañas a modo de escaleras es el laboratorio de Lonwei Yonstein. No es que pueda decir que la conozca mucho, pero, por algún motivo, quiero que sea feliz. La mayor parte del tiempo lo pasa allí, aunque a veces me encuentro con ella en el estanque.
+BM: Si viajas lejos desde El Centro en cualquier dirección, encontrarás las Arenas Exteriores, y más lejos aún, el mar. Pasado el mar está el horizonte, pero ese sitio solo puede verse, nunca alcanzarse. ¿Habrá algo más por descubrir?
+BM: Las aves tambor son criaturas muy fuertes y resistentes. Katsu no solo aguanta mis golpes con las baquetas, también me protege del frío o calor extremos. No sé qué haría sin él, la verdad.
+endscene
+
+scene clone-lonwei
+LY: Nova, por fin te presentas. Perdona, mis modales... ¡Hola, me alegro de verte! Soy Lonwei Yonstein, y este es mi... hermano, Clonwei Yonstein.
+CY: ...
+LY: A decir verdad, es por mi hermano por el que necesitaba que vinieras. Que no te extrañe si habla poco, es muy "cabezón" para sus cosas. Ja, ja, ja. ¿Te ha hecho gracia el chiste? ¡A Clonwei le encanta!
+CY: ...
+LY: ¿Habías conocida a algún científico antes? Somos capaces de muchas cosas, pero lo que le ocurre a mi hermano está más allá de mi entendimiento y habilidad, por eso necesitamos tu ayuda. Está enfermo por culpa de las partículas. Le hice una observación interna con mi nanodrón, pero no puedo hacer más.
+LY: Por favor, Nova, ¡está sufriendo! Ayuda a mi hermano, te lo ruego. 
+endscene
+
+scene clone-enter
+$LY$: Nova, soy yo, Lonwei Yonstein. Te hablo a través de mi nanodrón. Pensé que te podría ser de ayuda, ya que conozco muy bien a mi hermano Clonwei y su forma de pensar. Deberías saber que tiene la habilidad de crear sombras dentro de su mundo. Podrías usar eso en tu ventaja de alguna forma...
+endscene
+
+scene clone-annoy-1
+$LY$: Oh, ¿Clonwei? ¿Te podrías apartar? ¿No? Lo imaginaba...
+$LY$: Estooo... Lo siento, Nova. Tendrás que hacerte cargo de esto tú misma.
+endscene
+
+scene clone-annoy-2
+$LY$: (¡¿Qué?! Otra vez no...) 
+$LY$: ...
+$LY$: Um... A ver, creo que podrás pasar si vas a... la izquierda y luego... No, no he dicho nada...
+endscene
+
+scene clone-annoy-3
+$LY$: Aaah. Lo siento.
+endscene
+
+scene clone-misc
+¿Qué tal te va? Soy asistente de laboratorio. Por aquí se va a la sala de pruebas número 1. Por la derecha están las salas 2 y 3. O eso creo, no tengo acceso a ellas.
+Esta es la sala de pruebas número 2. Al otro lado del pasillo está la número 4. ¿Cómo? ¿La número 3? Ja, ja... N-no hablamos... de la número 3...
+endscene
+
+scene clone-faye-2d
+__c1 $CY$: ¡Hola, Faye! ¡¿Qué pasaaa?!
+__c2 $FM$: Hola. ¿La gente todavía usa esa frase tan tonta?
+__c1 $CY$: Ja, ja... No, supongo que no... Ey, hace mucho que no nos veíamos.
+__c2 $FM$: Lo sé...
+__c1 $CY$: Y... Estooo... ¿Te ha pasado algo interesante últimamente?
+__c2 $FM$: No sé, puede. 
+endscene
+
+scene clone-faye-2d-2
+__c2 $FM$: Oye, Clonwei... Perdona, pero me tengo que ir. Ya nos veremos.
+__c1 $CY$: Sí, claro, yo también...
+__c2 $FM$: (No me puedo creer que antes me juntase con ese bicho raro.)
+$LY$: Vaya... Ja, ja, ja. Eso ha sido algo incómodo de ver, ¿verdad, Nova? Clonwei es algo especial, como has podido comprobar. Pero en fin, vamos a lo que nos ocupa ahora. ¡A por ese cristal de partículas!
+endscene
+
+scene clone-ray-2d
+__c1 $CY$: Hola, creo que no te había visto antes por aquí.
+__c2 $RB$: ¿Cómo estás? Soy Rayray Boatshoes. Es un placer conocerte. Oye, ¿eres científico? ¡Cómo mola! Je, je, je. Me mudé hace poco desde las Arenas Exteriores.
+__c1 $CY$: ¿Ah, sí? ¡Qué bien!
+__c2 $RB$: Seguro que eres listísimo. ¿Cuál es el color de burbujas que más te gusta ver en un tubo de ensayo?
+__c1 $CY$: Ehm... Pues... Así no es exactamente como funciona la ciencia... (Vaya, Rayray piensa que soy lo más. Pena que en realidad sea un idiota redomado... Aunque más lo será ella si piensa eso de mí, ¿no?)
+endscene
+
+scene clone-ray-2d-2
+__c1 $CY$: En fin, Rayray, me tengo que ir ya. Tengo que... poner unos líquidos... en unos tubos, ya sabes... 
+__c2 $RB$: ¡Claro, claro! ¡Abran paso al científico!
+__c1 $CY$: Je... Je, je... (Me largo echando leches.)
+$LY$: Siento todo eso, Nova. La mente de Clonwei puede ser muy rara. Tú haz como si nada y ya está, ¿vale?
+endscene
+
+
+scene clone-beringia-2d
+__c1 $CY$: Beringa... ¡Hola!
+__c2 $BM$: Oh, hola... Estooo... ¿Cuál era tu nombre?
+__c1 $CY$: Oh, ehm... S-soy Clonwei. 
+__c2 $BM$: Ah, sí, eso. ¿Cómo estás?
+__c1 $CY$: Bien, gracias. Verás, te quería preguntar si te apetecería ir a los campos de rábanos que hay al oeste. Dicen que es un sitio precioso. Ehm... Podríamos... ir juntos si quieres...
+__c2 $BM$: Oh, vaya... ¿Los dos solos? ¿Como en una... cita?
+__c1 $CY$: Je, je... Sí, supongo... Si te apetece, claro...
+__c2 $BM$: Verás, Clonwei... Me pareces un encanto, pero es que... nunca te he visto como alguien con quien salir en plan pareja. ¿Alguna vez has tenido una cita? Como siempre estás metido en tu laboratorio...
+__c1 $CY$: Pues... la verdad es que no.
+endscene
+
+scene clone-beringia-2d-2
+__c2 $BM$: Somos muy diferentes, Clonwei. No creo que durásemos mucho juntos.
+$LY$: Ja, ja, ja. Ni en un millón de años conseguiría algo con Beringia. No sé ni cómo se le ha pasado por la cabeza. ¿Qué podría aportarle él a nadie? Mira, puede que yo no mole tanto como Conwei, pero al menos tengo más sentido común.  
+$LY$: En fin, ya casi hemos llegado al cristal de partículas. Cuando hayas purificado a Clonwei, podremos salir de este lugar.
+endscene
+
+scene clone-dustfail
+$LY$: ¿Estás bien, Nova? ¿Cómo? ¿Que el cristal de partículas no se disuelve?
+$LY$: Yo...
+$LY$: Um...
+$LY$: Ah, claro, permite que te lo explique. En realidad, Clonwei no es mi hermano, sino una máquina que yo mismo creé para mis estudios sobre interacciones. Hice a propósito que las partículas creciesen en su interior para aumentar sus capacidades. El suero que usé ha debido de mutar su estructura química, haciendo que sea más resistente.
+// 4, say this line when talking again
+$LY$: Nova, prueba a succionar mi nanodrón. Puede que sea capaz de hacer algo si estoy dentro junto al cristal.
+$LY$: Bien, espero que funcione. 
+endscene
+
+
+scene clone-crystal
+[FADENOFADE]
+$CY$: ...
+... ...
+... ... ...
+endscene
+
+scene clone-exit
+LY: Nova, siento mucho haberte puesto en peligro por lo que hice. Temía que, si el El Centro descubría lo de mis experimentos con las partículas, quisieran cerrar mi laboratorio. Te aseguro que nunca volveré a hacer algo así, ahora me doy cuenta de que es algo que está más allá de mi control.
+LY: De ahora en adelante, me centraré en aquello que comprendo y domino. Hay cosas que no merecen la pena, aquellas que pueden causar problemas a los demás...
+endscene
+
+scene clone-after
+LY: Me obcequé en los experimentos con Clonwei, pero no se volverá a repetir. Es hora de volver a mi investigación original: la energía de los sueños. ¿Sabías que una de las fuentes más poderosa de energía es el deseo la gente?
+LY: Quiero descubrir hasta dónde es capaz de llegar este poder... 
+LY: Me siento muy orgulloso de ser merecedor de un doctorado, no es algo que todo el mundo pueda conseguir.
+endscene
+
+scene ring-dolphfan
+Dolfan.:n Anda, si eres Nova la purificadora. ¿Disfrutando de tu trabajo? Genial, genial. ¿Y tienes problemas para encontrar cartas? Pues te puedo ayudar dándote algunas pistas, ¡y gratis!
+Dolfan.:n Mmm... Deberías buscar más gente que necesite que la ayudes con una de tus purificaciones.
+Dolfan.:n Y recuerda dónde puedes encontrarme: cerca del lavadero de coches. Seguro que no se te olvidará, ya que puedes convertirte en uno, ¿verdad?
+Dolfan.:n Mi radar de cartas me dice que te has dejado una en Geof Agricite. ¿No deberías ir a por ella?
+Dolfan.:n Si buscas más cartas, deberías ir a Valle Azul (Este). Como pista te diré "arco" y "rocas".
+Dolfan.:n Mi localizador de cartas me dice que Iwasaki Antimon tiene lo que necesitas.
+Dolfan.:n Hola, Nova. Tu metaspiradora me ha dejado en el paro... Dicen que ahora puedes saber dónde encontrar las cartas que te faltan. ¿Qué tiene eso de divertido? ¡Demasiado fácil!
+Dolfan.:n Está claro que ya no necesitas mi ayuda, pero gracias por pasarte a verme.
+Dolfan.:n Si buscas más cartas, deberías ir a Valle Azul (Sur).
+// 9
+Dolfan.:n Mmm... Siento la presencia de una carta cercana. ¡Explora el lavadero de coches!
+endscene
+
+scene duststormearly
+Una tormenta de partículas bloquea el camino. Sin el poder completo de El Centro, Nova no tiene ninguna posibilidad de sobrevivir más allá.
+endscene

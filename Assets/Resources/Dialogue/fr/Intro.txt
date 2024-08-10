@@ -1,0 +1,1019 @@
+// ------------------ ------------------
+//-------------CONTROLS, INSTRUCTIONS---
+//--------------------------------------
+
+scene instructions
+// After gaining control in Albumen
+Utilise {MOVEMENT} pour te déplacer.
+Sur le clavier, appuie sur {CAMTOGGLEK} pour modifier l'angle de la caméra, et sur {ZOOMINK}/{ZOOMOUTK} pour rapprocher ou distancer la caméra. À la manette, utilise le joystick droit et les gâchettes supérieures arrières pour faire bouger la caméra.
+Appuie sur {JUMP} pour sauter. Tu peux sauter une seconde fois lorsque tu es en l'air. Après un saut, maintiens {JUMP} pour ralentir ta chute.
+Appuie sur {PAUSE} pour ouvrir le menu de pause et modifier les contrôles, la qualité des graphismes ou les options du jeu. Désolée de te bombarder d'informations ! Si tu oublies quoi que ce soit, vérifie la section « Contrôles » des paramètres.
+
+// Near the first statue
+Approche de l'Ovule et appuie sur {TALK} pour lui parler.
+
+// Press
+Interagis avec l'environnement en lançant des étincelles. Appuie sur {SPECIAL} pour envoyer une étincelle sur l'Ovule. Tu peux entrer dans le Nanopoint en lançant des étincelles à plusieurs reprises.
+
+ignore
+
+// After ridescale tutorial
+Change-toi en forme de voyage en appuyant sur {RIDESCALE}.
+En forme de voyage, tu peux appuyer sur {JUMP} pour faire un petit bond.
+
+endscene
+
+scene interaction
+Appuyer sur {TALK} pour parler
+ignore
+Appuyer sur {TALK} pour sauvegarder
+Appuyer sur {TALK} pour entrer
+Appuyer sur {TALK} pour ouvrir
+endscene
+
+scene nanounlock
+[FADE]
+L'atmosphère est lourde. L'air est envahi de Nanopoussière...
+Nova !
+Établis une connexion avec cet être à l'aide de tes étincelles !
+Nettoie-le afin de changer son destin !
+En avant, Nanonettoyeuse Nova ! Rétrécis !
+endscene
+
+
+scene nanounlock-alt
+[FADE]
+L'air est plein de... d'air, je crois ? En tout cas, ce n'est pas de la Poussière !
+...Nova !
+Établis une connexion avec cet être à l'aide de tes étincelles !
+Faufile-toi... et mène ton enquête !
+En avant, Nanonettoyeuse Nova ! Rétrécis !
+endscene
+
+
+//-------------------
+//----ALBUMENIUM-----
+//-------------------
+
+
+scene alb-wake
+//<a backlight glow fades in revealing C Psalmist’s silhouette>
+CP2:n Il est dit que la vie est un cycle... Quelle folie ! Toute chose croît depuis un point, un centre. Tout ce qui sera existe déjà : coulant d'une minuscule capsule, telle une éponge qui éclot.
+CP2:n Il y a une telle beauté dans l'expérience de la véritable forme du point primordial, ses fractales déployées au maximum. Les extrémités atomiques et indivisibles de ses tentacules. Le temps, après tout, n'est qu'un miroir. Une illusion, bien que la meilleure manière de se regarder.
+// psalmist stops strumming
+CP2:n ...
+//<another backlight reveals Palisade silhouette>
+endscene
+
+scene alb-wake-2
+PAL2:n Quel beau discours mon amie, comme d'habitude ! Mais chaque chose en son temps. Celle que nous sommes venues rencontrer n'est même pas encore une enfant, elle n'a pas éclos... Nous devons la guider avec douceur vers la lumière de ce monde.
+PAL2:n Regarde ! On dirait que notre précieuse Nova s'agite...
+//<Fade to black> Change scenes.
+endscene
+
+scene alb-wake-3
+[FADE]
+Les mots qui suivent sont les premiers que Nova entendra. Avec le temps, la nature de ce discours sera oubliée, mais elle se rappellera pour toujours la première voix qu'elle a entendue.
+Oui, cette voix ! Si parfumée et si belle que Nova voulut en pleurer (Ce qui aurait peut-être été le cas si elle avait eu des canaux lacrymaux...).
+Vous avez peut-être oublié comme c'est difficile quand on se rend compte que l'on existe pour la première fois. Voilà ce que Nova vient de ressentir. Mais lorsqu'elle entendit la voix de cette créature... elle se dit que... peut-être, cela en valait la peine.
+[FADEOFF]
+PAL2:n Nova... Nova, tu m'entends ? Ma chérie, prends une grande inspiration et ouvre tes yeux.
+endscene
+
+scene alb-wake-3-2
+[FADE]
+...
+... ...
+... ... ...
+Dans l'obscurité, une lueur orange. Dans le silence, le fracas des vagues...
+[FADEOFF]
+endscene
+
+
+scene alb-wake-4
+PAL2:n La voilà ! Tu n'es pas tout à fait avec nous, on dirait. Ne t'en fais pas, il est normal d'être désorientée. Tu viens de t'éveiller à ta conscience. Mon enfant, tu t'appelles Nova, et tu es un être extraordinaire qui a la capacité de rétrécir à l'échelle microscopique. Tu vas voir, ça te sera très utile !
+PAL2:n Je suis Palissade, et je suis là avec Psalmiste-C ! Ensemble, nous allons prendre soin de toi et te guider.
+endscene
+
+// <A drawing of them appears, with different parts fading in alongside a sketchy pen nib sound effect. (maybe we find like a handwritingy font for the text so it's localizable)>
+// images here
+
+scene alb-wake-5
+P: Psalmiste-C, voudrais-tu dire bonjour à Nova ?
+
+[faceanim BaseScreen 0,1 1x2]
+CP: Ah... Euh... B-bonjour, jeune Nova. C'est moi, Psalmiste-C ! Je te parle depuis l'extérieur de ton œuf.
+CP: Euh... ahem.
+CP: L'espace après tout n'est qu'une illusion. On pourrait le comparer à... un miroir.
+CP: Je parle bien de miroir. Pas de télescope ou de microscope... Euh, ni même d'objet en forme de tube...
+[faceanim BaseScreen 0,0 1x2]
+Pal: Merci pour cette précision indispensable, Psalmiste-C.
+
+//<Fadescreen, pal talks over the fadescreen in textbox while parts of a drawing fade in>
+Pal: Alors, Nova. Comme l'a mentionné Psalmiste-C, tu es en ce moment à l'intérieur de ton œuf !
+//<egg fades in>
+Pal: Pour pouvoir éclore et véritablement commencer ta vie, tu devras utiliser le monorail de la ligne d'éclosion qui se trouve au sommet de la colline.
+//<hatchline fades in>
+Pal: Mais tu ne pourras partir que si tu obtiens la Graine de Brideglande sacrée !
+//<glandilock seed fades in>
+Pal: Pour le moment, il faut voir la Graine de Brideglande comme ton ticket de sortie.
+
+[CUT TO yolkVC]
+P: Pour commencer, va parler aux 3 silhouettes ovoïdes. Ces Ovules te donneront chacun un objet spécial qui te préparera à accueillir la Graine de Brideglande. Tu pourras ensuite parler à l'Arbre Chalaza tout en haut de l'île.
+
+[CUT TO tvVC]
+P: À toi de jouer, Nova !
+
+//<fade out and back in. After the fade in, Nova is now standing up and ready to walk around. THE ALBUMENIUM appears across the screen>
+endscene
+
+scene alb-reminder
+P: Pour commencer, va parler aux 3 silhouettes ovoïdes. Ces Ovules te donneront chacun un objet spécial qui te préparera à accueillir la Graine de Brideglande. Tu pourras ensuite parler au Grand Chalaza, la silhouette aux allures d'arbre tout en haut de l'île. Nova, tu peux le faire !
+endscene
+
+scene yolk-alt
+Ovocrobe appétissant: Coucou Nova ! Tu apprécies nos Céréales aux centre-baies ? On a fait 12 essais sur le marché pour trouver l'équilibre parfait entre le croustillant et l'aspect !
+Ovocrobe désaltérant: Yo... Nova... Sois à nouveau la bienvenue dans l'Ovule désaltérant ! Alors ce délicieux Ovolait ? Hummm hummm... Y'a rien de mieux que l'Ovolait pour démarrer la journée.
+Ovocrobe détendu: Rebonjour ! Bienvenue encore une fois dans l'Ovule détendu. Tu t'amuses bien avec le Réguloïde qu'on t'a donné ? Ah, alors c'est super... Hé, s'il te cause des soucis, contacte-nous tout de suite !
+endscene
+
+scene yolk1
+Ovanda l'ovocrobe: Hé, salut Nova ! Tu as rétréci jusqu'à atteindre l'intérieur microscopique de l'Ovule appétissant, le plus important de la journée ! C'est ici que tu trouveras des provisions pour que ta future Graine de Brideglande soit heureuse et en bonne santé.
+
+Ovocrobe appétissant: Nova va adorer nos Céréales aux centre-baies, car elles contiennent 17 micronutriments dans les quantités recommandées par le Centre ! (La Graine de Brideglande devrait beaucoup aimer son goût « Classe et croustillant » breveté.
+
+Ovocrobe appétissant: Hummm... Et si nous nous procurions notre propre Graine de Brideglande.
+Ovocrobe appétissant: ...
+Ovocrobe appétissant: Héhé ! Ne fais pas attention à moi ! On parle beaucoup ici dans l'Ovule appétissant, mais tout ce qu'on sait faire c'est créer de la nourriture soufflée et croustillante, à la fois délicieuse et nutritive.
+
+Ovocrobe appétissant: Félicitations, tu mérites amplement un « 20/20 » en nourriture Brideglande, la meilleure note ! Grâce à la qualité de nos Céréales aux centre-baies, je sais que tu vas donner du fil à retordre aux autres personnages animés, mais que tu t'occuperas bien de ta Graine de Brideglande.
+
+// 6
+Ovanda l'ovocrobe: Ouah ! Notre propre nettoyeuse vient nous rendre visite ! Oh oh, je suis la première nano-amie qu'elle va rencontrer...! C'est pas le moment de flancher, je dois me souvenir de mes lignes.
+Ovanda l'ovocrobe: (J'espère qu'elle va venir par ici et appuyer sur {TALK} pour me parler !)
+endscene
+
+scene yolk2
+Ovocrobe désaltérant: Yo... Nova... Bienvenue dans l'Ovule désaltérant ! Y'en a qui disent qu'une Graine de Brideglande doit s'abreuver de 8 gouttes de notre Ovolait à siroter fait maison par cycle. Dans la zone désaltérante, on pense plutôt que t'as pas besoin de calculer et que tu peux te contenter de suivre ton instinct...
+
+Ovocrobe désaltérant: La Graine de Brideglande est comme une ligne directe qui te relie au Centre, capiche ? Garde l'esprit ouvert... Tu sais, les réponses te trouveront.
+
+Ovocrobe désaltérant: Miam miam miam, rien de mieux qu'un peu d'Ovolait à siroter pour avoir des vrilles de Brideglande bien fortes et ancrées ! Profites-en bien, Nova.
+
+Ovocrobe désaltérant: Nova... tu as réussi à atteindre l'Ovolait. Je n'en ai jamais doué. Tu t'es détendue et tu as suivi ton instinct, je me trompe ?
+endscene
+
+scene yolk3
+Ovocrobe détendu: Bienvenue dans l'Ovule détendu... oui, oui. Tu te sens bien ? Oui, oui... nous avons entraîné ces Réguloïdes pour qu'ils adaptent l'atmosphère aux caractéristiques de ton corps... Sa température, sa salinité, son acidité, sa lugubrité et ainsi de suite...
+
+Réguloïde: Wouf wou-wouf ! (Traduction : la température est de 36 degrés ovolsius)
+
+Réguloïde: Woufeur wouf-wou ! (Traduction : l'humidité ambiante ne donnerait que 5 % de chances à un poisson de respirer)
+
+Réguloïde: Wo-wo wouf-woufeur : (Traduction : la lumière dorée de l'été, obstruée par des feuilles de chêne. L'odeur du digitaire et du pissenlit fraîchement coupés. Une brise inattendue vient de par delà le lac. Un lapin couleur fauve se relève et renifle avant de bondir vers les buissons.)
+
+Ovocrobe détendu: Oui, oui, miam... Un peu de céréales, un peu d'Ovolait, oh oui. Ce sont des choses tout à fait nécessaires. Mais, comme le dit l'adage « La Graine de Brideglande ne peut pas se contenter seulement d'ingestion » !
+
+Ovocrobe détendu: Ahh, oui, en effet. Il est temps pour toi d'avoir tes propres Réguloïdes ! Devenir une maison, quelle beauté. Que ta tête reste pour toujours un espace sûr et chaleureux pour la précieuse Graine de Brideglande. Oui, oui, oui.
+endscene
+
+scene yolk-outside-1
+[FADE]
+La silhouette étrange est silencieuse. « Est-elle en vie ? » se demande Nova. Pourtant, elle l'appelle du regard. « Entre dans ma tête ronde et dorée » semble-t-il indiquer. « Tu y trouveras une partie de ton premier vrai petit-déjeuner... »
+Le destin de Nova entre en résonnance avec l'Ovule. La présence d'un nouveau Nanopoint est palpable dans l'air. Fais des étincelles pour révéler ce Nanopoint ! En avant, Nanonettoyeuse Nova. Rétrécis !
+[FADE]
+L'Ovule appétissant regarde Nova d'un air interrogatif. « Tu as trouvé tous les trésors qui m'habitaient... Mais des céréales qui restent sèches font souffrir la chambre de la bouche... » dit-il en s'inclinant dans la direction d'un Ovule plus haut sur la colline.
+endscene
+
+scene yolk-outside-2
+[FADE]
+La silhouette du deuxième Ovule se balance dans la brise. Il est visiblement très détendu. « Ma pooooote. » semble-t-il dire, avant d'ajouter « J'vogue sur des vagues de lait... ».
+Le destin de Nova entre en résonnance avec l'Ovule. La présence d'un nouveau Nanopoint est palpable dans l'air. Fais des étincelles pour révéler ce Nanopoint ! En avant, Nanonettoyeuse Nova. Rétrécis !
+[FADE]
+L'Ovule désaltérant regarde Nova en faisant oui de la tête. « Excellent... As-tu pris le temps de te délasser avec L'Ovule détendu en haut de la colline ? » demanda-t-il.
+endscene
+
+scene yolk-outside-3
+[FADE]
+La silhouette du dernier Ovule semble analyser Nova d'un œil chaleureux. « Ahhh... Hum... Oui, oui oui... » marmonne-t-il. « Un hôte parfait, qui a besoin d'un Réguloïde tout aussi parfait... »
+Le destin de Nova entre en résonnance avec l'Ovule. La présence d'un nouveau Nanopoint est palpable dans l'air. Fais des étincelles pour révéler ce Nanopoint ! En avant, Nanonettoyeuse Nova. Rétrécis !
+[FADE]
+L'Ovule détendu pose à nouveau ses yeux sur Nova. « Ahhh... oui, oui... Tout est en ordre. » annonce-t-il « Peut-être est-elle prête à rencontrer le vénérable Chalaza... »
+endscene
+
+scene yolkchest
+Nova a trouvé les Céréales aux centre-baies, un des trois éléments nutritifs ! Grâce à cela, la Graine de Brideglande aura tous les glucides qu'il lui faut pour s'installer dans la tête de Nova.
+Nova a trouvé l'Ovolait à siroter, un des trois éléments nutritifs ! Grâce à cela, la Graine de Brideglande aura tous les nutriments recommandés par le gouvernement pour pouvoir s'étendre aux quatre coins de la tête de Nova.
+Nova a trouvé un Réguloïde (édition personnelle), un des trois éléments nutritifs ! Le Réguloïde fera de la tête de Nova l'environnement parfait pour accueillir la Graine de Brideglande !
+Nova a trouvé une Carte !
+Nova a trouvé quelque chose !
+endscene
+
+scene chalaza
+//<giant tree with a glandilock seed, has no concept of scale... thinks that this part of the game is huge and long and important>
+
+
+CH: Ahhh... Nova... hum... Après tout ce temps... enfin nous nous rencontrons !
+CH: Ahhh...
+CH: Huuummm... Nova ! Euh.... de quoi parlions-nous déjà ? Ah, oui.
+CH: Je... suis le vénérable Arbre Chalaza, gardien de la connaissance sacrée des Rivages de l'Albumen ! J'ai consigné ton périple depuis le jour où tu t'es échouée sur nos rivages et... quelle aventure ce fût ! Remémore-toi, avec moi, cette douce épopée qui dérive à présent le long de la rivière trouble du passé.
+endscene
+
+scene chalaza-a1
+CH: Te souviens-tu... des êtres agités et obsédés par les céréales qui habitent l'Ovule appétissant ?
+endscene
+
+scene chalaza-a2
+CH: Des populations décontractées de l'Ovule désaltérant ?
+endscene
+
+
+scene chalaza-a3
+CH: Qu'en est-il des gentils soignants consciencieux de l'Ovule détendu ?
+endscene
+
+
+scene chalaza-a4
+CH: Ahhh... J'ai ri ! J'ai pleuré ! Et j'ai prié pour que tu aies la sagesse de prendre les bonnes décisions... Tes triomphes retentissants ainsi que ta lutte ardue resteront gravés dans mes branches pour l'éternité !
+endscene
+
+scene chalaza-a5
+CH: Et maintenant... te voilà arrivée ici, au sommet du Mont Vitelline, duquel on voit toutes les extrémités de cette grande contrée...
+CH: Les 3 éléments nutritifs sont-ils en ta possession ?
+CH: ...
+endscene
+
+scene chalaza-2
+//<If no>
+[CUT TO chalazaVC]
+CH: Ahhh... malheureusement, je dois t'annoncer une mauvaise nouvelle dans ce cas. Nova, ton ascension herculéenne jusqu'à ce haut sommet est vaine sans la bénédiction des 3 Ovules. Retourne voir les Ovules que tu as manqués avant de te représenter devant moi... Je sais que le voyage sera long, mais je suis convaincu que tu finiras par revenir !
+endscene
+
+scene chalaza-if-failed
+CH: Ahhh... Nova... hummm... Nova...
+CH: C'est moi... Le vénérable Chalaza, gardien de la connaissance sacrée des Rivages de l'Albumen ! Lors de notre première rencontre, il y a longtemps, tu n'étais pas prête à assumer la responsabilité de la Graine de Brideglande. Depuis, je n'ai pas laissé s'éteindre la flamme de l'espoir que tu puisses un jour revenir.
+CH: Les 3 éléments nutritifs sont-ils enfin en ta possession ?
+endscene
+
+scene chalaza-3
+//<if yes>
+[CUT TO chalazaVC]
+CH: Ahhh... magnifique ! Il semblerait donc que mon ère d'anticipation prenne ainsi fin ! Nova, je te confie la Graine de Brideglande.
+endscene
+
+scene chalaza-4
+CH: Nova, il est temps à présent...
+[CUT TO chalazafarVC]
+CH: Je sens déjà que mon pouvoir se meurt... L'Ère de l'Albumen prend fin...
+[CUT TO hatchlineVC]
+CH: Nova, vite. Allonge-toi sur la ligne d'éclosion.
+[CUT TO chalazaVC]
+CH: Avec ce qu'il me reste de forces... je vais t'envoyer dans l'après !
+//<Cut to Nova lying down. Hatchline activates, we speed away over the waters, screen slowly fades to white>
+// Anodyne 2, Return to Dust appears in simple white font
+endscene
+
+scene yolk-wanted
+RECHERCHÉ : VIRUS POUSSIÉREUX\nM. Piquant
+Il ne bouge peut-être pas beaucoup, mais ce virus a crié des remarques très insultantes envers nos pauvres ovocrobes. Essaye de lui jeter un bloc, et assure-toi de récupérer toute la poussière qu'il laissera !
+RECHERCHÉ : VIRUS POUSSIÉREUX\nVaseux Impulsif
+Ne te fis pas à leur apparence adorablement collante ! Laissés sans surveillance, ces petits voyous peuvent causer de sérieuses maladies dans leur corps de leur hôte ! Contrairement à M. Piquant, tu peux les aspirer sans te faire mal.
+endscene
+
+
+scene rock-loop
+Rocher: Bienvenue ! Les rochers sont étonnamment très diversifiés et peuvent se rencontrer sous de nombreuses formes de différentes tailles. Par une opération divine, il se trouve néanmoins que tous les rochers ici se ressemblent. Assure-toi de tous nous parler !
+endscene
+
+scene rock-messages
+ignore
+ignore
+ignore
+// In Yolk 1.
+Rocher: Des obstacles rocheux hauts en couleur bloquent le chemin ! Essaye d'utiliser le Nano-aspirateur pour déblayer le chemin !
+Maintiens {SPECIAL} pour aspirer les objets. Appuie sur {SPECIAL} pour les rejeter.
+// MOVE THIS TO ROCK NORTH
+Rocher: Quelquefois, les rochers bloquent le chemin, mais d'autres fois, ils peuvent être très utiles ! Ne les jugent donc pas trop hâtivement. Voilà ce que je voulais dire. Sauf si c'est en bien ! Comme cette dame à l'église qui a peint un rocher pour qu'il ressemble à un tigre, avec des moustaches et tout... Plutôt cool !
+//
+Rocher: Un gouffre te sépare de ces maudits virus poussiéreux ! Tu es trop loin pour les aspirer, mais tu devrais pouvoir trouver un autre moyen de te débarrasser d'eux.
+// 7
+Rocher: S'il te plaît, ne jette rien sur les portails. Contrairement à la croyance populaire, tu ne peux pas te contenter de tout casser sur ton chemin !
+Rocher: Plus important encore, tu pourrais rayer la peinture... Si ce n'est pas déjà le cas ?\n(- Bureau d'entretien de la peinture des portails)
+endscene
+
+scene gate-hit
+Portail: Aie ! Fais attention ! Tu vas rayer ma peinture ! Si tu veux que je te laisse passer, défoule-toi plutôt sur les Virus poussiéreux !
+endscene
+
+scene yolk-sucked
+Ovocrobe: Hé-éé ! Nova, attends ! Je suis un Ovocrobe utile, pas un de ces meurtriers de Virus poussiéreux ! Parle-moi s'il te plaît.
+endscene
+
+scene reguloid-sucked
+Réguloïde: Wou-wouf ! Wouf wouf ! (Traduction : Je veux juste être utile Nova ! Je ne suis pas un Virus poussiéreux !)
+endscene
+
+scene chest-sucked
+Boîte verrouillée: Muhahahaha !! Je suis une caisse verrouillée ! Mon loquet spécial est immunisé à toute forme d'aspiration !
+(Hum... J'espère seulement ne pas avoir affaire à quelqu'un qui a des mains... Les mains sont le talon d'Achille de mon loquet !)
+endscene
+
+// -------------
+// GROWTH CHAPEL
+// -------------
+
+scene chapel-test
+PAL: Nova, bienvenue !
+CP: Bien le bonjour !
+endscene
+
+scene prism-come-here
+PAL: Nova, tu as réussi ! Je te dirais tout sur cet appareil très bientôt, mais pour l'instant viens me voir pour une petite discussion.
+endscene
+
+
+
+scene chapel-entry
+PAL: Te voilà mon poussin, je savais que tu en étais capable ! Bienvenue dans la Vie.
+
+[CUT TO cutscenevc]
+PAL: Nova, tu es dans le Sanctuaire du Centre, là où réside le Centre ! Le Centre... c'est, eh bien, c'est difficile à expliquer à quelqu'un qui sort de son œuf, tu comprends ? Le Centre est le centre... il nous a tous créés, ainsi que notre monde : l'île de la Nouvelle Laterre. Le Centre est tel un artiste, et nous sommes sa fresque, une sublime expression de sa vision !
+CP: Le Centre est tout. Ou plutôt, le Centre est, tout simplement. Nos vies ne sont que des ombres, projetées par la véritable forme du Centre. Un jour, elle t'apparaîtra clairement.
+// 4
+[CUT TO palvc]
+PAL: Hum... peut-être que nous sommes tous les artistes et les œuvres de la Nouvelle Laterre. Nous nous influençons les uns les autres... en traitant notre prochain avec gentillesse, nous pouvons nous élever mutuellement.
+
+[CUT TO cpvc]
+CP: Ahem... Eh bien... je ne sais pas si j'irais jusque-là Palissade. Tout le bien que nous pouvons faire vient directement de la justesse du Centre. Mais quoi qu'il en soit, nous devons nous concentrer.
+CP: Nova, écoute attentivement. Je vais à présent te révéler ta véritable raison d'être, et le chemin qui s'ouvre à toi.
+CP: Nova, tu es née dans une zone en guerre. Bien sûr, il ne s'agit là pas d'affrontements à l'épée ou au pistolet, ni d'armées ou d'infanterie... Nous menons une guerre presque invisible et pourtant, si insidieuse... Nous faisons face à une force mortelle qui fait grimacer le visage du temps, comme une bête aquatique ferait onduler la surface d'un lac, en perturbant le clair reflet des âmes.
+CP: Nous l'appelons Nanopoussière...
+// 11
+//<Maybe a musical change? Some scary dust themed music that plays when nova sees uncomfortable dust-related stuff, or has flashbacks>
+//<illustrations>
+CP: Cela commence petit, une graine microscopique, plantée dans un coin sombre et humide d'un organe. Puis, la Nanopoussière se repend et se nourrit de la structure de nos esprits. Elle amplifie nos peurs, notre colère et nos désirs toxiques. Avec le temps, elle atteint son paroxysme et annihile complètement l'identité de son hôte.
+CP: La symétrie, belle symétrie, est notre droit en tant que créations du Centre, et pourtant, nous nous perdons dans la Poussière. Nous pourrissons. Nous nous décomposons... et nous effondrons. La poussière engendre la poussière et nous oublions notre vrai for intérieur.
+//13 <Hopeful/worshipful music? or maybe just the harp music>
+CP: Nova, peut-être que tu commences à percevoir ta véritable raison d'être à présent. Si tu possèdes les capacités de rétrécir et de nettoyer, c'est pour pouvoir contrer le raz-de-marée de Poussière qui menace de nous engloutir. Tu devras voyager aux quatre coins de la Nouvelle Laterre et rétrécir pour accéder aux entrailles de ses habitants qui sont les plus touchés par la contamination de la Poussière. Tu...
+
+[CUT TO cutscenevc]
+Tout à coup, une petite étincelle se dirige en volant vers la tête de Nova.
+PAL: « Qu'est-ce que ?! Carte Palissade, activation ! »
+Palissade crée une barrière à l'aide de son bouclier, contenant ainsi l'étincelle dans un cube lumineux.
+PAL: Un Nano-intrus a tenté d'infiltrer ton organisme ! Nova, je peux le contenir temporairement, mais tu vas devoir rétrécir à l'échelle nanométrique et le détruire ! Ne sois pas inquiète, mon cœur, je ne serai pas loin. Je sais que tu peux le faire !
+endscene
+
+//<control is given back to Nova, who can shrink inside the glowing cube where Pal is holding the Nanobot.>
+//<this allows Palisade to demonstrate the power of cards and also look out for you. it is perhaps a test/indoctrination scenario created by the center (though this is not necessarily revealed)>
+
+scene pollen-yolk
+Ovocrobe poussiéreux: N... Nova... est-ce toi ? *tousse*... Comment suis-je arrivé ici ? *tousse* *tousse*
+Ovocrobe poussiéreux: Je... je vais m'en sortir ? Nova, je suis si fatigué... *tousse* Je ne me suis jamais sentie comme ça...
+Ovocrobe poussiéreux: ... J'ai peur.
+endscene
+
+scene pollen-rock
+[FADE]
+« La Nanonettoyeuse. »
+Elle existe et elle est née pour dépoussiérer, nettoyer et secourir...
+Puisse-t-elle tous nous protéger du danger.
+Puisse la Nanonettoyeuse sauver la Nouvelle Laterre et ses habitants de leur sort.
+endscene
+
+scene cc-nanobot
+Nano-assassin: *TOUSSE*.... *TOUSSE*... NOVA VA MOURIR... LE CENTRE VA S'EFFONDRER... LA POUSSIÈRE CONSUMERA LA NOUVELLE LATERRE... ARGH ! *TOUSSE*
+Nano-assassin: ARGH !! *TOUSSE* *TOUSSE*... N... NOVA... VA MOURIR... LE CENTRE... VA S'EFFONDRER... LA POUSSIÈRE... CONSUMERA... LA NOUVELLE LATERRE... *TOUSSE*
+endscene
+
+scene cc-after-miniboss
+PAL: *Soupire* Tu grandis si vite. Je ne m'attendais pas à ce que tu relèves un tel défi avant un moment, mais je suis si fière de toi.
+[CUT TO cpvc]
+CP: Malheureusement, il reste des êtres qui voudraient détruire la Nouvelle Laterre. Même si nous sommes tous les enfants du Centre, la Nanopoussière peut nous faire sombrer dans la folie. Tu réalises sûrement maintenant l'urgence de ta mission.
+[CUT TO elevatorvc]
+CP: Nova, prend l'ascenseur derrière toi jusqu'en ville. Souviens-toi toujours, tu es notre rempart face à la dégradation perfide qui nous assaille sans relâche !
+endscene
+
+scene save-explanation
+Cette chose-là est un point de sauvegarde. Approche-toi et appuie sur {TALK} pour accéder au menu de sauvegarde et enregistrer ta progression.
+endscene
+
+
+// ----------
+// CCC
+// ----------
+
+scene ccc-entry-captions
+Déverser la Nanopoussière
+*DÉGÂTS DE LA TEMPÊTE*
+Améliorer le Prisme grâce aux Cartes
+endscene
+
+scene ccc-entry
+PAL: Bienvenue dans la ville centrale de Cénote, une communauté dynamique construite au creux de cette dépression géologique sacrée. Directement au-dessus du Sanctuaire du Centre se trouve le Prisme à Poussière, qui te permettra de stocker la Nanopoussière que tu récupéreras.
+// Deposit Nano Dust, prism fills
+PAL: Tu peux utiliser la Console de dépôt de poussière qui se trouve dans le Sanctuaire du Centre pour déverser la #Poussière. Une fois scellée dans le Prisme à Poussière, elle peut atteindre son plein potentiel sans aucun danger pour la Nouvelle Laterre. Lorsqu'assez de #Poussière est accumulée dans le Prisme, elle est envoyée au Centre pour être recyclée en énergie.
+// storm damage, shields lower
+PAL: Hélas ! Le Prisme à Poussière fut endommagé dans une terrible tempête avant ta naissance. Il ne peut plus contenir qu'une fraction de sa capacité de #Poussière normale ! À cause de ce manque d'énergie, la domination de la #Poussière a atteint un point où même quitter la ville n'est plus sûr ! Il te suffit de lever les yeux pour voir que la tempête fait encore rage au-dessus de nous.
+// level up prism with cards, card anim
+PAL: C'est là que tu interviens Nova ! Il est possible de renforcer le Prisme à Poussière à l'aide de Cartes rares et puissantes ! Tu les trouveras lors de tes Nanonettoyages. Ton premier objectif est de renforcer le Prisme grâce à 4 Cartes, et de le remplir avec 100 Nanopoussières. Le Centre pourra ensuite recycler cette #Poussière en énergie et repousser la tempête, te permettant de quitter la ville centrale de Cénote !
+PAL: Pour résumer la situation, ta mission est de trouver les gens qui ont besoin d'un nettoyage en ville, de récupérer la Poussière et les Cartes qui les habitent, puis de remettre ces ressources au Sanctuaire du Centre. Vérifie l'état de ta progression dans le menu en appuyant sur {PAUSE}. Nova, je suis sûre que tu feras un travail remarquable !
+endscene
+
+scene sanc-reminder-intro
+PAL: Nova, ta mission est de trouver les gens qui ont besoin d'un nettoyage en ville, de récupérer la Poussière et les Cartes qui les habitent, puis de remettre ces ressources au Sanctuaire du Centre. Je suis sûre que feras un travail remarquable !
+endscene
+
+scene sanc-reminder-2
+PAL: Rappelle-toi Nova, il nous faut 100 poussières pour repousser la tempête ! S'il t'en manque encore une fois ton réservoir vidé, tu peux retourner voir l'intérieur de quelqu'un que tu as déjà nettoyé.
+[FADE]
+L'idée de retourner dans un même nanolieu dérangeait Nova... mais, s'il le faut pour aider le Centre, alors...
+endscene
+
+scene ridescaleprompt
+PAL: Voyager te prend trop de temps ? Maintenant que tu es à l'extérieur, essaye de te changer en forme de voyage pour parcourir la ville en un éclair !
+(Appuie sur {RIDESCALE} pour adopter ou quitter ta forme de voyage. Maintiens {CONFIRM} pour accélérer. Maintiens {CANCEL} pour reculer. Appuie sur {SPECIAL} pour activer le régulateur de vitesse. Tu ne pourras pas adopter cette forme partout. Si tu utilises une manette, il est fortement recommandé d'utiliser {CONFIRM} pour accélérer.)
+(Si tu as oublié un des contrôles, tu peux les consulter dans le menu Paramètres.)
+PAL: Ah oui, Nova, encore une chose : parfois, les gens auront d'autres choses à te dire si tu leur parles à plusieurs reprises ! N'hésite pas à discuter dès que possible !
+// prompt appears
+endscene
+
+
+// Talks with Palisade after getting each of the first 4 cards
+scene pal-card-1
+PAL: Bravo pour ta première Carte, Nova ! Je peux déjà te dire que tu feras une formidable Nanonettoyeuse pour le peuple de la Nouvelle Laterre !
+PAL: Au fait, Nova... N'oublie pas de faire une pause si tu es fatiguée. Il est important de récupérer les Cartes, mais ta santé l'est tout aussi !
+endscene
+
+// Nova starts in hurt panting
+scene pal-card-2
+PAL: Ouah ! Cela nous fait 2 Cartes sur les 4 dont nous avons besoin pour améliorer le Prisme à Poussière ! Oh Nova ! Mais tu es blessée !
+[FADE]
+Nova se redresse rapidement en faisant non de la tête.
+[FADEOFF]
+PAL: S'il te plaît, ne te surpasse pas trop. Tu es encore si jeune. Rappelle-toi, je serai dans le Sanctuaire du Centre si jamais tu as besoin de moi ! Lorsque tu viendras, tu pourras nous confier la Poussière que tu as accumulée et repartir le pas léger ! Mieux vaut ne pas transporter un réservoir plein plus longtemps que nécessaire.
+endscene
+
+
+
+
+scene pal-card-3
+// Nova spin out, fall, lying on ground
+PAL: Ahh, Nova...
+[FADENOFADE]
+// fade to full alpha
+$PAL$ lévite vers Nova, la prends doucement dans ses bras avant de la bercer.
+[FADEOFF]
+...
+... ...
+// fade image of pal in
+// 6 Text box on screen
+PAL: Ça va aller, ma chérie. Tu travailles très dur et tu t'en sors remarquablement. Peut-être qu'un tour en dehors de la ville te fera du bien... L'air est plus frais là-haut. Enfin... il le sera, dès que la tempête de Poussière aura disparu...
+// 7fade out image of pal. bg still black.
+...
+[FADESONG CougherHome 1 0]
+Plus tard, au Sanctuaire du Centre...
+CP: ... Je ne comprends pas ce que tu insinues Palissade ? Tu penses que le Centre se trompe ? Que nous devrions courber l'échine face à la Poussière et la laisser submerger la Nouvelle Laterre ?
+PAL: Non ! Bien sûr que non... C'est juste que... Nova ne devrait pas avoir à supporter un tel fardeau par elle-même.
+CP: Nova est la seule qui peut le faire, c'est la raison même de sa création, et nous sommes là pour l'aider ! Quoi qu'il en soit, elle doit continuer à nettoyer, ou tout sera perdu. Nous devons tous faire des sacrifices pour le bien commun. Tu comprends, Palissade ?
+PAL: ...
+PAL: Oui, je crois...
+...
+[FADESONG CCC 1 1]
+[FADESONG CougherHome 1 1]
+// fade alpha back
+endscene
+
+// fade after nova spins out
+scene pal-card-4
+[FADE]
+Alors qu'elle s'élance en s'extirpant de l'échelle nanométrique, l'estomac de Nova flanche. « Voilà donc le problème. » pense-t-elle. « C'est la transition qui me donne la nausée. » Mais cette fois, elle ne se laisse pas tomber à genoux. Elle déteste inquiéter Palissade de la sorte. Même s'il était très agréable d'être bercée par elle...
+[FADEOFF]
+PAL: Coucou ma petite Nova ! Maintenant que tu as les quatre cartes, retourne au Sanctuaire du Centre pour améliorer le Prisme à Poussière.
+endscene
+
+
+//------------
+// DUST DROP POINT
+//-------------
+
+scene ddp-intro
+PAL: Mon cœur, voici le Dépôt de poussière inférieur ! Après avoir récupéré de la Poussière à l'échelle nanométrique, c'est d'ici que tu l'enverras au Centre.
+endscene
+
+scene ddp-too-early
+PAL: Nova, c'est le Dépôt de poussière inférieur ! Je te montrerai bientôt comment l'utiliser, mais commence par prendre l'ascenseur à l'extérieur !
+endscene
+
+scene ddp-greeting
+Console:n Salutations, Nanonettoyeuse Nova. Bienvenue au Point de dépôt de poussière ! Déversons toute la Nanopoussière que tu as trouvée.
+endscene
+
+
+scene ddp-no-dust
+Console:n Il semblerait que tu n'aies pas du tout de Nanopoussière sur toi. Reviens après en avoir récupéré.
+endscene
+
+scene ddp-full-afterfilling
+Console:n Nova, tu détiens plus de Poussière que ce que le Prisme peut contenir. Tu pourras déposer cette Poussière après avoir étendu la capacité du Prisme.
+Console:n Nova, tu détiens plus de Poussière que ce que le Prisme peut contenir. Ne t'inquiète pas, tu n'as plus besoin de déposer de Poussière.
+Console:n Nova, le Prisme à Poussière est plein. Trouve plus de Cartes pour étendre sa capacité.
+Console:n Nova, le Prisme à Poussière est plein. Tu devrais parler à Palissade.
+Console:n Nova, le Prisme à Poussière est plein. Tu devrais parler à Psalmiste-C.
+endscene
+
+// These are said while the dust filling cutscene is happening
+scene ddp-full-r0
+// Full
+PAL: Tu as bien travaillé Nova ! En fait, tu as plus de Poussière que ce que le Prisme peut contenir pour le moment ! En attendant de trouver assez de Cartes pour améliorer le Prisme, tu peux garder la Poussière en trop dans ton réservoir.
+PAL: Magnifique ! Le Centre a désormais assez de Poussière pour balayer la tempête ! Viens nous voir, Psalmiste-C et moi, pour nous parler.
+endscene
+
+
+scene ddp-dust-done
+Console:n Merci d'avoir déversé de la Poussière, Nova. Reviens vite !
+endscene
+
+
+//------------
+// PRISM STUFF
+//-------------
+
+
+
+scene prism-need-more-cards
+Console:n Il semblerait que tu n'as pas assez de puissance de carte pour agrandir le Prisme. Nova, reviens lorsque tu auras au moins quatre Cartes.
+endscene
+
+scene prism-maxed
+Console:n Nova, le Prisme à Poussière est déjà amélioré au maximum. Continue néanmoins à récolter de la Nanopoussière pour pouvoir sauver notre monde.
+endscene
+
+scene prism-upgrade
+Console:n C'est merveilleux ! Nova, tu as assez de Cartes pour améliorer le Prisme à Poussière. Commençons le processus d'amélioration.
+endscene
+
+scene prism-consec
+Console:n Nova, c'est génial ! Il te reste encore assez de Cartes pour améliorer à nouveau le Prisme. Si le souhaites, reparle-moi pour continuer le processus.
+endscene
+
+scene prism-end
+Console:n Bravo Nova ! Tu as renforcé le Prisme à Poussière et augmenté sa capacité de 50 poussières ! Tu fais du bon travail.
+endscene
+
+scene prism-disillusioned
+Nova est maintenant désabusée.
+endscene
+
+// Story related prism stuff
+
+
+scene prism-greeting
+Console:n Nanonettoyeuse Nova, voici l'Appareil de renforcement du Prisme. Insère les cartes que tu as récoltées, afin d'étendre la capacité du Prisme à Poussière.
+endscene
+
+scene prism-pal-intro
+PAL: Le Prisme à Poussière permet à la Nanopoussière que tu récupères d'atteindre son plein potentiel. Ensuite, les nuages de #Poussière peuvent être recyclés en énergie par le Centre.
+PAL: Malheureusement, le Prisme à Poussière a été fragilisé par une puissance tempête et ne peut plus atteindre sa capacité de stockage de Nanopoussière maximale. Ma puce, c'est arrivé bien avant toi, mais je t'en prie, récupère des Cartes rares pour renforcer le Prisme à Poussière.
+endscene
+
+//<bringing 100 dust. Cutscene shows the dust.>
+scene ddp-open-ring1
+PAL: Splendide ! Tu as renforcé le Prisme à l'aide des Cartes, puis tu as récupéré assez de Poussière pour repousser la tempête ! Tu remarqueras que ton réservoir peut maintenant contenir 90 poussières !
+CP: Nanonettoyeuse Nova, tu rapproches ce monde perdu de son état le plus parfait... Une connexion immaculée avec sa propre identité, son propre Centre.
+[FADE]
+Psalmiste-C chante :
+« Bénis sont ceux qui marchent sur le chemin de leur création, qui irradient de la propreté du Centre, comme la lumière qui est projetée par une flamme. »
+« Le fou dit "Je suis le Centre". Telle une fleur arrogante, qui germe avant l'heure pour se moquer du froid de l'hiver. Les méchants faneront avant de fleurir, leurs machinations réduites en Poussière. »
+« Mais les vertueux éclosent à la saison, le travail de leurs mains étant béni. Leur rayonnement est une joie pour ceux qu'ils aiment, leurs feuilles apportent ombre et confort. »
+[FADEOFF]
+CP: Quelle chose magnifique, d'être l'élue.
+PAL: Nova, regarde ! La poussière que tu as déposée est utilisée par le Centre, et la tempête de Poussière s'estompe !
+endscene
+
+scene open-ring-ending
+CP: Nova, l'ascenseur est prêt à accéder à la surface. Ce monde a besoin que tu l'explores et ramène encore d'autres poussières et Cartes en son cœur, le Centre ! Va en paix, et puisses-tu le nettoyer !
+endscene
+
+scene get-pal-card
+// After you’ve started walking away from the top of the elevator. The triggers can be maybe like right where you get off the bridge on either side, at the edges of the hole?
+PAL: Nova...
+PAL: Je sais, nous venons de nous parler au Sanctuaire du Centre, mais je dois te dire autre chose... Je m'en vais pour un moment. Il y a quelque chose que je dois faire. Je ne pourrais plus t'accompagner aussi souvent, mais sache que tu seras toujours dans mon cœur.
+PAL: Tu te souviens de la nanocréature qui t'a attaquée peu après ta naissance ? J'ai canalisé le pouvoir d'une Carte pour créer une barrière infranchissable. Nova, j'aimerais maintenant te confier ma Carte ! Garde-la près de toi, mais ne l'utilise pas pour renforcer le Prisme. Qu'elle te protège du danger, même lorsque je suis loin...
+(Nova a reçu la Carte de Palissade !)
+PAL: D'accord... Je t'aime ma chérie. Je te contacte dès que possible. Au revoir !
+endscene
+
+// CCC INNER NPCS
+
+scene mole-family
+Oooh, mon amour, je te l'avais dit... Quitte à s'éloigner de la ville, alors autant aller le plus loin possible ! Si seulement tu avais eu cette promotion. Oh, tous les quartiers qu'on aurait pu choisir !
+Maman, on a un étranger à diner aujourd'hui ? Tu veux que j'aille chercher le fusil ?
+Ma chère petite femme, aurais-tu oublié de fermer la porte ? Regarde ce rôdeur que tu as laissé entrer ! On peut voir la violence sur son visage !
+Papa, il faut appeler la police ?
+endscene
+
+scene rage-hint
+Argh ! Peu importe le nombre de vaseux que j'ai beau tuer, CE PORTAL NE S'OUVRE PAS ! J'ai envie de mettre le <![CDATA[<color=#ff1111>]]>feu<![CDATA[</color>]]> à ces maudits baveux ! Les transformer en confiture ! Les étaler sur mes tartines ! Et maintenant...\nPOURQUOI CE PORTAIL RESTE FERMÉ !
+endscene
+
+scene rage-npc1
+Qu'est-ce que TU regardes l'aspireuse ?! Tu crois que MOI, je suis pas raisonnable ? Tu penses que j'exagère ?
+Ouais, et bien peut-être que si QUELQU'UN faisait son travail au lieu de paresser, je ne serais pas aussi énervé ! ÇA t'évoque quelque chose, Aspibulleuse ?
+endscene
+
+scene rage-npc
+Vas-y, continue à me regarder... Me cherche pas ! Tu crois que j'en suis pas capable ?
+Les flammes ? Ah oui ? Tu crois vraiment que je vais me calmer avec toute la Poussière qui flotte dans le coin ? LA POUSSIÈRE, NOVA. VOILÀ LE PROBLÈME. NETTOIE-LA, TU PEUX MIEUX FAIRE.
+Ce portail DÉTESTE les vaseux, mais il ne veut pas les voir mourir !
+endscene
+
+scene tongue-npc
+Nakama du goût: Humf, ouisshh... Nova, viens par ici, laisssssse-moi goûter à ton heaume métallique ! Oooh, humf... non? Laissshe moi jusssshte faire, ouisshh...
+Camarade du goût: Ohh, Nanonettoyeuse, y'a rien de mal à léchhher, pas vraisshh ? Allez, tu n'es pas drôle... Laisshh moi goûter ta tenue... Je vais découvrir une toute nouvelle dimension d'expériences shenshorielles ! Ohh !
+Ami du goût: Oooh, ouisssh... Lèchhhe moi les oreilles, ouissh... J'ai transshhpiré toute la journée. Ooh, le sssalé et le sssucré, n'esshh pas divin ?! LÈSSHH MOI !
+Compagnon du goût: JE LÈCHE LE BÉTON POUR ME SOUVENIR DES VILLES QUE J'AI AIMÉES PAR LE PASSÉ. LES GOÛTS FONT TOUT RESSURGIR. TU DEVRAIS ESSAYER AUSSI, NE SOIS PAS TIMIDE ! JE NE JUGE PAS.
+endscene
+
+scene cougher-npc
+dialogue
+endscene
+
+scene fadetest
+[FADE]
+Bienvenue dans la Nanopoussière.
+Dans ce monde, il y a trois personnes. L'une d'entre elles se nomme Nanopoussière.
+[NEWLINE]
+Ou...
+Nanopoussière.
+[CLEAR]
+Est-ce que j'ai...\n.\n.\n.\n.\n.\n.\n.
+Nanopoussière.
+endscene
+
+// CCC Outer NPCs
+
+scene tongue-1
+[FADE]
+Nova s'avance vers l'étrange silhouette qui se tient à côté de l'horloge. La silhouette tremble bizarrement, en léchant l'air. « Est-ce qu'elle a faim ? » se demande Nova. Elle n'avait jamais vu quelqu'un d'aussi affamé. C'est quelque chose qu'elle ne devrait pas avoir à voir.
+Les doigts de pieds de Nova se recroquevillent dans ses chaussures lorsque la silhouette se retourne et que leurs regards se croisent...
+[FADEOFF]
+endscene
+
+scene tongue-1-2
+TG: Viens me voir, ma douce, laisse-moi te goûter... La courbe progressive de ton masque, tes bottes légèrement poussiéreuses, le goût métallique de l'anneau en argent ssssur ton dos... HÉÉ HÉÉ HÉÉ ! Ma langue tremble d'impatience...
+endscene
+
+scene tongue-2
+TG: Argh... non... je dois résister... La Poussière... elle envahit mon esprit. Jour et nuit, je fantasme sur les délicieuses saveurs qui m'entourent... Autrefois, ma peau était lisse. Maintenant, chaque recoin est sensible au goût, recherchant les saveurs.
+endscene
+
+scene tongue-3
+[FADE]
+Gustine Papellum, la créature à peau de langue, supplie Nova du regard. Ses yeux perçants et désespérés commencent à larmoyer. Nova en a l'estomac retourné, et sent grandir en elle sa force et sa détermination. Elle a un travail à accomplir.
+« Nanonettoyeuse... ai-aide-moi... » chuchote Gustine. « Il faut que tu me nettoies... que tu me libères de la prison de mes propres désirs... »
+[FADEOFF]
+endscene
+
+scene 2d-vid-1
+SEAN: Salut, Internet ! Je m'appelle Melos, et je suis piégé dans cette vidéo.
+SEAN: Ce jeu, Anodyne 2 est composé de mondes en 2D et en 3D. Aujourd'hui, je vais vous montrer comment passer des uns aux autres !
+SEAN: Il se trouve que certains personnages sont infestés par la « Nanopoussière ». Vous contrôlez Nova, qui va rétrécir pour les nettoyer de l'intérieur !
+SEAN: Regardez ! Cette créature près de l'horloge, Gustine, doit être nettoyée ! Ça tombe bien, téléportons-y Nova.
+endscene
+
+scene 2d-vid-2
+SEAN: Après avoir parlé avec Gustine, Nova peut faire des étincelles pour créer une connexion et rétrécir afin d'atteindre l'intérieur de la créature. Pour gagner du temps, j'ai coupé une partie du dialogue avec Gustine.
+endscene
+
+scene 2d-vid-3
+SEAN: On y est presque ! La Nanopoussière va tenter de repousser Nova. Mais, Nova peut se défendre en utilisant un bouclier. Je vous retrouve dans l'autre dimension !
+endscene
+
+scene 2d-vid-4
+$SEAN$: Bienvenue dans les entrailles de Gustine Papellum ! On dirait... que je suis un rocher...
+$SEAN$: Quoi qu'il en soit, en 2D, vous explorez l'intérieur des personnages et récupérez de la Nanopoussière ! C'est tout pour aujourd'hui, je vous en monterai plus la prochaine fois !
+$SEAN$: C'est la fin de cette vidéo. Et alors, la musique, pas mal hein ? C'est moi qui l'ai composée... Si elle vous plait, peut-être que je publierais un lien vers ma page Soundcloud.
+$SEAN$: Eh bien, si vous regardez ça, cela signifie que je suis toujours piégé dans cette vidéo. Seule la puissance de... euh... 500... non, 1000 likes et partages pourra me libérer. Je vous en prie, aidez-moi !
+endscene
+
+scene tongue-3-alt
+TG: Aide-moi... Il faut que tu me nettoies... que tu me libères de la prison de mes propres désirs...
+endscene
+
+scene tongue-after
+TG: Merci, Nova... Je sens que la puissance des goûts diminue pour la première fois...
+endscene
+
+scene tongue-crystal
+[FADENOFADE]
+$TG$: Nova, quand j'étais jeune, le monde était radieux et délicieux. Je n'aimais rien de plus que de manger, goûter et être satisfait. Mais en grandissant, la magie de ma langue commença à s'estomper. La nourriture, on aurait dit du sable sur ma langue... Et la vie devint triste et sans intérêt.
+Puis... la $Poussière vint ! Je me tordais de douleur pendant que son pouvoir chaotique grandissait en moi. Mon sens du goût me revint, encore plus sensible qu'auparavant ! Des bosses rouges commencèrent à apparaître sur ma peau, mais je les ignorais, me réjouissant des merveilleuses saveurs que m'offrait le monde !
+[CLEAR]
+Je fus idiot de combattre la sagesse du $Centre, de combler mes plus bas désirs en cédant à la $Poussière. Je perdis le contrôle et me transformai en monstre. Nova, merci de m'avoir accordé une autre chance...
+endscene
+
+scene rage
+RP: Pourquoi venir dans ma cachette ? Tu veux attiser ma rage et me transformer en monstre repoussant ?!
+RP: Pourquoi es-tu encore là, Nanonettoyeuse ?! Tu es venue te moquer de moi !? VA-T'EN !!!
+endscene
+
+scene rage2
+[FADE]
+La bête enragée, Bran Maligden, hurle sur Nova, mais cela ne suffit pas. Elle tape alors des pieds et des poings sur la plateforme, faisant s'entrechoquer la structure squelettique qui l'entoure.
+Nova est pétrifiée de terreur. Sa démarche de « Nanonettoyage » est-elle complètement biaisée ? Elle a honte d'avoir autant énervé Bran, de ne pas l'avoir abordée avec plus de tact. Elle se demande si le Centre n'a pas fait une erreur en lui confiant une tâche aussi importante...
+Quand soudain... *BAAAM !!!*
+[CLEAR]
+Une dalle de béton tombe sur la tête de la créature, se brisant en mille morceaux.
+« Tu penses que c'est drôle, pas vrai ?! » crie-t-elle. « DING DONG la méchante sorcière est pulvérisée ! AHAHAHAH !! J'ai eu ce que je méritais, c'est ce que TU te dis ! »
+Nova n'arrive pas à imaginer quelque chose de plus triste que la douleur qui assaille Bran Maligden. Peut-être que Bran peut voir quelque chose en elle, qu'elle-même n'arrive pas à percevoir. Nova renferme peut-être une laideur qu'elle n'a pas encore appris à reconnaître...
+« J'ai besoin d'aide... » déclare soudainement et doucement Bran « S'il te plaît... nettoie-moi. »
+endscene
+
+scene rage-crystal
+[FADENOFADE]
+$RP$: Quand la colère a-t-elle pris racine ? Impossible à dire. Mais si la $Poussière n'était pas arrivée, je n'aurais jamais atteint ce point... à me noyer dans ma propre rage. Je n'ai su que trop tard ce qui se passait, comme submergée par un bourdonnement ou une faible lumière rouge, gagnant progressivement en intensité. Puis, je ne pouvais plus faire que crier et trembler.
+Dans ma rage, je suis devenue si abjecte et répugnante. Nova, merci de m'avoir aidé à retrouver la paix.
+endscene
+
+scene rage-after
+RP: Hein ? Pourquoi est-ce que j'étais énervée ? Je ne comprends pas pourquoi tu me poses cette question ! Maintenant que la poussière est partie, je ne suis plus si abject et envahi par la colère.
+endscene
+
+scene cougher-bed
+//Interact with the bed
+[FADE]
+Une bosse frémissante est recroquevillée sous les draps tachés et collants du lit. Nova décide de ne pas déranger l'occupante et recule avec précaution.
+endscene
+
+scene cougher-exit
+// <when you leave the room, however>
+[FADE]
+« Et donc... tu mets de la boue partout dans ma chambre avec tes bottes pour simplement t'en aller ? » demande une voix rauque à Nova, entre toux et gargouillis, surprenant Nova pendant qu'elle s'éloigne.
+Nova se retourne et aperçoit le visage de Misteria Waizel sortant de dessous les couvertures. Visiblement fatiguée, elle ne cesse d'expulser bruyamment du mucus. Nova baisse la tête en signe de honte, tout en jetant des regards frénétiques autour d'elle. Difficile d'identifier le désordre qu'elle aurait pu causer, alors elle fait le tour de la pièce pour tenter de remettre un peu d'ordre.
+« Ne touche pas à ma collection d'abat-jours ! » crie-t-elle. « Viens par ici, je dois te parler. »
+endscene
+
+scene cougher
+MC: Tu aimes les abat-jours ? ... *TOUSSE*... Argh... Certains d'entre eux ont une grande valeur ! Mais qui se préoccupe de l'argent ?! *TOUSSE* Il n'y a que l'art qui compte ! Tu vois celui-ci ? Ne le touche pas avec tes petites mains crasseuses ! C'était l'abat-jour de ma grand-mère. Tu vois ce magnifique motif de dentelle sur le bord ? *TOUSSE TOUSSE*...
+MC: *TOUSSE TOUSSE*... Ça fait plaisir de rencontrer quelqu'un qui apprécie les abat-jours. Dis-moi... c'est bien le cas ? TOUSSE... Tu voudrais en dérober un pendant que je ne regarde pas, c'est ça ? Ça ne dérangerait personne si tu profitais de la faiblesse d'une pauvre vieille dame comme moi. C'est bien ce que tu te dis ?! *TOUSSE*... *gargouillis*
+MC: Des abat-jours comme ça, on en fait plus de nos jours. *TOUSSE*... argh...
+MC: Comment pourrais-tu le savoir ? Tu es jeune et en forme. Tu penses que tu vivras pour toujours. On finit forcément par se désagréger, et les gens te quittent et te trahissent avant de partir. Ils volent tes abat-jours. *TOUSSE TOUSSE*... Je n'arrive même pas à me souvenir de tous les abat-jours qui sont partis. Loin des yeux, loin du cœur. Qu'est-ce que le monde peut encore m'offrir...?
+MC: J'ai un bon pressentiment à propos de toi. *TOUSSE*... Argh... J'aurais besoin que tu me rendes un service. Tu voudrais bien nettoyer la Poussière dans mes poumons ? *TOUSSE*... Quoi, tu veux un abat-jour en échange ou quoi ?! Tu peux prendre le modèle Frou-frou rétro couleur vert menthe... J'en ai déjà un comme ça. Tu t'y connais en Nanonettoyage au moins ? N'aggrave pas mon cas ! *TOUSSE TOUSSE*...
+endscene
+
+scene cougher-crystal
+[FADENOFADE]
+$MC$: Tu ne sais pas ce que c'est, d'avoir une vie et de la voir s'écrouler devant tes yeux. C'est ce que fait la $Poussière, elle s'amasse et s'amasse en dévorant la personne que tu es censée devenir.
+Nova, tu as bien travaillé. Mes poumons vont beaucoup mieux. Peut-être aurais-je même l'occasion de finir mon livre sur les abat-jours maintenant. Tu as pensé à nettoyer la terre que tu as ramenée dans la chambre ? Tu sais, le $Centre m'a envoyé un abat-jour spécial un jour, d'une symétrie incomparable, pour me récompenser d'avoir su répertorier et apprécier les abat-jours.
+[CLEAR]
+Merci, Nova. J'apprécie vraiment ce que tu as fait. Sincèrement. Tu peux prendre l'abat-jour que tu préfères. Tant que c'est le modèle Frou-frou rétro couleur vert menthe. J'en ai déjà un comme ça, tu comprends ? Merci à toi. Au revoir.
+endscene
+
+scene cougher-after
+MC: Merci pour ton aide, Nova. Tu peux m'aider à terminer mon livre sur les abat-jours ? J'essaye de déterminer quel système de catégorisation utiliser. Tu vois, le modèle plissé couleur crème n'est pas à la bonne place. Je ne l'ai pas déplacé. Je veux juste dire, Nova, il faut vraiment que mes abat-jours restent comme je les ai disposés, sinon je perds le fil.
+endscene
+
+scene gwoms
+Chacha Veur:n Si seulement j'avais un ballon de foot fait de ma propre peau... alors on ne pourrait jamais vraiment me l'enlever...
+Didi Veur:n Bon sang... je n'en peux plus ! Jour après jour, la même nourriture dans la même assiette !
+Rourou Veur:n Le bonheur est une flaque chaude !
+// <nursing at a teat of the Aughur>
+Veurmina Veureline Veur:n *Scouark scouark scouark *.... Tu as déjà entendu parler du réflexe des points cardinaux ? Si tu touches la joue d'un bébé, il va se mettre en quête du cardinal le plus proche.
+
+//4 AFTER
+Chacha Veur:n Le fait que mon désir ne soit jamais satisfait est ce qui me fait vibrer. Je suis béni que le ballon de foot soit sans cesse éloigné. Je suis élevé au-delà du simple ver.
+//<eating same food out of nicer plate?>
+Didi Veur:n Le chagrin est bon, le chagrin est grand, nous le remercions pour ces aliments. *Miam miam miam*
+Rourou Veur:n Le bonheur n'est qu'une illusion chaleureuse !
+// <drinking from glass now>
+Veurmina Veureline Veur:n *Sirote* Hum... Lorsqu'on décrit le lait comme étant du 1 % ou 2 %, cela semble impliquer que le lait « entier » doit sûrement être 98 % plus gras. Alors qu'en fait, c'est la catégorie « 3,5 % » qui correspond le mieux au lait entier. Il n'est d'ailleurs pas énormément plus calorique que les autres options.
+endscene
+
+
+scene pig-pre
+GG: Mes enfants sont atteints par un mal, comme altérés par un voile de boue. Je t'en prie, j'aimerais que tu écoutes chacun de mes enfants avant de revenir me voir...
+endscene
+
+scene pig
+GG: Nova, merci d'avoir écouté mes enfants...
+[FADE]
+La grande créature se tortille, penche la tête et parle dans un grondement sourd. « Ohhh... la boue rafraîchit et calme notre peau, nous sommes atteints par la fièvre et l'eczéma. »
+Dans cet endroit sombre et calme, au fond des allées, Nova peut entendre les petits bruits que font les Veurs en se tortillant dans tous les sens. Les gémissements légers qu'ils laissent sortir lorsqu'ils pressent leur délicate peau rose dans la boue lui font froid dans le dos.
+[CLEAR]
+Le Grand Veur relève maintenant la tête et fixe un horizon imaginaire, des larmes brillant au coin des yeux. « J'entends l'écho lointain du passé... L'ombre d'un chant dont on ne se souvient pas bien. » dit-il de plus en plus intensément, avant de proclamer « Nous, les Veurs, étions jadis beaux et fiers ! Sinon, le Centre ne nous aurait jamais créés ! »
+Le Grand Veur se tourne vers Nova avant de s'écrier « C'est la Poussière ! Elle nous a fait oublier qui nous étions. Tout ce qu'il nous reste maintenant, c'est de nous rouler dans les saletés pour apaiser notre inconfort... Je t'en prie, Nanonettoyeuse Nova, nettoie-nous pour que nous puissions à nouveau comprendre les plans du Centre ! »
+// unlock
+endscene
+
+scene pig-crystal
+[FADENOFADE]
+$GG$: Nova... Je sens que tu as levé le brouillard sur mes souvenirs. Je suis l'Aughure : j'ai été créée pour enquêter sur le futur en étudiant les habitudes de jeu d'argent des oiseaux.
+[CLEAR]
+$GGG$: Chacun d'entre nous a un rôle à jouer dans la grande histoire de la Nouvelle Laterre. Je le réalise grâce à toi, Nova ! Mes enfants et moi étions jadis égoïstes et ne pensions qu'à court terme. Nous nous plaignions de notre sort et avions perdu de vue les plans du $Centre. Mais après tout, il y a une place pour nous, Nova. Il y en aura toujours une !
+endscene
+
+scene pig-after
+GGG: Merci pour ton aide Nanonettoyeuse Nova ! Laisse-moi te rendre la pareille en consultant les auspices pour toi. Un instant je te prie, je dois m'harmoniser aux oiseaux et à leur jeu de cartes sans fin...
+GGG: Ahhh... le pigeon révèle un full... Alors que le canard lui présente une quinte flush...
+GGG: Oui... je le sens, c'est toi l'Élue... Oui... Tu seras la cause d'un grand événement qui altérera la Nouvelle Laterre pour toujours !
+endscene
+
+
+scene card-get
+Nova ressent les pulsations de la Graine de Brideglande en elle. Elle canalise la puissance du Centre pour transformer le Cristal de Poussière mortel en une Carte !
+endscene
+
+scene elevator
+Nova appuie sur la console, elle s'allume et ronfle. Prochain arrêt : Sanctuaire du Centre.
+Nova appuie sur la console, elle s'allume et ronfle. Prochain arrêt : Vallon Azur.
+Nova appuie sur la console, elle s'allume et ronfle. Prochain arrêt : Ville centrale de Cénote.
+[FADE]
+Nova appuie sur la console pour monter, mais elle ne répond pas. Tout à coup, Palissade apparaît.
+PAL: Ah, Nova, tu tentes de quitter la ville centrale de Cénote ! Rien de plus naturel pour une Nanonettoyeuse !
+PAL: Mais j'ai peur que ce soit bien trop risqué ! Tu devras alimenter le Centre avec de la Poussière et des Cartes avant que l'atmosphère extérieure ne puisse être purifiée.
+ERREUR ! Le mode vol de l'ascenseur est complètement hors service.
+endscene
+
+// Translator's note: Do not translate this, it's not in the final game
+scene demo-end
+[FADE]
+Après un long trajet pour quitter Cénote, Nova sort de l'ascenseur et arrive sur une large plateforme circulaire, faite d'un matériau blanc qu'elle a déjà vu en ville. Il y a un pont au nord et un au sud. Elle choisit instinctivement celui du nord et le traverse.
+Les bruits de la ville s'estompent pour laisser place à une douce brise et aux bruissements de l'herbe. Des collines et des montagnes d'un bleu profond remplissent l'horizon, attirant son attention dans toutes les directions. C'est... dépaysant.
+Contemplant cette nouvelle vue, Nova ne peut s'empêcher de ressentir une sensation bizarre au plus profond de sa poitrine, presque comme si elle était tirée vers le bas, le sol bleu apaisant ses sens. La paix ? Le bonheur ?
+[CLEAR]
+N... Non. Cela ne se pouvait pas. Elle se souvint de ce que Psalmiste-C lui avait dit. Même si le ciel bleu et les montagnes au loin semblaient calmement l'inviter, Nova savait que la quiétude qui régnait dans l'air était un leurre, un piège. Rien d'autre qu'une façade, pendant que quelque chose ici-bas se répandait... La Nanopoussière continuait à croître et menaçait d'engloutir le monde.
+Cette nouvelle sensation... Il s'agit sûrement d'une nouvelle forme de peur.
+Hein ?
+Nova n'a pas le temps de se détendre, et elle le sait. Elle doit se mettre à la tâche. Elle doit nettoyer. Elle doit trouver toutes les personnes infectées qui habitent ces montagnes et les protéger...
+[CLEAR]
+...
+Voilà la fin de la démo d'Anodyne 2: Return to Dust. Merci d'avoir pris le temps de jouer et de nous soutenir. Ça veut dire beaucoup, en particulier que vous soyez arrivé(e)s à la fin... Marina et moi (Melos) avons travaillé dur. Nous espérons que ça vous a plu.
+Vous pouvez quand même marcher vers la caméra pour retourner à Cénote et explorer un peu plus, ou traîner encore un peu dans le coin.
+Ne manquez pas Anodyne 2, plus tard cette année !
+endscene
+
+
+scene rage-nanobot
+Nano-assassin: *TOUSSE TOUSSE* NOVA... SERA... ARRÊTÉE... DÉCLENCHEMENT DU *TOUSSE* PROTOCOLE D'INCINÉRATION...
+Nano-assassin: *TOUSSE TOUSSE* NE... PEUX... PLUS... BOUGER... *TOUSSE* ÉCHEC DE LA MISSION... PARTIE TERMINÉE... *TOUSSE*
+endscene
+
+scene pig-nanobot
+Nano-assassin: *TOUSSE TOUSSE* ARGGHHH *TOUSSE* HAKKK *TOUSSE* *TOUSSE* ... ... ... MEURS *TOUSSE* *TOUSSE* LE CENTRE DOIT ÊTRE DÉTRUIT
+Nano-assassin: *TOUSSE* NON... NOVA *TOUSSE* DÉTRUIRE... NOVA... TUER LA NETTOYEUSE...
+endscene
+
+scene cougher-nanobot
+Nano-assassin: ... *TOUSSE* ... *TOUSSE* J'ÉMERGE... DE LA POUSSIÈRE. NOVA DOIT MOURIR. LE CENTRE DOIT DISPARAITRE. *TOUSSE*
+Nano-assassin: J'AI... ÉCHOUÉ, MAIS... *TOUSSE* NOVA NE RÉUSSIRA PAS... LE CENTRE NON PLUS... *TOUSSE*
+endscene
+
+scene tongue-nanobot
+Nano-assassin: NOVA ! OHHH ! *TOUSSE* VIENS LÀ ! VIENS LÀ ! *TOUSSE TOUSSE* LAISSE-MOI TE DÉTRUIRE !
+Nano-assassin: OH, NANONETTOYEUSE *TOUSSE* C'ÉTAIT VRAIMENT BON ! MAIS *TOUSSE* TU DOIS ÊTRE *TOUSSE* ARRÊTÉE... *TOUSSE*
+endscene
+
+scene keyblock-text
+Cet étrange bloc semble comporter une serrure...
+endscene
+
+
+scene ccc-tour
+// say ccc-tour 0 2
+(Ce garçon est de la taille d'une petite souris, mais bizarrement sa voix porte bien.)
+Mini-garçon:n Bienvenue dans la première des trois parties de la visite de Cénote ! Au-dessus de nous se trouve l'Horloge de Cénote. Elle indiquait l'heure, mais elle a cessé de fonctionner il y a quelques années et personne n'a pu monter pour la réparer. Un vrai symbole de la futile du temps. Qu'est-ce que ça change s'il est 6h00 ou 10h30 ? Tout peut arriver, tant qu'on le veut...
+Mini-garçon:n Qu'est-ce « futile du temps » veut dire ? J'en sais rien moi, madame ! J'suis qu'un enfant !
+
+// say ccc-tour 3 4
+Garçon typique:n Bienvenue dans la deuxième partie de la visite de Cénote ! Voici le Lac de Cénote. Il a pour mystérieux effet de téléporter les personnes qui ont plongé dedans là où elles étaient quelques moments avant ! Jusqu'à aujourd'hui, c'est le seul déclencheur connu du phénomène de téléportation à Cénote. C'est un véritable symbole des cercles vicieux de la vie. On ne peut échapper à son passé, il viendra toujours nous hanter.
+Garçon typique:n Au fait... est-ce que tu as vu mon frère ? La dernière fois, il était au magasin, mais, euh, c'est assez dur de le suivre...
+
+// say ccc-tour 4 5
+Grand garçon:n Bienvenue dans la troisième partie de la visite de Cénote ! Je suis mon propre monument, le Grand garçon de Cénote ! Tu m'as trouvé, alors je t'apporterai prospérité pour l'année à venir.
+Grand garçon:n Euh, en fait, je suis ici pour te montrer le Mur de Cénote, celui qui est bleu-gris. Pas celui derrière moi. Ce mur défie les lois de la physique ! Tu peux le grimper en sautant contre lui, même si tu n'es pas très athlétique. Mais quel symbole de la détermination des êtres vivants à relever des défis ! Même si, ce qui se trouve de l'autre côté n'a pas de valeur matérielle.
+endscene
+
+scene ccc-video
+//xxx 0-2 video mole
+Taupetubeur:n Je fais des vidéos sur les jeux vidéo. Mais c'est difficile... Ma vie n'est pas rose tout le temps. Si je ne parle pas du dernier titre de la saga « Big World », personne ne me regarde !
+Taupetubeur:n Moi j'aimerais parler de « Small World », pas « Big World » ...
+Taupetubeur:n Si seulement les choses pouvaient être autrement.
+endscene
+
+scene ccc-lake
+Musa Raigne:n Lorsque le brouillard enveloppe Cénote et qu'on regarde de là, l'horizon disparait et le lac semble être infini. J'aurais presque l'impression d'être près de l'océan. Ahh...
+Musa Raigne:n Mais ce n'est pas pareil. Il manque l'odeur de la mer. Il me faut me l'imaginer.
+Musa Raigne:n J'imagine qu'un aperçu de la beauté est mieux que rien.
+endscene
+
+scene ccc-covetous
+Client avide:n Ahhh... ça brille... Quelle beauté... Peut-être qu'un jour j'aurais assez économisé pour m'acheter la mienne...
+Client avide:n Oh, comme j'aimerais avoir une grande fenêtre vitrée !
+endscene
+
+scene ccc-construction
+Ouvrier du bâtiment:n Pfff, il y a une force de la nature énervée au sommet du chantier de construction ! Je te le dis, les gens n'ont plus de respect pour le caractère sacré des chantiers de construction !
+Ouvrier du bâtiment:n Regarde comment on parle des chantiers dans les médias ! Juste un arrière-plan qu'on utilise et dont on abuse dans les séquences d'action explosives ! Écoute, c'est pas parce que les chantiers ne sont pas terminés qu'on peut se débarrasser d'eux. Ça te plairait qu'un chantier tourne une scène d'action explosive à l'intérieur de TOI ?
+endscene
+
+scene ccc-misc
+//xxx 0 <Dolphin by produce>
+Dauphman:n Ahhh... Les fruits Jormungla ont l'air d'être frais aujourd'hui... Et comme les fibres vertes semblent bien charnues ! Ces superbes produits font que je me sens totalement immergée dans ce monde fantastique que le Centre a créé !
+
+//xxx 1 - 2
+Dauphenfant:n IIIIIIIIIIIIIIIK ! IIIIIIIIIIIIIIIIIIIIIIIIIIK ! OUUAAAAAAHHHHHHH !
+Dauphenfant:n (J'essaie de trouver les bonbons par écholocalisation...)
+
+//xxx/3 <Rockpants by produce>
+Client âgé:n Hum... biscuits au pruneau, biscuits au pruneau... Diantre, l'emballage était bien plus joli avant... Maintenant, on dirait juste un flou de couleurs !
+
+ignore4
+ignore5
+
+//xxx 6 <Dolph by store window>
+Dauphia:n J'adore les jouets ! Euh, vraiment ? Avant, je les trouvais géniaux. Mais maintenant, je me dis plutôt « Hein ? Mais c'est quoi ces trucs inutiles ? »
+
+ignore7
+ignore8
+
+//xxx 9 <Kid near cougher>
+Enfant effrayé:n Argh ! J'entends une toux d'outre-tombe venant du bâtiment avec les lumières vertes ! Je paris qu'il est hanté !... Va vérifier, toi. D'accord ?
+
+//xxx 10 <Rockpants hidden on building to the left of cougher>
+Tristepierre:n Ouah, tu m'as suivi jusqu'ici ? Pour te récompenser, je vais te donner 5 000 dolors. Hein ? Non, pas des « dollars », je n'ai pas d'argent. « Dolor » veut dire tristesse ou douleur en latin. Je vais te conter 5 000 tristesses, parce que tu m'as suivi.
+
+
+//xxx <this can be the jellyman>
+//11 12 Near alley entrance NPC:
+Sieurgelée fatigué:n Fiiuu... J'ai réussi à sortir de ce dédale d'allées !
+Sieurgelée fatigué:n Hein ? Tu veux y aller ? C'est de la folie, mais bon, tu es bien la Nanonettoyeuse après tout... Si tu veux faire le ménage, tu devrais sûrement suivre la boue !
+
+//xxx 13-17 <Kids by alley entrance>
+Enfants de chœur:n Poussière, poussière, saleté de poussière !
+Enfants de chœur:n Les oreilles, il faut bien nettoyer derrière !
+Enfants de chœur:n Sinon...
+Enfants de chœur:n Tu vas mourir...
+Enfants de chœur:n Poussière, poussière, saleté de poussière !
+
+//18xxx <dolph near tree>
+Dauppréciateur:n Ahhh, comment ne pas aimer ces magnifiques arbres blancs ? Leur dignité, pure et calme, me rappelle les anciennes statues de marbre, qui n'ont jamais été peintes de couleurs tapageuses !
+
+//19xxx <crabhorse near bench>
+Piéton perplexe:n Hum... Je ne sais pas comment faire pour m'asseoir sur ce banc.
+
+//xxx20 <small npcs in park. maybe you can talk to them separately to get the conversation? rather than having it autoplay connected>
+Shelley:n T'as vu cette tempête de poussière ? Tu parles d'un mauvais temps...
+
+//xxx 21
+Taupeford:n Vraiment, Shelley, tu sais que je déteste parler de la pluie et du beau temps ! Je préfèrerais parler des conséquences socioculturelles du phénomène météorologique actuel qui nous empêche de quitter la ville centrale de Cénote !
+
+//xxx 22 <Jellyman by the goverment building>
+Ancien employé:n Ahhh... le Bâtiment officiel. Je me souviens y faire des choses très officielles, en y portant des vêtements tout à fait officiels.
+
+// 23 moleford late
+Taupeford:n Eh bien, Shelley ! On dirait que la tempête de poussière est partie toute seule ! Je me demande quelles en sont les raisons scientifiques !
+// 24 shelley later
+Shelley:n Ouah ! Regarde le ciel ! On peut le voir maintenant !
+// 25
+Enfant déseffrayé:n Ouf ! J'entendais des bruits de toux macabre venant de ce bâtiment... mais plus maintenant ! Tout va bien !
+endscene
+
+scene dolphfan
+Dauphfan:n Ouah ! C'est vraiment toi ! Nova, la Nanonettoyeuse ! Si tu me parles encore, je te confierais une anecdote intéressante !
+Dauphfan:n Ton Nano-aspirateur peut contenir 60 poussières ! La barre bleue dans le menu de pause indique où tu en es ! Appuie simplement sur {PAUSE} pour la consulter. Aussi, je te conseille de déposer au Sanctuaire du Centre la poussière que tu as récupérée dès que tu manques de place !
+Dauphfan:n Oh, devine quoi. On m'a dit que même lorsque tu as déjà nettoyé la poussière dans quelqu'un, tu peux toujours rétrécir et y retourner si tu as besoin de plus de poussière !
+Dauphfan:n Comment ? J'en sais trop et tu trouves ça bizarre ? C'est parce que je suis ton fan numéro un, Nova !
+Dauphfan:n Quoi ? D'autres astuces ? Euh, OK ! Si tu as des soucis, tu peux ouvrir la section Paramètres du menu Pause pour modifier les options de difficulté ! Du moins, c'est ce que prétendait l'article du blog qui parlait de toi.
+Dauphfan:n Oh, euh... tu vois l'espère d'œuf à ma droite ? Avec, tu peux « sauvegarder le jeu ». Tu peux aussi consulter les objets et les cartes que tu as dans le menu Pause ! La carte du monde, elle, indique ta position.
+Dauphfan:n Voilà, je n'ai plus d'astuces de jeu pour toi, mais j'en ai une pour la vie : ne fais pas griller ton pain ! Essaye de le mettre au micro-ondes pendant 10 secondes. Ta vie va changer à jamais.
+endscene
+
+scene elevator-tip
+Gelascenseur:n Oh... Ho ho ho. Est-ce que... Tu vas prendre l'ascenseur ? Quoi ? Tu ne sais pas comment faire? Eh bien ! Tu vois la flèche vers le bas sur le côté gauche de l'ascenseur ? Tu peux lui parler pour descendre jusqu'au Sanctuaire du Centre. MAIS, attends, ce n'est pas tout ! Tu vois la flèche VERS LE HAUT sur la droite ? Tu peux lui parler pour quitter Cénote et accéder au sublime Vallon Azur ! C'est ça, l'ascenseur va dans les deux sens.
+Gelascenseur:n J'ai interdiction de pénétrer dans le Sanctuaire du Centre, ou de quitter Cénote, mais je te regarderai quoi que tu fasses. Je n'ai pas préférence. J'aime les ascenseurs, c'est tout.
+Gelascenseur:n Au fait, tu as besoin de moi ? J'aimerais bien te suivre, mais je ne peux pas... Après tout, je ne peux pas emprunter l'ascenseur. Ou peut-être que... « C'est moi, Nova ! J'adore nettoyer la Nanopoussière. Le premier nettoyage est pour moi ! Hop-là !
+endscene
+
+
+// ignore
+//scene delay
+// 0 6
+/Melos Han-Tani: AHH
+/Melos Han-Tani: Comment m'avez-vous trouvé ?
+/Melos Han-Tani: Hum... je peux voir dans vos yeux que vous vous demandez si Anodyne 2 sort toujours en mai ?
+/Melos Han-Tani: ...
+/Melos Han-Tani: ... ... ...
+/Melos Han-Tani: Hum...
+/Melos Han-Tani: Hé hé hé hé hé hé...
+// 7 15 vanish
+/Melos Han-Tani: Argh ! OK, OK !
+/Melos Han-Tani: Voilà la réponse : le jeu... est retardé ! Mais juste un peu. Jusqu'en juillet, probablement.
+/Melos Han-Tani: Hé, ça ne fait que 60 jours. Pas d'inquiétude. Vous devriez jouer à un jeu sympa en attendant, comme LUCAH par exemple.
+/Melos Han-Tani: Quoi qu'il en soit, je sais que vous nous faites confiance. Merci, vraiment. Certaines personnes ne croient pas à ce que Marina et moi faisons... Nous allons leur donner tort ! Ha ha ha ha...
+/ha
+/ha
+/ha
+/...
+/Melos Han-Tani: OK, je retourne coder le jeu. Si j'arrive à obtenir 1000 RT, il sortira en Juin.
+/Je rigole.
+//endscene

@@ -1,0 +1,46 @@
+set db-burial to 1
+collider on exit-blocker
+cm on 2d
+cm smooth to FuneralVC in 1.5
+stopallsongs 1
+playsong meadowAmbience 0 0
+wait 2
+
+say db-burial-1
+
+play2d dance on dancer1
+play2d dance on dancer2
+play2d dance on dancer3
+play2d dance on dancer4
+wait 1
+
+play2d open on funeral-dirt
+sfx bluntExplosion
+wait 1
+
+sfx bluntExplosion
+lerplin funeral-body to funeral-grave in 5
+wait 5
+
+play2d close on funeral-dirt
+sfx bluntExplosion
+wait 1
+
+disable sr of funeral-body
+
+play2d idle on dancer1
+play2d idle on dancer2
+play2d idle on dancer3
+play2d idle on dancer4
+
+say db-burial-2
+wait 0.6
+fade to black in 2.5
+cm cut to matcherVC
+wait 1
+cm off 2d
+wait 1.2
+fade out in 1.6
+off
+
+

@@ -1,0 +1,1532 @@
+scene desert-sanc-1-1
+//<Nova is in C Sanctuary, has some sort of weird procedure done. Afterwards. C Psalmist holds Nova awkwardly. Nova begins to wake up and C Psalmist drops Nova suddenly, embarrassed.>
+CP: Ah ... endlich wach. Dem Zentrum sei Dank! Was ist passiert? Als ich dich draußen fand, wie du mit deinem vom Staub zerfressenen Körper zurück nach Cenote gehumpelt bist ... Ich wusste nicht, was ich denken sollte. Ah! Schon gut. Alles ist vergeben! Ich bin nur froh, dass du zurück bist und dass das Zentrum in der Lage war, deine Wunden zu heilen. Und du wirst dich freuen zu hören, dass die Karten und der Staub, die du bei dir hattest, es dem Zentrum ermöglichten, die verbleibenden Staubstürme zu beseitigen. Du kannst jetzt die gesamte Gegend von New Theland frei erkunden!
+... ...
+CP: Weißt du ... ähm ... es war schmerzhaft für mich, als Palisade verschwand, und dann auch noch du. Ich muss zugeben ... zuerst dachte ich, dass ihr zusammen auf einer geheimen Mission abgehauen seid, die ihr ohne mich ausgeheckt hattet ...
+CP: Aber ... nein ... sie ist wirklich weg, nicht wahr? Nova ... Ich kann es dir nicht verdenken, dass du dich für eine Weile versteckt hast. Aber jetzt, wo du zurück bist ... wirst du nicht mehr verschwinden, oder? Wir müssen jetzt auf einander aufpassen, Nova ... meine Nova ...
+CP: Du hast viele schlimme Dinge gesehen und erlebt, Nova, aber schau, wie stark du bist, wie zielstrebig. Du verstehst nicht, was für ein Segen dir gegeben wurde.
+endscene
+
+scene desert-sanc-1-1-2
+[FADE]
+Fleischkeile, Knochensparren, hängende und schwingende Organe.
+Du bist aus blutigem Ballast gemacht, es belastet dich.
+Die Schwerkraft zieht deine Pakete in den Schmutz und doch ...
+[CLEAR]
+Du bist eine Organisation, eine Vorrichtung von Kontraktionen
+Und so ist es, dass du aufstehst, anstatt zu fallen,
+Und so ist es, dass du bereit bist, deinem Schicksal zu begegnen.
+[CLEAR]
+Wie beim Körper, so auch beim Geist
+Wie bei den Organen, so auch bei den Erinnerungen
+[CLEAR]
+Ich bin es, der sich an die Dunkelheit erinnert
+Ich bin es, der sich an den Staub erinnert
+Deshalb gebe ich dir das Geschenk der Bürden
+Dein Gedächtnis ist muskulöses Fleisch, das zieht
+An der Knochenarbeit deines Schicksals
+[FADEOFF]
+CP: Verstehst du, Nova? In diesen dunklen Tagen müssen wir uns fest an das Heilige halten. Wir müssen ...
+endscene
+
+scene desert-sanc-1-2
+//<lighting switch and C Visionary rises up from a cloud of fog>
+???:n ... In Ordnung, in Ordnung, Psalmist, ich glaube, du hast genug gesagt. Nova, bitte erlaube mir, mich vorzustellen. Ich bin C Visionary.
+CV: Seien wir ehrlich, Nova: New Theland verändert sich. Jeden Tag siehst und erlebst du neue Dinge, die deine Beziehung zur Welt grundlegend verändern. Ob du es glaubst oder nicht, Das Zentrum begrüßt diese Veränderung!
+CV: Ich wurde geholt, weil Das Zentrum die Notwendigkeit einer strategischen Neuausrichtung versteht. Es reicht nicht mehr aus, der alten Moralisierung zu folgen, was wir „müssen“ oder „nicht dürfen“. Lass uns die Säuberung neu erfinden, damit sie den Kern der Probleme von New Theland von heute trifft.
+//3 4
+CP: Hmpf ... C Visionary ist bestenfalls fehlgeleitet, Nano-Reinigerin Nova. Angesichts von Angst und Chaos sollte uns *Integrität* – nicht Innovation – den Weg weisen. Wenn wir nur von den Winden der Veränderung umgeweht werden, werden wir uns zwangsläufig verirren.
+CV: Typisch starres Denken der alten Garde. Nova, ein starker Wind wird eine unflexible Struktur zerstören. Aber wenn wir die Aerodynamik des Geistes nutzen, können wir unsere grundlegenden Bedürfnisse und Wünsche in etwas Stärkeres, Transzendentaleres verwandeln. Und in der Tat, was könnte eine größere Hommage an die heiligen Dinge sein, an die Größe des Zentrums?
+// 5 9
+CV: Ich freue mich, dir heute das Metasäuberungssystem vorstellen zu können. Das Metasäuberungssystem ist eine ganzheitliche Überarbeitung der Benutzererfahrung, die dir hilft, Fortschritte bei der Erreichung deines Endziels zu erzielen ...
+CV: Während du deine Säuberung durchführst, findest du jetzt Metamünzen, eine spezielle Währung, mit der du die tiefsten Geheimnisse von New Theland erreichen kannst! Gib deine Metamünzen im Menü aus, um Informationen hinter den Kulissen und Gegenstände aus der persönlichen Sammlung des Zentrums zu erwerben. Der Einsatz des aufregenden neuen Metasäuberungssystems wird deine Beteiligung an der Welt von New Theland sicherlich verbessern!
+CV: Wir möchten dir auch das Metasäuberungshandbuch vorstellen, einen Artikel, den du lesen kannst, um alle Besonderheiten deines neuen Systems kennenzulernen.
+[FADE]
+Gegenstand erhalten: Metasäuberungshandbuch.
+endscene
+
+scene desert-sanc-1-3
+CP: Denke daran, Nano-Reinigerin Nova, das Zentrum wird immer die Arbeit deiner Hände und die Ehrfurcht deines Herzens belohnen. Abgesehen davon ist deine Mission für das Wohlergehen aller Bewohner von New Theland von entscheidender Bedeutung.
+CP: Bis wir uns wieder sehen.
+endscene
+
+scene cv-chat-200
+CV: Ah, Nova. War deine Benutzererfahrung mit dem Metasäuberungssystem zufriedenstellend? Wir haben Metamünzen entwickelt, um deine Wahrnehmung zu verbessern und die Wiedererkennungswerte zu optimieren, sodass deine MM-Anzahl der zuvor besuchten Standorte nun im Bereich von 7,5 und mehr liegt. Geh mit Begeisterung, Nova! Bringe Veränderung!
+CP: Äh, ja. Vergiss nicht die neu eröffneten Regionen von New Theland, Nova. Die Bewohner von New Theland zählen auf dich!
+endscene
+
+scene cv-chat-300
+CV: Nova, das Datum des Anodyne nähert sich schnell. Die Revolution steht bevor, und du bist ihr Anführer!
+CP: Ja, ja. Nova, wir warten auf deine gute Nachricht. Du bist so nah dran! Bringe das Anodyne hervor und bringe Licht in die Welt von New Theland!
+endscene
+
+// After upgrading from 200 -> 250
+
+scene desert-sanc-2-1
+CV: Nova! Wie gefällt dir die erweiterte Funktionalität des Metasäuberungssystem? Ich sehe, du schaffst es gut durch die neu erschlossene Wüstenregion! Nun denn, ich denke, es ist Zeit, dass wir über unser Endspiel reden.
+CP: Bitte, erlaubt mir, Visionary. Ich glaube, ich bin derjenige, der dieses Thema mit der entsprechenden Würde anspricht.
+CP: Nano-Reinigerin Nova, bereits in deiner kurzen Existenz hast du die Breite der bewohnbaren Regionen von New Theland und darüber hinaus durchquert. Bald wird dein Weg dich in noch weitere Bereiche dieser seltsamen und schönen Welt führen. Was für ein Geschenk es ist, diese Welt zu erkunden ... was für ein Wunder, sie zu bewohnen!
+CP: Und doch ... das grundlegende Problem von New Theland ... es muss dir inzwischen klar sein ...
+CP: Staub. Verfall. Der unerbittliche Schrecken der Korruption und Verderbtheit, der immer zu Schmerzen führt. Wir werden vom Zentrum erschaffen, wir sollten als herrliche Kunstwerke existieren. Und doch ... wir sind aus Staub gemacht und vom ersten Atemzug an beginnen wir, wieder zu verfallen. Wir verlieren unsere Unschuld und wenden uns abscheulichen und egoistischen Gewohnheiten zu.
+CP: Lust! Völlerei! Zorn! Unser jeder vulgäre Gedanke ist ein Makel für die kreative Integrität der Vision des Zentrums.
+CP: Und doch ... gibt es immer noch Hoffnung! Wenn das Stufenprisma vollständig aufgerüstet ist und die letzte Lieferung von Staub verschickt wird, wird dein Zweck erfüllt: Das Anodyne.
+CV: Ausnahmsweise muss ich zugeben: Das war schön gesagt, Psalmist. Siehst du, Nova, das Anodyne ist der entscheidende Moment, in dem sich das Zentrum und New Theland vollständig vereinen. Es ist eine Singularität, bei der sich das Einflussnetzwerk des Zentrums zu einer völlig selbsttragenden Regeneration der kreativen Absicht des Zentrums ausdehnt!
+CP: Verstehst du, was das bedeutet, Nova?
+CP: Deine ständige Mühe im Kampf gegen den Aufstieg von Staub ...
+CP: Der Heißhunger unserer Seelen, den die Realität nicht stillen kann ...
+CP: Das Versprechen von Tod und Verlust, das die hellsten Momente unseres müden Lebens heimsucht ...
+CP: Wenn das Anodyne greifbar ist, werden diese Albträume in die wahrsten Träume jedes Bewohners von New Theland übergehen. Kannst du es schmecken? Vollkommene Gemeinschaft ...
+CV: Und perfekte Effizienz ... unendliche Energie, die über ein transzendentes, verschwenderisches System gebildet wird!
+CP: Alles hat dich zu diesem Punkt geführt, Nova. Geh jetzt und bring das Anodyne hervor!
+endscene
+
+scene desert-dog-1
+WW: Prrrr ... Nano-Reinigerin Nova ... prrrr. Ich schäme mich so, wenn ich an das letzte Mal denke, als wir uns trafen. Ich war damals wild, meine Haarrollen waren mit Schmutz verfilzt und in Zweigen verstrickt. Ich war zweifellos unhöflich zu dir. Bitte akzeptiere meine tiefste Entschuldigung!
+WW: Prrr ... Was ist das? Du möchtest mich erkunden? Nun ... Ich würde mich sehr geehrt fühlen.
+WW: ...
+WW: Ähhh ... Es tut mir leid. Oh ... wie peinlich ... Ich habe es schwer, mich für Resonanz zu öffnen. Oh, du meine Güte. Ich verspreche, ich würde dich gern reinlassen, aber mein Körper kann manchmal so frustrierend sein.
+WW: Geschätzte Nano-Reinigerin. Ich würde es hassen, wenn du dir für mich Mühen machen würdest ... aber ich habe von einem mächtigen Artefakt gehört, das Trylock-Halsband genannt wird. Vielleicht ... wenn du das Halsband einsammeln und es um meinen Hals legen würdest ... wäre ich in der Lage, mit dir wieder in Resonanz zu treten. Oh, ich würde mich so freuen, Nano-Reinigerin Nova, wenn ich dir gehören könnte. Prrrr ...
+endscene
+
+//<After you return with the collar and the 3 locks>
+scene desert-dog-2
+WW: PrrrRRRR! N-nano-Reinigerin Nova! Ist ... ist das Trylock-Halsband für mich? Wow ... du würdest mich wirklich als deinen eigenen akzeptieren? Nun denn ... es besteht kein Zweifel mehr in meinem Kopf, dass wir in der Lage sein werden, eine Verbindung herzustellen. Allerdings ... Ich glaube nicht, dass ich derzeit einen Staubkristall in mir habe? Ich würde es hassen, wenn du deine Zeit verschwendest ... Ah, du weißt es aber natürlich am besten!
+Nova legt das Halsband um den Hals von $WW$.
+//<ready 2 Spark message>
+endscene
+
+//<talking separately>
+scene desert-dog-3
+WW: Wenn ich zu dir gehöre, dann wirst du mich vor dem Staub beschützen! Ich muss mir keine Sorgen machen, dass ich jemals wieder wild werde, denn du wirst immer meine Besitzerin sein. Nah oder fern. Ich verstehe abstrakte Konzepte so gut wie kein wildes Wesen.
+WW: Meine Lieblingsbeschäftigung ist es, die Buggyfliegen rund um das Plateau zu jagen. Ah ... Ich bin jedoch vorsichtig, sie nie zu berühren. Nur eine wilde Kreatur würde einer Buggyfliege schaden. Ich verstehe den richtigen Wert von Fantasie gegenüber Realität. Prrrr ...
+endscene
+
+//<Once inside you can wander around. There are respawned versions of everyone acting weird>
+//<There is a chest in your house area. It contains a badly taped up Palisade card>
+
+scene desert-db-enter
+$N$: Hm? Warum sieht alles anders aus? Bin ich im falschen Gebiet gelandet?
+endscene
+
+
+scene desert-db-drem-1
+$N$: Drem! Ich bin so froh, dich zu sehen! Was ist hier passiert?
+__c1 $DK$: Äh?
+$N$: Oh ... ja ... Es tut mir so leid, wie ich die Dinge früher beendet habe, Drem. Ich war wütend auf mich selbst, und ich hätte es nicht an dir und Elegy auslassen sollen. Kannst du mir verzeihen?
+__c1 $DK$: ...
+__c1 ... ...
+__c1 ... ... ...
+__c1 Hallo, Besucher! Willkommen im Robustbound Village!!!
+$N$: D-Drem ... wovon redest du da? Meinst du nicht „Dustbound Village“?
+__c1 $DK$: „Dustbound Village“? Hahahah! Was für eine absurde Vorstellung!!! „Dustbound“! Hahaha! Als ob das Zentrum jemals ein solches Schicksal zulassen würde. Wir hier im Robustbound Village erwarten nichts als Vitalität und gute Gesundheit!
+endscene
+
+scene desert-db-drem-2
+__c1 $DK$: Ah, du bist die Nano-Reinigerin des Zentrums, richtig? Es ist mir ein Vergnügen, dich kennenzulernen! Ich wünsche dir einen angenehmen Aufenthalt hier im Robustbound Village!
+$N$: Drem ...
+endscene
+
+scene desert-db-npc
+LaShawn Mixte: Hm. Ja. Perfekt. Ich habe ein weiteres Bild fertiggestellt. Das Zentrum schuf mich als Künstler. Ich kann unermüdlich arbeiten, ohne Pausen einzulegen, denn ich weiß, dass ich für wahre Größe bestimmt bin.
+Millicent Pham : Oh, ähm ... beachte mich gar nicht.
+Mach Grubbins: Ich bin Vater!
+Re Grubbins: Ich bin Mutter!
+Mi Grubbins: Ich bin Schwester!
+Fam. Grubbins: Ich bin Bruder!
+endscene
+
+scene desert-db-1-1
+__c2 ?: Drem tat es leid, dass er deine Karte zerrissen hat ... Er wusste damals nicht, was Palisade für dich bedeutet.
+$N$: ...
+$N$: E-Elegy?
+
+//<Elegy and ash phase in>
+
+__c2 $EB$: Es ist schön, dich zu sehen, Nova.
+$N$: Elegy! Bist du es wirklich? Was ist hier passiert? Warum sind alle anders?
+__c2 $EB$: Hast du jemals genau in dem Moment geblinzelt, in dem jemand das Licht ausgemacht hat? Es fühlt sich fast wie ein Betrug an der Zeit an, der dir diesen Moment des Übergangs raubt ... um es für immer unmöglich zu machen, die Puzzleteile deiner Existenz zu versöhnen.
+$N$: Ich sah Drem ... aber er war anders ... Es gefällt mir nicht, Elegy ...
+__c2 $EB$: Das Leben, das wir hier in Dustbound Village hatten, war unvereinbar mit der Vision des Zentrums. Und so wurden wir zurückgesetzt. Meine Freunde vergaßen alles, was sie einst gewusst hatten. Ash und ich entkamen durch Zufall, mit unserem Staub-Guckguck-Spiel. Wir verschwanden genau zur richtigen Zeit und entkamen den Augen des Zentrums.
+$N$: Warum muss es so sein, Elegy? Warum muss es so sehr wehtun? Vielleicht war es ein Fehler, hierher zu kommen. Wenn ich das Anodyne hervorbringe, kann ich all diese Traurigkeit und diesen Verlust rückgängig machen.
+__c2 $EB$: Nova ... dieser Verlust, den du fühlst ... das ist wie ein kleiner Vorgeschmack vom Anodyne! Wenn du dich dem Zentrum hingibst, wirst du dich völlig verlieren. Das werden wir alle!
+$N$: Aber ich will mich richtig fühlen, Elegy. Ich möchte Frieden empfinden. Verdienen wir das nicht?
+__c2 $EB$: Kannst du es nicht sehen, Nova? Wir haben uns richtig gefühlt! Dies ist eine traurige und beängstigende Welt, aber wir haben aus den Trümmern etwas Besseres gebaut.
+$N$: Aber warum müssen wir uns zwischen dem Zentrum und uns selbst entscheiden? Vielleicht könnten wir mit dem Zentrum reden ... Vielleicht könnte es die Regeln ändern! Vielleicht könnten wir einfach richtig handeln, weil wir es wollen und weil es sich gut anfühlt, und wir müssen keine Angst mehr haben!
+__c2 $EB$: Es ist ein schöner Gedanke, Nova, aber ist es das, was dir jemals versprochen wurde? Wenn so etwas möglich wäre, hast du irgendeinen Beweis dafür, dass es das ist, was das Zentrum wünscht?
+$N$: Ich ...
+endscene
+
+
+
+scene desert-db-1-2
+//<Glandilock pulses angrily>
+
+$N$: Aber ...
+
+// <Glandilock pulses angrily>
+
+$N$: Warum ...?
+
+//<Glandilock pulses angrily. The same sequence starts playing when you left the first time--the flashes of scary moments from before but suddenly, Elegy floats in front of them>
+
+__c2 $EB$: Nova ...
+__c2 $EB$: Komm zurück zu mir ...
+
+//<suddenly Nova is pulled back/wakes up>
+endscene
+
+scene desert-db-vision
+[FADENOFADE]
+Novas Kopf dreht sich ... Ihr Blick verschwindet in einem dunklen und endlosen Tunnel. Ah ja ... Sie beginnt sich zu erinnern, warum sie Dustbound verlassen hat. Drem ... Elegy ... alles, was sie je wollten, war, Nova zum Narren zu halten ... um auf der heiligen Aufgabe herumzutrampeln, die sie von Palisade erhalten hatte!
+[CLEAR]
+Vor langer Zeit – bevor Nova überhaupt den offenen Himmel erblickt hatte – hatte sie die Bosheit gekannt, die in ihrem eigenen Herzen lauerte. Bran Maligden hatte ihr das beigebracht! Und was hatte sich Nova davon erhofft, Elegy wieder zu besuchen? Sie war nicht besser als Gustine Papellum und gab immer ihren niedersten Wünschen nach Komfort und Vergnügen nach!
+[CLEAR]
+„Das ist es nicht wert!“, will Nova sich selbst anschreien. Sie fühlt sich zerrissen, aber vor allem hat sie Angst. Wie kann sie das nur für immer aushalten? Der Staub ... er wird in die Risse ihrer Hülle sickern und sie wird verrotten ... ihr Zweck wird verderben und zerfallen. Sie wird in der brodelnden Grube der Dunkelheit untergehen, sodass nur böses Bedauern und Schmerz auf ewig in ihrem düsteren Geist eingebrannt werden.
+[CLEAR]
+Sie kann den Staub überall um sich herum hören. Sie kann sein Potential in jedem Teilchen der Materie spüren. Der Lärm wächst, und wächst, und wächst, und wächst, und wächst, wächst, wächst ...
+endscene
+
+scene desert-db-1-3
+__c2 $EB$: Das ist schon mal passiert, nicht wahr? Bevor du das erste Mal gegangen bist? Wo willst du hin, Nova? Wenn du diesen Blick in den Augen hast ... was siehst du da?
+[FADE]
+Langsam ... stockend ... verblasst die Kakophonie. Novas Sicht kehrt zur Normalität zurück. Sie sieht Elegy in die Augen ... sanft und besorgt. Nova ist verwirrt von ihren widersprüchlichen Gefühlen. Nach einer langen Pause spricht sie endlich.
+[FADEOFF]
+$N$: Ähm ... Ich ... Ich ... Ich glaube, es ist der Glandilock-Samen ...
+__c2 $EB$: Was ist ein Glandilock-Samen?
+$N$: Ich habe ihn bei meiner Geburt erhalten ... Er verbindet mich mit dem Zentrum und gibt mir die Kraft, Staubkristalle in Karten zu verwandeln.
+$N$: Der Glandilock-Samen hält die Erinnerungen an das, was ich gesehen habe. Er erinnert mich daran, wozu der Staub fähig ist. Er erinnert mich daran, was bei meiner Mission auf dem Spiel steht. Dank des Glandilock-Samens ... werde ich nie den Fokus auf das verlieren, was wirklich wichtig ist: die Beseitigung des Staubs.
+__c2 $EB$: Nova ...
+__c2 $EB$: Liebling ...
+__c2 $EB$: In diesem Leben ... werden viele Dinge geschehen, die uns verletzen oder erschrecken könnten. Manchmal, ja, werden wir lernen und wachsen und unsere Reise fortsetzen. Aber manchmal, Nova ...
+__c2 $EB$: Manchmal sind die Dinge einfach schlecht ... Es gibt nicht immer eine Lektion. Als du jung warst, hast du Dinge gesehen, die dich erschreckt haben. Du wurdest mit dem Gewicht unfairer Erwartungen unter Druck gesetzt ...
+$N$: ...
+__c2 $EB$: Hilft dir der Glandilock-Samen, die wahre Natur deiner Ängste zu verstehen? Muntert er dich auf, wenn du nach etwas Schönerem und Wahrhaftigem in dir selbst greifst? Oder setzt er deine Ängste gegen dich ein und schlägt dich mit Unsicherheit nieder, bis du glaubst, dass du keine Wahl mehr hast?
+$N$: ...
+$N$: .....
+endscene
+
+scene desert-db-stars-0
+[FADENOFADE]
+Nova beschließt, die Nacht zu bleiben.
+Elegy und Nova gehen zum Ortsrand, liegen auf einer Anhöhe und blicken in den sternenklaren Nachthimmel.
+[CLEAR]
+endscene
+
+scene desert-db-stars
+$N$: ...
+__c2 $EB$: ...
+$N$: ... Er steckt da fest.
+__c2 $EB$: Hm?
+$N$: Der Glandilock-Samen. Ich kann ihn spüren. Ich spüre, wie seine Ranken sich biegen und zusammendrücken und sich in meinem ganzen Wesen verzweigen.
+__c2 $EB$: ...
+$N$: Ich konnte es nie ignorieren. Ich konnte nie frei davon sein, auch wenn ich es wollte. Es wird immer ein Teil von mir sein, Elegy. Immer.
+$N$: Deshalb kann ich nicht derjenige sein, der sich gegen das Zentrum wendet. Ich kann nicht derjenige sein, der das beendet. Egal, was ich denke oder fühle.
+__c2 $EB$: Nova ... als du geboren wurdest, nannten sie dich die Nano-Reinigerin. Aber du warst diejenige, die sich in diesen Mantel gehüllt hat. Du warst diejenige, die sich zu der Person geformt hat, die es so weit geschafft hat.
+__c2 $EB$: Und jetzt ... ist es nicht an der Zeit, sich wieder zu formieren? Ist es nicht an der Zeit, diese Kraft der Anpassung zu ergreifen und sie auf das umzuleiten, was du wirklich glaubst? Solange du am Leben bist, Nova, ist das deine Gabe. Du kannst immer etwas Neues werden.
+$N$: ...
+$N$: Ich weiß nicht, Elegy ... Ich weiß nur nicht, ob ich das glauben kann ... Ich glaube nicht, dass es für mich richtig ist, mit so einer Chance zu spielen ...
+$N$: Aber vielleicht muss ich das nicht!
+$N$: Vielleicht gibt es noch einen anderen ...
+$N$: ...
+$N$: Elegy, ich habe eine Idee. Glaubst du, du könntest mir beibringen, wie man Staub kanalisiert? Wie du für das Zentrum unsichtbar geworden bist?
+__c2 $EB$: J-ja ... natürlich! Aber warum ...?
+endscene
+
+scene desert-db-stars-2
+[FADENOFADE]
+...
+Die Zeit vergeht, und schließlich verlässt Nova das Dorf.
+[CLEAR]
+endscene
+
+//<Nova transitions out to 3D... sits looking out from the cliff while contemplating>
+
+scene desert-db-after
+N: Ich sehe keinen anderen Weg daran vorbei: Das Zentrum hat mir die wahre Natur des Glandilock-Samens vorenthalten. Aber ist das wichtig? Wenn das Anodyne wirklich Frieden und Schönheit schafft, wie Psalmist sagt, wer bin ich dann, dass ich dem im Weg stehe?
+N: Ich wurde für einen bestimmten Zweck geschaffen. Warum sollte mir noch etwas mehr geschuldet werden? Und doch ... bin ich mir nur nicht sicher ...
+N: Am Ende gibt es zwei Möglichkeiten:
+N: Das Anodyne erreichen ...
+N: oder ...
+N: das Zentrum konfrontieren.
+N: Obwohl ... vielleicht sollte ich einfach weiterarbeiten, bis ich mir meiner Entscheidung sicherer bin ...
+[FADE]
+Gegenstand erhalten: Novas Dilemma.
+Nova kann sich dem Zentrum stellen, indem sie zum Staubprisma-Cap im Blautal-Zentrum geht.
+endscene
+
+
+////////////////////////////
+//// Nano Horror / "Nora's Life" //////////
+////////////////////////////
+
+// note - this text SHOWS the 'dialogue code'
+scene horror-intro
+[FADE]
+scene desertnpc-1
+DN: Hey Nova! Komm mal rüber! Hehe. Ich bin ein NSC in der Wüste!
+(FADE)
+Eine seltsame Gestalt gestikuliert begeistert zu Nova.
+endofscene
+[CLEAR]
+scene desertnpc-2
+(FADE)
+Langsam nähert sich Nova der Gestalt.
+(FADEOFF)
+[CLEAR]
+DN: Ja ... So ist es richtig ... komm her. Ich beiße nicht! Haha. Du hast nicht einmal eine Gesundheitsleiste in 3D, also muss es sicher sein, oder? Hoho.
+DN: In Ordnung ... also dann. Ich habe den Staub, Nova ... Ich habe es wirklich schwer. Bitte, du musst mir helfen!
+(UNLOCK SPARK)
+endofscene
+[CLEAR]
+(ACTIVATE SPARK CONNECTION)
+(PLAY SPARK NOW AVAILABLE MESSAGE)
+[FADEOFF]
+endscene
+
+scene horror-after
+Als Nova vom Boden aufsteht, spürt sie, dass etwas in ihrer Hand zerknüllt ist ...
+WüstenNSC-Karte erhalten.
+endscene
+
+
+scene horror-wake-1
+[FADE]
+Nora erwacht von dem wütenden Gejammer eines Industriestaubsaugers. Sie hört das Stoßen und Klappern, während der Saugkopf Ecken umrundet und Schwellen überschreitet. Jetzt ist er direkt vor ihrer Wohnungstür. Sie erstarrt für einen Moment, wie ein in die Enge getriebenes Opossum.
+Nora nimmt ihr Smartphone und postet auf ihrem gesperrten, geheimen Social-Konto: „Gott, gibt es ein schlimmeres Geräusch als wenn jemand in der Nähe staubsaugt? Ich will sterben.“
+Eine Minute später löscht sie den Beitrag, weil er leichtfertig und privilegiert klingt.
+[CLEAR]
+Einige Leute scheint das Geräusch eines Staubsaugers nicht zu stören, ebenso wenig wie ein starker Wind oder eine hektische Autobahn. Wenn Nora es hört, kribbelt ihre Haut, ihr Atem hält an, sie schämt sich, im Bett zu liegen und mit ihrem Handy durch Social zu scrollen. Sie sollte aufstehen.
+endscene
+
+
+scene horror-flavor-1-1
+// Interact with computer
+$NR$: Ich sollte den wahrscheinlich nicht vor der Arbeit hochfahren. Ich würde mir am Ende sowieso nur die Gameplay-Videos von Fear Child ansehen.
+
+//Door
+$NR$: Ich will der staubsaugenden Person nicht im Weg stehen.
+
+//Window 2 5
+$NR$: Ich habe gelesen, dass es hilft, die tagesperiodischen Rhythmen zu regulieren, wenn das tiefstehende Morgenlicht in die Augen trifft. Ich hatte in letzter Zeit seltsame und unruhige Träume ...
+//window opens
+--
+$NR$: Ich lebe in diesem seltsamen gotischen Mehrfamilienhaus. Es gibt einen *echten* steinernen Wasserspeier vor meinem Fenster.
+Einige Gelehrte sagen, dass das furchterregende Aussehen von Wasserspeiern dazu bestimmt ist, böse Geister abzuwehren, aber ich glaube nicht, dass das ganz richtig ist. Ich denke, es ist eine Erinnerung an das Böse um uns herum, das Böse, das wir nicht so leicht abwehren können ...
+
+//Door 6 7
+$NR$: Okay, Zeit für die Arbeit ...
+$NR$: ... Die Flure in diesem Gebäude sind etwas labyrinthisch. Aber ich bin so oft durch sie gegangen, dass ich den Ausgang mit geschlossenen Augen erreichen könnte.
+
+$NR$: Ugh, die Laken sind so staubig. Ich sollte sie wirklich bald waschen.
+$NR$: Das ist meine Wohnung. Ich muss zur Arbeit.
+endscene
+
+// transition to hallway.
+// a series of weird branching pathways. Player basically has to choose randomly but after a while they end up at the front entrance as if they knew the way
+//Nora SR disabled, door sfx. public establishment ambience.
+
+scene horror-work-1
+[FADENOFADE]
+$NR$: Ich habe einen Mindestlohnjob in einem Fast-Food-Restaurant, weil ich ein Feigling bin. Ich könnte wahrscheinlich einen besseren Job haben, aber das tue ich nicht. Wie auch immer, im Moment ist es in Ordnung. Wer entscheidet, wer einen guten oder schlechten Job verdient? Und vielleicht sind alle Jobs schlecht, nur auf verschiedene Weise. Es macht die Zeit, die ich zu Hause verbringe, ein Bier trinke und Internetvideos schaue, umso besonderer.
+$NR$: Ich fühle mich wirklich nicht schlecht. Ich glaube nicht, dass ich mich jemals wirklich schlecht gefühlt habe.
+endscene
+
+//Nora moved to hallway. blocker enabled.
+//Players walks up to Nora’s door and enters
+
+scene horror-flavor-1-2
+$NR$: Es ist gut, dass ich es von der Arbeit zurückgeschafft habe, bevor der Regen stärker geworden ist. Jetzt schüttet es ziemlich heftig. Nicht, dass es einen großen Unterschied machen würde ... Vielleicht würde es mich dazu bringen, eine zusätzliche Dusche zu nehmen. Ich muss nicht jeden Tag duschen, denn ich bin einfach kein besonders riechender Mensch.
+
+//Door
+$NR$: Manchmal gehe ich nachts raus, um mir einen Kuchen oder ein Eis von der Tankstelle zu holen. Es ist unangenehm, mit Menschen zusammen zu sein, aber manchmal ist es besser als nichts. Aber ich werde heute Abend nicht im Sturm rausgehen.
+
+//Window
+$NR$: Alles, was ich sehe, ist etwas Licht, das durch Tröpfchen verschwommen ist.
+
+//Computer
+$NR$: Ich war nie sehr sozial, aber ich war mal eine bessere Freundin. Ich habe früher mit Eebz gesprochen, und ich denke, ich habe sie aufgeheitert. Aber ich habe heutzutage nicht wirklich viel zu bereden. Wie auch immer, die Leute sind normalerweise beschäftigt an einem ... welcher Wochentag auch immer es ist.
+
+//Bed, before talking to other stuff
+$NR$: Es ist zu früh, um ins Bett zu gehen.
+
+//Bed
+$NR$: Ich schätze, ich gehe ins Bett.
+endscene
+
+scene horror-wake-2
+[FADENOFADE]
+// vacuum sound, move nova to bed (under fg sprite). wait
+$NR$: In meinen Träumen listet meine Mutter auf, wie ich ihr wehtue. Wenn ich einen Fehler mache, dann nur, um es ihr heimzuzahlen. Wenn ich rauskomme, dann wegen der Dinge, die sie falsch gemacht hat. Ich bin kein sanftes, ruhiges Kind mehr, also tut es nicht mehr wirklich weh.
+...
+...
+// wait
+[FADE]
+$NR$: Gestern Abend habe ich etwas über den Sturm auf Social gepostet und eine seltsame Antwort bekommen.
+[CLEAR]
+@ig_nora: hat sonst noch jemand im west-zentrum sowas von schiss bei diesen blitz-donner-intervallen?
+@gigi800: wem sagst du das! unser gebäude wurde gestern Abend sogar getroffen!!
+[CLEAR]
+$NR$: „Unser Gebäude“? Ist dieser @gigi800 jemand, der in meinem Gebäude wohnt? Ich habe noch nie mit einem meiner Nachbarn gesprochen, geschweige denn soziale Kontakte ausgetauscht! Ich beschließe, den Beitrag aus Höflichkeit einfach zu „liken“ und mit meinem Tag weiterzumachen.
+endscene
+
+scene horror-flavor-2-1
+//computer
+$NR$: Viele Leute interessieren sich nicht mehr für Desktop-Computer. Sie hätten lieber einen Laptop oder ein Tablet oder sogar nur ein Handy. Aber für mich erzeugt ein Computertisch seinen eigenen Raum, seine eigene Welt. Es fühlt sich fast profan an, mit denselben digitalen Aktionen in einem Café oder auf einem Bett zu spielen.
+
+//door
+$NR$: Wenn ich jetzt gehe, komme ich zu früh und muss bloß noch rumsitzen. Wir sollen uns keine Minute vor der vollen Stunde einloggen.
+
+//window 2
+$NR$: Ich frage mich, wie kalt es heute ist ... brauche ich eine dicke Jacke?
+//outside view
+--
+$NR$: In einer wissenschaftlichen Zeitschrift von 1964 prägten zwei australische Forscher den Begriff „Petrichor“, um den charakteristischen Geruch von regenfeuchter Erde zu bezeichnen. Das Wort leitet sich vom griechischen „petra“ ab, das „Stein“ bedeutet, und von „Ichor“, das ätherische Blut der Götter bedeutet. Es ist ein seltsam starkes Bild, für einen seltsam starken Geruch. Aber letzten Endes ... kann man kein Blut aus einem Stein quetschen (ha-ha).
+--
+$NR$: ...
+// 7
+$NR$: Moment mal ...
+$NR$: Wo ist der Wasserspeier?
+$NR$: Oh mein Gott, er muss im Sturm heruntergefallen sein! Vielleicht lebt dieser @gigi800 tatsächlich hier ...
+$NR$: Wie auch immer, das ist seltsam. Das Ende einer Ära. Aber ich schätze, jetzt können wir die konkurrierenden Philosophien auf die Probe stellen. Wenn wir einen hohen Anstieg der dämonischen Aktivität sehen, dann hat uns der Wasserspeier vielleicht doch beschützt (heh).
+
+//door
+$NR$: Okay. Zeit für die Arbeit.
+
+// bed
+$NR$: Ha, schön wär's.
+
+// 13try to enter nora's apt while gargoyle is in hallway , without talking to gargoyle
+$NR$: Ich schaue mir besser diesen Wasserspeier an.
+endscene
+
+
+// hallway
+scene horror-work-2
+//black screen, work noise
+[FADENOFADE]
+$NR$: Wenn ich klüger und weniger feige wäre, würde ich meinen Vorgesetzten zur Verantwortung ziehen, wenn er sich über den Mindestlohn beschwert. „Es ist Econ 101!“, sagt er. „Hoher Mindestlohn bedeutet hohe Inflation!“ Ganz zu schweigen von der Realität, in der der Mindestlohn weitgehend hinter der Inflation zurückgeblieben ist. Man könnte genauso gut sagen: „Tut mir leid, dass unser Besitzer das Sparmenü gestrichen hat, Ma'am. Geben Sie diesem Haufen Abfall, der das Essen kocht, die Schuld!“ Was auch immer, Alter. Was auch immer ...
+[CLEAR]
+Wie auch immer ... nur ein weiterer Tag auf der Arbeit.
+Puh. Endlich wieder zu Hause.
+endscene
+
+scene horror-garg-2-1
+//Start in hallway again Player walks up after work to door. Gargoyle is by the door. //When you’re close: 
+$NR$: Heilige *!(@ ... was passiert hier? Ist das eine Art Streich? Wie hat jemand dieses riesige Ding zu meiner Tür geschleppt? Ich schwöre, ich werde die Leute nie verstehen.
+//steps closer
+$NR$: Hm. Ich habe ihn mir noch nie wirklich genau angesehen ... er ist irgendwie gruseliger, als ich dachte. Dieser verrenkte, klaffende Mund ... ist das ein Lächeln oder eine Grimasse? Natürlich dienen Wasserspeier (und ihre hässlichen Mundlöcher) einem praktischen Zweck. Sie leiten Regenwasser von den Seiten eines Gebäudes ab, um strukturelle Erosion zu reduzieren. Rinnsale von Regenwasser mögen einem wie nichts vorkommen, aber mit der Zeit können sie Mörtel auflösen und Risse in das Mauerwerk reißen.
+
+//Talk to gargoyle
+$NR$: Nun, es ist nicht so, als ob das meine Verantwortung wäre. Vielleicht schreibe ich später eine Notiz darüber, damit mein Vermieter weiß, dass ich ihn nicht hier platziert habe.
+endscene
+
+// fade, move inside
+//inside. silent.
+//computer
+//eerie lcd sound
+scene horror-flavor-2-2
+[FADENOFADE]
+Eine seltsame E-Mail fällt Nora ins Auge.
+„MÖCHTEN SIE ANDEREN HELFEN?“, heißt es in der E-Mail.
+$NR$: „Hm ... welche Müllfirma macht diesmal pseudo-aktivistisches Marketing? Oder vielleicht ist es nur ein guter altmodischer Scam ...“, murmelt Nora, aber sie klickt auf die Nachricht.
+[CLEAR]
+endscene
+
+scene horror-window-2-2
+$NR$: Es ist so dunkel ...
+endscene
+
+scene horror-email
+[FADENOFADE]
+Liebe NORA EGGERS,
+Bist du unglücklich? Hast du jemals das Gefühl gehabt, dass du für größere Dinge bestimmt bist? Jetzt ist deine Chance, anderen wirklich zu helfen. Lerne, wachse, werde größer als das Leben.
+Das ist richtig: DU wurdest speziell für unser ANO2-Praktikum im sonnigen New Theland ausgewählt!
+[CLEAR]
+Das ist ein Ausweg, NORA. Ergreife ihn.
+Klicke JETZT auf den untenstehenden Link!
+ano.verse/search?facetSet=petrichor+pageSize=20+hideHateos=true+searchMetrics=true+candidateId=NORA+variationId=0.5-new-gotos+sponsoredSize=3/internship.html
+[CLEAR]
+endscene
+
+scene horror-garg-2-2
+[FADENOFADE]
+Nora schnaubt. „Gott, dieser egozentrische Unsinn ist so nervig. Jeder fühlt sich so ... Ich bin nichts Besonderes.“
+Noras Handy summt. Eine Nachricht auf Social?
+[CLEAR]
+@gigi800: hat dir die überraschung vor deiner tür gefallen? ;P
+Ahhh ... also muss @gigi800 der Nachbar sein, der den Wasserspeier bewegt hat. Aber warum?
+@ig_nora: äh, sorry ... aber kennen wir uns?
+...
+[CLEAR]
+@gigi800: :’(((
+@gigi800: das ist gemein noraaaaa :(
+@gigi800: ich dachte, wir hätten eine besondere verbindung!!! warst du nach dem sturm überhaupt besorgt um mich?
+...
+[CLEAR]
+@ig_nora: Es tut mir leid, ich glaube, Sie verwechseln mich mit jemand anderem.
+Nora schaltet die Benachrichtigungen von Social ab und schließt ihr Handy über Nacht an.
+[CLEAR]
+endscene
+
+---
+
+//computer
+scene horror-flavor-2-3
+[FADENOFADE]
+Widerwillig liest Nora die seltsame E-Mail erneut.
+//email, skippable
+$NR$: Ugh, schon beim Ansehen dieses Links bekomme ich Viren. So seltsam.
+
+//cookies
+$NR$: Meine Ex pflegte zu sagen, dass Schokoladen-Sandwichkekse nach Dreck schmecken. Es ist wahr, aber deshalb mag ich sie. Ich muss aufhören, eine ganze Packung in einer Nacht zu essen. Jeder hat nur einen winzigen Bruchteil an Geschmack, es ist, als müsste ich sie alle auf einmal essen, um genug zu haben.
+
+//bed
+$NR$: Schlafenszeit.
+//door
+$NR$: Ich muss schlafen gehen.
+// bed, before reading e-mail
+$NR$: Äh, ich will zuerst noch mal am Computer nachsehen.
+endscene
+
+scene horror-wake-3
+//vacuum noises
+[FADENOFADE]
+Ich höre die Stimme meiner Mutter widerhallen. „Bist du unglücklich? Hast du jemals das Gefühl gehabt, dass du für größere Dinge bestimmt bist?“ Sie will, dass ich mich an die guten Zeiten erinnere, die wir hatten, aber ich kann nicht. Ich weiß, dass sie existieren müssen, aber ich fühle sie nicht in mir. Ich will mich nicht erinnern. Wenn es mir jetzt nicht besser geht, was ist dann der Sinn meines Lebens?
+...
+...
+endscene
+
+scene horror-call-3
+/// phone sfx
+[FADENOFADE]
+$NR$: Ich wache auf, als mein Handy klingelt. Eebz ruft an! Meine beste Freundin aus der Schule ...
+[CLEAR]
+[SOUND openChest 1 1]
+[FADEOFF]
+//blackscreen, regular dialogue
+$NR$: Ähm. Eebz?
+Eebz: Nora! Tut mir leid, dass ich dich aufgeweckt habe. Ähm, das ist etwas kurzfristig, aber hast du Zeit, mit mir rumzuhängen?
+$NR$: Wie? Am Handy?
+Eebz: Haha, nein, ich bin in der Stadt wegen einer Arbeitssache. Tut mir leid, ich hätte es dir sagen sollen.
+$NR$: Äh, ja. Ich habe heute eigentlich frei ... komm ruhig vorbei, wann immer du willst.
+Eebz: Cool, cool. Ich bin eigentlich ... vor deiner Tür. Es ist das riesige, gruselige Gebäude, oder?
+$NR$: Oh mein Gott, ja. Gib mir nur eine Sekunde.
+endscene
+
+scene horror-friend-3
+[FADENOFADE]
+Eebz und ich verbringen den ganzen Tag zusammen, Hand in Hand.
+[CLEAR]
+Zum Abendessen essen wir Po’ Boys und frittierte Essiggurken und gehen dann durch die Straßen der Innenstadt. Ich lehne meinen Kopf gegen ihre Schulter. Ihr süßer Duft vermischt sich mit der frischen Nachtluft und den wohlriechenden Restaurants. Mein Gesicht fühlt sich warm und geschmeidig an, auf eine Weise, die ich vergessen hatte. Also wende ich mich an sie und sage: „Ich will diese Stadt so sehr verlassen, Eebz. Ich habe Angst davor, wer ich hier werde.“
+[CLEAR]
+...
+„Aber egal, wo ich hingehe, ich werde immer noch ich selbst sein ... also warum sich die Mühe machen?“
+Eebz wendet sich mit einer elektrischen Energie an mich. Straßenlampen summen über uns, als sie mir in die Augen sieht und sagt: „Wer du bist, ist unglaublich, Nora. Und du verdienst es, glücklich zu sein.“
+...
+endscene
+
+//fade back to nova’s apartment, eebz is there
+scene horror-sleep-3
+[FADENOFADE]
+$NR$: Als Eebz und ich uns fürs Bett fertig machen, checke ich mein Handy. @gigi800 hat mein Postfach überflutet, seit wir das letzte Mal miteinander geschrieben haben. Gott, mit Eebz hier hatte ich alles über ihn vergessen ...
+[CLEAR]
+@gigi800: nora, hör auf, du musst mit mir reden!
+@gigi800: nora, jeden tag habe ich dich aufwachen sehen und wie du dich dem tag stellst
+@gigi800: jeden tag wache ich mit dir auf
+[CLEAR]
+@gigi800: du und ich ... wir wissen, wie man immer weitermacht, egal was passiert
+@gigi800: auch wenn uns so kalt und es so still ist
+@gigi800: und alles sanfte vergraben und verschwunden ist, wir werden bleiben
+[CLEAR]
+@gigi800: ich dachte, du hättest das verstanden ...
+@gigi800: ich dachte, du hättest mich verstanden ...
+[CLEAR]
+$NR$: Ich schalte mein Handy aus und Eebz schmiegt sich in Löffelstellung an mich.
+endscene
+
+scene horror-wake-4
+[FADENOFADE]
+$NR$: In meinen Träumen infiziert eine tropische Sonne die Luft mit einem blumigen, feuchten Schein. Ich bin eine pralle Zitrusfrucht, hoch in einem Baum. Vorsichtig biege ich den Ast. Ein Affe klettert auf mich zu. Sie hat das Gesicht einer menschlichen Frau. Ha-ha. Sie zieht meine Außenhülle in einem Stück spiralförmig ab. Sie trennt meine Hälften nicht. Sie beißt direkt in mich hinein, und meine Säfte fließen, hell und rot. Und ich spüre den Schmerz, zerrissen zu werden, als wäre es mein eigener.
+...
+...
+[CLEAR]
+$NR$: Ich wache auf und höre die Geräusche eines entfernten Staubsaugers.
+//the room is now hypersaturated and sorta pulsing-feeling. Vacuum noises, with sounds of lots of crumbly things being vacuumed up?
+$NR$: E-Eebz?
+$NR$: ...
+$NR$: Eebz, wo bist du? Ich dachte nicht, dass heute der Tag zum Staubsaugen ist ...
+//muffled moan/scream and the vacuuming stops.
+$NR$: W-was war das?!
+endscene
+
+scene horror-flavor-4
+...
+endscene
+
+// pops up
+scene horror-exit-4
+[FADE]
+Wenn du – ja, du – dich unwohl fühlst – sprich mit dem Fenster. Nora wird sicher nach unten klettern und gehen.
+Andernfalls benutze die Tür ...
+
+// talk to window
+Dieses Level überspringen?
+endscene
+
+scene gravel-hint
+$NR$: ... Eebz? Wo bist du?
+$NR$: Warum führt Kies den Flur hinunter?
+endscene
+scene horror-skip
+[FADE]
+Das ist schon in Ordnung. Du bist jetzt in Sicherheit. Es ist keine Schande, sich zu drücken. Ich mag auch keinen Horror.
+Aber lass mich dir erklären, was passiert, wenn du die Tür nimmst ...
+[CLEAR]
+Nora folgt einer Spur von Kies und erreicht schließlich einen umgekippten Staubsauger. Sie sieht eine seltsame Form ... etwas, das sich über einen Körper beugt?
+Es ist der Wasserspeier. Aber seine Haut sieht weich aus. Er dreht sich zu Nora, seinen zahnlosen Kiefer weit aufgerissen, und stürzt sich auf sie!
+[CLEAR]
+Der Wasserspeier macht staubsaugerähnliche Geräusche und jagt Nora durch das Gebäude!
+Nora wird fast erwischt, aber schließlich erreicht sie ihr Zimmer. Der Computer ist eingeschaltet, die E-Mail ist auf dem Bildschirm! Als sie sie liest, schleicht sich der Wasserspeier an sie heran ...
+... aber bevor es sie erreichen kann, klickt Nora auf den Link, und ...!
+endscene
+
+/The only thing to do is leave your apartment and follow a trail of gravel through different hallway bits. If you take a path that is off the gravel trail, then you come out in a random entrance of the previous screen the previous entrance. You follow the gravel to a hallway where you see the vacuum cleaner knocked over, when you get close enough, you see an odd shape, seemingly huddled over something/someone (but you can’t see)
+
+scene horror-garg-4
+$NR$: W-was ist das?
+[FADE]
+$NR$: Seine Haut ... weich und zart wie ein Baby.
+Seine Fingernägel ... biegen sich wie Papier, wo sie den Boden berühren.
+Er dreht den Kopf, um mich anzusehen. Breiter, zahnloser Kiefer, der sich leicht bewegt.
+endscene
+//fadescreen
+
+//Starts crawling toward Nora. It makes a sound that is like a warped vacuum noise? The closer it is to you, the louder the sound
+
+scene horror-email-4
+[FADE]
+Liebe NORA EGGERS,
+Bist du unglücklich? Hast du jemals das Gefühl gehabt, dass du für größere Dinge bestimmt bist? Jetzt ist deine Chance, anderen wirklich zu helfen. Lerne, wachse, werde größer als das Leben.
+//door opens behind you with a creak
+
+[FADE]
+Das ist richtig: DU wurdest speziell für unser ANO2-Praktikum im sonnigen New Theland ausgewählt!
+//creature crawls towards you
+
+[FADE]
+Das ist ein Ausweg, NORA. Ergreife ihn.
+//creature crawls towards you
+
+[FADE]
+Klicke JETZT auf den untenstehenden Link!
+ano.verse/search?facetSet=petrichor+pageSize=20+hideHateos=true+searchMetrics=true+candidateId=NORA+variationId=0.5-new-gotos+sponsoredSize=3/internship.html
+//creature rears up behind you
+
+Auf den Link klicken?
+//(Y/N) N  kills you, Y transports you back to 3D.
+endscene
+
+
+
+//////////////////////
+////////////Orb///////
+//////////////////////
+
+scene orb-intro-1
+MI: Oh, du musst Nova sein! Müde von der Reise durch die Wüste? Du kannst gerne innehalten und die Aussicht genießen.
+MI: Ich bin Minorma. Ich pflege die Kugel des goldenen Jubels, eine autarke Stadt. Angetrieben von der Sonne, praktizieren die Bewohner eine Vielzahl von Künsten, die in Harmonie leben.
+MI: In letzter Zeit ist jedoch eine Bedrohung aufgetreten! Ja, es ist der Nano-Staub. Er wächst in der Stadt, und ich fürchte, er könnte das Fundament unserer Kugel gefährden. Bitte hilf uns!
+endscene
+
+scene orb-intro-2
+__c1 $MI$: Du hast es geschafft! Leider ist der Nano-Staub weggeschlossen. Die Bewohner hatten schon immer ein „Gütesiegel“, um wichtige Dinge hinter sich zu lassen, und ausgerechnet hier begann der Staub zu wachsen!
+__c1 $MI$: Um zu bestehen, brauche ich Genehmigungs-Token. Ich habe viele von den Bewohnern gesammelt, aber ich brauche noch ein paar mehr. Das heißt, Nova, bitte schaue nach, ob irgendwelche Bewohner Hilfe brauchen! Vielleicht kannst du mehr Token sammeln und den Staub erreichen!
+__c1 $MI$: Viel Glück!
+endscene
+
+scene orb-rooms
+„Wandsprung-Dojo“
+„Kraftwerksbetreiber“
+„James T. Bears Versteck für Kontakte“
+„Heimreingungsservices“ „Wir reinigen alles. Keine Fragen!“
+„Müsliriegel“
+„Leben Sie noch heute in dieser Einheit! Miete: kostenlos.“
+„Gesellschaft für Weltraum-Zeitforschung“
+endscene
+
+scene orb-npc-1
+Granstaf: Dieser Apartmentkomplex photosynthetisiert genügend Energie für Beleuchtung und mehr. Außerdem ist er modular aufgebaut, sodass er leicht erweiterbar ist. Dies ist auf eine fundierte Forschung zurückzuführen. Jeder genießt es, mitzumachen!
+
+Legatum: Ah. Ich kreiere Tanzbewegungen. Ich beobachte die Bewegung und das Verhalten von Menschenmassen. Elegant. Ein Tanz ist Schönheit. Es gibt nichts besseres, als sich mit anderen in klanglicher und körperlicher Harmonie zu verbinden. Ah.
+
+// Floor 2
+Staccacia: Hey ... magst du Focaccia? Das Gleichgewicht von Wasser und Mehl ... die Elastizität des Teigs. Die Herstellung von Focaccia ist eine Möglichkeit, über das Leben selbst nachzudenken. Verwechsle das aber nicht mit einer Bäckerei. Wir essen nie unser Brot! Wir recyceln es und backen neu.
+
+// Floor 3
+Ostinatum: Ich schaffe schöne Oberflächen, die die Kugel-Besucher zu schätzen wissen. Jeden Tag ein Design zu machen, ist befriedigend, wie eine Lieferung für das visuelle Gedächtnis der Kugel.
+
+// Floor 4
+Dimuno: Ich archiviere die Geschichte der Kugel. Spiele sind meine Spezialität.
+Dimuno: Hast du jemals das Gefühl gehabt, dass du immer wieder das gleiche Spiel spielst, Jahr für Jahr? Dass du trotz der Neuheit immer das Gleiche spielst?
+Dimuno: Es ist so einfach, von diesem Zyklus konsumiert zu werden, nur um Jahre deines Lebens zu verschwenden. Wie du auf dein Spiegelbild im Bildschirm starrst und Mühe hast, deine Vergangenheit zu rechtfertigen. Ist es möglich, dass die ganzen Stunden nichts bedeuten?
+Dimuno: Ich war einmal so ... aber durch den Bereich der Spielgeschichte fand ich persönliches Wachstum. Trends erkennen und künstlerischen Strömen folgen ... es ist schön.
+
+//8 9
+*klopf klopf klopf*
+...
+endscene
+
+scene orb-bunny
+// Bunny
+Olive: Ich bin auf der Jagd! Nach Müsli! Das beste der Welt!
+Olive: Ich bin sehr, sehr weit gereist. Ich habe von dem köstlichen Müsli hier gehört. Aber sieh mal! Es ist geschlossen!
+Olive: Keine Sorge, keine Sorge! Ich, Olive das Kaninchen, trage immer viele Getreiderationen bei mir!
+Olive: *mampf mampf*
+endscene
+
+scene orb-fab-1-1
+__c2 $FB$: ... Du bist Nova?! Mir wurde gesagt, dass du versuchst, den Staub hier zu entfernen!
+__c2 $FB$: Ah, aber du brauchst ein paar Genehmigungs-Token, um daran zu kommen? Glaub mir, was für ein Staub auch immer da hinten ist, er kann warten. Es ist noch nichts Schlimmes passiert. Das heißt ...
+__c2 $FB$: Fa-sha-sha ...
+__c2 $FB$: Ich würde mich freuen, dir ein paar Token zu geben! ... Aber nur, wenn du mir bei ein paar Kleidungsaufträgen hilfst!
+// repeat, 4
+__c2 $FB$: Nun denn! Besuche Ben Blanderson im dritten Stock und komm hierher zurück, um mir mitzuteilen, was er will!
+endscene
+
+scene orb-ben
+Ben Blanderson: Hm? Wer ist da? Bist du der Lieferant? Ist mein Brotsandwich fertig? Ah, sorry, ich habe dich wegen deines Hutes verwechselt.
+Ben Blanderson: Meine Modebestellung? Ich will etwas Einfaches. Nicht LANGWEILIG, sondern einfach. Ich möchte „gelassen“ erscheinen. Ich möchte die Komplexität des Lebens reduzieren. Ich möchte mit der Landschaft verschmelzen, unbedenklich werden.
+Ben Blanderson: Ehrlich gesagt? Ich möchte ruhig unter engen Freunden leben.
+endscene
+
+scene orb-fab-1-2
+__c2 $FB$: Und, was wollte Ben? Etwas Einfaches? Natürlich. Nun, Nova, nimm diese Kleider und stell ein einfaches Outfit für mich zusammen.
+endscene
+
+scene orb-fab-start
+__c2 $FB$: Sei intuitiv! Glaube daran! Entfessle deinen Modesturm!
+endscene
+
+scene orb-fab-done
+Bist du fertig?
+(Das Outfit ist noch nicht fertig!)
+__c2 $FB$: Hmm ...
+__c2 $FB$: Fa-sha-sha ...
+__c2 $FB$: Ja ... Ich verstehe! Mit. Diesem. Outfit:
+
+// 5 7 9
+__c2 $FB$: Nova, das ist nicht sehr einfach. Keine Sorge, ich kümmere mich darum. Einfach bedeutet gewöhnliche, neutrale Farben!
+__c2 $FB$: Großartig! Ben wird das lieben. Zufällig besitzt er tatsächlich 3 Kopien dieses Outfits ... Wie auch immer ...
+
+__c2 $FB$: Ja, das strahlt die richtige Atmosphäre aus. Es strahlt eine Forderung nach Respekt aus. Gut gemacht.
+__c2 $FB$: Nova ... das kannst du ihr nicht geben! Sicherlich hast du ihre Fiktion gelesen! Sie verdient ein passendes Bild! Ich werde es später beheben ...
+
+__c2 $FB$: Hmm, hmm ... etwas kommt mir vertraut vor ... Gut gemacht, Nova. Dies könnte der Beginn von Yongos neuer Reise sein ...
+__c2 $FB$: Ah ... Huch ... Nova, vielleicht brauchst du eine Pause ... Ich würde das nie im Leben tragen ...
+endscene
+
+scene orb-fab-2-1
+__c2 $FB$: Nun, im 4. Stock will eine Schriftstellerin beeindrucken. Mal sehen, was sie will!
+endscene
+
+scene orb-annie
+Annie: Meine Bitte? Nun, ich brauche etwas für meine neuesten Buchsignierstunden.
+Annie: Also, ja, etwas Professionelles, das eine ernste Atmosphäre ausstrahlt! Jeder sagt, man soll ein Buch nicht nach seinem Einband beurteilen, aber wir wissen, dass das nicht wahr ist. Wenn man zu lässig aussiehst, haben die Fans vielleicht Zweifel an deiner Arbeit.
+Annie: Im Idealfall hätte mein Aussehen keinen Einfluss auf die Wahrnehmung meiner Arbeit. Aber die Welt denkt anders. Ich warte auf das neue Outfit.
+endscene
+
+scene orb-fab-2-2
+__c2 $FB$: Ah, professionell, was? Interessant, in den 20er Jahren, hat Annie immer diese kunstvollen und süßen Outfits bestellt. Nun ... fang an!
+endscene
+
+scene orb-fab-3-1
+__c2 $FB$: Ah, nun – jemand namens „Yongo“ im 5. Stock hat nach einer Art „heroischer“ Kleidung gefragt. Könntest du ein paar mehr Details besprechen?
+endscene
+
+scene orb-yongo
+Yongo: Oh ho, Nova, wie ich dich beneide, wie du so auf der ganzen Welt schrumpfst und saugst. Ich möchte heldenhaft sein. Ich möchte eines Tages mein Zimmer verlassen ... aber nicht heute.
+Yongo: Bitte etwas Heldenhaftes. Etwas, bei dem ich mich sicher fühlen kann, bereit, die Welt zu retten. Oder zumindest den Snackshop besuchen.
+Yongo: Ich bin vielleicht schüchtern, aber ich brauche kein Mitleid! Ich lebe gern nach meinem eigenen Tempo.
+endscene
+
+scene orb-fab-3-2
+__c2 $FB$: Ah, Yongo! Ich habe ihn noch nie gesehen. Er will ... ein Held sein? Hm, ja. Ich denke, wir haben etwas dafür.
+endscene
+
+scene orb-fab-4
+__c2 $FB$: Hmm ... ja, das reicht. Gut gemacht, Nova. Möge dein Leben von der Kraft des Modesturms erfüllt sein. Fa-sha.
+(Nova hat drei Genehmigungs-Token erhalten!)
+
+// repeat later
+__c2 $FB$: Nun, tu, was du tun musst, Nova. Es ist zu schade um Minorma.
+endscene
+
+
+
+// Each line corresponds to the Cute, Professional, Heroic, Goofy, Basic pieces.
+scene orb-hats
+$FB$: Sie werden die schwierigsten Herausforderungen meistern.
+$FB$: Sie werden sich lässig und sauber fühlen.
+$FB$: Sie werden eine rosige Aura ausstrahlen.
+$FB$: Sie werden schnell zur Sache kommen.
+$FB$: Sie werden ... ein Hingucker sein?
+endscene
+
+scene orb-tops
+Kein Schleim kann ihnen im Weg stehen.
+Niemand wird sie ansehen.
+Die Liebe wird immer in der Luft sein.
+Ihre Arme, bereit zu lenken und zu beeindrucken.
+Auch mit dem Duft von Müll.
+endscene
+
+scene orb-bottoms
+Kein Loch kann nicht übertroffen werden!
+Lässig und einfach, bereit für die Straße!
+Besiege mit Niedlichkeit alle Melancholie!
+Scharf aussehen, aus allen Richtungen inspirieren!
+Jeder wird sich an sie erinnern, das ist sicher!
+endscene
+
+scene orb-fullsets
+__c2 $FB$: Wahrhaftig das, was die Kinder „Kawaii“ nennen. Sogar ich fühle mich süßer, wenn ich es nur ansehe.
+__c2 $FB$: Ah!!! Dieses Outfit will mir helfen, meine Hypothek zu refinanzieren! Es will mir helfen, meinen Ruhestand zu organisieren! Ja, wie professionell!
+__c2 $FB$: Ah ... was für ein heldenhafter Look. Hmm ... wenn sie sich genug beschweren, werden sie vielleicht nicht einmal mehr einen Fallschaden erleiden!
+__c2 $FB$: Nun, ich würde das nicht tragen! Aber keine Kunstrichtung wird ohne Experimente vorangetrieben, ja?
+__c2 $FB$: Ein unvergessliches Outfit. Aber manchmal ist kein Eindruck der richtige Eindruck! Gut gemacht.
+endscene
+
+scene orb-gate
+__c1 $MI$: Wie geht es, Nova? Hast du genug Token verdient? Dann nehme ich sie dir ab!
+(Nova übergibt die Token.)
+// gate opens
+__c1 $MI$: Großartig! Beeilung Nova, der Staubkristall wartet!
+// Minorma vanishes
+endscene
+
+scene orb-fight
+// past the Seal, it’s just a chest with a few nano dust pickups. Next room has nexus pad, minorma standin on it. triggered event: 
+__c1 $MI$: Und, hast du den Staub entfernt? Ha ha ... ja, nun, toll!
+__c2 $FB$: W-WARTE!
+
+// fade, Fabrahem appears
+__c2 $FB$: Minorma, stopp!
+__c2 $FB$: Genau wie ich dachte, gibt es hier hinten überhaupt keinen Nano-Staub!
+__c1 $MI$: Nun, sieht so aus, als wären meine Messwerte falsch, und ...
+__c2 $FB$: Halt die Klappe! Du untersuchst dieses Feld, nicht wahr? Du denkst immer noch, dass es dich in andere Welten führt, was?
+__c1 $MI$: ... Nun ... was ist mit den Einsatzmöglichkeiten? Du weißt, dass dahinter viele Menschen sein könnten! Stell dir all die Kleider vor, die du machen könntest? Wie viel mehr Einfluss du noch haben könntest!
+__c2 $FB$: Das brauchen wir nicht. Wir sind eine selbsttragende, zufriedene Gesellschaft!
+__c1 $MI$: Äh, wird es hier nicht etwas überfüllt? Was, wenn es eines Tages eine Überbevölkerung gibt? Wir müssen umziehen!
+__c2 $FB$: „Umziehen“? Du hast mehrere Leute gezwungen, zu Bau- und Militärarbeiten überzugehen!
+__c2 $FB$: Es gibt viel Platz, um sich in der Kugel zu erweitern. Du bist einfach nur darauf aus, unsere Ressourcen für deine Expansionsprojekte zu verschwenden!
+__c1 $MI$: Schau, ich fürchte, du verstehst es nicht! Ihr sitzt alle einfach hier, dreht Däumchen und strickt Sachen. Wie kannst du so ignorant und glücklich sein?! Fühlst du dich nicht eingesperrt, ohne Geheimnisse zu erforschen?
+__c2 $FB$: Vergiss es. Du konntest „Rätsel“ nie verstehen. Stilloser Roboter. Auf Wiedersehen.
+// fade away
+__c1 $MI$: ... Äh ... Nova, ha ha ... nichts für ungut, oder? Ich meine, du hast eine Karte! Es ist alles gut!
+__c1 $MI$: ...
+__c1 $MI$: Ich werde sie eines Tages überzeugen. Warum können sie es nicht verstehen? Diese Kugel. Wir verdienen Besseres, als ihn ganz allein zu verschwenden.
+// Vanish
+endscene
+
+scene orb-after
+MI: Der Raum hinter dem Feld ... birgt grenzenloses Potenzial. Alle werden den Namen der Kugel kennen! Wir werden uns den rechtmäßigen Platz in der Geschichte verdienen!
+MI: Programme zur Versetzung von Arbeitnehmern in Erkundungs- und Verteidigungsprogramme haben sofort begonnen.
+MI: Wir werden erfolgreich sein. Wir werden New Theland erben!
+endscene
+
+
+
+///////////////
+////Fantasy////
+///////////////
+
+scene raftbell
+Wenn das Floß weg ist, rufe eins mit der Glocke.
+endscene
+
+
+scene fant-book
+Ein staubiger Wälzer liegt auf dem Sockel und durchdringt den muffigen Raum mit einer grauen und ehrfurchtgebietenden Aura. Nova sieht ein Potenzial für eine Verbindung mit ihrem neuen Nanospark ...
+endscene
+
+
+scene fant-intro
+FATUM NOVAE: RÜSTUNG DES SCHICKSALS\nDRÜCKE EINE TASTE ZUM STARTEN
+1. Es war einmal ein mächtiger König namens Erythros, der New Theeland mit Weisheit und Stärke regierte. Unter seiner ruhigen Hand blühte das Königreich auf, und er wurde von allen geliebt.
+2. Eines Tages erwachte der furchterregende Drache Lord Dustdra aus seinem uralten Schlaf. Von seinem Höhleneingang aus überblickte er das Königreich und wurde eifersüchtig auf sein Glück und seinen Reichtum.
+3. Lord Dustdra flog zur Burg und belagerte sie. Viele mutige Ritter machten sich auf den Weg, um Lord Dustdra zu töten, aber alle von ihnen starben. Traurig über das Leiden seines Volkes, zog König Erythros die Rüstung des Schicksals an und machte sich auf, sich dem Drachen zu stellen.
+4. König Erythros schwang das Schwert der Reinheit gegen Lord Dustdra. Die magische Klinge traf und spaltete die nahezu undurchdringlichen Schuppen des Drachen.
+5. Schlag auf Schlag erlegte König Erythros den Drachen. Aber Lord Dustdra war gerissen. Er zielte auf die Rüstung des Schicksals mit seinen massiven Krallen und schlug Brustpanzer, Stiefel und Schild weg.
+6. Nachdem Erythros entwaffnet war, tötete Lord Dustdra schließlich den König mit einem letzten Flammenstoß. Geschwächt, aber siegreich, flog Lord Dustdra mit der Rüstung des Schicksals zurück in seine Höhle.
+7. Nach der Schlacht fiel Prinz Leuko, der Thronfolger, unter einen mysteriösen Fluch und wurde zu Stein.
+8. Ohne einen König, der sie führte, fiel das Königreich in die Dunkelheit und wartete auf den prophezeiten Tag, an dem der Prinz Leuko, das Weiße Blutkörperchen, zurückkehren würde, um Frieden und Wohlstand nach New Theeland zurückzubringen ...
+endscene
+
+scene fant-arteri
+Arteri: Ich bin der Zauberer Arteri. Mit meinen Magiern habe ich dich hierher gerufen, damit du die Prophezeiung erfüllen kannst!
+Arteri: Nova, du hast unsere traurige Geschichte gehört! Aber viele wissen es nicht: Als Lord Dustdra wegflog, war er so verwundet, dass er die Rüstung des Schicksals Stück für Stück in New Theeland fallen ließ!
+Arteri: Vielleicht wird die Rüstung des Schicksals, sobald sie wieder vollständig vereint ist, die Macht haben, den Fluch von Prinz Leuko aufzuheben, damit er Lord Dustdra ein für allemal besiegen und den Frieden in New Theeland wiederherstellen kann!
+Arteri: Bitte, Nova, such überall! Bring die Rüstung des Schicksals in diese Kammer, leg die Teile auf ihre Sockel und rette New Theeland!
+endscene
+
+scene fant-pedestal
+// NOTE this text is all repeats from the corresponding [item-names] and [item-descriptions] in [Misc.txt]
+Schwert der Reinheit: Das schärfste zweischneidige Ritterschwert, das der Menschheit bekannt ist. Es heißt, es sei das Geschenk eines Engels.
+Schild der Rechtfertigung: Seine Winkel wurden von den angesehensten Gelehrten entworfen, um jeden Schlag abzuwehren.
+Brustpanzer der Zugehörigkeit: Verziert mit dem königlichen Blutwappen, zeigt er die innere Wahrheit des Trägers.
+Stiefel der Immersion: Seine mystischen Sohlen leiten die Lebenskraft des Trägers so, dass die umgebende Erde in seinen Fußstapfen schwingt.
+Oh je! Lady Nova legt das Rüstungsteil auf seinen Sockel!
+Wie wunderbar!
+endscene
+
+scene fant-castle-npc
+Königin: Ich bin die Königin.
+
+Scherz-Kätzchen: Ich bin der Hofnarr! Ich spiele den Narren zum Vergnügen des Hofes.
+Scherz-Kätzchen: Hehehe ... Ich wette, du würdest nie erraten, dass unter dieser törichten Fassade ein tiefer Brunnen des Intellekts liegt! Ich habe 3 Romane selbst veröffentlicht.
+
+Die närrische Fassade\nvon Jest Kitten\nKapitel 1: Jeder hielt den Hofnarren für einen echten Narren. Wohlweislich zog es Jax Kitrine so vor. Es war besser, ihre Feinde im Dunkeln zu halten. Bald würde jeder erkennen, wie falsch sie lagen. Bald würden sie es bereuen. Jax Kitrine lächelte ...
+//4
+Adel: Seit dem Tod des Königs ist das Gleichgewicht verloren gegangen.
+Adel: Es gibt so viele machtlose Menschen auf der Welt. Um das Gleichgewicht wiederherzustellen, brauchen wir einen Herrscher mit wirklich großer Macht!
+
+Adel: Ahhh ... wie sehr ich den König vermisse. Wirklich ein großer Mann.
+
+Ritter: Wir Ritter werden den Frieden bewahren, bis der Prinz erwacht.
+
+Ritter: Nur Adlige dürfen hier rein!!! Oh ... tausendmal Verzeihung, Lady Nova! Arteri sagte uns, wir sollen Euch frei herumlaufen lassen.
+
+Adel: Ahhh ... ein knuspriges Brot aus Steinmehl!
+//10
+Adel: Ein Stück gereifter Käse mit stechendem Aroma!
+
+Adel: Ungewöhnlich große Vogelkeule auf gebratenem Gemüse!
+
+Adel: Wahrhaftig, unser Leben ist von rustikaler Schönheit geprägt. Jeder Tag ist von Unmittelbarkeit und ursprünglichen Gefühlen durchdrungen!
+endscene
+
+
+
+scene fant-town-npc
+Ritter: Lady Nova, wir Ritter sind ein stolzer Orden, der der Gerechtigkeit verpflichtet ist. Aber ohne den Leitstern eines wahren Königs ist der gelegentliche Ritter in Verwirrung und Laster geraten! So habe ich es zumindest gehört. Bitte erfüllt die Prophezeiung!
+
+// 1-3 pulled over peasant cart with a bottle cap or something in it
+Ritter: Wohin bringst du dieses Artefakt?
+__c1 Bäuerin: Ich habe es im Wald gefunden! Ich fand es nur ganz schön ...
+Ritter: Ich muss es konfiszieren. Du bekommst hiermit eine Geldstrafe von 30 Münzen!
+
+// 4 8
+Ladenbesitzer: Guten Tag, Nova. Bitte, lass mich deinen Vorrat an Heiltränken auffüllen! Und natürlich müssen wir deine Rüstung für den schwierigen Weg aufrüsten ...
+__c1 Nova hat 12 Tränke erhalten!
+__c1 Nova hat +6 Verteidigung erhalten!
+__c1 ...
+__c1 Hoppla! Nova hat die Tränke auf den Boden fallen lassen! Während sie sich für das Chaos entschuldigt, beschließen alle Feinde der Welt, im Fitnessstudio zu trainieren und +6 Angriff zu erhalten!
+
+//9
+Ritter: Ich bin hier, um den Laden zu beschützen. Welche Art von Abschaum würde in diesen dunklen Tagen stehlen? Ich kann es kaum erwarten, einen verdammten Dieb zu verhaften.
+
+//10 11 other knight
+Ritter: Ladenbesitzer! Es macht dir doch nichts aus, wenn ich diesen Trank trinke, oder? Es war ein langer Tag der Gerechtigkeit.
+__c2 Ladenbesitzer: Ü-überhaupt nicht, Sir.
+
+//12 interact w bed = screen fade out and in, health refill, lose 2 metacoin. If you have 0 metacoin u can still sleep? Just free then.
+Gasthaus: Die Kosten betragen 2 Metamünzen, um in meinem Gasthaus zu übernachten. Wenn dies akzeptabel ist, sprich bitte mit dem Bett! ... Warte, schon gut! Das Bett ist außer Betrieb.
+
+
+//13 14 Building with AKAB graffiti
+Bauer: Die Ritter erzählen weiter, wie schwierig das Leben mit dem verschwundenen König ist, aber das Leben war für uns nie einfach.
+__c2 Bäuerin: Wir haben versucht, einen freien Tranktausch zu schaffen, aber die Ritter haben uns immer zum Schweigen gebracht. Ich denke, sie sperren lieber Leute ein.
+
+//15 Knight is spying on the peasant near the graffiti building
+Lauernder Ritter: Ah!!! Du hast mich erschreckt ... ähm. Wie geht es dir heute? Genießt du deine Redefreiheit, die ich unterstütze?
+
+//16 knight around town
+Ritter: *Seufz*... Der Schutz der Stadt ist Kleinkram ... Damals, in den glorreichen Tagen, gingen wir auf edle Missionen quer durch New Theeland!
+
+//17 peasant around town
+Bauer: Hmm ... es macht Spaß, von Abenteuer und Ruhm zu träumen. Aber es macht auch Spaß, die Menschen in deinem alltäglichen Leben zu sehen und sie zu lieben.
+endscene
+
+scene fant-yolk
+Yolkwanda: Oh, hallo Nova! Du erinnerst dich vielleicht nicht an mich ... Ich war die erste Yolcrobe, die dich im Dotter von Yummy begrüßt hat. Ich muss zugeben, ich war damals ein wenig fasziniert, hehe! Ich stehe nicht mehr so sehr auf „Helden“, aber ich bin sehr froh, dich zu sehen!
+Yolkwanda: Das ist wirklich ein interessantes Land, nicht wahr? Es gibt so viel zu sehen für ein kleines Stadtmädchen wie mich. Es ist nicht nur Sonnenschein und Rosen ... aber auch das Dotter hatte seine Probleme, nachdem man ein wenig an der weichen, gepolsterten Oberfläche vorbeigeschaut hat.
+Yolkwanda: Möchtest du etwas Zeit mit mir verbringen, Nova? Du kannst mich gern am Aussichtspunkt westlich des Schlosses treffen.
+endscene
+
+scene fant-yolk-2
+Yolkwanda: Nova! Ich bin so froh, dass du es geschafft hast. Ich würde dir gern die Aussicht zeigen!
+//Fade out and in to them side by side looking out at cliff.
+Yolkwanda: Möchtest du Händchen halten?
+Händchen halten?
+//Y/N
+//Dialogue is unchanged depending on choice, but sprite changes to holding hands or not
+
+//3
+Yolkwanda: Okay! Hey, Nova, du und ich sind beide Außenseiter in diesem Bereich. Man sagt, dass das Königreich ohne einen König gefallen ist. Es ist wahr, dass es viele Schwierigkeiten gibt. Aber ich sehe auch Menschen, die zusammenarbeiten und teilen, was sie haben. Nicht wegen, sondern *trotz* derer, die über sie herrschen.
+Yolkwanda: Nun ... Ich bin mir nicht sicher, was das alles bedeutet. Der Prinz verdient es nicht, in Stein eingesperrt zu werden. Aber auch seine Untertanen verdienen es nicht, inhaftiert zu werden, weil sie ums Überleben kämpfen! Sind wir besonders begierig darauf, mit denen zu sympathisieren, die es am wenigsten brauchen?
+Yolkwanda: Ah ... das ist etwas schwerer geworden, als ich es wollte. Die Welt ist ein seltsamer Ort, nicht wahr, Nova? Wir sind so weit gekommen, seit dem Dotter von Yummy. Lass uns einfach eine Weile zusammensitzen.
+...
+... ...
+... ... ...
+//9 fade out and in, regain control
+Yolkwanda: Danke, dass du dich zu mir gesetzt hast, Nova! Ich weiß, dass du einen schwierigen Weg vor dir hast. Ich hoffe, dass es Platz für Freundschaft und Wärme gibt.
+endscene
+
+
+scene fant-bird
+Vogel: Wir Vögel fliegen gern herum und sehen viele interessante Dinge!
+// 1-2
+Vogel: Lord Dustdra bewacht seine Insel sorgfältig mit magischen Felsen!
+Vogel: Vielleicht hilft dir dieser Tipp: Durch eine Innenohrverletzung ist er anfällig für Schwindel!
+// 3-4
+Vogel: Hast du schon von Knotsnarl Woods gehört? Du wirst sie erkennen, wenn du sie siehst! Es gibt so viele verzweigte Passagen, dass man sich leicht verirrt! Ah, aber um es zu schaffen, brauchst du nur einen einfachen Trick!
+Vogel: ... Oh nein! Ich habe den Trick vergessen!
+// 5 translation note:  arteri block is a pun on artery blockage, but it doesn’t really matter.
+--- ignore
+// 6
+Vogel: Im Westen der Burg befindet sich Großschleims Reich, ein tückisches Land, in dem der Lord der Schleime leben soll!
+Vogel: Hinter dem Meer im Osten thront das bergige Gebiet von Crags Lost über dem Ozean! Es ist ein sagenhafter Ort für diejenigen, die etwas suchen.
+Nova hat das Schwert der Reinheit gefunden! Bring es zurück in den Thronsaal!
+endscene
+
+scene fant-bird-clue
+Vogel: Die Insel der Kin Killers? Warum solltest du dorthin gehen wollen? Der Zauberer Arteri hat ein magisches Siegel über diese Insel gelegt. Nur die Weisesten dürfen eintreten: diejenigen, die das Geheimnis der Arteri-Blöcke aufdecken ...
+Vogel: Jeder Arteri-Block enthält einen kryptischen Hinweis ... aber sie sind über die gesamte Karte verteilt! Vielleicht kommen die Antworten zu dir, während du dich auf andere Dinge konzentrierst.
+endscene
+
+scene fant-block
+Arteriblock:\nDer Pfad verlinkt Stein zu Stein.\nAber in welche Richtung? Es mag unbekannt sein...
+Arteriblock:\nDen Kurs, den du einschlägst, musst du selber orten,\nein Hinweis liegt höchstens noch in meinen Worten ...
+Arteriblock:\nLies jeden Stein, das wäre nicht schlecht.\nDoch Obacht, denn ist auch die Reihenfolge recht?
+Arteriblock:\nSind meine Tipps nicht hochamüsant?\nOder suchst du online eine helfende Hand?
+Arteriblock:\nGeben die Hinweise dir Rückenwind?\nOder fühlst du dich von der Wahrheit gelinkt?
+Arteriblock:\nGewinnen kannst du, wie du siehst,\nwenn du bis ganz nach unten liest
+Arteriblock:\nLöse meine Blöcke dort\nSo öffnet sich das Tor sofort
+endscene
+
+
+scene fant-woods
+Vogel: Hmm ... hast du Schwierigkeiten? Rede weiter mit mir und ich werde alles ausplaudern ...
+Vogel: Es gibt einen einfachen Trick.....
+Vogel: Ungerade oder gerade?
+Vogel: Hier ist der Schlüssel: Wissenschaftlich gesehen besteht unsere Welt aus quadratischen Bildern, die als „Kacheln“ bezeichnet werden. Der richtige Weg erfordert immer, dass du eine UNGERADE Anzahl von Steinen zum nächsten Eingang gehst!
+endscene
+
+scene fant-trade
+Das ist Glas. Es sitzt auf dem Boden.
+Kuh: Muuuh ... Ich habe zu viel Milch!
+//Jar of Milk
+Kind: Ich habe einen Haufen Milch-Werbespots gesehen ... Jetzt fühlen sich meine Knochen schwach an!
+//Cap
+Gärtner: Die Sonne scheint in meine Augen! Ich kann meine Früchte nicht pflücken!
+//Persimmon
+Geist: Buh!!! Ich bin ein gruseliger Geist und sehe in meinem unsichtbaren Anzug ziemlich schick aus! Aber ... ich würde ihn sofort aufgeben für den Duft von frischen Kaki.
+//Invisible suit
+//5
+Kaiser: Ich muss in die wundersamste Mode gekleidet sein!
+//Sceptre
+Spaßige Person: Ich könnte wirklich ein zepterförmiges Objekt gebrauchen!
+//Heart
+Rundköpfiger Mann: Ich bekomme nie Valentinsgrüße ...
+//Baseball
+Ritter: Mein Vater hat mir nie beigebracht, Fangen zu spielen ... Vielleicht habe ich mich deshalb der Gewalt zugewandt.
+//Sword
+Jugendlicher: Ich habe genug von diesem langweiligen alten Schild, das ich auf dem Boden gefunden habe. Ich will etwas Tödliches!
+// 10 Shield
+Nova hat den Schild der Rechtfertigung gefunden! Bring ihn zurück in den Thronsaal!
+endscene
+
+scene fant-slime
+Nova hat den Brustpanzer der Zugehörigkeit gefunden! Bring ihn zurück in den Thronsaal!
+endscene
+
+scene fant-kin
+*zitter* Wenn ich nur an die Insel der Kin Killers denke, stehen meine Federn ab. Ich habe gehört, dass sich diese furchterregenden Bestien im Staub rollen, um Schrecken in die Herzen ihrer Beute zu bringen! Bist du sicher, dass du dem Weg der Arteri-Steine folgen willst?
+Kin Killer: Quietsch! (Es rollt im Staub herum!!)
+Kin Killer: Quietsch! Quietsch! *schnüffel* ... QUIETSCH!! QUIETSCH!!! (Was ist das ...? Nova spürt eine mögliche Verbindung mit ihrem Nanospark!)
+Gehirnzelle: Bedauerlich! Warum müssen mir alle Sprachfähigkeiten fehlen? Wie kann ich mit Klarheit und rhetorischer Kraft kommunizieren, während ich mich auf ein Vokabular von Quietschen und Grunzen beschränken muss?!
+Gehirnzelle: Oh ... Nova? Bist du das? Geh zur nördlichsten Spitze der Kin Killer Insel. Finde den Baum, der allein steht. Laufe von dort aus Richtung Osten, bis du die Klippe erreichst. Sie mag normal aussehen, ABER, *rede* mit der Klippe ... und du wirst finden.
+//Try talking there. No (!) “prompt” but if you talking you find the item
+Nova hat die Stiefel der Immersion gefunden! Bring sie zurück in den Thronsaal!
+endscene
+
+scene fant-castle-2
+// When you deposit each of the items on the pedestals.
+Arteri: Fantastisch! Du hast es geschafft!
+//fade to white and back. Prince is alive and armed
+// Music change
+Arteri: Prinz Leuko! Nein ... KÖNIG Leuko! Endlich ist die Prophezeiung erfüllt! Die Rückkehr von Blutzelle dem Weißen. Derjenige, der Lord Dustdra töten soll!
+__c1 König Leuko: Nova! Bitte geh zum Mörder meines Vaters. Ich werde folgen und dich einholen, wenn ich wieder zu Kräften komme!
+König Leuko wurde in Stein verwandelt! Erst wenn die Rüstung des Schicksals auf die vier Sockel gelegt wird, wird er wieder normal werden!
+Arteri: Nova ... Lord Dustdra wartet! Seine Insel ist jedoch durch Felsen blockiert! Leider hat er keine Schwächen! Allerdings hat er ein Ohrenleiden, das ihn anfällig für Schwindel macht. Bleib stark ...
+endscene
+
+scene fant-dustdra
+// path to dustdra blockwed
+Arteri: Nova ... es ist zu gefährlich, Lord Dustdra gegenüberzutreten, bevor sich die Prophezeiung erfüllt! Du musst die Rüstung des Schicksals auf ihre Sockel im Thronsaal zurückbringen!
+Lord Dustdra: Wer wagt es, mein Reich zu betreten?! Ahhh ... es ist diejenige, die die Prophezeiung erfüllt hat! Bereite dich auf den Tod vor!!!
+Hinweis: Im Kampf mit Lord Dustdra gibt es die Aufsteigende Gezeitenbarrikaden (AGB)! Sammle Angriffe, Gesundheit und Schilde, während die Flut niedrig ist, verteidige dich gegen die Angriffe von Dustdra, während die Flut hoch ist!
+
+// 3 14
+Lord Dustdra: AAARGGHH!!! Bereite dich auf meine endgültige Form vor!
+Lord Dustdra: ...
+[FADE]
+Lord Dustdra: „WO IST DIE ENDGÜLTIGE FORM?“
+Produzent Tani erscheint plötzlich.
+Tani: „Ähm ... wir haben das Budget für die Handelssequenz überschritten, also ... das *war* deine endgültige Form ... und, äh, hehe ...“
+Lord Dustdra: „WAS???“
+[CLEAR]
+Lord Dustdra: „Alle haben mir gesagt: ‚RPGs sind heiß!‘ und ‚Das ist dein großer Durchbruch!‘ Nun, sieh mich jetzt an! Nur ein weiterer Witz! Meine Feuerbälle verfolgen Nova nicht einmal!“
+Lord Dustdra: „Vergiss es! Ich kündige!“
+[FADEOFF]
+__c1 Was für ein Glück! Lord Dustdra hat gekündigt! Nova gewinnt!
+
+// King Leuko falls from the sky with sword, “finishing off” Lord Dustdra.
+König Leuko: Ausgezeichnete Teamarbeit, Nova! Wir haben Lord Dustdra besiegt! Danke für alles, was du für mein Königreich getan hast! Die Struktur soll wiederhergestellt werden! Hurra!
+//Fade in/out, Leuko has disappeared. Nova can big suck Lord Dustdra like a Dust Crystal now (does the music and glandi opens eyes so player knows).
+
+Arteri: Hat König Leuko den Kampf mit Lord Dustdra überlebt? Hm ... er muss immer noch hierher zurückreisen. Nicht der schnellste Reisende ... Ich nehme an, er hat mehrere prägende Jahre als Stein verbracht. Trotzdem danke, Nova! Ich bin sicher, dass bald wieder Frieden in unserem Königreich herrschen wird!
+endscene
+
+scene fant-adv
+Unentschlossener Abenteurer: Die Reise nach Norden führt offensichtlich zu einem dramatischen Kampf mit Lord Dustdra. Deshalb folge ich stattdessen diesem anderen Pfad ... Am Ende dieses unwichtigen Pfades wird es sicher einen praktischen Schatz geben!
+Unentschlossener Abenteurer: Hm ... dieser Pfad ist irgendwie lang, was? Nur ein langer, leerer Pfad. Ich wette, der Schatz muss dann ziemlich gut sein!
+Unentschlossener Abenteurer: W-warum geht dieser Pfad noch weiter? Sollte er geschlossen sein, aber wurde versehentlich offen gelassen? Was, wenn es am Ende nichts gibt? Sicherlich würde niemand absichtlich einen so langweiligen Pfad schaffen ... Zeit, um zurückzukehren.
+Unentschlossener Abenteurer: (Moment ...)
+Unentschlossener Abenteurer: (W-was ist, wenn es das Schwert der Reinheit ist?)
+Unentschlossener Abenteurer: Soll ich umkehren, Nova? Es ist so kalt ... und vielleicht wird dieser Weg nie enden ... Einst glaubte ich an Wahrheit und Gerechtigkeit ... Ich dachte, dass harte Arbeit belohnt wird! Aber die reale Welt ist nicht so, oder, Nova? Wir sind alle nur aus winzigen Teilchen zusammengesetzt, die sich im Chaos drehen. Das Universum kümmert sich nicht um unsere schwachen Versuche, seinen unendlichen Tanz einzudämmen. Jeder von uns, ein Universum ... jeder von uns, ein Atom. Ändere den Skalenfaktor nur ein wenig, und plötzlich hat jedes Problem keine Bedeutung mehr. Wie reagieren wir auf alles auf einmal? Wie kann eine Geschichte etwas anderes als eine Lüge sein? Spielt das eine Rolle?
+endscene
+
+//Dying Tree Network:  Follow direction of roots poking out of the ground to the next tree.
+//Each tree has one line of dialogue. currently "active tree" will have a glow in a hollow--clear to see but not easy to see from afar (activated emmision layer)
+//For the sake of being able to re-read, I guess once you have activated each tree you may continue to read them (but only one active tree at a time is lit up)
+//After cleaning they all have the non-active message.
+
+scene fant-enter
+[FADE]
+Ein sterbender Baum steht, still. Ein paar weitere identische Bäume sind über das Feld verstreut.
+Tremuloid:n Die Vergangenheit ist eine Fabel, die Zukunft ein Traum. Nur die Gegenwart existiert. Ist das richtig?
+Tremuloid:n FALSCH!!! Die Gegenwart ist nur eine bittere Ausgeburt von Vergangenheit und Zukunft. Eine Mischung aus Erinnerung und Erwartung. Ein angenehmer Kokon gegen Chaos und Nichts.
+Tremuloid:n Ah ... also ist auch die Gegenwart für uns verloren ... dann bleibt nichts anderes übrig, als zu verblassen ...
+Tremuloid:n FALSCH!!!!!! HAHAHAHA!!! Wir baten um Brot, und Vater gab uns einen Stein. So soll es sein! Wir werden nicht mehr die schüchterne Illusion der Realität erleiden! Vergangenheit und Zukunft gleichermaßen, werden wir zu unserem eigenen Vergnügen nutzen.
+// sparkable
+Tremuloid:n Nova ...
+[FADE]
+Der sterbende Baum streckt sich langsam und deutet mit seinen Ästen.
+endscene
+
+scene fantasy-crystal
+[FADENOFADE]
+Tremuloid: Ja, ich kann die Vergangenheit spüren! Sie tröpfelt herein, wie die Zukunft.
+Ah, wunderbar, wunderbar ... wie der süße Saft des Ahorns wird die Vergangenheit trotzig beiseitegeschoben. Es schreit cremig nach einer quirligen Mutter.
+Ohne sie bildet sich eine große Kluft, und ...
+[CLEAR]
+Äh ...
+...
+...
+endscene
+
+scene fant-after
+Tremuloid:n Ähm. Wo waren wir? Oh ja! Warte ... nein, das war es nicht. Nun, ich glaube, ähm ... da war ein Drache? Hmm ... geflecktes Sonnenlicht. Eine Geburtstagsfeier mit einem Kuchen aus dem Sonnensystem. Ja, haha! Ich erinnere mich daran, du nicht? Ähm. Ich nehme an, das Zentrum hat seine Gründe, nicht wahr?
+endscene
+
+scene fant-rand
+Randall: Auf Wiedersehen, Nova!!!\n...\n...\n... LOL, ich wette, du hast erwartet, dass ich „Hallo“ sage, nicht wahr? Ich mag es nicht, so vorhersehbar zu sein.
+Randall: Wie schön, dich hier zu treffen, Nova! Rate mal, was auf meinem Kopf ist! Es ist eine Geburtstagstorte. LOL! So unberechenbar, oder? Hahaha!!
+Randall: Ich trage einen Stiefel ... auf meiner HAND!! LOL, du weißt einfach nie, was ich als Nächstes tun werde, oder? Hahaha! Bin ich zu unberechenbar für dich??
+endscene
+
+scene fant-stairs
+Eine seltsame Skulptur einer Treppe steht in der Mitte des Saals. Sie scheint nirgendwo hinzuführen. Vielleicht stellt sie die Sinnlosigkeit des Aufstiegs in einem grundlegend ungerechten System dar.
+endscene
+
+scene fant-treacl
+Pilar Treacl: Oh je, oh je! Meine Völlerei ist mir nun zum Verhängnis geworden! Oh, wie leid mir das tut! Nova! Es tut mir leid, dass du mich in diesem Zustand sehen musst. Wirst du dir meine Geschichte über das Leiden anhören?
+Pilar Treacl: Ich war schon immer so etwas wie eine Naschkatze, aber diesmal bin ich viel zu weit gegangen. Der Hunger, Nova! Das reine Verlangen! Schokolade, Karamell und Geleebohnen auch! Zuckermais und Maissirupbonbons! Ich habe alles verschlungen, bis ich keinen weiteren Bissen mehr machen konnte! Das Nächste, an das ich mich erinnere, war, hier in diesem Kessel aufzuwachen ...
+Pilar Treacl: Jemand muss mich zum Abendessen gekocht haben! Ich fühle, wie mein Körper zu Suppe schmilzt. Eine angemessene Strafe für meine eigene Völlerei. Ah, aber Nova ... Wenn du mich vom Staub reinigst, kann ich mich vielleicht vom Kessel befreien! Und ich verspreche, nie wieder eine weitere Süßigkeit für den Rest meiner Tage zu essen!
+Nova spürt das Potenzial für eine Verbindung mit Pilar Treacl ...
+//Afterwards you see pilar treacl outside the empty cauldron... a caterpillar!
+Pilar Treacl: Oh, danke Nova, danke!! Ich hatte solche Angst, als ich im Kessel schmolz ... aber du hast mich vor diesem schrecklichen Schicksal bewahrt ... Wie versprochen, werde ich nie wieder der Völlerei erliegen ... Nie mehr soll ich meinen Bauch mit Leckereien füllen. Ich kann nicht riskieren, zu Schleim eingeschmolzen zu werden!
+Ein leerer Kessel.
+endscene
+
+/////////////
+////OCEAN////
+/////////////
+
+scene ocean-cremate
+(Etwas in mir wurde durchtrennt, als er eingeäschert wurde. Als ob alle Gefühle der physischen Verbindung verschwunden wären.)
+(Aber zur gleichen Zeit war das nicht das, was wertvoll war, oder?)
+endscene
+
+scene ocean-family
+Jahr für Jahr komme ich hierher, um meinen begrabenen Vorfahren Respekt zu erweisen. Aber warum muss ich mich so anstrengen? Selbst wenn sie mich aufgezogen haben, standen ganze Gemeinschaften und Freundesgruppen hinter meinem Wachstum, dem Bogen meines Lebens. Das möchte ich auch schätzen.
+endscene
+
+// conservative
+scene ocean-kou
+Kouchi: Hey! Bemitleide mich nicht! Es ist unser Schicksal, unsere Tage auf dieser Insel zu verbringen.
+Kouchi: Wir haben natürlich schon einmal versucht zu gehen! Aber jedes Mal? Der Pastellhorizont hat sich verschworen, uns hierher zurückzuholen ... also haben wir es seitdem nicht mehr versucht.
+Kouchi: Es ist besser, wenn man nur in Sicherheit lebt. Fukuchi hat immer versucht zu gehen, und schau, was mit ihr passiert ist!
+Kouchi: Arme Fukuchi ... doch nicht so viel Glück.
+endscene
+
+// easygoing
+scene ocean-en
+Enchi: Es ist selten, ein junges Gesicht in dieser Gegend zu sehen!
+Enchi: Nein, ich erwarte nicht, dass du etwas für uns tust. Uns geht es absolut gut, ja? Keine Sorge!
+Enchi: Wenn es uns nicht gut ginge, wären wir Skelette!
+Enchi: Oh, sei nicht so ernst ...
+endscene
+
+// anxious
+scene ocean-yaku
+Yakuchi: Es ist normalerweise um diese Zeit. Diese Fukuchi kommt mit der Ernte des Tages vorbei. Ich warte hier immer noch. Ich erwartete, dass sie auftaucht. Aber sie ist weg.
+Yakuchi: Wenn Fukuchi weg ist, bleibt mir nur noch, das Essen selbst zuzubereiten.
+Yakuchi: Ich bin nicht so gut. Aber ich werde mein Bestes tun.
+Yakuchi: Seit Jahren starre ich auf Zutaten und sehne mich danach, die Fähigkeit zu haben, sie in etwas Leckeres zu verwandeln, aber es ist nie passiert.
+endscene
+
+// realistic/confident
+// near some baskets of herbs or something
+scene ocean-kuru
+Kuruchi: Und ... ja, das sind genug Vorräte für uns alle. Ah.
+Kuruchi: Nein, nein ... wir werden nichts davon verkaufen. Wir machen sie für uns selbst. Wie sollen wir jemanden finden, an den wir sie verkaufen können? Ha ha, an dich, eine wandernde Präsenz?
+Kuruchi: Geld ist auf dieser Insel nicht gut.
+endscene
+
+// whimsical
+scene ocean-kan
+Kanchi: Ich habe dich aus dem Norden kommen sehen. Du weißt, wie man mit dem Floß fährt, nicht wahr? Das ist in der Tat ein Segen. Du und das Floß.
+Kanchi: Eine von uns, Fukuchi, hat die Insel vor ein paar Tagen verlassen. Sie war immer diejenige, die Pläne vorschlug, um zu gehen.
+Kanchi: Sie erinnerte sich am meisten an ihr vergangenes Leben. Erstaunliche Erfindungen, neue Reiseformen. Unglaubliches Zeug ... Vielleicht hat sie immer wieder versucht zu gehen, weil sie wusste, was ihr fehlte.
+Kanchi: Mein vergangenes Leben ist verschwommen ... Blitze von Farben, Geräuschen, Sinnen. Könnte besser so sein, ja? Keine Sehnsucht zu gehen. Nur ich und die Freunde.
+Kanchi: Ich bin froh, hier zu bleiben und die Tage zu zählen. Sich gegenseitig Rechenschaft abzulegen, ist nicht so schlimm.
+endscene
+
+// friendly/perceptive
+scene ocean-tsuke
+Tsukechi: Oh, ho ... dieser Blick in deinen Augen. Du suchst nach etwas, nicht wahr? Fukuchi hatte auch diesen Blick, und jetzt ist sie weg ...
+Tsukechi: Wenn du auf der Suche nach etwas bist, kannst du vielleicht unsere Fukuchi finden und sie hierher zurückbringen.
+Tsukechi: Nun ... vielleicht will sie nicht zurückkehren. Zeig ihr wenigstens das hier. Sie hatte hohe Ziele, aber was auch immer sie tat ... sie würde das ein letztes Mal sehen wollen.
+(Nova erhält Fukuchis Muschel.)
+//<Get a small shell piece>
+Tsukechi: Du suchst nach etwas, oder? Bring die Muschel zu Fukuchi. Finde sie. Sie will es auf jeden Fall. Ich bin sicher, sie kann dir helfen, das zu finden, was du brauchst.
+endscene
+
+
+//(Found at the entrance to a cave a ways away from this souther area)
+
+scene ocean-beast
+Biest: R....rwaw! Grrrrr ........\n(Nova spürt eine mögliche Verbindung mit dem bösartigen Tier und ihrem Nanospark.)
+// shrink inside, at entrance is Fukuchi, if you don't have the shell trinket.
+?: ... ...
+?: Halte mich nicht auf ...\n(Es scheint, dass es etwas will ...)
+// if have trinket, person is gone. go through pico region. at end...
+endscene
+
+scene ocean-beast-2
+?: ...
+?: Diese Muschel! Wunderbar ... sie ein letztes Mal sehen zu können ...
+Fukuchi: Ah ... Ich kann die anderen Frauen der Insel spüren ... Ich vermisse sie.
+Fukuchi: Sie müssen besorgt sein. Sie wollen bestimmt, dass ich zurückkehre.
+Fukuchi: Eines Tages erfuhr ich, dass ich ein früheres Leben hatte, von vor dem Tag, an dem ich auf dieser Insel erwachte. Ich erinnerte mich zuerst an Reste, aber schließlich wurde es unmöglich, sie zu vergessen.
+Fukuchi: Und jetzt? Mein Körper ist weg, ertrunken, zerfällt auf dem Meeresboden. Wenn ich die anderen davon überzeugt hätte zu gehen, wäre die Sache vielleicht anders ausgegangen.
+Fukuchi: So oder so, irgendwie hast du mich gefunden. An diesem seltsamen Ort!
+Fukuchi: Du, ein Lebewesen, hast mich gefunden! Jetzt kann ich den Weg ins Jenseits finden.
+Fukuchi: Aber, so wie diese Welt funktioniert ... bin ich vielleicht nicht mehr in der Lage, mich mit meinen Freunden zu verbinden. Ob ich mir die Schuld dafür gebe, dass ich gegangen bin, oder einer größeren Kraft, die mich auf diese Insel gesetzt hat, es macht keinen Unterschied. Das System macht keine Ausnahmen.
+Fukuchi: Auf dieser Insel habe ich mich an Flugzeuge, Züge und Autos erinnert. Städte, Bauernhöfe, Kriege. Wie wäre es, mein Leben mit solchen Dingen zu leben? Ich musste es herausfinden! Ich musste gehen! Ich musste etwas mehr erleben als die Insel.
+Fukuchi: Ah, nun ja. Zumindest habe ich es versucht.
+[FADE]
+Nun ...
+...
+Auf Wiedersehen ...
+endscene
+
+// fade away
+// force shrink out. beast is gone. can get card by going into cave and warping to above a island cliff wall.
+// fukuchi shows up near the ghost bridge now.
+
+scene ocean-chest
+Leer.
+[FADE]
+Eine Nachricht ist drin.
+„Ich habe es zuerst gefunden. Endlich etwas, das mir zu Recht gehört. Ich werde länger leben können!“
+endscene
+
+scene ocean-stealer
+Es ist mein ... es ist meins ... Ich kann noch leben! Ich kann mich selbst retten ...\n(Nova spürt eine mögliche Verbindung von diesem Mann mit ihrem Nanospark ...)
+endscene
+
+scene ocean-stealer-2
+[FADE]
+Ein gebrechlicher Mann klammert sich an etwas, das wie ein Gesundheitsverbesserungspflaster aussieht.
+Seine Atmung ist flach.
+Nova nimmt ihm zögernd das Pflaster aus den Händen und wendet es bei sich selbst an. Ihre maximale Gesundheit ist gestiegen.
+[FADEOFF]
+Meins ... meins ... meins ...
+...
+endscene
+
+scene ocean-poison
+[FADE]
+„Ohh ... oohh ... geh weg ...“
+Ein Chor von Stimmen schreit von den ruhigen Meereswellen.
+Nova ignoriert die Geräusche und versucht, sich weiter zu bewegen. Aber plötzlich spürt Nova, wie ein starker Wind sie packt, und ihre Wahrnehmung verblasst ...
+endscene
+
+scene ocean-poison-man
+Du hast beim Segeln Stimmen gehört? Wahrscheinlich wieder die verdammten wilden Geister. Sie werden schwärmen und uns Lebewesen stören.
+Ugh ... wilde Geister. Erbärmlich. Es gibt keine Möglichkeit, sie davon abzuhalten, für immer zu kommen, aber wenn man die Giftmaschine einschaltet, wird sie das für eine Weile vertreiben.\n(Nova spürt eine mögliche Verbindung mit ihrem Nanospark von der Giftmaschine ...)
+Es ist eine Schande, dass wir das unserem Ozean antun müssen. Aber was kann man gegen die wilden Geister tun? Wie Wellen kommen sie immer wieder. Es ist einfach die Welt, in der wir leben.
+Ein weiterer ruhiger Tag ... keine Notwendigkeit, die Giftmaschine heute zu benutzen.
+endscene
+
+scene ocean-poison-pico
+Piep piep ... Meeresvergiftungsroutine ein. Freisetzung der chemischen Dispersion der flüssigen Masse ... Freisetzung der wasserlöslichen Formel zur Unterdrückung von Ausschreitungen ...
+...
+...
+Fertig.
+endscene
+
+scene ocean-train-entry
+Leiter: Was machst du da? Beeil dich, sofort. Lass diese Leute nicht länger warten.
+//1 , 2 5(Get on train)
+Leiter: Alle an Board, alle an Board ...
+[FADENOFADE]
+„Nächster Halt: Geisterbrücke!“
+...
+Der Zug rumpelt die Gleise hinunter, auf das Wasser und über die Oberfläche des Pastellhorizonts!
+//6 (if you don't have the other 2 cards)
+Leiter: Du da, mit dem Staubsauger. Lebst du noch? Du scheinst nicht viel Respekt vor den Toten zu haben. Es tut mir leid, aber ich kann dich hier nicht rauslassen. Warte bis zum Ende der Linie.
+//7 (if you got the two other cards in Ocean)
+Leiter: Du da, mit dem Staubsauger. Lebst du noch? Ah, ich verstehe. Ja, du kannst hier aussteigen. Aber bleib nicht zu lange ...
+//(transition to ghostbridge area)
+(Nova sieht ein paar Schatzkisten ... wenn sie nur aus dem Zug steigen könnte!)
+endscene
+
+scene ocean-bridge-npcs
+Amago: ... Endloser, endloser Horizont ... diese rosa Farbe ...
+Fukuchi: (Es tut mir leid, dass ich nicht bei euch allen bleiben konnte ... dass ich auf dem Grund des Ozeans bin ... am Ende bin ich okay, denke ich ...)
+//Misc. Wild Ghosts, standing around the area
+Wilder Geist: Nichts spielt eine Rolle, nichts spielt eine Rolle! Ich bin so minderwertig ... erbärmlich! Wertlos, wertlos! Ich habe ihn zerstört, und dann habe ich mich selbst zerstört. Armselig ... das war alles, wofür ich gut war ...
+Wilder Geist: Weit am Stadtrand, auf einer langen Straße, in einem Gebäude für ältere Menschen. Allein, in völliger Stille, sah ich, wie sich der Nebel auf den Herbstwald senkte ...
+Geist des Fischers: Ausgelöscht, mein Leben verschwand im Handumdrehen. Auf Zehenspitzen durch das Jenseits blicke ich nicht in Wut auf meinen Mörder, sondern in der Hoffnung, die Wurzeln der Gewalt abzuschaffen.
+Leiter: Ich verurteile die Toten nicht. Ich transportiere sie nur. Der Zug ist bereit, wenn du es bist.
+endscene
+
+scene ocean-bridgebuilder
+Bauherr: Was passiert, wenn eine Person unter ungewöhnlichen Umständen stirbt – keine Familie, auserwählt oder geboren, niemand, der sich an seinen Namen erinnert? Oder ...
+Bauherr: Oder sie ließen sich ihre Emotionen verdrehen, vergiftet von denen, die von ihrer Verzweiflung profitieren und sie auf den Weg der Selbstzerstörung und Isolation bringen, nachdem sie sich in einfache Antworten auf komplexe Probleme eingekauft hatten?
+Bauherr: Oder wenn sie eine schlechte Hand ausgeteilt bekamen, dazu verdammt, unter der Ferse eines gefühllosen Systems zerquetscht zu werden, durch die Ritzen zu schlüpfen, allein zu sterben, vergessen?
+Bauherr: Oder sie verschwanden, allein, ihr Aufenthaltsort unbekannt?
+Bauherr: Wenn das passiert, werden sie den Pastellhorizont durchstreifen, verloren in ihren Gedanken. Ohne die Gebete irdischer Verbindungen, die sie erreichen können, werden sie zu wilden Geistern. Jemand muss sich um sie kümmern.
+Bauherr: Diese Brücke, eine Geisterbrücke, führt diese wilden Geister zu einem Ort, an dem sie Heilung und Gemeinschaft finden können.
+Bauherr: Ich habe ewig gearbeitet. Ich kann mir eine Welt vorstellen, in der ich mich zur Ruhe setze ... aber bis das passiert, werde ich hier bleiben, um meine Arbeit zu tun.
+Bauherr: Ha ha, möchtest du die Brücke überqueren? Nova, du bist kein wilder Geist. Du hast einen Zweck, eine Art Unterstützung. Beende es, was auch immer es sein mag.
+Bauherr: ... Schätze deine Verbindungen, Nova. Wenn du stirbst, wäre es traurig, dich hier zu treffen.
+endscene
+
+// figure out state
+scene ocean-cherry
+Kirsche: Der Pastellhorizont leuchtet rosa. Eine seltene, natürliche Schönheit. Diese Sakura wächst aus ihrem Wasser. Sie ist schon ewig hier. Ich kümmere mich darum.
+Kirsche: Hm. Du kannst ein Floß benutzen, nicht wahr?
+// after found him , say once
+Kirsche: Ah, du hast ihn gefunden? Der Pfad der Blütenblätter ist weg, was bedeutet, dass sich etwas geändert hat. Ich hoffe, es war gut. Mögen die Blütenblätter chaotisch bleiben.
+endscene
+
+scene ocean-cherry-loop
+// If you didn't find the man - only loop this
+Kirsche: Da war ein Mann. Er schritt das Ufer an und starrte ins Wasser. Seltsamerweise hat er das jeden Tag getan. Ich fragte, warum er so oft kam, er sagte nur: „Bitte, sorge dich nicht.“
+Kirsche: Die Leute haben ihre Gründe, also habe ich es dabei belassen.
+Kirsche: Aber eines Tages hörte er auf zu kommen.
+Kirsche: Niemand bleibt für immer hier. Paare schlendern am Ufer entlang, Kinder schwimmen. Einige starren in den Horizont. Einige kommen zum Weinen. Aber etwas war anders bei der Abwesenheit dieses Mannes.
+Kirsche: Viele von uns können keine Flöße benutzen. Wir können uns nur fragen, was hinter dem Meer liegt. Obwohl wir wissen, dass die Blütenblätter dieses Baumes eine Macht haben: Sie können uns zu den Verlorenen führen. Und mehr noch, die Blütenblätter scheinen zu etwas zu führen ...
+endscene
+
+scene ocean-amago
+Nova spürt eine Präsenz in diesen Fischknochen ... eine Möglichkeit zur Verbindung mit ihrem Nanospark.
+//follow the petals to a small island. if you don't follow, cave entrance is gone. if done right, a fish bone is there, with a sakura bush growing near it.
+// in pico the man is there, says 'thank you' or something.
+Amago: Jahrelang habe ich als Mensch gelebt und mein Leben als Fisch hinter mir gelassen. Die Möglichkeit eines Lebens an Land war verlockend. Aber ... was habe ich zurückgelassen? Als ich zum Ozean zurückkehrte, waren meine Mutter, meine Mitschüler, meine Geschwister, alle weg. Die Zeit verging so schnell. Wie leicht war es, meine Herkunft zu vergessen, den Ort, der mich hervorgebracht hat.
+Amago: ... Hmm ...
+Amago: Alles, was ich im Moment hoffen kann, ist ein friedlicher Übergang ins Jenseits, ja, ja ... Danke, dass du mich hier gefunden hast.
+endscene
+
+
+/////
+/Skeligum
+/////
+
+scene gravis-lake
+GR: Schaust du jemals zu den Sternen auf, Nova? Fragst du dich, ob das alles ist, was es gibt? New Theland ist ein reichhaltiges Land voller Zufriedenheit. Aber scheint es nicht manchmal schrecklich klein zu sein?
+GR: Ich verrate dir ein Geheimnis ... Ich bin nicht von dieser Insel. Ich bin vom Himmel gefallen und genau hier gelandet, vor vielen Jahren. Wo ich vorher war? Leider kann ich mich nicht erinnern ...
+GR: Stavros, mein Geliebter, hat mich wieder gesund gepflegt. Ah, Stavros! Wie süß ist seine klickende, klackende Berührung! Wir haben unter dem Vollmond geheiratet und uns an dem purpurroten, süßen Fleisch der Kaktusfeige bedient. Dank Stavros habe ich gelernt, hier in der Wüste zu leben. Es besteht nie die Notwendigkeit, sich nach dem zu sehnen, was ich verloren habe.
+GR: Ah, aber hier bin ich und quassle dir ein Ohr ab! Stavros und ich brauchen deine Hilfe. Wir müssen uns alle zu Hause treffen. Ich sehe dich dort zu deiner freien Verfügung, liebe Nova!
+endscene
+
+scene stavros-cactus
+ST: Hallo, Nova. Gravis und ich haben deine Ankunft in der Wüstenregion mit Spannung erwartet. Hast du Gravis getroffen? Wir leben zusammen in der Kugelbehausung südlich von hier.
+ST: Viele Jahre lang lebte ich allein hier in der Wüste. Ja, hm. Als die Sonne ihren Höhepunkt erreichte, schlief ich im Schatten eines steinernen Regals. In den dämmernden Stunden bereiste ich die Dünen und katalogisierte die Qualitäten von Laub und Fels über den Sand außerhalb New Thelands.
+ST: Einige Leute gehen davon aus, dass die Wüste von undifferenzierter Monotonie geprägt ist ... „Nur Sand“, sozusagen. Überhaupt nicht! Die Lebensmuster der Tiere und Sträucher, die Schwankungen von Wind und Feuchtigkeit, ja sogar das mikroskopische Funktionieren des Nanostaubs werden wie ein illuminiertes Manuskript auf diesen Sand geschrieben!
+ST: Ah, aber mein ruhiges Leben der Beobachtung wurde auf den Kopf gestellt, als Gravis von den Sternen fiel. Ich fand sie, nach dem Leben greifend, eingebettet in den tiefen, halbkugelförmigen Krater ihres Einschlags. Meine Tage nahmen eine atemberaubende Unmittelbarkeit an, als ich mich um diese schöne und faszinierende Seele kümmerte. Sie entzündeten einen Funken in mir ... und ließen mich flüssig, bewegend und lebendig fühlen.
+ST: Oh ... Entschuldige ... Ich sollte auf den Punkt kommen. Das Problem ist, dass unser Haus mit dem Staub infiziert ist. Wenn du bereit und in der Lage bist, triff uns bitte wieder im Haus, wo wir das vorliegende Thema ausführlich besprechen können.
+endscene
+
+scene skel-early
+GR: Oh, ich frage mich, wo Stavros ist ... Ich will nicht ohne ihn anfangen! Er sitzt gerne auf den Kaktusfeldern ...
+ST: Ah, Gravis ist noch nicht da? Sie sollten zu unserer Erklärung anwesend sein. Ich frage mich, ob sie am See sitzen?
+endscene
+
+scene skel-intro
+GR: Nova! Endlich sind wir alle hier! Ich bin so froh zu sehen, dass du Stavros getroffen hast! Ist er nicht wunderbar?
+ST: Danke, Gravis. Danke, dass du gekommen bist, Nova.
+GR: Wir möchten dir Loquat Skeligum vorstellen.
+// 3 5
+GR: Loquat ist unser Zuhause, und er leidet unter einem Staubbefall. Tag für Tag treten neue Risse entlang seines Panzers auf, als ob ein unsichtbares Gewicht auf ihn drückt. Tag für Tag nehmen wir die heruntergefallenen Stücke auf und kleben sie mit einer Lösung aus Knochenpulver und Edelmetallen wieder fest. Mit diesem Prozess wollen wir die Reise von Loquat würdigen. Er ist umso schöner, dass er gebrochen war und nun erneuert wurde!
+GR: Auf der anderen Seite ... scheint sich der Prozess des Zerfalls in letzter Zeit zu beschleunigen. Wir befürchten, dass wir eines Tages nicht mehr mit den Reparaturen mithalten können ... dass Loquat eines Tages völlig zusammenbricht und im Wüstensand zerstreut und nie wieder gesehen wird. Das ist eine Gefahr, die wir uns nicht leisten können. Nova, bitte reinige den Staub von Loquat Skeligum!
+ST: Ja, Nova. Wir bitten dich demütigst um deine Unterstützung.
+// spark
+endscene
+
+scene goo-key
+Ich bin der Gum Key. Ich sollte dir helfen, den Staubkristall zu erreichen, der unser Zuhause bedroht ...
+Oh, haha ... Es tut mir so leid, Nova! Ich weiß nicht, was über mich gekommen ist! Gib mir nur eine Minute. Okay. Einatmen, ausatmen. Okay, ich bin bereit, dir wieder zu folgen.
+Manchmal höre ich nachts die Sterne weinen. „Es ist okay, Sterne“, sage ich. „Wir mussten uns verabschieden, und das ist in Ordnung.“ Aber dann merke ich, dass die Tränen meine eigenen sind ... Haha, ich bin albern, beachte mich gar nicht!
+Ist das alles, was es je für mich geben wird? Dieses trockene, vergessene Leben? Aber nein! Wie lächerlich!!! Er kennt mich wie kein anderer ... er hat das Schlimmste von mir gesehen, aber bedingungslos geliebt. Selbst wenn ich zu den entferntesten Sternen fliege ... nie wieder würde ich jemanden wie ihn finden.
+Ich werde hier warten, bis du mit Skelettschlüssel zurückkehrst.
+endscene
+
+scene skel-key
+Ich bin der Skelettschlüssel, es ist mein Ziel, dir zu dienen. Bitte bring mich zum zentralen Tor, damit ich deinen Weg freimachen kann.
+Ah! Skelettschlüssel, Skelettschlüssel!! Du hast deine Pflichten nicht erfüllt und diesen Staubbefall verlängert! Wie konntest du ihnen das antun? Los, weitermachen!
+Bevor sie hier landeten, hätte ich nie gedacht, dass ich all diese Dinge tun könnte, all diese Gefühle fühlen würde. Sie zu lieben ... es gibt mir das Gefühl, unbesiegbar zu sein! Also ... warum halte ich an? Warum behindere ich den Reinigungsprozess? Ich muss weitermachen ...
+Es wäre zu grausam, zu schrecklich. Wenn man jemanden liebt, übernimmt man Verantwortung für ihn. Ich habe mich entschieden!
+Ich werde hier warten, bis du mit Gum Key zurückkommst.
+endscene
+
+scene skel-both
+Gummischlüssel: Ah ... Skelettschlüssel.
+Skelettschlüssel: Gummischlüssel ...
+Gummischlüssel: Bist du bereit?
+Skelettschlüssel: Lass uns das zusammen machen!
+endscene
+
+scene skel-both2
+Gummischlüssel: Ah ... Ich habe so viel Liebe zu geben!
+Skelettschlüssel: Genau wie ich, Gummischlüssel!
+Beide: Lass uns unsere Liebe zum Ausdruck bringen!
+endscene
+
+
+scene skel-crystal
+[FADENOFADE]
+Ich bin Loquat Skeligum. Ich bin Zeuge der Skeligum-Saga. In meinen Mauern leben Gravis und Stavros ihre Lebensmuster. Haufenweise Unordnung steigt und fällt. Fernsehsendungen werden angesehen und erneut angesehen. Geschichten über Geschichten werden vor dem Schlafengehen gelesen.
+[CLEAR]
+Eine große Liebe lebt in mir. Eine große Liebe, ja, aber auch Schmerz. Der Schmerz der unausgesprochenen Worte, der ungefühlten Empfindungen. Dinge, die unsichtbar sind, können sich bilden und aufbauen, bis sie sich auf den Körpern manifestieren. Bis sie auf Wänden und Keramiksteinen stehen.
+Dank Nova ist der Staub weg. Vielleicht wird jetzt der Frieden in Loquat Skeligum anhalten.
+endscene
+
+scene skel-after
+GR: Ah, danke, Nova. Mit deiner Hilfe sollten unsere Reparaturen etwas länger anhalten. Armer Loquat. Er wird den Verfall der Zeit für immer ertragen, aber das Mindeste, was wir tun können, ist, ihn zu unterstützen.
+endscene
+
+
+scene nex-intro
+$T$: Äh? Hm? Oh ... die Reinigerin ist endlich angekommen? Was um alles in der Welt hast du die ganze Zeit gemacht? Ich habe ungefähr {TIME} darauf gewartet, dass sie hierher kommt!!! Nun gut. Wahrscheinlich hat sie die App einfach laufen lassen oder so ...
+endscene
+
+scene nex-talk
+$T$: Sei gegrüßt, Nova! Ich bin Thyme, der Stadtdiakon! Du wurdest hierhergerufen, weil sich der Staub in ganz New Theland ausgebreitet hat! Der Staub ... ahhh, es ist eine furchterregende Substanz, die sich von den Gedanken und Körpern der Infizierten ernährt und die wahre Natur der Entwürfe des Zentrums verdirbt, bis nur noch Elend und Böses übrig ist!
+$T$: ...
+$T$: ... ...
+$T$: (Mann, kaum eine Antwort ... was ist mit diesem Kind los? Zuerst kommt sie zu spät und jetzt ... *grummel* *grummel*)
+$T$: Ähem ... jedenfalls. Es ist deine heilige Pflicht als die „Piko-Reinigerin“ des Zentrums, ganz New Theland zu bereisen, die Infizierten zu finden und *in sie hineinzuschrumpfen*, um den Staub zu reinigen!
+$T$: Dazu gewähre ich dir den Nanospark. Drücke {CANCEL}, um ihn zu verwenden und Verbindungen mit den Bedürftigen herzustellen. Wenn du auf Pikogröße geschrumpft bist, kannst du ihn benutzen, um Feinde zu bekämpfen!
+$T$: ...
+$T$: ... ...
+$T$: Nun, mach schon, mach schon.
+$T$: ...
+$T$: Hoch! Du musst hoch gehen!! (Hmpf ... meine oratorische Kompetenz ist bei diesem Fall völlig verloren ...)
+endscene
+
+scene nex-clock
+[FADE]
+Der Stadtdiakon nur im Namen, denn sie sind weder noch.
+endscene
+
+scene nex-stones
+Ziel: Äußerer Sand West (Das Ufer)
+Ziel: Äußerer Sand Nord (Das Feld)
+endscene
+
+scene nex-talk-2
+$T$: Wenn du diesen Bereich, den Nexus, besuchst, kannst du dich zu jedem der steinernen Nexus-Felder begeben, die du in New Theland aktivieren wirst. Kannst du dir vorstellen, dass du dich nicht sofort um die Welt teleportieren kannst? Hah! Wie langweilig das wäre! ... Öhm. Nun. Noch mal! Mit deinem neuen Nanospark drücke {CANCEL}, um Verbindungen zu denen herzustellen, die es brauchen! Schrumpf dich auf Pikogröße und nutze es auch, um Feinde zu bekämpfen!
+endscene
+
+
+
+
+//
+
+scene boat-guy
+NI: He da, Reinigerin des Staubs! Willkommen bei Import! Ich bin Nowan, der Gründer und Bürgermeister dieser berühmten Küstenstadt! ... Hm? Du hast noch nie von Import gehört? Nun ja ... vielleicht hast du eine Amnesie? Das würde für eine ziemlich fesselnde Geschichte sorgen, da es deine Perspektive mit der des Spielers vereinen würde und emotionale Enthüllungen über deine Vergangenheit zulassen würde, die dich bis ins Mark erschüttern würden.
+NI: Ich selbst habe ein wenig an Amnesie gelitten! Oder, vielleicht nicht, es ist schwer zu sagen ... Alles, was ich weiß, ist, dass ich eines Tages an den Ufern dieses Strandes aufgewacht bin, salzgetränkt und schmutzig. War das der Anfang meines Lebens?
+NI: Ich war schon immer von plötzlichen Ohnmachtsanfällen geplagt, in denen ich die seltsamsten Träume erlebte. Ich hörte eine Stimme, die mir befahl: „Erschaffe nicht das Boht! Das Boht ist verboten! Das Boht wird unser Untergang sein!“
+endscene
+
+scene boat-guy-2
+NI: Ich wurde besessen! „Was ist das Boht?“, habe ich mich gefragt. Ich begann, ein Tagebuch mit mir zu führen, damit ich meine Spekulationen aufzeichnen konnte, und ich bat die Stimme um weitere Informationen.
+[FADE]
+„Verehrte Traumstimme“, sagte ich. „Erkläre mir bitte die Eigenschaften von dem Boht, damit ich es nicht zufällig aus Unwissenheit erschaffe.“
+„Ah ... da ist was dran“, antwortete die Stimme. „Das darfst du niemals erschaffen: ein längliches Schiff, das am Boden gekrümmt ist, groß und stark genug, um Passagiere auf seiner Oberseite zu transportieren. Danke für deine Wachsamkeit gegen das Boht.“
+[CLEAR]
+Und so vergingen meine Tage. Langsam stellte ich aus den Ermahnungen der Stimme ein immer feineres und feineres Verständnis von dem Boht zusammen:
+„... Mache keine Form, die eine große Oberfläche mit hohlem Innenraum hat!“
+„... Hüte dich davor, ein großes Tuch an hohen Stangen zu hängen, die aus der Mitte deines Objekts aufsteigen könnten!“
+„... Versuche, die Vorderseite nicht zu einer Spitze zusammenlaufen zu lassen, damit sie nicht mit großer Effizienz durch das umgebende Medium schneidet!“
+[CLEAR]
+Ich begann, viele verschiedene Modelle von dem Boht zu entwickeln, die heute die Infrastruktur der Stadt Import bilden! Und doch ... so stolz wie ich auf all meine Arbeit bin, fühle ich mich immer noch ein wenig hohl. Warum war die Traumstimme so besorgt über diese banalen – wenn auch schönen – Strukturen? Was ist die wahre Bedeutung von dem Boht?
+[FADEOFF]
+endscene
+
+scene boat-npc
+Krustentier:n Dieser Strand blickt auf das Substratmeer. Es heißt, dass das Zentrum New Theland aus dem Wasser hervorgebracht hat. Was hat das Zentrum vorher gemacht? Ah ... auf solche Fragen gibt es keine Antwort.
+Krustentier:n Nowan ist sehr besorgt über die wahre Bedeutung von dem Boht, aber ich bin zufrieden, einen Ort zu haben, den ich mein Eigen nennen kann. Gibt es wirklich so etwas wie eine „wahre Bedeutung“?
+Krustentier:n Ich finde es sehr beruhigend, auf das Meer zu schauen, weil es mich daran erinnert, dass die Welt endlich ist. „Ahhh ... hier endet alles“, denke ich mir. „Wie beruhigend.“
+endscene
+
+scene bigslimetalk
+Was für ein großer und wilder Schleim! Nova spürt eine mögliche Verbindung zu ihrem Nanospark ...
+endscene
+
+
+scene raft-hints
+Ein Floß ist eine sehr bequeme Möglichkeit, sich zu bewegen! Es wird jedoch gesagt, dass nur einer mit der Kraft des „Staubsaugers“ seine Saugfähigkeit zum schnellen Segeln nutzen kann.
+Nur derjenige mit dem Staubsauger kann seine Saugkraft nutzen, um schnell durch den Pastellhorizont zu segeln.
+endscene
+
+scene nano-map-hints
+Das Nordufer des Pastellhorizonts
+Schwesternschaft-Insel
+Heimkehrer-Insel
+Windgepeitschte Bucht
+Danke, dass du Crags Lost besucht hast!
+Du bist auf der Kin Killer Insel!
+Willkommen in Großschleims Reich ... gehe mit Vorsicht voran ...
+Voraus sind die labyrinthartigen Knotsnarl Woods ...
+Unscheinbare Zentralinsel. Name und Beschreibung sind ausstehend, da der König keine Mittel zur Verfügung gestellt hat.
+endscene
+
+scene desert-item-hint
+Großer Kindecker:n Grr ... hier gibt es Schätze, ich weiß es! Ich schwöre, ich habe überall gesucht!!! ... Vorwärts, zurück, links, rechts, oben ... rechts ... jepp, überall! Oh, nun, ich werde es einfach genießen, diese schönen Blumenfelder zu betrachten. Hm? Was ich mit dem Schatz machen würde? Ich weiß es nicht! Ihn horten, schätze ich!
+endscene
+
+
+scene fant-map-hint
+Bauer: Hi, Nova! Ich sehe, du hast praktischerweise eine Karte von New Theeland! Fragst du dich, warum du nicht sehen kannst, wo du da drauf bist? Nun ... es ist eine Karte, deshalb! Ha ha. Es ist aber in Ordnung. Such einfach nach Orientierungspunkten, um herauszufinden, wo du bist!
+endscene
+
+scene nexus-rockhint
+Stein: Wenn dieses Portal inaktiv ist, suche einen anderen Zugang zum Nexus in einer höheren Dimension.
+endscene

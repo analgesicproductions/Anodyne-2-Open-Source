@@ -1,0 +1,79 @@
+Match 1
+
+xupdate Side: - wrestle-1 0
+
+xNova shoot Jack (only nova)
+x transition to dialogue
+x- announcer: wrestle-1 1
+x update side side:- wrestle-1 2
+
+xJack shoots Nova (only jack)
+x transition to grapple
+x turn off side text
+
+
+xGrapple
+x turn on Side: - wrestle-1 3
+x transition
+
+x Nogva shoots, Jack counters, Nova hit (Countering is the crash-bandicoot-esque spin animation)
+x turn off side
+x transition to dialogue
+
+x anouncer: wrestle-1 4
+x transition to end
+--------------------
+
+-------
+Match 2
+-------
+x side text: - wrestle-3 0
+x Nova and Jack trade blows (slow)
+x turn off side
+x go to dialogue
+xannouncer - end: wrestle-2 0	
+x go to grapple
+
+
+x Grapple
+x go to attacking
+x sidetext - wrestle-3 0
+x go to attacking
+
+x Nova and Jack trade blows (faster)
+xsidetext - wrestle-2 1
+xgo to attacking
+
+xNova shoots Jack and then sucks and shoots him out of the ring in any direction. Sucking up Jack takes more sucking than usual target (tho not as much as a dust crystal)z
+xwhile sucked: wrestle-2 2
+xout of ring wrestle-2 3
+
+----------------
+Match 3
+
+
+x Nova and Jack trade blows (faster)
+x side - wrestle-3 0
+x announcer- wrestle-2 0 "Intense back and forth!"
+x go to grapple
+x Grapple
+x go to jump
+x side text to jump info
+
+Jack jumps towards Nova’s position jump after jump. Each time he hits the ground, a kirby-esque impact/rubble star is formed temporarily before vanishing. That is the only ammo. (still have to pull punches) (between jumps Jack recovers on the ground for a while)
+
+
+Jack shoots nova with extra large hatchet (NEED SPRITE? Or maybe just overscaling the regular one would be funnier). Nova deflects (this time pressing dodge does a special spin deflection animation instead of the “hit” animation). You have to hit it back and forth enough times to trigger ending where you are interrupted by “the center” 
+- wrestle-3 2
+
+
+
+//say wrestle-center
+// angry pulse
+//say wrestle-center-2
+// Center smashes
+//say wrestle-center-3
+// bad dream
+//say wrestle-3-end
+// nova jumps and leaves
+//map NanoDustbound BlowupEntrance

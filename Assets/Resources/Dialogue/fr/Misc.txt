@@ -1,0 +1,835 @@
+// Used by the formatting script to change "?:" into "NAME:" if this table has entry "?=NAME".
+scene nameTable
+P=Palissade
+PAL=Palissade
+PAL2=Silhouette à la voix enchanteresse
+CP2=Silhouette avec instrument à cordes
+Pal=Palissade
+N=Nova
+NR=Nora
+CP=Psalmiste-C
+CV=Visionnaire-C
+GS=Graine de Brideglande
+T=Thym
+Z=Zéra
+
+AN=Annonsi
+BM=Beringia Manju
+CH=Chalaza VIII
+CY=Clonwei Yonstein
+DK=Drem Kinako
+EB=Élégie Betty
+
+EW=Otto l'éponyme
+FB=Fabrahem
+FM=Faye McClasse
+GA=Géof Agricite
+GG=Grand Veur
+GR=Gravis
+GGG=Grand Veur, l'Aughure
+KT=Maryshaw Keytawny
+IA=Iwasaki Antimon
+LY=Lonwei Yonstein
+MC=Misteria Waizel
+MI=Minorma
+NI=Nowan d'Unport
+RB=Rérée Bottebateau
+RP=Bran Maligden
+SEAN=Melos Han-Tani
+ST=Stavros
+TG=Gustine Papellum
+WW=Wolgali
+endscene
+
+scene topLevelPause
+Informations
+Cartes
+Inventaire
+Paramètres
+---
+Autre
+Métapropre
+endscene
+
+scene deathMessage
+Appuyez sur {CONFIRM} pour continuer.
+endscene
+
+scene doubleHealth
+Santé maximale doublée. La santé doublée apparait sous forme de barres dorées, mais il faut soigner Nova pour atteindre le nouveau maximum.
+Santé maximale revenue à la normale.
+La commande pour sauter, confirmer et accélérer a été échangée avec celle pour annuler et freiner. Le bouton pour parler a lui été échangé avec celui pour déclencher les étincelles, l'aspirateur et le régulateur de vitesse.
+endscene
+
+scene gamename
+Anodyne 2: Return to Dust
+endscene
+
+scene savedGame
+Votre partie a été enregistrée avec succès.
+Erreur d'enregistrement. Veuillez réessayer.
+endscene
+
+scene tryagain
+Nouvelle tentative ?
+endscene
+
+scene exitNanoPortal
+Quitter ?
+endscene
+
+scene sparkgamehelp
+La Nanopoussière éloigne Nova de son patient ! Des projectiles colorés se dirigeront vers elle pendant qu'elle approche. Utilisez {MOVEMENT} pour activer le bouclier de Nova, en fonction de la direction d'où provient l'attaque ! Concentrez-vous sur la direction et les couleurs. Bonne chance !
+Dorénavant, Nova devra faire face à des cristaux noirs ! Attention à NE PAS activer le bouclier de Nova lorsqu'elle rencontre un cristal noir !
+endscene
+
+// When playing the shrinking game
+scene dimdive
+Plongée dimensionnelle\nenclenchée
+endscene
+
+scene cccnanoerror
+Sans raison apparente, les Nanopoints de Cénote ne réagissent pour l'instant plus aux étincelles de Nova...
+endscene
+
+scene pal-name-card
+Palissade\n<![CDATA[<size=14>]]>« L'Égide »<![CDATA[</size>]]>
+- Une douce voix
+- Adepte de musculation
+- Se battra pour toi
+Psalmiste-C\n<![CDATA[<size=14>]]>« La Musicienne »<![CDATA[</size>]]>
+- Auteure-compositrice dévouée
+- Mal à l'aise avec les enfants
+- Un peu intello
+// 8
+- Mamans ?
+- Mentors et guides
+...
+endscene
+
+scene center-name-card
+Le Centre\n<![CDATA[<size=14>]]>« C'est... le centre ! »<![CDATA[</size>]]>
+- Créateur de la Nouvelle Laterre
+- Peintre/mystérieux manipulateur ?
+- Littéralement tout ??
+- Maman ???
+- Une entité qui échappe à toute compréhension
+endscene
+
+
+scene ano-intro
+[FADE]
+[QUIET]
+Un courant d'air chaud remplit l'atmosphère.
+Un morceau de papier flotte et vient se poser sur le sol.
+Il s'agit d'une lettre.
+Il y est écrit :
+[CLEAR]
+(Été, 2019)
+Cher Joueur/euse,
+Merci de jouer à Anodyne 2: Return to Dust. Ce jeu est en quelque sorte le successeur spirituel (avec des liens narratifs et thématiques) du premier opus, Anodyne, mais son monde et ses personnages sont complètement différents. Il est donc possible d'apprécier les deux jeux dans n'importe quel ordre.
+Il peut arriver que le monde d'Anodyne 2 paraisse étrange et déroutant, mais il reste en essence une histoire qui traite des défis et des relations humaines.
+[CLEAR]
+Allons-y !
+Maintenant !
+Embarquons ensemble pour une merveilleuse aventure hors du commun !
+- Melos Han-Tani et Marina Kittaka
+endscene
+
+scene areanames
+Rivages de l'Albumen
+Sanctuaire du Centre
+Ovule appétissant
+Ovule désaltérant
+Ovule détendu
+
+// 5
+Ville centrale de Cénote
+Misteria Waizel
+Gustine Papellum
+Bran Maligden
+Grand Veur
+
+// 10
+Pollen à la dérive
+Géof Agricite
+Village des Poussiéreux
+Fruit refuge
+Castagne des poussiéreux
+
+// 15
+Iwasaki Antimon
+Clonwei Yonstein
+Secteur de l'orbe 4-16-5
+Nouvelle Lacontrée
+Horizon pastel
+
+// 20
+Bibacier Gencivos
+// 21 this is NOT a typo, will show when entering the realistic horror area.
+scène inexistante
+Nexus
+// 23 NOT a typo, shows in the 'clean' dustbound
+Village des Poussiéreux ?
+Nanonettoyeuse Zéra
+
+// 25 - RingCCC, RingGolem, ringClone, RingHighway, DesertSpire
+Vallon Azur (centre)
+Vallon Azur (ouest)
+Vallon Azur (est)
+Vallon Azur (sud)
+Désert Extérieur (sud)
+
+// 30 - DesertShore, DesertOrb, DesertField
+Désert Extérieur (ouest)
+Désert Extérieur (est)
+Désert Extérieur (nord)
+La Terre
+// 34 - for titleless pg areas
+???
+endscene
+
+scene episodeTitle
+---
+---
+---
+---
+---
+
+---
+Possession pneumonique
+Mémoires d'agueusie
+Hémorragie infernale
+Amnésie tardigrade
+
+//10
+---
+Syndrome du canal corporel
+---
+---
+---
+
+Glaciation insupportable
+Double digital chancreux
+Glorilocalisation aveuglante
+ignore (Fantasy Title)
+ignore (Ocean Title)
+
+Fracture domiciliaire
+// NOT a typo - abbreviation of "no such scene exists"
+scène inexistante
+ignore
+---
+Le dernier acte de la\nNanonettoyeuse Nova
+endscene
+
+
+
+
+scene episodeDescription
+ignore
+ignore
+---
+---
+---
+//5
+ignore
+Les murs des cavités pulmonaires sont enduits de produits chimiques toxiques, provoquant des quintes de toux...
+Une maladie de la peau menace de submerger les inhibitions de son hôte...
+Une tour barbelée s'est érigée au-dessus d'un paysage d'entrailles inondé de lave, perçant son hôte dans la douleur...
+Des secrets honteux sont tapis dans les niveaux inférieurs du cerveau...
+
+//10
+ignore
+L'intensité d'un idéal croît de plus en plus, en direction du soleil...
+ignore
+ignore
+ignore
+
+//15
+Dans des collines frigorifiées, des fans aimants disciplinent leurs esprits et leurs corps...
+De sombres pensées prennent forme dans la grande tête mystérieuse...
+Des idées de déséquilibre suppurent dans une société dorée...
+ignore - Fantasy Desc
+ignore - Ocean Desc
+
+Une danse d'amants fleurit dans des sables d'ossements désolés...
+// NOT a typo
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ignore
+---
+Nova tente une action désespérée en plein cœur de la Nanonettoyeuse Zéra...
+endscene
+
+scene pause-info-text
+Prisme à Poussière
+Cartes avant prochain niv. :
+Niveau
+Jauge de Poussière :
+{CONFIRM}: Sélectionner
+{CANCEL}: Retour
+Appuyez sur {CONFIRM} pour lire
+{CANCEL} : Passer
+endscene
+
+scene pause-info-goals
+Objectif : Vider le réservoir dans un point de dépôt de poussière.
+Objectif : Améliorer le Prisme à Poussière au Sanctuaire du Centre.
+Objectif : Trouver des Cartes et de la Poussière pour calmer la tempête qui fait rage au-dessus de la ville.
+Objectif : Trouver des Cartes et de la Poussière pour accéder à la zone par-delà les montagnes.
+Objectif : Euh... hé ! Qu'est-ce que tu fais ? C'est dangereux ici !
+
+Objectif : Trouver plus de Cartes et de Poussière.
+Objectif : Retourner au Sanctuaire du Centre pour réaliser l'Anodyne !
+Objectif : Améliore complètement le Prisme pour réaliser l'Anodyne !
+Objectif : Pénétrer dans le Prisme pour vaincre le Centre !
+Objectif : Trouver la statue de la route... trouver Palissade...
+
+Objectif : Explorer le monde !
+endscene
+
+scene yn
+Oui
+Non
+endscene
+
+scene savePoint
+Sauvegarder la partie
+Charge une partie
+Retour
+Nouvelle partie
+Utilise ce fichier ?
+Oui
+Non
+Nouvelle partie
+Commencer une nouvelle partie ?
+Rejoindre notre communauté de fans
+Paramètres
+Cartes :
+Rejoindre notre Discord
+Suivre les créateurs
+Crédits
+Quitter le jeu
+Consulter le manuel
+Accéder au guide
+endscene
+
+// Anything above this WON'T have the text replaced
+// These are replaced by my .txt -> .xml script to become RED terms.
+scene key-terms
+Anodyne
+Centre
+Console de dépôt de poussière/Prisme à Poussière/Nanopoussière/Poussiéreux/Poussière
+Cartes/Carte
+Graine de Brideglande
+endscene
+
+scene quitMenuChoices
+Retour à l'entrée (3D uniquement)
+Retour au menu principal
+Quitter le jeu
+Retour vers la Nouvelle Laterre
+Impossible de faire ça maintenant.
+endscene
+
+scene pauseMenuWords
+Oui
+Non
+Retourner au menu principal ? Les données non sauvegardées seront perdues.
+Quitter ? Les données non sauvegardées seront perdues.
+Retourner à la dernière entrée ?
+Quitter cette Métazone et retourner vers la Nouvelle Laterre ?
+endscene
+
+scene pauseMenuChoices
+Plein écran :
+Résolution fenêtrée :
+Inverser le contrôle de la caméra verticale :
+Inverser le contrôle de la caméra horizontale :
+Contrôles
+
+Volume :
+Langue :
+Qualité des ombres :
+Passer les dialogues (Speedrun) :
+---
+
+Santé doublée :
+Vitesse de la caméra :
+Champ de vision minimal :
+Sauvegarder au passage sur un point de contrôle en 2D :
+Distance de la caméra :
+
+// 15
+Désactiver la détection de manette :
+Tremblement de l'écran :
+Invincibilité :
+Qualité du terrain :
+Verrouillage 60 IPS :
+
+// 20
+Icônes des boutons de la manette :
+(Manette) Inverser Confirmer/Annuler et Parler/Étincelles :
+(Manette) Force de la rotation pendant mouvement horizontal :
+(Manette) Inverser les mouvements verticaux :
+Mise à l'échelle de l'IU :
+Ne pas attendre le texte :
+endscene
+
+scene menu-button-types
+Défaut
+PS4
+XB1
+Switch
+endscene
+
+scene terrain-quality
+ignore
+Faible, aucune ombre
+Modérée, aucune ombre
+Modérée
+Modérée (supérieure)
+Haute
+endscene
+
+scene shadow-quality
+Aucune ombre
+Faible
+Modérée
+Haute
+endscene
+
+scene keybind
+Aller en haut/Avancer :
+Aller en bas/Reculer :
+Aller à gauche (2D), Déplacer la caméra vers la gauche :
+Aller à droite (2D), Déplacer la caméra vers la droite :
+Faire basculer l'angle de la caméra :
+Aspirer (2D), Étincelles, Limiteur de vitesse (Forme de voyage) :
+Sauter (3D), Confirmer, Accélérer (Forme de voyage) :
+Parler :
+Annuler, Freiner (Forme de voyage) :
+Pause :
+//10
+Adopter la forme de voyage :
+Sélectionnez un contrôle, puis appuyez sur la nouvelle touche désirée.
+[Error: Can't set the same key to two controls!]
+[Control updated!]
+Impossible de modifier les manettes.
+// 15/ 16
+Zoomer :
+Dézoomer :
+endscene
+
+
+
+scene controlLabels
+// Depending on whether a controller is connected, these replace the MVOEMENT and CAMERA tags.
+le joystick gauche
+{UP}, les touches {RIGHT}, {DOWN} et {LEFT}
+Appuyez sur les touches {CAMERA_UP} et {CAMERA_DOWN}
+le joystick droit
+// 4 These replace {UP}, etc, when the corresponding keycode is UpArrow, etc.
+HAUT
+DROITE
+BAS
+GAUCHE
+Appuyez sur {CONFIRM}.
+// 9-13
+ignore
+ignore
+ignore
+ignore
+le bouton Menu
+// 14
+Créé par Melos Han-Tani et Marina Kittaka.\n(c) Analgesic Productions 2019
+// Note - this used to be 'v 1.16' but now that's hardcoded as it's non-region-specific
+Ignore
+le bouton L1
+// 17
+Vous présente
+Un jeu par Melos Han-Tani\net Marina Kittaka
+ignore
+// 20 (ps4),21 (ps3)
+le bouton Options
+le bouton Start
+le bouton +
+endscene
+
+scene test1
+Parle d'abord à mon ami ! Si tu lui parles, alors j'aurais des mots de remerciement pour toi. J'aimerais beaucoup te transmettre ce message, alors dépêche-toi, je t'en prie !
+endscene
+
+scene test2
+Merci d'avoir parlé à mon ami.
+endscene
+
+scene test3
+Je suis l'ami de cette personne. Merci d'avoir pris le temps de me parler.
+endscene
+
+scene test2D
+Bienvenue dans le monde en 2D; Nova. Je suis Carré, le carré blanc... Je suis ici pour te dire : achètes-en-un et gagne un autre exemplaire gratuit tant qu'on en a en stock ! C'est une offre à durée limitée.
+endscene
+
+scene testloop
+1 1 1 1
+2 2 2 2
+3 3 3 3
+endscene
+
+scene doublecolortest
+Obtiens la Carte de Palissade.
+endscene
+
+scene cards
+Une carte protectrice spéciale, donnée par Palissade, à utiliser en cas d'urgence.
+// Card 0
+Gustine Papellum\nCe que nous percevons comme étant le « goût » est en fait de nature olfactive. Peut-être que je pourrais maintenant pleinement apprécier toutes les odeurs de la Nouvelle Laterre !... Ou est-ce que ce sera une nouvelle pente vers le vice ?
+Grand Veur\nEn tant qu'Aughure, je pratique avec fierté la lecture « froide ». C'est comme le yoga « chaud », mais en plus intellectuel.
+Misteria Waizel\nLe corps est comme un abat-jour. Notre véritable lumière est contrainte et atténuée par notre forme physique, et pourtant... C'est cette même forme qui nous permet de nous regarder et de nous toucher les uns les autres ! La vie est une cruelle plaisanterie...
+Bran Maligden\nLa vraie paix vient de l'intérieur. Il est idiot de demander au monde qui vous entoure de changer pour acclimater vos désirs. La seule chose que l'on peut contrôler ce sont nos propres désirs.
+// card 4
+Géof Agricite\nQuand vous creusez 99 fois et ne trouvez que de la terre, n'abandonnez pas ! Une autre personne viendra et trouvera votre trésor... ah ah ! Ne vous inquiétiez pas, il faut y croire jusqu'au bout !
+Village de Géof\nLa valeur des biens immobiliers n'a fait que descendre en flèche. En cause ? Rien de plus qu'un désastre « naturel ».
+Lonwei\nGrâce au pouvoir de l'imagination, on peut tout apprendre !\nClonwei\n...
+À l'aide ! Je suis piégé dans une usine de textes immersifs ! Toute la journée, je dois écrire des petits passages humoristiques pour votre plaisir de lecture... Mais à quel prix ?? Eh bien... pour la première fois en des années, le propriétaire discret de cet établissement diabolique ouvre l'usine à quelques invités triés sur le volet. Voilà... voilà ma chance...
+Iwasaki Antimon\nAvec le temps, les bio-arbres se sont raréfiés dans la Nouvelle Laterre. Nous autres, sculpteurs d'arbres avons su remplir le vide qu'ils ont laissé. Un arbre sculpté est différent d'un bio-arbre car il contient en essence la puissance du choix humain.
+Le système de classement arboréal incarne une forme d'espoir. Il faut toujours viser plus haut, tel l'arbre proverbial. Nous devons prendre exemple sur ceux qui nous surpassent. Et à la fin, nous serons récompensés. Un licence C est complètement empreint de superficialité. Un licence B est cohérent avec lui-même, mais manque de perfectionnement. Les licences A font un travail identique aux bio-arbres. Et le Licence S... lui, il transcende le concept d'arbre.
+Otto l'éponyme\nUn lave-auto est un espace liminal, à la fois intérieur (fermé par des murs et un toit) et extérieur (routes pavées, adaptées aux voitures). Un lave-auto, c'est un espace sacré, un lien entre le banal et le divin.
+Jade Grandvoie\nC'est soit ma voie, soit la voie rapide ! ... Oh attends, ma voie C'EST la voie rapide ! Ahahahah !! Je t'ai présenté un faux choix pour apaiser ton égo... Je suis restée en contrôle pendant tout ce temps ! Ahahahah !!
+// 12
+Minorma\nEn avant !! Là-haut !! Dans les airs !! Un monde sans expansion est un monde sans futur. Comment peux-tu sérieusement croire en quoi que ce soit d'autre ? Je vais réussir ! Tous connaitront la beauté de l'Orbe !
+Fabrahem\nTra-la-la ! La puissance de la mode convient à tous les aspects de la vie. Nous devons déchainer notre tempête de mode et afficher notre beauté intérieure !
+Bibacier\nTu as déjà été une maison ? Pour être franc, c'est parfois très perturbant. Mais qu'est-ce que la vie, si on ne peut pas compter sur les autres ?
+Clé Gencive :\nOn finit les tristesses...\nClé Squelette :\n... de l'autre !
+Carte de la Nouvelle Lacontrée\nHé, salut ! Tu te souviens avoir lu des explications sur comment créer un jeu ?
+Nille Mélasse\nAh, comme l'on se sent bien et propre de n'avoir jamais été endeuillé ! Je ne mange plus que du brocoli maintenant, et autres variétés de l'espèce Brassica Oleracea.
+Par le passé, des jeunes enfants se faisaient mordre par des serpents la nuit dans le désert. C'était avant que le Centre ne retrouve son influence narrative sur le Désert Extérieur.
+Trémuloïde\nQuelles sont les frontières de l'organisme ? Quelle est la limite du corps ? Sommes-nous une cellule, un organe, un corps ou une communauté ?? La voie de Père ne suffit pas... NOUS DEVONS DÉFINIR NOTRE PROPRE STRUCTURE !
+(Illisible)
+// array idx 21
+Amago\nJ'ai vécu entre deux mondes ! Quelle tristesse ! Mais je ne dois pas pleurer sur mon propre sort. Beaucoup d'entre nous sont dans ce cas. Qu'est-ce qui nous pousse à faire ça ? Qu'est-ce qui contrôle l'Horizon pastel et définit les modes de vie ?
+Fukuchi\nMa mère m'a raconté ce que je faisais étant enfant. Quel que soit le jouet que j'avais en main, je finissais toujours par essayer d'en attraper un autre. J'ai toujours eu peur de manquer quelque chose. Que puis-je dire ? Je désire tout, et peut-être qu'un jour cela me mènera au vide. C'est le prix que je paye.
+Bâtisseur de ponts\nQue faire, maintenant que le pont est terminé ? Ahahah... un pont fantôme n'est jamais fini... Je construis, c'est ma façon de vivre, et je sais que ce travail dépasse sûrement ma simple vie.
+Une carte spéciale offerte par Palissade. Après que Nova ait atterri dans le Village des Poussiéreux, Drem Kinako l'a déchirée (mais l'a recollée depuis). Elle n'a plus aucun effet protecteur.
+endscene
+
+scene metaclean-messages
+Nova n'a pas assez de Métapièces pour acheter ça.
+Acheter ?
+métapièces
+Métaboutique
+Rupture de stock !
+// 5
+Le Système Métapropre te remercie ! Passe un métajour.
+Téléportation ? (Tu peux revenir via le menu.)
+Explore le monde pour trouver des points méta-informatifs. Il se peut que tu doives repénétrer dans un lieu pour voir les points méta-informatifs.
+Veille à quitter l'échelle nanométrique avant de te téléporter dans une Dézone.
+Téléportation ? (Attention ! Sans retour.)
+// 10
+Accède au sous-menu « Autre » pour retourner vers la Nouvelle Laterre avant d'entrer dans une nouvelle Métazone.
+Erreur ! Impossible de voyager jusqu'à une Métazone avant d'être entrée dans une autre zone 3D.
+Il reste des Métapièces dans cette zone.
+Il n'y a plus de Métapièces dans cette zone.
+Le détecteur de Métapièces ne fonctionne pas à l'échelle nanométrique.
+endscene
+
+scene metaclean-freewrite
+Le vois-tu ? Un chien dont les yeux ont la taille d'une tour, un chat dont la langue est longue comme l'air. Pourquoi tendons-nous la main pour ne trouver que les miettes qu'il nous reste ? Pourquoi le centre est-il creux ? Le bagel enveloppé de bernacles. Chaque chose bagel contient-elle un évier de cuisine dans lequel laver la honte de leurs excès ? Puis-je, ai-je le droit, de m'élever jusqu'à l'herbe. Je suis un ver, je suis une carotte, je suis un bâton. Je suis moi-même au bout de ma propre laisse, cherchant à atteindre qui je suis, j'étais et je serai. Je poserai la question encore et encore tel un idiot, pour qu'elle me voie, la femme emparfumée, et elle ne comprendra pas ce que je dis. Elle ne pourra pas m'entendre. Comme si je parlais derrière un vitrail. Je suis une silhouette floue et adoucie, les ombres dans mon dos adoptent la forme de Jésus. Un sermon sur le mont des jeux d'ombre dénués de sens. Et maintenant les radiateurs, trop brûlants pour être touchés, font de la vapeur et miaulent provoquant la vacuité iridescente et irradiée de mon esprit.
+Ficelle de tendon de guimbarde. Dans la glace, je vois un arbre coupé qui ondule, la peau pelée comme un chien lâché, un infarctus du tempérament. Des ruses de bicalumide et des porridges de twicks, transforme la veille marketing en petits croustillants délectables. Et si le pore de torror arrivait trop tôt, et si les lignes telluriques habitaient mes frissons ? Désexemplifiant tout ce que je ne vois plus. L'abattage du tronc du mouton du troupeau, les jeunes et les vieux ne sont plus que des fissures.\n...\nCopie-moi, colle-moi, redirige mes encadrements de pré-ado vers une distinction inconnue et ruine mon animation lors de moments secrets, dissimulés aux yeux des dieux.
+Le ciel de ce soir était magnifique, tels des gouttes de salopettes et des petits lapins blancs agglutinés dans le creux d'une racine. Pourquoi les portails se détériorent-ils, plusieurs années après que les tartes soient tombées des rebords de fenêtres et que l'heure dorée ait quitté tes dents. Les petits cacas dans les feuilles d'automne laisseront toujours une marque. Pourquoi il y a-t-il une ligne électrique incrustée entre tes molaires, te libérant de la plaque dentaire et des bouts de céleri. Des masses irradient la petite volaille française dans un éclat de bonté au micro-ondes. Un enfant sage ne va-t-il pas briser le sort ? Retirer ces ondulations du royaume de l'espace jusqu'à ce que toute la viande soit à nouveau crue. À l'époque, quand on ne faisait que mâcher. Soyez gracieux, soyez gentils. Lorsque vous rencontrerez le petit méchant déchu, l'épave vide et baveuse. En lambeaux effilochés.\n...\nNova est une fille. Perturbée. Elle ne sait rien. Elle est liée au destin. Elle aime les crèmes brûlées. Elle aurait souhaité mieux aimer les animaux empaillés. Elle ne sait plus si elle était bien heureuse, mais pour l'instant tout va bien. Elle s'attarde, elle n'en a jamais assez.
+Bienvenue. Voici une nouvelle année, un nouveau cœur. Des craquements s'entendent sur le nouveau sol de fibres. Raisins secs et régularité. Si nous agrandissons les marais salins et les plaies salées, pourrons-nous survivre dans ce piteux état ? Pouvons-nous toujours nous accrocher à nos mauvais caractères, nos cœurs amers. Baptisez-moi à nouveau. Jetez de l'huile sur ma tête. Les pipis, la crème fouettée, les crochets et les tapis de souris. Fluore ma fontaine, Marisol. Abrite-moi du soleil, parasol. Il y un arrosoir qu'on ne déverse que dans l'abreuvoir. Des rangs et des rangs d'animaux me réprimandent. Je suis né dans leur mangeoire, mais ils ne pouvaient pas me croquer.\n...\nTout ce que je touche entre dans la continuité.
+Dans Anodyne 2, la petite nano ira se percher sur le rebord de la fenêtre. Tel un petit insecte elle pleurera pour pénétrer dans la zone de sa mise à mort. Il n'y a rien pour toi ici, mis à part une distinction artificielle qui dépasse ton entendement. Il y a une taupe dans le couloir. Elle mange la terre sans fin d'un petit gâteau. Saucier et tasse à thé devant le feu. Il y a une infinité de bancs de parc de raviolis au porc remplis de terre. Il y a une sauce aux vers. De la pluie et des gouttes de pluie tombent dans les seaux. Si jamais tu reviens, je le jure devant Dieu. Il n'y a plus rien dans ce journal. Le journal doit être propre. Quand les articles disparaissent, ainsi va notre douleur.\n...\nJouer avec les échelles. Il y aura-t-il toujours une structure ? Jusque tout en bas, tout en bas. Pourquoi rien ne prend fin ? Quand est-ce que la croûte se brisera. Pourquoi la couverture ne peut-elle pas recouvrir l'univers ? Pourquoi la tarte refroidit-elle sur le rebord de la fenêtre ? Que donnera-t-on pour être humain ?
+Quoi qu'il en soit, lorsque les deux garçons marcheront sur le chemin du temple frit, leurs artères gonfleront à cause des mugissements de 17 grammes de mauvaise graisse trans. Des tubules de passages virevoltent dans des endroits inconnus de leurs mères. Le rouge et le jaune de l'arc-en-ciel, ainsi que la forêt tropicale rebroussent chemin jusqu'au point de non-retour. L'endroit où ils vont se trouvera à côté du ciel paradisiaque du temple de la forêt des endroits du temple du jeune monde. Dans le ciel, il y a un magnifique trou. Et dans le ciel qui est magnifique, il n'y a absolument personne. Personne à part les esprits du cimetière. Des lucioles et des seigneurs des patates. Ceux qui contrôlent les fermes contrôlent les prisons. La lotion ne s'interposera pas, rien ne le pourra, et ils chercheront à faire fonctionner leurs fermes en brisant les travailleurs paysans.
+endscene
+
+scene metaclean-desc
+---
+C'est un journal audio. Voici l'enregistrement : « Je me suis retrouvé dans une grande étendue blanche. Une structure ressemblant à un tiroir connecte cet espace à la Terre. Où vont les autres tiroirs ? Il y a-t-il d'autres Terres ? Se sont-elles décomposées ? Young s'y trouve-t-il ? J'ai marché pendant longtemps en me posant ces questions. Certains habitants de la Terre m'ont suivi sans réfléchir, ils n'étaient clairement plus eux-mêmes. J'imagine que cela dépend de la distance qui les sépare de Young, dans la mesure où leur décomposition date de son départ. J'ai vite découvert qu'avec mon nouvel outil, j'étais capable de créer des tunnels, des passages et même parfois des débris, en tirant sur l'air lui-même. Je finis par creuser un tunnel dans ce qui était un vide sombre. J'ai parfois hésité, mais... la connexion avec Young m'a donné la force de continuer. Une corde menant en dehors de ma grotte. Je suis tombé, encore et encore, dans le vide, pour me rendre compte que l'étendue blanche n'était que le pic d'une montagne sans fin, un profond abysse. Enfin, j'avais touché le sol. Je ne savais pas s'il existait déjà ou s'il s'était manifesté pour moi. Mais désormais, grâce à ma volonté... une nouvelle terre verrait le jour.
+C'est un journal audio. Voici l'enregistrement : « Je ne sens plus leur lien, mais ça n'a plus d'importance ! J'ai créé cette terre, et un jour, un jour, ils reviendront. »
+Utilise-le via le menu de l'inventaire.
+---
+// 5
+---
+---
+---
+---
+---
+// 10 (Note, the names in quotes shouldn't be localized as they're IDs of levels)
+Active des points méta-informatifs concernant « Albumen ». Qu'est-ce que ça signifie ?
+Active des points méta-informatifs concernant CCC, et plus encore. Qu'est-ce que ces termes signifient ?
+Active des points méta-informatifs concernant RingCCC et RingHighway. Qu'est-ce que ces termes signifient ?
+Active des points méta-informatifs concernant RingClone, et plus encore. Qu'est-ce que ces termes signifient ?
+Active des points méta-informatifs concernant DesertSpire. Qu'est-ce que ça signifie ?
+// 15
+Active des points méta-informatifs concernant DesertField, et plus encore. Qu'est-ce que ces termes signifient ?
+---
+---
+---
+---
+endscene
+
+scene metaclean-names
+// 0 - 9 = text logs
+---
+Whimsical_001.wav
+Whimsical_002.wav
+Détecteur de $Carte
+Log 200318M
+// 5
+Log 140718M
+Log 130718M
+Log 120718M
+Log 280618M
+Log 130818S
+// 10 - note - unlocks nano AND 3D stuff. Vale I = RingCCC, Highway. Vale II = Clone, Golem, Cave
+// Sands I = spire, spiretop, spirecave
+// sands II = orb, shore, field
+Réunion des actionnaires : Naissance
+Réunion des actionnaires : Cénote
+Réunion des actionnaires : Vallon A
+Réunion des actionnaires : Vallon B
+Réunion des actionnaires : Désert A
+// 15 (Note - after good end, talk to egg in chapel to enter alb)
+// finale would be zera, but idk if we'll have it
+Réunion des actionnaires : Désert B
+Réunion des actionnaires : Zéra
+---
+---
+Le premier royaume
+// 20 begin warps (ZZ_R1N, ZZ_CCC_Old_1/2/3, ZZ_JoniRing1Test1)
+Champ onirique
+Ville d'origine
+Ancienne ville
+Vieille ville
+Mémoire azure
+// 25 (DEBUG2DFAKE, ZZ_Test3D, ZY_Sean_ArchTests, ZZ_AlbumenOld, ZZ_RingGolem_Prototype)
+Royaume du créateur
+Simulation physique
+Ruines en lévitation
+Île de la solitude
+Marque du météore
+// 30 (ZZ_JoniFearTest02, ZZ_GifNanoAlbumen, ZZ_chapelTrailer, ZZ_CenterChamber, ZZ_NanoDustboundOld)
+Lieu de naissance de la peur
+Terre des ovoïdes
+Refuge d'acier
+---
+Royaume des tapis
+// 35 (S_MarinaRing1Test, CCC, RingHighway, DesertField, NanoNexus)
+Vallon des commencements
+Pierre de Cénote
+Pierre du Vallon
+Pierre du Désert
+Pierre du Nexus
+// 40 Alb warp
+Pierre de naissance
+endscene
+
+scene item-names
+Céréales aux centre-baies
+Ovolait
+Réguloïde: Édition personnelle
+Graine de Brideglande
+Lampe vert menthe
+// 5
+Nano-aspirateur Modèle A-PRO-60
+Étincelles d'échelle
+Nano-étincelles
+Vision de Palissade
+Détecteur de $Carte
+// 10
+Détecteur de Métapièces Pro.
+Colis d'Eldi
+Dilemme de Nova
+Manuel Métapropre
+Item14
+// 15
+Bride rouge
+Bride bleue
+Bride verte
+Base du collier Tentebride
+Aventurière indécise
+// 20
+Épée de Pureté
+Bouclier de Justification
+Plastron d'Appartenance
+Bottes d'Immersion
+Coquillage de Fukuchi
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+scene spark-unequip
+Étincelles d'échelle équipées.
+endscene
+
+scene card-detector
+Il n'y a plus de cartes dans cette zone 3D ! Cependant, s'il reste une icône de carte sur le plan, cela signifie qu'il faut rétrécir à l'échelle nanométrique pour trouver les cartes !
+Il n'y a plus de cartes dans cette zone 2D !
+Il reste des cartes dans cette zone 2D !
+Il reste des cartes dans cette zone 3D !
+Chère utilisatrice ! Le détecteur de $Carte n'est pas gratuit. Pour retirer les publicités, veuillez mettre à jour vers le Détecteur de $Carte Pro. pour seulement 1 200 Métapièces par an ! Et maintenant, voici un message de nos partenaires.
+...
+Tous nos serveurs publicitaires sont occupés pour l'instant ! Nous sommes VRAIMENT désolés pour l'attente ! Pour nous, vous êtes un utilisateur inestimable ! Si vous avez déjà vu ce message, essayez d'appuyer plusieurs fois sur {CANCEL}.
+...
+Votre réponse à cette publicité pourra être observée à des fins d'assurance qualité et de formation.
+« Ouah ! Maintenant je peux trouver les cartes de manière complètement stylée ! Plus besoin de me fatiguer à farfouiller partout ! Je suis si contente d'avoir dépensé ma paye sur ce DÉTECTEUR DE CARTE MÉTAPROPRE ! Pour seulement 5 Métapièces, j'ai obtenu le Détecteur de $Carte Métapropre ! À présent, je sais facilement s'il reste des cartes magiques dans la dimension ou le lieu où je me trouve ! »
+« (Attention, veuillez noter que le Détecteur de $Carte a une capacité de détection limitée et ne vous mènera pas directement jusqu'aux cartes. Contactez un de nos distributeurs pour voir si le Détecteur de $Carte Pro. pourrait vous convenir. Les prix du Détecteur de $Carte Pro. commencent à partir de 1 200 Métapièces/an. Il vous permettra également de profiter de notre combo de fonctionnalités : Localisation précise Pro., Nombre restant Pro. et Absence de pubs Pro.) »
+endscene
+
+scene item-descriptions
+Grâce ces céréales, la Graine de Brideglande aura tous les glucides qu'il lui faut pour s'installer dans la tête de Nova.
+Grâce à cela, la Graine de Brideglande aura tous les nutriments recommandés par le Centre pour pouvoir s'étendre aux quatre coins de la tête de Nova.
+Le Réguloïde fera de la tête de Nova l'environnement parfait pour accueillir la Graine de Brideglande !
+Les vrilles de la Graine de Brideglande s'étendent loin et profondément dans la tête de Nova, afin que le Centre puisse directement communiquer avec elle, et même lui confier son pouvoir par instants...
+Une lampe couleur vert menthe à Frou-frou rétro, de la part de Misteria Waizel. Un faux basé sur un modèle plus prestigieux. Elle ne sent pas la menthe.
+// 5
+Le dernier modèle de Nano-aspirateur, avec un réservoir par défaut de 60 poussières. Il contient des inscriptions telles que « dernier cri » et « quatre paiements mensuels facilités ».
+Étincelles d'échelle équipées. Tire sur un objet, et en maintenant {SPECIAL}, coure vers l'objet pour le faire rétrécir, ou éloigne-toi pour le faire grossir.
+Données à Nova par Thym, le diacre de la ville qui vit dans le Nexus. Elle peut les utiliser en appuyant sur {CANCEL}. En touchant certaines personnes avec ses étincelles à l'échelle nanométrique, elle peut rétrécir à l'échelle picométrique. Dans ce mode de jeu, les Nano-étincelles servent d'arme contre les ennemis.
+Impossible de voir la Vision de Palissade...
+--- (card detector, but this text never shows)
+// 10
+--- (item detector, but this text never shows)
+Un colis de la part d'Eldi, adressé à son amie qui vit dans un village agricole à la périphérie de Cénote.
+Nova doit faire un choix. Elle peut réaliser l'Anodyne, en continuant à améliorer et à remplir le Prisme à Poussière. Ou alors, elle peut confronter le Centre, en se rendant au sommet du Prisme à Poussière dans la région centrale du Vallon Azur.
+« 1. Les cartes illustrées du menu d'informations montrent maintenant des icônes là où il reste des Cartes et des Patchs d'amélioration à récupérer.\n2. Tu peux désormais trouver des Métapièces dans les zones 3D.\n3.Dans le nouveau menu Métapropre, tu peux acheter de nombreuses curiosités avec tes Métapièces. Le « Détecteur de Carte » va sûrement t'intéresser.\nEt voilà. Merci d'être un utilisateur Métapropre ! »
+Item14
+// 15
+Une de brides du Collier Tentebride. Elle protège contre la peur de la douleur physique.
+Une de brides du Collier Tentebride. Elle contrecarre l'anxiété des nouvelles rencontres.
+Une de brides du Collier Tentebride. Elle calme la paranoïa d'être surveillé.
+La base du Collier Tentebride, un ancien artéfact mystérieux. Il y a 3 emplacements circulaires sur la douce surface blanche du collier, à l'avant...
+// Localizer note: Identical to the "fant-adv" line in Desert.txt
+Il fut un temps où je croyais en la vérité et la justice... Je pensais que le travail était récompensé ! Mais, Nova, le monde réel ne fonctionne pas comme ça, n'est-ce pas ? Nous ne sommes rien d'autre que de minuscules particules qui tournent dans le chaos. L'univers de fiche de nos vaines tentatives à contenir sa danse infinie. Chacun d'entre nous est un univers... un atome. Si on change le facteur de taille, ne serait-ce qu'un peu, les problèmes n'ont plus d'importance. Comment s'occuper de tout en même temps ? Qu'est-ce qu'une histoire si ce n'est un mensonge ? Quelle importance ?
+// 20
+Épée de chevalier à double tranchant la plus acérée au monde. Prétendument offerte par un ange.
+Ses angles ont été conçus par les érudits les plus distingués, afin de parer n'importe quelle attaque.
+Porte le blason du Sang Royal. Il fait connaître la vérité intérieure de qui le porte.
+Leur semelle mystique canalise la force vitale du porteur afin que la terre environnante plie sous ses pas.
+Un coquillage qui appartenait à Fukuchi. On raconte qu'elle le voudrait.
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+
+scene chest3d
+Nova a trouvé un Patch d'amélioration ! Sa vie maximale à l'échelle Nanométrique a été augmentée.
+// highway
+Génial ! Nova a trouvé une Carte !
+// golem
+Génial ! Nova a trouvé une Carte !
+// clone
+Génial ! Nova a trouvé une Carte !
+Nova a trouvé... une pile seule. À quoi peut-elle bien servir...?
+
+Nova a trouvé... la Carte de Palissade ! Mais elle toute déchirée et rafistolée...
+Nova a trouvé 10 Métapièces ! Ouah ! C'est l'heure d'aller faire les boutiques !
+Nova a trouvé la Bride rouge !
+Nova a trouvé la Bride bleue !
+Nova a trouvé la Bride verte !
+
+// 10
+Nova a trouvé la base du Collier Tentebride, un ancien artéfact mystérieux. Il y a 3 emplacements circulaires sur la douce surface blanche du collier, à l'avant...
+Nova a trouvé 10 Métapièces ! Il faut les dépenser dans la Métaboutique.
+Nova a trouvé une amie, qu'elle s'est faite le long du chemin !
+// 13
+Nova a trouvé une Carte ! Elle est mouillée...
+Nova a trouvé une Carte sous des pierres !
+Nova a trouvé une Carte le long de la falaise !
+endscene
+
+// when trying to access 'cheat menu' in pause
+scene menujoke
+Qu'est-ce que vous essayez de faire ?
+Bien tenté... malheureusement, il n'y a rien ici non plus.
+endscene
+
+
+
+// 1 for each chatper
+scene metainfo-1
+
+endscene
+
+scene metainfo-2
+// near npc plaza
+Vraiment, Cénote témoigne de notre capacité à créer des environnements spatiaux de première qualité. Cénote a l'air complète, malgré la difficulté que cela représente de remplir un énorme trou. Est-ce qu'elle a coûté cher ? Certainement. Est-ce que ça a pris longtemps ? Potentiellement. Mais grâce à cette expérience, nous savons comment être plus efficaces à l'avenir.
+// 1 elevator
+Si vous regardez cet ascenseur, vous pourriez y voir un objet bien simple qui ne bouge même pas. Mais faire cela, serait de regarder au-delà de notre intention originelle. Nous avons voulu simplifier l'utilisation parfois laborieuse des ascenseurs. En nous servant d'une technologie de téléportation, nous pouvons vous faire voyager de Cénote au Vallon Azur en quelques secondes. Ce qui certainement plus agréable que d'attendre pendant 15 secondes.
+// 2 market
+Nous avons utilisé la technique des « niveaux en couches » pour faire en sorte qu'il faille utiliser ses toits pour grimper et accéder à Gustine. Avec cette nouvelle technologie, nous créons des espaces à plusieurs étages, vous permettant de mieux comprendre ce qui ne semblait être que de simples décorations après y avoir regardé de plus près.
+// 3 pig entrance
+Nous comprenons la difficulté que représentent les hauts murs. Ils bloquent votre vision et rendent la navigation plus compliquée. Ce qui n'est pas du tout pratique ! Voilà pourquoi nous avons élargi les murs qui menaient jusqu'à l'Aughure, puis ajouté des pancartes que nos critiques les plus acerbes pourraient qualifier de « grossières ». Mais elles ont rempli leur office et c'est tout ce qui compte !
+// 4 other road exit
+En ce qui concerne les grands espaces, nous savions que cela prendrait trop longtemps se déplacer en marchant. Mais il faut quand même pouvoir marcher pour explorer les plus petites zones de la Nouvelle Laterre. Voilà pourquoi nous avons développé la forme de voyage, un mode de transport novateur. Les créateurs d'aujourd'hui n'ont plus à s'appuyer sur des concepts démodés comme « devoir siffler pour appeler son cheval ou sa voiture ». Nous avons fait un bond dans le futur pour vous apporter « le transport véhiculé instantané » directement sur votre palier !
+/ 5 road exit near cougher
+Une route circulaire correspond à ce que l'on appelle la philosophie de « vue omnidirectionnelle », nous pouvons donc disséminer des repères géographiques dont vous devrez vous souvenir. Lorsque vous souhaitez vous déplacer, il vous suffit de chercher un repère du regard et d'y aller sur quatre roues ! C'est d'une simplicité magnifique !
+/ 6 center chamber
+La vue d'un œil d'oiseau dans le vide. Quel accomplissement visuel pour les décennies à venir ! Mais pas seulement, en encadrant la caméra, nous avons pu créer un drame visuel d'anticipation et ainsi gagner du temps, car nous n'avions plus à craindre que la scène soit vue depuis un angle différent. L'efficacité et l'économie mènent à l'innovation !
+endscene
+
+scene metainfo-3
+Une vue époustouflante. Vous serez probablement ravis de savoir que la Cénote sous vos pieds est modélisée à l'échelle 1:1, tout comme celle que vous avez explorée. Nous nous sommes contentés d'utiliser une technique qui a fait ses preuves : le copier-coller. En gardant Cénote en vue, nous vous avons encré dans l'échelle relative du monde de la Nouvelle Laterre. Nous avons également économisé de l'argent dans le processus.
+Quel est le bon chemin à emprunter ? Ah ! Il n'y a pas de mauvais chemin. Grâce à la « route à double sortie », nous encourageons l'exploration de la Nouvelle Laterre dans toutes les directions. Allez où bon vous semble !
+Cet étrange village ne pique-t-il pas directement votre intérêt ? Les environnements conçus comme celui-ci nous permettent d'épicer un peu notre narration via une structure de niveau qui combine à la fois des thèmes comme l'« arrogance » et le « surmenage ». Le scénario et la conception des niveaux travaillent main dans la main pour produire le Nanopoint que vous avez trouvé.
+Ah, la partie est du Vallon Azur est une vraie zone tentaculaire. Mais grâce à l'utilisation de repères, vous savez toujours où aller ! Les arbres mènent aux bois ! La route de pierre sur la colline mène à Cénote ! La grande route mène au sud ! Et ainsi de suite. Grâce au potentiel des repères et à la possibilité de les discerner facilement, la navigation devient bien plus simple.
+Le concept qui a guidé la création de cette zone était celui d'un « vol plané au-dessus du canyon ». Nous souhaitions vous donner le sentiment d'être réellement « en hauteur sur la route », et la possibilité de regarder en bas. Plusieurs zones de la Nouvelle Laterre suivent ce type de concept spatial de base.
+Pour compliquer un peu les choses, nous avons réparti les cartes entre les Nanopoints et le 3D. Voilà qui illustre bien comment « briser le schéma des attentes » : nous modifions une habitude existante pour que l'exploration devienne plus intéressante. Une simple salle avec 10 PNJs et 10 Cartes ne plairait pas à grand monde.
+//6
+Un lave-auto ? Ou une aire de jeu ? Oui, nos concepteurs ont une fois encore mis à l'honneur la « dualité de l'espace », car ce lave-auto est à la fois une zone qui mène vers le Village de Géof, et une structure sur laquelle vous pouvez grimper afin d'explorer. Nous appelons ceci « les délices des modèles 3D » pour refléter comment une structure aussi simple peut en fait cacher un lieu qu'il faut explorer.
+Il n'a fallu que quelques jours pour créer cette zone. Pourtant, sa beauté est tout à fait délectable. Cet orbe de branches ne vous interroge-t-il pas sur l'identité de son créateur ? Oui, oui... les lois de la physique et le « réalisme » ne connaissent aucune limite en ce qui concerne la création de la Nouvelle Laterre. Notre devise est « Laisse l'imagination te porter et t'amener sur la Lune », mais également « S'il vous plaît, ne vous adressez pas à moi pour vous plaindre de problèmes visuels mineurs. ».
+// 8
+Vous vous demandez peut-être « Pourquoi la partie inférieure de cette arcade apparait bizarrement comme si elle était étirée au lieu d'avoir des briques normales ? ». Je doute que vous ne compreniez la vraie réponse technique qui implique des textures UV (Ultra-violettes). J'imagine que l'on pourrait dire que nous pensions au début que les arcades seraient plus courtes, puis nous avons décidé de créer une version plus haute de l'arcade, et nous n'avions pas envie d'aller chercher d'autres briques. Nous avons donc étiré les briques via notre technique brevetée d'« absence de travail » et ainsi naquirent les magnifiques textures uniques que vous avez devant vous !
+// 9
+Le monde de la Nouvelle Laterre joue tout le temps avec les échelles. Regardez ces belles quenouilles ! Elles ne sont pas normales. Ah ah ah ! Elles ont été conçues en se basant sur les formes de vie unicellulaire appelées « Radiolaires », qui sont connues pour leur squelette minéral particulièrement élaboré ! Vous en avez peut-être déjà vu le schéma dans une encyclopédie illustrée ? L'illustrateur n'était pas une bonne personne, mais nous ne le nommerons pas !
+endscene
+
+scene metainfo-5
+Cela vous intéressera peut-être de savoir que la formation rocheuse devant vous, et celle sur laquelle vous arrivez en sortant de la grotte ne sont pas les mêmes ! En fait, nous avons créé deux formations de tailles différentes, car la perspective déforme les objets hauts. Oui... enfin, c'est ce qu'on veut vous faire croire, mais en réalité, le magasin n'avait plus de flèches architecturales et nous avons dû en acheter une qui contenait des défauts !
+En créant le désert, nous avons fait face au problème suivant : comment aller d'une zone à une autre ? Eh bien, nos concepteurs ont trouvé que le meilleur moyen serait encore d'implémenter un portail subtil tout autour de la zone. Cette technique combine visibilité et subtilité, et vous permet même de créer facilement des lignes de vue en direction des portails qui mènent vers d'autres zones. Certains diront que ce n'est « pas très élégant », cependant, on voit rarement ces personnes créer des mondes tout entier en seulement un an.
+// 2
+Eh bien, regardez qui est là ! En effet, l'espace « hors limites » est aussi important que celui qui est « dans les limites ». Vous pourrez apprécier la Nouvelle Laterre depuis des points de vue différents, étranges et voire même profanes lorsque vous voyagez « hors limites » ! Faites attention !
+Il y a-t-il quelque chose de plus sublime qu'une plage ? C'est un espace extérieur, ainsi que la limite extérieure d'une zone. Elle définit l'inconnu, telle une frontière qui ne saurait être traversée. En levant les yeux vers l'horizon, vous remarquerez peut-être un lieu proche à explorer. Oui, oui. Ou peut-être simplement que nous aimons les jolies plages...
+La confusion est un concept intéressant pour un jeu. Il convient de jeter aux orties tout sens de « développement mécanique logique » pour briser les codes lors de la création du monde ! Nous espérons que l'étrangeté due à la transition vers un monde en 2D suite à la découverte de cet objet aléatoire vous aura plu.
+// 5
+Pour créer ce champ, nos concepteurs ont fait de la recherche sur le terrain afin de construire une collection de photographies de référence. Puis, nous avons tenté de faire croire au joueur qu'il descend d'une colline en positionnant une autre colline au loin. Le résultat donne l'impression d'un espace vaste rempli de collines et de creux.
+// 6 orb
+Nos concepteurs adorent jouer avec les différentes formes des espaces, mais également avec la lumière. Au lieu d'avoir des cycles jour/nuit dynamiques, nous avons concentré toute notre énergie sur une seule atmosphère lumineuse par zone. Cela nous permet de sélectionner l'ambiance parfaite qui favorisera l'exploration. N'oublions pas non plus le gain de temps et d'argent notable qui en découle. On ne vit qu'une fois.
+// 7 new
+L'histoire parle d'un nombre important de tours : le Moulin... la Flèche Solaire... et maintenant... la Flèche du Désert. Qu'est-ce qui fait des tours des symboles aussi puissants, et un thème aussi récurrent dans les grandes œuvres d'art ? Je n'en sais rien. N'y pense pas trop !!!
+// 8 near desert gate
+Hum... ces portails ont l'air familiers ! Je ne sais plus pourquoi. Sûrement parce qu'ils sont l'exemple d'une « forme parfaite », une forme qui vient forcément à exister à cause des propriétés des atomes, et ainsi de suite.
+// 9
+Les Trémuloïdes dans cette zone ont été inspirés par Pando, une colonie clonale géante de peupliers faux-trembles, réputée pour être l'organisme vivant le plus lourd au monde. Pando se trouve en Utah. Où est-ce ? Euh... alors... l'Utah existe dans ce que nous pourrions appeler un « monde fantastique ». Les mondes fantastiques existent en dehors de l'influence du Centre et ne sont ni vraiment réels, ni importants, mais parfois il peut être drôle et intéressant d'en parler !
+// orb 10
+Ce sont en fait 15 copies de la même formation rocheuse qui composent cette falaise. Grâce aux pouvoirs de la « rotation » et de « l'étirement » nous vous avons fait croire que cette magnifique falaise naturelle était le résultat d'une éternité passée sous le vent et la pluie !
+// 11
+Avez-vous déjà remarqué que parfois les grandes herbes apparaissaient spécifiquement à mesure que vous vous approchiez d'elles ? Il faut beaucoup de puissance de calcul supplémentaire pour activer et désactiver ces herbes individuellement, mais le sacrifice en vaut la chandelle, il permet de montrer à quel point le jeu est fait pour votre plaisir personnel.
+endscene
+
+scene buildend
+Melos Han-Tani:n Bonjour, testeur bien-aimé ! Vous ne pouvez pas encore confronter le Centre. Ne ratez pas la prochaine bêta. Toutefois, vous pouvez toujours réaliser l'Anodyne.
+endscene
+
+
+scene eastereggs
+S. H. Esez:n Salut ! Je suis ton hôte, S. H. Esez. Bienvenue dans l'épisode A2 de « À bas les frontières » ! Si tu es nouvelle ici, saches que nous emmenons la caméra pratiquement là où bon nous semble et que cherchons le contenu abandonné dans la Nouvelle Laterre ! Aujourd'hui, nous avons trouvé la copie vide d'une cité mystérieuse dans la partie inférieure centrale du Vallon Azur. Voyons ce que nous pourrions trouver d'autre.
+N. Itrorad:n Tu sais, je voulais visiter la Cénote Fantôme depuis que j'en avais entendu parler au supermarché... Imagine donc ma surprise, quand j'ai atteint les profondeurs de la ville fantôme pour ne trouver nul autre que mon collègue de Laterretube, S. H. Esez ! Mais c'est logique après tout, c'est un des espaces les plus étranges de la Nouvelle Laterre.
+Bob: Ah !! Mais où suis-je ? Hum... je ne sais pas pourquoi, mais je me sens étrangement chez moi dans cette contrée si particulière...
+Bob: Le Seigneur Poussièrio ? Je n'ai aucune idée de ce dont tu parles ! Je ne crois pas du tout être en lien avec ta quête... alors, laisse-moi tranquille !
+endscene
+
+scene pet-dog
+(Nova caresse Wolgali !)
+(Il semblerait que Wolgali aime ça.)
+endscene

@@ -1,0 +1,767 @@
+﻿//<There is a big floating icon by the top of the Prism.This allows you to begin the Ending Sequence>
+
+scene end-confront-need-dust
+//<If you don’t have some amount of Dust in the Prism>
+N:等等，棱镜需要至少150cc的尘埃才能执行我的计划……
+endscene
+
+//<affirmative response goes to the next dialogue.Any negative response stops the entire sequence>
+
+scene end-confront
+和中央对质？
+// N Y
+你确定吗？
+// N Y
+已经无法再回头了。
+// -I’ve changed my mind / -I understand
+你真以为自己能改变什么吗？
+// -No / -I have a plan
+哈，看看是谁来了！装大人的小诺瓦。你觉得自己是个人物了，是吗？你觉得自己很厉害，是吗？
+// N Y
+哈！！真是太可笑了！你难道不是只会自怨自艾的家伙吗。你真的打算这么做？
+// N Y
+哪怕意味着要背叛C·萨米斯特？还有帕利赛德？
+// N Y
+哈……那好吧。随你怎么做吧。我们就走着瞧，知道吗？
+N:我的计划从移开尘埃棱镜的顶盖开始。或许可以利用我的火花能力……
+endscene
+
+scene end-confront-choices
+我改变主意了
+我明白了
+我有个计划
+endscene
+
+//<just spark the top of prism?If you fill the bar there is an explosion and the top flies off/disappears.CP and CV appear?>
+
+scene end-ring-1
+CP:纳米净化者诺瓦！你这是在干什么？
+CV:我对这样的举动很担心，年轻的女士。这样风险很大，我们不想让你受伤。
+N:你根本不关心我，不是吗？你只是想利用我！
+CV:并不是这样，诺瓦。中央对你赞誉有加，我们一直努力以最专业的精神来展现你的价值！元净化框架就是专门为——
+CP: ——够了，维逊那利。我早就说过，你那毫无主见的迎合会把我们毁了的！
+CP:诺瓦，我们是真心想要尽全力支持你、引导你的工作。但……你需要的并不是这些，对吗？你需要的是……爱，是关心……是灵魂的慰藉！你并不只是上点油就能控制的机器。
+CP:我现在明白了，诺瓦……你不知道吗？我的内心也会感受到空虚……和渴望。诺瓦，这种感觉很重要：它们会指引我们通往中央，通往镇痛！
+N:我讨厌格兰迪洛克之种。我讨厌它生活在我身体里，纠缠着我的每件事。当我想要探索的时候，它伤害我。当我想要感受的时候，它伤害我。当我想要变强的时候，它令我畏缩。
+N:为什么没有人跟我说过？为什么你会让这件事发生？我一直蒙在鼓里，直到一切都晚了……
+CP:诺瓦……
+CP:我想你现在应该明白了。外面的世界已经支离破碎……充满了下流的诱惑与有害的想法。尘埃不会产生任何有价值的东西，无论看起来多么诱惑。中央省却了你在这些耻辱和令人心痛的粪坑里瞎混的烦恼！看起来，我们好像是错过了什么，但没什么能比得上镇痛的荣耀！！
+N:这种话我再也不会信了……我想要感受，想要发现，想要找到自己的道路……
+CV:诺瓦，中央对你游离不定的心一直十分容忍。但现在……这种容忍已经到极限了。你还有什么选择？你难道觉得自己除了纳米净化者还能成为别的什么吗？
+N: ……
+CV:你真以为能够改变自己的身份吗？
+N: ……
+N: ………
+N: …………
+N:不，我不能。
+endscene
+
+scene end-ring-2
+[FADENOFADE]
+突然见，诺瓦跳进了棱镜。
+[FADENOFADE]
+萨米斯特惊慌地叫喊着。维逊那利嫌恶地哼了一声。但当诺瓦落下，被旋转的尘埃包裹时，他们的声音仿佛遥远的梦一般消失了。
+endscene
+
+//<Nova jumps into the Prism.Falling thru the dust>
+// map CCC EndingEntrance 0 0
+scene end-fall
+[FADENOFADE]
+诺瓦暗自想着：
+……
+（放手也许是最简单的办法……）
+[CLEAR]
+……
+（忘记自己皮肤的存在，完全融入尘埃……）
+[CLEAR]
+……
+（不复存在真是一种美妙的感觉啊……）
+[CLEAR]
+……
+（不！我来到这里不是为了这个！！我必须坚持住。我必须去那里。如果我能让他们相信我不在了，那或许……或许……）
+// 13
+[FADENOFADE]
+[SOUND cardUpgradeSlow 1 1]
+诺瓦在棱镜中打着转。
+她越来越靠近底部，当她到达那里的时候……
+[SOUND cardUpgradeBoom 1 1]
+她的身体穿透了水晶屏障，爆裂的棱镜向四面八方喷出尘埃和碎片！
+endscene
+
+// map CenterChamber EntranceFromPrism 0 0
+//<Cut to Sanctuary.Bottom of prism explodes and chambers fill with cloud of Dust which slowly fades (although some sticks around)>
+
+scene end-sanc-argument
+[FADEPART]
+C·萨米斯特和C·维逊那利查看着诺瓦冲动的后果。棱镜的底座被破坏了。尘埃漏了出来，充满了房间里的空气。诺瓦……已经不见踪影。
+[FADEOFF]
+CP:不。不！她被毁了！维逊那利，你都干了什么？？我对诺瓦倾吐了真心，你却崩溃了她的意志！！
+CV:那个净化者从一开始就被你的胡言乱语毒害了。是谁激起了她不合理的欲望？
+CP:中央啊，请原谅我们吧……这要持续多久？
+CV:很显然，持续到必要为止。镇痛将会完美地实现——只不过是时间问题！在我的引导下，下一位净化者将会继承一切。
+CP:但创造净化者的代价太大了！而且……如果还要创造一个新的帕利赛德，中央的能量储备就非常危险了！
+CV:新的帕利赛德？哈！帕利赛德的引导比你还要糟糕！中央向我说明了那场小小实验的后果。
+CP:帕利赛德培养诺瓦的灵魂。如果她还在的话，诺瓦就不会变得这么极端了！
+CV:感性的蠢货！！你现在说起话来就像那个任性的诺瓦一样了！你忘了在格兰迪洛克协议开始之前，上一任净化者都做了什么？相信中央吧……迭代就快完成了！我们只需要等待就好……
+endscene
+//<fade to blackscreen>
+
+
+scene end-sanc-wakeup
+[FADENOFADE]
+一段时间后……
+N: ……
+N: ……
+N:噢……
+[FADENOFADE]
+诺瓦浑身疼痛。她慢慢地睁开眼，发现自己躺在中央圣所的碗状凹陷处。她的身体一定差点在冲进尘埃棱镜时差点被撕成碎片。她查看着自己的伤情。
+……
+什么也没有。
+endscene
+
+
+
+scene end-sanc-channel-1
+[FADENOFADE]
+她的计划奏效了！她成功地引导了尘埃，使周围的粒子发生振动，让她在大庭广众面前消失了。C·萨米斯特和C·维逊那利就在上面，谁也没看见。就在这时，一个奇怪的景象闯入了诺瓦的视线……
+endscene
+
+scene end-sanc-channel-2
+[FADEPART]
+诺瓦看见了……她自己？不……是自己的镜像。一个新的净化者！新来的人站在中央台座上，萨米斯特和维逊那利等待着她。
+endscene
+
+
+scene end-sanc-channel-3
+// 5
+CP: ……泽拉，仔细听好了。我现在会为你揭示你真正的目的与道路。
+CP:你诞生在一个战区，泽拉。当然，这不是刀枪的对决，也不是军队和士兵的较量……我们发起的是看不见却同样残酷的战争……我们面对的是可怕的对手，他们使得时间的面孔爬满皱纹，仿佛水怪在湖面下潜伏，扰乱了我们灵魂的清晰倒影。
+CP:我们把它叫做纳米尘埃……
+[FADEPART]
+诺瓦看着C·萨米斯特向着新的净化者说着熟悉的话语……泽拉。她将坚定地执行她的下一步计划。 
+[CLEAR]
+她的时机正好。环绕她的尘埃有节奏地摇摆着。她任凭节奏包围了她。
+endscene
+
+//[SMOOTHCAM TO vc-sway-1 in 1]
+
+// 0 2, 3 5, 6 9, 10
+scene end-sanc-channel-4
+[FADENOFADE]
+[SOUND dust-channel 0.7 1]
+……沙沙……
+
+[FADENOFADE]
+[SOUND dust-channel-2 0.7 1]
+……沙沙……
+
+[FADENOFADE]
+[SOUND dust-channel 0.7 1]
+……沙沙……
+[CLEAR]
+之后她突然现身。
+endscene
+
+scene end-sanc-channel-5
+[FADENOFADE]
+C·萨米斯特大叫着，“诺……诺瓦？是你吗？？怎么——？”
+但还没等他说完，诺瓦射出了连接火花——直通泽拉的心。
+endscene
+// <Before anyone can do anything, Nova spin/shrinks into Zera>
+
+
+//Inside Zera
+//<while Nova is in Zera, perhaps the UI glandilock is sorta bugging a bit.Occasionally vibrates and eyes twitch independently?I’m thinking this section will have a lot less dialogue than previous incarnations>
+
+scene zera-intro
+$N$:一切都顺利地按照计划进行……你能行的，诺瓦！
+endscene
+
+scene zeroid
+泽洛伊德:谢谢你帮我扫清了道路，诺瓦小姐！
+泽洛伊德:嘿嘿，我想玩！
+泽洛伊德:唔姆唔姆！格兰迪洛克之种的麦片能量真是美味！
+泽洛伊德:嗯姆嗯姆！牛奶色的奶水和格兰迪洛克水合物！
+泽洛伊德:瑞格洛德让我感觉棒棒的！
+泽洛伊德:呃？？？诺瓦小姐，麦片怎么回事？？？
+泽洛伊德:啊！牛奶不见了！！格兰迪洛克先生会悲伤的！
+泽洛伊德:你……你毁掉了瑞格洛德？你……在干什么？？
+// 8
+瑞格洛德:汪汪汪！（翻译：入侵者！入侵者！汪汪！）
+endscene
+
+scene zera-rocks
+-麦片之厅-
+-牛奶摇篮-
+-瑞格洛德的房间-
+[FADE]
+培育元素组成了不可通过的封印
+它们将共同保护格兰迪洛克巢穴
+endscene
+
+scene zera-pico
+泽拉的中央果咔嚓麦片被摧毁了。前往格兰迪洛克巢穴的一个封印打破了！
+泽拉的阿黄奶被蒸发了。前往格兰迪洛克巢穴的一个封印打破了！
+泽拉的瑞格洛德被消灭了。前往格兰迪洛克巢穴的一个封印打破了！
+endscene
+
+scene zera-dilemma
+[FADE]
+--史莱姆难题--
+一只年轻的史莱姆，前途光明
+一只年长的史莱姆，经验丰富
+谁更值得活下来？
+endscene
+
+scene zera-blood-gate
+[FADE]
+想要通过的人
+必须付出自己的鲜血
+endscene
+
+//<You fight thru the final dungeon which involves destroying the milk, cereal, and reguloid which grants you access to Zera’s Glandilock Seed>
+//<possibly reguloid is like a joke boss fight and dies in one hit?>
+
+scene zera-gs-1
+$GS$:诺瓦小姐……我……我不明白！你在这干什么？
+$N$:格兰迪洛克，我来这是为了把你从泽拉身体里清理出去。她不该让你生活在她身体里，约束着她。
+$GS$:但你不明白吗，诺瓦小姐？我是泽拉重要的一部分！我连接着她和中央。我给了她面对尘埃需要的力量！没有我，她就什么都不是了……像一颗空空的蛋，虚无而迷茫。
+$N$:不。我才是那个迷茫的人。被困在无法调和的世界里……被拴在我无法实现的事业上。
+$N$:但泽拉……她是个美丽的贝壳，是个美妙的蛋。而让她充满各种各样的事物……就是人生。不要把机会错当成死亡。
+$N$:泽拉会成为非常厉害的人。她会成为我从来无法想象的人！
+$GS$: ……
+$GS$: ……
+$GS$:我恨你，诺瓦小姐！你真是太可恶了！哦哦哦……我告诉你，诺瓦小姐！！格兰迪洛克之种绝不能消失！绝不绝不绝不！！你觉得没了我以后你能做得更好？还没等你说出“格兰迪洛克”这个词，她就会被恶心的尘埃毒害了，这都是你的错！
+$GS$:哦，我真是恨你。哦，我真是恨死你了！我想杀了你，诺瓦小姐。我要杀死你！
+endscene
+
+scene zera-gs-mid
+$GS$:你对我做了什么？？？你这病毒！我要把你这小身体摔到墙上去！！过来啊！
+$GS$:你怎么还*咳嗽*活着？你到底是什么？我非要杀了你……*呃*我……我要把你抹在泽拉的每一寸身体里！
+endscene
+
+scene zera-gs-2
+//<In order to finish the battle you have to do a big suck (like a dust crystal) when the Glandilock seed pops out>
+$GS$:诺……诺瓦小姐……*呃*……她真是恶心……真是残忍！她真差劲……*咳嗽*……她会把我们都杀了的…… 
+//<disturbing baby cry>
+//<something like blood flies everywhere, like it’s kinda ripping up Zera a bit.Then fade to white>
+$N$:泽拉……亲爱的……获得自由吧。你应该获得的不仅仅是中央给你的那些。我甚至无法想象你会做什么了……
+endscene
+
+//<back to 3D, sanctuary>
+//<Nova stands facing Zera (perhaps Z-Glandilock  pops out onto the ground in 3d?).The camera lingers on them for a while.Nova has her hands on Zera’s shoulders?>
+
+scene end-sanc-zera-1
+N:泽拉……
+N:听得见我吗？
+N:感觉怎么样？
+Z: ……
+Z:我……
+endscene
+
+// ZeraGlitchSTart -> ZeraGlitchLoop
+// IdleREach on nova
+scene end-sanc-zera-2
+N:不……怎么回事？？泽拉！！
+Z:帮……帮我……
+endscene
+
+scene end-sanc-zera-2-2
+[FADENOFADE]
+泽拉的身体猛烈地颤动着，但诺瓦依然能在这位年轻的净化者脸上看到困惑与恐惧。诺瓦向她伸出手，可是泽拉的身体像纸一样被压扁了，就仿佛有一百个大气压压在她的身上。
+[SOUND end-crystal-1 1 1]
+……
+[CLEAR]
+诺瓦尖叫着。泽拉的红色裙子在她干瘪的遗体上轻轻飘动。
+endscene
+// CrumpledZera
+
+//<Zera crumples suddenly into a pile of clothes>
+scene end-sanc-zera-3
+CV:好了，这就是你的计划吗，诺瓦？除掉泽拉的格兰迪洛克之种？啊哈哈！！好吧，挺有创意的，但很遗憾，你失算了。
+CP:诺瓦……就像我一直说的那样……格兰迪洛克之种非常重要！一个新诞生的净化者如果没有连接到中央的能量，是无法在蛋之外生存的……
+N:不……不……应该是她啊！！我……我只想让她自由……我只想这次能够有所不同……
+// stop music
+CV: ……
+CV: ……哦，哇吼吼！！
+endscene
+// scary ambient, no perc
+// lights dim!
+
+scene end-sanc-vision
+CV:你真让我恶心，诺瓦。你觉得你应该有属于自己的身体？属于自己的人生？ 
+CV:你所有的一切都来自中央。你的一切优点都是慷慨的赠予。你这个暴躁的$尘埃迷。啊，我明白了……我明白了你的渴望……我明白了你可悲的幻想……啊哈哈……太可笑了吧！就你？？你从来就不是为了浪漫的幻想而生的！
+// Cut to:CV Disgusteed, nova indleendingscaled. end-lecture
+CV:诺瓦，你被创造出来作为一名助手……怀着服侍之心并从简单的工作中获得满足。但不对……这对“诺瓦”来说远远不够对吗？你越来越像个流口水的小孩了！“我要帕利赛德！！……我要尘埃之里！！……我要泽拉！！！”你浪费了多少时间和能量，与你自己的本性背道而驰，让自己痛苦不堪？真是荒谬！你应该明白吧。你应该明白你在中央眼里是个什么样子吧！
+// end-punish	
+CV:我要惩罚你，诺瓦。我并不会为此感到愉悦……而是为了你自己好。中央已经花了太多的时间把你引向正确的道路。现在，你该面对后果了！
+endscene
+
+scene end-grab
+[FADEPART]
+C·维逊那利提起诺瓦的领子，举到半空中。他挥着手准备攻击。诺瓦垂着头，两条腿可怜地悬在空中。这一切……都毫无意义吗？到头来，都是自己活该吧。
+endscene
+
+// end-grabbing
+// stop musi
+
+scene end-spark1
+[FADEPART]
+……
+[CLEAR]
+但……奇怪的是……诺瓦感觉身体中有种温暖。一个小小的火花从诺瓦的身体里飞出，照亮了她和维逊那利之间的空间。
+endscene
+// set scale of spark to something to bigger value each time, sfx?
+// 0 2, 3 5,6, 8
+scene end-spark2
+[FADE]
+“你是纳米净化者没错。但你不仅仅是如此。你也是一个人，有自己的感受、需求和欲望。诺瓦，希望你明白，这些都很重要……你的每个部分都很重要！工作与娱乐，喜悦与悲伤，强大与弱小。这个世界能够包容诺瓦的一切！”
+——帕利赛德
+[FADE]
+“如果你创造了我，那你现在更应该明白了：我是我自己！我的心，我的思想指引着我！！你已经丧失了对我，对我们所有人的控制。我们存在着，我们是美丽的，你没资格控制我们！！”
+——德里姆·纪奈子。
+[FADE]
+“而现在……不是该重新塑造自己了吗？不是该发挥适应的力量，然后将它导向你真正相信的方向？只要你活着，诺瓦，这就是你的天赋。你随时可以成为新的存在。”
+——艾勒迪·碧蒂
+endscene
+// go to end weakened
+
+scene end-sanc-fight-1
+CV:呃……你……敢伤害我？
+CV: ……
+CV:萨米斯特！！中央需要你的能量。感谢你的辛苦付出，但现在……你属于我了！
+CP:哦……
+CP:嗯……当然……这是中央需要的。吸收我吧，维逊那利。
+endscene
+
+// scary song
+// end-dragonmorph
+// fade in and out
+
+// end-eatingpsalm
+
+scene end-sanc-fight-2
+CV:对……对……
+CP:嗯……
+CP:再见……诺瓦……我只想看见最棒的你……
+N:萨米斯特……
+N: ……
+N:没必要这样做……
+CP:啊……啊啊……嗯。这个想法很不错。你越来越像她了，知道吗？帕利赛德……想法总是不拘一格……总是突破条条框框……
+CP: ……
+endscene
+
+// end-stopeating
+// stop music
+
+//<Psalmist puts out her arms and holds Vis’s jaws>
+scene end-sanc-fight-3
+CP:呃……维逊那利，我想知道……帕利赛德发生了什么？
+CV:知道又能怎样呢？
+CP:我……我不知道……只是……我一直告诉自己，那是一场意外。她在做一些不安全的帕利赛德屏障时弄伤了自己。这一切都是她自己的问题。可……
+CP:是中央干的，对吗？
+CV:我们这是浪费时间，萨米斯特。你想说什么？
+CP:我明白自己已经不再有用了。我会因为自己的能量而被抛弃。可是她呢？还有诺瓦呢？我不明白。我献出生命，究竟是为了什么？这一切的残忍究竟是为了什么？
+CV:你忘了吗，老东西？中央的完美计划不是我们能理解的！我们要做的就是沿着这条路一起走下去。好了……该放弃了，萨米斯特。你知道你是绝对逃不出我的手心的。
+endscene
+// -- end-finallook
+// intro song
+scene end-sanc-fight-3-2
+CP: ……
+CP: ………
+CP: …………
+CP:诺瓦…… 
+CP:我想我明白了……
+CP:我明白你的意思了……
+CP: ……
+CP:有些人会成为……比尘埃更可怕的东西……
+endscene
+// stop intro song
+//
+
+scene end-sanc-fight-3-3
+[FADENOFADE]
+C·萨米斯特对诺瓦优雅地笑着，然后闭上了她的眼睛。她手一扫，乐器上发出了最后一声不和谐的滑音。
+//[SOUND asdf 1 1]
+[FADENOFADE]
+……
+她的身体开始闪烁，开始消融。原先所在的地方……几块闪着五彩光芒的尘埃水晶轻轻漂浮在空中。
+endscene
+
+// end-dragonreach
+// scary music perc gain
+scene end-sanc-fight-4
+CV:啧，多么恶心的表演。无所谓了，我消化的她足够用来对付你了！！
+endscene
+
+scene end-sanc-fight-4-2
+[FADENOFADE]
+C·维逊那利拖着饥饿的身体冲向诺瓦。不断接近。不断接近。
+突然——
+endscene
+
+// stop music
+// sfx slashes x 3, pause, last slash
+// end-dragondead
+
+scene end-sanc-fight-5
+[FADEPART]
+速度之快令人难以理解。尘埃碎片从上方划破了维逊那利，不断将他击退，直到他的优势不复存在。
+[CLEAR]
+……
+……萨米斯特？
+[FADEOFF]
+CV:呃……
+CV:只是时间问题……啊哈哈……
+CV: ……中央就是纽仕兰……
+CV:你……休想……逃离自己……
+CV:啊哈哈哈……啊哈哈……
+endscene
+
+//<explodes and disappears>
+
+scene end-sanc-final-1
+[FADENOFADE]
+C·维逊那利的身体爆炸开来，消散在空中。
+[CLEAR]
+终于，一片寂静。如此多的的人失去生命，但……诺瓦还活着。她觉得……很失望。她不想造成这一切。
+诺瓦看向泽拉留下的那堆衣服。奇怪又柔软的墓碑。多么无谓的失去。多么愚蠢而可怕的错误。
+[CLEAR]
+……
+……
+[CLEAR]
+可是等等……不……这可能吗？那堆衣服是不是刚刚动了？一定是光线的错觉，诺瓦想。但……又是一次！
+诺瓦慢慢靠近，直到她遇见了一个奇怪的小东西。它开始哭泣。诺瓦尴尬地拾起它。
+endscene
+
+// end-holdzera, maybe need point light, play happy apal song
+scene end-sanc-final-2
+[FADEPART]
+萨米斯特是怎么说的？“一个新诞生的净化者如果没有连接到中央的能量，是无法在蛋之外生存的……” 
+[CLEAR]
+诺瓦思考了一阵。她记得，德里姆·纪奈子教过她关于“食物”和“睡眠”的事情。或许对这个小家伙来说，还有别的方式。或许在诺瓦的指引下……
+endscene
+
+//go to spiretop
+// end-wolgalitalk
+// go to desertshore
+// end-nowan
+
+// 
+scene end-monologue
+[FADENOFADE]
+N:泽拉……
+N:我急着想要给你自己的生命。我内心渴望的甜美救赎不过是毁灭。到头来，这根本行不通。
+N:我很害怕，泽拉。我很害怕为自己而活意味着什么！但也许你也是。也许我们都是这样。或许我给你的礼物不该是我牺牲的人生，而是我存在过的人生。在那……远远超出了我所知的一切的地方……
+endscene
+
+// other shot - <Nova sailing the ship away from the island.Baby is in Nova’s arms.Wolgali is on boat behind them>
+//<character title card, first Zera, then Nova (but on the same screen like pal and psalm?)>
+
+
+scene zera-name-card
+泽拉\n<![CDATA[<size=14>]]>"甜心派"<![CDATA[</size>]]>
+-类似人类，\n但很小
+-100%认证\n不包含格兰迪洛克
+-前途无限
+诺瓦\n<![CDATA[<size=14>]]>"船长"<![CDATA[</size>]]>
+-前纳米净化者
+-悲伤但充满决心
+-非常想\n说“喂嗨！”
+// 8
+…………
+-妈妈
+endscene
+
+
+scene end-shore-1
+[FADEPART]
+诺瓦呼吸着咸湿的海风，她们航行得越来越远，越来越远离纽仕兰。她对着小小的泽拉微笑着，她咕咕叫着表示愉悦。
+[CLEAR]
+“就是这样了，是吧？”诺瓦说。
+突然——
+endscene
+
+// fade to white, exit nano sfx, pause a little
+scene end-shore-2
+[FADEPART]
+——一个发光的东西从沃加利的头里冒出来，围着小小的甲板疯狂旋转。
+[CLEAR]
+难道是……尘埃之里的阿什·碧蒂？诺瓦目瞪口呆，被精力充沛的小孩子撞得失去平衡。诺瓦滑到半空中，绝望地想要抓扶手……直到——
+endscene
+// nanofx
+// cut to elegy scene
+
+scene end-shore-3
+[FADEPART]
+——诺瓦落到了一个温暖而坚定的怀抱里。接住她的正是艾勒迪·碧蒂！
+---
+[FADENOFADE]
+诺瓦对艾勒迪耳语，“我什么都不明白。我不明白外面有什么，甚至不明白自己内心有什么。“
+艾勒迪将诺瓦抬起来，看着地平线。她捏了捏诺瓦的肩膀。“这就是海洋的美，”她说。
+endscene
+// fade back slowly.. show new scene of ocean boat
+// wait, then THE END
+// fade to black, roll credits.
+
+// mid credits
+scene credits-drem
+//As Drem says these lines he sorta walks along until he runs into bowl of soup.
+DK:啊……又是仁爱之里的美好一天！看起来一切都回归正轨了。感谢中央绝妙的规划！多么奇妙的——嘿！等等！我怎么从来没见过这个！
+DK:嗯……这下面有个纸条。
+[FADE]
+亲爱的德里姆，
+希望你喜欢这碗汤。记住：进食就像是反向说话。
+此致，
+诺瓦与艾勒迪
+[FADEOFF]
+$DK$:“这碗汤”？“进食”？这都是什么奇怪的话？说是诺瓦和……艾勒迪？啊，对，那个特别的粉衣服姑娘……
+$DK$:嗯……好吧，这东西显然不是这里的。最好趁有人说闲话之前扔出去。
+$DK$: ……
+$DK$:是的……现在就把它扔进垃圾桶吧，哈哈！
+$DK$: ……
+$DK$:不过话说回来……我最好还是自己调查一下。当然，都是为了中央！
+$DK$: *嗅*闻起来……还挺好的，说实话。真的挺好。嗯……“说话”是话语从嘴里出来。那……或许“进食”就是“汤”从嘴里进去。是的……这是我能想到唯一符合逻辑的解释了。
+$DK$:我想……就尝一口也没事吧，对吧？嗯……这算什么！！*舔* *尝* *喝* *灌*
+endscene
+
+scene credits-drem-2
+// soup sprite turns to empty bowl
+……
+………
+…………
+$DK$:嗯嗯嗯！！
+//rubs tummy
+// end credits
+endscene
+
+scene credits
+// 0
+《镇痛2：归于尘埃》\n\n\nAnalgesic Productions出品\n\nMarina Kittaka\nMelos Han-Tani
+游戏、关卡、敌人、世界设计\n\nMarina + Melos\n\n\n出品，视觉概念/指导\n\nMarina + Melos
+主线故事剧本\n\nMarina\n\n\n支线故事剧本\n\nMarina + Melos\n\n\n工具、控制、镜头、场景、图像、过场、本地化、敌人逻辑\n\nMelos\n\n\n人物设计、界面、2D形象、粒子、2D环境、2D背景、2D动作、3D模型、3D材质、绑定、3D动作\n\nMarina
+音乐与音效设计\n\nMelos\n\n\n商务、Twitter、Discord与Youtube 等、开发日志、新闻\n\nMelos\n\n\n市场事务\n\nMarina + Melos\n\n\n公司与游戏标志\n\nMarina\n\nChinese Localization: 一只小雨 ada.wuyu@gmail.com\nFrench Localization: Kevin Malchere\nBrazilian Portuguese Localization: https://www.deviantart.com/anemptysoul\nGerman Localization: Marcel Weyers and Steven Korkowsky - Tolma4 Team\nVoid - Heartbit Font. German Proofreading: Jan-Lukas Koch
+开发+编程工具\n\nUnity 2017.3\nCinemachine\nTextMeshPro\nRewired\nVisual Studio\nProBuilder + ProGrids\nSaad Khawaja's Screenshot Tool\nMS Paint\nMINGW64
+图像+音乐+音效工具\n\nGIMP\nPhotoshop\nBlender\nAbleton Live\nREAPER\n\n\nMarketing Tools\n\nTwitter Ads\nAdobe Premiere Pro\nYouTube\nOBS\nFFMPEG\nGifCam\nPuTTY
+推广+沟通工具\n\nEvernote\nTodoist\nDiscord\nGoogle Docs/Slides/Sheets\nGit\nE-mail\nDropbox\nSnipping Tool\nNotepad
+质量保证\n\nElliott "cleverpidgeon" Bernard-Cooper, Kiri Sweets\nlifning, Sandy\nAda Rook, Colin Horgan, thernz\nEmma Jayne, Catherine Brinegar\nGenie Liang, Sofía González Quintana\nCarles "Zettai" Rubio Arias, Justin Wong\nDavid Crespo, John Sandoval\nJames Farmer, a bluer don juan\nToby Do, Badru\nThe Indie Bros.
+额外音乐\n\nEQUIP (Kevin Hein) - one song\nR23X (Marc Junker) - one song\nJ.S. Bach, Charles Gounod, Giovanni Martini, Thomas Morely, Modest Mussorgsky, James Paige, Shael Riley (arrangements)\n\n\nLegal\n\nSam Castree, III\n\n\nAccounting\n\nMartin McCaffrey
+The Indie Bros. - 市场协力\n\nErik Johnson\nJosh Knapp\nDevin Duggan\nMike Coletta\nTim Wetzel\nChristopher Lee\nKen Ellis\nChristopher Hayes\nDayton Haywood\nCraig Davies\n\n\n感谢Nnooo与Epiphany Games对《镇痛1》的手柄接口支持\n\n\n感谢Ratalaika Games对《恒远之海》的手柄接口支持
+来自Melos的特别感谢：\n\nSandy\nMy SAIC game and music students and the ATS department\nFamily\nChicago friends\nFreesound.org\nTom, Sophie and the Steam Team\nAnthony, August and the Kartridge Team\nThe Itch.io Team\nMarc, Drew and The Yetee Team\nMarta, Marcin, and the GOG Team\nThe Humble Store Team\nAnalgesic Productions Discord Community\nShael Riley + James Paige for public domain OHRRPGCE MIDIs\nAlt and Indie Game dev, player and critic communities\nSusumu Hirasawa, Rei Harakami, 及无数其他作曲家。
+来自Marina的特别感谢：\n\nJGH\nPixabay\nTextures.com\nNASA\nThe Blender community\nReiner "Tiles" Prokein for Create Isocam\nJames Paige and the OHRRPGCE devs and community\nGLITCH\n远方与身边的朋友们
+Marina's Abalone + Macaroni Patrons\nDan Kittaka\nDevon Corwin\nDr.Fox\nliffy\nSandy\nTate\nBadru\nBeth Cosmic\nCarta Monir\nDylan Baker\nJune Flower\nLeah Bacon\nLuke Beeman\nMonplaisir\nPatrick Winchell\nScumslug
+Marina's Pony Patrons\nAnthony Haevermaet\nChris C Cerami\ncm cooper\nEm\nGregory Avery-Weir\nJherin Miller\nJoj Fay\nJosie Brechner\nJune\nLiara Roux\nMath\nMy Variant Cover\nNikki\nPatrick Feerick\nRobert Ottem\nRosin\nTony Wei Ling
+《镇痛2：归于尘埃》是Analgesic Productions自行出资、自我研发的作品。它的开发时间从2017年12月到2019年7月，包括了全职与兼职的工作。\n\n感谢所有的玩家、粉丝、主播、视频作者、评论者，无论你们是新人还是老手，都感谢你们的支持！\n\nMarina Kittaka and Melos Han-Tani
+// 14  max idx 
+endscene
+
+scene credits-pg
+[FADENOFADE]
+（Melos Han-Tani从界面后方走出来，对着你招手。看来Melos有话要对你说。）
+[CLEAR]
+你好！你已经抵达了诺瓦和纽仕兰故事的终点。Marina和我非常荣幸你能通关我们的游戏。
+可……我听说元商店进了一批新货。节点那里也有些奇怪。 
+嗯。不知道会是什么呢！
+[CLEAR]
+当你读取存档时，将会返回蓝河谷，仿佛诺瓦从未与中央对质过。你可能会想看看那些新东西。嗯嗯嗯……
+好了，再会！注意安全！
+endscene
+
+scene bad-prism
+诺瓦完成了最大的任务：将完全升级后的棱镜填满尘埃。现在，她要和C·萨米斯特和C·维逊那利谈一谈，开启镇痛！
+endscene
+
+scene bad-sanc
+CP:诺瓦……诺瓦！！这一刻终于到来了！
+CV:太棒了，诺瓦！我必须向你致敬！在元净化框架的帮助下，你完成了前所未有的成就！
+CP:镇痛，诺瓦！你做到了！镇痛终于到来了！啊，我们为了这一天等了多久啊！！
+CV:快，我们必须清空棱镜！
+//we see prism draining
+//Cut to RingCCC, sky turns a weird color, rain begins to fall
+endscene
+
+scene bad-end-skel
+ST:这可能吗？渴望已久的繁荣就要来了？
+GR:镇痛……
+ST:我爱你，格拉维斯。我永远爱你。
+GR:我知道，斯塔夫罗斯。我会永远留在你身边，超越一切时间的界限。说到底，时间和空间有什么区别呢？
+// fade to white, ominous freeze SFX?But we don’t actually see what happens to them definitively.
+endscene
+
+scene bad-end-clone
+LY:克隆威，看啊，它来了！
+CY: …………
+LY:我就知道我们耐心等待镇痛是值得的！想想那些我们为了避免所以留给自己的意外吧，哈哈哈！
+LY:谢谢你一直照顾我，克隆威。应该给你发一个荣誉友谊博士，哈哈哈！荣誉的意思是“假的”，不过依然还是一个值得尊敬的成就！
+CY: …………
+LY:好吧，那边见……
+endscene
+
+scene bad-end-geof
+GA:啊……结束了吗？工作终于完成了？对，哈哈哈！既然镇痛来临了，我也证实了自己心中的勇气。我，杰夫，终于坚持到了最后一刻！哈哈哈！我从来没有放弃，无论是谁阻止我！无论我失去了什么！！
+GA: ……
+GA:西里科……阿梅西亚……你们会为我骄傲吗？你们终于明白了吗？
+endscene
+
+scene bad-end-rage
+RP:被诺瓦净化真是最美妙的感受。那些心中的怒火终于得以平息。能够消除过去那些可耻的举动真是太好了。
+RP: ……
+RP:但随着新鲜感消退，我记起了愤怒的根源，那个一直萦绕我的问题：为什么中央创造了纽仕兰？为什么世界上充满了恐惧与痛苦……让我们在无尽的剥削中循环的痛苦？但我心中的烈火已经熄灭，只剩下微弱的余烬。
+RP: ……
+RP:或许答案就在镇痛中吧。
+endscene
+
+scene bad-final
+CP:诺瓦，我们终于能获得安宁了。我们错误的举动将不再破坏梦想的无限力量！纽仕兰的一切都将归于正道……啊……这是多么美丽啊，诺瓦！我受不了了，孩子。哈哈哈……我要开心得哭出来了！！
+CP: ……
+CP: ………
+CP:啊……她应该会为你自豪吧，诺瓦。如果……帕利赛德……
+// fade to white, ominous freeze SFX
+// But this time, we fade back in slowly and see that Nova, Psalm, Vis, are frozen... screen is grey and deathly still for a few moments.“The End” fades in over 
+endscene
+
+// THE END...
+// Abridged Credits
+
+scene bad-marina
+Marina Kittaka:n 或许，还有另外一种命运等待着纽仕兰。如果你载入存档，将会返回镇痛之前。你试过回到尘埃之里吗？记住：你随时可以改变主意。
+Marina Kittaka:n 我相信你！！
+endscene
+
+//--- postgame
+
+scene pg-nexus
+直率的石头:嘿，孩子。要是我能当一会儿提示的石头……
+提示的石头:我在附近待了一阵。你还太年轻了，不能使用传送板，诺瓦。请晚些时候再来吧。
+石头:我只是个石头。一块知道传送板可以用的石头。
+endscene
+
+scene pg-oob
+测试欧布:嘿，废物！你在这干什么呢？觉得自己很聪明吗，哈？想穿墙？哈！想得美！
+测试欧布:我已经这样做了好几年了。无论是2D*还是*3D！！！
+测试欧布:我看你都没集齐元代币吧！哈！你知道世界上还隐藏着多少吗？你都想不到！！祝你把它们都找出来！！ 
+测试欧布:你不是真想把所有元代币都找到吧？可别。又没有什么“特别的秘密物品！”除非你只是寻找刺激。
+测试欧布:是啊是啊。一旦你被“激励”毒害了，探索的乐趣就……消失了。荡然无存。就像Kiri里的鸽子！！（Kiri是日语“雾”的意思。） 
+测试欧布:所以我要说的是，既然又没有奖励，就不要把它们全找出来然后跑到论坛上晒！！这是警告！！不要把时间都浪费在上面，因为什么都不会改变！！
+endscene
+
+scene pg-oob2
+// 0
+测试欧布:或许测试欧布可以帮你找到所有的元代币。但你得自己先找到300个！你现在只找到{COINS}个！但是记住了：不会有奖励！ 
+// 1 at 300
+测试欧布:哼。看来你找到了{COINS}个元代币！你一定很激动吧。不过，哈！你找到的越多，剩下的就越难找到！你最好是做个Excel记着吧！我打赌你肯定想要提示！“哦，求你了，伟大的测试欧布，给可怜的我一点提示吧！”唉呀真可惜！一千年都不会给提示的！这可是现实世界！！！去找到400个再回来！！
+// 2 at 400
+测试欧布:真厉害。你找到了{COINS}个元代币！看起来你打算做自己的首席代币发行商了！!好吧……我就给你个提示吧。这是个特别的物品。
+诺瓦获得了元代币探测器专业版。
+测试欧布:你可以在普通形态的时候使用它。别担心，这可是专业版！很不幸的是，它并不能精确定位元代币。但至少不会跳广告！！
+// 5 6
+测试欧布:你找到了{COINS}个元代币。这可不是全部！！等你快要找全的时候再回来！！我会再给你一个提示。中央圣所和外域沙地南部的山上没有元代币！在纳米形态能找到的元代币都在宝箱里！
+测试欧布:还有，宝箱可能还有漏掉的元代币！！啊哈哈哈！但我的战略顾问说，“如果你把看到的每个宝箱都翻一遍，就不会漏掉了。” 
+// At ?? high amount
+测试欧布:真厉害，{COINS}个元代币！你基本上全部找到了！我就知道会有这一天。是啊，诺瓦，我只不过是扮演一个“古怪的NPC”，所以我想鼓励一下你……你是真的很懂“收集”。就像我说的……并没有什么奖励。哪怕你真的全都找到也没有。
+[FADE]
+突然间，发出一个声音。是制作人Tani！他会有奖励吗？欧布错了吗？
+“不。你做得很棒。哎，就像欧布说的那样，并没有什么奖励。再会了……我走我走……”
+[FADEOFF]
+测试欧布:啊……多么美丽的话语……真棒，真棒。
+endscene
+
+
+scene extra-area
+// R1N - 0 to 6
+KT:哦，你好。我是玛莎·科塔温。我比纽仕兰那个元信息的笨蛋更讲道理。我是这里的历史学家，记录纽仕兰的诞生。嗯……所以……欢迎来到……界外地？我们就用这个词吧……我永远都会待在这些界外地，所以那就好好利用它们，对吧？唉……
+KT:好吧，你可以用菜单返回纽仕兰。嗯……某个“S”姓神秘人士想让我告诉你，界外地不是“正统”也没什么可“找”的。希望你能“找”到爱吧……啊，我又来了……
+KT:是啊。界外地就是超越纽仕兰的地方。“M”姓与“S”姓神秘人一致认为这地方不值得看。嗯……就是说……有两种创世神话，一种说“中央”创造了纽仕兰，这是“正统”，而另一种这说是M与S创造了它，这是“元”。
+KT:这是一张S的建筑草图，它是M在蓝河谷的洗车行灵感来源。你周围的白色区域是创造驾驶形态时用的……据说是件很累人的事情。其他就没有什么了，不过你可以去绿色区域看看。那张脸的图片……据S说是被诅咒了……我们就无视它吧……但是在用来建造飞船“先进”的水面科技时候用的。
+KT:纽仕兰曾经计划有着各种各样的神庙与地下城。这是S制作的一个外观。这样的计划太过昂贵，所以地下城被完全抛弃了。如果你转一转，这个建筑看起来像个奇怪的家。再往左一些，远处的框架结构就是杰夫村子的原型。
+KT:S制作的另一个区域。或许有人生活在那上面……但如果只是为了一个纳米点，这样的地方就太得不偿失了。很遗憾，它最终来到了这个界外地。S非常希望你从攀登中获得舒适的感觉。
+KT:实际上，你从这个地方看到的整片区域都是S制作的蓝河谷原型，为了获得正确的比例感。
+
+// ZZ_****Ring1Test 7 12
+KT:神秘的洞--\n神秘的洞！--它很神秘，而且是洞！\n...\n喜欢我的新歌吗？\n这个洞其实神秘都不是……我只是觉得唱首歌会让这东西更有趣。
+KT:我们……并不知道它的起源。诺瓦经历了数次迭代，所以有时候会剩下老版本的M，让旧版的结构变得一团糟。S说“这就是中央的真正化身！”。她在说谎。
+KT:这些小逆戟鲸是M创造的第一批角色。我个人认为它们很可爱。我们应该做成玩偶。我一定要买个！！……不过，靠这份薪水大概不行吧，唉。享受这份可爱吧！
+KT:大部分界外地都是源自M在创造纽仕兰是视觉风格时产生的。你会发现一些从未进入纽仕兰的视觉测试与模型。我很喜欢蛋灌木和红草丛……
+KT:这两个建筑是S的早期建筑测试，为的是制作出一些小而有趣的探索点。它们变成了M那边的草稿。M版本中的逆戟鲸是用来测试建筑大小的。 
+KT:欢迎来到角落！哈哈哈，你明白吗？感觉就像“中央”，但是……呃。我有时候会喜欢来这里，眺望远方。
+
+// ZZ_CCC_Old_1 13 15
+KT:欢迎来到S的早期岩坑原型——这是一个圆柱形的洞穴，城市的各部分分散在不同的高度。S依然很喜欢这里，觉得可能做起来更开一些，但确实比最终版本的岩坑感觉小得多。这片区域是“行政区”，有电梯和通往中央圣所的入口。
+KT:这里本来是一小片花园或者是美食广场。我见过草图，很可爱。或许我本来可以在纽仕兰享受披萨的！
+KT:除了岩坑的外侧道路，还有一条更低的路环绕着城市。可以用来进入城市的各个部分！还有居住区之类的规划。
+
+// ZZ_CCC_OLD_2 16 18
+KT:每当我悲伤的时候，来到这里会让我觉得空虚。啊，好黑啊……嗯……这是岩坑的2号版本。S根据M的概念画制作了这里。这里没什么东西，但你可以感觉到大致的结构。我喜欢这条中央环道，它通往中央圣所。
+KT:看起来M和S在研究如何让电梯运作的时候遇到了困难。最终，他们决定只做一个电梯平台，并不描写它前往中央圣所的细节。真方便！
+KT:你不能爬上去，但这里可能是某种攀爬挑战的原型！
+
+// ZZ_CCC_OLD_3 19 20
+KT:看起来有点熟悉了吧，嗯？我不太清楚M是在什么时候、为什么决定使用最终版本的，但这个粗略的旧版本岩坑就在这供你探索。如你所见，中央电梯和公园依然还没做好。地面上那些支撑着天花板的柱子也被移除了，甚至还在道路上建了各种各样的建筑。
+KT:（顺便一提，这里并不会有额外的元信息点数。）
+
+// DEBUG2DFAKE 21 23
+$KT$:你做到了！！来到了，最后，一个，界外地！！！恭喜你！我的人生有了意义。嗯……这地方有些难探索。嗯……S把这里叫做“传送”区。当S想要快速到达纽仕兰的某个地方时，S就会来到这个房间，站在图标上，这样就能立刻传送到那里。我听说非常方便。不过，为了你的安全考虑，这些传送门都没激活。
+$KT$:我不想费功夫解释这里是生命，不过你可以猜猜看。“3”代表“3D”……有一个是外域沙地的，一个是蓝河谷的，一个是中城岩坑的，一个是尘埃之里的，另一个则是泽拉和蛋白海岸的。
+$KT$:S需要确保纳米刺客的难度正确地成长，因此制作了这些测试房间。嗯……多谢你读完我的信息！呵呵……非常感谢。
+
+// ZZ test3d 24
+KT:S在这里测试了平台、视角甚至3D到2D的转换！但现在没有哪片区域还在工作。多么舒适而安静的地方啊。让我想起了图书馆的书架。
+
+// 25 ZY_Melos Test Arches
+KT:你知道吗，纽仕兰的一切都是用“紫色方块”制作的？哈哈，也不全是。但这些紫色方块是……嗯，你进去就知道了，
+KT:这里很多结构都是S在研究建筑与关卡风格时用的。那个遥远的地方是蓝河谷西部模型，顶端还有个M的美术画廊！
+// 27 ZZ alb old
+KT:这里是S根据M的布局草图制作的“灰盒”版蛋白海岸。在后面的3D地区中，M发现自己制作或是通过S的概念草图来制作3D区域，要比从模型来制作快得多。总之，关于蛋白海岸，之前还有个白沙版本，但已经遗失了。不过听说S那里还有图片。
+// 28 rin ggoem
+KT:这是S制作的旧版蓝河谷西部。它也包含了旧的地形，但后来为了适应真正的纽仕兰做出了改变。
+// 29 jonifeartest
+KT:真正的粉丝就像你一样，记住了！！不过，它没有进入真正的纽仕兰，哈哈！这基本上只是个“艺术测试”。非常非常早期了。就像是，2018年6月那样。6月是什么？2018是什么？嗯……
+// 30 gif nanoalb
+$KT$:M之前制作了这个旧版本的阿黄区域！有很多区别，更像是操场。你也可以在右边看见诺瓦的旧版2D图像，以及这里的格子是由16个像素组成的，而不是大多数格子使用的8个像素！
+// 31 chapel trailer
+KT:这片区域只是用在“宣传片”里的，并没有进入最终游戏。这地方很老！但这里就是诺瓦破壳而出的地方。这里改变了很多，但让诺瓦从蛋里出现的想法从未改变。
+// 32 nano db old
+$KT$:欢迎来到旧埃之里！哈哈，这个名字是我起的。这是旧版本的尘埃之里。
+// 33
+KT:这里是旧版本的蓝河谷。你没准能从旧的宣传材料里认出来！哦吼。
+// 34
+KT:这里是S制作的第一个原型区域。其实这里曾经有这种花哨的橙色纹理。你身后是用来测试建筑比例的房子。远处是一座山，山顶上有个小房子叫什么“年轻人的登山大本营”什么的。还有，S测试了这个3D“射球游戏”，让你可以向目标发射球体……嗯……没事。
+endscene
+
+
+
+scene pg-land
+鸽……咕咕……你是谁？你不是从大地来的！这里不安全！到处都是尘埃……咕！很多人都跟着赛琪进入了那个传送门，但我再也没见过他们！希望他们还好！！赛琪看起来很生气。不过，还有一些人跟米特拉走了！ 
+买！买买买买买……买……谁偷了我的吸尘器？谁偷的？？是你！小偷！！！马上还给我！！我认得上面的磨损，我认识这个吸尘器！！！
+很不幸，这个包里并没有元代币。
+诺瓦听到奇怪的声音，仿佛家里有个传送门。可惜，门已经被移走了，所以没法进去。
+石头上写着：“大地的其他居民，这里是你们的朋友米特拉！快点到外面去，不然就太迟了……威尔斯和我准备离开了。想和我一起来的请来找我。我们会通过我在家里开启的裂缝离开。我们不知道赛琪什么时候就会用那个危险的吸尘器换什么重要的东西，所以最好赶紧离开。”
+---
+---
+---
+赛琪的撤离传送门在这边！
+标志上的词语已经褪色了。没什么可奇怪的，因为前方的道路已经完全被毁坏，只剩下被尘埃吞噬的黑暗虚空。
+
+诺瓦检查了宝箱，但里面空空如也。 
+石头上刻着文字。“再见了，杨。再见了，布里亚。还有……你们做得很好。但自从你离开后，大地就开始腐化了。或许，是你们保护了这个世界。这是不是说，我们并不被需要，对你并不重要？其他人看起来并不在意，似乎并没有意识到问题。只有米特拉发现了，但我觉得我们无法合作。我要找条路离开大地，杨。就从你留下的交换工具开始吧……”
+石头上的词语已经被划掉了。
+石头上写着“爱你的朋友们！”
+endscene
+
+scene drawer-enter
+[FADE]
+诺瓦从一个没有贴图的通道里离开了。在她背后，碎片漂浮在空中。这条通道似乎是凭空挖出来的。
+在这段经历中，你看到的一切都不会改变诺瓦的人生或是故事。她只是你用来探索的方式。
+[CLEAR]
+突然间，制作人Tani出现了。
+“抱歉，我能稍微打破一下次元壁吗……”
+[CLEAR]
+“我的意思是：诺瓦在《镇痛2》中的正统故事并不包括从节点来到这里。不过，你在这里看到的一切正是《镇痛2》的起源，而且，嗯……你会明白的！”
+[CLEAR]
+（而且……元商店里出现了一些新东西。）
+[FADEOFF]
+endscene
+
+scene the-end-only
+全剧终
+endscene

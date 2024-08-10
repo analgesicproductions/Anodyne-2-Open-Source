@@ -1,0 +1,7149 @@
+fileFormatVersion: 2
+guid: f812c4ec92581a546943f9b81bc9ca72
+timeCreated: 1562879465
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprites16_0
+    21300002: sprites16_1
+    21300004: sprites16_2
+    21300006: sprites16_3
+    21300008: sprites16_4
+    21300010: sprites16_5
+    21300012: sprites16_6
+    21300014: sprites16_7
+    21300016: sprites16_8
+    21300018: sprites16_9
+    21300020: sprites16_10
+    21300022: sprites16_11
+    21300024: EntitySprites16_0
+    21300026: EntitySprites16_1
+    21300028: EntitySprites16_2
+    21300030: EntitySprites16_3
+    21300032: EntitySprites16_4
+    21300034: EntitySprites16_5
+    21300036: EntitySprites16_6
+    21300038: EntitySprites16_7
+    21300040: EntitySprites16_8
+    21300042: EntitySprites16_9
+    21300044: EntitySprites16_10
+    21300046: EntitySprites16_11
+    21300048: EntitySprites16_12
+    21300050: EntitySprites16_13
+    21300052: EntitySprites16_14
+    21300054: EntitySprites16_15
+    21300056: EntitySprites16_16
+    21300058: EntitySprites16_17
+    21300060: EntitySprites16_18
+    21300062: EntitySprites16_19
+    21300064: EntitySprites16_20
+    21300066: EntitySprites16_21
+    21300068: EntitySprites16_22
+    21300070: EntitySprites16_23
+    21300072: EntitySprites16_24
+    21300074: EntitySprites16_25
+    21300076: EntitySprites16_26
+    21300078: EntitySprites16_27
+    21300080: EntitySprites16_28
+    21300082: EntitySprites16_29
+    21300084: EntitySprites16_30
+    21300086: EntitySprites16_31
+    21300088: EntitySprites16_32
+    21300090: EntitySprites16_33
+    21300092: EntitySprites16_34
+    21300094: EntitySprites16_35
+    21300096: EntitySprites16_36
+    21300098: EntitySprites16_37
+    21300100: EntitySprites16_38
+    21300102: EntitySprites16_39
+    21300104: EntitySprites16_40
+    21300106: EntitySprites16_41
+    21300108: EntitySprites16_42
+    21300110: EntitySprites16_43
+    21300112: EntitySprites16_44
+    21300114: EntitySprites16_45
+    21300116: EntitySprites16_46
+    21300118: EntitySprites16_47
+    21300120: EntitySprites16_48
+    21300122: EntitySprites16_49
+    21300124: EntitySprites16_50
+    21300126: EntitySprites16_51
+    21300128: EntitySprites16_52
+    21300130: EntitySprites16_53
+    21300132: EntitySprites16_54
+    21300134: EntitySprites16_55
+    21300136: EntitySprites16_56
+    21300138: EntitySprites16_57
+    21300140: EntitySprites16_58
+    21300142: EntitySprites16_59
+    21300144: EntitySprites16_60
+    21300146: EntitySprites16_61
+    21300148: EntitySprites16_62
+    21300150: EntitySprites16_63
+    21300152: EntitySprites16_64
+    21300154: EntitySprites16_65
+    21300156: EntitySprites16_66
+    21300158: EntitySprites16_67
+    21300160: EntitySprites16_68
+    21300162: EntitySprites16_69
+    21300164: EntitySprites16_70
+    21300166: EntitySprites16_71
+    21300168: EntitySprites16_72
+    21300170: EntitySprites16_73
+    21300172: EntitySprites16_74
+    21300174: EntitySprites16_75
+    21300176: EntitySprites16_76
+    21300178: EntitySprites16_77
+    21300180: EntitySprites16_78
+    21300182: EntitySprites16_79
+    21300184: EntitySprites16_80
+    21300186: EntitySprites16_81
+    21300188: EntitySprites16_82
+    21300190: EntitySprites16_83
+    21300192: EntitySprites16_84
+    21300194: EntitySprites16_85
+    21300196: EntitySprites16_86
+    21300198: EntitySprites16_87
+    21300200: EntitySprites16_88
+    21300202: EntitySprites16_89
+    21300204: EntitySprites16_90
+    21300206: EntitySprites16_91
+    21300208: EntitySprites16_92
+    21300210: EntitySprites16_93
+    21300212: EntitySprites16_94
+    21300214: EntitySprites16_95
+    21300216: EntitySprites16_96
+    21300218: EntitySprites16_97
+    21300220: EntitySprites16_98
+    21300222: EntitySprites16_99
+    21300224: EntitySprites16_100
+    21300226: EntitySprites16_101
+    21300228: EntitySprites16_102
+    21300230: EntitySprites16_103
+    21300232: EntitySprites16_104
+    21300234: EntitySprites16_105
+    21300236: EntitySprites16_106
+    21300238: EntitySprites16_107
+    21300240: EntitySprites16_108
+    21300242: EntitySprites16_109
+    21300244: EntitySprites16_110
+    21300246: EntitySprites16_111
+    21300248: EntitySprites16_112
+    21300250: EntitySprites16_113
+    21300252: EntitySprites16_114
+    21300254: EntitySprites16_115
+    21300256: EntitySprites16_116
+    21300258: EntitySprites16_117
+    21300260: EntitySprites16_118
+    21300262: EntitySprites16_119
+    21300264: EntitySprites16_120
+    21300266: EntitySprites16_121
+    21300268: EntitySprites16_122
+    21300270: EntitySprites16_123
+    21300272: EntitySprites16_124
+    21300274: EntitySprites16_125
+    21300276: EntitySprites16_126
+    21300278: EntitySprites16_127
+    21300280: EntitySprites16_128
+    21300282: EntitySprites16_129
+    21300284: EntitySprites16_130
+    21300286: EntitySprites16_131
+    21300288: EntitySprites16_132
+    21300290: EntitySprites16_133
+    21300292: EntitySprites16_134
+    21300294: EntitySprites16_135
+    21300296: EntitySprites16_136
+    21300298: EntitySprites16_137
+    21300300: EntitySprites16_138
+    21300302: EntitySprites16_139
+    21300304: EntitySprites16_140
+    21300306: EntitySprites16_141
+    21300308: EntitySprites16_142
+    21300310: EntitySprites16_143
+    21300312: EntitySprites16_144
+    21300314: EntitySprites16_145
+    21300316: EntitySprites16_146
+    21300318: EntitySprites16_147
+    21300320: EntitySprites16_148
+    21300322: EntitySprites16_149
+    21300324: EntitySprites16_150
+    21300326: EntitySprites16_151
+    21300328: EntitySprites16_152
+    21300330: EntitySprites16_153
+    21300332: EntitySprites16_154
+    21300334: EntitySprites16_155
+    21300336: EntitySprites16_156
+    21300338: EntitySprites16_157
+    21300340: EntitySprites16_158
+    21300342: EntitySprites16_159
+    21300344: EntitySprites16_160
+    21300346: EntitySprites16_161
+    21300348: EntitySprites16_162
+    21300350: EntitySprites16_163
+    21300352: EntitySprites16_164
+    21300354: EntitySprites16_165
+    21300356: EntitySprites16_166
+    21300358: EntitySprites16_167
+    21300360: EntitySprites16_168
+    21300362: EntitySprites16_169
+    21300364: EntitySprites16_170
+    21300366: EntitySprites16_171
+    21300368: EntitySprites16_172
+    21300370: EntitySprites16_173
+    21300372: EntitySprites16_174
+    21300374: EntitySprites16_175
+    21300376: EntitySprites16_176
+    21300378: EntitySprites16_177
+    21300380: EntitySprites16_178
+    21300382: EntitySprites16_179
+    21300384: EntitySprites16_180
+    21300386: EntitySprites16_181
+    21300388: EntitySprites16_182
+    21300390: EntitySprites16_183
+    21300392: EntitySprites16_184
+    21300394: EntitySprites16_185
+    21300396: EntitySprites16_186
+    21300398: EntitySprites16_187
+    21300400: EntitySprites16_188
+    21300402: EntitySprites16_189
+    21300404: EntitySprites16_190
+    21300406: EntitySprites16_191
+    21300408: EntitySprites16_192
+    21300410: EntitySprites16_193
+    21300412: EntitySprites16_194
+    21300414: EntitySprites16_195
+    21300416: EntitySprites16_196
+    21300418: EntitySprites16_197
+    21300420: EntitySprites16_198
+    21300422: EntitySprites16_199
+    21300424: EntitySprites16_200
+    21300426: EntitySprites16_201
+    21300428: EntitySprites16_202
+    21300430: EntitySprites16_203
+    21300432: EntitySprites16_204
+    21300434: EntitySprites16_205
+    21300436: EntitySprites16_206
+    21300438: EntitySprites16_207
+    21300440: EntitySprites16_208
+    21300442: EntitySprites16_209
+    21300444: EntitySprites16_210
+    21300446: EntitySprites16_211
+    21300448: EntitySprites16_212
+    21300450: EntitySprites16_213
+    21300452: EntitySprites16_214
+    21300454: EntitySprites16_215
+    21300456: EntitySprites16_216
+    21300458: EntitySprites16_217
+    21300460: EntitySprites16_218
+    21300462: EntitySprites16_219
+    21300464: EntitySprites16_220
+    21300466: EntitySprites16_221
+    21300468: EntitySprites16_222
+    21300470: EntitySprites16_223
+    21300472: EntitySprites16_224
+    21300474: EntitySprites16_225
+    21300476: EntitySprites16_226
+    21300478: EntitySprites16_227
+    21300480: EntitySprites16_228
+    21300482: EntitySprites16_229
+    21300484: EntitySprites16_230
+    21300486: EntitySprites16_231
+    21300488: EntitySprites16_232
+    21300490: EntitySprites16_233
+    21300492: EntitySprites16_234
+    21300494: EntitySprites16_235
+    21300496: EntitySprites16_236
+    21300498: EntitySprites16_237
+    21300500: EntitySprites16_238
+    21300502: EntitySprites16_239
+    21300504: EntitySprites16_240
+    21300506: EntitySprites16_241
+    21300508: EntitySprites16_242
+    21300510: EntitySprites16_243
+    21300512: EntitySprites16_244
+    21300514: EntitySprites16_245
+    21300516: EntitySprites16_246
+    21300518: EntitySprites16_247
+    21300520: EntitySprites16_248
+    21300522: EntitySprites16_249
+    21300524: EntitySprites16_250
+    21300526: EntitySprites16_251
+    21300528: EntitySprites16_252
+    21300530: EntitySprites16_253
+    21300532: EntitySprites16_254
+    21300534: EntitySprites16_255
+    21300536: EntitySprites16_256
+    21300538: EntitySprites16_257
+    21300540: EntitySprites16_258
+    21300542: EntitySprites16_259
+    21300544: EntitySprites16_260
+    21300546: EntitySprites16_261
+    21300548: EntitySprites16_262
+    21300550: EntitySprites16_263
+    21300552: EntitySprites16_264
+    21300554: EntitySprites16_265
+    21300556: EntitySprites16_266
+    21300558: EntitySprites16_267
+    21300560: EntitySprites16_268
+    21300562: EntitySprites16_269
+    21300564: EntitySprites16_270
+    21300566: EntitySprites16_271
+    21300568: EntitySprites16_272
+    21300570: EntitySprites16_273
+    21300572: EntitySprites16_274
+    21300574: EntitySprites16_275
+    21300576: EntitySprites16_276
+    21300578: EntitySprites16_277
+    21300580: EntitySprites16_278
+    21300582: EntitySprites16_279
+    21300584: EntitySprites16_280
+    21300586: EntitySprites16_281
+    21300588: EntitySprites16_282
+    21300590: EntitySprites16_283
+    21300592: EntitySprites16_284
+    21300594: EntitySprites16_285
+    21300596: EntitySprites16_286
+    21300598: EntitySprites16_287
+    21300600: EntitySprites16_288
+    21300602: EntitySprites16_289
+    21300604: EntitySprites16_290
+    21300606: EntitySprites16_291
+    21300608: EntitySprites16_292
+    21300610: EntitySprites16_293
+    21300612: EntitySprites16_294
+    21300614: EntitySprites16_295
+    21300616: EntitySprites16_296
+    21300618: EntitySprites16_297
+    21300620: EntitySprites16_298
+    21300622: EntitySprites16_299
+    21300624: EntitySprites16_300
+    21300626: EntitySprites16_301
+    21300628: EntitySprites16_302
+    21300630: EntitySprites16_303
+    21300632: EntitySprites16_304
+    21300634: EntitySprites16_305
+    21300636: EntitySprites16_306
+    21300638: EntitySprites16_307
+    21300640: EntitySprites16_308
+    21300642: EntitySprites16_309
+    21300644: EntitySprites16_310
+    21300646: EntitySprites16_311
+    21300648: EntitySprites16_312
+    21300650: EntitySprites16_313
+    21300652: EntitySprites16_314
+    21300654: EntitySprites16_315
+    21300656: EntitySprites16_316
+    21300658: EntitySprites16_317
+    21300660: EntitySprites16_318
+    21300662: EntitySprites16_319
+    21300664: EntitySprites16_320
+    21300666: EntitySprites16_321
+    21300668: EntitySprites16_322
+    21300670: EntitySprites16_323
+    21300672: EntitySprites16_324
+    21300674: EntitySprites16_325
+    21300676: EntitySprites16_326
+    21300678: EntitySprites16_327
+    21300680: EntitySprites16_328
+    21300682: EntitySprites16_329
+    21300684: EntitySprites16_330
+    21300686: EntitySprites16_331
+    21300688: EntitySprites16_332
+    21300690: EntitySprites16_333
+    21300692: EntitySprites16_334
+    21300694: EntitySprites16_335
+    21300696: EntitySprites16_336
+    21300698: EntitySprites16_337
+    21300700: EntitySprites16_338
+    21300702: EntitySprites16_339
+    21300704: EntitySprites16_340
+    21300706: EntitySprites16_341
+    21300708: EntitySprites16_342
+    21300710: EntitySprites16_343
+    21300712: EntitySprites16_344
+    21300714: EntitySprites16_345
+    21300716: EntitySprites16_346
+    21300718: EntitySprites16_347
+    21300720: EntitySprites16_348
+    21300722: EntitySprites16_349
+    21300724: EntitySprites16_350
+    21300726: EntitySprites16_351
+    21300728: EntitySprites16_352
+    21300730: EntitySprites16_353
+    21300732: EntitySprites16_354
+    21300734: EntitySprites16_355
+    21300736: EntitySprites16_356
+    21300738: EntitySprites16_357
+    21300740: EntitySprites16_358
+    21300742: EntitySprites16_359
+    21300744: EntitySprites16_360
+    21300746: EntitySprites16_361
+    21300748: EntitySprites16_362
+    21300750: EntitySprites16_363
+    21300752: EntitySprites16_364
+    21300754: EntitySprites16_365
+    21300756: EntitySprites16_366
+    21300758: EntitySprites16_367
+    21300760: EntitySprites16_368
+    21300762: EntitySprites16_369
+    21300764: EntitySprites16_370
+    21300766: EntitySprites16_371
+    21300768: EntitySprites16_372
+    21300770: EntitySprites16_373
+    21300772: EntitySprites16_374
+    21300774: EntitySprites16_375
+    21300776: EntitySprites16_376
+    21300778: EntitySprites16_377
+    21300780: EntitySprites16_378
+    21300782: EntitySprites16_379
+    21300784: EntitySprites16_380
+    21300786: EntitySprites16_381
+    21300788: EntitySprites16_382
+    21300790: EntitySprites16_383
+    21300792: EntitySprites16_384
+    21300794: EntitySprites16_385
+    21300796: EntitySprites16_386
+    21300798: EntitySprites16_387
+    21300800: EntitySprites16_388
+    21300802: EntitySprites16_389
+    21300804: EntitySprites16_390
+    21300806: EntitySprites16_391
+    21300808: EntitySprites16_392
+    21300810: EntitySprites16_393
+    21300812: EntitySprites16_394
+    21300814: EntitySprites16_395
+    21300816: EntitySprites16_396
+    21300818: EntitySprites16_397
+    21300820: EntitySprites16_398
+    21300822: EntitySprites16_399
+    21300824: EntitySprites16_400
+    21300826: EntitySprites16_401
+    21300828: EntitySprites16_402
+    21300830: EntitySprites16_403
+    21300832: EntitySprites16_404
+    21300834: EntitySprites16_405
+    21300836: EntitySprites16_406
+    21300838: EntitySprites16_407
+    21300840: EntitySprites16_408
+    21300842: EntitySprites16_409
+    21300844: EntitySprites16_410
+    21300846: EntitySprites16_411
+    21300848: EntitySprites16_412
+    21300850: EntitySprites16_413
+    21300852: EntitySprites16_414
+    21300854: EntitySprites16_415
+    21300856: EntitySprites16_416
+    21300858: EntitySprites16_417
+    21300860: EntitySprites16_418
+    21300862: EntitySprites16_419
+    21300864: EntitySprites16_420
+    21300866: EntitySprites16_421
+    21300868: EntitySprites16_422
+    21300870: EntitySprites16_423
+    21300872: EntitySprites16_424
+    21300874: EntitySprites16_425
+    21300876: EntitySprites16_426
+    21300878: EntitySprites16_427
+    21300880: EntitySprites16_428
+    21300882: EntitySprites16_429
+    21300884: EntitySprites16_430
+    21300886: EntitySprites16_431
+    21300888: EntitySprites16_432
+    21300890: EntitySprites16_433
+    21300892: EntitySprites16_434
+    21300894: EntitySprites16_435
+    21300896: EntitySprites16_436
+    21300898: EntitySprites16_437
+    21300900: EntitySprites16_438
+    21300902: EntitySprites16_439
+    21300904: EntitySprites16_440
+    21300906: EntitySprites16_441
+    21300908: EntitySprites16_442
+    21300910: EntitySprites16_443
+    21300912: EntitySprites16_444
+    21300914: EntitySprites16_445
+    21300916: EntitySprites16_446
+    21300918: EntitySprites16_447
+    21300920: EntitySprites16_448
+    21300922: EntitySprites16_449
+    21300924: EntitySprites16_450
+    21300926: EntitySprites16_451
+    21300928: EntitySprites16_452
+    21300930: EntitySprites16_453
+    21300932: EntitySprites16_454
+    21300934: EntitySprites16_455
+    21300936: EntitySprites16_456
+    21300938: EntitySprites16_457
+    21300940: EntitySprites16_458
+    21300942: EntitySprites16_459
+    21300944: EntitySprites16_460
+    21300946: EntitySprites16_461
+    21300948: EntitySprites16_462
+    21300950: EntitySprites16_463
+    21300952: EntitySprites16_464
+    21300954: EntitySprites16_465
+    21300956: EntitySprites16_466
+    21300958: EntitySprites16_467
+    21300960: EntitySprites16_468
+    21300962: EntitySprites16_469
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EntitySprites16_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 943
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 925
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 907
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_39
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 889
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_41
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_45
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 871
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_51
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_53
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_54
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_55
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_56
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_57
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_58
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_61
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_62
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_63
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_64
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_66
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_67
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_69
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_71
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_72
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_75
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_76
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_78
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_81
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_82
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_83
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_84
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_85
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_86
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_88
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_89
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_91
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_92
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_93
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_94
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_95
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_96
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_97
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_99
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_101
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_102
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_103
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_104
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_105
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_106
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_107
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_109
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 763
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_111
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_112
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_113
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_114
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_115
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_116
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_117
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_118
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_119
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 745
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_121
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_122
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_123
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_124
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_125
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_126
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_127
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_128
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_129
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 727
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_130
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_131
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_132
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_133
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_134
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_135
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_136
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_137
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_138
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_139
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 709
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_141
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_142
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_143
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_144
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_145
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_146
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_147
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_149
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 691
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_151
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_152
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_153
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_154
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_155
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_156
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_157
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_158
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_159
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 673
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_161
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_162
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_163
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_164
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_165
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_166
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_167
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_168
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_169
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_171
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_172
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_173
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_174
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_175
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_176
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_177
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_178
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_179
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_181
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_182
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_183
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_184
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_185
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_186
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_187
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_188
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_189
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 619
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_190
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_191
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_192
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_193
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_194
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_195
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_196
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_197
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_198
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_199
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_201
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_202
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_203
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_204
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_205
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_206
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_207
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_208
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_209
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_210
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_211
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_212
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_213
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_214
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_215
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_216
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_217
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_218
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_219
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 565
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_221
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_222
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_223
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_224
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_225
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_226
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_227
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_228
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_229
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_231
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_232
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_233
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_234
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_235
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_236
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_237
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_238
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_239
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 529
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_240
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_241
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_242
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_243
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_244
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_245
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_246
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_247
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_248
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_249
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_250
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_251
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_252
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_253
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_254
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_255
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_256
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_257
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_258
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_259
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_260
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_261
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_262
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_263
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_264
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_265
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_266
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_267
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_268
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_269
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 475
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_270
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_271
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_272
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_273
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_274
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_275
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_276
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_277
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_278
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_279
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 457
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_280
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_281
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_282
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_283
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_284
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_285
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_286
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_287
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_288
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_289
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_290
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_291
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_292
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_293
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_294
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_295
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_296
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_297
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_298
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_299
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 421
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_300
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_301
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_302
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_303
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_304
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_305
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_306
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_307
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_308
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_309
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_310
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_311
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_312
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_313
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_314
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_315
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_316
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_317
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_318
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_319
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_320
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_321
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_322
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_323
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_324
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_325
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_326
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_327
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_328
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_329
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_330
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_331
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_332
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_333
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_334
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_335
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_336
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_337
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_338
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_339
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 349
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_340
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_341
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_342
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_343
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_344
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_345
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_346
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_347
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_348
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_349
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_350
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_351
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_352
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_353
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_354
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_355
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_356
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_357
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_358
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_359
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_360
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_361
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_362
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_363
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_364
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_365
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_366
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_367
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_368
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_369
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_370
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_371
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_372
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_373
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_374
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_375
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_376
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_377
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_378
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_379
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_380
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_381
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_382
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_383
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_384
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_385
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_386
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_387
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_388
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_389
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_390
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_391
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_392
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_393
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_394
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_395
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_396
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_397
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_398
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_399
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_400
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_401
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_402
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_403
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_404
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_405
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_406
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_407
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_408
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_409
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_410
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_411
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_412
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_413
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_414
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_415
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_416
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_417
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_418
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_419
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_420
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_421
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_422
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_423
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_424
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_425
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_426
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_427
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_428
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_429
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_430
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_431
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_432
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_433
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_434
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_435
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_436
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_437
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_438
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_439
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_440
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_441
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_442
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_443
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_444
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_445
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_446
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_447
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_448
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_449
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_450
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_451
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_452
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_453
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_454
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_455
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_456
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_457
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_458
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_459
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_460
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_461
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_462
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_463
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_464
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_465
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_466
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_467
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_468
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: EntitySprites16_469
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

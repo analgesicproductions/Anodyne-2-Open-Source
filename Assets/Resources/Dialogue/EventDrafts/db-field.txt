@@ -1,0 +1,97 @@
+// Set state, wait for stuff to fade in.., remove pal card
+set db-field to 1
+set CARD_PAL to 0
+specificCrap hideareaname
+
+collider off p2d
+stopallsongs 0
+playsong meadowAmbience 0 0
+move p2d to db-field-pos-1
+wait 2
+
+// Make player move downwards
+play dead anim on p2d
+// Fall sound
+sfxsingle fallDown
+lerplin p2d to db-field-pos-2 in 1.5
+wait 1.4
+
+// hive break sound
+sfxsingle gateclose
+//screenshake 0.5
+play2d broken on hive
+wait 1
+
+say db-field-0
+
+// after dialogue. start wasps. Start clouds. play hurt sounds.
+sfxsingle bluntExplosion
+particle start WaspCloud
+particle start DremCloud
+wait 1
+sfxsingle playerHurt
+wait 1
+sfxsingle playerHurt
+wait 1
+sfxsingle playerHurt
+wait 3
+
+// when clouds are near enough, move the wasps away
+lerplin WaspCloud to db-field-pos-waspend in 12
+
+// Start fading bg to black, change song to dusttheme
+fadeSpriteAlpha fieldBlackBG 1 3
+stopallsongs 1
+wait 3
+playsong DustCue 0 0
+
+// When black, move the eyes to the player
+move fieldEyes to db-field-pos-3
+lerplin fieldEyes to db-field-pos-4 in 3.4
+wait 3.4
+
+// Say text, show (!) then move player back, then text
+say db-field-1
+play idle_d anim on p2d
+flicker exclam1 0.5 on
+wait 1
+fadeSpriteAlpha exclam1 0 0.1
+wait 0.5
+
+lerplin p2d to db-field-pos-6 in 2
+play walk_u anim on p2d
+wait 2.1
+
+play idle_d anim on p2d
+say db-field-2
+
+// Card appear
+sfxsingle cardUpgradeAppear
+lerplin fieldEyes to db-field-pos-5 in 2
+play suck_d_idle anim on p2d
+enable sr of palCard
+wait 2
+
+particle stop DremCloud
+wait 1
+// (!) over drem
+flicker exclam2 0.5 on
+wait 1
+fadeSpriteAlpha exclam2 0 0.1
+
+say db-field-3
+
+wait 0.5
+sfxsingle cardTear
+play2d rip on palCard
+wait 1
+flicker palCard 1 off
+wait 1.5
+
+
+say db-field-4
+
+play playerSpinDie anim on p2d
+wait 2
+fade to black in 4
+map NanoDustbound BedroomEntrance 0 0

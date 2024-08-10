@@ -1,0 +1,748 @@
+
+scene db-field-0
+...
+endscene
+
+scene db-field-1
+[FADE]
+Nova se retuerce de dolor debido a las venenosas picaduras del enjambre, hasta que comienza a respirar de alivio cuando ve que se empiezan a alejar. Pero entonces vuelve a cambiar, y es que el motivo de ello es una nube de nanopartículas que la rodea. Se introduce en sus pulmones, complicando su respiración. 
+[CLEAR]
+Lentamente, Nova vuelve a abrir los ojos, y, aunque al principio todo es borroso, pronto comienza a distinguir unas figuras entre la bruma. ¿Quiénes podrían ser capaces de caminar entre las nanopartículas como si nada?
+endscene
+
+scene db-field-2
+[FADE]
+Entonces, la imagen de Palisade recorre la mente de Nova...
+"Nova, quiero que tengas mi carta. Mantenla siempre cerca de ti y no la uses en el prisma. Te protegerá de todo mal aunque yo no esté cerca."
+[CLEAR]
+Rápidamente, Nova introduce sus manos en su bolsa en busca de la carta de Palisade. Las figuras de antes se acercan a ella, ¡Nova tiene que darse prisa! Finalmente, consigue encontrarla y se apresura a usarla para librarse de esas cosas.
+endscene
+
+scene db-field-3
+__c1 ?: ¿Eh? ¡Ja, ja, ja, ja, ja! Cof, cof... 
+__c1 ?: No toleramos esas cosas en este lugar.
+[FADE]
+Una de esas figuras se acerca a la carta y, con un rápido movimiento, la corta en dos mitades.
+endscene
+
+scene db-field-4
+__c1 ?: Una carta no es más que un papel cuyo poder no sirve de nada si no aceptamos sus reglas.
+__c1 ?: Y nosotros no las aceptamos.
+endscene
+
+// DB Village - Nova's House
+
+scene db-day1-wakeup
+[FADEFULL]
+Nova, aún conmocionada, abre los ojos y ve a alguien junto a ella. ¿Es quien destruyó la carta de Palisade? Quiere llorar, pero no tiene fuerzas ni para eso.
+[FADEOFF]
+__c1 Monstruo: Despierta de una vez, macarroncito, ¿Te encuentras bien?
+[FADE]
+Ese monstruo le está hablando. ¿Qué querrá de ella? ¿Será un adorador de las nanopartículas? Puede que su intención sea la de acabar con Nova.
+[FADEOFF]
+__c1 ¿Monstruo asesino?: Oye, creo que hemos empezado con mal pie. Yo solo intentaba echarte un cable.
+[FADE]
+El monstruo se queda mirando a Nova como si esperase algo de ella. ¿Necesitará una purificación? Nova ya ha reducido su tamaño, ¿habrá alguna forma de...?
+[FADEOFF]
+__c1 Monstruo que necesita purificación: Ya podrías decir alguna cosa, que menuda cara me traes. Solo intento mantener una conversación. ¿No podrías decir algo? ¿Lo que fuera?
+[FADE]
+Nova no comprende bien lo que pasa. ¿Debería decir algo?
+[FADEOFF]
+__c1 Monstruo con ganas de hablar: Es fácil, ya verás. Es como pensar, pero todo eso que piensas lo sueltas por la boca. Así de fácil. Venga, volvamos a empezar. Me llamo Drem Kinako. Encantado de conocerte. 
+__c1 $DK$: Ahora te toca a ti presentarte.
+$N$: Yo... soy Nova.
+__c1 $DK$: ¡Eso, muy bien!
+$N$: ¿Vas a matarme?
+__c1 $DK$: ¡Hala! ¡Me arrepiento de haberte dicho que hables! ¿Por qué iba yo a hacer eso?
+$N$: ¿Qué es la muerte?
+__c1 $DK$: Sí que tienes preguntas. Has pasado de no hablar a no callar.
+$N$: Es que... no sabía que pudiese hablar.
+__c1 $DK$: Tú tranquila, ya te acostumbrarás. Y solo lo digo en bromas, habla y pregunta todo cuanto quieras.
+$N$: ...
+endscene
+
+scene db-day1-start-loop
+__c1 $DK$: Si te sientes con ganas, podrías pasarte hoy por Claro del adiós. Hoy nos despedimos de un anciano polvoriento llamado Beetricks Rooter que falleció hace poco. Puede que allí des con las respuestas que buscas.
+endscene
+
+// Setting{Dv} Clearing of the Binding
+
+scene db-burial-1
+[FADE]
+En cuanto Nova se acerca al claro, ve a varios polvorientos alrededor de algo que parece estar envuelto con tela. Es entonces cuando se percata de que se trata del cuerpo sin vida de uno de ellos, de un polvorientos.
+De repente, comienzan a mover sus brazos en lo que parece un tipo de ritual de despedida.
+endscene
+
+
+// <the sprites in the center do different hand motions which cause a pit in the ground to grow. then they move the body in, then they refill the pit. Elegy Beatty steps forward>
+
+scene db-burial-2
+[FADE]
+Nova mira a su alrededor. Una alta polvorienta da un paso al frente y comienza a hablar. Cuando dice "Avanza", todos los demás polvorientos lo dicen también.
+[CLEAR]
+Mujer alta:
+Avanza.
+(Avanza.)
+El mundo se mueve inexorable en el infinito espacio. Todo y todos se van igual que un día vinieron. Una luz que se enciende se debe apagar a su debido momento.
+[CLEAR]
+Avanza.
+(Avanza.)
+Jugaste un papel esencial en la vida, y ahora debes continuarla en el más allá. Nosotros, los que nos quedamos hasta que nos llegue el momento, transmitiremos tus conocimientos a los que vendrán, así como ellos harán lo propio con las futuras generaciones. 
+[CLEAR]
+Avanza.
+(Avanza.)
+Nos despedimos de ti, no sin antes darte las gracias por quién has sido y por quiénes nos has hecho ser. Tú te vas, pero tu recuerdo y tu bondad se quedan con nosotros para siempre. Que tu camino no acabe, que tu sabiduría continúe allá donde vayas. 
+[CLEAR]
+Avanza.
+(Avanza.)
+endscene
+
+
+// After funeral, other NPCs
+scene db-burial-elegy
+__c2 $EB$: Hola, Nova. Me llamo Elegy Beatty. Me resulta extraño que la purificadora de El Centro esté entre nosotros, los polvorientos.
+$N$: Ehm... Esto...\n(Espero no decir ninguna estupidez delante de ella.)
+__c2 $EB$: Tranquila, tengo la sensación de que no estás aquí en función de purificadora, ¿verdad? Creo que nos llevaremos bien.
+$N$: Gracias...
+__c2 $EB$: ¡Eres un encanto! ¿Por qué no te unes a mi equipo de agricultores? ¿Qué me dices?
+$N$: Va-vale...
+endscene
+
+scene db-burial-elegy-2
+$N$: (Ehm...)
+endscene
+
+scene db-burial-drem
+__c1 $DK$: ¿Qué opinas del funeral, Nova?
+$N$: ¡Es por mi culpa! Tendría que haberme dado más prisa... Habría podido purificar esta zona, y Beetricks no habría... m-muerto.
+__c1 $DK$: Nadie tiene la culpa de esto, Nova. Fue feliz mientras vivió, y eso es lo que importa. Algún día, todos iremos al mismo lugar. Somos polvo y en polvo nos convertiremos.
+$N$: ¡No, me niego! El Centro tiene un propósito para todos nosotros, nadie debería desaparecer así. ¿Qué pasa entonces con nuestros propósitos?
+__c1 $DK$: Nova, no somos herramientas que nacen para cumplir los deseos de nadie.
+$N$: ...
+endscene
+
+scene db-burial-drem-2
+$N$: Drem... Vine en busca de alguien. ¿Cómo puedo ir más allá de la aldea?
+__c1 $DK$: Hay rumores sobre un extraño artefacto que cayó del cielo cerca del bosque. Hay una estación de trenes al suroeste de aquí. Si lo pides con amabilidad, quizá puedas subir.
+endscene
+
+
+scene db-burial-misc
+$N$: No sé ni por dónde empezar. Debería preguntar por ahí.
+$N$: Ya he pasado bastante tiempo aquí. Debo dar con la fruta que Palisade me mostró en la visión.
+Estos polvorientos... No sé ni qué decir...
+endscene
+
+scene db-hint
+Lo siento, pero no ofrecemos servicio durante los funerales. Vuelve más tarde.
+¿Necesitas ir a otro sitio? Este tren se encargará de ello. Lo único que tienes que hacer es... ¡tirarle de la lengua!
+Oeste: Vivienda\nNorte: Anillo de lucha\nSur: Caecilitrain\nEste: Claro del adiós, Granja 
+Norte: Campo\nNoreste: Claro del adiós\nEste: Granja
+endscene
+
+
+
+//Find Handfruit Haven
+//<Nova's internal monologue... partly fadescreen but maybe not bc sometimes need to show stuff>
+
+scene haven-first-time
+[FADE]
+La sala es enorme y preciosa, pero huele a muerte. El chirriar de las puertas rompe el silencio. No hay nadie.
+
+Estaba claro que Palisade no iba a estar ahí esperando a Nova con los brazos abiertos. Todo ocurrirá a su debido tiempo. 
+[FADE]
+Hay un altar en el centro de la sala. Podría ser una pista o un portal que conduzca al lugar en el que se encuentra Palisade. Pero antes hay que dar con la forma de usarlo.
+endscene
+
+scene haven-first-time-2
+[SMOOTHCAM TO diceVC in 1.8]
+Primer ritual: el dado. Hay que prestar atención al color y la letra del dado al caer. En la vida, nada es aleatorio, pero las limitaciones de nuestra mente así puede que lo hagan ver.
+[SMOOTHCAM TO bridgeVC in 1.8]
+Segundo ritual: el puente. Un camino hecho de materiales inestables. Nunca se deben tocar los bordes del puente, marcado en amarillo.
+[SMOOTHCAM TO slideVC in 1.8]
+Tercer ritual: el regalo. Para hallar la verdadera libertad, debemos dejar a un lado aquellas cosas que nos producen una falsa sensación de comodidad y seguridad. El Centro nos proporciona lo suficiente.
+[SMOOTHCAM TO matcherVC in 1.8]
+[FADE]
+Ahora todo está claro para Nova. Tiene que llevar a cabo los rituales para que Palisade regrese. Pero antes de poder siquiera comenzar, Nova cae al suelo, como si se hubiese roto algo. Podía sentir el sufrimiento del Glandilock.
+[CLEAR]
+Nova recuerda la cama en la que despertó no hace mucho con una extraña sensación de anhelo. Es como si el mero hecho de existir fuese una enfermedad para ella. ¿Será el estado de inconsciencia un remedio para ello?
+Se dirige a casa. Completará los rituales... tan pronto... haya...
+endscene
+
+// Nova falls asleep
+// Start of Day 2.
+// Now nova is hungry, and in bed.
+
+scene db-day2-wakeup
+[FADEFULL]
+Nova se despierta. Ya no siento aquella pesadez de antes, pero sí que siente dolor en su estómago.
+¿Y si los polvorientos le han hecho algo? ¿Y si la han envenenado? Debe encontrar a Drem Kinako... 
+endscene
+
+scene db-day2-drem
+__c1 $DK$: Vaya, pero si es la habichuelilla. Ya era hora de que despertases.
+$N$: ¿Q-qué me ha pasado? ¿Me estoy... muriendo?
+__c1 $DK$: No lo sé, ¿qué sientes, lentejita?
+$N$: ¿Que qué siento? No entiendo esa pregunta.
+$N$: ¿Y por qué sigues haciendo eso?
+__c1 $DK$: ¿Haciendo qué?
+$N$: ¡Llamándome cosas raras!
+__c1 $DK$: ¿Cosas raras? ¿Te refieres a lo de "lentejita" y "habichuelilla"? No son cosas raras, son alimentos.
+$N$: ¿Alimentos?
+__c1 $DK$: Vale, ya lo pillo, no sabes lo que es "comer", ¿verdad? A ver, es otra cosa de esas que haces con la boca, como lo de hablar. Solo que, en lugar de hacer que las palabras salgan de ella, tienes que hacer que los alimentos entren.
+$N$: ¿Eh?
+__c1 $DK$: Menos mal que estoy aquí para ayudarte, porque está claro que necesitas comer, ya que no lo has hecho nunca. Toma, prueba esto y lo entenderás mejor.
+endscene
+
+scene db-day2-drem-2
+$N$: Vale... Ehm... Creo que está funcionando...
+__c1 $DK$: Estás muy lejos de la influencia de El Centro, así que necesitas descansar y alimentarte como nosotros. ¡Eh, vale ya! ¡Solo tenías que probarlo, no comértelo entero! Si tanto te ha gustado, tienes que frotarte la barriga al mismo tiempo que dices "mmm".
+$N$: ¿Eh? Vale... Pues... Mmm... 
+__c1 $DK$: ¡Ja, ja, ja! ¡Buen comienzo!
+[FADE]
+Tras probar eso de "comer", Nova va a hablar con Elegy Beatty.
+endscene
+
+// <cut to farm>
+scene db-day2-farm
+$N$: Hola, me llamo Nova. Ayer me dijiste no sé qué de la agricultura.
+__c2 $EB$: ¡Hola de nuevo!
+$N$: No debería perder mucho tiempo aquí, tengo que completar los rituales para que regrese Palisade. Pero como voy a dormir aquí y comer vuestra comida, lo justo es que os ayude en algo.
+__c2 $EB$: Eres nuestra invitada, así que no te tomes muy en serio lo de ayudar. Estamos encantados de tenerte aquí. Pero deja que te introduzca al fascinante mundo de la agricultura. 
+__c2 $EB$: Las plantas no solo nos proporcionan comida, también purifican el aire que respiramos. Con la agricultura, lo que hacemos es cuidar de ellas, dándoles agua y suficiente espacio para que puedan crecer sanas y fuertes. También las protegemos de los Weedorons, esas cosas que viste al llegar aquí por primera vez. Por favor, ¡haz que no quede ni uno en los campos!
+endscene
+
+scene db-day2-farm-after
+__c2 $EB$: ¡Buen trabajo, Nova! Después de tanto trabajo, ¿te apetece un batido?
+$N$: (Qué amable es conmigo...)
+$N$: Tengo que irme, ya nos veremos.
+$N$: (¡Tengo que encontrar a Palisade!) 
+endscene
+
+scene db-day1-npc
+__c1 $DK$: Hola, Nova. Estaba pensando en mis cosas. ¿Has olvidado dónde estaba la estación? Justo al sur de la aldea.
+endscene
+
+// Talking to drem etc again
+scene db-day2-npc
+__c1 $DK$: ¿Cómo va todo? ¡Ve a tu ritmo!
+$N$: (Mejor no molesto y voy al tren para encontrar a Palisade.)
+endscene
+
+scene db-day3-npc
+__c1 $DK$: ¡Menudo espectáculo el de hoy!
+$N$: (Ya he hablado con Elegy, mejor me voy a buscar la fruta.)
+endscene
+
+scene db-day4-npc
+__c1 $DK$: Hola, Nova. ¿Cómo te va? ¿Has conocido ya a Ash?
+$N$: (Tengo que ir a Handfruit Haven.)
+endscene
+
+scene db-day5-npc
+aaa
+endscene
+
+
+// Day 2, Rites 1. Haven.
+
+scene haven-begin-rites
+$N$: Palisade, me he hecho cargo de mis necesidades vitales.
+$N$: Ahora llevaré a cabo los rituales que me has encomendado.
+endscene
+
+scene haven-dice
+$N$: Ah... Aquí tenemos "azul" y "C". Azul es el color del agua y la vestimenta de Paisade. Santuario Central está debajo del agua en "C"enote. Allí fue donde vi a Palisade en persona por primera vez.
+$N$: "Amarillo" y "A". Amarillo como un Yolk. La "A" es la primera letra del abecedario, algo así como un... comienzo. Samister dijo que todo en Nueva Zilan ha existido siempre. Un comienzo... Un nuevo comienzo... Palisade siempre ha existido... en mi corazón.
+$N$: "Rojo" y "D". El rojo representa la sangre, la ira, la destrucción... Las... nanopartículas. Estoy empezando a darme cuenta de cuántos días han pasado ya sin señales de Palisade, sin ni una sola palabra que me guíe en mi propósito. He pasado demasiado tiempo desviada de mi misión, y todo porque me sentí muy bien por no estar sola, por haber encontrado a los polvorientos, de los que tanto he aprendido y tanta compañía me han hecho.
+endscene
+
+scene haven-bridge
+$N$: ¡No debo tocar los bordes! Hay que tener cuidado...
+$N$: ¡Maldita sea, no he ido con cuidado!
+$N$: Me quedé sola por un motivo: aprender a valerme por mí misma. 
+$N$: ¡Lamentable! ¡No estoy preparada aún para el regreso de Palisade!
+$N$: Mal... Soy una decepción...
+endscene
+
+scene haven-bridge-day3
+$N$: No me concentro lo suficiente...
+$N$: Mi propia debilidad hizo que Palisade se fuera.
+$N$: Quedarme con los polvorientos me ha hecho más débil...
+endscene
+
+scene haven-slide-1
+//<As you pour out soup>
+$N$: Hoy he aprendido lo que es comer, pero pronto volveré a estar con Palisade y El Centro, y ya no volveré a necesitar ni eso ni dormir. Pronto, todo volverá a ser como antes.
+$N$: Aaaay... Tengo sueño...
+$N$: Pronto...
+[FADEFULL]
+Los días pasan y Nova continúa con su rutina, ayudando a Elegy Beatty durante el día y siguiendo con los rituales durante la noche. Le resulta extraño estar en un lugar al que pueda llamar hogar y sentir que realmente lo es, así como ver tantas caras familiares día a día.
+Aunque nada de eso importa. Pronto, Palisade habrá vuelto. De repente, Drem se acerca a Nova para proponerle algo...
+endscene
+
+
+
+
+
+
+////////
+///////////
+// DAY 3
+////////
+//////////
+
+// Fade into Nova's home... activated with same trigger as db-day2-wakeup
+scene db-day3-wakeup
+__c1 $DK$: ¿Cómo estás?
+$N$: Te has levantado antes de lo normal en ti. 
+__c1 $DK$: Ja, ja, ja. Lo sé. Oye, tengo algo que proponerte. Elegy dice que lo has hecho genial protegiendo los campos de esos malditos bichos.
+$N$: ¿Eso te ha dicho Elegy?
+__c1 $DK$: ¿Y si usas ese talento tuyo en algo más... extraordinario?
+$N$: ¿Qué?
+endscene
+
+
+//<Cut to the wrestling wring>
+
+scene wrestle-1-intro-1
+__c1 $DK$: Te estoy hablando de... ¡la batalla polvorienta!
+$N$: (¡...!) 
+__c1 $DK$: Es algo que hacemos cada semana por pura diversión y para ver quién es el más fuerte. 
+$N$: ¿Quieres... pegarme?
+__c1 $DK$: Ja, ja, ja. No, no es eso exactamente, pequeña. ¡Es una colaboración! En realidad, no se trata de hacernos daños, sino de colaborar para dar un espectáculo como ningún otro.
+$N$: No lo entiendo, Drem...
+__c1 $DK$: ¿Drem? ¿Quién es Drem? Estás hablando con...
+endscene
+
+//<Cut to the first match>
+
+scene wrestle-1-intro-2
+$AN$: ¡El leñador! Fuerte como un roble, representa la fertilidad de la tierra. ¡Un auténtico héroe para los polvorientos!
+Y en la esquina opuesta, y debutando en la batalla polvorienta, tenemos a...
+¡La asesina de Weedorons! ¿Será capaz de cortar en pedazos al leñador hasta que no quede ni rastro de él? ¿Quién se alzará vendedor esta noche? Lo sabremos en... ¡la batalla polvorienta!
+$N$: ¿Estás seguro de esto, Drem? Yo no lo tengo muy claro...
+__c1 $DK$: Lo harás genial, Nova. Tú haz lo que yo te diga y el público no parará de gritar nuestros nombres.
+endscene
+
+// rl du
+scene grappletext
+¡Pulsa {RIGHTICON}!
+¡Pulsa {LEFTICON}!
+¡Pulsa {DOWNICON}!
+¡Pulsa {UPICON}!
+¡Pulsa {SPECIAL}!
+¡Pulsa {JUMP}!
+endscene
+
+// Drem texts here are side overlay?
+scene wrestle-1
+Drem: Pst, Nova. Cuando me lances bloques, mantén el botón de disparo pulsado hasta que el bloque esté cerca de mí.
+$AN$: ¡Increíble! ¡La asesina de Weedorons a dado de lleno al leñador! ¿Será capaz de recuperarse de esa?
+Drem: Muy bien, Nova, ¡me toca! Cuando mi ataque esté cerca de ti, pulsa el botón de disparo.
+Drem: ¡Llegó el momento final! Dispáreme, y yo lo desviaré, entonces tendrás que pulsar el botón de disparo justo antes de que te golpee.
+$AN$: ¡Menudo desvío ha hecho el leñador! ¡Esa no se la veía venir la asesina de Weedorons!
+endscene
+
+scene wrestle-1-end
+__c1 $DK$: Pssst... Eh, Nova... ¿Estás bien?
+$N$: ...
+$N$: ...
+$N$: Mmm...
+__c1 $DK$: Ja, ja, ja. Eso es solo para la comida. Bueno, da igual, haz lo que te apetezca.
+[FADE]
+Nova deja el ring al terminar el primer combate y decide ir a hacerle una visita a Elegy. 
+endscene
+
+
+// Cut to farm area.
+
+scene db-day3-farm
+__c2 $EB$: ¡Has estado increíble, Nova!
+$N$: G-gracias, Elegy... Me alegro de que hayas venido a verme en la batalla. La verdad es que no entendía por qué me lo pidió Drem, pero...
+__c2 $EB$: Pues te aseguro que lo has hecho de fábula. Has...
+__c2 $EB$: Cof... Cof, cof...
+$N$: ¿Estás bien?
+__c2 $EB$: Yo...
+__c2 $EB$: Tengo que decirte algo, Nova. ¿Recuerdas el funeral de Beetricks Rooter? Tarde o temprano, todos iremos al mismo lugar que él. Polvo somos y en polvo nos convertiremos. Quizá por eso nos llamen polvorientos.
+$N$: Entiendo...
+__c2 $EB$: Creo que mi día se acerca. Estoy teniendo la misma sensación que tuvo Beetricks poco antes de fallecer. Como si las nanopartículas me invadiesen...
+$N$: ¡No! ¡De eso nada, Elegy! ¡La culpa es mía por no evitarlo! Si pudiese purificar este lugar...
+__c2 $EB$: Nova... Cof... Nosotros decidimos vivir lejos de la influencia de El Centro. Preferimos vivir a nuestra manera, sin ser meras extensiones de El Centro. 
+endscene
+
+//<Glandilock seed vibrates angrily>
+
+scene db-day3-farm2
+$N$: No lo entiendo...
+__c2 $EB$: No pasa nada, Nova. Con el tiempo, sé que lo harás.
+__c2 $EB$: Por cierto, ¿estás lista para un poco de trabajo? No he estado muy activa últimamente, y tu ayuda me vendría muy bien.
+$N$: Claro...
+[FADE]
+Nova va hacia los campos, algo a lo que ya está acostumbrada y con lo que se siente cómoda, pero hoy tiene una sensación extraña, como si El Centro la observase de cerca con el ceño fruncido.
+endscene
+
+
+scene db-day3-farm3
+__c2 $EB$: Buen trabajo, Nova. Toma.
+$N$: ¿Una flor?
+__c2 $EB$: En algunas culturas, regalar flores es un tipo de felicitación por algo. Puede que hayas perdido la batalla polvorienta, pero, para mí, eres una campeona.
+endscene
+
+
+// Day 3 - Rites 2.
+scene haven-slide-2
+$N$: He recibido una rosa de Elegy, mi amiga...
+$N$: Conforme la rosa se va marchitando, voy recordando que la gloria y la adoración son distracciones de mi verdadero propósito. Los sentimientos de la gente volarán como un pétalo vuela con el viento. El Centro siempre permanecerá, por lo que debo seguir su camino y dejar atrás mi propia vanidad.
+[FADEFULL]
+Los días transcurren, y una nueva batalla polvorienta tendrá lugar. Tendrá su revancha contra el leñador.
+endscene
+
+// DAY 4
+// Cut to wrestling.
+// Day 4 - Wrestling 2
+
+
+scene wrestle-2-intro-1
+__c1 $DK$: ¿Qué tal te encuentras hoy? ¿Lista para ganar?
+$N$: Lista.
+$AN$: ¡Estamos ante la revancha de la asesina de Weedorons contra el leñador, quien ganó la semana pasada! ¿Será capaz de arrebatarle su primer puesto? Lo veremos pronto en... ¡la batalla polvorienta!
+endscene
+
+scene wrestle-2
+$AN$: ¡La de hoy será una lucha intensa, amigos y amigas! ¡Es muy difícil saber quién ganará!
+Drem: Llegó el gran momento. Dispara, pero, esta vez, cuando esquive tu ataque, ¡succióname y lánzame!
+$AN$: ¿Qué está pasando? ¡La asesina de Weedorons ha succionado al leñador! ¡Qué giro de los acontecimientos!
+$AN$: ¡Lo ha lanzado fuera del ring! ¡Ha vencido! ¡La asesina de Weedorons ha vencido al leñador!
+endscene
+
+// Cheering?
+
+scene wrestle-2-end
+$N$: (Ah, sí... ¿Qué me dijo Drem que tenía que decir yo ahora?)
+$N$: ¡Vu-vuestro gran campeón no podría ni talar un arbusto! ¡Buaja, ja, ja!
+__c1 $DK$: (¡Así se hace, Nova!) 
+$AN$: (¿Eh? ¿Qué está pasando en las gradas?)
+$N$: (¡Esto no formaba parte del plan!)
+__c1 $DK$: ¡Nova, ven rápido! ¡Es Elegy!
+endscene
+
+scene db-birth-1
+[FADE]
+Llevan a Elegy a un lugar con más espacio, alejado de las gradas. La multitud la rodea mientras Drem grita, con lágrimas en los ojos, que le dejen espacio. Nova se abre camino entre la gente para llegar hasta donde están Drem y Elegy, y ve a esta última retorcerse de dolor e incapaz de articular palabra. 
+Nova niega con la cabeza sin parar mientras no se cree que algo así pueda estar pasando.
+Y, de repente...
+endscene
+
+//<tumor explodes into baby>
+
+scene db-birth-2
+__c1 $DK$: ¿Q-qué...? ¿Qué ha pasado?
+???: ¡Aaaaaahhh!
+__c1 $DK$: ¡¿Cómo es esto posible?!
+$N$: (No es posible... Solo El Centro puede crear vida del polvo...)
+__c2 $EB$: Vaya... Hola a todos.
+endscene
+
+scene db-birth-2-2
+$AN$: ¡Esto es increíble, queridos espectadores! ¡Elegy ha creado una nueva forma de vida!
+__c2 $EB$: Vale, presentador, te voy a pedir que te calmes un pelín...
+$AN$: Oh, sí, perdón... Estaba muy en mi papel...
+endscene
+
+scene db-birth-3
+[FADENOFADE]
+Tras un tiempo, todos se fueron calmando.
+Después, Nova fue a ver a Elegy.
+endscene
+
+
+scene db-day4-farm-1
+__c2 $EB$: ¿Y mamá?
+
+//<dust phases out and back in>
+// 1 3
+__c2 $EB$: Estoy aquí.
+Ash Beatty: ¿Um? Je, je.
+__c2 $EB$: ¿Dónde está mamá?
+
+//<dust phases out and back in>
+// 4 6
+__c2 $EB$: ¡Aquí!
+Ash Beatty: ¡Hala! ¡Ja, ja, ja!
+Ash Beatty: ¡Ja, ja! ¡Je, je, je!
+//<Shakily dust phases... out and in>
+endscene
+
+scene db-day4-farm-2
+__c2 $EB$: ¡Muy bien, Ashy!
+__c2 $EB$: ¡Hola, Nova!
+$N$: Cuánto me alegro de que estés bien, Elegy.
+__c2 $EB$: Muchas gracias. Ashy, dile hola a la tita Nova.
+$N$: Ho-hola... ¿Crees... que todo irá bien, Elegy?
+__c2 $EB$: La vida es un ciclo, Nova. Es como cuando ocurre un funeral para despedirnos de alguien. Unos se van mientras otros vienen. Recuerda: polvo somos y en polvo nos convertiremos.  
+endscene
+
+
+// <Glandilock seed flashes.. visions of the first 4 card NPCs>
+
+scene db-day4-farm-3
+$N$: He visto lo suficiente como para saber que las nanopartículas solo llevan a la destrucción, no a la creación.
+__c2 $EB$: Ya deberías saber que nosotros no vemos la vida de la misma forma que lo hace El Centro.
+$N$: ...
+$N$: Eso no es lo que me enseñaron a mí. Esta pequeña...
+__c2 $EB$: Esta pequeña aprenderá lo que todos hemos aprendido, que estamos hechos de polvo y que un día deberemos volver a la tierra.
+$N$: ...
+$N$: Tengo trabajo que hacer.
+[FADEFULL]
+Nova va hacia los campos a trabajar. Siente algo extraño en su interior, algo en conflicto... Pero intenta ignorarlo y comienza a trabajar...
+Y a trabajar...
+Y a trabajar...
+endscene
+
+// Weeding 3?
+
+scene haven-slide-3
+$N$: Soy Nova, la purificadora. Fuí creada por El Centro por un propósito. Mi vida no es una fantasía de la que yo pueda disfrutar.
+[FADEFULL]
+Los días continúan pasando. Nova pasa la mayor parte de su tiempo en Handfruit Haven, regresando a la aldea polvorienta solo para intercambiar su trabajo por comida, ya que sus intentos de cultivar solo han producido frutas malas y pequeñas. Ella espera ser perdonada en estos momentos de debilidad.
+A veces se cruza con amigos de la aldea.
+(Examigos...).
+Finalmente, era hora de que volviera a pelear con el leñador...
+endscene
+
+scene haven-misc
+$N$: Tengo que succionar y lanzar los dados.
+$N$: El primer ritual está hecho, así que debo cruzar el puente.
+endscene
+
+
+scene wrestle-3-intro
+__c1 $DK$: ¡Hola, Miso! ¡Lo has conseguido! No las tenía todas conmigo...
+$N$: Estoy en deuda con la hospitalidad de esta gente. No habría sobrevivido sin su ayuda. Tengo la intención de pagar esa deuda.
+__c1 $DK$: ...
+__c1 $DK$: Nova... ¿Qué te pasa? ¡Qué bien lo has hecho! ¿Hay algo malo en disfrutarlo? 
+$N$: Lo que disfrute no tiene nada que ver con lo que es correcto.
+__c1 $DK$: Vale, en fin... Sean cuales sean tus razones, me alegro de que estés aquí.
+__c1 $DK$: Umm... Lucharemos hasta un punto muerto, y luego nos uniremos contra un contrincante sorpresa, ¿de acuerdo?
+$N$: De acuerdo.
+endscene
+
+scene wrestle-3-intro-2
+$AN$: ¡El leñador quiere desesperadamente recuperar la corona! ¡Y esta noche es su oportunidad! ¡Comienza el combate polvoriento!
+endscene
+
+scene wrestle-3
+Drem: ¡Muy bien, Nova! Nos atacamos el uno al otro. Haz un ataque, ¡pero prepárate para esquivar cuando sea necesario!
+Drem: ¡Bien! Golpearé el suelo. ¡Usa los escombros que deje para atacarme!
+Drem: ¡Hora de un buen combate! ¡Devuélveme mi ataque!
+endscene
+
+//<after you do this for a while, the new challenger falls into the ring stomping the attack. Nova and Drem vibrate from the impact and look surprised (!) (!)>
+
+scene wrestle-center
+?: ¡Que no es carnaval, frikazos!
+$AN$: ¡¿Qué?! ¡¿Quién interrumpe este feroz enfrentamiento?! ¡¿Qué ocurre, misterioso enmascarado?!
+?: ¡A callar! Miraos... ¡Sois patéticos! ¡¿Y esos son vuestros campeones?! ¡Ja, ja, ja, ja, ja! ¡Yo soy el único merecedor de tal título!
+?: Así es... Yo, ¡El Centro! ¡Jo, jo, jo, jo, jo!
+El Centro: ¡Ja, ja, ja, ja, ja! 
+__c1 $DK$: (¡Guau, esto es genial!)
+El Centro: ¡Ja, ja, ja, ja, ja, ja!
+$N$: ...
+endscene
+
+scene wrestle-center-2
+El Centro: Durante mucho tiempo, habéis desobedecido al orden natural.
+[SOUND wrestleboo 1 1]
+El Centro: ¡Rodáis con inmundicia, nadando como virus estúpidos y asquerosos!
+__c1 $DK$: ¡Cállate, El Centro! Soy el leñador, un orgulloso residente de la aldea polvorienta.
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: ¡No vuelvas a insultar de nuevo así a mi gente!
+El Centro: ¿Te atreves a plantarme cara? ¿Alguien tan insignificante como tú? ¡Ja, ja, ja!
+[SOUND wrestleboo 1 1]
+El Centro: Podría matarte con un solo dedo. 
+__c1 $DK$: Me da igual lo que me ocurra, ¡los polvorientos viviremos! ¡Somos los que nos hemos opuesto a la tiraría que existe en toda Nueva Zilan!
+[SOUND wrestlecheer 1 1]
+__c1 $DK$: Somos quienes se enfrentan al miedo a la aniquilación y encuentran una nueva belleza y valor en la vida.
+[SOUND wrestlecheer 1 1]
+El Centro: ¡¿Quién te crees que eres para oponerte a mí?! ¡Yo te creé!
+__c1 $DK$: Puede que así sea, pero entonces deberías saber mejor que nadie que yo soy yo, y nadie me controla. ¡No tienes ningún derecho a hacer con nosotros lo que te plazca!
+[SOUND wrestlecheer 1 1]
+Público: ¡Raaaaaahhh!
+El Centro: ¡Esto ya ha ido demasiado lejos! ¡Prepárate para luchar! ¡Graaaaaahhh!
+endscene
+
+
+scene wrestle-center-3
+__c1 $DK$: A-asesina de Weedorons... Tú y yo... Ambos somos plantas... Hemos estado compitiendo por los nutrientes del suelo para que podamos crecer altos y fuertes. Pero ahora lo entiendo... Todos somos iguales... En este mundo frío y árido, ¡todos somos ganadores de la vida!
+__c1 $DK$: Yo, el leñador, ¡no me puedo enfrentar solo a El Centro! ¡Ayúdame, por favor! ¡Juntos nos ganaremos ese futuro que nos merecemos!
+$N$: ...
+$N$: Mi... cabeza...
+endscene
+
+scene wrestle-vision
+[FADENOFADE]
+La sangre de Nova se enfrió. Escuchó el crujido de los retorcimientos de los Gwoms y sintió el calor de la lengua de Gustine Papellum. ¡Los polvorientos no estaban allí para ver a Misteria Waizel consumiéndose sola en una habitación oscura y desaliñada! ¡No habían soportado la peor parte de la ira infinita y amarga de Bran Maligden! 
+[CLEAR]
+Cegados por la arrogancia, ¡nunca podrían entender la verdadera naturaleza de las nanopartículas! ¡C Psalmist había advertido a Nova sobre tal locura! ¡Ella había sido advertida! Ahora los polvorientos se quemarían, y Nova con ellos. ¿Quién puede esquivar el destino? No hay más camino que el de El Centro. ¿En qué estaba pensando?
+endscene
+
+scene wrestle-3-end
+$N$: ...
+... ...
+... ... ...
+__c1 $DK$: ¿A-asesina de Weedorons?
+endscene
+
+//<Nova jumps out of the ring and runs away>
+//<Cut to a separate screen. Nova walking away>
+
+scene db-blowup-0
+__c1 $DK$: ¡Espera!
+__c2 $EB$: ¡Nova, espera!
+endscene
+
+scene db-blowup-1
+__c1 $DK$: Crumb Coat, espera, ¡lo siento! No sabía que pasaría eso... Sé que debes haber estado incómoda. ¡La próxima vez revisaremos todo de antemano!
+$N$: ¿La próxima vez? ¡No habrá una próxima vez! No pertenezco a este lugar, Drem, ¿no es tan obvio ahora? Y deja de llamarme esos ridículos nombres de comida. 
+__c1 $DK$: Lo siento. Nova, lo siento. Ya no tienes que luchar... Pero eso no significa que no pertenezcas a este lugar.
+$N$: Vine aquí porque era mi deber. ¡Vine aquí por Palisade! ¡No sé por qué dejé que me metieras en estos juegos ridículos! Tal vez pensé que podría ayudarte de alguna manera. Tal vez pensé que podría mostrarte la importancia de luchar contra las nanopartículas.
+__c2 $EB$: Muy bien, espera un minuto... En serio, Nova. ¡Te dejaste porque es lo que quieres! ¡Nadie te forzó a que fuéramos amigos! 
+$N$: Vale, tienes razón. Fue mi propio error. Ahora lo sé. He fallado. Palisade NUNCA volverá, y solo yo tengo la culpa. No puedo controlarme lo suficiente como para quedarme aquí, no se puede confiar en mí. Necesito irme de aquí y continuar mi misión a solas.
+__c1 $DK$: ¿Sabes qué?
+__c1 $DK$: ¡Estás siendo una idiota! ¡Una idiota ante todos, pero sobre todo ante ti misma!
+$N$: ...
+$N$: Siento que lo veas así, Drem. Y lamento que te haya cegado el mal que se arremolina en todo este pueblo.
+$N$: Ahora lo veo claro. Tal vez pienses que solo es un juego, pero las nanopartículas solo llevan a un final trágico. He visto su poder con mis propios ojos. Sé lo que sucederá.
+$N$: Y no sería tu amiga si no intentara advertirte
+__c2 $EB$: Si realmente es así como te sientes, quizá sí que deberías irte...
+$N$: ¡Claro que es como me siento! Soy la purificadora, representante de El Centro a lo largo de toda Nueva Zilan. Debo volver a mi misión.
+__c1 $DK$: ...
+__c1 $DK$: Depués de todo por lo que hemos pasado, no quiero seguir con esta conversación.
+__c1 $DK$: Adiós, Nova.
+endscene
+
+//<Drem walks away>
+
+scene db-blowup-2
+__c2 $EB$: Nova, te echaré de menos.
+$N$: ...
+$N$: ...
+endscene
+
+//<Nova steps back... steps back... then runs away>
+// Cut to handfruit
+
+scene db-blowup-3
+[FADENOFADE]
+Nova corre sin descanso todo lo lejos que puede de la aldea, directa a Handfruit Haven.
+Y en ningún momento mirá atrás.
+endscene
+
+scene rites-final-1
+$N$: Lo siento mucho, Palisade. No he sido lo bastante fuerte para completar los rituales...
+$N$: ¡Eh, ¿quién anda ahí?!
+endscene
+
+
+
+
+//<camera pans to Ash Beatty holding a die by the playground>
+
+scene rites-final-2
+[FADE]
+"¡No Ash, no! ¡Deja eso, AHORA!", grita Nova.
+"¡Je, je, je! ¡Tía Nova juega!" Ash chilla, patea y tropieza con los dados sagrados.
+"¡Basta! ¡No sabes para qué es eso!" grita Nova mientras se acerca a la niña.
+// 4 6
+[FADE]
+Ash Beatty se ríe y corre. "¡Persígueme! ¡Persígueme!", grita. Ella se apresura a cruzar el puente ritual, haciendo una pausa para saltar de un lado a otro en el centro.
+"¡Vuelve aquí, Ash! ¡no te comportes así!", grita Nova llorando.
+
+// 7 10
+[FADE]
+La sonrisa de Ash se desvanece cuando se da cuenta de que Nova está enfadada de verdad.
+"No soy mala...", dice Ash llorando.
+Se desliza por el conducto de la ofrenda y se escapa...
+
+// 11 12
+Y ahora, Nova estaba sola.
+$N$: No... ¡No! ¡No, no, no, no, no!
+
+// Fade to black, turn off anocontrol2d
+endscene
+
+scene rites-final-3
+[FADENOFADE]
+La vergüenza y la ira inundan a Nova, mucho más allá de cualquier medida de control. Ella muestra sus poderes como un huracán violento en Handfruit Haven. Los elementos rituales se desgarran y arrojan a las paredes exquisitamente talladas. Cuando termina, solo quedan escombros...
+//show exterior of Handfruit haven with explosions all over it. Maybe zoomed out image. Fade to white as explosions continue.
+endscene
+
+// zoom stuff
+
+scene db-spire
+[FADE]
+Nova mira por el borde del capitel. Abajo, la tormenta de nanopartículas hace estragos silenciosamente, sin cambios.
+Ella trata de reflexionar sobre las últimas semanas, pero todo está nublado por oleadas de ira. Siente un cosquilleo incómodo en la garganta, una pesadez extraña en las piernas, pero lo ignora todo.
+¿Cómo pueden vivir así los polvorientos? ¿Cómo es posible que Palisade haya desaparecido? Antes de que pudiese pensar en las respuestas, esas mismas preguntas inundan su cabeza.
+[CLEAR]
+¿Qué está pasando? Puede que El Centro tenga las respuestas. De momento, Nova se dirige a Santuario Central.
+endscene
+
+
+scene dbn-haven
+Que estés a salvo aquí hasta que se despeje el camino a seguir.
+endscene
+
+
+scene db-painter-1
+LaShawn Mixte: Hola. Esta es la aldea polvorienta. ¿Buscas el claro del adiós? Está más al este.
+endscene
+
+
+// day2+
+scene db-painter-2
+LaShawn Mixte: Soy un pintor de nanopartículas. Las mezclo con un agente aglutinante y pinto cuadros de personas y plantas.
+LaShawn Mixte: Pinturas de nanopartículas... Inevitablemente se descomponen en nada. Por lo tanto, son de uso limitado para el coleccionista. Mi trabajo previo todavía circula en el mercado del arte, obteniendo precios cada vez más altos. Es sorprendentemente fácil para el arte bien intencionado ser recontextualizado por el poder y la industria hasta que quede poco de su valor original.
+LaShawn Mixte: ¿Cuál es el mejor pintor? Solo una persona común.
+endscene
+
+
+scene db-girl-1
+Millicent Pham: Es la chica que cayó en el avispero. Eso tuvo gracia, je, je, je... No, quiero decir que fue triste...
+Millicent Pham: Hola, chica avispa. Quiero hablar contigo. Escuché un rumor de que has venido aquí desde un mundo débil. ¿Y eso que significa? ¿Hay personas allí también, con pensamientos, vidas y sentimientos? La existencia es rara.
+// translation note{Dv} Threedy = phonetic spelling of 3D
+endscene
+
+// day3+
+scene db-girl-2
+Millicent Pham: Vaya, ¿no eres la asesina de Weedorons? Luchaste contra Drem, ¿verdad? No esperaba que te gustara esto. Creo que todos tenemos muchas caras.
+Millicent Pham: He tenido la intención de entrar en la lucha libre. No puedo creer que lo hayas hecho primero. Encendiste un fuego debajo de mí. 
+endscene
+
+scene db-misc-npc
+Phasmo Chani: ¿Has probado el zumo de nanopartículas? ¡Creo que he perfeccionado la receta de esta refrescante bebida! Primero, toma un vaso de agua y colócalo en tu mesita de noche. ¡Asegúrate de que no esté tapado! Luego, espera un par de días. Finalmente, despierta en medio de la noche y toma un gran trago. Qué ricooo...
+Phasmo Chani: Beetricks Rooter fue un "Michaelogista". ¡Eso significa que estudió "Michaels"!
+endscene
+
+scene db-mike
+// at funeral
+Hola, soy Michael el hongo. ¡Pero todos mis amigos me llaman "Mushy Mike"! Trabajé muy de cerca con Beetricks Rooter. ¡Un alma amable con una mente como una trampa de moscas!
+// during free time
+Soy un solo hongo, pero estoy conectado a una enorme red de hongos que extiende sus filamentos mucho más allá de las afueras de la aldea polvorienta. ¿A dónde pertenezco?
+endscene
+
+// day2+
+scene db-grub
+Do Grubbins:\nEl suelo es húmedo, el suelo es dulce.\nLa suciedad es un placer que me encanta comer.
+Re Grubbins: Aquí hay una idea divertida de aperitivo para los niños: intenta presionar un poco de tierra oscura en forma de galletas de chocolate. Luego, encuentra un parche de hongo blanco para el "relleno de crema". ¿Entendido? Puedes fingir que estás comiendo una galleta de sándwich de chocolate (¡Ja, ja!... ¡Asqueroso!) ¡Pero, aún así, sabrá delicioso!
+Mi Grubbins: Ah... Viajamos tanto buscando la mejor suciedad. En verdad está aquí. ¡Qué profundidad de sabor tienen las nanopartículas de este sitio! Un sutil sabor cítrico que compensa su rico sabor.
+Fa Grubbins: En realidad no me gusta el sabor de la suciedad, pero no importa. ¡Hay muchos alimentos diferentes para comer, y mis amigos me quieren igual!
+endscene
+
+scene db-ano1
+Escudo: He tenido la intención de deshacerme de este escudo desde que alguien dijo "¿de qué te estás escondiendo?" Tienen razón, ¿de qué hay que esconderse?
+Rana: ¡Qué ambiente tan maravillosamente húmedo! Rib-bib-bet. Soy una rana Rib-bet. ¿Sabías que la contaminación industrial puede filtrarse en el suelo y causar problemas de salud entre los residentes? Por suerte, no hay industrias cerca.
+Profecía: Veo... en tu futuro... un color gris... ¿Qué? ¿Ya lo sabías? Está bien. La gente encuentra mis servicios terapéuticos, incluso si me equivoco de vez en cuando. O siempre.
+Persona: ¿Alguna vez piensas en las personas que son presionadas todo el día? Al principio digo: "¡defiéndete!", pero luego pienso en la situación más claramente y me pongo triste. Las causas son profundas...
+endscene

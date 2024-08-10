@@ -1,0 +1,835 @@
+// Used by the formatting script to change "?: " into "NAME:" if this table has entry "?=NAME".
+scene nameTable
+P=Palisade
+PAL=Palisade
+PAL2=Figur mit wunderschöner Stimme
+CP2=Figur mit Saiteninstrument
+Pal=Palisade
+N=Nova
+NR=Nora
+CP=C Psalmist
+CV=C Visionary
+GS=Glandilock-Samen
+T=Thyme
+Z=Zera
+
+AN=Announsi
+BM=Beringia Manju
+CH=Chalaza VIII
+CY=Clonwei Yonstein
+DK=Drem Kinako
+EB=Elegy Beatty
+// Pun on Hieronymus Bosch
+EW=Eponymous Wosch
+FB=Fabrahem
+FM=Faye McCool
+GA=Geof Agricite
+GG=Großer Gwom
+GR=Gravis
+GGG=Großer Gwom, der Aughur
+KT=Maryshaw Keytawny
+IA=Iwasaki Antimon
+LY=Lonwei Yonstein
+MC=Misteria Waizel
+MI=Minorma
+NI=Nowan von Wichtigkeit
+RB=Rayray Boatshoes
+RP=Bran Maligden
+SEAN=Melos Han-Tani
+ST=Stavros
+TG=Gustine Papellum
+WW=Wolgali
+endscene
+
+scene topLevelPause
+Informationen
+Karten
+Inventar
+Einstellungen
+---
+Anderes
+Metasäuberung
+endscene
+
+scene deathMessage
+Drücke {CONFIRM}, um fortzufahren.
+endscene
+
+scene doubleHealth
+Die maximale Gesundheit wurde verdoppelt. Doppelte Gesundheit erscheint als goldene Balken, aber du musst Nova heilen, um das neue Maximum zu erreichen.
+Die maximale Gesundheit ist wieder auf den Normalwert gesunken.
+Die Taste für Springen, Bestätigen und Beschleunigen wurde mit der Taste für Abbrechen und Bremsen vertauscht. Außerdem wurde die Taste zum Sprechen mit der Taste zum Entfachen/Saugen/Fahren vertauscht.
+endscene
+
+scene gamename
+Anodyne 2: Return to Dust
+endscene
+
+scene savedGame
+Dein Spiel wurde erfolgreich gespeichert.
+Fehler beim Speichern. Versuche es erneut.
+endscene
+
+scene tryagain
+Erneut versuchen?
+endscene
+
+scene exitNanoPortal
+Verlassen?
+endscene
+
+scene sparkgamehelp
+Nano-Staub schiebt Nova vom Staubpatienten weg! Farbige Kugeln werden sich im Bogen auf dich zu bewegen, wenn du dich dem Staubpatienten näherst. Benutze {MOVEMENT}, um Novas Schild zu aktivieren, je nachdem, woher der Angriff kommt! Spüre die Richtungen, spüre die Farben. Viel Glück!
+Jetzt wird Nova mit schwarz gefärbten Kristallen konfrontiert! Stelle sicher, dass du Novas Schild NICHT aktivierst, wenn du auf einen schwarz gefärbten Kristall triffst!
+endscene
+
+// When playing the shrinking game
+scene dimdive
+Dimensionstauchgang starten!
+endscene
+
+scene cccnanoerror
+Aus irgendeinem Grund reagieren die Nanopunkte in Cenote nicht auf Novas Funken ...
+endscene
+
+scene pal-name-card
+Palisade\n<![CDATA[<size=14>]]>„Der Schild“<![CDATA[</size>]]>
+- Diese süße Stimme
+- Stemmt definitiv Gewichte
+- Wird für dich kämpfen
+C Psalmist\n<![CDATA[<size=14>]]>„Die Musikerin“<![CDATA[</size>]]>
+- Hingebungsvolle Songwriterin
+- Unbeholfen im Umgang mit Kindern
+- Eine Art Nerd
+// 8
+- Mamis?
+- Pflegerinnen und Führerinnen
+...
+endscene
+
+scene center-name-card
+Das Zentrum\n<![CDATA[<size=14>]]>„Es ist ... das Zentrum!“<![CDATA[</size>]]>
+- Schöpfer von New Theland
+- Maler/Schattenpuppenspieler?
+- Buchstäblich alles??
+- Mami???
+- Eine unvorstellbare Figur
+endscene
+
+
+scene ano-intro
+[FADE]
+[QUIET]
+Eine warme Brise erfüllt die Luft.
+Ein Papier schwebt vorbei und kommt auf dem Boden zur Ruhe.
+Es ist ein Brief.
+Darin steht:
+[CLEAR]
+(Sommer 2019)
+Lieber Spieler,
+Vielen Dank, dass du Anodyne 2: Return to Dust spielst. Es ist so etwas wie ein spiritueller Nachfolger – es hat narrative und thematische Verbindungen zum ersten Anodyne, bietet aber eine völlig neue Welt und Charaktere. Das heißt, die beiden Spiele können in beliebiger Reihenfolge gespielt werden.
+Manchmal kann die Welt von Anodyne 2 ein seltsamer oder verwirrender Ort sein. Aber! Im Mittelpunkt steht eine Geschichte über menschliche Probleme und Beziehungen.
+[CLEAR]
+Nun!
+Komm schon!
+Gehen wir gemeinsam auf eine kuriose und wunderbare Reise!
+- Melos Han-Tani und Marina Kittaka
+endscene
+
+scene areanames
+Die Albumenküste
+Zentrumsheiligtum
+Dotter von Yummy
+Dotter von Sippy
+Dotter von Cozy
+
+// 5
+Cenote-Stadtzentrum
+Misteria Waizel
+Gustine Papellum
+Bran Maligden
+Großer Gwom
+
+// 10
+Treibender Pollen
+Geof Agricite
+Dustbound Village
+Fruchtoase
+Dustbound Schlägerei
+
+// 15
+Iwasaki Antimon
+Clonwei Yonstein
+Orb Sektor 4-16-5
+New Theeland
+Pastellhorizont
+
+// 20
+Loquat Skeligum
+// 21 this is NOT a typo, will show when entering the realistic horror area.
+no such scene
+Nexus
+// 23 NOT a typo, shows in the 'clean' dustbound
+Dustbound Village?
+Nano-Reinigerin Zera
+
+// 25 - RingCCC, RingGolem, ringClone, RingHighway, DesertSpire
+Blautal-Zentrum
+Blautal-West
+Blautal-Ost
+Blautal-Süd
+Äußere Sande Süd
+
+// 30 - DesertShore, DesertOrb, DesertField
+Äußere Sande West
+Äußere Sande Ost
+Äußere Sande Nord
+Das Land
+// 34 - for titleless pg areas
+???
+endscene
+
+scene episodeTitle
+---
+---
+---
+---
+---
+
+---
+Pneumatischer Besitz
+Erinnerungen an Ageusia
+Höllische Blutungen
+Tardigraden-Amnesie
+
+//10
+---
+Korporales Tunnelsyndrom
+---
+---
+---
+
+Dauerhafte Laborealis
+Digitaler Doppler-Krebs
+Blendende Glorilokation
+ignore (Fantasy Title)
+ignore (Ocean Title)
+
+Häusliche Fraktur
+// NOT a typo - abbreviation of "no such scene exists"
+no such scene
+ignore
+---
+Der finale Akt von\nNano-Reinigerin Nova
+endscene
+
+
+
+
+scene episodeDescription
+ignore
+ignore
+---
+---
+---
+//5
+ignore
+Giftige Chemikalien säumen die Wände des altersschwachen Lungengebildes und verursachen Hustenanfälle ...
+Eine Hautkrankheit droht, die Hemmungen des Wirtes zu überwinden ...
+Ein mit Widerhaken versehener Turm hat sich über die lavagetränkte Darmlandschaft erhoben und seinen Wirt schmerzhaft durchbohrt ...
+In den unteren Ebenen des Gehirns lauern schändliche Geheimnisse ...
+
+//10
+ignore
+Die Intensität eines Ideals wird immer größer und reicht zur Sonne ...
+ignore
+ignore
+ignore
+
+//15
+In einer kalten Hügellandschaft disziplinieren liebevolle Fans ihren Geist und Körper ...
+In dem großen und geheimnisvollen Kopf nehmen schattenhafte Gedanken Gestalt an ...
+Gedanken an ein Ungleichgewicht schwelen in der goldenen Gesellschaft ...
+ignore - Fantasy Desc
+ignore - Ocean Desc
+
+Ein Tanz der Liebenden blüht in den knochenverseuchten Abfällen des Sandes ...
+// NOT a typo
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ignore
+---
+Im Herzen von Nano-Reinigerin Zera führt Nova einen verzweifelten Plan aus ...
+endscene
+
+scene pause-info-text
+Staubprisma
+Karten bis zum nächsten Level:
+Level
+Staubfortschritt:
+{CONFIRM}: Auswahl
+{CANCEL}: Zurück
+Drücke {CONFIRM}, um zu lesen
+{CANCEL}: Überspringen
+endscene
+
+scene pause-info-goals
+Ziel: Leere deinen Kanister an einem Staubabwurfpunkt!
+Ziel: Verbessere das Staubprisma im Zentrumsheiligtum!
+Ziel: Finde Karten + Staub, um die Sturmfront über der Stadt zu beseitigen.
+Ziel: Finde Karten + Staub, um das Gebiet hinter den Bergen zu öffnen.
+Ziel: Äh ... Hey! Was machst du da? Hier ist es nicht sicher!
+
+Ziel: Finde mehr Karten und Staub.
+Ziel: Kehre zum Zentrumsheiligtum zurück, um das Anodyne auszulösen!
+Ziel: Fülle und werte das Staubprisma vollständig auf, um das Anodyne auszulösen.
+Ziel: Betrete das Prisma und besiege das Zentrum!
+Ziel: Finde die Highway-Statue ... Finde Palisade ...
+
+Ziel: Erkunde die Welt!
+endscene
+
+scene yn
+Ja
+Nein
+endscene
+
+scene savePoint
+Spiel speichern
+Spielstand laden
+Zurück
+Neues Spiel
+Diesen Speicherstand nutzen?
+Ja
+Nein
+Neues Spiel
+Ein neues Spiel starten?
+Tritt unserem Fan-Club bei!
+Einstellungen
+Karten:
+Tritt unserem Discord bei
+Folge den Entwicklern
+Credits
+Spiel beenden
+Anleitung lesen
+Schau dir die Komplettlösung an
+endscene
+
+// Anything above this WON'T have the text replaced
+// These are replaced by my .txt -> .xml script to become RED terms.
+scene key-terms
+Das Anodyne
+Das Zentrum
+Staubabwurfpunkt/Staubprisma/Nano-Staub/Staubgebunden/Staub
+Karten/Karte
+Glandilock-Samen
+endscene
+
+scene quitMenuChoices
+Zurück zum Eingang (nur in 3D)
+Zurück zum Titelbildschirm
+Spiel beenden
+Zurück nach New Theland
+Das kannst du im Moment nicht tun.
+endscene
+
+scene pauseMenuWords
+An
+Aus
+Zurück zum Titelbildschirm? Nicht gespeicherte Daten gehen verloren.
+Beenden? Nicht gespeicherte Daten gehen verloren.
+Zurück zum letzten Eingang?
+Metazone verlassen und zurück nach New Theland gehen?
+endscene
+
+scene pauseMenuChoices
+Vollbild:
+Fenster-Auflösung:
+Vertikale Kamerasteuerung umkehren:
+Horizontale Kamerasteuerung umkehren:
+Steuerung
+
+Lautstärke:
+Sprache:
+Schattenqualität:
+Dialoge überspringen (für Speedruns):
+---
+
+Doppeltes Leben:
+Kamerageschwindigkeit:
+Minimales Sichtfeld:
+Speichern bei überlappendem 2D-Kontrollpunkt:
+Kameraabstand:
+
+// 15
+Controllererkennung deaktivieren:
+Bildschirmerschütterung:
+Unbesiegbarkeit:
+Geländequalität:
+60-FPS-Beschränkung:
+
+// 20
+Symbole der Controllertasten:
+Controller: Vertauschen von Bestätigen/Abbrechen und Sprechen/Entfachen:
+Controller: Rotationskraft bei horizontaler Bewegung:
+Vertikale Controllerbewegung umkehren:
+UI-Skalierung:
+Text sofort anzeigen:
+endscene
+
+scene menu-button-types
+Standard
+PS4
+XB1
+Switch
+endscene
+
+scene terrain-quality
+ignore
+Niedrig, keine Schatten
+Mittel, keine Schatten
+Mittel
+Mittel-Gut
+Hoch
+endscene
+
+scene shadow-quality
+Keine Schatten
+Niedrig
+Mittel
+Hoch
+endscene
+
+scene keybind
+Vorwärts/Hoch bewegen:
+Zurück/Runter bewegen:
+Nach links bewegen (2D), Kamera nach links schwenken:
+Nach rechts bewegen (2D), Kamera nach rechts schwenken:
+Umschalten des Kamerawinkels:
+Staubsauger (2D), Entfachen, Fahren (Ridescale):
+Springen (3D), Bestätigen, Beschleunigen (Ridescale):
+Sprechen:
+Abbrechen, Bremsen (Ridescale):
+Pausieren:
+//10
+Umschalten zu Ridescale:
+Wähle einen Befehl aus und drücke dann die neue, gewünschte Taste.
+[Fehler: Es ist nicht möglich, derselben Taste zwei Befehle zuzuordnen!]
+[Steuerung aktualisiert!]
+Controller können nicht verändert werden.
+// 15/ 16
+Hineinzoomen:
+Herauszoomen:
+endscene
+
+
+
+scene controlLabels
+// Depending on whether a controller is connected, these replace the MVOEMENT and CAMERA tags.
+den linken Stick
+{UP}, {RIGHT}, {DOWN}, und {LEFT} Tasten
+Drücke die {CAMERA_UP} und {CAMERA_DOWN} Tasten
+den rechten Stick
+// 4 These replace {UP}, etc, when the corresponding keycode is UpArrow, etc.
+HOCH
+RECHTS
+RUNTER
+LINKS
+Drücke {CONFIRM}
+// 9-13
+ignore
+ignore
+ignore
+ignore
+die Menü-Taste
+// 14
+Entwickelt von Melos Han-Tani und Marina Kittaka.\n(c) Analgesic Productions 2019
+// Note - this used to be 'v 1.16' but now that's hardcoded as it's non-region-specific
+Ignore
+die L1-Taste
+// 17
+Präsentiert
+Ein Spiel von Melos Han-Tani und\nMarina Kittaka
+ignore
+// 20 (ps4),21 (ps3)
+die Options-Taste
+die Start-Taste
+die + Taste
+endscene
+
+scene test1
+Sprich zuerst mit meinem Freund! Wenn du zuerst mit meinem Freund sprichst, dann werde ich dir eine Dankesnachricht geben. Ich würde dir gerne diese Nachricht zukommen lassen, also beeil dich bitte.
+endscene
+
+scene test2
+Danke, dass du mit meinem Freund gesprochen hast.
+endscene
+
+scene test3
+Ich bin der Freund dieser Person. Danke, dass du dir die Zeit genommen hast, mit mir zu reden.
+endscene
+
+scene test2D
+Willkommen in der 2D-Welt, Nova. Ich bin Square, das weiße Quadrat ... Und ich bin hier, um zu sagen, kaufe eins, bekomme ein weiteres gratis dazu, solange der Vorrat reicht! Dieses Angebot ist nur für eine begrenzte Zeit gültig.
+endscene
+
+scene testloop
+1 1 1 1
+2 2 2 2
+3 3 3 3
+endscene
+
+scene doublecolortest
+Hol dir die Palisade-Karte.
+endscene
+
+scene cards
+Eine spezielle, schützende Karte von Palisade für den Einsatz in Zeiten der Not.
+// Card 0
+Gustine Papellum\nViel von dem, was wir als „Geschmack“ wahrnehmen, ist eigentlich olfaktorisch in der Natur. Vielleicht kann ich jetzt die Duftlandschaft von New Theland voll und ganz genießen! ... Oder wird das auch als Tor zur Verderbtheit verstanden?
+Großer Gwom\nAls der Aughur bin ich ein stolzer Praktizierender von „Kaltem Lesen“. Das ist wie „Heißes Yoga“, aber intellektueller.
+Misteria Waizel\nDer Körper ist wie ein Lampenschirm. Unser wahres Licht wird durch unsere physischen Formen eingeschränkt und gedimmt, und doch ... diese Formen erlauben es uns, einander anzusehen und zu berühren! Das Leben ist ein grausamer Witz ...
+Bran Maligden\nWahrer Frieden kommt von innen. Es ist töricht, die Welt um dich herum zu bitten, sich nach deinen Wünschen zu richten. Das Einzige, was du kontrollieren kannst, sind deine eigenen Gefühle.
+// card 4
+Geof Agricite\nWenn du 99 Mal gräbst und nur Dreck findest, gib nicht auf! Ein anderer Kerl wird vorbeikommen und deinen Schatz finden ... ha ha! Keine Sorge – du musst daran glauben!
+Geofs Dorf\nDie Immobilienwerte wurden ständig durch nichts anderes als „Naturkatastrophen“ geschmälert.
+Lonwei\nDu kannst alles durch die Macht der Vorstellungskraft lernen!\nClonwei\n...
+Hilfe!! Ich bin in einer Geschmacksbeschriftungsfabrik gefangen! Den ganzen Tag über schreibe ich humorvolle kleine Schnipsel für dein Lesevergnügen – aber zu welchem Preis?? Nun ... Zum ersten Mal seit vielen Jahren öffnet der einsame Inhaber dieser teuflischen Einrichtung die Fabrik für einige ausgewählte externe Gäste. Das ... das ist meine Chance ...
+Iwasaki Antimon\nMit der Zeit sind Biobäume in New Theland selten geworden. Wir Baumbildhauer sind aufgestiegen, um die Lücke zu füllen. Ein geformter Baum unterscheidet sich von einem Biobaum dadurch, dass er von der Macht der menschlichen Entscheidung durchdrungen ist.
+Das arborealistische Rangordnung ist eine Form der inkarnierten Hoffnung. Wir müssen immer höher hinausgehen als der sprichwörtliche Baum. Wir müssen denen folgen, von denen wir wissen, dass sie über uns stehen. Und am Ende werden wir belohnt. Ein C-Lizenzgeber ist überwiegend von Künstlichkeit geprägt. Ein B-Lizenzgeber ist selbstständig, aber nicht perfekt. A-Lizenzgeber erstellen Werke, die sich nicht von Bio-Bäumen unterscheiden. Und ein S-Lizenzgeber ... geht über das Konzept des Baumes hinaus.
+Eponymous Wosch\nEine Autowochanlage ist ein Grenzraum, sowohl innen (von Wand und Dach umschlossen) als auch außen (gepflasterte Straße, geeignet für Autos). Eine Autowaschanlage ist ein heiliger Ort, eine Verbindung zwischen dem Alltäglichen und dem Göttlichen.
+Jade Highway\n Entweder nehmen wir meinen Weg oder den Highway! ... Oh warte, mein Weg IST der Highway! Ahahaha!! Ich habe dir eine falsche Wahl präsentiert, um dein Ego zu beruhigen ... Die ganze Zeit über bist du völlig in meiner Kontrolle geblieben! Ahahahah!!!
+// 12
+Minorma\nVorwärts!! Aufwärts!! Himmelwärts!! Eine Welt ohne Expansion ist eine Welt ohne Zukunft. Wie kannst du ernsthaft etwas anderes glauben? Mein Plan wird erfolgreich sein! Alle werden die Schönheit des Orb kennen!
+Fabrahem\nFa-sha-sha! Die Kraft der Mode ist für alle Lebensbereiche bestimmt. Wir müssen unsere Modestürme entfesseln und unsere innere Schönheit zeigen!
+Loquat\nWarst du schon mal ein Zuhause? Wenn ich ehrlich sein darf, ist es manchmal ziemlich beunruhigend. Aber was ist das Leben, wenn man sich nicht auf einen verlassen kann?
+Gummischlüssel\nWir beenden gegenseitig unsere-\nSkelettschlüssel\n-Traurigkeit!
+New-Theeland-Karte\nOh, hallo! Erinnerst du dich, dass du Ausdrucke von Erläuterungen zur Spielerstellung gelesen hast?
+Pilar Treacl\nAh, wie gut und sauber es sich anfühlt, ein Mensch zu sein, der noch nie getrauert hat! Ich esse jetzt nur noch Brokkoli und andere Sorten der Art Brassica Oleracea.
+Früher wurden kleine Kinder nachts in der Wüste von Schlangen gebissen. Das war, bevor das Zentrum den narrativen Einfluss im äußeren Sand wiedererlangte.
+Tremuloid\nWo liegen die Grenzen eines Organismus? Was ist die Grenze eines Körpers? Sind wir eine Zelle, ein Organ, ein Körper, eine Gemeinschaft?? Vaters Weg ist unzureichend ... WIR MÜSSEN UNSERE EIGENE STRUKTUR DEFINIEREN!
+(Unlesbar)
+// array idx 21
+Amago\nIch lebte zwischen zwei Welten! Wie tragisch! Und doch darf ich mich nicht in meiner individuellen Traurigkeit suhlen. Viele von uns leben zwischen zwei Welten. Warum sind wir dazu gezwungen? Was steuert den Pastellhorizont und definiert die Lebensweise?
+Fukuchi\nMeine Mutter erzählte immer eine Geschichte über mich als Kind. Egal welches Spielzeug ich hatte, ich würde immer nach einem anderen greifen. Ich hatte immer Angst, etwas zu verpassen. Was soll ich sagen? Ich will alles, und vielleicht wird das eines Tages zum Nichts führen. Es ist der Preis, den ich zahle.
+Brückenbauer\nWas soll ich tun, jetzt wo die Brücke fertig ist? Hahaha ... Eine Geisterbrücke ist nie vollständig ... Ich sehe das Bauen als eine Lebenseinstellung, weil ich weiß, dass die Arbeit vielleicht über mein Leben hinausgeht.
+Eine spezielle Karte von Palisade. Nachdem Nova im Dustbound Village gelandet war, zerriss Drem Kinako diese (und hat sie inzwischen wieder zusammengeklebt). Sie hat keine schützende Funktion mehr.
+endscene
+
+scene metaclean-messages
+Nova hat nicht genug Metamünzen, um dies zu kaufen.
+Kaufen?
+Metamünzen
+Metashop
+Alles ausverkauft!
+// 5
+Das Metasäuberungssystem dankt dir! Ich wünsche dir einen meta Tag.
+Warpen? (Du kannst über das Menü zurückkehren.)
+Erkunde die Welt, um Metainfo-Punkte zu finden. Möglicherweise musst du einen Bereich erneut betreten, um die Metainfo-Punkte zu sehen.
+Bitte verlasse den Nanobereich, bevor du einen Warp benutzt, um eine Unzone zu besuchen.
+Warpen? (Achtung! Einbahnstraße.)
+// 10
+Bitte verwende das Untermenü „Andere“, um nach New Theland zurückzukehren, bevor du eine neue Metazone betrittst.
+Fehler! Bitte betritt einen anderen 3D-Bereich, bevor du versuchst, zu einer Metazone zu gelangen.
+In diesem Gebiet gibt es noch Metamünzen.
+Es gibt keine Metamünzen in diesem Gebiet.
+Der Metamünzen-Detektor funktioniert nicht im Nanobereich.
+endscene
+
+scene metaclean-freewrite
+Pashmina, Pashman, seht ihr den Handwerksmeister? Ein Hund mit Augen so groß wie Türme, eine Katze mit einer Zunge so lang wie die Luft. Warum nehmen wir Kontakt auf und finden so wenig übrig für uns? Warum ist die Mitte leer, der Bagel in Seepocken gehüllt? Enthalten alle Bagels eine Küchenspüle, in der sie die ganze Schande ihres Überflusses abwaschen können? Kann ich bitte, darf ich bitte, mich bis zur Spitze des Grases erheben, ich bin ein Wurm, ich bin eine Karotte, ich bin ein Stock. Ich selbst bin am Ende meiner eigenen Kräfte und greife nach dem, was ich bin, war und sein werde. Ich werde immer wieder wie ein Narr fragen, um von ihr, der Duftenden, gesehen zu werden, und sie wird nicht verstehen können, was ich sage. Sie wird mich nicht hören können. Es ist, als würde ich durch ein Buntglasfenster sprechen. Ich bin eine weiche und verschwommene Form, Schatten hinter der Form von Jesus. Eine Predigt auf dem Berg des bedeutungslosen Schattenpuppentheaters. Und jetzt die Heizkörper, zu heiß zum Berühren, dampfen und jaulen und wagen es, die irisierend bestrahlte Ödnis meines Geistes zu durchdringen.
+Jalopia Sehnenschnur. Im Spiegel sehe ich einen gefällten Stammbaum, die Haut schält sich wie ein fallen gelassener Hund, ein launischer Infarkt. Bicalutamide Tricks und Haferbrei, werden durch die Marktforschung zu köstlichen Crisplings. Was, wenn die Terrorpore zu früh auftaucht, was, wenn die Ley-Linien meinen Puls bewohnen? Ich entferne alles, was lange Zeit aus meinem Sichtfeld verschwunden ist. Die Ausmerzung des Triebes der Schafe aus der Herde, die Kranken und die Alten sind auf Knattern reduziert.\n...\nKopiert mich, fügt mich ein, lenkt meine Tween-Gerippe in verbotene Differenzierungen um und ruiniert meine Lebhaftigkeit in versteckten geheimen Momenten, die den Göttern gestohlen wurden.
+Der Himmel war heute Abend schön, wie feuchte Tropfen von Latzhosen, und kleine, weiße Kaninchen kuschelten sich in der Schräge einer Wurzel. Warum verkommen die Tore, viele Jahre nachdem die Kuchen von den Fensterbänken gefallen sind und die goldene Stunde von den Zähnen verschwunden ist? Die Kotstücke in den Häufchen von Herbstblättern werden immer Spuren hinterlassen. Warum wird eine Stromleitung zwischen deine Backenzähne geschoben, die dich von Plaque- und Sellerieresten befreit? Schwafelnde Massen bestrahlen die kleine französische Henne mit einem Schimmer aus Mikrowellen-Gutherzigkeit. Wird ein gutes Kind diese Magie nicht verdrängen? Entferne diese Kräuselungen aus dem Weltraum, bis alles Fleisch wieder roh ist. Damals, als wir die ganze Zeit kauten. Bitte seid gnädig, bitte seid freundlich. Wenn du den kleinen schändlichen Bösewicht triffst, das leere sabbernde Schlamassel, habe Mitleid mit der armen Seele. Das pure Böse. Das zerfetzte und ausgefranste.\n...\nNova ist ein Mädchen, verwirrt. Sie weiß nichts. Sie ist an das Schicksal gebunden. Sie isst gerne Crème brûlée. Sie wünscht sich, dass ihre Liebe zu Stofftieren echter wäre. Sie hat vergessen, ob sie jemals glücklich war, aber im Moment ist es in Ordnung. Sie verweilt, nichts ist jemals genug.
+Willkommen. Es ist ein neues Jahr, es ist ein neues Herz. Knistern und knarren auf den Frischfaserdielen. Rosinen und Regelmäßigkeit. Wenn wir die Salzwüsten und salzigen Wunden vertiefen, können wir uns dann in diesem bedauernswerten Zustand bewahren? Können wir uns verzweifelt an unser trotteliges Selbst klammern, an unsere trotteligen Herzen? Taufe mich neu, streue Öl auf meinen Kopf. Die Brecheisen und Schlagsahne und Schlösser und Mauspads. Fluoridiere meinen Brunnen, Marisol. Schütze mich vor Sonnenschirmen. Es gibt eine Gießkanne, die nur in einen Trog gießt. Es gibt Reihen um Reihen von Tieren, die mich beschimpfen. Ich wurde in ihre Futterkiste geboren, aber sie durften mich nicht essen ... Alles, was ich berühre, wird zu Kontinuität.
+In Anodyne 2 sitzt die kleine Nano auf der Fensterbank. Wie ein kleiner Käfer wird sie weinen, um in ihre Todeszone gelassen zu werden. Hier gibt es für dich nichts anderes als eine künstliche Unterscheidung, die über dein Verständnis hinausgeht. Es gibt einen Maulwurf im Flur. Er isst den endlosen Dreck in einem kleinen Kuchen. Untertasse und Teetasse vor dem Feuer. Es gibt eine endlose Anzahl von Parkbänken mit Schweineknödeln, die mit Schmutz gefüllt sind. Es gibt eine Wurmsauce. Es gibt Regen und Regentropfen, die in Eimer laufen. Wenn du jemals wieder hierher zurückkommst, schwöre ich bei Gott. In dieser Zeitung ist nichts mehr zu lesen. Die Zeitung muss sauber sein. Wenn die Artikel verschwinden, verschwindet auch unser Schmerz.\n...\nSpiel mit dem Maßstab. Wird es jemals aufhören, eine Struktur zu sein? Den ganzen Weg nach unten, den ganzen Weg nach unten. Warum können wir nicht sehen, dass etwas endet? Wann wird die Kruste abbrechen? Warum kann die Decke das Universum nicht abdecken? Warum kühlt der Kuchen auf der Fensterbank? Was werden wir geben, um ein Mensch zu sein?
+Nichtsdestotrotz, wenn die beiden Jungen zum gerösteten Tempelweg gehen, werden ihre Arterien durch das Gebrüll von siebzig Gramm ungesundem Transfett anschwellen. Kanälchen von Gehwegen stürzen sich an Orten herum, die ihren Müttern unbekannt sind. Rote und gelbe Farben des Regenbogens und des Regenwaldes machen sich auf den Weg zurück an den Ort ohne Rückkehr. Und der Ort, an den sie gehen, wird neben der jungen Welt der Tempelplätze des Waldtempelhimmels liegen. Am Himmel ist ein Loch, das schön ist. Und am Himmel, der schön ist, ist niemand. Niemand außer den Geistern der Gräber. Von den Glühwürmchen und Kartoffel-Göttern. Leute, denen die Farmen gehören, leiten die Gefängnisse. Die Flüssigkeit wird ihnen nicht im Weg stehen, nichts wird ihnen im Weg stehen, da sie ihre Farmen führen und die Landarbeiter zerstören wollen.
+endscene
+
+scene metaclean-desc
+---
+Ein Audio-Tagebuch. Es besagt: „Ich befand mich in einem riesigen, weißen Raum. Eine schubladenartige Struktur verbindet diesen Raum mit dem Land. Wo gehen die anderen Schubladen hin? Gibt es noch andere Länder? Sind sie verfallen? Ist Young dort? Ich ging lange Zeit, als ich über diese Fragen nachdachte. Einige Bewohner des Landes folgten mir gedankenlos, eindeutig nicht ihr früheres Selbst. Ich vermute, es geht um ihre Entfernung zu Young, da ihr Verfall nach dem Weggang von Young anfing. Ich fand bald heraus, dass ich mit meinem neuen Werkzeug Tunnel, Durchgänge, manchmal auch Trümmer manifestieren konnte - indem ich an der Luft selbst zog. Schließlich grub ich einen Tunnel in eine dunkle Lücke. Manchmal war ich zögerlich, aber ... die Verbindung von Young gab mir Willenskraft, als ich mich verlor. Ein Seil, das aus der Höhle führt. Ich stürzte diese Leere hinunter und erkannte, dass die weiße Fläche nur die Spitze eines endlosen Berges, eines tiefen Abgrunds war. Aber schließlich habe ich Erde gefunden. Ob es sich für mich manifestierte oder bereits existierte, wusste ich nicht. Aber jetzt, mit meiner Willenskraft ... kann ein neues Land beginnen.“
+Ein Audio-Tagebuch. Es besagt: „Ich spüre ihre Verbindung nicht mehr, aber das spielt keine Rolle mehr! Ich habe diese Insel erschaffen, und eines Tages, eines Tages werden sie zurückkehren.“
+Verwende dies über das Inventar-Menü.
+---
+// 5
+---
+---
+---
+---
+---
+// 10 (Note, the names in quotes shouldn't be localized as they're IDs of levels)
+Aktiviert Metainfo-Punkte für „Albumen“. Was könnte das bedeuten?
+Aktiviert Metainfo-Punkte für CCC und mehr. Was könnten diese Bezeichnungen bedeuten?
+Aktiviert Metainfo-Punkte für RingCCC und RingHighway. Was könnten diese Bezeichnungen bedeuten?
+Aktiviert Metainfo-Punkte für RingClone und mehr. Was könnten diese Bezeichnungen bedeuten?
+Aktiviert Metainfo-Punkte für DesertSpire. Was könnte das bedeuten?
+// 15
+Aktiviert Metainfo-Punkte für DesertField und mehr. Was könnten diese Bezeichnungen bedeuten?
+---
+---
+---
+---
+endscene
+
+scene metaclean-names
+// 0 - 9 = text logs
+---
+Whimsical_001.wav
+Whimsical_002.wav
+$Karten-Detektor
+Log 200318M
+// 5
+Log 140718M
+Log 130718M
+Log 120718M
+Log 280618M
+Log 130818S
+// 10 - note - unlocks nano AND 3D stuff. Vale I = RingCCC, Highway. Vale II = Clone, Golem, Cave
+// Sands I = spire, spiretop, spirecave
+// sands II = orb, shore, field
+Hauptversammlung: Geburt
+Hauptversammlung: Cenote
+Hauptversammlung: Tal A
+Hauptversammlung: Tal B
+Hauptversammlung: Sande A
+// 15 (Note - after good end, talk to egg in chapel to enter alb)
+// finale would be zera, but idk if we'll have it
+Hauptversammlung: Sande B
+Hauptversammlung: Zera
+---
+---
+Das erste Reich
+// 20 begin warps (ZZ_R1N, ZZ_CCC_Old_1/2/3, ZZ_JoniRing1Test1)
+Traumfeld
+Stadt des Ursprungs
+Stadt der Antike
+Stadt der Alten
+Azur-Erinnerung
+// 25 (DEBUG2DFAKE, ZZ_Test3D, ZY_Sean_ArchTests, ZZ_AlbumenOld, ZZ_RingGolem_Prototype)
+Reich des Schöpfers
+Physik-Simulation
+Schwebende Ruinen
+Insel der Einsamkeit
+Narbe des Meteoriten
+// 30 (ZZ_JoniFearTest02, ZZ_GifNanoAlbumen, ZZ_chapelTrailer, ZZ_CenterChamber, ZZ_NanoDustboundOld)
+Geburtsort der Angst
+Yolken Land
+Stahlkiefer
+---
+Teppich-Reich
+// 35 (S_MarinaRing1Test, CCC, RingHighway, DesertField, NanoNexus)
+Tal der Anfänge
+Stein von Cenote
+Stein des Tals
+Stein der Sande
+Stein des Nexus
+// 40 Alb warp
+Stein der Geburt
+endscene
+
+scene item-names
+Heidelbeer-Burst-Müsli
+Dottermilch
+Reguloid: Personal Edition
+Glandilock-Samen
+Minzgrüne Lampe
+// 5
+Nano-Staubsauger Model A-PRO-60
+Skalafunke
+Nanofunke
+Vision von Palisade
+$Karten-Detektor
+// 10
+Metamünzen-Detektor Pro
+Eldis Paket
+Novas Dilemma
+Metasäuberungshandbuch
+Item14
+// 15
+Rotschloss
+Blauschloss
+Grünschloss
+Basis des Trylock-Halsbands
+Unentschlossener Abenteurer
+// 20
+Schwert der Reinheit
+Schild der Rechtfertigung
+Brustplatte der Zugehörigkeit
+Stiefel der Immersion
+Fukuchis Muschelschale
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+scene spark-unequip
+Skalafunke abgelegt.
+endscene
+
+scene card-detector
+In diesem 3D-Bereich sind keine Karten mehr vorhanden! Wenn sich jedoch noch Kartensymbole auf deiner Karte befinden, musst du auf den Nanobereich schrumpfen, um die Karten zu finden!
+In diesem 2D-Bereich sind keine Karten mehr vorhanden!
+In diesem 2D-Bereich sind noch Karten vorhanden!
+In diesem 3D-Bereich sind noch Karten vorhanden!
+Geschätzter Nutzer! Der $Karten-Detektor ist nicht kostenlos. Um Werbung zu entfernen, aktualisieren Sie bitte auf den $Karten-Detektor Pro für nur 1200 Metamünzen pro Jahr! Und nun zu einer Nachricht von unseren Sponsoren.
+...
+Alle unsere Werbeserver sind derzeit ausgelastet! Es tut uns SO leid, dass Sie warten müssen! Sie sind ein wertvoller Nutzer für uns! Wenn Sie das schon einmal gesehen haben, sollten Sie {CANCEL} drücken.
+...
+Ihre Reaktion auf diese Werbung kann zu Qualitätssicherungs- und Schulungszwecken aufgezeichnet werden.
+„Wow!! Jetzt kann ich Karten mit Style finden! Kein Herumfummeln mehr für mein kleines, altes Ich! Ich bin so froh, dass ich meinen Gehaltsscheck für den METASÄUBERUNGS-KARTEN-DETEKTOR ausgegeben habe! Für den günstigen Preis von 5 Metamünzen habe ich den Metasäuberungs-$Karten-Detektor bekommen! Jetzt kann ich erkennen, ob noch magische Karten in meiner dimensionalen Umgebung vorhanden sind!“
+„(Bitte beachten Sie, dass der $Karten-Detektor eine eingeschränkte Erkennungsfunktionalität hat und Sie nicht direkt zu Karten führt. Bitte kontaktieren Sie einen unserer Vertriebsmitarbeiter, um zu sehen, ob der $Karten-Detektor Pro das Richtige für Sie ist. Die Jahresraten für den $Karten-Detektor Pro beginnen bei 1200 Metamünzen pro Jahr und dieser wird zusammen mit dem Präzisions-Lokalisierung Pro, Verbleibende-Nummerierung Pro sowie werbefreien Funktionen geliefert ...)“
+endscene
+
+scene item-descriptions
+Mit diesem Müsli hat ein Glandilock-Samen alle Kohlenhydrate, die er braucht, um ein Zuhause in Novas Kopf zu finden.
+Damit verfügt ein Glandilock-Samen über alle vom Zentrum zugelassenen Nährstoffe, die für eine weite Verbreitung in Novas Kopf benötigt werden.
+Das Reguloid verwandelt Novas Kopf in die perfekte Umgebung für einen florierenden Glandilock-Samen!
+Der Glandilock-Samen hat Ranken tief in Novas Kopf gezogen, sodass das Zentrum direkt mit Nova kommunizieren und seine Kraft zu bestimmten Zeiten sogar an Nova weiterleiten kann ...
+Eine mintgrüne Lampe mit Retro-Rillen, von Misteria Waizel. Eine Fälschung, die auf einem prestigeträchtigeren Modell basiert. Es riecht nicht nach Minze.
+// 5
+Das neueste Modell des Nano-Staubsaugers, mit einer Standard-Kanisterkapazität von 60 Staubeinheiten. Es gibt Gravuren mit der Aufschrift "modernste Technik" und etwas über "problemlos über 4 Monate bezahlen".
+Skalafunke ausgerüstet. Schieße auf ein Objekt, und während du {SPECIAL} gedrückt hältst, laufe auf das Objekt zu, um es zu schrumpfen. Laufe vom Objekt weg, um es zu vergrößern.
+Von Thyme, dem Stadtdiakon, der im Nexus lebt, an Nova überreicht. Sie kann es durch Drücken von {CANCEL} aufnehmen. Indem sie bestimmte Menschen im Nanobereich inspiriert, kann sie in den Picobereich schrumpfen. Im Picobereich dient der Nanofunke als Waffe gegen einige Feinde.
+Palisades Vision konnte nicht angesehen werden ...
+--- (card detector, but this text never shows)
+// 10
+--- (item detector, but this text never shows)
+Ein Paket von Eldi, adressiert an ihre Freundin, die in der Nähe eines Bauerndorfes am Rande von Cenote lebt.
+Nova steht vor einer Kreuzung. Sie kann entweder das Anodyne erreichen, indem sie das Staubprisma weiter verbessert und befüllt. Oder sie kann sich dem Zentrum stellen, indem sie zur Spitze des Staubprismas im Blautal-Zentrum geht.
+„1. Die illustrierten Karten des Informationsmenüs zeigen nun Symbole, wo sich verbleibenden Karten und Verbesserungspatches befinden.\n2. Du kannst Metamünzen jetzt in 3D-Bereichen finden.\n3. Im neuen Metasäuberungs-Menü kannst du deine Metamünzen für verschiedene Kuriositäten ausgeben. Du möchtest vielleicht den „Karten-Detektor“ kaufen.\nDas ist alles. Danke, dass du das Metasäuberungssystem nutzt!“
+Item14
+// 15
+Das ist ein Schloss des Trylock-Halsbandes. Es vertreibt die Angst vor körperlichen Schmerzen.
+Das ist ein Schloss des Trylock-Halsbandes. Es verhindert die Angst, Fremde zu treffen.
+Es ist ein Schloss des Trylock-Halsbandes. Es beruhigt die Paranoia, beobachtet zu werden.
+Die Basis des Trylock-Halsbandes, ein mysteriöses und uraltes Artefakt. Seine glatte weiße Oberfläche ist durch 3 kreisförmige Schlitze gekennzeichnet, die entlang der Vorderseite angeordnet sind ...
+// Localizer note:  Identical to the "fant-adv" line in Desert.txt
+Es war einmal, da glaubte ich an Wahrheit und Gerechtigkeit ... Ich dachte, dass harte Arbeit belohnt wird! Aber die reale Welt ist nicht so, stimmt's, Nova? Wir sind alle nur aus winzigen Teilchen zusammengesetzt, die sich im Chaos drehen. Das Universum kümmert sich nicht um unsere schwachen Versuche, seinen unendlichen Tanz einzudämmen. Jeder von uns, ein Universum ... jeder von uns, ein Atom. Ändere den Skalierungsfaktor nur ein wenig, und plötzlich hat jedes Problem keine Bedeutung mehr. Wie reagieren wir auf alles auf einmal? Wie kann eine Geschichte etwas anderes als eine Lüge sein? Spielt das eine Rolle?
+// 20
+Das schärfste zweischneidige Ritterschwert, das der Menschheit bekannt ist. Man sagt, es sei das Geschenk eines Engels.
+Seine Ecken wurden von den angesehensten Gelehrten entworfen, um jeden Schlag abzuwenden.
+Verziert mit dem königlichen Blutwappen, macht es die innere Wahrheit des Trägers sichtbar.
+Seine mystischen Sohlen leiten die Lebenskraft des Trägers so, dass die umgebende Erde zu seinen Schritten zu schwingen beginnt.
+Eine Muschelschale, die Fukuchi gehörte. Es heißt, sie will sie zurück.
+// 25
+Item25
+Item26
+Item27
+Item28
+Item29
+endscene
+
+
+scene chest3d
+Nova hat einen Verbesserungspatch erhalten! Ihre maximale Gesundheit im Nanobereich wurde erhöht.
+// highway
+Fantastisch! Nova hat eine Karte gefunden!
+// golem
+Fantastisch! Nova hat eine Karte gefunden!
+// clone
+Fantastisch! Nova hat eine Karte gefunden!
+Nova hat ... eine einzelne Batterie gefunden? Wofür könnte diese sein ...?
+
+Nova findet ... Palisades Karte! Aber sie ist total zerrissen und wieder zusammen geklebt ...
+Nova hat 10 Metamünzen gefunden! Wow! Zeit für einen Einkaufsbummel!
+Nova hat das Rotschloss erhalten!
+Nova hat das Blauschloss erhalten!
+Nova hat das Grünschloss erhalten!
+
+// 10
+Nova hat die Basis des Trylock-Halsbandes gefunden, ein mysteriöses und altes Artefakt! Seine glatte weiße Oberfläche ist durch 3 kreisförmige Schlitze gekennzeichnet, die entlang der Vorderseite angeordnet sind ...
+Nova hat 10 Metamünzen gefunden! Gib sie im Metashop aus.
+Nova findet einen Freund, den sie auf dem Weg kennengelernt hat!
+// 13
+Nova hat eine Karte gefunden! Sie ist nass ...
+Unter einigen Steinen fand Nova eine Karte!
+Entlang einiger Klippen findet Nova eine Karte!
+endscene
+
+// when trying to access 'cheat menu' in pause
+scene menujoke
+Was versuchst du zu tun?
+Gute Idee ... Leider auch hier nichts.
+endscene
+
+
+
+// 1 for each chatper
+scene metainfo-1
+
+endscene
+
+scene metainfo-2
+// near npc plaza
+Cenote ist wirklich ein Beweis für unsere Fähigkeit, erstklassige räumliche Erlebnisse zu liefern. Trotz der Schwierigkeit, ein riesiges Loch zu füllen, fühlt sich Cenote immer noch vollständig an. War es teuer? Sicher. War es zeitaufwendig? Vielleicht. Aber mit dieser Erfahrung wissen wir jetzt, wie wir unsere zukünftige Effizienz steigern können.
+// 1 elevator
+Sie könnten sich diesen Aufzug ansehen und ein einfaches Objekt sehen, das sich nicht einmal bewegt. Aber das zu tun, wäre ein Blick über unsere wahre Absicht hinaus: Die Vereinfachung des oft komplizierten Aufzugserlebnisses. Durch den Einsatz von Teleportationstechnologie können wir Sie in wenigen Sekunden von Cenote ins Blaue Tal bringen. Ist das nicht besser, als 15 Sekunden zu warten?
+// 2 market
+Indem wir es jemandem erlaubt haben, diese Dächer zu benutzen, um auf die Gustine zu steigen, haben wir die Technik der „Geschichteten Ebenen“ angewandt. Diese neue Technologie ermöglicht es uns, mehrstufige Orte zu schaffen, die Ihnen auf den zweiten Blick ein tieferes Verständnis dessen vermitteln, was wie ein bloßes Bühnenkleid aussah.
+// 3 pig entrance
+Wir verstehen die Schwierigkeit hoher Mauern: Sie blockieren die Sicht und erschweren die Navigation. So eine Qual! Deshalb haben wir die Mauern, die zum Aughur führen, verbreitert und sogar einige Zeichen hinzugefügt, dass unsere härtesten Kritiker sie als „unflätig“ bezeichnen könnten. Aber: Sie haben ihren Zweck erfüllt, und das ist es, was wirklich zählt!
+// 4 other road exit
+Wenn es um große Flächen geht, wissen wir, dass es viel zu lange dauern würde, um herumzulaufen. Allerdings ist ein Rundgang ein notwendiges Element, wenn man die kleineren Gebiete von New Theland erkundet. Deshalb haben wir mit „Ridescale“ eine neuartige Transportlösung entwickelt. Die Schöpfer von heute müssen sich nicht mehr auf alte Konzepte wie dem „Pfeifen nach einem Pferd oder Auto“ verlassen – wir sind in die Zukunft gestartet und haben die „sofortige Autotransformation“ direkt vor die Haustür gebracht!
+/ 5 road exit near cougher
+Eine Ringstraße beinhaltet die Philosophie des „omnidirektionalen Sehens“, bei der wir mehrere Markierungspunkte streuen können, die Sie sich merken können. Wenn Sie einen besuchen wollen, schauen Sie einfach zu dem Markierungspunkt und fahren Sie zu ihm hin! Wie einfach, wie göttlich!
+/ 6 center chamber
+Ein Blick aus der Vogelperspektive in die Leere. Wahrhaftig ein optischer Genuss für die Ewigkeit. Aber nicht nur das, sondern auch das Einfangen der Kamera hat nicht nur visuelles Drama und Vorfreude hervorgerufen, sondern wir konnten auch Zeit sparen, indem wir nur darüber nachdenken mussten, wie der Bereich aus einem einzigen Winkel betrachtet wird. Budget und Effizienz sind der Weg zur Innovation!
+endscene
+
+scene metainfo-3
+Eine atemberaubende Aussicht. Sie werden sich freuen zu erfahren, dass das Cenote unter Ihnen in der Größe 1:1 modelliert ist, wie das Cenote, welches Sie erkundet haben. Alles, was wir tun mussten, war, eine bewährte Technik anzuwenden: Das „Copy-Pasten“. Indem wir Cenote sichtbar halten, haben wir Sie in die relative Größe der Welt von New Theland eingeführt. Wir haben außerdem Geld gespart.
+Welcher Weg ist der richtige? Ha! Es gibt keinen falschen Weg. Mit der „Dualen Ausfahrtsstraße“ haben wir die Erkundung in alle Richtungen von New Theland gefördert. Wandere frei!
+Weckt dieses seltsame Dorf nicht sofort Ihr Interesse? Ökologische Designs wie diese ermöglichen es uns, unser Erzählkonzept anzuheizen, indem wir eine ebene Form schaffen, die wir mit narrativen Themen wie „Arroganz“ und „Überarbeitung“ kombinieren. Die beiden – Schrift und Niveau – arbeiten Hand in Hand, um den Nanopunkt zu erzeugen, den Sie erkundet haben.
+Ah, das Blautal-Ost ist wirklich ein weitläufiges Gebiet. Aber durch die Verwendung von Orientierungspunkten wissen Sie immer, wohin Sie gehen! Die Bäume führen in den Wald! Der felsige Hügelpfad führt in Richtung Cenote! Der Highway führt in den Süden! Und so weiter. Mit der Kraft von Orientierungspunkten und der Möglichkeit, leicht von einem Orientierungspunkt zum anderen zu sehen, wird die Navigation einfacher.
+Unser Gestaltungskonzept für diesen Bereich war das „Gleiten über einen Canyon“. Wir wollten Ihnen das Gefühl geben, wirklich „hoch oben auf dem Highway“ zu sein und nach unten schauen zu können. Viele Gebiete in New Theland beginnen mit dieser Art von grundlegendem räumlichen Konzept.
+Um die Dinge aufzupeppen, teilen wir den Standorte der Karten zwischen denen in Nanopunkten und denen in 3D auf. Dies ist ein Beispiel dafür, wie wir das Muster der Erwartung durchbrechen, indem wir ein etabliertes Muster optimieren, so dass die Erforschung interessanter wird. Du willst doch nicht nur ein Einzelzimmer mit 10 NSCs und 10 Karten, oder?
+//6
+Eine Autowaschanlage? Oder ein Spielplatz? Ja, unsere Designer haben die „Dualität des Raumes“ auch hier wieder berücksichtigt, denn diese Autowaschanlage ist sowohl ein Bereich, der als Tor zu Geofs Village-Bereich dient, als auch eine Struktur, die man erkunden kann. Wir nennen dies die „Freude am 3D-Modell“, denn wie einfach kann eine simple Struktur auch etwas werden, das man erkunden kann.
+Die Erstellung dieses Bereichs hat einige Tage gedauert. Und doch ... sonnen Sie sich in seiner Schönheit. Lässt Sie diese Kugel aus Zweigen nicht fragen, wer sie erschaffen hat? Ja, ja ... Bei der Entstehung von New Theland kennen Physik und „Realismus“ keine Grenzen. Unser Motto ist „Lass die Fantasie fliegen und dich zum Mond führen“, sowie „Bitte beschwere dich nicht über kleinere Sehprobleme bei mir.“
+// 8
+Sie fragen sich vielleicht: „Warum sieht der untere Teil dieses Tores seltsam und gedehnt aus, anstatt wie gewöhnliche Steine?“ Ich bezweifle, dass Sie die wahre technische Antwort verstehen würden, welche „UV“-Karten (Ultraviolett) enthält. Ich schätze, man könnte sagen, wir hatten geplant, dass die Tore zunächst kleiner werden sollten, und als wir uns entschieden haben, eine größere Version des Tores zu bauen, hatten wir keine Lust, mehr Steine zu kaufen. So haben wir die Ziegel mit unserer patentierten „Keine-Arbeit“-Technik gestreckt und sind so zu diesem schönen und einzigartigen Muster gekommen, das Sie heute vor sich sehen!
+// 9
+In der Welt von New Theland dreht sich alles um das Spiel mit der Skalierung. Werfen Sie einen genaueren Blick auf diese Katzenschwänze! Das sind keine normalen Katzenschwänze. Ahahahah! Sie sind nach den einzelligen Lebensformen „Radiolarien“ gestaltet, die für ihre ausgeklügelten Mineralskelette bekannt sind! Vielleicht haben Sie schon einmal berühmte Zeichnungen von Strahlentierchen in einer illustrierten Enzyklopädie gesehen? Der Illustrator war ein schlechter Mensch, und wir sollten sie so nicht nennen!
+endscene
+
+scene metainfo-5
+Vielleicht interessiert es Sie zu wissen, dass der Berg vor Ihnen und der Berg, auf dem Sie nach dem Aufstieg in der Höhle standen, nicht derselbe ist! Tatsächlich haben wir zwei Berge unterschiedlicher Größe geschaffen, weil die Perspektive hohe Objekte verzerrt. Ja ... Das ist es, was wir Ihnen glauben machen wollen, aber eigentlich gingen dem Geschäft die Türme aus und wir mussten einen defekten, unförmigen kaufen!
+Als wir eine Wüste schufen, standen wir vor dem Problem: Wie kommt man von einem Gebiet zum anderen? Nun, unsere Designer dachten, der beste Weg wäre, ein subtiles und sprichwörtliches Tor um den ganzen Ort herum zu haben. Es kombiniert Sichtbarkeit mit Subtilität und, ja – erlaubt es Ihnen sogar, auf einfache Weise Sichtlinien zu den Toren zu schaffen, die Sie zu anderen Bereichen führen. Einige mögen es als „unelegant“ bezeichnen, aber wir sehen nicht, dass sie in einem einzigen Jahr ganze Welten erschaffen.
+// 2
+Sehen Sie mal, wen wir hier haben! Tatsächlich ist das „out of bounds“ ebenso ein wichtiger Raum wie das „in bounds“. Sie können die Welt von New Theland aus verschiedenen, seltsamen, vielleicht sogar profanen Blickwinkeln betrachten, wenn Sie „out of bounds“ reisen! Seien Sie vorsichtig!
+Gibt es etwas Schöneres als einen Strand? Es ist ein Exterior, die äußere Grenze eines Ortes. Es definiert das Unbekannte, eine Grenze, welche man nicht überschreiten darf. Und wenn Sie Ihre Augen auf den Horizont richten, werden Sie vielleicht sogar einen nahegelegenen Ort bemerken, den Sie erkunden möchten. Ja, ja. Oder vielleicht mochten wir einfach nur schöne Strände ...
+Irreführung ist ein lustiges Konzept, mit dem man spielen kann. Werfen Sie jedes Gefühl der „logischen mechanischen Entwicklung“ aus dem Fenster und unterbrechen Sie stattdessen Muster mit der Weltschöpfung! Wir hoffen, dass Ihnen die Seltsamkeit des Betretens dieses zufälligen Objekts und der Suche nach einer riesigen, 2D-Welt gefallen hat.
+// 5
+Während der Erstellung dieses Bereichs haben unsere Designer die Feldforschung genutzt, um eine Bibliothek aus Referenzfotos aufzubauen. Dann haben wir versucht, die Illusion zu konstruieren, dass Sie einen großen Hügel hinuntergehen, indem wir einen weiteren großen Hügel in der Ferne geschaffen haben. Das Ergebnis ist ein großzügiger Wohlfühlraum voller Hügel und Täler!
+// 6 orb
+Unsere Designer spielen gerne mit unterschiedlich geformten Räumen, aber auch die Beleuchtung macht Spaß. Anstatt „dynamische“ Tag- und Nachtzyklen zu haben, bündeln wir alle unsere Energien für maximale Synergien und konzentrieren uns auf ein Lichtverhältnis pro Bereich. So können wir die perfekte Stimmung für die Erkundung sorgfältig auswählen. Außerdem können wir so Zeit und Geld sparen. Man lebt nur einmal.
+// 7 new
+Die Geschichte spricht von vielen wichtigen Türmen: Die Windmühle ... Die Sonnenstrahl-Spitze ... und jetzt dieser ... Die Wüstenspitze. Was macht Türme zu einem so starken Symbol, einem so wiederkehrenden Thema in der großen Kunst? Ich weiß es nicht. Überdenken Sie es nicht zu sehr!!!
+// 8 near desert gate
+Hmm ... Diese Tore kommen mir bekannt vor! Ich weiß nicht mehr, warum. Wahrscheinlich, weil sie ein Beispiel für eine „perfekte Form“ sind, die zwangsläufig aufgrund der Eigenschaften von Atomen und so weiter entstehen muss.
+// 9
+Die Zitterpappeln in diesem Gebiet sind von den Pando inspiriert, einer riesigen geklonten Kolonie aus zitternder Espe, die als der schwerste lebende Einzelorganismus gilt. Pando hat ihren Sitz in Utah. Was ist Utah? Äh ... Nun ... Nun ... Utah existiert in einer, wie wir es nennen könnten, „Fantasiewelt“. Fantasiewelten existieren außerhalb der Herrschaft des Zentrums und sind nicht wirklich echt oder relevant, aber manchmal können sie Spaß machen und erbaulich sein, um darüber nachzudenken!
+// orb 10
+Diese gesamte felsige Klippe besteht aus 15 Duplikaten einer einzigen felsigen Form. Durch die Kräfte von „Rotation“ und „Dehnung“ haben wir Sie dazu gebracht, zu denken, dass dies eine wunderschöne und natürliche Felswand ist, wie sie über Äonen durch Wind und Regen geformt wurde!
+// 11
+Haben Sie jemals bemerkt, dass manchmal die hohen Gräser erst bei gezielter Annäherung einfach so auftauchen? Es braucht viel zusätzliche Rechenleistung, um all diese einzelnen Grashalme ein- und auszuschalten, aber es lohnt sich, das Gefühl zu vermitteln, dass diese Welt für Ihren persönlichen Genuss geschaffen wurde!
+endscene
+
+scene buildend
+Melos Han-Tani:n Hallo, sehr geehrter Tester! Du kannst das Zentrum noch nicht konfrontieren. Bleib auf dem Laufenden für die nächste Beta. Du kannst jedoch trotzdem das Anodyne erreichen.
+endscene
+
+
+scene eastereggs
+S. H. Esez:n Hey! Ich bin dein Gastgeber, S. H. Esez, und willkommen bei Episode A2 von "Breaking Boundaries"! Für den Fall, dass du neu hier bist, wir nehmen die Kamera grundsätzlich überall hin mit, wo wir wollen, und suchen nach vergessene Inhalten in der Welt von New Theland! Heute haben wir eine mysteriöse, kopierte und leere Stadt am Fuße des Blautal-Zentrum gefunden! Mal sehen, was wir noch finden können.
+N. Itrorad:n Weißt du, ich wollte Phantom-Cenote die ganze Zeit in meinem Leben einmal besuchen, seit ich im Supermarkt ein Gerücht darüber gehört habe. ... Stell dir nun meine Verwunderung vor, als ich den ganzen Weg zum Grund des Phantom-Cenote kam und hier keinen anderen als meinen Thelandtube-Freund S. H. Esez fand! Aber es macht viel Sinn – das ist schließlich einer der seltsamsten Orte in New Theland.
+Bob: Ah!! Wo bin ich? Hmm ... Aus irgendeinem Grund fühle ich mich seltsam zu Hause in diesem eigentümlichen Land ...
+Bob: Lord $Dustdra? Ich habe keine Ahnung, wovon du redest! Ich denke, ich habe nichts mit deiner Suche zu tun ... Also lass mich in Ruhe!!
+endscene
+
+scene pet-dog
+(Nova streichelt Wolgali!)
+(Wolgali scheint das zu mögen.)
+endscene

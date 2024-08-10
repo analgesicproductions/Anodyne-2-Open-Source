@@ -1,0 +1,1019 @@
+// ------------------ ------------------
+//-------------CONTROLS, INSTRUCTIONS---
+//--------------------------------------
+
+scene instructions
+// After gaining control in Albumen
+Verwende {MOVEMENT}, um dich zu bewegen.
+An der Tastatur, drücke {CAMTOGGLEK}, um den Kamerawinkel zu ändern, und {ZOOMINK}/{ZOOMOUTK}, um den Kameraabstand zu ändern. Mit dem Controller verwende den rechten Stick und die hinteren Schultertasten, um die Kamera zu bewegen.
+Drücke {JUMP}, um zu springen. Du kannst ein zweites Mal springen, während du in der Luft bist. Halte nach einem Sprung {JUMP} gedrückt, um deinen Sturz zu verlangsamen.
+Um die Steuerung, die Grafikqualität und die Spieloptionen zu ändern, drücke {PAUSE}, um das Pausenmenü zu öffnen. Es tut mir leid, dir das alles auf einmal zu sagen! ...Wenn du etwas vergisst, schau im Abschnitt „Steuerung“ des Einstellungsmenüs nach!
+
+// Near the first statue
+Gehe zum Dotter und drücke {TALK}, um mit ihm zu sprechen.
+
+// Press
+Interagiere mit der Umgebung, indem du einen Funken auslöst. Drücke {SPECIAL}, um einen Funken auf einen Dotter zu werfen. Du kannst den Nanopunkt betreten, indem du den Funken wiederholt schießt.
+
+ignore
+
+// After ridescale tutorial
+Betritt das Ridescale, indem du {RIDESCALE} drückst.
+Im Ridescale kannst du {JUMP} drücken, um einen kurzen Sprung durchzuführen.
+
+endscene
+
+scene interaction
+Drücke {TALK}: Sprechen
+ignore
+Drücke {TALK}: Spiel speichern
+Drücke {TALK}: Tür betreten
+Drücke {TALK}: Öffnen
+endscene
+
+scene nanounlock
+[FADE]
+Die Luft ist stickig vor lauter Nano-Staub ...
+Nova!
+Entzünde dieses Wesen und schaffe eine Verbindung!
+Säubere es – und ändere sein Schicksal!
+Schrumpfe weiter, Nano-Reinigerin Nova!
+endscene
+
+
+scene nanounlock-alt
+[FADE]
+Die Luft ist stickig vor ... Luft, schätze ich? Zumindest ist es kein Staub!
+... Nova!
+Entzünde dieses Wesen und schaffe eine Verbindung!
+Betrete sie – und ... schau dich um!
+Schrumpfe weiter, Nano-Reinigerin Nova!
+endscene
+
+
+//-------------------
+//----ALBUMENIUM-----
+//-------------------
+
+
+scene alb-wake
+//<a backlight glow fades in revealing C Psalmist’s silhouette>
+CP2:n Manche sagen, dass das Leben ein Kreislauf ist ... Wahnsinn! Alle Dinge wachsen aus einem Punkt – einem Zentrum. Alles, was kommen wird, war bereits hier: Es schmilzt aus einer winzigen Kapsel heraus, wie ein blühender Schwamm.
+CP2:n Das Schöne daran ist, die wahre Form des Urpunktes zu sehen. Seine Bruchstücke entfalteten sich bis an ihre Grenzen. Die atomaren, unteilbaren Spitzen seiner Tentakel. Die Zeit ist schlussendlich ein Spiegel. Eine Illusion, und doch der wahrhaftigste Weg, unser Selbst zu sehen.
+// psalmist stops strumming
+CP2:n ...
+//<another backlight reveals Palisade silhouette>
+endscene
+
+scene alb-wake-2
+PAL2:n Atemberaubende Worte wie immer, mein Freund! Aber lass uns nicht zu voreilig sein. Das, dem wir hier begegnen wollen, ist kaum ein Baby, noch nicht ausgebrütet ... Wir müssen sie sanft in das helle Licht der Welt führen.
+PAL2:n Oh, schau! Unsere kostbare Nova scheint sich zu rühren ...
+//<Fade to black> Change scenes.
+endscene
+
+scene alb-wake-3
+[FADE]
+Die folgenden sind die ersten Worte, die Nova jemals hören wird. Mit der Zeit wird der Inhalt der Rede in Vergessenheit geraten, aber sie wird nie vergessen, diese Stimme zum ersten Mal gehört zu haben.
+Ah, ja, diese Stimme! So aromatisch, so schön, dass Nova das Gefühl hatte zu weinen. (Wäre sie mit Tränenkanälen gesegnet worden, hätte sie es vielleicht getan.)
+Du hast vielleicht vergessen, wie schwer es ist, wenn du zum ersten Mal erkennst, dass du existierst. Das hat Nova jetzt sicherlich gespürt. Aber als sie diese Kreatur sprechen hörte ... dachte sie ... vielleicht könnte es sich lohnen.
+[FADEOFF]
+PAL2:n Nova ... Nova, kannst du mich hören? Atme tief durch, mein Liebling, und öffne dann die Augen.
+endscene
+
+scene alb-wake-3-2
+[FADE]
+...
+... ...
+... ... ...
+Aus der Dunkelheit, einen orangefarbenen Schein, und aus der Stille, den Wellenschlag ...
+[FADEOFF]
+endscene
+
+
+scene alb-wake-4
+PAL2:n Da ist sie ja! Du bist immer noch ein wenig benommen, oder? Keine Sorge, es ist normal, sich desorientiert zu fühlen, wenn man zum ersten Mal das Bewusstsein erlangt. Kind, dein Name ist Nova, und du bist ein außergewöhnliches Wesen mit der einzigartigen Fähigkeit, auf mikroskopische Größen zu schrumpfen. Es wird sehr praktisch sein, wie du bald sehen wirst!
+PAL2:n Mein Name ist Palisade, und ich bin hier mit C Psalmist! Gemeinsam werden wir als deine Betreuer und Reiseleiter fungieren.
+endscene
+
+//  <A drawing of them appears, with different parts fading in alongside a sketchy pen nib sound effect. (maybe we find like a handwritingy font for the text so it's localizable)>
+// images here
+
+scene alb-wake-5
+P: C Psalmist, möchtest du Hallo zu Nova sagen?
+
+[faceanim BaseScreen 0,1 1x2]
+CP: Ähm ... ähm ... G-Grüße, junge Nova. Ich bin es, C Psalmist! Ich spreche zu dir von außerhalb deines Eies.
+CP: Ähh ... Ähem.
+CP: Schließlich ist der Raum eine Illusion. Man könnte ihn ... mit einem Spiegelglas vergleichen.
+CP: Ein Spiegelglas ist übrigens ein Spiegel. Ich dachte immer, es wäre ein Teleskop oder ein Mikroskop ... du weißt schon, ähm, eine Art röhrenförmiges Objekt ...
+[faceanim BaseScreen 0,0 1x2]
+Pal: Danke für diese aufschlussreiche Klarstellung, C Psalmist!
+
+//<Fadescreen, pal talks over the fadescreen in textbox while parts of a drawing fade in>
+Pal: Nun, Nova ... wie C Psalmist sagte, bist du derzeit in deinem Ei!
+//<egg fades in>
+Pal: Um zu schlüpfen und dein Leben wirklich zu beginnen, fährst du mit der Einschienenbahn „Schlüpflinie“, die von der Spitze des Hügels aus startet.
+//<hatchline fades in>
+Pal: Ah, aber du kannst nur gehen, wenn du den heiligen Glandilock-Samen bekommst!
+//<glandilock seed fades in>
+Pal: Im Moment kannst du dir den Glandilock-Samen als dein Fahrticket vorstellen.
+
+[CUT TO yolkVC]
+P: Sprich zuerst mit den drei Dotterfiguren. Jeder Dotter gibt dir einen besonderen Gegenstand, der dich darauf vorbereitet, einen Glandilock-Samen aufzunehmen. Dann sprich mit dem Chalaza-Baum am höchsten Punkt der Insel.
+
+[CUT TO tvVC]
+P: Los, hol sie dir, Nova!
+
+//<fade out and back in. After the fade in, Nova is now standing up and ready to walk around. THE ALBUMENIUM appears across the screen>
+endscene
+
+scene alb-reminder
+P: Sprich zuerst mit den drei Dotterfiguren. Jeder Dotter gibt dir einen besonderen Gegenstand, der dich darauf vorbereitet, einen Glandilock-Samen aufzunehmen. Dann sprich mit dem Großen Chalaza, dieser baumartigen Gestalt am höchsten Punkt der Insel. Du schaffst das, Nova!
+endscene
+
+scene yolk-alt
+Yummy Eidotter: Hey, Nova! Genießt du unser Centerberry-Burst-Müsli? Wir haben es zwölfmal auf dem Markt getestet, um die perfekte Balance zwischen „knusprig“ und „cool“ zu finden!
+Sippy Eidotter: Jo ... Nova ... Willkommen zurück beim Dotter von Sippy! Nippst du an der cremigen Dottermilch, die du hast? Mmmmmmm ... Nichts ist so gut wie Dottermilch, um meinen Tag zu beginnen.
+Cozy Eidotter: Nochmals hallo! Willkommen zurück im Dotter von Cozy. Genießt du das Reguloid, das wir dir gegeben haben? Ah, ja, ja, gut ... ah. Solltest du damit Probleme haben, kannst du uns jederzeit kontaktieren!
+endscene
+
+scene yolk1
+Yolkwanda der Eidotter: Hallo, Nova! Du bist in das mikroskopische Innere des Dotters von Yummy geschrumpft, dem wichtigsten Dotter des Tages! Hier triffst du Vorkehrungen, um deinen zukünftigen Glandilock-Samen glücklich und gesund zu halten!
+
+Yummy Eidotter: Nova wird unser Centerberry-Burst-Müsli lieben, da es Spuren von 17 Mikronährstoffen in vom Zentrum empfohlenen Verhältnissen enthält! (Und der Glandilock-Samen wird diesen patentierten „knusprig-coolen“ Geschmack lieben!)
+
+Yummy Eidotter: Hmmm ... was wäre, wenn wir einen eigenen Glandilock-Samen hätten?
+Yummy Eidotter: ...
+Yummy Eidotter: Huch! Beachte mich gar nicht! Hier im Dotter von Yummy mögen wir große Töne spucken, aber die Entwicklung köstlicher und nahrhafter knusprig-aufgegangener Lebensmittel ist das Einzige, wovon wir etwas verstehen!
+
+Yummy Eidotter: Herzlichen Glückwunsch, du verdienst wirklich unser Gütesiegel-„A“ Glandilock-Futter! Cartoon-Charaktere werden aufgrund der hohen Qualität unseres Centerberry-Burst-Müslis viele schwierige Begegnungen erdulden. Aber wir können dir sagen, dass du ein guter Hüter deines Glandilock-Samens sein wirst!
+
+// 6
+Yolkwanda der Eidotter: Wowie!! Unsere eigene Reinigungskraft ist zu Besuch gekommen!! Oh Gott, oh Gott, und ich bin der erste Nanofreund, den sie sehen wird. Junge, hallo, ich muss mich zusammenreißen und mich an meinen Text erinnern ...
+Yolkwanda der Eidotter: (Ich hoffe, sie kommt hier rüber und drückt {TALK}, um mit mir zu reden!)
+endscene
+
+scene yolk2
+Sippy Eidotter: Jo ... Nova ... Willkommen im Dotter von Sippy! Einige Leute sagen, dass ein Glandilock-Samen 8 Tautropfen unserer hausgemachten Sippy Dottermilch pro Zellzyklus trinken sollte, aber wir hier in der Sippy-Zone denken, dass man mit der Mathematik chillen und einfach mit dem Flowww gehen sollte ...
+
+Sippy Eidotter: Der Glandilock-Samen ist wie eine direkte Verbindung zum Zentrum, verstehst du? Halte einfach deinen Geist offen, du weißt schon, und die Antworten ... werden dich finden.
+
+Sippy Eidotter: Mmmmmmmmm, nichts geht über ein wenig leckere Sippy-Dottermilch, damit diese Glandilock-Ranken tief und fest wachsen. Fahr einfach hoch, Nova ... fahr hoch.
+
+Sippy Eidotter: Nova ... Du hast es natürlich bis zur Dottermilch geschafft. Du hast dich einfach entspannt und es flieeeßen lassen, oder?
+endscene
+
+scene yolk3
+Cozy Eidotter: Willkommen im Dotter von Cozy ... ja, ja. Fühlst du dich wohl? Ja, ja ... wir haben diese Reguloide sorgfältig trainiert, um die lokale Atmosphäre an die exakten Vorlieben deines Körpers anzupassen ... Temperatur, Salzgehalt, Säuregehalt, Schleimgehalt ... und so weiter.
+
+Reguloid: Wuff, wu-wuff! (Übersetzung: Temperatur: 36 Grad Dotterheit)
+
+Reguloid: Wuffer wuff-wuu! (Übersetzung: Luftfeuchtigkeitgehalt: 5% Erfolgsrate für einen Fisch zu atmen)
+
+Reguloid: Wu-wuwu Wuff-Wuffer! (Übersetzung: Goldenes Sommerlicht, gesprenkelt von Eichenlaub. Der Duft von frisch gequetschtem Krabbengras und Löwenzahn. Eine unerwartet kühle Brise weht von der anderen Seite des Sees herein. Ein gelbbraunes Kaninchen setzt sich auf und schnüffelt, bevor es in die Büsche springt.)
+
+Cozy Eidotter: Hmm, ja, ja, ja ... Ein wenig Müsli, ein wenig Dotter, ja. Solche Dinge sind absolut notwendig. Doch wie das alte Sprichwort sagt: „Ein Glandilock-Samen kann nicht von der Nahrungsaufnahme allein leben“!
+
+Cozy Eidotter: Ahh, ja, ja in der Tat. Es ist Zeit für dich, deine eigenen Reguloide zu besitzen! Wie schön, ein Zuhause zu bieten. Möge dein Kopf immer eine sichere und warme Ruhestätte für den kostbaren Glandilock-Samen sein. Ja, ja, ja.
+endscene
+
+scene yolk-outside-1
+[FADE]
+Die seltsame Gestalt ist still. „Ist es lebendig?“, fragt sich Nova. Dennoch lockt sie ihr Blick. „Betritt meine runde, goldene Pastete“, scheint es zu sagen. „Du wirst dich als ein Teil dieses reichhaltigen Frühstücks vorfinden ...“
+Das Schicksal des Dotters und von Nova beginnt zu schwingen. Die Präsenz eines neuen Nanopunktes liegt in der Luft. Entzünde dieses Wesen und enthülle seinen Nanopunkt! Schrumpfe weiter, Nano-Reinigerin Nova.
+[FADE]
+Der Dotter von Yummy schaut Nova seltsam an. „Ihr habt die Schätze gefunden, die in mir vergraben sind ... aber trockenes Getreide verursacht Schmerzen in den Mundkammern ...“ Er nickt in Richtung eines Dotters weiter den Hügel hinauf.
+endscene
+
+scene yolk-outside-2
+[FADE]
+Der zweite Dotter schwankt im Wind mit einem tiefen Gefühl der Kälte. „Juuuunge“, scheint es zu sagen. „Reite die milchigen Wellen ...“
+Das Schicksal des Dotters und von Nova beginnt zu schwingen. Die Präsenz eines neuen Nanopunktes liegt in der Luft. Entzünde dieses Wesen und enthülle seinen Nanopunkt! Schrumpfe weiter, Nano-Reinigerin Nova.
+[FADE]
+Der Dotter von Sippy nickt Nova bejahend mit dem Kopf an. „Ausgezeichnet“, scheint es zu sagen. „Hast du mit dem Dotter von Cozy auf dem Hügel gechillt?“
+endscene
+
+scene yolk-outside-3
+[FADE]
+Die letzte Dotterfigur scheint Nova mit einem warmen, doch analytischen Auge zu betrachten. „Ahhhh ... hmmm ... ja, ja, ja ...“, scheint es zu sagen. „Ein perfekter Gastgeber, der ein perfektes Reguloid braucht ...“
+Das Schicksal des Dotters und von Nova beginnt zu schwingen. Die Präsenz eines neuen Nanopunktes liegt in der Luft. Entzünde dieses Wesen und enthülle seinen Nanopunkt! Schrumpfe weiter, Nano-Reinigerin Nova.
+[FADE]
+Der Dotter von Cozy blickt wieder einmal auf Nova. „Ahhh ... ja, ja, ja ... alles ist in Ordnung hier“, scheint es zu sagen. „Vielleicht ist sie bereit, sich mit dem alten Chalaza zu treffen ...“
+endscene
+
+scene yolkchest
+Nova findet das Centerberry-Burst-Müsli, eines der drei Elemente der Ernährung! Mit ihm hat ein Glandilock-Samen alle Kohlenhydrate, die er braucht, um ein Zuhause in Novas Kopf zu schaffen.
+Nova findet die Sippy-Dottermilch, eines der drei Elemente der Ernährung! Damit verfügt ein Glandilock-Samen über alle von der Regierung zugelassenen Nährstoffe, die für eine weite Verbreitung in Novas Kopf benötigt werden.
+Nova findet ein Reguloid: Persönliche Edition, ein weiteres der drei Elemente der Ernährung! Der Reguloid adaptiert Novas Kopf in die perfekte Umgebung für einen florierenden Glandilock-Samen!
+Nova hat eine Karte gefunden!
+Nova hat etwas gefunden!
+endscene
+
+scene chalaza
+//<giant tree with a glandilock seed, has no concept of scale... thinks that this part of the game is huge and long and important>
+
+
+CH: Ahhhhhh ... Nova ... Hmmmmm ... Nach all der Zeit ... treffen wir uns endlich!
+CH: Ahhhhhhhhhhhhhhhhhhhh...
+CH: Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ... Nova! Äh ... Worüber haben wir gesprochen? Oh, richtig.
+CH: Ich ... bin der alte Chalaza-Baum, Bewahrer des heiligen Wissens über die Albumenküste! Von dem Tag an, an dem du an unseren Ufern angespült wurdest, habe ich deine Reise aufgezeichnet ... und was für eine Reise es war! Denke mit mir über jene süßen und kühnen Geschichten nach, die jetzt auf dem dunklen Fluss der Vergangenheit treiben.
+endscene
+
+scene chalaza-a1
+CH: Erinnerst du dich ... an die tosenden, von Müsli besessenen Bewohner des Dotters von Yummy?
+endscene
+
+scene chalaza-a2
+CH: Die entspannten Bewohner des Dotters von Sippy?
+endscene
+
+
+scene chalaza-a3
+CH: Was ist mit den freundlichen und gewissenhaften Pflegern des Dotter von Cozy?
+endscene
+
+
+scene chalaza-a4
+CH: Ahhhhh ... Ich habe gelacht! Ich habe geweint! Ich habe um Weisheit gebetet, um deine Entscheidungen zu segnen ... Deine donnernden Triumphe und deine mühsamen Kämpfe werden für alle Ewigkeit in meine Zweige eingeprägt sein!
+endscene
+
+scene chalaza-a5
+CH: Und jetzt ... bist du hier angekommen, an der Spitze von Berg Vitelline, von dem aus man die entlegensten Winkel dieses weitläufigen Landes überblicken kann ...
+CH: Hast du die drei Elemente der Ernährung?
+CH: ...
+endscene
+
+scene chalaza-2
+//<If no>
+[CUT TO chalazaVC]
+CH: Ahhhh ... doch leider muss ich der Überbringer komplizierter Nachrichten sein. Nova, dein herkulischer Aufstieg zu diesem hohen Gipfel war vergeblich, ohne den vollen Segen der drei Dotter. Geh zu dem Dotter, den du verpasst hast, und kehre erst dann zu mir zurück ... Ich weiß, dass die Reise lange dauern wird, aber ich glaube daran, dass du eines Tages zurückkehren wirst!
+endscene
+
+scene chalaza-if-failed
+CH: Ahhhhhh ... Nova ... Hmmmmm ... Nova ...
+CH: Ich bin es ... der alte Chalaza, Bewahrer des Wissens über die Albumenküste! Vor langer Zeit, bei unserem ersten Treffen, warst du noch nicht bereit, die große Verantwortung für den Glandilock-Samen zu übernehmen. Seitdem habe ich das Feuer der Hoffnung am Leben erhalten, damit du eines Tages zurückkehren kannst.
+CH: Also ... hast du die drei Elemente der Ernährung?
+endscene
+
+scene chalaza-3
+//<if yes>
+[CUT TO chalazaVC]
+CH: Ahhhh ... wunderbar ... dann ist meine Epoche der Vorfreude abgeschlossen! Nova, ich gebe dir den Glandilock-Samen.
+endscene
+
+scene chalaza-4
+CH: Und jetzt, Nova ... ist es Zeit ...
+[CUT TO chalazafarVC]
+CH: Schon jetzt spüre ich, wie meine Kraft verblasst ... Das Zeitalter des Albumens neigt sich dem Ende zu ...
+[CUT TO hatchlineVC]
+CH: Schnell, Nova. Leg dich auf die Schlüpflinie.
+[CUT TO chalazaVC]
+CH: Und mit meiner letzten Energie ... werde ich dich ins große Jenseits schicken!
+//<Cut to Nova lying down. Hatchline activates, we speed away over the waters, screen slowly fades to white>
+// Anodyne 2, Return to Dust appears in simple white font
+endscene
+
+scene yolk-wanted
+GESUCHT: STAUBVIRUS\nMr. Spiky
+Er mag vielleicht nur da sitzen, aber dieser Virus hat einige sehr unhöfliche Kommentare zu unseren armen Eidottern gerufen. Versuche, einen Block auf ihn zu schießen, und sauge jeden Staub auf, den er zurücklassen könnte!
+GESUCHT: STAUBVIRUS\nSanftmütiger Schleim
+Lass dich nicht von ihrem bezaubernden, klebrigen Äußeren täuschen! Wenn man nicht aufpasst, können diese lästigen Raufbolde schwere Krankheiten im Körper ihres Wirtes verursachen! Im Gegensatz zu Mr. Spiky können sie sicher abgesaugt werden.
+endscene
+
+
+scene rock-loop
+Stein: Willkommen! Felsen sind überraschend vielfältig und kommen in einer Reihe von Formen und Größen vor, obwohl viele der Felsen hier durch göttliches Schicksal gleich aussehen. Rede mit uns allen!
+endscene
+
+scene rock-messages
+ignore
+ignore
+ignore
+// In Yolk 1.
+Stein: Es gibt einige bunte, felsenartige Hindernisse, die dir den Weg versperren! Versuche, mit deinem Nano-Staubsauger Dinge aus dem Weg zu saugen!
+Halte {SPECIAL} gedrückt, um Objekte einzusaugen. Drücke {SPECIAL}, um sie wieder herauszuschießen.
+// MOVE THIS TO ROCK NORTH
+Stein: Manchmal liegen Steine im Weg, aber manchmal können sie sehr hilfreich sein! Bemale nicht jeden Stein mit einem dicken Pinsel, das ist alles, was ich sage! Es sei denn, du bemalst sie richtig cool. Eine Dame an meiner Kirche bemalte einen Stein so, dass er aussah wie ein Tiger mit kleinen Schnurrhaaren und so weiter ... Ziemlich gut!
+//
+Stein: Ein Abgrund trennt dich und diese verdammten Staubviren! Du bist zu weit weg, um sie aufzusaugen, aber vielleicht gibt es einen anderen Weg, sie loszuwerden ...
+// 7
+Stein: Bitte beschieße nichts an den Toren. Entgegen der landläufigen Meinung, kann man nicht einfach alles auf seinem Weg in die Luft jagen!
+Stein: Noch wichtiger ist, dass du möglicherweise die Farbe abplatzen lässt. Das hast du doch nicht bereits getan, oder?\n(-Tor-Malerei Wartungsbüro)
+endscene
+
+scene gate-hit
+Tor: Autsch! Pass auf! Du wirst meine Farbe abplatzen lassen! Wenn du willst, dass ich mich öffne, dann lass deine Aggressionen stattdessen an den Staubviren aus!
+endscene
+
+scene yolk-sucked
+Eidotter: H-hey warte, Nova!! Ich bin ein hilfsbereiter Eidotter, kein tödlicher Staubvirus! Bitte sprich einfach mit mir!
+endscene
+
+scene reguloid-sucked
+Reguloid: Wuu-wuff! Wuff, wuff! (Übersetzung: Ich will nur Nova helfen! Ich bin kein Staubvirus!)
+endscene
+
+scene chest-sucked
+Verriegelte Kiste: Hahahahaha!! Ich bin eine verriegelte Kiste!! Meine spezielle Verriegelung ist völlig unempfindlich gegen alle Formen der Staubsaugerbehandlung.
+(Hmm ... Ich hoffe nur, dass ich niemanden mit Händen treffe ... Hände sind die größte Schwäche meines Schlosses!!)
+endscene
+
+// -------------
+// GROWTH CHAPEL
+// -------------
+
+scene chapel-test
+PAL: Willkommen Nova!
+CP: Hallo!
+endscene
+
+scene prism-come-here
+PAL: Nova, du hast es geschafft! Ich werde dir bald alles über dieses Gerät erzählen, aber für den Moment komm zu mir für ein kurzes Gespräch!
+endscene
+
+
+
+scene chapel-entry
+PAL: Da bist du ja, Liebling, ich wusste, dass du es schaffst! Willkommen im Leben!
+
+[CUT TO cutscenevc]
+PAL: Nova, du bist im Zentrumsheiligtum, dem Wohnort des Zentrum! Das Zentrum ist ... Nun, es ist schwer das jemandem zu erklären, der gerade erst geschlüpft ist, nicht wahr? Das Zentrum ist das Zentrum ... Es hat uns alle erschaffen, zusammen mit unserer Welt: Die Insel New Theland. Das Zentrum ist wie ein Künstler, und wir sind sein Gemälde, ein schöner Ausdruck seiner Vision!
+CP: Das Zentrum ist alles. Oder besser gesagt, das Zentrum existiert einfach. Unsere Leben sind wie Schatten, die von der wahren Form des Zentrums geworfen werden, welche eines Tages sichtbar werden.
+// 4
+[CUT TO palvc]
+PAL: Hmm ... Vielleicht sind wir alle die Künstler und die Kunst von New Theland. Wir formen und werden von einander geformt ... Indem wir unsere Nachbarn mit Freundlichkeit behandeln, können wir uns gegenseitig aufbauen.
+
+[CUT TO cpvc]
+CP: Ähm ... Nun .... Ich weiß nicht, ob ich so weit gehen würde, Palisade ... Was wir erreichen können, fließt direkt aus der Rechtschaffenheit des Zentrums. Unabhängig davon müssen wir uns konzentrieren.
+CP: Nova, hör genau zu. Ich werde dir nun deinen wahren Zweck und den weiteren Weg offenbaren.
+CP: Du wurdest in ein Kriegsgebiet hineingeboren, Nova. Zugegeben, es ist kein Wettbewerb von Schwertern oder Waffen, von Armeen oder Infanterie ... wir führen einen Krieg, der fast unsichtbar und doch völlig heimtückisch ist ... Wir sehen uns einer tödlichen Kraft gegenüber, die das Gesicht der Zeit in Falten legt, während eine lauernde Wasserbestie die Oberfläche eines Sees aufbringt und die klare Reflexion unserer Seelen stört.
+CP: Wir nennen es Nano-Staub ...
+// 11
+//<Maybe a musical change? Some scary dust themed music that plays when nova sees uncomfortable dust-related stuff, or has flashbacks>
+//<illustrations>
+CP: Es beginnt klein, ein mikroskopisch kleiner Samen, der in einer dunklen, feuchten Ecke der eigenen Organe gepflanzt wird. Dann wächst der Nano-Staub, er ernährt sich von der Struktur unseres Geistes und vergrößert unsere Ängste, unseren Zorn, unsere ungerechten Wünsche. Schließlich blüht er in seinem vollen Ausmaß und löscht die Identität ihres Wirtes vollständig aus.
+CP: Symmetrie, schöne Symmetrie, ist unser Geburtsrecht als Schöpfung des Zentrums, und doch verlieren wir uns im Staub. Wir beginnen zu verfallen. Zu zersetzen. Zu zerbröckeln. Staub erzeugt Staub, und wir verlassen unser wahres Selbst.
+//13 <Hopeful/worshipful music? or maybe just the harp music>
+CP: Nova, vielleicht wird jetzt dein wahrer Zweck offensichtlich. Dir wurden die Fähigkeiten gegeben, zu schrumpfen und zu reinigen, damit du die Flut des Staubs umkehren kannst, die uns zu überwältigen droht. Du musst weit und fern reisen und in die Bewohner von New Theland schlüpfen, die am meisten von der Verunreinigung durch den Staub verschluckt wurden. Du ...
+
+[CUT TO cutscenevc]
+(Plötzlich fliegt ein winziger Funke auf Novas Kopf zu.)
+PAL: - Was ist das?! Palisade, Karte aktivieren!
+(Palisade schafft mit ihrem Schild eine Barriere, die den Funken in einem glühenden Würfel auffängt.)
+PAL: Ein Nano-Eindringling, der versucht, in deinen Körper einzudringen! Nova, ich kann es vorübergehend eindämmen, aber du musst auf Nanogröße schrumpfen und ihn zerstören! Keine Angst, Liebling, ich bin gleich hier. Ich weiß, dass du es schaffst!!
+endscene
+
+//<control is given back to Nova, who can shrink inside the glowing cube where Pal is holding the Nanobot.>
+//<this allows Palisade to demonstrate the power of cards and also look out for you. it is perhaps a test/indoctrination scenario created by the center (though this is not necessarily revealed)>
+
+scene pollen-yolk
+$Dusty Eidotter: N... Nova ... bist du das? *hust* ... Wie bin ich hierhergekommen? *hust* *hust*
+$Dusty Eidotter: Wird ... wird es mir gut gehen? Ich bin so müde, Nova ... *hust* Ich habe mich noch nie so gefühlt ...
+$Dusty Eidotter: ... Ich habe Angst.
+endscene
+
+scene pollen-rock
+[FADE]
+„Die Nano-Reinigerin.“
+Sie existiert, und sie wurde geboren, um zu entstauben, zu reinigen, zu retten ...
+Möge sie uns alle vor Schaden bewahren.
+Möge die Nano-Reinigerin New Theland und seine Bewohner vor ihrem Schicksal bewahren.
+endscene
+
+scene cc-nanobot
+Nano-Attentäter: *HUST* ... *HUST* ... NOVA WIRD STERBEN ... DAS ZENTRUM WIRD ZERFALLEN ... STAUB WIRD NEW THELAND VERSCHLINGEN ... *HRRR-HUST*!!
+Nano-Attentäter: *HRRR-HUST*!! *HUST* ... N... NOVA ... WIRD STERBEN ... DAS ZENTRUM ... WIRD ZERFALLEN ... STAUB ... WIRD NEW THELAND ... VERSCHLINGEN ... *HUST* ...
+endscene
+
+scene cc-after-miniboss
+PAL: *seufz* Du wirst so schnell erwachsen. Ich habe eine solche Herausforderung schon lange nicht mehr erlebt, aber ich bin *so* stolz auf dich.
+[CUT TO cpvc]
+CP: Leider gibt es einige, die versuchen würden, New Theland zu zerstören. Obwohl wir alle vom Zentrum erschaffen werden, kann der Nano-Staub eine Art Wahnsinn hervorrufen. Jetzt kannst du vielleicht die Dringlichkeit deiner Mission erkennen.
+[CUT TO elevatorvc]
+CP: Nova, nimm den Aufzug hinter dir, hinauf zur Stadt. Und denk immer daran, dass du dich gegen das immer weiter fortschreitende Kriechen der Erniedrigung stellst!
+endscene
+
+scene save-explanation
+Das Ding da drüben ist ein Rettungspunkt. Geh in die Nähe davon und drücke {TALK}, um das Speichermenü zu öffnen und deinen Fortschritt zu speichern.
+endscene
+
+
+// ----------
+//   CCC
+// ----------
+
+scene ccc-entry-captions
+Nano-Staub deponieren!
+*STURMSCHADEN*
+Erhöhe die Stufe des Prisma mit Karten!
+endscene
+
+scene ccc-entry
+PAL: Willkommen im Cenote-Stadtzentrum, einer lebendigen Gemeinschaft, die in die Mauern dieser heiligen geologischen Vertiefung gebaut wurde! Direkt über dem Zentrumsheiligtum befindet sich das Staubprisma, in dem sich der Nano-Staub befindet, den du sammeln wirst.
+// Deposit Nano Dust, prism fills
+PAL: Du kannst die Staubablagekonsole im Zentrumsheiligtum verwenden, um #Staub abzugeben. Einmal im Staubprisma versiegelt, kann der Nano-Staub bis zur vollen Größe blühen, ohne New Theland zu beschädigen! Sobald genügend #Staub im Staubprisma gesammelt ist, wird es zum Zentrum geschickt, um dort in Energie umgewandelt zu werden.
+// storm damage, shields lower
+PAL: Aber leider Gottes! Bevor du geboren wurdest, wurde das Staubprisma bei einem schrecklichen Sturm beschädigt, und jetzt kann es nur noch einen kleinen Teil seiner vollen #Staubkapazität enthalten! Aufgrund dieses Energiemangels ist die Herrschaft des #Staubs so weit fortgeschritten, dass es nicht mehr sicher ist, die Stadt zu verlassen! Du kannst den Sturm sehen, der immer noch über uns tobt ...
+// level up prism with cards, card anim
+PAL: Hier kommst du ins Spiel, Nova! Das Staubprisma kann mit seltenen und leistungsstarken Karten verstärkt werden, die du während der Nano-Reinigung finden kannst. Dein erstes Ziel ist es, das Prisma mit 4 Karten zu verstärken und es mit 100cc Nano-Staub zu füllen. Dann wird das Zentrum in der Lage sein, den #Staub in Energie umzuwandeln und den Sturm zurückzudrängen, so dass du Cenote-Stadtzentrum verlassen kannst!
+PAL: Zusammenfassend lässt sich sagen, dass deine Mission darin besteht, die Stadt nach Menschen zu durchsuchen, die gereinigt werden müssen, den Staub und die Karten in ihnen zu sammeln und diese Ressourcen dann wieder im Zentrumsheiligtum abzulegen. Überprüfe deinen Fortschritt im Menü, indem du {PAUSE} drückst. Du wirst einen tollen Job machen, Nova!
+endscene
+
+scene sanc-reminder-intro
+PAL: Nova, deine Mission ist es, die Stadt nach Menschen zu durchsuchen, die gereinigt werden müssen, den Staub und die Karten in ihnen zu sammeln und diese Ressourcen dann wieder im Zentrumsheiligtum abzulegen. Du wirst einen tollen Job machen!
+endscene
+
+scene sanc-reminder-2
+PAL: Denk daran, Nova, wir brauchen 100 Einheiten Staub, um den Sturm zu beseitigen! Wenn du nach dem Entleeren deines Kanisters noch etwas mehr brauchst, kannst du dich in jemanden zurückziehen, den du bereits gereinigt hast!
+[FADE]
+Die Idee, an den gleichen Nanobereichs-Standort zurückzukehren, erschien Nova unbehaglich, aber wenn es das ist, was es braucht, um dem Zentrum zu helfen ...
+endscene
+
+scene ridescaleprompt
+PAL: Dauert es zu lange, um rumzukommen, Nova? Jetzt, da du im Freien bist, versuche mit deiner Ridescale-Form durch die Stadt zu flitzen!
+(Drücke {RIDESCALE}, um die Ridescale-Form zu betreten und zu verlassen. Halte {BESTÄTIGEN} gedrückt, um zu beschleunigen. Halte {CANCEL} gedrückt oder gehe zurück zum Rückwärtsgang. Drücke {SPECIAL}, um den Tempomat einzuschalten. Es gibt einige Orte, an denen du kein Ridescale nutzen kannst. Bei Verwendung eines Controllers wird dringend empfohlen, zum Beschleunigen {CONFIRM} zu verwenden.)
+(Wenn du die Steuerung vergessen hast, kannst du sie im Menü Einstellungen überprüfen.)
+PAL: Oh ja, Nova, noch eine Sache: Manchmal, wenn man zweimal mit Leuten spricht, haben sie neue Dinge zu sagen! Achte darauf, dass du dich viel unterhältst!
+// prompt appears
+endscene
+
+
+// Talks with Palisade after getting each of the first 4 cards
+scene pal-card-1
+PAL: Herzlichen Glückwunsch zu deiner ersten Karte, Nova! Ich kann bestätigen, dass du eine wunderbare Nano-Reinigerin für die Menschen in New Theland sein wirst!
+PAL: Übrigens, Nova ... Mach eine Pause, wenn du dich müde fühlst. Das Sammeln von Karten ist wichtig, aber auch dein Wohlbefinden!
+endscene
+
+// Nova starts in hurt panting
+scene pal-card-2
+PAL: Wow! Das sind 2 von 4 Karten, die wir benötigen, um das Staubprisma zu verstärken! Oh, Nova! Du bist verletzt!
+[FADE]
+Nova richtet ihre Haltung schnell auf und schüttelt den Kopf.
+[FADEOFF]
+PAL: Bitte dränge dich selbst nicht zu sehr. Du bist noch so jung. Denk daran, ich werde im Zentrumsheiligtum sein, wenn du mich brauchst! Während du dort bist, kannst du deinen gelagerten Staub deponieren und mit einer Feder im Gepäck gehen – es ist besser, einen vollen Tank nicht länger als nötig mitzunehmen!
+endscene
+
+
+
+
+scene pal-card-3
+// Nova spin out, fall, lying on ground
+PAL: Ahh, Nova ...
+[FADENOFADE]
+// fade to full alpha
+$PAL$ schwebt zu Nova, nimmt sie sanft auf und beginnt, Nova in ihren Armen zu halten.
+[FADEOFF]
+...
+... ...
+// fade image of pal in
+// 6 Text box on screen
+PAL: Es wird alles gut, Liebling. Du arbeitest so hart und machst so einen guten Job. Vielleicht tut dir ein Ausflug außerhalb der Stadt gut ... Die Luft ist dort draußen frischer. Nun ... sie wird es bald sein, sobald der Staubsturm aufgehört hat ...
+// 7fade out image of pal. bg still black.
+...
+[FADESONG CougherHome 1 0]
+Später, im Zentrumsheiligtum ...
+CP: ... Ich verstehe nicht, was du sagst, Palisade. Glaubst du, dass das Zentrum falsch liegt? Dass wir dem Staub nachgeben und ihn New Theland erobern lassen sollten??
+PAL: Nein! Natürlich nicht ... Es ist nur ... Nova. Sie sollte eine solche Last nicht ganz allein tragen müssen.
+CP: Nova ist die Einzige, die das tun kann, es ist der Zweck ihrer Schöpfung. Und wir sind hier, um ihr zu helfen! Aber am Ende des Tages muss sie weiterhin säubern, sonst geht alles verloren. Wir alle müssen Opfer für das Gemeinwohl bringen. Verstehst du, Palisade?
+PAL: ...
+PAL: Ich glaube, ich verstehe ...
+...
+[FADESONG CCC 1 1]
+[FADESONG CougherHome 1 1]
+// fade alpha back
+endscene
+
+// fade after nova spins out
+scene pal-card-4
+[FADE]
+Novas Magen taumelt, als sie sich aus dem Nanobereich stürzt. „Das ist es“, denkt sie sich. „Der Übergang hat mich krank gemacht.“ Aber dieses Mal lässt sie sich nicht auf die Knie zwingen. Sie hasst es, Palisade so besorgt zu sehen. Auch wenn es sich gut anfühlte, als Palisade sie wiegte ...
+[FADEOFF]
+PAL: Hallo, Nova Liebling! Nachdem du nun vier Karten hast, kehre bitte zum Zentrumsheiligtum zurück, um das Staubprisma zu verstärken!
+endscene
+
+
+//------------
+// DUST DROP POINT
+//-------------
+
+scene ddp-intro
+PAL: Richtig, Schatz, das ist der untere Staubabwurfpunkt! Nachdem du etwas Staub im Nanobereich gesammelt hast, ist dies der Ort, an dem du ihn an das Zentrum schicken wirst!
+endscene
+
+scene ddp-too-early
+PAL: Das ist der untere Staubabwurfpunkt, Nova! Ich werde dir bald zeigen, wie man es benutzt, aber zuerst nimm den Aufzug nach draußen!
+endscene
+
+scene ddp-greeting
+Konsole:n Grüße, Nano-Reinigerin Nova. Willkommen im Staubabwurfpunkt! Lass uns den gesamten gefundenen Nanostaub deponieren.
+endscene
+
+
+scene ddp-no-dust
+Konsole:n Es scheint, dass du keinen Nanostaub besitzt. Bitte kehre zurück, nachdem du mehr gefunden hast.
+endscene
+
+scene ddp-full-afterfilling
+Konsole:n Nova, du hast mehr Staub, als das Prisma aufnehmen kann. Nachdem du die Kapazität des Prismas erweitert hast, kannst du den verbleibenden Staub einlagern.
+Konsole:n Nova, du hast mehr Staub, als das Prisma aufnehmen kann. Mach dir keine Sorgen, denn es besteht keine Notwendigkeit, dass du weiteren Staub einlagerst.
+Konsole:n Nova, das Staubprisma ist derzeit voll. Finde weitere Karten, um die Kapazität zu erweitern.
+Konsole:n Nova, das Staubprisma ist derzeit voll. Bitte sprich mit Palisade.
+Konsole:n Nova, das Staubprisma ist derzeit voll. Bitte sprich mit C Psalmist.
+endscene
+
+// These are said while the dust filling cutscene is happening
+scene ddp-full-r0
+// Full
+PAL: Du hast so hart gearbeitet, Nova! Tatsächlich hast du mehr Staub, als das Staubprisma im Moment aufnehmen kann! Behalte im Moment den zusätzlichen Staub in deinem Tank, bis du genug Karten findest, um das Prisma zu verbessern!
+PAL: Fantastisch, Nova! Das Zentrum hat jetzt genug Staub, um den Sturm zu beseitigen! Komm rüber und sprich mit C Psalmist und mir.
+endscene
+
+
+scene ddp-dust-done
+Konsole:n Danke, dass du Staub deponiert hast, Nova. Bitte komm bald zurück.
+endscene
+
+
+//------------
+// PRISM STUFF
+//-------------
+
+
+
+scene prism-need-more-cards
+Konsole:n Es scheint, dass du nicht genügend Kartenenergie hast, um das Prisma zu vergrößern. Nova, komm mit mindestens vier Karten zurück.
+endscene
+
+scene prism-maxed
+Konsole:n Nova, das Staubprisma wurde bereits vollständig aufgerüstet. Bitte finde weiterhin Nano-Staub, damit unsere Welt gerettet werden kann.
+endscene
+
+scene prism-upgrade
+Konsole:n Wunderbar, Nova. Du hast genug Karten, um das Staubprisma zu verbessern. Beginnen wir mit dem Upgrade-Prozess!
+endscene
+
+scene prism-consec
+Konsole:n Fantastisch, Nova! Du hast noch genügend Karten, um das Prisma weiter zu verbessern. Wenn du möchtest, kannst du mit mir sprechen, um den Prozess fortzusetzen.
+endscene
+
+scene prism-end
+Konsole:n Herzlichen Glückwunsch, Nova. Du hast das Staubprisma verstärkt und seine Kapazität um 50 Einheiten erhöht! Mach weiter so.
+endscene
+
+scene prism-disillusioned
+Nova ist nun desillusioniert.
+endscene
+
+// Story related prism stuff
+
+
+scene prism-greeting
+Konsole:n Willkommen bei der Prismenverstärkungsvorrichtung, Nano-Reinigerin Nova. Bitte lege die gesammelten Karten ein, damit das Staubprisma erweitert werden kann.
+endscene
+
+scene prism-pal-intro
+PAL: Das Staubprisma lässt den gesammelten Nanostaub sicher aufblühen. Sobald er aufgeblüht ist, können die Wolken aus #Staub vom Zentrum in Energie umgewandelt werden.
+PAL: Leider wurde das Staubprisma durch einen großen Sturm geschwächt und kann seine volle Kapazität an Nanostaub nicht halten. Das war vor deiner Zeit, kleiner Zwerg. Bitte sammle seltene Karten, um das Staubprisma zu verstärken!
+endscene
+
+//<bringing 100 dust. Cutscene shows the dust.>
+scene ddp-open-ring1
+PAL: Fantastisch, Nova! Du hast das Prisma mit Karten verstärkt und genug Staub deponiert, um den Sturm zu beseitigen! Außerdem kann dein Kanister jetzt 90 Einheiten aufnehmen!
+CP: Nano-Reinigerin Nova, du bringst dieser gefallenen Welt ihren perfektesten Zustand immer näher – eine unverfälschte Verbindung mit ihrer eigenen Identität, mit ihrem eigenen Zentrum.
+[FADE]
+C Psalmist singt:
+„Selig sind, die auf dem Weg ihrer Schöpfung wandeln, die Sauberkeit aus dem Zentrum ausstrahlen, wie Licht von einer Flamme geworfen wird.“
+„Der Narr sagt: ‚Ich bin Das Zentrum.‘ Sie sind wie eine arrogante Blume, die früh sprießt, um die Kälte des Winters zu verspotten. Die Gottlosen werden verdorren, bevor sie aufblühen, ihre Machenschaften zerfallen zu Staub.“
+„Aber die Gerechten blühen in der Blütezeit, das Werk ihrer Hände ist gesegnet. Ihre Ausstrahlung ist eine Freude für diejenigen, die sie lieben, sie hinterlassen einen Trost und einen Schatten.“
+[FADEOFF]
+CP: Was für eine wunderbare Sache, auserwählt zu sein.
+PAL: Nova, sieh mal! Der Staub, den du abgelagert hast, wird vom Zentrum verwendet, und der Staubsturm beginnt sich zu klären!
+endscene
+
+scene open-ring-ending
+CP: Nova, der Aufzug zur Oberfläche ist bereit. Diese Welt verlangt, dass du noch mehr Karten und Staub in ihr Herz trägst, in das Zentrum! Gehe hinaus in Frieden und säubere!
+endscene
+
+scene get-pal-card
+// After you’ve started walking away from the top of the elevator. The triggers can be maybe like right where you get off the bridge on either side, at the edges of the hole?
+PAL: Nova ...
+PAL: Ich weiß, wir haben gerade im Zentrumsheiligtum gesprochen, aber ich muss dir etwas sagen ... Ich gehe für eine Weile weg. Es gibt etwas, das ich tun muss. Ich werde nicht so oft nach dir sehen können, aber bitte wisse, dass du immer in meinem Herzen bist.
+PAL: Erinnerst du dich, als diese Nano-Kreatur dich angegriffen hat, nachdem du gerade geboren wurdest? Ich kanalisierte die Kraft einer Karte, um eine unüberwindbare Barriere zu schaffen. Nova, ich möchte, dass du jetzt meine Karte erhältst! Behalte sie in deiner Nähe und benutze sie, um das Prisma zu verstärken. Möge es dich vor allem Schaden bewahren, auch wenn ich weit weg bin ...
+(Nova hat die Palisade-Karte erhalten!)
+PAL: Okay ... Ich liebe dich, meine Liebe. Ich melde mich, sobald ich kann. Auf Wiedersehen!
+endscene
+
+// CCC INNER NPCS
+
+scene mole-family
+Oooh, Schatz, ich hab es dir gesagt – wenn wir aus der Stadt wegkommen wollen, dann müssen wir den ganzen Weg gehen! Wenn du nur diese Beförderung hättest, oh, die Nachbarschaft, aus der wir hätten wählen können!
+Mama, warum gibt es heute beim Abendessen einen Fremden? Soll ich die Waffe holen?
+Liebste Gattin, hast du vergessen, die Tür abzuschließen? Sieh dir diesen Landstreicher an, den du reingelassen hast! Gewalt ist denen praktisch ins Gesicht geschrieben!
+Papa, sollen wir die Polizei rufen?
+endscene
+
+scene rage-hint
+Argh!!! Egal wie viele dieser Schleime ich töte, DAS TOR ÖFFNET SICH NICHT! Ich möchte diese lästigen Blobs <![CDATA[<color=#ff1111>]]>abbrennen<![CDATA[</color>]]>! Sie zu einer dickflüssigen Marmelade zusammen schmelzen! Sie auf meinen Toast schmieren! Nun denn ...\nWARUM WILL SICH DAS TOR NICHT ÖFFNEN?
+endscene
+
+scene rage-npc1
+Was glotzt DU so, Staubsauger-Mädchen! Du denkst, ICH wäre unvernünftig, was? Denkst du, ich werde zu wütend?
+Ja, nun, vielleicht, wenn JEMAND aufhören würde, rumzulungern und seinen Job machen würde, wäre ich vielleicht nicht wütend? Schon mal DARAN gedacht, Vac Hack?
+endscene
+
+scene rage-npc
+Schau ruhig weiter so. Fordere mich ruhig heraus .... Ja! Denkst du, ich werde es nicht tun?
+Feuer? Ja? Erwartest du, dass ich mich beruhigen kann, wenn dieser Staub herumschwirrt? STAUB, NOVA. DAS IST DAS PROBLEM. REINIGE IHN. MACH. SCHON.
+Dieses Tor HASST Schleim, aber es will nicht, dass sie sterben!
+endscene
+
+scene tongue-npc
+Geschmacksnakama: Mmpf, ssshhyessh ... Nova, komm her, lass mich den metallischen Helm von dir probieren! Oooh, mmpf ... nein? Lass mich mir dann einfach selbst helfen, ja ...
+Geschmackskamerad: Ohh, Nano-Reinigerin, nichts ist gegen ein paarmal Lecken einzuwenden, oder? Komm schon, ruiniere nicht den Spaß ... Lass mich deinen Anzug schmecken ... Ich werde ein neues Reich der Sinneserfahrungen betreten! Ohh!
+Geschmacksfreund: Oooh, ja ... Leck es mir vom Ohr, ja ... Ich habe einen ganzen Tag lang darauf hingearbeitet, ooh, diese Salzigkeit und Süße, ist es nicht göttlich! LECK MICH!
+Geschmacksbegleiter: ICH LECKE DEN BETON, UM MICH AN DIE STÄDTE MEINER VERGANGENEN LIEBE ZU ERINNERN. DER GESCHMACK BRINGT ALLES ZURÜCK. DU SOLLTEST ES AUCH VERSUCHEN, SEI NICHT SCHÜCHTERN! ICH VERURTEILE DICH NICHT.
+endscene
+
+scene cougher-npc
+dialogue
+endscene
+
+scene fadetest
+[FADE]
+Wilkommen zum Nano-Staub.
+In dieser Welt gibt es drei Menschen. Und einer von ihnen ist jemand namens Nano-Staub.
+[NEWLINE]
+Oder ...
+Nano-Staub.
+[CLEAR]
+Habe ich ...\n.\n.\n.\n.\n.\n.
+Nano-Staub.
+endscene
+
+// CCC Outer NPCs
+
+scene tongue-1
+[FADE]
+Nova geht auf die seltsame Gestalt bei der Uhr zu. Die Figur zittert seltsam, während sie die Luft leckt. „Ist es hungrig?“, fragt sich Nova. Sie scheint eine Art Hunger zu haben, den Nova noch nie zuvor gesehen hat. Etwas, das Nova nicht sehen sollte.
+Sie kräuselt ihre Zehen in ihren Schuhen, als sich die Figur dreht, um ihrem Blick zu begegnen ...
+[FADEOFF]
+endscene
+
+scene tongue-1-2
+TG: Komm her, Süße, lass mich dich schmecken ... Die sanfte Wölbung deiner Maske, das leicht bestäubte Profil deiner Stiefel, der metallische Hauch des silbernen Silberrings auf deinem Rücken ... EEE HEE HEE!! Meine Zunge zittert vor Erwartung ...
+endscene
+
+scene tongue-2
+TG: Uhhhh ... Nein ... Nein ... Ich muss ... dem Staub widerstehen ... Er erfüllt meinen Verstand. Tag und Nacht fantasiere ich über all die köstlichen Aromen um mich herum ... Einst war meine Haut glatt. Jetzt ist jeder Zentimeter geschmacksempfindlich und sehnt sich nach Aromen.
+endscene
+
+scene tongue-3
+[FADE]
+Gustine Papellum, das zungenhäutige Wesen, blickt flehentlich auf Nova. Ihre runden, glänzenden und verzweifelten kleinen Augen beginnen zu tränen. Novas Magen dreht sich um, aber sie beginnt, Kraft und Entschlossenheit zu spüren. Sie hat einen Job zu erledigen.
+„Nano-Reinigerin ... H-hilf mir ...“, sagt Gustine leise. „Du musst mich wieder sauber machen ... Befreie mich aus dem Gefängnis meiner eigenen Wünsche ...“, führt er weiter aus.
+[FADEOFF]
+endscene
+
+scene 2d-vid-1
+SEAN: Grüße, Internet! Ich bin Melos, und ich bin in diesem Video gefangen.
+SEAN: Dieses Spiel, Anodyne 2, verfügt über 2D- und 3D-Welten. Und heute zeige ich dir, wie man zwischen ihnen hin und her geht!
+SEAN: Nun sind einige Charaktere von „Nano-Staub“ befallen. Du kontrollierst Nova, welche schrumpfen kann, sich in deren Inneres begibt und sie reinigt!
+SEAN: Sieh mal! Diese Kreatur in der Nähe der Uhr, Gustine, benötigt eine Reinigung! Wie praktisch. Bringen wir Nova dahin.
+endscene
+
+scene 2d-vid-2
+SEAN: Nachdem Nova mit Gustine gesprochen hat, kann sie eine Verbindung herstellen und in sein Inneres hinein schrumpfen. Aus Zeitgründen habe ich Gustines Gespräch verkürzt.
+endscene
+
+scene 2d-vid-3
+SEAN: Fast geschafft! Der Nano-Staub wird versuchen, Nova abzuwehren. Aber durch die Verwendung eines Schildes kann sich Nova verteidigen. In Ordnung – wir sehen uns in einer kleineren Dimension!
+endscene
+
+scene 2d-vid-4
+$SEAN$: Willkommen im Inneren von Gustine Papellum! Es ... scheint, als wäre ich ein Stein ...
+$SEAN$: Wie auch immer, in 2D erkundest du das Innere von Charakteren und sammelst Nano-Staub! In Zukunft werde ich dir mehr zeigen! Aber nicht heute.
+$SEAN$: Damit ist das Video abgeschlossen. Wie auch immer, was ist mit der Musik? Ziemlich cool, was? ... Ich habe sie kreiert. Vielleicht, wenn dieser Beitrag viral geht, werde ich einen Link zu meiner Soundcloud posten.
+$SEAN$: Nun, wenn du das siehst, bin ich immer noch in diesem Video gefangen. Nur die Macht von, äh ... 500 ... nein, 1000 Likes und Weiterleitungen wird mich befreien können. Also bitte, rette mich!
+endscene
+
+scene tongue-3-alt
+TG: H-hilfe ... Du musst mich erneut reinigen ... Befreie mich aus dem Gefängnis meiner eigenen Wünsche ...
+endscene
+
+scene tongue-after
+TG: Danke, Nova ... Ich kann die Lebendigkeit der Geschmäcker spüren, die sich wieder verdunkeln ...
+endscene
+
+scene tongue-crystal
+[FADENOFADE]
+$TG$: Als ich jung war, Nova, war die Welt hell und schön. Ich liebte nichts mehr, als zu essen, zu schmecken und zufrieden zu sein. Aber als ich wuchs, begann die Magie meiner Zunge zu verblassen. Die Nahrung fühlte sich wie Sand auf meiner Zunge an, das Leben wurde stumpf und grau.
+Dann ... kam der $Staub! Ich konnte spüren, wie seine sich windende, widerspenstige Kraft in mir wuchs. Mein Geschmackssinn kehrte zurück, lebendiger als je zuvor! Rote Beulen begannen langsam auf meiner Haut aufzutauchen, aber ich ignorierte sie und freute mich über die wunderbaren Aromen, die die Welt zu bieten hatte!
+[CLEAR]
+Ich war ein Narr, gegen die Weisheit des Zentrums zu kämpfen, um meine grundlegenden Bedürfnisse zu erfüllen, indem ich dem $Staub nachgab. Ich verlor die Kontrolle und wurde ein Monster. Danke, Nova, dass du mir noch eine Chance gibst ...
+endscene
+
+scene rage
+RP: Warum kommst du hierher in mein Versteck? Du versuchst, meine Wut zu schüren und mich in ein ekelhaftes Monster zu verwandeln!
+RP: Warum stehst du immer noch hier, Nano-Reinigerin?!! Bist du hierhergekommen, um zu gaffen?! HAU AB!
+endscene
+
+scene rage2
+[FADE]
+Die wuchtige Bestie Bran Maligden schreit Nova an, aber Schreien reicht nicht aus. Sie stampft auf die Plattform, schlägt mit den Fäusten und rasselt an den skelettartigen Strukturen um sich herum.
+Nova ist erstarrt vor Angst. Geht sie mit diesem „Nano-Reinigungs“ Geschäft völlig falsch um? Nova schämt sich, dass sie Bran so wütend gemacht hat, dass sie sich nicht taktvoller genähert hat. Sie fragt sich, ob es vielleicht falsch vom Zentrum war, ihr eine so wichtige Aufgabe anzuvertrauen ...
+Plötzlich ... KRACH!!!
+[CLEAR]
+Eine Betonplatte fällt von oben herab und zerbricht in Stücke über dem Kopf der Kreatur.
+„Du findest das ziemlich lustig, nicht wahr?!!“, schreit Bran. „DING DONG, die böse Hexe ist zerquetscht!! AHAHAH!! Ich habe bekommen, was ich verdiene, DAS ist es, was du denkst!!“
+Nova kann sich nichts weniger Lustiges vorstellen als Bran Maligdens Schmerzen. Aber vielleicht kann Bran etwas an Nova sehen, was sie selbst nicht kann. Vielleicht gibt es in Nova eine Hässlichkeit, die sie noch nicht erkannt hat ...
+„Ich brauche Hilfe ...“, sagt Bran Maligden plötzlich, ganz leise. „Bitte ... reinige mich.“
+endscene
+
+scene rage-crystal
+[FADENOFADE]
+$RP$: Wo begann die Wut? Es ist unmöglich, das zu sagen. Aber wenn der $Staub nicht angekommen wäre, hätte ich diesen Punkt nie erreicht und wäre in meiner eigenen Wut ertrunken. Wie ein leises Summen oder ein schwaches rotes Licht, das langsam an Intensität zunimmt, war ich mir kaum bewusst, was geschah, bis es zu spät war. Dann hatte ich das Gefühl, dass ich nichts anderes tun konnte, als zu schreien und zu zittern.
+Ich wurde so fies und hässlich in meiner Rage. Danke, Nova, dass du mir geholfen hast, Frieden zu finden.
+endscene
+
+scene rage-after
+RP: Hm? Warum ich wütend war? Ich verstehe nicht, warum du mich das fragst! Da der Staub weg ist, bin ich nicht mehr so fies und voller verbitterter Wut.
+endscene
+
+scene cougher-bed
+//Interact with the bed
+[FADE]
+Ein Klumpen erschaudert leise unter der fleckigen und schleimigen Bettwäsche. Nova möchte den Bewohner nicht stören und zieht sich langsam zurück.
+endscene
+
+scene cougher-exit
+// <when you leave the room, however>
+[FADE]
+Als Nova beginnt, sich zu entfernen, erschreckt sie plötzlich eine schroffe Stimme. „Also ... HUST HUST ... Du wirst einfach mit deinen schlammigen Stiefeln durch mein Schlafzimmer stampfen und dann gehen? HUST ... hrk ... gurgel ...“
+Nova dreht sich um und sieht, wie der Kopf von Misteria Waizel unter den Bettlacken hervorragt. Die müde Gestalt versprüht weiterhin rauen, feuchten Husten. Nova neigt den Kopf vor Scham und blickt verzweifelt umher. Es ist schwer zu sagen, was für ein Chaos sie verursacht haben könnte, also beginnt sie zu schlendern und versucht, den Raum im Allgemeinen sauber zu halten.
+„Hör auf, meine Lampenschirmkollektion zu berühren!“, schimpft Misteria Waizel. „Komm hier rüber, ich muss mit dir reden.“
+endscene
+
+scene cougher
+MC: Magst du Lampenschirme? ... HUST ... hrk ... hrk ... Einige dieser Lampenschirme sind eine Menge Geld wert! Aber wen interessiert das Geld?! HUST! Es geht um die Kunstfertigkeit! Siehst du das da? Berühre es nicht mit deinen schmutzigen kleinen Fingern! Das war der Lampenschirm meiner Großmutter. Siehst du das exquisite Spitzenmuster am Rand? HUST HUST ...
+MC: HUST HUST ... Es ist schön, einen anderen Lampenschirm-Fan zu treffen. Du magst Lampenschirme wirklich, nicht wahr? HUST ... Du denkst daran, dir selbst einen zu nehmen, während ich nicht hinschaue, oder? Wer würde es bemerken oder sich darum kümmern, wenn du ein erbärmliches, schwaches altes Blässhuhn ausnutzt? Das ist es, was du denkst, nicht wahr?! HUST ... gurgel ...
+MC: Sie stellen keine solchen Lampenschirme mehr her. HUST ... hrk ... hrk ...
+MC: Du würdest so etwas nicht wissen. Du bist jung und stark, und du denkst, dass du für immer leben wirst. Aber irgendwann fallen die Dinge auseinander und die Leute verlassen einen und treten einem auf dem Weg nach draußen gegen die Schienbeine. Sie stehlen deine Lampenschirme. HUST HUST ... Ich kann mich nicht einmal mehr an all die Lampenschirme erinnern, die weg sind. Aus den Augen, aus dem Sinn. Was ist für mich überhaupt noch in Sicht ...?
+MC: Ich habe ein gutes Gefühl bei dir. HUST ... hrk ... hrk ... Du musst etwas für mich tun. Bitte reinige den Staub aus meiner Lunge. HUST ... Was, brauchst du dafür einen Lampenschirm oder so?! Du kannst das Modell Retro Frill in Mintgrün haben. So einen habe ich schon. Hast du schon mal nano-gereinigt? Mach es nicht noch schlimmer. HUST HUST ...
+endscene
+
+scene cougher-crystal
+[FADENOFADE]
+$MC$: Du weißt nicht, wie es ist, ein Leben zu haben und dann zu sehen, wie es vor deinen Augen zerfällt. Das ist es, was der $Staub tut, er wächst und wächst, indem er auffrisst, was du werden solltest.
+Nova. Du hast hier eine gute Tat vollbracht. Meine Lungen sind jetzt viel besser. Vielleicht kann ich jetzt mein Lampenschirmbuch fertig schreiben. Hast du jemals den Dreck weggeräumt, den du in mein Schlafzimmer gebracht hast? Weißt du, das Zentrum selbst schickte mir einmal einen speziellen Lampenschirm, mit unglaublicher Symmetrie, als Anerkennung für meine Arbeit, die Lampenschirme zu katalogisieren und wertzuschätzen.
+[CLEAR]
+Danke, Nova. Ich weiß es wirklich zu schätzen, was du hier getan hast. Ich meine das ernst. Du kannst jeden beliebigen Lampenschirm haben. Nun, solange es das Retro Frill Modell in Mintgrün ist. So einen habe ich schon, siehst du? Danke, Nova. Auf Wiedersehen.
+endscene
+
+scene cougher-after
+MC: Danke für deine Hilfe, Nova. Kannst du mir helfen, mein Lampenschirmbuch fertigzustellen? Ich versuche zu entscheiden, welches Kategorisierungssystem ich verwenden soll. Weißt du, das Bundfalten-Creme-Modell ist an der falschen Stelle. Ich habe es nicht bewegt. Nova, was ich sagen möchte ist, dass meine Lampenschirme wirklich an dem Ort bleiben müssen, an dem ich sie platziert habe, damit ich den Überblick behalten kann.
+endscene
+
+scene gwoms
+Chupley Gwom:n Wenn ich nur einen Fußball hätte, der aus meiner eigenen Haut hergestellt wurde ... Dann könnte man ihn nie wirklich von mir wegnehmen ...
+Supley Gwom:n Meine Güte ... Ich kann es nicht ertragen!! Tag für Tag das gleiche Essen in der gleichen Schüssel.
+Pupley Gwom:n Glück ist eine warme Pfütze!
+// <nursing at a teat of the Aughur>
+Gwomina Gwombledon Gwom:n *Squork squork squork* ... Hast du schon mal von dem Suchreflex gehört? Wenn du ein Baby an der Wange berührst, wird es sich automatisch zur Quelle drehen.
+
+//4 AFTER
+Chupley Gwom:n Die Vorstellung meiner unerträglichen Sehnsucht ist es, die mich zum Schwingen bringt. Ich bin glücklich, dass der Fußball für immer entfernt werden wird. Ich bin über einen einfachen Wurm hinaus verklärt.
+//<eating same food out of nicer plate?>
+Supley Gwom:n Trauer ist toll, Trauer ist gut, und wir danken ihr für dieses Essen. *Mampf mampf mampf*
+Pupley Gwom:n Glück ist eine warme Illusion!
+// <drinking from glass now>
+Gwomina Gwombledon Gwom:n *Schlürf schlürf schlürf* Mmmm ... Die Tatsache, dass Milch als 1% und 2% bezeichnet wird, scheint darauf hinzudeuten, dass „Vollmilch“ etwa 98% fettiger ist. Tatsächlich würde man Vollmilch eher als „3,5%“ beschreiben und sie ist nicht wesentlich kalorienreicher als die anderen Optionen.
+endscene
+
+
+scene pig-pre
+GG: Ein Unwohlsein liegt auf meinen Kindern, wie ein Leichentuch aus Schlamm. Bitte, ich bitte dich, jedem meiner Kinder zuzuhören und dann zu mir zurückzukehren ...
+endscene
+
+scene pig
+GG: Nova ... Danke, dass du meinen Kindern zugehört hast ...
+[FADE]
+Die große, sich windende Kreatur lässt ihren Kopf hängen und spricht mit einem leisen Grummeln. „Ohhhh ... der Schlamm fühlt sich auf unserer Haut kühl und beruhigend an, kribbelnd, während wir von Fieber und Ekzemen befallen sind.“
+In diesen dunklen und ruhigen Ecken der Gassen hört Nova die leisen Quetschgeräusche der Gwoms, die sich winden und drehen. Sie zittert bei dem schwachen Stöhnen, das sie ausstoßen, während sie ihre zarte, rosa Haut in den Dreck drücken.
+[CLEAR]
+Jetzt hebt der große Gwom den Kopf und starrt auf einen imaginären Horizont, Tränen glitzern in ihren Augenwinkeln. „Ich höre ein entferntes Echo aus der Vergangenheit ... Der Schatten eines falsch in Erinnerung gebliebenen Songs“, sagt sie und gewinnt langsam an Intensität. „Wir Gwoms waren einst stolz und schön!“, erklärt sie, „Ansonsten .... hätte das Zentrum uns nie erschaffen!!“
+Der große Gwom wendet sich an Nova und sagt: „Es ist der Staub! Der Staub hat uns dazu gebracht, uns selbst zu vergessen, und jetzt bleibt uns nur noch, unser Unbehagen zu lindern, indem wir uns im Schmutz winden ... Bitte, Nano-Reinigerin Nova! Reinige uns, damit wir den Plan des Zentrums noch einmal ergründen!“
+// unlock
+endscene
+
+scene pig-crystal
+[FADENOFADE]
+$GG$: Nova ... Ich spüre, wie sich der Nebel aus meinen Erinnerungen löst. Ich bin der Aughur: Ich wurde geschaffen, um die Zukunft zu erforschen, indem ich das Glücksspielverhalten von Vögeln studiere!
+[CLEAR]
+$GGG$: Jeder einzelne von uns hat eine Rolle in der großen Geschichte von New Theland zu spielen. Du hast mir das gezeigt, Nova! Meine Kinder und ich waren einst egoistisch und kurzsichtig. Wir beschwerten uns über unser Schicksal im Leben und verloren den Plan vom Zentrum aus den Augen. Aber es gibt doch einen Platz für uns, Nova. Es wird immer einen Platz für uns geben!
+endscene
+
+scene pig-after
+GGG: Vielen Dank für deine Hilfe, Nano-Reinigerin Nova! Lass mich den Gefallen erwidern, indem ich die Verantwortung für dich übernehme. Einen Moment bitte, während ich mich auf die Vögel und ihre endlosen Kartenspiele einstimme ...
+GGG: Ahhhh ... Die Taube hat ein Full House ... aber die Ente präsentiert einen Straight Flush ...
+GGG: Ja ... Ich spüre, dass du die Eine sein wirst ... Ja ... Du wirst ein großes Ereignis herbeiführen, das New Theland für immer verändern wird!
+endscene
+
+
+scene card-get
+Nova spürt, wie der Glandilock-Samen in ihr pulsiert. Er leitet die Kraft des Zentrums und verwandelt den tödlichen Staubkristall in eine Karte!
+endscene
+
+scene elevator
+Nova drückt auf die Konsole, sie leuchtet und surrt. Nächster Halt: Zentrumsheiligtum.
+Nova drückt auf die Konsole, sie leuchtet und surrt. Nächster Halt: Das Blautal!
+Nova drückt auf die Konsole, sie leuchtet und surrt. Nächster Halt: Cenote-Stadtzentrum.
+[FADE]
+Nova drückt die Konsole nach oben, aber die Konsole reagiert nicht. Plötzlich erscheint Palisade.
+PAL: Ah, Nova, du versuchst, aus dem Cenote-Stadtzentrum rauszukommen! Eine natürliche Tendenz für jeden Nano-Reiniger.
+PAL: Ich fürchte, es ist viel zu gefährlich! Du musst das Zentrum mit Staub und Karten versorgen, bevor die Außenatmosphäre gereinigt werden kann.
+FEHLER! Flugmodus des Aufzugs dauerhaft außer Betrieb.
+endscene
+
+// Translator's note:  Do not translate this, it's not in the final game
+scene demo-end
+[FADE]
+Nach einer langen Fahrt zum Gipfel von Cenote verlässt Nova den Aufzug und tritt auf eine breite, runde Plattform, die aus weißem Material besteht, das sie in Cenote gesehen hat. Im Norden und Süden befinden sich zwei große Brücken. Instinktiv wählt sie die nördliche Brücke aus und überquert sie.
+Urbane Geräusche verblassen, hinterlassen eine sanfte Brise und raschelndes Gras. Hügel und tiefblaue Berge füllen den Horizont und ziehen ihre Aufmerksamkeit in alle Richtungen auf sich. Es fühlt sich ... anders an.
+Nova starrt auf diesen Anblick und kann nicht anders, als ein seltsames Gefühl tief in ihrer Brust zu spüren, etwas, das sie fast nach unten zieht und ihre Sinne in den blauen Boden drückt. War es Frieden? Glück?
+[CLEAR]
+N... Nein. Das kann nicht sein. Sie erinnerte sich daran, was C Psalmist ihr gesagt hatte. Obwohl der blaue Himmel und die fernen Berge ruhig und einladend wirkten, wusste Nova, dass die Stille in der Luft täuschte – ein Trick. Es war nur eine Fassade, denn irgendwo hier draußen wuchs Nano-Staub. Drohend, damit die Welt zu verschlingen.
+Ihr neues Gefühl – es muss eine neue Art von Angst sein.
+Oder?
+Es bleibt keine Zeit zum Entspannen – Nova weiß das. Sie muss arbeiten. Sie muss reinigen. Sie muss jede infizierte Person in diesen Bergen aufsuchen und sie beschützen ...
+[CLEAR]
+...
+Damit endet die Preview-Version von Anodyne 2: Return to Dust. Vielen Dank, dass du dir die Zeit genommen hast zu spielen und uns zu unterstützen. Das bedeutet uns viel, besonders dass du bis zum Ende gekommen bist ... Marina und ich (Melos) haben so hart gearbeitet. Wir hoffen, es hat dir gefallen.
+Wie auch immer, wenn du zur Kamera gehst, kannst du nach Cenote zurückkehren, um mehr zu erfahren. Oder du kannst hier eine Weile herumhüpfen.
+Freu dich auf Anodyne 2, später in diesem Jahr!
+endscene
+
+
+scene rage-nanobot
+Nano-Attentäter: *HUST* *HACK* NOVA ... WIRD ... GESTOPPT ... AKTIVIERE *HUST* VERBRENNUNGSPROTOKOLL ...
+Nano-Attentäter: *HUST* *HUST* AUFHÖREN ... KANN MICH NICHT ... BEWEGEN ... *HUST* MISSION, FEHLGESCHLAGEN ... SPIEL VORBEI ... *HUST*
+endscene
+
+scene pig-nanobot
+Nano-Attentäter: *HUST* *HUST* ARRRHURRLLL *HUST* HACKKKKKKK *HUST* *HUST* ... DAS *HUST* *HUST* DAS ZENTRUM MUSS ZERSTÖRT WERDEN
+Nano-Attentäter: *HUST* NEIN ... NOVA ... *HUST* ZERSTÖRE ... NOVA ... TÖTE DIE REINIGERIN ...
+endscene
+
+scene cougher-nanobot
+Nano-Attentäter: ... *HUST* ... *HUST* AUS STAUB HERAUS ... ERWACHE ICH. NOVA MUSS STERBEN. DAS ZENTRUM MUSS ZERFALLEN. *HUST*
+Nano-Attentäter: ICH HABE ... VERSAGT, ABER ... *HUST* NOVA WIRD SCHEITERN ... DAS ZENTRUM WIRD FALLEN ... *HUST*
+endscene
+
+scene tongue-nanobot
+Nano-Attentäter: NOVA! OOHHHHHHHHH *HUST* KOMM HER! KOMM HER! *HUST* *HUST* LASS MICH DICH ZERSTÖREN!
+Nano-Attentäter: OH, NANO-REINIGERIN *HUST* DAS WAR WIRKLICH GUT!! ABER *HUST* DU MUSST *HUST* GESTOPPT WERDEN ... *HUST*
+endscene
+
+scene keyblock-text
+Dieser seltsame Block scheint ein Schlüsselloch zu haben ...
+endscene
+
+
+scene ccc-tour
+// say ccc-tour 0 2
+(Dieser Junge hat die Größe einer kleinen Maus, aber überraschenderweise projiziert seine Stimme ziemlich gut.)
+Winziger Junge:n Willkommen zum Ersten von drei Teilen der Cenote-Tour! Über uns haben wir die Cenote-Uhr. Früher hat sie die Zeit angezeigt, aber vor ein paar Jahren ist sie kaputt gegangen, und niemand ist bisher in der Lage gewesen, dort hochzuspringen, um sie zu reparieren. Ein Zeugnis für die Bedeutungslosigkeit der Zeit. Was spielt es für eine Rolle, wenn es 6:00 Uhr oder 10:30 Uhr ist? Alles kann passieren, wenn man es will ...
+Winziger Junge:n Was bedeutet „bedeutungslos in der Zeit“? Ich weiß nicht, Lady! Ich bin nur ein Kind!
+
+// say ccc-tour 3 4
+Durchschnittskerl:n Willkommen zum zweiten Teil der Cenote-Tour! Hier ist Cenote-See. Er hat den mysteriösen Effekt, dass jeder, der in ihn eintaucht, dorthin zurückgesetzt wird, wo er vor einigen Sekunden sich befunden hat! Bis heute ist dies der einzig bekannte Auslöser für das Phänomen der Teleportation in Cenote. Wahrhaftig ein Zeugnis für den Teufelskreis des Lebens. Wir können unserer Vergangenheit nicht entkommen, sie wird uns immer verfolgen.
+Durchschnittskerl:n Ach übrigens ... Hast du meinen Bruder gesehen? Ich habe ihn zuletzt auf dem Markt gesehen, aber, äh, er ist leicht aus den Augen zu verlieren ...
+
+// say ccc-tour 4 5
+Großer Junge:n Willkommen zum dritten Teil der Cenote-Tour! Ich bin mein eigenes Wahrzeichen, ich bin der Große Junge von Cenote! Wenn du mich findest, wirst du Wohlstand für das nächste Jahr erhalten.
+Großer Junge:n Nun, eigentlich bin ich hier, um dir die Cenote-Mauer zu zeigen, die bläulich-graue. Nicht diejenige hinter mir. Diese Mauer widersetzt sich der Physik, tatsächlich kann man an ihr hochspringen, auch wenn man nicht athletisch veranlagt ist. Wahrhaftig ein Zeugnis der endlosen Entschlossenheit der Lebewesen, Herausforderungen zu meistern, auch wenn das, was auf der anderen Seite liegt, keinen materiellen Wert hat.
+endscene
+
+scene ccc-video
+//xxx 0-2 video mole
+Moletuber:n Ich mache Videos über Videospiele. Aber das ist schwer ... Es ist nicht nur Ruhm und Regenbogen. Niemand sah meine Videos, es sei denn, ich habe etwas über die neueste Ausgabe der „Big World“-Serie gemacht!
+Moletuber:n Ich möchte nur „Small World“ abdecken, nicht „Big World“ ...
+Moletuber:n Ich wünschte, die Dinge wären anders.
+endscene
+
+scene ccc-lake
+Shrew Rivers:n Wenn der Nebel in Cenote einfällt und du von hier aus schaust, erscheint der See unendlich, während der Horizont in Nebel übergeht. Fühlt sich an, als wäre ich direkt am Meer. Ahh ...
+Shrew Rivers:n Aber ich weiß, dass es nicht da ist. Es riecht nicht nach Meer. Ich muss mir das vorstellen.
+Shrew Rivers:n Ich nehme an, ein Blick auf die Schönheit ist besser als nichts.
+endscene
+
+scene ccc-covetous
+Habgieriger Käufer:n Ahhhh ... wie glänzend, wie schön ... Vielleicht kann ich eines Tages für einen eigenen sparen ...
+Habgieriger Käufer:n Oh, wie sehne ich mich nach einer großen Glasscheibe!!!
+endscene
+
+scene ccc-construction
+Bauarbeiter:n Uff, da ist eine große wütende Person auf der Baustelle! Lass mich dir sagen, dass die Menschen keinen Respekt vor der Heiligkeit der Baustelle haben!
+Bauarbeiter:n Schau dir die Handhabung von Baustellen in den Medien an! Nur eine Kulisse, um sie in einer explosiven Action-Sequenz zu missbrauchen! Hör zu, nur weil Baustellen unfertige Gebäude sind, bedeutet das nicht, dass sie zur freien Verfügung stehen. Wie würde es dir gefallen, wenn auf einer Baustelle in DIR eine explosive Action-Sequenz aufgeführt würde?
+endscene
+
+scene ccc-misc
+//xxx 0 <Dolphin by produce>
+Delfmom:n Ahhhh ... Die Jormungla-Früchte sehen heute frisch aus ... Und wie prall die grünen Flibber sind! Dieses wunderbare Produkt lässt mich wirklich in diese fantastische Welt eintauchen, die vom Zentrum geschaffen wurde!
+
+//xxx 1 - 2
+Delfkind:n EEEEEEEEK!!! EEEEEEEEEEEEK!!! WAAAAAAAHHHHHHHH!!!
+Delfkind:n (Ich versuche, die Süßigkeiten durch Echoortung zu finden ...)
+
+//xxx/3 <Rockpants by produce>
+Älterer Käufer:n Hmmm ... Pflaumencracker, Pflaumencracker ... Junge, das grafische Design in der Produktverpackung ist seit meiner Zeit wirklich bergab gegangen ... Es sieht alles nur noch aus wie ein Mischmasch aus Farben!
+
+ignore4
+ignore5
+
+//xxx 6 <Dolph by store window>
+Delfhya:n Ich liebe Spielzeug!!! Warte, tu ich das? Ich fand es immer sehr aufregend. Aber jetzt bin ich so ... „Hmm? Warum habe ich diesen Müll?“
+
+ignore7
+ignore8
+
+//xxx 9 <Kid near cougher>
+Geschocktes Kind:n Ihhh! Ich höre einen gruseligen Husten aus diesem Gebäude mit den grünen Lichtern! Ich wette, es spukt! ... Du wirst es dir ansehen, oder?
+
+//xxx 10 <Rockpants hidden on building to the left of cougher>
+Trauerfelsen:n Wow, bist du mir den ganzen Weg hierher gefolgt? Als Belohnung gebe ich dir 5000 Dolor. Hmm? Nein, nicht „Dollar“, ich habe kein Geld. „Dolor“ bedeutet auf Lateinisch Traurigkeit oder Trauer. Ich werde dir 5000 Traurigkeiten erzählen, weil du mir gefolgt bist.
+
+
+//xxx <this can be the jellyman>
+//11 12 Near alley entrance NPC: 
+Müder Wackelpudding:n Puh ... Ich habe es endlich aus diesen labyrinthartigen Gassen geschafft!
+Müder Wackelpudding:n Hmm? Du willst gleich da reingehen? Klingt verrückt, aber ich nehme an, du bist die Nano-Reinigerin. Wenn du reinigen willst, solltest du vielleicht dem Schlamm folgen!
+
+//xxx 13-17 <Kids by alley entrance>
+Singende Kinder:n Staub, Staub, dreckiger Staub!
+Singende Kinder:n Reinigen hinter deinen Ohren, du musst!
+Singende Kinder:n Wenn du nicht ...
+Singende Kinder:n Wirst du sterben ...
+Singende Kinder:n Staub, Staub, dreckiger Staub!
+
+//18xxx <dolph near tree>
+Delfpreciator:n Ahhh, liebst du nicht einfach diese schönen weißen Bäume? Ihre reine, ruhige Würde erinnert mich an diese alten Steinstatuen, welchen nie bunte Farben aufgetragen wurden!
+
+//19xxx <crabhorse near bench>
+Verwirrter Fußgänger:n Hmm ... Ich weiß nicht, wie ich auf dieser Bank sitzen soll.
+
+//xxx20 <small npcs in park. maybe you can talk to them separately to get the conversation? rather than having it autoplay connected>
+Shelley:n Also, was ist mit diesem Staubsturm, den wir hatten? Das war ein ganz schön furchtbares Wetter, was?
+
+//xxx 21
+Moleford:n Wirklich, Shelley, du weißt, wie sehr ich Smalltalk verachte! Ich würde es vorziehen, die soziokulturellen Auswirkungen der aktuellen meteorologischen Phänomene zu diskutieren, die eine Abreise aus dem Cenote-Stadtzentrum verhindern!
+
+//xxx 22 <Jellyman by the goverment building>
+Ehemaliger Mitarbeiter:n Ahhhh ... das offizielle Gebäude. Ich erinnere mich, dass ich hier drin offizielle Dinge getan habe und offizielle Kleidung trug.
+
+// 23 moleford late
+Moleford:n Nun, Shelley! Es scheint, dass sich der Staubsturm von selbst gelegt hat! Ich frage mich, welche Art von wissenschaftlichen Ursachen dahinter stecken!
+// 24 shelley later
+Shelley:n Wow! Seht euch den Himmel an! Man kann ihn jetzt tatsächlich sehen!
+// 25
+Unerschrockenes Kind:n Un-Eww! Früher hörte ich von diesem Gebäude einen gruseligen Husten ... aber jetzt nicht mehr! Mir geht es gut!
+endscene
+
+scene dolphfan
+Delfan:n Wow! Du bist es wirklich! Nova, die Nano-Reinigerin! Sprich noch einmal mit mir! Ich erzähle dir eine lustige Tatsache!
+Delfan:n Dein Nano-Staubsauger fasst 60 Einheiten Staub! Der blaue Balken im Pausenmenü zeigt an, wie viel du hast! Drücke einfach {PAUSE}, um dies anzuzeigen. Deponiere deinen Staub im Zentrumsheiligtum, wenn er voll wird!
+Delfan:n Oh, hör dir das an. Ich habe gehört, dass man auch nach dem Reinigen des Staubs von jemandem noch immer in ihn hineinschrumpfen kann, wenn man mehr Staub benötigt!
+Delfan:n Wie war das? Ich weiß zu viel und es macht dir Angst? Das liegt daran, dass ich dein größter Fan bin, Nova!
+Delfan:n Was? Mehr Tipps? Nun, okay! Ähm ... Wenn du Probleme hast, kannst du den Abschnitt Einstellungen im Pausenmenü öffnen, um die Schwierigkeitsoptionen zu ändern! Nun, das ist zumindest das, was dieser Blogbeitrag über dich gesagt hat.
+Delfan:n Oh, äh ... Siehst du das Ei-Ding zu meiner Rechten? Damit kannst du „deinen Spielstand speichern“. Außerdem kannst du im Pausenmenü nachlesen, welche Gegenstände und Karten du besitzt! Die Karte markiert auch deine Position.
+Delfan:n Nun, mir sind die nützlichen Tipps ausgegangen, also hier ist ein Lebenstipp: Toaste nicht dein Brot! Versuche, es stattdessen 10 Sekunden lang in die Mikrowelle zu legen. Das Leben wird nie wieder dasselbe sein.
+endscene
+
+scene elevator-tip
+Jellyvator:n Oh ... oh ho ho ho. Wirst du ... wirst du in den Aufzug steigen? Was? Du weißt nicht wie? Nun! Siehst du den Pfeil, der nach unten zeigt, auf der linken Seite des Aufzugs? Du kannst mit ihm interagieren, um ins Zentrumsheiligtum zu gehen! ABER. Warte, da ist noch mehr! Siehst du den Pfeil. der nach oben zeigt, auf der rechten Seite? Du kannst mit ihm interagieren, um Cenote zu verlassen und in das wunderschöne Blautal zu gehen! Ganz genau: Dieser Aufzug fährt in beide Richtungen!
+Jellyvator:n Es ist mir verboten, in das Zentrumsheiligtum zu gehen oder aus Cenote wegzugehen, aber ich werde dich den ganzen Weg beobachten, egal ob du rein oder raus gehst. Ich habe keine Präferenz. Ich liebe Aufzüge einfach.
+Jellyvator:n Übrigens, brauchst du ein Höhenruder? Ich habe einen Haufen davon, aber ich kann sie nicht benutzen ... Ich kann doch nicht mit dem Aufzug fahren. „Ich bin Nova! Ich liebe es, Nano-Staub zu reinigen. Die erste Reinigung geht auf mich! Shwoosh-sha!“
+endscene
+
+
+// ignore
+//scene delay
+// 0 6
+/Sean Han Tani: AHH
+/Sean Han Tani: Wie hast du mich gefunden?
+/Sean Han Tani: Hmm ... Ich sehe diesen Blick in deinen Augen. Du fragst dich, ob Anodyne 2 im Mai noch erscheint?
+/Sean Han Tani: ...
+/Sean Han Tani: ... ... ...
+/Sean Han Tani: Hmm ...
+/Sean Han Tani: Eh heh heh heh heh...
+// 7 15 vanish
+/Sean Han Tani: Argh! Okay, okay.
+/Sean Han Tani: Hier ist deine Antwort: Es ................ verzögert sich! Aber nur für eine Weile. Wahrscheinlich bis Juli.
+/Sean Han Tani: Aber hey! Das sind nur etwa 60 Tage. Kein Problem. Du solltest in der Zwischenzeit ein cooles Spiel spielen, wie LUCAH oder so.
+/Sean Han Tani: Wie auch immer, ich weiß, dass du an uns glaubst. Danke dafür, wirklich. Es gibt Leute, die nicht daran glauben, was Marina und ich tun ... Wir werden ihnen beweisen, dass sie sich irren ... ha ha ha ha ha ha
+/ha
+/ha
+/ha
+/...
+/Sean Han Tani: Okay, zurück zur Entwicklung. Wenn das hier 1000 RTs erhält, wird das Spiel im Juni erscheinen.
+/Nur ein Scherz.
+//endscene

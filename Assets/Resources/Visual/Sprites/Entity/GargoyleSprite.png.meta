@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: 37a801196f2853c4f83a582f89e97cc8
+timeCreated: 1557167307
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GargoyleSprite_0
+    21300002: GargoyleSprite_1
+    21300004: GargoyleSprite_2
+    21300006: GargoyleSprite_3
+    21300008: GargoyleSprite_4
+    21300010: GargoyleSprite_5
+    21300012: GargoyleSprite_6
+    21300014: GargoyleSprite_7
+    21300016: GargoyleSprite_8
+    21300018: GargoyleSprite_9
+    21300020: GargoyleSprite_10
+    21300022: GargoyleSprite_11
+    21300024: GargoyleSprite_12
+    21300026: GargoyleSprite_13
+    21300028: GargoyleSprite_14
+    21300030: GargoyleSprite_15
+    21300032: GargoyleSprite_16
+    21300034: GargoyleSprite_17
+    21300036: GargoyleSprite_18
+    21300038: GargoyleSprite_19
+    21300040: GargoyleSprite_20
+    21300042: GargoyleSprite_21
+    21300044: GargoyleSprite_22
+    21300046: GargoyleSprite_23
+    21300048: GargoyleSprite_24
+    21300050: GargoyleSprite_25
+    21300052: GargoyleSprite_26
+    21300054: GargoyleSprite_27
+    21300056: GargoyleSprite_28
+    21300058: GargoyleSprite_29
+    21300060: GargoyleSprite_30
+    21300062: GargoyleSprite_31
+    21300064: GargoyleSprite_32
+    21300066: GargoyleSprite_33
+    21300068: GargoyleSprite_34
+    21300070: GargoyleSprite_35
+    21300072: GargoyleSprite_36
+    21300074: GargoyleSprite_37
+    21300076: GargoyleSprite_38
+    21300078: GargoyleSprite_39
+    21300080: GargoyleSprite_40
+    21300082: GargoyleSprite_41
+    21300084: GargoyleSprite_42
+    21300086: GargoyleSprite_43
+    21300088: GargoyleSprite_44
+    21300090: GargoyleSprite_45
+    21300092: GargoyleSprite_46
+    21300094: GargoyleSprite_47
+    21300096: GargoyleSprite_48
+    21300098: GargoyleSprite_49
+    21300100: GargoyleSprite_50
+    21300102: GargoyleSprite_51
+    21300104: GargoyleSprite_52
+    21300106: GargoyleSprite_53
+    21300108: GargoyleSprite_54
+    21300110: GargoyleSprite_55
+    21300112: GargoyleSprite_56
+    21300114: GargoyleSprite_57
+    21300116: GargoyleSprite_58
+    21300118: GargoyleSprite_59
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GargoyleSprite_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 331
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_18
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_19
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_26
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_27
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_28
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_29
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_32
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_35
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_36
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_38
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_39
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 133
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_42
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_43
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_45
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_47
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_48
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_49
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_53
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_56
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_57
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_58
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GargoyleSprite_59
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
