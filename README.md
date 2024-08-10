@@ -3,7 +3,7 @@ This is a complete repository of Anodyne 2, the 2019 game made by Analgesic Prod
 [Trailer](https://www.youtube.com/watch?v=yT6yQm3JM3E)
 
 - Installation.md: Installation info
-- Documentation - Data-Flow.md: Explanation of how each type of asset makes its way into the game (e.g. tile data, event data)
+- Documentation - Level and Scene Guide.md: Info on which Unity Scenes are which levels
 - Documentation - Editor.md: Explanation of using the Editor to make and change levels
 - Documentation - Folders.md: Explanation of folder structure
 - LICENSE.md and LICENSE_FOR_DERIVATIVES.md for licenses
@@ -19,14 +19,14 @@ Please check out our upcoming (at time of writing, 8/2024) game, [Angeline Era.]
 # Changes from Base Game
 ## No Controller Support
 * This version has no controller support, because the Rewired library is used, which is a paid Unity plugin. There are two easy ways to re-add controller support if you're familiar with C# coding:
-* 1. Replace MyInput.cs with your controller library of choice. You simply need to fetch the "just pressed ..." or ".. button is held down" bools from your library of choice and re-hook-up the various rewired calls in MyInput.cs
+* 1. Replace MyInput.cs with your controller library of choice. You simply need to assign the "just pressed ..." or ".. button is held down" bools in MyInput, with the proper data from your input library of choice.
 * 2. Buy and set up ReWired yourself:
 	* Use the zipped ControllerDataFiles.asset for Anodyne 2 in the repo.
 	*  You'll also need to add the Rewired InputManager script to the 'Rewired Input Manager' GameObject that's in the Loader prefab.
 	* Uncomment the "REWIRED_OPENSOURCE" stuff in MyInput.cs
 
 ## Technical
-* Anodyne 2 has Kartridge integration (an old store) and Steam integration, however I'm not sure if I can distribute those freely so they've been removed. The calls to the Steam APIs are still included and
+* Anodyne 2 has Kartridge integration (an old store) and Steam integration, however I'm not sure if I can distribute those freely so they've been removed. The calls to the Steam APIs are still included, though.
 * This game has no console support (that was done by Ratalaika and we don't have that source code.)
 
 ## Other
