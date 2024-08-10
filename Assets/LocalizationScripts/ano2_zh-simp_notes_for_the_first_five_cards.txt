@@ -1,0 +1,20 @@
+﻿technical stuff:
+
+
+
+
+
+
+x- menu: at 1280x720 screen size text goes off screen a bit in both english and chinese in settings, i think this is because language got added as an option
+x- 3d text overlays that make the screen go black: spacing issues with double quotation marks
+x - 3d text overlays: bran has a screen where her text overflows
+x - 3d textboxes, menu/home screen: 回 doesn't display properly, the entire character is filled in and it's terrifying
+x - 3d textboxes: 一 (one) looks very similar to a dash, i know it's the font but having like a little nobbin on the right side would help with readability
+x - 3d textboxes: the character 己 is displaying like 巳
+x - 2d textboxes: ":" has weird spacing, after a character name the spacing is tight and makes it look like a part of a character sometimes, and as part of a sentence it's on the left side of the character
+x - just generally punctuation is weird
+
+ignore - add "镜头" after "放大"/"缩小" in the keyboard config?
+ignored - 3d textboxes: period displays as ., not 。, not sure if this is just the font though
+ignored - big characters are kinda blurry when displaying the character info parts, though i dont remember if its the same for english lol
+

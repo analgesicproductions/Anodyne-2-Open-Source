@@ -1,0 +1,2472 @@
+fileFormatVersion: 2
+guid: ff20e9fd61585944fa34b3670d06669a
+timeCreated: 1561767938
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zera_tilemap_0
+    21300002: zera_tilemap_1
+    21300004: zera_tilemap_2
+    21300006: zera_tilemap_3
+    21300008: zera_tilemap_4
+    21300010: zera_tilemap_5
+    21300012: zera_tilemap_6
+    21300014: zera_tilemap_7
+    21300016: zera_tilemap_8
+    21300018: zera_tilemap_9
+    21300020: zera_tilemap_10
+    21300022: zera_tilemap_11
+    21300024: zera_tilemap_12
+    21300026: zera_tilemap_13
+    21300028: zera_tilemap_14
+    21300030: zera_tilemap_15
+    21300032: zera_tilemap_16
+    21300034: zera_tilemap_17
+    21300036: zera_tilemap_18
+    21300038: zera_tilemap_19
+    21300040: zera_tilemap_20
+    21300042: zera_tilemap_21
+    21300044: zera_tilemap_22
+    21300046: zera_tilemap_23
+    21300048: zera_tilemap_24
+    21300050: zera_tilemap_25
+    21300052: zera_tilemap_26
+    21300054: zera_tilemap_27
+    21300056: zera_tilemap_28
+    21300058: zera_tilemap_29
+    21300060: zera_tilemap_30
+    21300062: zera_tilemap_31
+    21300064: zera_tilemap_32
+    21300066: zera_tilemap_33
+    21300068: zera_tilemap_34
+    21300070: zera_tilemap_35
+    21300072: zera_tilemap_36
+    21300074: zera_tilemap_37
+    21300076: zera_tilemap_38
+    21300078: zera_tilemap_39
+    21300080: zera_tilemap_40
+    21300082: zera_tilemap_41
+    21300084: zera_tilemap_42
+    21300086: zera_tilemap_43
+    21300088: zera_tilemap_44
+    21300090: zera_tilemap_45
+    21300092: zera_tilemap_46
+    21300094: zera_tilemap_47
+    21300096: zera_tilemap_48
+    21300098: zera_tilemap_49
+    21300100: zera_tilemap_50
+    21300102: zera_tilemap_51
+    21300104: zera_tilemap_52
+    21300106: zera_tilemap_53
+    21300108: zera_tilemap_54
+    21300110: zera_tilemap_55
+    21300112: zera_tilemap_56
+    21300114: zera_tilemap_57
+    21300116: zera_tilemap_58
+    21300118: zera_tilemap_59
+    21300120: zera_tilemap_60
+    21300122: zera_tilemap_61
+    21300124: zera_tilemap_62
+    21300126: zera_tilemap_63
+    21300128: zera_tilemap_64
+    21300130: zera_tilemap_65
+    21300132: zera_tilemap_66
+    21300134: zera_tilemap_67
+    21300136: zera_tilemap_68
+    21300138: zera_tilemap_69
+    21300140: zera_tilemap_70
+    21300142: zera_tilemap_71
+    21300144: zera_tilemap_72
+    21300146: zera_tilemap_73
+    21300148: zera_tilemap_74
+    21300150: zera_tilemap_75
+    21300152: zera_tilemap_76
+    21300154: zera_tilemap_77
+    21300156: zera_tilemap_78
+    21300158: zera_tilemap_79
+    21300160: zera_tilemap_80
+    21300162: zera_tilemap_81
+    21300164: zera_tilemap_82
+    21300166: zera_tilemap_83
+    21300168: zera_tilemap_84
+    21300170: zera_tilemap_85
+    21300172: zera_tilemap_86
+    21300174: zera_tilemap_87
+    21300176: zera_tilemap_88
+    21300178: zera_tilemap_89
+    21300180: zera_tilemap_90
+    21300182: zera_tilemap_91
+    21300184: zera_tilemap_92
+    21300186: zera_tilemap_93
+    21300188: zera_tilemap_94
+    21300190: zera_tilemap_95
+    21300192: zera_tilemap_96
+    21300194: zera_tilemap_97
+    21300196: zera_tilemap_98
+    21300198: zera_tilemap_99
+    21300200: zera_tilemap_100
+    21300202: zera_tilemap_101
+    21300204: zera_tilemap_102
+    21300206: zera_tilemap_103
+    21300208: zera_tilemap_104
+    21300210: zera_tilemap_105
+    21300212: zera_tilemap_106
+    21300214: zera_tilemap_107
+    21300216: zera_tilemap_108
+    21300218: zera_tilemap_109
+    21300220: zera_tilemap_110
+    21300222: zera_tilemap_111
+    21300224: zera_tilemap_112
+    21300226: zera_tilemap_113
+    21300228: zera_tilemap_114
+    21300230: zera_tilemap_115
+    21300232: zera_tilemap_116
+    21300234: zera_tilemap_117
+    21300236: zera_tilemap_118
+    21300238: zera_tilemap_119
+    21300240: zera_tilemap_120
+    21300242: zera_tilemap_121
+    21300244: zera_tilemap_122
+    21300246: zera_tilemap_123
+    21300248: zera_tilemap_124
+    21300250: zera_tilemap_125
+    21300252: zera_tilemap_126
+    21300254: zera_tilemap_127
+    21300256: zera_tilemap_128
+    21300258: zera_tilemap_129
+    21300260: zera_tilemap_130
+    21300262: zera_tilemap_131
+    21300264: zera_tilemap_132
+    21300266: zera_tilemap_133
+    21300268: zera_tilemap_134
+    21300270: zera_tilemap_135
+    21300272: zera_tilemap_136
+    21300274: zera_tilemap_137
+    21300276: zera_tilemap_138
+    21300278: zera_tilemap_139
+    21300280: zera_tilemap_140
+    21300282: zera_tilemap_141
+    21300284: zera_tilemap_142
+    21300286: zera_tilemap_143
+    21300288: zera_tilemap_144
+    21300290: zera_tilemap_145
+    21300292: zera_tilemap_146
+    21300294: zera_tilemap_147
+    21300296: zera_tilemap_148
+    21300298: zera_tilemap_149
+    21300300: zera_tilemap_150
+    21300302: zera_tilemap_151
+    21300304: zera_tilemap_152
+    21300306: zera_tilemap_153
+    21300308: zera_tilemap_154
+    21300310: zera_tilemap_155
+    21300312: zera_tilemap_156
+    21300314: zera_tilemap_157
+    21300316: zera_tilemap_158
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zera_tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_37
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_38
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_39
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 485
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_41
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_45
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_50
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_51
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_52
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_53
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_54
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_55
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_56
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_57
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_58
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_59
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 467
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_61
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_62
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_63
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_64
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_66
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_67
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_69
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_70
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_71
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_72
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_73
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_74
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_75
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_76
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_77
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_78
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_79
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_81
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_82
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_83
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_84
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_85
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_86
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_88
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_89
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_90
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_91
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_92
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_93
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_94
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_95
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_96
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_97
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_98
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_99
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_101
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_102
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_103
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_104
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_105
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_106
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_107
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_109
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_110
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_111
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_112
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_113
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_114
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_115
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_116
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_117
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_118
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_120
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_121
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_122
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_123
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_124
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_125
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_126
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_127
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_128
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_129
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_130
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_131
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_132
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_133
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_134
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_135
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_136
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_137
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_138
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_139
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_140
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_141
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_142
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_143
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_144
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_145
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_146
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_147
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_148
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_149
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_150
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_151
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_152
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_153
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_154
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_155
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_156
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_157
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zera_tilemap_158
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
