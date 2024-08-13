@@ -4,7 +4,7 @@ Anodyne 2 is the 2019 game made by Analgesic Productions, compiled by original p
 
 
 - You can contribute to the Wiki here or start a topic on the Discussions tab if you want to contribute info on the code/ask questions, etc.
-- [Installation.md](Installation.md): Installation info
+- [Installation.md](INSTALLATION.md): Installation info
 - [Development History](DEVELOPMENT%20HISTORY.md): History
 - [Documentation - Level and Scene Guide.md](Documentation%20-%20Level%20and%20Scene%20Guide.md): Info on which Unity Scenes are which levels
 - [Documentation - Editor.md](Documentation%20-%20Editor.md): Explanation of using the Editor to make and change levels
