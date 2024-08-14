@@ -3,9 +3,7 @@ This is only tested on Windows 10, but Unity is pretty good about cross-platform
 # Installation
 
 1. Download this repo. It might take a while because there are like 10,000 tile files because unity stores every tile as a separate file because it's a silly engine.
-2 (Windows). [Install Unity 2017.4.31f1 (64-bit). ](https://unity.com/releases/editor/archive). 
-2 (Mac). Install Unity 2017.4.40f1. There seems to be an OGG importing bug n 2017.4.31f1 on Mac.
-2.5. (I don't see any reason why Anodyne 2 wouldn't work in a newer Unity version or Mac OSX, but just FYI it's only ever been tested in this 2017.4.31f1.)
+2. (Windows). [Install Unity 2017.4.31f1 (64-bit). ](https://unity.com/releases/editor/archive). (Mac). Install Unity 2017.4.40f1, as there seems to be an OGG importing bug n 2017.4.31f1 on Mac.
 3. Optionally, purchase and download ReWired if you want to re-integrate controller support
 4. That's it. Wow! Actually you have to wait for unity to import all these files the first time you open the project, which takes a long time.
 5. After waiting for a long time, if you'd like to just play the game, open the "Title" scene and then enter Play Mode.
